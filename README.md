@@ -1,3 +1,8 @@
+<img width="2560" height="1280" alt="social-preview" src="https://github.com/user-attachments/assets/ead18472-d597-4d69-a2b9-f2709473a733" />
+
+
+https://github.com/user-attachments/assets/78b5c7a9-8fa1-4c4d-b439-02c90f8bacef
+
 <p align="center">
   <strong>A free, local, open-source alternative to Wispr Flow.</strong><br>
   Hold a key, talk, and polished text lands in whatever text box you're in.<br>
