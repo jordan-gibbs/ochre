@@ -7,7 +7,7 @@ description = "Microphone capture (always-warm ring buffer), phrase segmenter, S
 [dependencies]
 ochre-core = { path = "../ochre-core" }
 ochre-models = { path = "../ochre-models" }
-cpal = "0.16"
+cpal = "0.18"
 rtrb = "0.4"
 rubato = "5"
 audioadapter-buffers = "5"
