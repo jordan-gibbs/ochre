@@ -66,7 +66,7 @@ words or answering your questions.
 |---|---|---|
 | Windows 10 / 11 (x64) | `Ochre_<version>_x64-setup.exe` | The installer isn't code-signed yet: on the SmartScreen prompt, click **More info → Run anyway**. |
 | macOS 11+ (Apple Silicon) | `Ochre_<version>_aarch64.dmg` | Drag Ochre to Applications. If macOS says it can't verify the app, open **System Settings → Privacy & Security** and click **Open Anyway**. |
-| Linux (x64) | `.deb` (Ubuntu, Debian), `.rpm` (Fedora), or `.AppImage` | See the Linux notes below for Wayland. |
+| Linux (x64) | `.deb` (Ubuntu 24.04+, Debian 13+), `.rpm` (Fedora 40+), or `.AppImage` | Needs glibc 2.38 or newer. See the Linux notes below for Wayland. |
 
 macOS and Linux support is newer than Windows: if something doesn't work on your setup, please
 [open an issue](https://github.com/jordan-gibbs/ochre/issues).
