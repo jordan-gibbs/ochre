@@ -1,0 +1,12 @@
+{"id": "s4-W61-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'On the nurse says' not sensible"}
+{"id": "s4-W61-0047", "decision": "fix_clean", "clean": "Did Emmo see the crash report from last night's playlist?", "reason": "unrecoverable_word", "note": "A: 'Emmo' and 'playlist' from raw; 2 places, still sensible"}
+{"id": "s4-W61-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Do' for 'dude' cannot be inferred or deleted; not sensible"}
+{"id": "s4-W61-0062", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'copay' -> 'Company' unrecoverable"}
+{"id": "s4-W61-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: question lost ('And you take')"}
+{"id": "s4-W61-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'line at' -> 'lineup.' not sensible"}
+{"id": "s4-W61-0076", "decision": "drop", "reason": "hallucination", "note": "A: trailing 'world' never said; noise decoded as a word"}
+{"id": "s4-W61-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Ay ... but you send' garbles the request"}
+{"id": "s4-W61-0078", "decision": "fix_clean", "clean": "That's a hard no for me, the margin on that trade-in is...", "reason": "unrecoverable_word", "note": "A: raw has 'for me' (real phrase); 'trite in' -> trade-in inferable"}
+{"id": "s4-W61-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'for your patience' lost breaks 'thanks while we sorted this out'"}
+{"id": "s4-W61-0088", "decision": "accept", "reason": "ok", "note": "B: less/lest homophone judgment call; accept"}
+{"id": "s4-W61-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'the Belle Dominic' and 'end.' for 'and...'; not cleanly recoverable"}

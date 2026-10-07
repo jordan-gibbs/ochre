@@ -1,0 +1,41 @@
+{"id": "s4-W48-0001", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'todo' -> 'The Duke', 'endpoint' -> 'and wink'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0009", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Fix this breaks only beers.'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0019", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'And PM Rundell.' for 'npm run build'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0029", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Okay.' never said; 'Pi Info twelve' also lost PR 412"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0030", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["trailing 'Yeah.' never said; 'Have pressure' for 'App crashes'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0033", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'of Dash Geek' for 'up -d'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0034", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'function' dropped by recognizer"], "auditors": ["A", "B"], "clean": "Write a Python called parseLapTime that takes a string of minutes and seconds and returns the total seconds as a float."}
+{"id": "s4-W48-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0043", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Jorge lost ('Or hey'), 'hot bits', 'product'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0044", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Digital dash B feature C dash map.'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

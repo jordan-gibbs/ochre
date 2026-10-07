@@ -1,0 +1,45 @@
+{"id": "s4-W16-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0002", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw 'Well me there, I think there.' lost the times"], "auditors": ["A", "B"]}
+{"id": "s4-W16-0003", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected instruction (Naomi, cover the front desk) lost"], "auditors": ["A", "B"]}
+{"id": "s4-W16-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0013", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected value challah lost"], "auditors": ["A", "B"]}
+{"id": "s4-W16-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0015", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Okay.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W16-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0018", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W16-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0025", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'band'"], "auditors": ["A", "B"], "clean": "I actually need the band back by noon."}
+{"id": "s4-W16-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0027", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Hey'"], "auditors": ["A", "B"], "clean": "Hey Naomi, I wanted to confirm the retreat is the third weekend of May, and that we have 22 people signed up."}
+{"id": "s4-W16-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0030", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Okay.' never said; also 'Why I want us'"], "auditors": ["A", "B"]}
+{"id": "s4-W16-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0032", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W16-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0034", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Write' not 'Rewrite'"], "auditors": ["A", "B"], "clean": "Write the following paragraph so it sounds friendlier."}
+{"id": "s4-W16-0035", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Joel', no dictionary"], "auditors": ["A", "B"], "clean": "Can you ask Joel to check the forklift battery? Bruno's off today."}
+{"id": "s4-W16-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W16-0050", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'forest' for florist not inferable"], "auditors": ["A", "B"], "clean": "The forest can only deliver after 11."}

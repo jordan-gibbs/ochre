@@ -1,0 +1,150 @@
+{"id": "dpo4-s4-W28-0077", "verdict": "worse", "note": "invented:papigi; dropped:georgiou,papi"}
+{"id": "dpo4-s4-W34-0076", "verdict": "equal", "note": "km/euro style only"}
+{"id": "dpo4-s4-W13-0069", "verdict": "worse", "note": "unfixed:go,high,right"}
+{"id": "dpo4-s4-W43-0085", "verdict": "worse", "note": "dropped:seven,three"}
+{"id": "dpo4-s4-W51-0020", "verdict": "worse", "note": "invented:lease"}
+{"id": "dpo4-s4-W20-0055", "verdict": "worse", "note": "invented:shift"}
+{"id": "dpo4-s2-W6-0204", "verdict": "worse", "note": "invented:mocks"}
+{"id": "dpo4-s2-W2-0440", "verdict": "worse", "note": "dropped:download,storage"}
+{"id": "dpo4-s2-W3-0179", "verdict": "equal", "note": "0.5% vs half a percent style"}
+{"id": "dpo4-s4-W44-0028", "verdict": "worse", "note": "invented:anika"}
+{"id": "dpo4-s4-W53-0025", "verdict": "worse", "note": "invented:seared"}
+{"id": "dpo4-s4-W32-0100", "verdict": "worse", "note": "invented:cath"}
+{"id": "dpo4-s2-W2-0208", "verdict": "equal", "note": "digits vs words style"}
+{"id": "dpo4-s4-W27-0010", "verdict": "worse", "note": "invented:loan"}
+{"id": "dpo4-s4-W52-0166", "verdict": "worse", "note": "dropped:andre,think"}
+{"id": "dpo4-s4-W52-0254", "verdict": "worse", "note": "invented:per; dropped:roughly,three"}
+{"id": "dpo4-s4-W38-0085", "verdict": "worse", "note": "invented:newline; dropped:line,new"}
+{"id": "dpo4-s4-W32-0013", "verdict": "worse", "note": "invented:limbo"}
+{"id": "dpo4-s4-W22-0066", "verdict": "worse", "note": "invented:upgrade"}
+{"id": "dpo4-s4-W13-0081", "verdict": "worse", "note": "invented:skeptical"}
+{"id": "dpo4-s4-W30-0073", "verdict": "worse", "note": "invented:kim"}
+{"id": "dpo4-s4-W26-0022", "verdict": "worse", "note": "invented:hakuno"}
+{"id": "dpo4-s2-W6-0113", "verdict": "worse", "note": "invented:hi"}
+{"id": "dpo4-s4-W59-0047", "verdict": "worse", "note": "invented:dinner,lulu,matters,shima; dropped:lu,shimama"}
+{"id": "dpo4-s4-W30-0056", "verdict": "worse", "note": "invented:pr"}
+{"id": "dpo4-s4-W31-0067", "verdict": "worse", "note": "dropped:formal,less,paragraph,sounds"}
+{"id": "dpo4-s4-W24-0033", "verdict": "worse", "note": "dropped:half,hour"}
+{"id": "dpo4-s4-W21-0082", "verdict": "worse", "note": "invented:review"}
+{"id": "dpo4-s4-W35-0006", "verdict": "worse", "note": "invented:14th,february"}
+{"id": "dpo4-s4-W64-0028", "verdict": "worse", "note": "invented:valid"}
+{"id": "dpo4-s4-W58-0042", "verdict": "equal", "note": "coop vs co-op minor"}
+{"id": "dpo4-s4-W40-0081", "verdict": "worse", "note": "invented:evacuation"}
+{"id": "dpo4-s2-W10-0099", "verdict": "equal", "note": "dropoff vs drop off"}
+{"id": "dpo4-s4-W57-0046", "verdict": "worse", "note": "unfixed:scroud,sunday"}
+{"id": "dpo4-s4-W37-0040", "verdict": "worse", "note": "invented:craving; unfixed:braze,chart"}
+{"id": "dpo4-s4-W42-0100", "verdict": "worse", "note": "invented:qa"}
+{"id": "dpo4-s4-W52-0113", "verdict": "worse", "note": "invented:piece"}
+{"id": "dpo4-s4-W29-0085", "verdict": "worse", "note": "invented:chainsaws,kangos,makes,velpo; dropped:chainsaw,kangongs,make"}
+{"id": "dpo4-s4-W23-0005", "verdict": "equal", "note": "punctuation only"}
+{"id": "dpo4-s4-W29-0071", "verdict": "worse", "note": "invented:marseilles"}
+{"id": "dpo4-s4-W50-0085", "verdict": "worse", "note": "invented:ends"}
+{"id": "dpo4-s4-W32-0029", "verdict": "worse", "note": "invented:counselors"}
+{"id": "dpo4-s2-W4-0337", "verdict": "worse", "note": "invented:asks"}
+{"id": "dpo4-s4-W53-0023", "verdict": "worse", "note": "invented:water"}
+{"id": "dpo4-s4-W34-0013", "verdict": "worse", "note": "invented:km"}
+{"id": "dpo4-s2-W3-0048", "verdict": "worse", "note": "invented:postgres"}
+{"id": "dpo4-s4-W33-0003", "verdict": "worse", "note": "invented:30th"}
+{"id": "dpo4-s4-W56-0008", "verdict": "worse", "note": "unfixed:100,cruise"}
+{"id": "dpo4-s4-W35-0032", "verdict": "worse", "note": "unfixed:bill,fail"}
+{"id": "dpo4-s4-W52-0119", "verdict": "equal", "note": "digits vs words"}
+{"id": "dpo4-s4-W24-0043", "verdict": "worse", "note": "invented:reports,wins; dropped:match,report"}
+{"id": "dpo4-s4-W45-0052", "verdict": "worse", "note": "unfixed:leaving,now"}
+{"id": "dpo4-s4-W46-0029", "verdict": "worse", "note": "invented:spence"}
+{"id": "dpo4-s4-W57-0024", "verdict": "worse", "note": "invented:brunois,caleb,juliane; unfixed:carrot,cur,mine"}
+{"id": "dpo4-s4-W32-0095", "verdict": "worse", "note": "invented:clearance,payroll; dropped:clearances,peril"}
+{"id": "dpo4-s4-W47-0009", "verdict": "worse", "note": "invented:cracker,list"}
+{"id": "dpo4-s4-W49-0024", "verdict": "worse", "note": "invented:connecttimeout,id,preferredauthentications,publickey; dropped:coop,pem"}
+{"id": "dpo4-s4-W21-0063", "verdict": "worse", "note": "invented:build"}
+{"id": "dpo4-s4-W28-0052", "verdict": "equal", "note": "both guess at/is"}
+{"id": "dpo4-s4-W34-0082", "verdict": "equal", "note": "digits vs words"}
+{"id": "dpo4-s4-W30-0053", "verdict": "worse", "note": "invented:session"}
+{"id": "dpo4-s2-W2-0499", "verdict": "worse", "note": "dropped:big,improvement,say,six"}
+{"id": "dpo4-s2-W6-0395", "verdict": "worse", "note": "invented:called"}
+{"id": "dpo4-s2-W4-0043", "verdict": "worse", "note": "invented:mocks"}
+{"id": "dpo4-s4-W49-0078", "verdict": "worse", "note": "invented:redirect"}
+{"id": "dpo4-s4-W32-0036", "verdict": "worse", "note": "invented:attached"}
+{"id": "dpo4-s4-W52-0163", "verdict": "worse", "note": "unfixed:friday,instead"}
+{"id": "dpo4-s4-W52-0245", "verdict": "worse", "note": "invented:nameplate; unfixed:hundred,toad"}
+{"id": "dpo4-s4-W50-0052", "verdict": "worse", "note": "invented:thank"}
+{"id": "dpo4-s4-W37-0058", "verdict": "worse", "note": "dropped:door,please"}
+{"id": "dpo4-s4-W19-0011", "verdict": "worse", "note": "invented:proping"}
+{"id": "dpo4-s4-W24-0045", "verdict": "worse", "note": "invented:dax,kicksets,sarah; dropped:box,sou"}
+{"id": "dpo4-s4-W64-0047", "verdict": "worse", "note": "dropped:hardcovers,mina"}
+{"id": "dpo4-s4-W45-0047", "verdict": "worse", "note": "unfixed:latter,led,rafael,scratch"}
+{"id": "dpo4-s4-W25-0008", "verdict": "equal", "note": "style only"}
+{"id": "dpo4-s4-W48-0003", "verdict": "equal", "note": "getUser vs get_user both guesses"}
+{"id": "dpo4-s4-W32-0008", "verdict": "worse", "note": "invented:go,mom,selected"}
+{"id": "dpo4-s4-W23-0044", "verdict": "worse", "note": "unfixed:best,ready"}
+{"id": "dpo4-s4-W38-0072", "verdict": "worse", "note": "invented:waitlist"}
+{"id": "dpo4-s4-W47-0072", "verdict": "worse", "note": "invented:hi"}
+{"id": "dpo4-s4-W56-0049", "verdict": "worse", "note": "dropped:buses,sharp,three"}
+{"id": "dpo4-s4-W36-0017", "verdict": "worse", "note": "unfixed:mark,question"}
+{"id": "dpo4-s4-W54-0023", "verdict": "worse", "note": "invented:paddle"}
+{"id": "dpo4-s4-W24-0059", "verdict": "equal", "note": "digits vs words"}
+{"id": "dpo4-s4-W36-0038", "verdict": "worse", "note": "unfixed:new,paragraph"}
+{"id": "dpo4-s4-W13-0033", "verdict": "worse", "note": "unfixed:desk,help"}
+{"id": "dpo4-s2-W4-0484", "verdict": "worse", "note": "invented:postmortem,rollback; dropped:mortem,post,two"}
+{"id": "dpo4-s4-W27-0054", "verdict": "worse", "note": "invented:tariq's; dropped:five,six,taric's,three"}
+{"id": "dpo4-s4-W32-0025", "verdict": "worse", "note": "invented:close"}
+{"id": "dpo4-s4-W56-0032", "verdict": "worse", "note": "invented:5th"}
+{"id": "dpo4-s4-W29-0003", "verdict": "worse", "note": "invented:bonso"}
+{"id": "dpo4-s4-W14-0092", "verdict": "worse", "note": "dropped:longer,open"}
+{"id": "dpo4-s4-W37-0008", "verdict": "worse", "note": "unfixed:first,second"}
+{"id": "dpo4-s4-W23-0003", "verdict": "worse", "note": "invented:o'conno,pm; dropped:afternoon,morning,o'conco"}
+{"id": "dpo4-s4-W33-0001", "verdict": "worse", "note": "invented:standby"}
+{"id": "dpo4-s4-W49-0064", "verdict": "worse", "note": "invented:dialog"}
+{"id": "dpo4-s4-W62-0098", "verdict": "worse", "note": "invented:month"}
+{"id": "dpo4-s2-W11-0096", "verdict": "worse", "note": "invented:dba"}
+{"id": "dpo4-s4-W38-0074", "verdict": "better", "note": "semicolon is inferable; chosen keeps odd 'semi'"}
+{"id": "dpo4-s2-W3-0442", "verdict": "worse", "note": "invented:quinoa"}
+{"id": "dpo4-s4-W32-0075", "verdict": "worse", "note": "invented:hi"}
+{"id": "dpo4-s4-W36-0076", "verdict": "worse", "note": "dropped:new,paragraph"}
+{"id": "dpo4-s2-W4-0216", "verdict": "worse", "note": "invented:git,v2"}
+{"id": "dpo4-s4-W36-0036", "verdict": "both_bad", "note": "chosen deletes 'Conn or', rejected guesses Connor"}
+{"id": "dpo4-s4-W58-0068", "verdict": "worse", "note": "invented:hi"}
+{"id": "dpo4-s4-W36-0028", "verdict": "worse", "note": "invented:rose"}
+{"id": "dpo4-s4-W20-0019", "verdict": "worse", "note": "invented:price"}
+{"id": "dpo4-s4-W45-0019", "verdict": "worse", "note": "invented:taxi"}
+{"id": "dpo4-s2-W7-0318", "verdict": "worse", "note": "invented:rollback"}
+{"id": "dpo4-s4-W33-0037", "verdict": "worse", "note": "invented:hi"}
+{"id": "dpo4-s4-W24-0024", "verdict": "worse", "note": "invented:gigs"}
+{"id": "dpo4-s4-W48-0021", "verdict": "worse", "note": "unfixed:effect,use"}
+{"id": "dpo4-s4-W33-0019", "verdict": "worse", "note": "invented:deadline"}
+{"id": "dpo4-s4-W16-0082", "verdict": "worse", "note": "invented:hi"}
+{"id": "dpo4-s4-W29-0094", "verdict": "worse", "note": "invented:farmco; dropped:co,farm"}
+{"id": "dpo4-s4-W41-0082", "verdict": "worse", "note": "invented:audit"}
+{"id": "dpo4-s4-W21-0031", "verdict": "worse", "note": "invented:invoice"}
+{"id": "dpo4-s4-W59-0007", "verdict": "worse", "note": "invented:hey"}
+{"id": "dpo4-s4-W59-0072", "verdict": "worse", "note": "invented:alesha,hi"}
+{"id": "dpo4-s2-W4-0330", "verdict": "equal", "note": "both guess; slows vs is low"}
+{"id": "dpo4-s4-W39-0088", "verdict": "worse", "note": "invented:mike"}
+{"id": "dpo4-s2-W5-0287", "verdict": "worse", "note": "dropped:talk,time"}
+{"id": "dpo4-s4-W49-0042", "verdict": "worse", "note": "invented:coop; dropped:co,op,quadratic"}
+{"id": "dpo4-s4-W22-0049", "verdict": "worse", "note": "invented:opens"}
+{"id": "dpo4-s4-W39-0095", "verdict": "worse", "note": "invented:get,playoffs"}
+{"id": "dpo4-s4-W39-0060", "verdict": "worse", "note": "invented:after"}
+{"id": "dpo4-s4-W57-0004", "verdict": "worse", "note": "unfixed:liters,tenths"}
+{"id": "dpo4-s4-W12-0096", "verdict": "worse", "note": "dropped:maybe,pm"}
+{"id": "dpo4-s4-W47-0093", "verdict": "worse", "note": "invented:5th; dropped:fifth,time"}
+{"id": "dpo4-s4-W25-0048", "verdict": "worse", "note": "invented:hi"}
+{"id": "dpo4-s4-W46-0031", "verdict": "worse", "note": "invented:ticket"}
+{"id": "dpo4-s4-W54-0094", "verdict": "worse", "note": "invented:cukes"}
+{"id": "dpo4-s4-W14-0012", "verdict": "worse", "note": "invented:peda; dropped:pedra,wants"}
+{"id": "dpo4-s4-W64-0020", "verdict": "worse", "note": "invented:boss,fail,reproduce"}
+{"id": "dpo4-s4-W57-0045", "verdict": "worse", "note": "dropped:chat,family,group,o'clock"}
+{"id": "dpo4-s2-W3-0111", "verdict": "worse", "note": "invented:heap"}
+{"id": "dpo4-s4-W22-0038", "verdict": "worse", "note": "invented:hi"}
+{"id": "dpo4-s4-W19-0095", "verdict": "worse", "note": "dropped:now,right"}
+{"id": "dpo4-s2-W7-0127", "verdict": "worse", "note": "invented:29th"}
+{"id": "dpo4-s4-W53-0016", "verdict": "worse", "note": "invented:box"}
+{"id": "dpo4-s4-W52-0021", "verdict": "worse", "note": "invented:miss"}
+{"id": "dpo4-s4-W29-0087", "verdict": "worse", "note": "invented:dried,pick,sign; dropped:dry,finally,ivan,izmir"}
+{"id": "dpo4-s4-W56-0038", "verdict": "worse", "note": "invented:meeting"}
+{"id": "dpo4-s2-W8-0062", "verdict": "worse", "note": "invented:cut"}
+{"id": "dpo4-s4-W57-0025", "verdict": "worse", "note": "dropped:four,six; unfixed:councilors,tend"}
+{"id": "dpo4-s4-W52-0217", "verdict": "worse", "note": "dropped:estate,haven't,mention,owner"}
+{"id": "dpo4-s4-W56-0021", "verdict": "worse", "note": "invented:million"}
+{"id": "dpo4-s4-W45-0017", "verdict": "worse", "note": "invented:login"}
+{"id": "dpo4-s4-W25-0003", "verdict": "worse", "note": "invented:app; unfixed:check,cough"}
+{"id": "dpo4-s4-W51-0018", "verdict": "worse", "note": "dropped:half,past,six"}

@@ -1,0 +1,50 @@
+{"id": "s4-W30-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Reversal' for Vercel, 'bill' for build, 'but' lost"}
+{"id": "s4-W30-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0054", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; 'Bun' also lost"}
+{"id": "s4-W30-0055", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'posters database. Just read' unrecoverable"}
+{"id": "s4-W30-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0057", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W30-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0059", "decision": "fix_clean", "clean": "Hi Horhe, the pen test report flagged an outdated OpenSSL version on the VPN appliance.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw has 'horhe'"}
+{"id": "s4-W30-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "curl command garbled"}
+{"id": "s4-W30-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0068", "decision": "fix_clean", "clean": "The DNS records for the new domain are on Cloudflare, so the MX records should propagate by tonight.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Chidi' missing from raw"}
+{"id": "s4-W30-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0071", "decision": "fix_clean", "clean": "Hi Gustavo, thanks for sending over the sensor data from the greenhouses. I loaded the CSV into Grafana and connected it to InfluxDB, but the temperature panel is showing Celsius instead of Fahrenheit, and I can't find where to change it. Would you take a look when you have a minute? No rush.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Would' for 'Could'"}
+{"id": "s4-W30-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "PDF/X-1a and PDF/X-4 garbled"}
+{"id": "s4-W30-0075", "decision": "drop", "reason": "hallucination", "note": "'to the first time' appended, never said"}
+{"id": "s4-W30-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Jorge, MLS, API, retries/backoff garbled"}
+{"id": "s4-W30-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0080", "decision": "drop", "reason": "hallucination", "note": "trailing 'Mm-hmm.' decoded where nothing was said"}
+{"id": "s4-W30-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "attached/Tomcat/sprint garbled"}
+{"id": "s4-W30-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "vendor/Bluetooth/SentriLock/ready garbled"}
+{"id": "s4-W30-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'on.form' and sign-off 'Gazaka' unrecoverable"}
+{"id": "s4-W30-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'B has the S T scan' unrecoverable"}
+{"id": "s4-W30-0088", "decision": "fix_clean", "clean": "Carmen, the virtual staging tool is charging us per image, and we did 300 last time, so I priced out running Stable Diffusion on our own GPU box, and it pays for itself by October.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'last time'"}
+{"id": "s4-W30-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0091", "decision": "fix_clean", "clean": "Hi Jamal, I reviewed the Figma mockups for the new listing page. Two things, the price filter needs a slider, and the map should use Mapbox instead of Google Maps, since we're already paying for the Mapbox license.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'and they look great' missing from raw"}
+{"id": "s4-W30-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'old version have reignated' for React Native, 'Cestavo'"}
+{"id": "s4-W30-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Poor Hay' for Jorge, 'OF lobby' for OAuth login"}
+{"id": "s4-W30-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many names/terms garbled"}
+{"id": "s4-W30-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sign-off name heard as 'Or hate'"}
+{"id": "s4-W30-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Google Calendar of the I' and 'how I cached'"}
+{"id": "s4-W30-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "title, Okta and other terms lost"}
+{"id": "s4-W30-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ending garbled 'anyone's Dulce still they'"}

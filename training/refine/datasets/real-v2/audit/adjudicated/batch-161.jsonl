@@ -1,0 +1,9 @@
+{"id": "s4-W48-0004", "decision": "fix_clean", "clean": "Nit, this should be a cause.", "reason": "unrecoverable_word", "note": "A: 'cause' for 'const' not confidently inferable; keep raw"}
+{"id": "s4-W48-0005", "decision": "drop", "reason": "hallucination", "note": "A: trailing 'Mm-hmm.' never said: hallucination"}
+{"id": "s4-W48-0014", "decision": "fix_clean", "clean": "Bump the time up to 30 seconds.", "reason": "unrecoverable_word", "note": "A: 'time up to' is a sensible raw reading"}
+{"id": "s4-W48-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: 'avert' and 'A broke' are 2 garbled places in 7 words"}
+{"id": "s4-W48-0024", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: 'Heu Beckle', 'Pod's', 'dash in' too garbled to recover kubectl"}
+{"id": "s4-W48-0035", "decision": "fix_clean", "clean": "This is a workaround for a bug in the payment SDK. We move it when we upgrade past version 4.2.", "reason": "unrecoverable_word", "note": "A: 'We move it' is a sensible raw reading"}
+{"id": "s4-W48-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: '401' heard as 'core over'"}
+{"id": "s4-W48-0047", "decision": "fix_clean", "clean": "The leaderboard sorts by name instead of score when two players tie. You should fall back to the join date.", "reason": "unrecoverable_word", "note": "B: 'You should' is a sensible raw reading; 'It' not inferable"}
+{"id": "s4-W48-0050", "decision": "fix_clean", "clean": "Rename this to hasValid.", "reason": "dropped_by_recognizer", "note": "A: token dropped; identifier casing kept as in the script"}

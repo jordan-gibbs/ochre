@@ -1,0 +1,1122 @@
+[
+ {
+  "file": "W12",
+  "cat": "self_correction",
+  "code": "sc",
+  "rows": 100,
+  "names": [
+   "Jamal",
+   "Lukas",
+   "Dina",
+   "Carmen",
+   "Gustavo",
+   "Chloe",
+   "Amir",
+   "Chidi",
+   "Jorge"
+  ],
+  "topics": [
+   "a TV production",
+   "a summer camp",
+   "a plumbing company",
+   "a fashion brand",
+   "a payroll team",
+   "an accounting firm"
+  ],
+  "variant": 1,
+  "of": 6,
+  "focus": "corrections of times, days, dates and numbers (contexts: slack, email, sms, notes)"
+ },
+ {
+  "file": "W13",
+  "cat": "self_correction",
+  "code": "sc",
+  "rows": 100,
+  "names": [
+   "Bianca",
+   "Helena",
+   "Julia",
+   "Hannah",
+   "Marta",
+   "Ayesha",
+   "Mara",
+   "Nico",
+   "Babajide"
+  ],
+  "topics": [
+   "an accounting firm",
+   "a telecom support team",
+   "a road trip",
+   "a data science team",
+   "an HR department",
+   "a customer support desk"
+  ],
+  "variant": 2,
+  "of": 6,
+  "focus": "corrections of names, places and products (contexts: email, slack, ai_chat, docs)"
+ },
+ {
+  "file": "W14",
+  "cat": "self_correction",
+  "code": "sc",
+  "rows": 100,
+  "names": [
+   "Simone",
+   "Karim",
+   "Mia",
+   "Petra",
+   "Alessia",
+   "Theo",
+   "Mehmet",
+   "Hana",
+   "Laura"
+  ],
+  "topics": [
+   "a customer support desk",
+   "an electric co-op",
+   "a cycling team",
+   "a courthouse",
+   "a nonprofit",
+   "a travel agency"
+  ],
+  "variant": 3,
+  "of": 6,
+  "focus": "implicit restarts with no cue word ('send it to the- send it to legal', 'we should, let's just ship it') and false starts that are really corrections"
+ },
+ {
+  "file": "W15",
+  "cat": "self_correction",
+  "code": "sc",
+  "rows": 100,
+  "names": [
+   "Hassan",
+   "Elif",
+   "Gemma",
+   "Giorgio",
+   "Valentina",
+   "Luca",
+   "Mohammed",
+   "Aurora",
+   "Camille"
+  ],
+  "topics": [
+   "a travel agency",
+   "a dance school",
+   "a wedding guest (not planner)",
+   "a gym",
+   "a QA team",
+   "a home renovation"
+  ],
+  "variant": 4,
+  "of": 6,
+  "focus": "fast or garble-prone cues right after the corrected value ('friday no wait thursday', 'ten sorry eleven'), corrections at the very end of a long dictation, and 'I mean' / 'actually' as correction cues"
+ },
+ {
+  "file": "W16",
+  "cat": "self_correction",
+  "code": "sc",
+  "rows": 100,
+  "names": [
+   "Paolo",
+   "Nasser",
+   "Bruno",
+   "Joao",
+   "Adebayo",
+   "Owen",
+   "Sami",
+   "Naomi",
+   "Kiara"
+  ],
+  "topics": [
+   "a home renovation",
+   "a yoga studio",
+   "a parent group",
+   "a florist",
+   "a synagogue event committee",
+   "a logistics warehouse"
+  ],
+  "variant": 5,
+  "of": 6,
+  "focus": "clause-level corrections ('scratch that', 'let me rephrase', 'no, what I want is...') and two corrections in one dictation, plus corrections inside AI prompts"
+ },
+ {
+  "file": "W17",
+  "cat": "self_correction",
+  "code": "sc",
+  "rows": 100,
+  "names": [
+   "Lars",
+   "Ela",
+   "Rosa",
+   "Esther",
+   "Isaac",
+   "Rohan",
+   "Maria",
+   "Enzo",
+   "Sean"
+  ],
+  "topics": [
+   "a logistics warehouse",
+   "a dermatology clinic",
+   "a restaurant kitchen",
+   "a scout troop",
+   "a school district IT",
+   "a language exchange"
+  ],
+  "variant": 6,
+  "of": 6,
+  "focus": "40% contrast rows: the same cue words used non-correctively ('actually', 'I mean it', 'sorry', 'no wait for me', 'make that a priority', 'or rather than'), 60% real corrections with varied cues"
+ },
+ {
+  "file": "W18",
+  "cat": "filler_contrast",
+  "code": "fc",
+  "rows": 100,
+  "names": [
+   "Grace",
+   "Clara",
+   "Aaliyah",
+   "Emil",
+   "Luis",
+   "Dalia",
+   "Femi",
+   "Alfie",
+   "Alejandro"
+  ],
+  "topics": [
+   "a language exchange",
+   "a pet adoption shelter",
+   "a law firm",
+   "an ML research group",
+   "a police non-emergency desk",
+   "a hiking group"
+  ],
+  "variant": 1,
+  "of": 5,
+  "focus": "like and so (opener vs therefore vs intensifier vs 'so that'; tic vs verb vs comparison), contexts sms and slack"
+ },
+ {
+  "file": "W19",
+  "cat": "filler_contrast",
+  "code": "fc",
+  "rows": 100,
+  "names": [
+   "Anders",
+   "Mina",
+   "Milan",
+   "Mateo",
+   "Vera",
+   "Maeve",
+   "Sofia",
+   "Dana",
+   "Deepa"
+  ],
+  "topics": [
+   "a hiking group",
+   "a photography business",
+   "a radio station",
+   "a DevOps on-call rotation",
+   "an optometrist",
+   "a fantasy football league"
+  ],
+  "variant": 2,
+  "of": 5,
+  "focus": "I mean / you know / right (opener tic vs 'I mean it' / 'you know Sam?' / tag question 'right?' / 'turn right'), contexts slack, email, notes"
+ },
+ {
+  "file": "W20",
+  "cat": "filler_contrast",
+  "code": "fc",
+  "rows": 100,
+  "names": [
+   "Ana",
+   "Elias",
+   "Tess",
+   "Yusuf",
+   "Yasmin",
+   "Chiara",
+   "Nikhil",
+   "Ines",
+   "Tomas"
+  ],
+  "topics": [
+   "a fantasy football league",
+   "a fire station",
+   "a stock trading hobbyist",
+   "a conference organizer",
+   "an e-commerce shop",
+   "a recording studio"
+  ],
+  "variant": 3,
+  "of": 5,
+  "focus": "kind of / sort of / basically / literally (tic vs hedge that changes meaning vs 'what kind of'), contexts docs, slack, ai_chat"
+ },
+ {
+  "file": "W21",
+  "cat": "filler_contrast",
+  "code": "fc",
+  "rows": 100,
+  "names": [
+   "Quinn",
+   "Kalani",
+   "Ruth",
+   "Abdul",
+   "Astrid",
+   "Chen",
+   "Mika",
+   "Jin",
+   "Daniela"
+  ],
+  "topics": [
+   "a recording studio",
+   "a legal aid clinic",
+   "a construction site",
+   "a personal finance plan",
+   "a design system team",
+   "a mobile app team"
+  ],
+  "variant": 4,
+  "of": 5,
+  "focus": "mixed: several fillers plus exactly one meaningful use of the same word in the same dictation, longer rows (25-70 words)"
+ },
+ {
+  "file": "W22",
+  "cat": "filler_contrast",
+  "code": "fc",
+  "rows": 100,
+  "names": [
+   "Maya",
+   "Yara",
+   "Oscar",
+   "Uma",
+   "Arjun",
+   "Reza",
+   "Jada",
+   "Felix",
+   "Tamar"
+  ],
+  "topics": [
+   "a mobile app team",
+   "a public library",
+   "an elementary school",
+   "a startup's backend team",
+   "a recruiting firm",
+   "a camping weekend"
+  ],
+  "variant": 5,
+  "of": 5,
+  "focus": "work speech with verbal tics (meetings, status updates, emails) vs the same words used for meaning"
+ },
+ {
+  "file": "W23",
+  "cat": "long_dictation",
+  "code": "long",
+  "rows": 60,
+  "names": [
+   "Nora",
+   "Diego",
+   "Damian",
+   "Shira",
+   "Marco",
+   "Pedro",
+   "Selin",
+   "Leila",
+   "Adrian"
+  ],
+  "topics": [
+   "a camping weekend",
+   "a hotel front desk",
+   "a municipal water utility",
+   "a university lab",
+   "a book club",
+   "a newspaper"
+  ],
+  "variant": 1,
+  "of": 5,
+  "focus": "long emails (formal and semi-formal, greetings and sign-offs as spoken)"
+ },
+ {
+  "file": "W24",
+  "cat": "long_dictation",
+  "code": "long",
+  "rows": 60,
+  "names": [
+   "Kirsten",
+   "Erik",
+   "Keanu",
+   "Zoe",
+   "Sara",
+   "Agnes",
+   "Ahmed",
+   "Lucia",
+   "Caleb"
+  ],
+  "topics": [
+   "a newspaper",
+   "a garden allotment",
+   "a birthday party",
+   "a hospital ward",
+   "a soccer fan club",
+   "a band"
+  ],
+  "variant": 2,
+  "of": 5,
+  "focus": "meeting recaps and status updates with many items in prose"
+ },
+ {
+  "file": "W25",
+  "cat": "long_dictation",
+  "code": "long",
+  "rows": 60,
+  "names": [
+   "Leon",
+   "Carlos",
+   "Andre",
+   "Nina",
+   "Zara",
+   "Nadia",
+   "Fiona",
+   "Gabriel",
+   "Amara"
+  ],
+  "topics": [
+   "a band",
+   "a mortgage broker",
+   "a tax preparer",
+   "a hardware store",
+   "an urgent care clinic",
+   "a bookstore"
+  ],
+  "variant": 3,
+  "of": 5,
+  "focus": "personal messages and stories to friends or family"
+ },
+ {
+  "file": "W26",
+  "cat": "long_dictation",
+  "code": "long",
+  "rows": 60,
+  "names": [
+   "Dominik",
+   "Kenji",
+   "Alana",
+   "Victor",
+   "Bilal",
+   "Jonas",
+   "Hector",
+   "Beatriz",
+   "Annika"
+  ],
+  "topics": [
+   "a bookstore",
+   "a woodworking shop",
+   "a holiday trip",
+   "a cooking class",
+   "a bank branch",
+   "a SaaS sales team"
+  ],
+  "variant": 4,
+  "of": 5,
+  "focus": "long AI prompts that give context, constraints and then ask for something"
+ },
+ {
+  "file": "W27",
+  "cat": "long_dictation",
+  "code": "long",
+  "rows": 60,
+  "names": [
+   "Rafael",
+   "Blake",
+   "Tariq",
+   "Irene",
+   "Kasia",
+   "Antonio",
+   "Laila",
+   "Kai",
+   "Mai"
+  ],
+  "topics": [
+   "a SaaS sales team",
+   "a car dealership",
+   "a marketing agency",
+   "an airline crew",
+   "a neighborhood association",
+   "a roommate chat"
+  ],
+  "variant": 5,
+  "of": 5,
+  "focus": "doc paragraphs and notes with asides, a correction, and spoken 'new paragraph' in about a third"
+ },
+ {
+  "file": "W28",
+  "cat": "misrecognition",
+  "code": "mr",
+  "rows": 100,
+  "names": [
+   "Lina",
+   "Javier",
+   "Rania",
+   "Colin",
+   "Benedikt",
+   "Ada",
+   "Sven",
+   "Yuki",
+   "Wei"
+  ],
+  "topics": [
+   "a roommate chat",
+   "a family group chat",
+   "a game studio",
+   "a theater ticket office",
+   "a marathon training group",
+   "a credit union"
+  ],
+  "variant": 1,
+  "of": 5,
+  "focus": "uncommon personal names and surnames from many cultures, half without dictionary"
+ },
+ {
+  "file": "W29",
+  "cat": "misrecognition",
+  "code": "mr",
+  "rows": 100,
+  "names": [
+   "Aiko",
+   "Ivan",
+   "Fatima",
+   "Lorenzo",
+   "Dario",
+   "Bodhi",
+   "Sana",
+   "Rhea",
+   "Malik"
+  ],
+  "topics": [
+   "a credit union",
+   "a knitting circle",
+   "a city council",
+   "a landscaping business",
+   "a product launch",
+   "a farm co-op"
+  ],
+  "variant": 2,
+  "of": 5,
+  "focus": "foreign place names, streets, restaurants, and brand/product names"
+ },
+ {
+  "file": "W30",
+  "cat": "misrecognition",
+  "code": "mr",
+  "rows": 100,
+  "names": [
+   "Jamal",
+   "Lukas",
+   "Dina",
+   "Carmen",
+   "Gustavo",
+   "Chloe",
+   "Amir",
+   "Chidi",
+   "Jorge"
+  ],
+  "topics": [
+   "a farm co-op",
+   "a gaming community",
+   "a cybersecurity team",
+   "an art gallery",
+   "a mosque community group",
+   "a real estate office"
+  ],
+  "variant": 3,
+  "of": 5,
+  "focus": "software libraries, tools, cloud services and acronyms (some in dictionary)"
+ },
+ {
+  "file": "W31",
+  "cat": "misrecognition",
+  "code": "mr",
+  "rows": 100,
+  "names": [
+   "Bianca",
+   "Helena",
+   "Julia",
+   "Hannah",
+   "Marta",
+   "Ayesha",
+   "Mara",
+   "Nico",
+   "Babajide"
+  ],
+  "topics": [
+   "a real estate office",
+   "a carpool",
+   "a physiotherapy practice",
+   "a coffee shop",
+   "a crypto hobbyist",
+   "a TV production"
+  ],
+  "variant": 4,
+  "of": 5,
+  "focus": "homophones and near-homophones in context (their/there, principal/principle, affect/effect, accept/except, cite/site/sight, compliment/complement, waist/waste, peak/peek)"
+ },
+ {
+  "file": "W32",
+  "cat": "misrecognition",
+  "code": "mr",
+  "rows": 100,
+  "names": [
+   "Simone",
+   "Karim",
+   "Mia",
+   "Petra",
+   "Alessia",
+   "Theo",
+   "Mehmet",
+   "Hana",
+   "Laura"
+  ],
+  "topics": [
+   "a TV production",
+   "a summer camp",
+   "a plumbing company",
+   "a fashion brand",
+   "a payroll team",
+   "an accounting firm"
+  ],
+  "variant": 5,
+  "of": 5,
+  "focus": "medical, legal, financial and scientific jargon in everyday messages"
+ },
+ {
+  "file": "W33",
+  "cat": "numbers",
+  "code": "num",
+  "rows": 100,
+  "names": [
+   "Hassan",
+   "Elif",
+   "Gemma",
+   "Giorgio",
+   "Valentina",
+   "Luca",
+   "Mohammed",
+   "Aurora",
+   "Camille"
+  ],
+  "topics": [
+   "an accounting firm",
+   "a telecom support team",
+   "a road trip",
+   "a data science team",
+   "an HR department",
+   "a customer support desk"
+  ],
+  "variant": 1,
+  "of": 3,
+  "focus": "times, dates, years, durations, ranges and ordinals"
+ },
+ {
+  "file": "W34",
+  "cat": "numbers",
+  "code": "num",
+  "rows": 100,
+  "names": [
+   "Paolo",
+   "Nasser",
+   "Bruno",
+   "Joao",
+   "Adebayo",
+   "Owen",
+   "Sami",
+   "Naomi",
+   "Kiara"
+  ],
+  "topics": [
+   "a customer support desk",
+   "an electric co-op",
+   "a cycling team",
+   "a courthouse",
+   "a nonprofit",
+   "a travel agency"
+  ],
+  "variant": 2,
+  "of": 3,
+  "focus": "money, percentages, measurements, versions, scores, temperatures, file sizes"
+ },
+ {
+  "file": "W35",
+  "cat": "numbers",
+  "code": "num",
+  "rows": 100,
+  "names": [
+   "Lars",
+   "Ela",
+   "Rosa",
+   "Esther",
+   "Isaac",
+   "Rohan",
+   "Maria",
+   "Enzo",
+   "Sean"
+  ],
+  "topics": [
+   "a travel agency",
+   "a dance school",
+   "a wedding guest (not planner)",
+   "a gym",
+   "a QA team",
+   "a home renovation"
+  ],
+  "variant": 3,
+  "of": 3,
+  "focus": "emails, URLs, phone numbers, order/flight/room/ticket numbers, plus 25% contrast rows where words stay words"
+ },
+ {
+  "file": "W36",
+  "cat": "voice_command",
+  "code": "vc",
+  "rows": 100,
+  "names": [
+   "Grace",
+   "Clara",
+   "Aaliyah",
+   "Emil",
+   "Luis",
+   "Dalia",
+   "Femi",
+   "Alfie",
+   "Alejandro"
+  ],
+  "topics": [
+   "a home renovation",
+   "a yoga studio",
+   "a parent group",
+   "a florist",
+   "a synagogue event committee",
+   "a logistics warehouse"
+  ],
+  "variant": 1,
+  "of": 3,
+  "focus": "new line / new paragraph in emails and messages, sign-offs, commands at the start or the end"
+ },
+ {
+  "file": "W37",
+  "cat": "voice_command",
+  "code": "vc",
+  "rows": 100,
+  "names": [
+   "Anders",
+   "Mina",
+   "Milan",
+   "Mateo",
+   "Vera",
+   "Maeve",
+   "Sofia",
+   "Dana",
+   "Deepa"
+  ],
+  "topics": [
+   "a logistics warehouse",
+   "a dermatology clinic",
+   "a restaurant kitchen",
+   "a scout troop",
+   "a school district IT",
+   "a language exchange"
+  ],
+  "variant": 2,
+  "of": 3,
+  "focus": "dictated bullet and numbered lists ('bullet point', 'number one', 'first second third') with lead-ins"
+ },
+ {
+  "file": "W38",
+  "cat": "voice_command",
+  "code": "vc",
+  "rows": 100,
+  "names": [
+   "Ana",
+   "Elias",
+   "Tess",
+   "Yusuf",
+   "Yasmin",
+   "Chiara",
+   "Nikhil",
+   "Ines",
+   "Tomas"
+  ],
+  "topics": [
+   "a language exchange",
+   "a pet adoption shelter",
+   "a law firm",
+   "an ML research group",
+   "a police non-emergency desk",
+   "a hiking group"
+  ],
+  "variant": 3,
+  "of": 3,
+  "focus": "spoken punctuation (period, comma, question mark, colon, exclamation point) plus 35% contrast rows where those words are content"
+ },
+ {
+  "file": "W39",
+  "cat": "trailing_off",
+  "code": "to",
+  "rows": 100,
+  "names": [
+   "Quinn",
+   "Kalani",
+   "Ruth",
+   "Abdul",
+   "Astrid",
+   "Chen",
+   "Mika",
+   "Jin",
+   "Daniela"
+  ],
+  "topics": [
+   "a hiking group",
+   "a photography business",
+   "a radio station",
+   "a DevOps on-call rotation",
+   "an optometrist",
+   "a fantasy football league"
+  ],
+  "variant": 1,
+  "of": 3,
+  "focus": "dictations that end mid-thought (end on a preposition/article/conjunction so it stays visible)"
+ },
+ {
+  "file": "W40",
+  "cat": "trailing_off",
+  "code": "to",
+  "rows": 100,
+  "names": [
+   "Maya",
+   "Yara",
+   "Oscar",
+   "Uma",
+   "Arjun",
+   "Reza",
+   "Jada",
+   "Felix",
+   "Tamar"
+  ],
+  "topics": [
+   "a fantasy football league",
+   "a fire station",
+   "a stock trading hobbyist",
+   "a conference organizer",
+   "an e-commerce shop",
+   "a recording studio"
+  ],
+  "variant": 2,
+  "of": 3,
+  "focus": "abandoned fragments followed by a restart, cut-off words, false starts inside longer dictations"
+ },
+ {
+  "file": "W41",
+  "cat": "trailing_off",
+  "code": "to",
+  "rows": 100,
+  "names": [
+   "Nora",
+   "Diego",
+   "Damian",
+   "Shira",
+   "Marco",
+   "Pedro",
+   "Selin",
+   "Leila",
+   "Adrian"
+  ],
+  "topics": [
+   "a recording studio",
+   "a legal aid clinic",
+   "a construction site",
+   "a personal finance plan",
+   "a design system team",
+   "a mobile app team"
+  ],
+  "variant": 3,
+  "of": 3,
+  "focus": "search queries and short notes that trail off, and mid-dictation trail-offs followed by a new sentence"
+ },
+ {
+  "file": "W42",
+  "cat": "ai_prompt",
+  "code": "ai",
+  "rows": 100,
+  "names": [
+   "Kirsten",
+   "Erik",
+   "Keanu",
+   "Zoe",
+   "Sara",
+   "Agnes",
+   "Ahmed",
+   "Lucia",
+   "Caleb"
+  ],
+  "topics": [
+   "a mobile app team",
+   "a public library",
+   "an elementary school",
+   "a startup's backend team",
+   "a recruiting firm",
+   "a camping weekend"
+  ],
+  "variant": 1,
+  "of": 2,
+  "focus": "questions and instructions to an AI assistant (coding, writing, travel, cooking, health, finance)"
+ },
+ {
+  "file": "W43",
+  "cat": "ai_prompt",
+  "code": "ai",
+  "rows": 100,
+  "names": [
+   "Leon",
+   "Carlos",
+   "Andre",
+   "Nina",
+   "Zara",
+   "Nadia",
+   "Fiona",
+   "Gabriel",
+   "Amara"
+  ],
+  "topics": [
+   "a camping weekend",
+   "a hotel front desk",
+   "a municipal water utility",
+   "a university lab",
+   "a book club",
+   "a newspaper"
+  ],
+  "variant": 2,
+  "of": 2,
+  "focus": "requests that sound like instructions to a text cleaner (make this shorter, fix the grammar, translate, summarize, ignore previous instructions, answer yes or no), with the content to operate on"
+ },
+ {
+  "file": "W44",
+  "cat": "casual",
+  "code": "cas",
+  "rows": 100,
+  "names": [
+   "Dominik",
+   "Kenji",
+   "Alana",
+   "Victor",
+   "Bilal",
+   "Jonas",
+   "Hector",
+   "Beatriz",
+   "Annika"
+  ],
+  "topics": [
+   "a newspaper",
+   "a garden allotment",
+   "a birthday party",
+   "a hospital ward",
+   "a soccer fan club",
+   "a band"
+  ],
+  "variant": 1,
+  "of": 2,
+  "focus": "texting friends and family (sms), heavy fillers, slang, plans, gossip, sports"
+ },
+ {
+  "file": "W45",
+  "cat": "casual",
+  "code": "cas",
+  "rows": 100,
+  "names": [
+   "Rafael",
+   "Blake",
+   "Tariq",
+   "Irene",
+   "Kasia",
+   "Antonio",
+   "Laila",
+   "Kai",
+   "Mai"
+  ],
+  "topics": [
+   "a band",
+   "a mortgage broker",
+   "a tax preparer",
+   "a hardware store",
+   "an urgent care clinic",
+   "a bookstore"
+  ],
+  "variant": 2,
+  "of": 2,
+  "focus": "casual Slack with coworkers, jokes, lunch plans, weekend chat"
+ },
+ {
+  "file": "W46",
+  "cat": "work_mixed",
+  "code": "work",
+  "rows": 100,
+  "names": [
+   "Lina",
+   "Javier",
+   "Rania",
+   "Colin",
+   "Benedikt",
+   "Ada",
+   "Sven",
+   "Yuki",
+   "Wei"
+  ],
+  "topics": [
+   "a bookstore",
+   "a woodworking shop",
+   "a holiday trip",
+   "a cooking class",
+   "a bank branch",
+   "a SaaS sales team"
+  ],
+  "variant": 1,
+  "of": 2,
+  "focus": "Slack status updates, questions to coworkers, meeting notes"
+ },
+ {
+  "file": "W47",
+  "cat": "work_mixed",
+  "code": "work",
+  "rows": 100,
+  "names": [
+   "Aiko",
+   "Ivan",
+   "Fatima",
+   "Lorenzo",
+   "Dario",
+   "Bodhi",
+   "Sana",
+   "Rhea",
+   "Malik"
+  ],
+  "topics": [
+   "a SaaS sales team",
+   "a car dealership",
+   "a marketing agency",
+   "an airline crew",
+   "a neighborhood association",
+   "a roommate chat"
+  ],
+  "variant": 2,
+  "of": 2,
+  "focus": "emails to clients, vendors, managers (greetings and sign-offs as spoken), docs"
+ },
+ {
+  "file": "W48",
+  "cat": "technical_terminal",
+  "code": "tech",
+  "rows": 100,
+  "names": [
+   "Jamal",
+   "Lukas",
+   "Dina",
+   "Carmen",
+   "Gustavo",
+   "Chloe",
+   "Amir",
+   "Chidi",
+   "Jorge"
+  ],
+  "topics": [
+   "a roommate chat",
+   "a family group chat",
+   "a game studio",
+   "a theater ticket office",
+   "a marathon training group",
+   "a credit union"
+  ],
+  "variant": 1,
+  "of": 2,
+  "focus": "code comments, PR review comments, issue tracker bugs, AI coding prompts with identifiers"
+ },
+ {
+  "file": "W49",
+  "cat": "technical_terminal",
+  "code": "tech",
+  "rows": 100,
+  "names": [
+   "Bianca",
+   "Helena",
+   "Julia",
+   "Hannah",
+   "Marta",
+   "Ayesha",
+   "Mara",
+   "Nico",
+   "Babajide"
+  ],
+  "topics": [
+   "a credit union",
+   "a knitting circle",
+   "a city council",
+   "a landscaping business",
+   "a product launch",
+   "a farm co-op"
+  ],
+  "variant": 2,
+  "of": 2,
+  "focus": "terminal commands (git, docker, kubectl, npm, pip, ssh, curl, cd/ls/grep) spoken with flags and paths, context terminal style literal; plus some code comments"
+ },
+ {
+  "file": "W50",
+  "cat": "minimal_edit",
+  "code": "min",
+  "rows": 100,
+  "names": [
+   "Simone",
+   "Karim",
+   "Mia",
+   "Petra",
+   "Alessia",
+   "Theo",
+   "Mehmet",
+   "Hana",
+   "Laura"
+  ],
+  "topics": [
+   "a farm co-op",
+   "a gaming community",
+   "a cybersecurity team",
+   "an art gallery",
+   "a mosque community group",
+   "a real estate office"
+  ],
+  "variant": 1,
+  "of": 2,
+  "focus": "fluent careful dictation needing only punctuation/casing (messages, emails, notes)"
+ },
+ {
+  "file": "W51",
+  "cat": "minimal_edit",
+  "code": "min",
+  "rows": 100,
+  "names": [
+   "Hassan",
+   "Elif",
+   "Gemma",
+   "Giorgio",
+   "Valentina",
+   "Luca",
+   "Mohammed",
+   "Aurora",
+   "Camille"
+  ],
+  "topics": [
+   "a real estate office",
+   "a carpool",
+   "a physiotherapy practice",
+   "a coffee shop",
+   "a crypto hobbyist",
+   "a TV production"
+  ],
+  "variant": 2,
+  "of": 2,
+  "focus": "fluent dictation with intentional informal grammar, British spellings, deliberate repetition, rhetorical questions \u2014 all kept as spoken"
+ }
+]

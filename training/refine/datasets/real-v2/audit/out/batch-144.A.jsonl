@@ -1,0 +1,50 @@
+{"id": "s4-W39-0051", "decision": "fix_clean", "clean": "The deploy went up at 2:15 and everything looked fine until around 3, when the error rate started to...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'went up' for 'went out'"}
+{"id": "s4-W39-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cache here'->'cashier', 'stale'->'sale'"}
+{"id": "s4-W39-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0054", "decision": "fix_clean", "clean": "Fantasy league dues are $60 per team then payment is due before...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'than' (=then) in place of 'and'; 'and' not inferable"}
+{"id": "s4-W39-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0058", "decision": "fix_clean", "clean": "I think I left my sunglasses in the car or maybe at the diner, so can you check it?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R4"], "note": "raw ends complete 'check it?'"}
+{"id": "s4-W39-0059", "decision": "fix_clean", "clean": "The export button does nothing when the report is more than 1,000 rows, and the console shows an error about a...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'is more than' for 'has more than'"}
+{"id": "s4-W39-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0061", "decision": "fix_clean", "clean": "Pack list for Saturday, water filter, rain jackets, trail mixes, and the...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'trail mixes'"}
+{"id": "s4-W39-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0065", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W39-0066", "decision": "fix_clean", "clean": "D, my team is so bad this week. I started a guy on a bye week and...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'Dude' heard as 'D'"}
+{"id": "s4-W39-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0068", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Chen->Then, total->toil, the->them"}
+{"id": "s4-W39-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0070", "decision": "fix_clean", "clean": "Hi Quint, I wanted to follow up on the permit for the group hike next month and see whether the...", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name from raw"}
+{"id": "s4-W39-0071", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' never said"}
+{"id": "s4-W39-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Elm Street' and 'last line' lost ('On the street', 'last will on')"}
+{"id": "s4-W39-0078", "decision": "fix_clean", "clean": "Hey Daniella, the gallery wants 12 prints by Wednesday and they're asking about matte versus glossy. I told them matte is better for that room because of the windows, but I didn't want to commit until I...", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name from raw"}
+{"id": "s4-W39-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'log in as an admin' dropped; 'drag a shift'->'direct ship'"}
+{"id": "s4-W39-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'eye exam'->'I examined', 'run'->'When'"}
+{"id": "s4-W39-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Mika, I've attached'->'I'm attached to'; Sprint; 'had the'"}
+{"id": "s4-W39-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0084", "decision": "fix_clean", "clean": "To add a new environment, copy the staging folder, rename it, update the variables file with a new account ID, and run Terraform plan to make sure nothing is going to be destroyed, and if the plan looks clean then...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'a new account ID'"}
+{"id": "s4-W39-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Quinn->When, said->set, or->Well"}
+{"id": "s4-W39-0086", "decision": "fix_clean", "clean": "Ideas for the photo exhibit, black and white portraits of the fire lookout volunteers, maybe a series on the old trail signs, in the section about the winter hikes where the light is really low and we could try...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'In the section' for 'and a section'"}
+{"id": "s4-W39-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0090", "decision": "fix_clean", "clean": "No, I'm not gonna make it to the draft party. My shift got moved to Saturday evening and I won't be done until 9, but you can just auto draft for me or I can send you my list if you want. I just don't want to end up with...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw 'No' for 'nah'"}
+{"id": "s4-W39-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "honestly->'almost flee', indoors->'in boars'"}
+{"id": "s4-W39-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0093", "decision": "fix_clean", "clean": "Hi everyone, thanks for coming out on Saturday. The turnout was honestly better than I expected. We had about 40 people at the trailhead and nearly everyone made it to the summit despite the wind. A few of you asked about photos and I'm still going through the memory card, so I hope to have the first batch up by the end of next week. But in the meantime, I wanted to mention that the next hike is planned for the second Saturday in October and the route is a little longer than this one, so if anyone is worried about the distance, please let me know and we can...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'memory card'"}
+{"id": "s4-W39-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "queue depth->Qt, PagerDuty->Azure duty, Abdul->Apple, by->but"}
+{"id": "s4-W39-0095", "decision": "fix_clean", "clean": "Thoughts after the fantasy league meeting, first of all the commissioner wants to change the playoff format from four teams to six, which I think is fine as long as the byes go to the top two seeds. Second, there was a proposal to raise the dues to $80 to fund a bigger prize pool, and a few people didn't like that idea because it's already expensive. Also, Calani brought up the idea of a keeper rule where each manager can hold onto two players from year to year, and I actually like that one a lot, but we need to decide how to handle the draft round penalty and weather.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name Calani from raw; raw 'we need'; final 'and weather.' reads complete"}
+{"id": "s4-W39-0096", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W39-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hey team'->'18', lake->lane, 'Daniela led the ridge'->'And I'll let the rage'"}
+{"id": "s4-W39-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Kubernetes->'human eats', pods->pause, 'you're seeing pods'->'your scene pod'"}
+{"id": "s4-W39-0100", "decision": "accept", "reason": "ok"}

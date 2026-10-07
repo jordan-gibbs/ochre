@@ -1,0 +1,50 @@
+{"id": "s2-W4-0301", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0302", "decision": "fix_clean", "clean": "Thanks for catching that. I will push a fix this afternoon.", "reason": "dropped_by_recognizer", "note": "raw lost last clause"}
+{"id": "s2-W4-0303", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0304", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost most of second sentence"}
+{"id": "s2-W4-0305", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0306", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0307", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0308", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0309", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0310", "decision": "fix_clean", "clean": "The demo went way better than I expected. Nice work, everyone.", "reason": "unrecoverable_word", "note": "raw has The"}
+{"id": "s2-W4-0311", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0312", "decision": "fix_clean", "clean": "Summarise the following text in two sentences, and keep the original tone.", "reason": "spelling_from_raw", "note": ""}
+{"id": "s2-W4-0313", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0314", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0315", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0316", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0317", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0318", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'or' for er"}
+{"id": "s2-W4-0319", "decision": "fix_clean", "clean": "This loop runs once per item and...", "reason": "trailing_off", "note": "raw ends on and"}
+{"id": "s2-W4-0320", "decision": "drop", "reason": "unrecoverable_meaning", "note": "shut/print"}
+{"id": "s2-W4-0321", "decision": "fix_clean", "clean": "How long should I boil an egg for a ruddy yolk?", "reason": "unrecoverable_word", "note": ""}
+{"id": "s2-W4-0322", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0323", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0324", "decision": "drop", "reason": "unrecoverable_meaning", "note": "clearing lost"}
+{"id": "s2-W4-0325", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0326", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0327", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0328", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0329", "decision": "fix_clean", "clean": "Hi Marcus, I wanted to follow up on our conversation from last Friday. After reviewing the numbers with my team, we think the revised budget is workable as long as the delivery day stays the same. Could we set up the call this week to finalize the details? I am free most afternoons.", "reason": "unrecoverable_word", "note": "day/the call from raw"}
+{"id": "s2-W4-0330", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0331", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0332", "decision": "fix_clean", "clean": "I am trying to decide between two jobs. One pays more but has a long commute, and the other is closer to home with better benefits. Can you help me think through the tradeoffs? Please ask me questions rather than just telling me what to do.", "reason": "dropped_by_recognizer", "note": "offers lost"}
+{"id": "s2-W4-0333", "decision": "fix_clean", "clean": "After upgrading to the latest version, the build fails with the missing module. The module is listed in the dependencies, and it installs correctly on a clean machine. I suspect the lockfile is out of date. Removing it and reinstalling fixes the problem locally, but the size server still fails.", "reason": "dropped_by_recognizer", "note": "error lost, CI heard as size"}
+{"id": "s2-W4-0334", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0335", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Or for er; were"}
+{"id": "s2-W4-0336", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled middle, Or residue"}
+{"id": "s2-W4-0337", "decision": "fix_clean", "clean": "Honestly, I think we are overcomplicating this. The customer asked for a simple export button, and we are talking about a whole new reporting framework. Let us chip the button this week and see whether anyone asked for more.", "reason": "unrecoverable_word", "note": "chip, asked from raw"}
+{"id": "s2-W4-0338", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name and phrases garbled"}
+{"id": "s2-W4-0339", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large loss"}
+{"id": "s2-W4-0340", "decision": "drop", "reason": "unrecoverable_meaning", "note": "data analyst garbled"}
+{"id": "s2-W4-0341", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0342", "decision": "drop", "reason": "unrecoverable_meaning", "note": "added garbled, No residue"}
+{"id": "s2-W4-0343", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah, garbled"}
+{"id": "s2-W4-0344", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "There are for er"}
+{"id": "s2-W4-0345", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0346", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of dictation lost"}
+{"id": "s2-W4-0347", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0348", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Well for in uh"}
+{"id": "s2-W4-0349", "decision": "fix_clean", "clean": "Hi all, ahead of Friday please make sure you have done the following:\n- Updated her timesheet for the month\n- Submitted any outstanding expense reports with receipts\n- Completed the compliance training module\n- Confirmed your emergency contact details in the portal\nThanks for your help.", "reason": "unrecoverable_word", "note": "her from raw"}
+{"id": "s2-W4-0350", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,42 @@
+{"id": "s2-W4-0301", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0302", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'and let you know when it is live'", "raw lost last clause"], "auditors": ["A", "B"], "clean": "Thanks for catching that. I will push a fix this afternoon."}
+{"id": "s2-W4-0303", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0304", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost 'attached', 'let me know if you have any', 'line'->'online'", "raw lost most of second sentence"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0305", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0306", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0307", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0308", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0309", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0310", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'The' not 'That'", "raw has The"], "auditors": ["A", "B"], "clean": "The demo went way better than I expected. Nice work, everyone."}
+{"id": "s2-W4-0311", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0312", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Summarise'"], "auditors": ["A", "B"], "clean": "Summarise the following text in two sentences, and keep the original tone."}
+{"id": "s2-W4-0314", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0316", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0317", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0318", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["er heard as 'or' ('all or other devices')", "'or' for er"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0319", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends on 'and'; rest lost", "raw ends on and"], "auditors": ["A", "B"], "clean": "This loop runs once per item and..."}
+{"id": "s2-W4-0320", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'ship' heard as 'shut', 'sprint' as 'print'", "shut/print"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0321", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'ruddy'"], "auditors": ["A", "B"], "clean": "How long should I boil an egg for a ruddy yolk?"}
+{"id": "s2-W4-0322", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0323", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0324", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Clearing' heard as 'They're in'", "clearing lost"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0325", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0328", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0329", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'delivery day' and 'the call'", "day/the call from raw"], "auditors": ["A", "B"], "clean": "Hi Marcus, I wanted to follow up on our conversation from last Friday. After reviewing the numbers with my team, we think the revised budget is workable as long as the delivery day stays the same. Could we set up the call this week to finalize the details? I am free most afternoons."}
+{"id": "s2-W4-0330", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0331", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0332", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'offers' ('two jobs')", "offers lost"], "auditors": ["A", "B"], "clean": "I am trying to decide between two jobs. One pays more but has a long commute, and the other is closer to home with better benefits. Can you help me think through the tradeoffs? Please ask me questions rather than just telling me what to do."}
+{"id": "s2-W4-0334", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0335", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["er heard as 'Or'; also 'are'->'were'", "Or for er; were"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0336", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["um/er heard as 'the'/'Or'; 'is' lost, 'swallowed in'", "garbled middle, Or residue"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0338", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Nguyen->Newton, 'your' lost, 'from my'->'for mine': 3 places", "name and phrases garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0339", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I did not exercise' and 'I stayed up' lost", "large loss"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0340", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'data analyst' heard as 'day Oh Annela's'", "data analyst garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0342", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'added' heard as 'out of', uh as 'Th'/'No'", "added garbled, No residue"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0343", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; 'one I could not'->'When I cannot'", "trailing Yeah, garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0344", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["er heard as 'There are'", "There are for er"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0345", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0346", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["middle sentence lost, trailing 'What'", "most of dictation lost"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0347", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0348", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'in uh' heard as 'Well'; 'date'->'data'", "Well for in uh"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0350", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

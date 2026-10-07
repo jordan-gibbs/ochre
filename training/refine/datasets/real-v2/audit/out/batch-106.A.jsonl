@@ -1,0 +1,50 @@
+{"id": "s4-W18-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0054", "decision": "fix_clean", "clean": "Alfie, the filing went through so that we can start discovering.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'discovering'"}
+{"id": "s4-W18-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for dinner' heard as 'Begin it.'"}
+{"id": "s4-W18-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0059", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never spoken"}
+{"id": "s4-W18-0060", "decision": "fix_clean", "clean": "And well, you know the guy who runs the exchange, right?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Emil heard as 'And well'"}
+{"id": "s4-W18-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0062", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never spoken; retraining heard as 'the chaining'"}
+{"id": "s4-W18-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "dispatch block / free entry / sick call"}
+{"id": "s4-W18-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0067", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s4-W18-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0075", "decision": "fix_clean", "clean": "Honestly, the new labeling pipeline is so much faster. Used to take us 3 hours and now it takes 20 minutes, so I think we should move everything over by the end of the month.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'It' dropped by recognizer"}
+{"id": "s4-W18-0076", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Did so / looked / Law: too many unrecoverable places"}
+{"id": "s4-W18-0077", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never spoken; rest garbled"}
+{"id": "s4-W18-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "build/is/like heard as bill/was/light"}
+{"id": "s4-W18-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "end garbled; email/address/Saturday lost"}
+{"id": "s4-W18-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0088", "decision": "fix_clean", "clean": "I wanted to give a quick update on the reading group. We met on Tuesday and honestly it went so well but people stayed an extra hour. We covered the attention paper and the scaling laws one, and Dalia presented her results on the small models, which were kind of surprising. The loss was way lower than we expected, so we're going to rerun it with a bigger seed set, five seeds instead of three, and if anyone wants to join the rerun, just let me know by Friday.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'and then write it up' lost; 'that' heard as 'But'"}
+{"id": "s4-W18-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'climbs' heard as non-word 'quans' plus PyTorch garbled"}
+{"id": "s4-W18-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0094", "decision": "fix_clean", "clean": "Dude, I'm so tired, so I'm skipping the hype, but I like that you invited me, so thanks.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'hype' not confidently 'hike'"}
+{"id": "s4-W18-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'set a reminder' heard as 'set her in mind'"}
+{"id": "s4-W18-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "last clause lost, replaced by 'Line.'"}

@@ -1,0 +1,23 @@
+[package]
+name = "ochre"
+version = "0.1.0"
+edition = "2024"
+
+# The headless CLI. Named `ochre-cli` so it never collides with the desktop app binary `ochre`.
+[[bin]]
+name = "ochre-cli"
+path = "src/main.rs"
+
+[dependencies]
+crossbeam-channel = "0.5.17"
+ochre-audio = { version = "0.1.0", path = "../ochre-audio" }
+ochre-cloud = { version = "0.1.0", path = "../ochre-cloud" }
+ochre-core = { version = "0.1.0", path = "../ochre-core" }
+ochre-platform = { version = "0.1.0", path = "../ochre-platform" }
+ochre-refine = { version = "0.1.0", path = "../ochre-refine" }
+ochre-stt = { version = "0.1.0", path = "../ochre-stt" }
+ochre-wake = { version = "0.1.0", path = "../ochre-wake" }
+parking_lot = "0.12.5"
+serde_json = "1.0.151"
+tracing = "0.1.44"
+tracing-subscriber = "0.3.23"

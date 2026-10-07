@@ -1,0 +1,50 @@
+{"id": "s4-W55-0051", "decision": "fix_clean", "clean": "The plumber is bringing the new valve for the boiler.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'the' not 'a'"}
+{"id": "s4-W55-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0056", "decision": "fix_clean", "clean": "Hi Tarek, the electrician found a frayed wire in the conduit behind the panel, and he recommends we replace the whole breaker box.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary"}
+{"id": "s4-W55-0057", "decision": "fix_clean", "clean": "But Flora said the peonies are in, so I'll pick them up at noon.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'the florist' heard as 'But Flora'"}
+{"id": "s4-W55-0058", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W55-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0063", "decision": "fix_clean", "clean": "Babajite, I can't find my car keys. I think they fell in the sink lol.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary"}
+{"id": "s4-W55-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled"}
+{"id": "s4-W55-0066", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'U T is the sheep farm?' for Yuki"}
+{"id": "s4-W55-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0069", "decision": "fix_clean", "clean": "Margo, the pharmacist wants to know whether the patient takes the pills with food or on an empty stomach.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary"}
+{"id": "s4-W55-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0071", "decision": "fix_clean", "clean": "Heleb, the tour guide said the cathedral in Seville is closed on Mondays, so we're doing the Alcazar first.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw name 'Heleb'; raw spelling 'Alcazar'"}
+{"id": "s4-W55-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0074", "decision": "fix_clean", "clean": "Lena's case is about whether the clause is enforceable. The court found it wasn't.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary"}
+{"id": "s4-W55-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0076", "decision": "fix_clean", "clean": "Lucas, I swapped the brake pads and the rotors, but the caliper is still sticking.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; brick/caliber inferable"}
+{"id": "s4-W55-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Heard' for Tariq, 'brain' for and bring"}
+{"id": "s4-W55-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0080", "decision": "fix_clean", "clean": "The highlight of the cooking class was the lamb tatter, and the host showed us how to preserve lemons in salt for about three weeks.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "tagine not inferable from 'tatter'"}
+{"id": "s4-W55-0081", "decision": "fix_clean", "clean": "Blanche said the credit union is waiving the wire fee for members who have a balance over $10,000.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw name 'Blanche'"}
+{"id": "s4-W55-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'T while Izzy' for Tbilisi"}
+{"id": "s4-W55-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'You key', 'shot', 'ham'"}
+{"id": "s4-W55-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the billet new CNS seats' for villa near Siena sleeps"}
+{"id": "s4-W55-0085", "decision": "fix_clean", "clean": "Marco, I think the bidding on a dupe is going to go over asking, so we should write an escalation clause and maybe waive the appraisal gap.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'a dupe' for the duplex"}
+{"id": "s4-W55-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost the opening clause"}
+{"id": "s4-W55-0087", "decision": "fix_clean", "clean": "Hi Caleb, as discussed, the creative brief for the campaign calls for a warm palette, hand-drawn logo, and a tagline that doesn't mention price, and this shoot is booked for the second week of May at the studio in Brixton, so can you confirm the models are free?", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R13"], "note": "raw lacks 'a' before hand drawn; raw 'this shoot'"}
+{"id": "s4-W55-0088", "decision": "fix_clean", "clean": "Taric, the sourdough starter has to be fed twice a day or the crumb gets dense and it won't rise.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary"}
+{"id": "s4-W55-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Masqua', 'but that confirmed', 'X Ray Abe'"}
+{"id": "s4-W55-0090", "decision": "fix_clean", "clean": "Lucas, the cheese course is brie and Gruyère, and the chef says the rind is edible, but I'm not convinced lol.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary"}
+{"id": "s4-W55-0091", "decision": "fix_clean", "clean": "The tenants in unit 4B are complaining about the radiator. The one in 6 already got fixed.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R13"], "note": "raw 'six', the A was lost"}
+{"id": "s4-W55-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled"}
+{"id": "s4-W55-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0095", "decision": "fix_clean", "clean": "Alan, has the audit report been signed by the examiner yet?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary"}
+{"id": "s4-W55-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'these application' for visa applications"}
+{"id": "s4-W55-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Team number Tanner' for team the retainer"}
+{"id": "s4-W55-0100", "decision": "accept", "reason": "ok"}

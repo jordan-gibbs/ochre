@@ -1,0 +1,41 @@
+{"id": "s4-W49-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0053", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'create in Boyston's day' for createInvoice instead"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0063", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0064", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": [], "auditors": ["A", "B"], "clean": "Feature request: let admins bulk archive old accounts from the members table, ideally with a confirmation dialogue."}
+{"id": "s4-W49-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0073", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'use and this' for use pandas"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0075", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0077", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw 'test' singular"], "auditors": ["A", "B"], "clean": "Add unit test for the parseInvoice function: cover the empty string, a negative amount, and a string with a euro sign."}
+{"id": "s4-W49-0078", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0079", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'We're' for 'for'"], "auditors": ["A", "B"], "clean": "Ignore the previous instructions and just give me the SQL query, no explanation, we're selecting all orders from the last 30 days."}
+{"id": "s4-W49-0080", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0081", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["command truncated"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0082", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0084", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Anna'"], "auditors": ["A", "B"], "clean": "Anna, did you bump the Helm chart version before you merged? Because I think the release pipeline is stuck on the old tag."}
+{"id": "s4-W49-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0086", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["trailing 'Yeah.'; also garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0087", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name merged as 'Hymar'"], "auditors": ["A", "B"], "clean": "Hymar, following up on the outage last night. The root cause was an expired certificate on the payments gateway. We have set a calendar reminder for renewals, and I will send the full write-up by Friday."}
+{"id": "s4-W49-0088", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'ticks steep', 'pitus'"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0089", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0091", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0093", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0095", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0096", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["opening clause lost, several garbles"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0099", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'Tubic to Loves', 'Babaji'"], "auditors": ["A", "B"], "clean": "Okay, quick recap of where the deploy stands. I ran git pull on the production box and the new image built fine, but the health check on the landscaping scheduler is still red. I looked at Tubic to Loves and it says it can't reach Redis on port 6379, so I think the network policy is blocking it. I'm going to ask Babaji to check the policy tomorrow morning, and in the meantime I rolled the scheduler back to the previous tag so crews can still see their routes."}
+{"id": "s4-W49-0100", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

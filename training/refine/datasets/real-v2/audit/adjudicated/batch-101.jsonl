@@ -1,0 +1,5 @@
+{"id": "s4-W16-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'is loose' dropped; remaining text has no point"}
+{"id": "s4-W16-0016", "decision": "fix_clean", "clean": "Joao, can you take dot 3?", "reason": "unrecoverable_word", "note": "A: 'Joel' -> dictionary 'Joao'; 'dot' for dock not inferable"}
+{"id": "s4-W16-0020", "decision": "accept", "reason": "ok", "note": "A: 'Wake' -> 'Wait' inferable slip"}
+{"id": "s4-W16-0040", "decision": "accept", "reason": "ok", "note": "A: 'lay book' -> 'layout' inferable in 'bathroom layout'"}
+{"id": "s4-W16-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: corrected item pita lost ('P top')"}

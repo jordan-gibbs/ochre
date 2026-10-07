@@ -1,0 +1,40 @@
+{"id": "s4-W55-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0011", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw garbled and truncated"], "auditors": ["A", "B"]}
+{"id": "s4-W55-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0013", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Faw' for fob, 'despair' for a spare"], "auditors": ["A", "B"]}
+{"id": "s4-W55-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0015", "decision": "drop", "reasons": ["hallucination", "garbage"], "notes": ["trailing 'Yeah.' never said; also garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W55-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0018", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'asked the Gaza.' lost 'if' and gazebo"], "auditors": ["A", "B"]}
+{"id": "s4-W55-0019", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["second 'gate' absent from raw"], "auditors": ["A", "B"], "clean": "Lina, the flight lands at gate B12, not D."}
+{"id": "s4-W55-0020", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'colour'"], "auditors": ["A", "B"], "clean": "The roux should be the colour of peanut butter before you whisk in the broth."}
+{"id": "s4-W55-0021", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Yeah, but Jai' for Babajide, 'Wap' for lot"], "auditors": ["A", "B"]}
+{"id": "s4-W55-0022", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'numbers dividend ... in the escrow' not sensible"], "auditors": ["A", "B"]}
+{"id": "s4-W55-0024", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary"], "auditors": ["A", "B"], "clean": "Lucas, the cheese is in the walk-in next to the leeks, not the leaks in the ceiling lol."}
+{"id": "s4-W55-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0030", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw name 'Alaner'; raw variant 'cancelled'"], "auditors": ["A", "B"], "clean": "Alaner, I'm gonna be late. The ferry to the island got cancelled."}
+{"id": "s4-W55-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0033", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'reeds'"], "auditors": ["A", "B"], "clean": "Marco, can you grab the reeds of cardstock and the staple remover for the print shop?"}
+{"id": "s4-W55-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0037", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Okay.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W55-0038", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["raw garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W55-0039", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary"], "auditors": ["A", "B"], "clean": "Lena, could you send the draft press release to the client by Friday so that they can sign off before the launch?"}
+{"id": "s4-W55-0040", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Abage software' for Babajide's offer"], "auditors": ["A", "B"]}
+{"id": "s4-W55-0041", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W55-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0043", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary"], "auditors": ["A", "B"], "clean": "Lucas, I'm outside the cooking school. The door's locked. Can you buzz me in?"}
+{"id": "s4-W55-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0047", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary"], "auditors": ["A", "B"], "clean": "Dear Mr. Abenasi, the sellers have accepted your counteroffer of $412,000, and the closing is set for the 20th."}
+{"id": "s4-W55-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W55-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

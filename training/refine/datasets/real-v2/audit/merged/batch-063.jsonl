@@ -1,0 +1,38 @@
+{"id": "s2-W7-0101", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0102", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0104", "decision": "drop", "reasons": ["unrecoverable_meaning", "hesitation_misheard_as_word"], "notes": ["'uh use' became 'a is'; the imperative 'Use' is not recoverable", "'a is' for 'uh use'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0105", "decision": "drop", "reasons": ["script_defect", "unrecoverable_meaning"], "notes": ["clean rewrites the spoken explanation into new words; raw also garbled ('reme', 'received the I swapped')", "raw garbled; clean adds quotes/not"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0106", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0108", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0109", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0112", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0113", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw is garbled: 'Thick s new this fricks ... you to see'", "FIXME/breaks/UTC garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0115", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0116", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0118", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "unrecoverable_word"], "notes": ["raw has 'start', not 'startup'", "raw 'start' not 'startup'"], "auditors": ["A", "B"], "clean": "We retry up to 5 times with a 2-second delay because the license server is flaky on start."}
+{"id": "s2-W7-0119", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0120", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0121", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0122", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'hack, hack' recognized as 'Hug Hug'; not inferable", "Hug Hug for hack, hack"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0123", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0124", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' that was never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0125", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0127", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0128", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["clean added 'The'", "added 'The'"], "auditors": ["A", "B"], "clean": "Bug: the export button does nothing in Firefox. Works fine in Chrome. Console shows a Content Security Policy error."}
+{"id": "s2-W7-0129", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["speaker said 'we are'; clean contracted it", "contraction not spoken"], "auditors": ["A", "B"], "clean": "The login page returns a 500 when the email has a plus sign in it. I think we are not URL-encoding it."}
+{"id": "s2-W7-0130", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0131", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["undictated line break removed", "undictated line break"], "auditors": ["A", "B"], "clean": "Expected behavior: the modal closes when you click outside of it. Actual behavior: nothing happens."}
+{"id": "s2-W7-0132", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0134", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0135", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0138", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["speaker said 'I am'; clean contracted it", "contraction not spoken"], "auditors": ["A", "B"], "clean": "Yesterday I reviewed two PRs and paired with Dana on the cache bug. Today I am picking up the OAuth ticket. Blocked on the client secret from DevOps."}
+{"id": "s2-W7-0139", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0140", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "empty raw"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0141", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0143", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I'll' dropped and 'heap dump' heard as 'heat up'", "I'll dropped, heap dump heard as heat up"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0144", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many misrecognitions: ship, bucks, start it, they'll, in right docks", "many recognizer errors"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0146", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Priya not in dictionary; raw has 'praya'", "name not in dictionary; raw spelling"], "auditors": ["A", "B"], "clean": "To-do for tomorrow:\n- Fix the flaky test\n- Update the dependency\n- Answer Praya about the schema"}
+{"id": "s2-W7-0147", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Russ to sink trade' for 'rust async trait'", "Russ/sink/trade"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0148", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0149", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0150", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'J8 on B Intex Jin' for 'json b index gin'", "garbled"], "auditors": ["A", "B"]}

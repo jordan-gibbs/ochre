@@ -1,0 +1,46 @@
+{"id": "s4-W19-0051", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw 'Maim'"], "auditors": ["A", "B"], "clean": "Hi Maim, the headshots from Monday look great and I'll send the edited set by Thursday."}
+{"id": "s4-W19-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0053", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw 'a sound check'"], "auditors": ["A", "B"], "clean": "The intern already did a sound check."}
+{"id": "s4-W19-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0057", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Oh.' never said", "trailing 'Oh.'"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0058", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0061", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah' never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0062", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'do' lost, 'late Luke permit'", "late Luke permit, lost 'do'"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0063", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0064", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'bear' for banner"], "auditors": ["A", "B"], "clean": "Can you resize the bear so that the right edge fits, 1,200 pixels wide?"}
+{"id": "s4-W19-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0066", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'we're studious' for where studio b is", "end garbled to 'we're studious'"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0067", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["garbled opening and trailing 'Yeah.'", "'blocked' heard as 'glad', start garbled, trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0072", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0073", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'trail. A gate', 'logs', Sophia", "Aye/trail A/logs"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0074", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'key' for gate, 'lock' for lot, Sophia", "key and lock heard for gate and lot, name spelling"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0078", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'don't you' lost, 'so we must' for let's", "question and lets lost"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0080", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'if you mean the saturday shift' dropped", "recognizer lost the 'if you mean the Saturday shift' clause"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0081", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0082", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'test' for desk"], "auditors": ["A", "B"], "clean": "Hi Dana, you know Sam, right? He's covering the radio test Friday and he's right about the schedule."}
+{"id": "s4-W19-0083", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0084", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0085", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.'; also 'Dear Milan' lost, 'week' for weekend", "trailing 'Yeah.', greeting lost"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0086", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0088", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'You know what I mean.' accepted as filler reading"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0089", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["comma splices kept as author's choice"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0090", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["name not in dictionary; raw 'Deeper'"], "auditors": ["A", "B"], "clean": "Action items, Deeper sends the contract by Friday, and Maeve books the room for the second week, and Anders checks the speakers before the show on the 14th."}
+{"id": "s4-W19-0091", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0092", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'but' never said", "trailing 'but'"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0093", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Mave' -> dictionary Maeve"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0096", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0097", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0099", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Hype' for hike"], "auditors": ["A", "B"], "clean": "Hype notes, we leave at 6 sharp, and the right trail is the north one."}
+{"id": "s4-W19-0100", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

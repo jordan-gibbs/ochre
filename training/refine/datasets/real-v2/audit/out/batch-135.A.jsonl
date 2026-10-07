@@ -1,0 +1,50 @@
+{"id": "s4-W35-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lars nielsen' -> 'well as dot neelson'; address unrecoverable"}
+{"id": "s4-W35-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'slash pricing' -> 'enterprising'; URL unrecoverable"}
+{"id": "s4-W35-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0010", "decision": "drop", "reason": "hallucination", "note": "trailing 'that' never said"}
+{"id": "s4-W35-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0012", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' never said"}
+{"id": "s4-W35-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'twenty five' -> 'Twive'; value not inferable"}
+{"id": "s4-W35-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a m' -> 'a. Yeah.'; time unrecoverable"}
+{"id": "s4-W35-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'point one' -> 'pointmon'; version not inferable"}
+{"id": "s4-W35-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is 'Curl closed.'"}
+{"id": "s4-W35-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hi we're' -> 'I were'"}
+{"id": "s4-W35-0026", "decision": "fix_clean", "clean": "The ticket is Q-4412 and it's blocking release candidate 2.1.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Q dash', A lost"}
+{"id": "s4-W35-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'gym' and 'slash' lost in both addresses"}
+{"id": "s4-W35-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dear' -> 'You're'"}
+{"id": "s4-W35-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "email address garbled"}
+{"id": "s4-W35-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0043", "decision": "fix_clean", "clean": "Check is after 3 p.m. and check out is by 11, room 931.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'in' dropped from 'check in'"}
+{"id": "s4-W35-0044", "decision": "fix_clean", "clean": "The group rate is €89 a night for 10 nights, so that's €890 totally.", "reason": "unrecoverable_word", "rules": ["R13"], "note": "raw has 'Totally' for 'total'"}
+{"id": "s4-W35-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0046", "decision": "fix_clean", "clean": "My membership ID is GYM 77204, and can you check why my card was declined twice?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'dash' dropped"}
+{"id": "s4-W35-0047", "decision": "fix_clean", "clean": "Waiver's at ironworks.gym/waiver-2026.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'the' dropped"}
+{"id": "s4-W35-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'call' -> 'All', 'oh' -> 'note'"}
+{"id": "s4-W35-0050", "decision": "accept", "reason": "ok"}

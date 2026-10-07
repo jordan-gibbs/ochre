@@ -1,0 +1,10 @@
+{"id": "s4-W55-0059", "decision": "accept", "reason": "ok", "note": "\"need to be sister\" -> sistered inferable; A accept"}
+{"id": "s4-W55-0063", "decision": "fix_clean", "clean": "Babajite, I can't find my car keys. I think they fell in the sink lol.", "reason": "unrecoverable_word", "note": "Babajite from raw (not in dictionary); A fix"}
+{"id": "s4-W55-0066", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"U T is the sheep farm?\" for Yuki; A drop"}
+{"id": "s4-W55-0071", "decision": "fix_clean", "clean": "Heleb, the tour guide said the cathedral in Seville is closed on Mondays, so we're doing the Alcazar first.", "reason": "unrecoverable_word", "note": "Heleb and Alcazar from raw; A fix"}
+{"id": "s4-W55-0076", "decision": "fix_clean", "clean": "Lucas, I swapped the brake pads and the rotors, but the caliper is still sticking.", "reason": "unrecoverable_word", "note": "Lucas from raw; brick/caliber inferable; A fix"}
+{"id": "s4-W55-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"T while Izzy\"; A drop"}
+{"id": "s4-W55-0090", "decision": "fix_clean", "clean": "Lucas, the cheese course is brie and Gruyère, and the chef says the rind is edible, but I'm not convinced lol.", "reason": "unrecoverable_word", "note": "Lucas from raw; Grier/Lal inferable; A fix"}
+{"id": "s4-W55-0091", "decision": "fix_clean", "clean": "The tenants in unit 4B are complaining about the radiator. The one in 6 already got fixed.", "reason": "dropped_by_recognizer", "note": "raw \"six\" (A lost), digit style; A fix"}
+{"id": "s4-W55-0094", "decision": "fix_clean", "clean": "Please remind the movers that the piano is at the top of the stair and the hall is narrow, so they'll need a dolly and at least three people, and it can't go through the front door.", "reason": "unrecoverable_word", "note": "raw \"stair\" is grammatical; keep raw; B fix"}
+{"id": "s4-W55-0100", "decision": "fix_clean", "clean": "Yuki's students are making a mussel chowder and a crest salad for the potluck, and the dean is bringing a quiche.", "reason": "unrecoverable_word", "note": "raw \"crest\" is a real word; keep raw; B fix"}

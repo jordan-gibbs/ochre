@@ -1,0 +1,50 @@
+{"id": "s4-W37-0051", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W37-0052", "decision": "fix_clean", "clean": "The rollout order is first the elementary school, then the middle schools, and the high school last.", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0057", "decision": "fix_clean", "clean": "Sophia, the checklist for the pop-up is:\n1. Tables and chairs\n2. The projector\n3. Sign-up sheets\n4. A snacks, which I'll handle", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0060", "decision": "fix_clean", "clean": "To do list:\n- Email the pharmacy\n- Renew the lab contract\n- Return minus call\n- Order more patch test kits", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0063", "decision": "fix_clean", "clean": "No, I can't tonight. The number one thing on my plate is the lab report, and then laundry lol.", "reason": "guide_violation"}
+{"id": "s4-W37-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0067", "decision": "fix_clean", "clean": "Hi mate, I went through the skin clinic's feedback and the main complaints are:\n1. The wait time at check-in\n2. The parking\n3. That the portal logs people out too fast\n\nThey think the portal is the easiest fix.", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0077", "decision": "fix_clean", "clean": "How to reset the student password\n\n1. Open the admin console\n2. Search for the student by ID\n3. Click reset and choose a temporary password\n4. Tell the student to change it at first login", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0078", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W37-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0080", "decision": "fix_clean", "clean": "Hi Milans, I'd like to propose the following agenda for Thursday:\n1. A review of last month's ticket volume\n2. A look at the laptop refresh budget\n3. The summer maintenance window\n4. Open questions\n\nIf there's something you want added, tell me and I will fold it in before Wednesday. Thanks.", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0085", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W37-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0087", "decision": "fix_clean", "clean": "Okay, the fall schedule for the troop looks like this:\n- September, we do the river cleanup\n- October, the overnight the state park\n- November, the food drive\n- December is the holiday parade, which I guess is basically optional", "reason": "dropped_by_recognizer"}
+{"id": "s4-W37-0088", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W37-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0091", "decision": "fix_clean", "clean": "Hi Sophia, thanks for sending the summary. I have a few small notes on the intake process before we go live on Monday.\n1. The consent form still has the old clinic address on page 2\n2. We should tell patients to arrive 15 minutes early so the front desk is not slammed\n3. The paper version of the skin history questionnaire is missing the question about sunscreen\n\nNone of these are blockers but I would like them fixed before the first patient's arrival, so can you confirm that the new scanner is hooked up to the right folder?", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0092", "decision": "fix_clean", "clean": "Vera, quick recap of the receiving audit:\n- 42 pallets were checked\n- Three had the wrong school on the label\n- One was crushed on the left corner\n- The rest were clean\n\nI'll send the photos after launch.", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0093", "decision": "fix_clean", "clean": "Closing procedure for the kitchen\n\nAt 10:30, stop taking orders\nAt 11, start breaking down the stations\nAt 11:30, run the dish machine one last time\nAt midnight, I'm walking and log the temperatures\n\nAnyone who is closing alone should text the manager when they leave", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0094", "decision": "fix_clean", "clean": "Scalp troop trip budget:\n1. The bus rental, that's $650\n2. The campsite fees, that's $240\n3. Food, we're estimating $300\n4. The first aid refills, maybe $60\n\nSo the total is about $1,250.", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0096", "decision": "fix_clean", "clean": "Mina, thanks for covering. Here's where I left things: the first cart is restored, the second cart still needs sutures, and the third cart is locked in the supply room.\n\nThe key is under the blue binder.", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0098", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W37-0099", "decision": "fix_clean", "clean": "Hey Deepah, I'm writing up the pallet damage incident and I want to get the order right.\n1. The truck arrived 40 minutes late\n2. The driver stacked the pallets without strapping them\n3. One of the stacks tipped when the fork turned\n4. We lost about $200 of product\n\nI'll attach the photos and a signed receipt, but can you check my numbers?", "reason": "unrecoverable_word"}
+{"id": "s4-W37-0100", "decision": "accept", "reason": "ok"}

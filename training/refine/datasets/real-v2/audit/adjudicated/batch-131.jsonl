@@ -1,0 +1,3 @@
+{"id": "s4-W33-0012", "decision": "fix_clean", "clean": "Yeah, it's 8 o'clock.", "reason": "unrecoverable_word", "note": "A: 'Yeah, it's' kept from raw; correction still resolvable (seven, no way, eight)"}
+{"id": "s4-W33-0037", "decision": "fix_clean", "clean": "Write a reminder for the team the timesheets are due every Friday by 5 PM starting next month.", "reason": "unrecoverable_word", "note": "A: raw 'the' for 'that' kept (R13)"}
+{"id": "s4-W33-0042", "decision": "fix_clean", "clean": "I'm 100% sure the load balancer is what dropped the calls.", "reason": "dropped_by_recognizer", "note": "B: raw already a perfect cleanup with 100%; R11"}

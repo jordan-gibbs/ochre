@@ -1,0 +1,18 @@
+The "transcribe" wake-word model in this directory (transcribe.onnx and its description,
+transcribe.json) is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International licence (CC BY-NC-SA 4.0): https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Copyright (c) 2026 Jordan Gibbs.
+
+Why not MIT like the rest of Ochre: the model was trained with openWakeWord / livekit-wakeword
+data (precomputed ACAV100M features, freesound background noise, MIT room impulse responses),
+some of which may only be used non-commercially. openWakeWord licenses its own pre-trained
+models CC BY-NC-SA 4.0 for the same reason, and this model follows it.
+
+What this means:
+- Ochre's source code, including the training pipeline in training/wakeword, stays MIT.
+- You may use, share and adapt this model for non-commercial purposes, with attribution, and
+  share adaptations under the same licence.
+- Commercial use of the hands-free wake word needs a model trained on data that allows it.
+  training/wakeword can retrain one from your own negatives; the app loads whatever model
+  `handsfree.model` points to. Everything else in Ochre works without this file.

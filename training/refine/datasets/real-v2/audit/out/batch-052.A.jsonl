@@ -1,0 +1,50 @@
+{"id": "s2-W6-0051", "decision": "fix_clean", "clean": "Dear Ms. Schwartz, thank you for your letter about the rent increase. I understand costs have gone up, but an increase of 18% is much higher than I expected. I have lived here for four years and always paid on time. Would you consider a smaller increase, say 5%? I am happy to sign a two-year lease in return. Kind regards, Hamza Ali", "reason": "guide_violation", "rules": ["R8", "R10"], "note": "line breaks around salutation and sign-off were never dictated"}
+{"id": "s2-W6-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0053", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Not' ('Not because I was impressed'), 'um' became 'Some'"}
+{"id": "s2-W6-0054", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No' twice ('No, that did not help')"}
+{"id": "s2-W6-0055", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'said Yeah'; names Oyelaran/Paula Mendez also unrecoverable"}
+{"id": "s2-W6-0056", "decision": "fix_clean", "clean": "I spent the last decade in banking, and people ask me why I left. Honest answer, they stopped learning. So I took a pay cut of about 30% to join a nonprofit in Nairobi, and it has been the best decision of my career. If you are thinking about a change, talk to someone who has made it.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'They stopped learning'"}
+{"id": "s2-W6-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'a', 'corrected'->'correct', final 'Thank you' dropped: more than 2 places"}
+{"id": "s2-W6-0058", "decision": "fix_clean", "clean": "Hi Carlos,\n\nThanks for the quote. I went through it with our finance director yesterday and we have a few points. The first thing is the unit price of €42, which is higher than the €38 we paid last year. Can you explain the difference? The second is the delivery fee. You have it at €350 per shipment, but our agreement says free delivery above €5,000, and our orders are always above that. The third is that we would need payment terms of 60 days instead of 30. If you can move on those three points, I am confident we can sign by the end of the month.\n\nI am in the office until 6 PM today if you would like to talk it through.\n\nRegards, Ingrid", "reason": "guide_violation", "rules": ["R8", "R9"], "note": "line break between 'Regards' and 'Ingrid' was not dictated"}
+{"id": "s2-W6-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'Tunde delivered the billing migration'; name and 'goals/lead' garbled"}
+{"id": "s2-W6-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and out', 'For letter', 'a fact confirmation', 'preauthorized' spelling: too many places"}
+{"id": "s2-W6-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0062", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Okay.' never spoken"}
+{"id": "s2-W6-0063", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became 'Some' ('Some roll out begins')"}
+{"id": "s2-W6-0064", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0065", "decision": "drop", "reason": "hallucination", "note": "Whisper appended Japanese 'thanks for watching'"}
+{"id": "s2-W6-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0070", "decision": "fix_clean", "clean": "Pick up prescription from the pharmacy on Elm Street before 6, and call the dentist about the inlays.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'inlays'"}
+{"id": "s2-W6-0071", "decision": "fix_clean", "clean": "Hi, this is the third time I am emailing you about the faulty projector in meeting room two. The first email was on the 9th of September, and the second on the 23rd, and nobody has replied. The projector keeps shutting off after about 10 minutes, which is a real problem for our client presentation. Please send a technician this week or tell me who I should contact instead.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has singular 'presentation'"}
+{"id": "s2-W6-0072", "decision": "fix_clean", "clean": "Proposal for the website redesign. We will redesign the homepage, the pricing page, and the checkout flow, and we will not touch the blog. The timeline is 10 weeks from kickoff. The total fee is $18,500, payable in three equal installments, the first due on signing.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'installments'"}
+{"id": "s2-W6-0073", "decision": "fix_clean", "clean": "Hey Nina, I wanted to ask about taking leave from the 21st to the 25th of July. I had already handed the vendor onboarding over to Sam, and he is fine with covering. Let me know if you need anything else from me before I go.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'I had already'"}
+{"id": "s2-W6-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'otherwise you can use' lost; 'uh' heard as 'No', 'and asked', 'Darth'"}
+{"id": "s2-W6-0075", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0077", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0078", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'but' ('organized, but I write well'); salutation garbled 'Here in Esabara'"}
+{"id": "s2-W6-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'the goal is to let users save a search'"}
+{"id": "s2-W6-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'The reason is that' lost, 'By the sixty', 'said', Sophia: many places"}
+{"id": "s2-W6-0081", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0082", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0084", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0086", "decision": "fix_clean", "clean": "Hey everyone, quick reminder the timesheets are due by 5 PM on Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the time sheets', 'that' not in raw"}
+{"id": "s2-W6-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting merged into 'Pymea' and 'I said' became 'they said'"}
+{"id": "s2-W6-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost the whole second half (9 words); fix would exceed 5-word limit"}
+{"id": "s2-W6-0090", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'No' ('No delivery is free' inverts meaning); euro currency also lost"}
+{"id": "s2-W6-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting/name lost: 'I I mean a lot Bianca'"}
+{"id": "s2-W6-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0094", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0095", "decision": "fix_clean", "clean": "Hi, this is Raj Meta. I am a patient of Dr. Alvarez. I need a refill on my blood pressure medication. I have about three days left. Do you send the prescription to the Walgreens on Fifth Avenue? My date of birth is the 12th of June, 1972. Thank you.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Meta' (name not in dictionary) and 'Do you send'"}
+{"id": "s2-W6-0096", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No' ('And No. Our offer acceptance rate')"}
+{"id": "s2-W6-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'forty one' lost; raw has only 'space forty. Sorry.'"}
+{"id": "s2-W6-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled: 'ranking', 'work cloth', '15', 'budget spark type', 'Use it'"}
+{"id": "s2-W6-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled: 'mobile that we write', 'One way is c', 'And you feel'"}
+{"id": "s2-W6-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Yes, sir', 'They call', 'Where's they full it?', Whitacre: many places"}

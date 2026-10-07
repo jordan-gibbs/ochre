@@ -1,0 +1,50 @@
+{"id": "s2-W1-0001", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0002", "decision": "drop", "reason": "hallucination", "note": "Whisper appended 'Thank you.'"}
+{"id": "s2-W1-0003", "decision": "drop", "reason": "hallucination", "note": "trailing 'you' never said; also 'Dirt.' from the hesitation"}
+{"id": "s2-W1-0004", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'youth and' / 'that' in place of 'you uh' (worked example F)"}
+{"id": "s2-W1-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0006", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0007", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0008", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0010", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as \"I'll\", turning the request into a statement"}
+{"id": "s2-W1-0011", "decision": "fix_clean", "clean": "My boss had translated the doc by Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R3"], "note": "raw has 'had translated' for 'said translate'; 'dock' to 'doc' is an inferable homophone"}
+{"id": "s2-W1-0012", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; 'uh' also heard as \"I'll\""}
+{"id": "s2-W1-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cup' heard as 'cot'; cup vs quart etc. not inferable, raw version is nonsense"}
+{"id": "s2-W1-0017", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name 'Jen' heard as 'And'; raw-faithful target is not a sensible dictation"}
+{"id": "s2-W1-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can you shorten' heard as 'And you shortened'; request lost"}
+{"id": "s2-W1-0020", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'The arm did'"}
+{"id": "s2-W1-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'um format this as' heard as 'Poor Muttis has'"}
+{"id": "s2-W1-0022", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'The'; 'to to' heard as 'due to'"}
+{"id": "s2-W1-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0024", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0025", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W1-0026", "decision": "fix_clean", "clean": "Okay, so please translate the attached contract into Portuguese then send it back to me by Monday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'then' for 'and'; 'meet' to 'me' is inferable"}
+{"id": "s2-W1-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Act as a' heard as 'After the'; not inferable"}
+{"id": "s2-W1-0028", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0030", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0031", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0032", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'who won the' heard as 'Wanna'; question lost"}
+{"id": "s2-W1-0035", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh could' heard as 'But but'; 'could' not inferable"}
+{"id": "s2-W1-0036", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0037", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0038", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in um' heard as '10'; 'in' not inferable from raw"}
+{"id": "s2-W1-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'summarize' heard as 'To memorize'"}
+{"id": "s2-W1-0042", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0043", "decision": "fix_clean", "clean": "Please write a thank-you note to my team for shipping the release. Make it warm but not cheesy, about three sentences, and sign it for me.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'sign it for me' not 'from me'; 'Bum,' treated as interjection residue of um"}
+{"id": "s2-W1-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0045", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the plan' heard as 'Paper', 'flag' as 'flow', 'database' as 'data basic', 'keep uh' as 'Keep up': too many places"}
+{"id": "s2-W1-0048", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'spread cheat', 'had' dropped, 'but only use' heard as 'The only use of': too many places"}
+{"id": "s2-W1-0050", "decision": "fix_clean", "clean": "Hey Sam, so here is what I wrote to the client: we are sorry for the delay and we will ship by the end of the next week. Can you make it sound more professional and a little less apologetic?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the end of the next week'; added 'the' is a plausible content word, keep it"}

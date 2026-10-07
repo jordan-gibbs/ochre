@@ -1,0 +1,50 @@
+{"id": "s2-W11-0151", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Priya->'the Prior', Le Guin->Legin, 'and Month No More', 'had owned'; too many places"}
+{"id": "s2-W11-0152", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0153", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0154", "decision": "fix_clean", "clean": "The car is making a weird noise again, so I took it to the shop on Elm Avenue. They said the brake pads need replacing and it will cost about $320. Is that okay with you, or should I get a second opinion?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Hi Dad' became 'I d'; greeting not inferable"}
+{"id": "s2-W11-0155", "decision": "fix_clean", "clean": "Mobile SDK supports iOS 15 and later and Android 10 and later. To add it to your project, install the package with your dependency manager and call the initialize method with your project key. You should do this as early as possible in the app startup. Calls made before initialization are queued and sent once it completes.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped leading 'the'"}
+{"id": "s2-W11-0156", "decision": "fix_clean", "clean": "Dear neighbours, the building will have no hot water on Tuesday, June 10th from 9 a.m. to 3 p.m. while the plumbers replace the valve. We apologize for the inconvenience. If you have any questions, please contact the front desk. Thank you for your understanding.", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "raw has 'neighbours' and 'the valve'"}
+{"id": "s2-W11-0157", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0158", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'access key' lost; raw 'in a WS Yeah'"}
+{"id": "s2-W11-0159", "decision": "fix_clean", "clean": "Call with the vendor went well. They agreed to lower the price to $9,800 if we sign a 2 year contract. I want to talk to legal before we commit. Follow up with Dimitri on Tuesday about the data processing agreement.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary: raw spells Dimitri"}
+{"id": "s2-W11-0160", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ten a m' became 'Tenny. And'; time lost"}
+{"id": "s2-W11-0161", "decision": "fix_clean", "clean": "Dude, the game last night was insane. I can't believe they came back from 17 points down in the fourth quarter and still hoarse from yelling. Next home game is on the 14th, want to get tickets together?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'and still hoarse', 'I'm' not inferable"}
+{"id": "s2-W11-0162", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0163", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped 'which is a known bug... central european time' (>5 words)"}
+{"id": "s2-W11-0164", "decision": "fix_clean", "clean": "Draft a polite message to my team explaining that we are moving the weekly sync from Monday to Wednesday at 1 p.m. Mention that the change is because of the new customer call. Keep it friendly and under 80 words. Don't use any emojis.", "reason": "guide_violation", "rules": ["R6"], "note": "double period after p.m."}
+{"id": "s2-W11-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0166", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0167", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'kube control get pods' became 'You control the pod'"}
+{"id": "s2-W11-0168", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0170", "decision": "fix_clean", "clean": "Reminder to everyone that the office will be closed on Monday, September 1st for Labor Day. Please plan your deploys accordingly and avoid pushing anything big on Friday afternoon. On-call will be handled by Y and Carlos over the weekend.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Wei not in dictionary; raw has 'Y'"}
+{"id": "s2-W11-0171", "decision": "fix_clean", "clean": "Backups run every night at 3 p.m. and are kept for 30 days. Each backup is encrypted and copied to a second region. To restore from a backup, open the Backups page, choose a date, and click Restore. The restore creates the new database instance, so update your connection string afterwards.", "reason": "number_value", "rules": ["RECOVER"], "note": "raw says three PM and 'the new database'"}
+{"id": "s2-W11-0172", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the lasagna' became 'Lisa. It was'; adds a name"}
+{"id": "s2-W11-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0174", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0175", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw dropped 'unclear variable names and missing edge cases' (>5 words)"}
+{"id": "s2-W11-0176", "decision": "fix_clean", "clean": "Summarise this article in 3 bullet points.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Summarise'"}
+{"id": "s2-W11-0177", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Marta and invite lost ('Mar. So', 'and by')"}
+{"id": "s2-W11-0178", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0179", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0180", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0183", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0184", "decision": "drop", "reason": "unrecoverable_meaning", "note": "flyers->wires and 'at eight' lost"}
+{"id": "s2-W11-0185", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Alfama->Alpha, fado->Foto, Luis->Lewis; 3 places"}
+{"id": "s2-W11-0186", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'brutal' became 'Brivel', v2.0 -> 'the two point oh'"}
+{"id": "s2-W11-0187", "decision": "drop", "reason": "unrecoverable_meaning", "note": "apply->play, changed/a/in/main.tf all garbled; >2 places"}
+{"id": "s2-W11-0188", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W11-0189", "decision": "fix_clean", "clean": "The vendor finally replied about the SSO integration. They support SAML but not OIDC on the standard plan, and the enterprise plan costs $30 more per seat. I think SAML is enough for us. Does anyone object before I reply to confirm?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'said they'"}
+{"id": "s2-W11-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0191", "decision": "fix_clean", "clean": "The meeting has moved to Thursday at 2 p.m.", "reason": "guide_violation", "rules": ["R6"], "note": "double period after p.m."}
+{"id": "s2-W11-0192", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0194", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0195", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0199", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0200", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'rest and graph q l' became 'us congrats you'"}

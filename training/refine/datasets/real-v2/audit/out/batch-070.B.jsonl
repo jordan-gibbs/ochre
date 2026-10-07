@@ -1,0 +1,50 @@
+{"id": "s2-W7-0451", "decision": "drop", "reason": "unrecoverable_meaning", "note": "service and diff lost, Well for uh"}
+{"id": "s2-W7-0452", "decision": "drop", "reason": "unrecoverable_meaning", "note": "event sourcing, store, mutable garbled"}
+{"id": "s2-W7-0453", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0454", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0455", "decision": "fix_clean", "clean": "I just tried to run the app, and it fails with an ImportError: \"cannot import name\" something \"from partially initialized module\". Circular import. Models imports a helper from services, and services imports the models. Can you find the cycle, draw it for me as a little list of arrows, and then break it, preferably by moving the shared helper into its own module that neither of them depends on, rather than by doing the import inside the function? Those lazy imports always come back to bite us.", "reason": "dropped_by_recognizer", "note": "raw lost \"I think it's between the models and the services\"", "rules": ["RECOVER"]}
+{"id": "s2-W7-0456", "decision": "fix_clean", "clean": "Code review for the Saffron search feature. Overall the structure is good, and I like the separation between the query builder and the executor. A few things though. First, the query builder concatenates the search term into the SQL string. I know you escape quotes, but please use bound parameters. Escaping is how injections happen. Second, the results are not paginated. If someone searches for a single letter, we return the whole table. Add a limit and an offset or a cursor. Third, the debounce on the frontend is 0 milliseconds, which defeats. 300 is the usual number. Fourth, the empty state says \"No results found\" even while the request is loading, so users see a flash of the wrong message. Show a spinner until the response arrives. And last, a question: why did you choose to lowercase on the client instead of using a case-insensitive collation in the database? I think the collation is cleaner, but I could be missing a reason.", "reason": "dropped_by_recognizer", "note": "\"the purpose\" lost in raw", "rules": ["RECOVER"]}
+{"id": "s2-W7-0457", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0458", "decision": "drop", "reason": "unrecoverable_meaning", "note": "culling/batching/GPU/reduce garbled in many places"}
+{"id": "s2-W7-0459", "decision": "fix_clean", "clean": "Refactor the order totals calculation\n\nThis commit moves the totals logic out of the checkout view and into a dedicated module. The behavior is unchanged. The existing tests pass without modification, but the logic is now testable on its own, and I added tests for the discount and tax edge cases that were previously only covered indirectly.\n\nNote for reviewers: the rounding mode is banker's rounding as before. I did not change it, even though it surprised me.\n\nRefs ticket 712", "reason": "guide_violation", "note": "\"ticket\" was said", "rules": ["R10"]}
+{"id": "s2-W7-0460", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W7-0461", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0462", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0463", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah., garbled prefix"}
+{"id": "s2-W7-0464", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0465", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0466", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0467", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0468", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0469", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0470", "decision": "fix_clean", "clean": "Go release candidate is out, version 1.8.0-rc1. It adds the --json flag and fixes the config precedence bug. Please try it on your machines and report anything weird in this thread before Friday.", "reason": "unrecoverable_word", "note": "Cobalt heard as Go; not a near form", "rules": ["RECOVER"]}
+{"id": "s2-W7-0471", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W7-0472", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lsof -i, address already in use lost"}
+{"id": "s2-W7-0473", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0474", "decision": "fix_clean", "clean": "Okay, Zephyr, the onboarding flow. I want to restructure it. Right now it's four screens: welcome, permissions, profile, and tutorial. The analytics say that 40% of people drop at the permissions screen because we ask for notifications and location at the same time, before they have seen any value. So I want to move the permission requests to the moment they are actually needed: notifications after they create their first reminder, and location when they open them. The onboarding becomes three screens: welcome, profile, and tutorial. Keep the permissions screen code around behind a flag in case we want to run an experiment. Update the router, the analytics events, and the existing widget tests, and handle the case where a user denies a permission. We should show a small explanation with a button to open the system settings instead of asking again.", "reason": "unrecoverable_word", "note": "\"the map\" heard as \"them\"", "rules": ["RECOVER"]}
+{"id": "s2-W7-0475", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0477", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0478", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pricing, plus, caller, weird, split, revert garbled"}
+{"id": "s2-W7-0479", "decision": "fix_clean", "clean": "Heads up for future me: the window boundaries in Fathom are inclusive on the start and exclusive on the end. So an event at exactly 12:00 belongs to the window that starts at 12, not the one that ends at 12. This caused an off-by-one in the daily rollup once, and the tests in the windows test file document the edge cases, so read them before changing anything here.", "reason": "number_value", "note": "raw twelve oh oh = 12:00", "rules": ["R7"]}
+{"id": "s2-W7-0480", "decision": "fix_clean", "clean": "Kestrel configuration reference: the retry section. max_attempts is the number of times a failed job is retried before it is moved to the dead letter queue. The default is 5. backoff_base is the initial delay in seconds and doubles on each attempt. The default is 2. backoff_max caps the delay. The default is 300. Set backoff_jitter to true to add up to 10% random variation, which we recommend when many workers share a queue.", "reason": "guide_violation", "note": "undictated paragraph breaks", "rules": ["R8"]}
+{"id": "s2-W7-0481", "decision": "drop", "reason": "hallucination", "note": "trailing No."}
+{"id": "s2-W7-0482", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0483", "decision": "drop", "reason": "unrecoverable_meaning", "note": "VCR heard as this, Keep as Eve"}
+{"id": "s2-W7-0484", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0485", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0486", "decision": "drop", "reason": "garbage", "note": "raw unrelated to spoken"}
+{"id": "s2-W7-0487", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Quill lost, dooms for divs, roll, area"}
+{"id": "s2-W7-0488", "decision": "fix_clean", "clean": "chore: bump Nova iOS deployment to 16", "reason": "dropped_by_recognizer", "note": "\"target\" lost", "rules": ["RECOVER"]}
+{"id": "s2-W7-0489", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening and tail lost, retry garbled"}
+{"id": "s2-W7-0490", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0491", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0492", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0493", "decision": "fix_clean", "clean": "Calling context cancel propagation child coroutines", "reason": "unrecoverable_word", "note": "Golang/goroutines misheard as real words", "rules": ["RECOVER"]}
+{"id": "s2-W7-0494", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0495", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W7-0496", "decision": "fix_clean", "clean": "The last thing for Meridian this week: I want a script that checks our environments for drift. The idea is it compares the environment variable names, not the values, across local, staging, and production, using the example env file as the source of truth. It should report three things: variables that are in the example but missing in an environment, variables set in an environment that are not in the example, and variables that are in the example but marked optional. Tools folder. Make it read the environments from the three config files we already have, never print a secret value, and add it as a CI step that fails if production is missing anything required.", "reason": "dropped_by_recognizer", "note": "\"put the script in the\" lost", "rules": ["RECOVER"]}
+{"id": "s2-W7-0497", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0498", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0499", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many words lost or garbled"}
+{"id": "s2-W7-0500", "decision": "accept", "reason": "ok"}

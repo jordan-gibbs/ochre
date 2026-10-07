@@ -1,0 +1,42 @@
+{"id": "s2-W4-0252", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["recognizer lost 'by team member right now i have to scroll through everything to'", "recognizer lost ~12 words"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0253", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0255", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0256", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Avoid a' heard as 'Why did'", "Why did comma splice"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0257", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0259", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0260", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'was'", "tense from raw"], "auditors": ["A", "B"], "clean": "The show was set in the Victorian period."}
+{"id": "s2-W4-0261", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0262", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0263", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0264", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0266", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0267", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0268", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Five' for 'Buy'"], "auditors": ["A", "B"], "clean": "Five flowers, candles, and matches."}
+{"id": "s2-W4-0269", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0270", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0271", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0273", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["read/red homophone, unambiguous"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0274", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0275", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0276", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0277", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Aaron's' for 'errands'"], "auditors": ["A", "B"], "clean": "Aaron's\nCall the bank\nRenew passport"}
+{"id": "s2-W4-0279", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0280", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0281", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw dropped 'it'"], "auditors": ["A", "B"], "clean": "Thank you for the update, I will review this afternoon."}
+{"id": "s2-W4-0282", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'weekend comma' heard as 'week in Palma'; 'um comma' heard as 'Come'; 'handled' as 'Handle'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0283", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0285", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'er' heard as 'or' ('raise the limit or if possible'); 'error text' heard as 'air tax'", "air tax; or"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0286", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'whitespace' heard as 'like these', 'slash' lost, 'call it on' garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0287", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw truncated after 'mentioned that'; most of the request lost", "raw truncated"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0288", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' heard as 'No.' before 'For most people'", "uh -> No."], "auditors": ["A", "B"]}
+{"id": "s2-W4-0289", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'shift' heard as 'ship' and sign-off 'Priya' as 'for you'", "shift/ship, sign-off name lost"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0290", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'hey, i am'; starts with 'Autside'", "Hey I am lost"], "auditors": ["A", "B"], "clean": "Outside.\nCome down when you are ready, no rush.\nI brought coffee."}
+{"id": "s2-W4-0291", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["heavily garbled: 'in with S sport', 'with you', 'nut'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0292", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'makes' for 'mix' inferable in recipe context; 'Ur.' is residue"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0293", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["recognizer lost 'and no one explained the delay ... order was taken incorrectly'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0294", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["large losses: 'know when to expect each', 'be sent to the people team', 'only'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0295", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'um' heard as 'some' ('tracks some household expenses'); 'explanation short' also lost", "some for um, lost words"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0296", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many garbles: 'Check our', 'of her Renewal', 'all on reminders', 'chick act or'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0297", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["heavily garbled: 'The trust. Be coming.', 'drink.' lost Thursday clause"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0298", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["heavily garbled: 'This been triple', 'rhinop', 'Custer. Parts'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0299", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["sign-off 'Omar' heard as 'on more'; 'er' heard as 'Or'"], "auditors": ["A", "B"]}

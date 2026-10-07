@@ -1,0 +1,37 @@
+{"id": "s4-W47-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0054", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'let's go with the blue' missing from raw"], "auditors": ["A", "B"], "clean": "Actually, I changed my mind about the red one."}
+{"id": "s4-W47-0055", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Dario/weekend ticket garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0056", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["seats heard as six"], "auditors": ["A", "B"], "clean": "The lead time on those six is 8 to 10 weeks."}
+{"id": "s4-W47-0058", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Heads up ... in building C is' garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0059", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["names and several phrases garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0060", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["HOA/bump/install/May all misheard"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0061", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.'; Ivan also lost", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s4-W47-0062", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["pipeline/Rhea thinks/deals misheard"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0063", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0065", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'details' -> 'B tails', 'Lorenzo' -> 'Or I'm so'"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0072", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Hi->Sai, Aiko->Zako"], "auditors": ["A", "B"], "clean": "Sai Malik, thanks again for meeting with us on Tuesday. As discussed, we'll send over the revised timeline by Friday and the updated budget by the following Wednesday. In the meantime, if your team has any concerns about the delivery dates, please don't hesitate to reach out. Best, Zako"}
+{"id": "s4-W47-0074", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0075", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Rhea heard as 'Ree'"], "auditors": ["A", "B"], "clean": "Hi Ree, I wanted to flag that the spring newsletter is running about three days behind. The design is done but the copy is still waiting on legal review, and I don't want to send it out with the old disclaimer. I'll keep you posted. Thanks"}
+{"id": "s4-W47-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0078", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["sink heard as sand"], "auditors": ["A", "B"], "clean": "Okay roommates, update on the apartment, the landlord is coming Thursday to look at the leak under the sand, so someone needs to be home between 9 and noon, and please nobody put anything in the cabinet."}
+{"id": "s4-W47-0079", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["sign-off name Dario missing from raw"], "auditors": ["A", "B"], "clean": "Dear Sana, thank you for your proposal. We reviewed it with the team and we're impressed with the creative direction. Our only concern is the timeline, particularly the two week window for approvals. Would it be possible to extend that to three weeks? Kind regards"}
+{"id": "s4-W47-0081", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0082", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'colour'"], "auditors": ["A", "B"], "clean": "Client call recap. They like the second concept but want the headline shorter, they're fine with the colour palette, and they asked whether we can add a video version for social. I said probably, pending budget. Next step is a revised mock by next Wednesday."}
+{"id": "s4-W47-0083", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0084", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0086", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0088", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0090", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Rhea heard as Reed; 'see see' = cc"], "auditors": ["A", "B"], "clean": "Reed, I need you to send the signed work order to the shop, and actually cc Malik as well so he has the paper trail, he's handling the warranty claim."}
+{"id": "s4-W47-0091", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many misheard/dropped phrases (Fatima, photography, April 1st)"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0095", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Okay.'", "trailing Okay."], "auditors": ["A", "B"]}
+{"id": "s4-W47-0096", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["inactive->active, dropped phrases, attainer", "active/inactive flipped, dropped words"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0098", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'Rhea can' heard as 'Reckon'"], "auditors": ["A", "B"], "clean": "Reckon you take the lead on the airline renewal while I'm out next week."}

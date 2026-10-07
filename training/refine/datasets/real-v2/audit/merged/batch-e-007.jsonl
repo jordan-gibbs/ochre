@@ -1,0 +1,44 @@
+{"id": "e4-E5-0041", "decision": "fix_clean", "reasons": ["trailing_off", "dropped_by_recognizer"], "notes": ["raw lost 'but it's actually a screen'; ends complete"], "auditors": ["A", "B"], "clean": "The new menu board looks like a chalkboard."}
+{"id": "e4-E5-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0043", "decision": "fix_clean", "reasons": ["trailing_off", "dropped_by_recognizer"], "notes": ["raw ends at 'need facilities.'"], "auditors": ["A", "B"], "clean": "The dehumidifier in the map room shut off again overnight, and the humidity was up to 62% when I came in this morning. I've put a fan in there for now, but we really need facilities."}
+{"id": "e4-E5-0044", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'D human FR', 'But you' for could you, 'looks work' for warped"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0056", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost most of the message"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0058", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'can you bring' lost"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0062", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw has 'going to', not 'gonna'"], "auditors": ["A", "B"], "clean": "Unfortunately, the archive is going to be closed for the whole month of August this year because of the renovation, so I'd recommend that your class plan their research visits for September instead, and I'm happy to set up a group orientation for them in the first week."}
+{"id": "e4-E5-0063", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'expect Point' for 'explain it'"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0068", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'wants to come to Stanana early'"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0078", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["greeting garbled, 'tolls', missing 'if', 'all sort'"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0080", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'But you matter' for 'could you nudge her'"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0005", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'from T.' lost both cities and 'by train'"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0007", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; Saskatoon not inferable"], "auditors": ["A", "B"], "clean": "Dimitri, can you check the cold chain log for Saskatchewan?"}
+{"id": "e4-E6-0008", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'CMR', 'Buria Taco', 'L.' for lol"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0009", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Trieste not inferable from 'Trice'"], "auditors": ["A", "B"], "clean": "The collection was donated in 1972 by the estate of Aurelio Benedetti, a printer from Trice who specialized in shipping manifests."}
+{"id": "e4-E6-0010", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Cape Senior. Right, Chivik'"], "auditors": ["A", "B"]}

@@ -1,0 +1,50 @@
+{"id": "e4-E12-0031", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0032", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0033", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E12-0034", "decision": "fix_clean", "clean": "Order more rockful cubes.", "reason": "unrecoverable_word"}
+{"id": "e4-E12-0035", "decision": "fix_clean", "clean": "Dear parents, the Saturday's matches have been canceled because the pitches are waterlogged. The league will announce the rescheduled fixtures by Wednesday evening. We're sorry for the late notice and thank you for your patience.", "reason": "unrecoverable_word"}
+{"id": "e4-E12-0036", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0037", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0039", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0040", "decision": "fix_clean", "clean": "William scored twice in the second half. The parents haven't stopped talking about it.", "reason": "unrecoverable_word"}
+{"id": "e4-E12-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E12-0042", "decision": "fix_clean", "clean": "Hi Solvig, would you be willing to do a guest spot at our studio in November? We'd cover your travel and you'd keep 60% of what you book.", "reason": "unrecoverable_word"}
+{"id": "e4-E12-0043", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E12-0044", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0045", "decision": "fix_clean", "clean": "I'm moving from a two-bedroom flat in Leeds to a small house in York at the end of October and I've never organized a move on my own. Please give me a week-by-week checklist starting six weeks before the move, and include reminders for things people usually forget, like redirecting post, cancelling utilities and booking parking for the van.", "reason": "spelling_from_raw"}
+{"id": "e4-E12-0046", "decision": "fix_clean", "clean": "Is the dinghy park locked after sunset, or can members get in with the fog?", "reason": "unrecoverable_word"}
+{"id": "e4-E12-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0048", "decision": "fix_clean", "clean": "You still got my jacket from the shop, Theoter?", "reason": "unrecoverable_word"}
+{"id": "e4-E12-0049", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0050", "decision": "fix_clean", "clean": "Bienka, harvest is moved to Thursday because the cooler's being surfaced.", "reason": "unrecoverable_word"}
+{"id": "e4-E13-0001", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0002", "decision": "drop", "reason": "non_english"}
+{"id": "e4-E13-0003", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0004", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0005", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0006", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0007", "decision": "drop", "reason": "hallucination"}
+{"id": "e4-E13-0008", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0009", "decision": "fix_clean", "clean": "What's the difference between a bill of lading and an airway book?", "reason": "unrecoverable_word"}
+{"id": "e4-E13-0010", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0011", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0012", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0013", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0015", "decision": "drop", "reason": "garbage"}
+{"id": "e4-E13-0016", "decision": "fix_clean", "clean": "docker run --rm -p 8080:80 bashier/escape-room-kios:latest", "reason": "unrecoverable_word"}
+{"id": "e4-E13-0017", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0018", "decision": "fix_clean", "clean": "Audile and Pemberton baptism record 1864 Yorkshire", "reason": "unrecoverable_word"}
+{"id": "e4-E13-0019", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0020", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0021", "decision": "fix_clean", "clean": "scp and Gozi@freight-box:/var/log/customs.log ~/downloads", "reason": "unrecoverable_word"}
+{"id": "e4-E13-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0023", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0024", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0025", "decision": "drop", "reason": "garbage"}
+{"id": "e4-E13-0026", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0027", "decision": "drop", "reason": "garbage"}
+{"id": "e4-E13-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0029", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0030", "decision": "accept", "reason": "ok"}

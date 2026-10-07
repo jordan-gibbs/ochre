@@ -1,0 +1,50 @@
+{"id": "s4-W20-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'uh yusuf' became 'You, Sof.'"}
+{"id": "s4-W20-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Usa' for Yusuf and 'They were' for 'the order'"}
+{"id": "s4-W20-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0056", "decision": "fix_clean", "clean": "The shift schedule was kind of fixed, but swaps are allowed.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'was' not 'is'"}
+{"id": "s4-W20-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0059", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W20-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0061", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W20-0062", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'an etf is uh' became 'And that's the'"}
+{"id": "s4-W20-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'elias basically' became 'Laia is basically'"}
+{"id": "s4-W20-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0067", "decision": "fix_clean", "clean": "Thomas, we have the room booked until 6.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'Thomas'; Tomas not in dictionary"}
+{"id": "s4-W20-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0070", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W20-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0072", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W20-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'date' heard as 'dig'; not inferable, result not sensible"}
+{"id": "s4-W20-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0080", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W20-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0084", "decision": "fix_clean", "clean": "The market literally froze for 10 minutes after the allowance.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'allowance'"}
+{"id": "s4-W20-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "trailing 'you know' became 'No.'"}
+{"id": "s4-W20-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Tess' became 'Test'"}
+{"id": "s4-W20-0090", "decision": "fix_clean", "clean": "What kind of questions should I ask the sound vendor for conference?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the sound vendor' and 'for conference' (no 'a')"}
+{"id": "s4-W20-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0093", "decision": "fix_clean", "clean": "I sell candles online as sort of a side thing, so give me a shop name that's kind of cozy.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'as' for 'and it's'"}
+{"id": "s4-W20-0094", "decision": "fix_clean", "clean": "Anna, you literally saved me, I was basically about to sell everything at a loss.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'Anna'"}
+{"id": "s4-W20-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0096", "decision": "fix_clean", "clean": "Laus, what sort of budget do we have for the keynote?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'Laus' for Elias"}
+{"id": "s4-W20-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0098", "decision": "fix_clean", "clean": "The football draft is sort of a mess because half the owners haven't signed in.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Yusuf' absent from raw"}
+{"id": "s4-W20-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for ines' became 'for a knee'"}

@@ -1,0 +1,50 @@
+{"id": "s2-W8-0401", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Well' between 'the dog' and 'the parents', reads as a correction"}
+{"id": "s2-W8-0402", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0403", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I'm' became 'And' and 'have' became 'had'; target not inferable"}
+{"id": "s2-W8-0404", "decision": "accept", "reason": "ok", "note": "'that one' reads as 'at one'; 315 -> 3:15"}
+{"id": "s2-W8-0405", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0406", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0407", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0408", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and rehearsal is at seven in the' lost; raw reads 'The morning.'"}
+{"id": "s2-W8-0409", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ordered/from/worn differ from target in 3+ places"}
+{"id": "s2-W8-0410", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'oil change' lost and 'load the ladder racks' garbled"}
+{"id": "s2-W8-0411", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0412", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also 'still on' for salon, 'but' for uh"}
+{"id": "s2-W8-0413", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'football' became 'foot'; not inferable"}
+{"id": "s2-W8-0414", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ending 'we cannot do this without you' lost, 'big sale' for bake sale, 'the raffle'; >2 places"}
+{"id": "s2-W8-0415", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh/um became 'No', 'some', 'Thumb'; also 'You win' and lost ending"}
+{"id": "s2-W8-0416", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Breps' for grapes; key word not inferable"}
+{"id": "s2-W8-0417", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0418", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0419", "decision": "accept", "reason": "ok", "note": "Right->Write homophone, part->party inferable"}
+{"id": "s2-W8-0420", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0421", "decision": "fix_clean", "clean": "You are the best, thank you so much.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'You are'; contraction not in input"}
+{"id": "s2-W8-0422", "decision": "accept", "reason": "ok", "note": "'Tech the tire pressure' -> Check inferable"}
+{"id": "s2-W8-0423", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0424", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0425", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0426", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0427", "decision": "accept", "reason": "ok", "note": "'Thumb?' sits in the 'the, um, the' false start"}
+{"id": "s2-W8-0428", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0429", "decision": "accept", "reason": "ok", "note": "leading 'Well' is meaningless filler in a search query"}
+{"id": "s2-W8-0430", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'He be described' for 'but the baby is crying'"}
+{"id": "s2-W8-0431", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0432", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W8-0433", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can I call you' became 'And I call you'; question lost"}
+{"id": "s2-W8-0434", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0435", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0436", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0437", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0438", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Call me' became 'Only'; target not inferable"}
+{"id": "s2-W8-0439", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles: 'Thoughts', 'Springbug', lost 'nine', 'fills a fast'"}
+{"id": "s2-W8-0440", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0441", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'But' before 'please tell me'"}
+{"id": "s2-W8-0442", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'He is the' dropped by recognizer, sentence broken; 'Well, but' residue"}
+{"id": "s2-W8-0443", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the Pattersons' became 'The better sense'"}
+{"id": "s2-W8-0444", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'No.'; also 'madam' became 'Matt'"}
+{"id": "s2-W8-0445", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0446", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'um mum' became 'Bum'; Mum not inferable"}
+{"id": "s2-W8-0447", "decision": "fix_clean", "clean": "Batteries for the smoke alarm.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Buy' lost by recognizer"}
+{"id": "s2-W8-0448", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0449", "decision": "fix_clean", "clean": "Ask Nanna for her lasagna recipe.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw 'Nan Na' merged, Nonna not inferable"}
+{"id": "s2-W8-0450", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'what's' became 'was'; question not recoverable"}

@@ -1,0 +1,50 @@
+{"id": "s4-W63-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0042", "decision": "fix_clean", "clean": "Gemold, are you still on the rotor for the weekend or did that change?", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0043", "decision": "fix_clean", "clean": "Hannah, I swear if you tell her about the surprise I will never forgive you.", "reason": "spelling_from_raw", "rules": ["RECOVER"]}
+{"id": "s4-W63-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0046", "decision": "fix_clean", "clean": "Mora will walk you through the offer letter and then we can talk about a start date.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "mate and daftest both garbled"}
+{"id": "s4-W63-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0061", "decision": "drop", "reason": "hallucination", "note": "trailing No."}
+{"id": "s4-W63-0062", "decision": "fix_clean", "clean": "Monthly money review. Income was steady, groceries crept up again, the car insurance renews in June, and we agreed no new subscriptions until the credit card is paid off, none, not even the G ones.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0063", "decision": "fix_clean", "clean": "Hi Jamal, the candidate is available for the 1st of the month, but she'd like to finish her notice period properly, which I think is fair. Can we hold the offer open until Friday and see where we land?", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0064", "decision": "fix_clean", "clean": "The lab is open from 8 to 6 on weekdays. Nobody works alone after hours, no exceptions, and anyone handling the solvents wears gloves, bubbles and a lab coat, every single time.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0065", "decision": "fix_clean", "clean": "Anna, you will not believe it, my cousin's plus one turned out to be her ex, and nobody warned me, so I spent the entire dinner smiling through gritted teeth.", "reason": "spelling_from_raw", "rules": ["RECOVER"]}
+{"id": "s4-W63-0066", "decision": "fix_clean", "clean": "Quick heads up for the on-call folks, the paging tool is being a bit dodgy, so if you don't get a text within a minute of an alert, check the dashboard yourself and shout in a channel.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Kai, band, bride all garbled"}
+{"id": "s4-W63-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first clause and checklist lost"}
+{"id": "s4-W63-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0072", "decision": "fix_clean", "clean": "Each customer ticket gets a first response within one hour, a status update every four hours, and a written summary when it closes. No ticket sits quiet overnight. Everyone's a...", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0080", "decision": "fix_clean", "clean": "Hi Laura, thanks for sending the plan over. I ran through it last night and I think the shape is right. The emergency fund comes first, six months of expenses, and we agreed on that. The part I'm less sure about is the timeline. Paying off the loan in 18 months feels tight, even the car repair and the trip in the spring. Could we stretch it to two years and see how the numbers look? I'm not trying to be difficult, I just don't want us to be stressed. Let me know what you think and we can sit down on Sunday.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0082", "decision": "fix_clean", "clean": "Team, a quick recap of the weekend on-call. We had three pages in total. The first was a disk filling up on the logging host, which Diego cleared in 10 minutes. The second was a flaky health check on the payment service, and that one resolved itself, though I filed a ticket to find out why. The third was a real outage, about 20 minutes on the login page, caused by an expired certificate. We've set a reminder for next time. Nobody was blamed, and the fix is in.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s4-W63-0083", "decision": "fix_clean", "clean": "Dear Nora, thank you for your inquiry about our broadband service. I'm sorry to hear the connection has dropped several times this week. I have looked at your line, and the readings show a fault between your house and the cabinet. An engineer has been booked for Thursday between 8 and 12, and he will need access to the front garden. There is no charge for the visit. If the fault turns out to be inside your home, we will tell you before we do any work. Please do not hesitate to call if anything changes. Yours sincerely, Kai", "reason": "spelling_from_raw", "rules": ["R10"]}
+{"id": "s4-W63-0084", "decision": "fix_clean", "clean": "Notes from the recruiting sync. The pipeline is healthy, we've got about 40 applicants for the backend role and the dozen for the designer. The main issue is speed, because good candidates are taking other offers while we schedule. Proposal one, shorten the first screen to 20 minutes. Proposal two, let hiring managers book directly into the calendar. Proposal three, drop the take-home test for senior roles. We'll trial the first two for a month and revisit the third after that.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0085", "decision": "fix_clean", "clean": "Jamal, you absolute legend, thank you for driving us home. I don't know how you stayed awake, I was gone by the second roundabout. The kids were out cold, Hanna was snoring, and your playlist was frankly terrible but we survived. Next time it's on us, dinner, drinks, the lot, and I won't hear a word about it.", "reason": "spelling_from_raw", "rules": ["RECOVER"]}
+{"id": "s4-W63-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bought/highs/club/planing me/whatever garbled"}
+{"id": "s4-W63-0087", "decision": "fix_clean", "clean": "Escalation policy for the night shift. If an alert fires, the primary on-call has five minutes to acknowledge it. If they don't, it goes to the secondary, who also has five minutes. If neither responds, the manager is called directly, and that call is logged. The aim is that no alert ever goes unanswered for more than 50 minutes. We review the log every month, and anyone who misses a page twice in a row gets a friendly chat, not a telling off.", "reason": "number_value", "rules": ["RECOVER"]}
+{"id": "s4-W63-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lift/you're garbled in a 7 word line"}
+{"id": "s4-W63-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0090", "decision": "accept", "reason": "ok"}

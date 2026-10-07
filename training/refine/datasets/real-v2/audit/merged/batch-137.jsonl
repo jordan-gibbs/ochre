@@ -1,0 +1,43 @@
+{"id": "s4-W36-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0003", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0009", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["mats heard as mess"], "auditors": ["A", "B"], "clean": "- Towels\n- Mess"}
+{"id": "s4-W36-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0011", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing Yeah. never said"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0012", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["Luis not in dictionary; raw Lewis"], "auditors": ["A", "B"], "clean": "Thank you so much, Lewis."}
+{"id": "s4-W36-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0016", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["call Femi / order lost"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0019", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["big dropped, a->the"], "auditors": ["A", "B"], "clean": "She drew the question mark on the whiteboard."}
+{"id": "s4-W36-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0025", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Choose common ... alpha"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0026", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw trip/to/Lewis"], "auditors": ["A", "B"], "clean": "Hi Grace,\n\nThe florist confirmed the delivery for Saturday morning.\n\nCan you let the venue know?\n\nAlso, I think the delivery trip needs access to the back gate.\n\nThanks,\nLewis"}
+{"id": "s4-W36-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0030", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing Yeah. never said; synagogue also lost"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0037", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0041", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["mat/towel list garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0047", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["florist said her -> floor is set a"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

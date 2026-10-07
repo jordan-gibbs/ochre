@@ -1,0 +1,50 @@
+{"id": "s4-W62-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0044", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'uptime' and 'that triggers' garbled"}
+{"id": "s4-W62-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0050", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0051", "decision": "fix_clean", "clean": "My flight's at 6 a.m., so I'm up at 3:30.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'ugh' absent from raw"}
+{"id": "s4-W62-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can you' and 'instead' lost"}
+{"id": "s4-W62-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0065", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.'"}
+{"id": "s4-W62-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ssh command garbled"}
+{"id": "s4-W62-0068", "decision": "fix_clean", "clean": "We'll need around 8 to 10 servers, maybe 12 if the load test shows badly.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'shows' for 'goes'"}
+{"id": "s4-W62-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0072", "decision": "fix_clean", "clean": "Hi Domenic, thanks for the invite. We're flying in on Thursday the 14th, landing around 2:40, and the hotel block is under the Garcie wedding at $199 a night until September 1st. After that it jumped to $249. Should I book now or wait for the shuttle details?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13", "R10"], "note": "raw spellings Domenic, Garcie; raw tense 'jumped'"}
+{"id": "s4-W62-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'twenty seven' became 'Twine'"}
+{"id": "s4-W62-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0077", "decision": "fix_clean", "clean": "The button is reproducible on build 129 with a screen size under 360 pixels, otherwise it works fine on anything wider.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'button' for 'bug'"}
+{"id": "s4-W62-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'say', 'fixes', 'bug' all garbled"}
+{"id": "s4-W62-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'we deduct' became 'We did dot to'"}
+{"id": "s4-W62-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in Lagos' became 'and laid off'; inserted 'Yeah,'"}
+{"id": "s4-W62-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Sean' became 'I shall', 'Let' became 'But'"}
+{"id": "s4-W62-0089", "decision": "fix_clean", "clean": "Heads up, the freeway's closed between exit 40 and exit 46, so we are taking the old highway. Add 25 minutes.", "reason": "spelling_from_raw", "rules": ["RECOVER", "R10"], "note": "raw has 'we are'"}
+{"id": "s4-W62-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'goal' became 'bowl'"}

@@ -1,0 +1,50 @@
+{"id": "e4-E12-0031", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0032", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer lost most of the second half"}
+{"id": "e4-E12-0034", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0035", "decision": "fix_clean", "clean": "Dear parents, the Saturday's matches have been canceled because the pitches are waterlogged. The league will announce the rescheduled fixtures by Wednesday evening. We're sorry for the late notice and thank you for your patience.", "reason": "spelling_from_raw", "rules": ["R10", "R13", "RECOVER"], "note": "raw has 'canceled' and 'the Saturday's'"}
+{"id": "e4-E12-0036", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0037", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0039", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0040", "decision": "fix_clean", "clean": "William scored twice in the second half. The parents haven't stopped talking about it.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Kwame heard as William"}
+{"id": "e4-E12-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'app for the Solent' lost"}
+{"id": "e4-E12-0042", "decision": "fix_clean", "clean": "Hi Solvig, would you be willing to do a guest spot at our studio in November? We'd cover your travel and you'd keep 60% of what you book.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "name not in dictionary; raw spelling Solvig"}
+{"id": "e4-E12-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "crew names and 'crew' garbled"}
+{"id": "e4-E12-0044", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0045", "decision": "fix_clean", "clean": "I'm moving from a two-bedroom flat in Leeds to a small house in York at the end of October and I've never organized a move on my own. Please give me a week-by-week checklist starting six weeks before the move, and include reminders for things people usually forget, like redirecting post, cancelling utilities and booking parking for the van.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'organized'"}
+{"id": "e4-E12-0046", "decision": "fix_clean", "clean": "Is the dinghy park locked after sunset, or can members get in with the fob?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the'; fog->fob inferable"}
+{"id": "e4-E12-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0048", "decision": "fix_clean", "clean": "You still got my jacket from the shop, Theoter?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "name not in dictionary"}
+{"id": "e4-E12-0049", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0050", "decision": "fix_clean", "clean": "Bienka, harvest is moved to Thursday because the cooler's being surfaced.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Priyanka->Bienka, serviced->surfaced not inferable"}
+{"id": "e4-E13-0001", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0002", "decision": "drop", "reason": "non_english", "note": "raw is German 'So geht's daran.'"}
+{"id": "e4-E13-0003", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0004", "decision": "fix_clean", "clean": "How to treat varroa mite in autumn without killing the queen", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has singular 'Mite'"}
+{"id": "e4-E13-0005", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0006", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0007", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "e4-E13-0008", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0009", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0010", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0011", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "-m and 'update' lost"}
+{"id": "e4-E13-0013", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0015", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "e4-E13-0016", "decision": "fix_clean", "clean": "docker run --rm -p 8080:80 bashier/escape-room-kiosk:latest", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "username not in dictionary; raw 'bashier'"}
+{"id": "e4-E13-0017", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' and host lost"}
+{"id": "e4-E13-0018", "decision": "fix_clean", "clean": "Audile and Pemberton baptism record 1864 Yorkshire", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Ottoline not inferable"}
+{"id": "e4-E13-0019", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0020", "decision": "fix_clean", "clean": "tar -czf backup/hype-records.tar.gz records/", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'backup' and 'hype'"}
+{"id": "e4-E13-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "username 'and Gozi' cannot be written sensibly"}
+{"id": "e4-E13-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0023", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0024", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E13-0025", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "e4-E13-0026", "decision": "fix_clean", "clean": "What does it mean when a boat is over early at the start of a regain?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "regatta not inferable from 'regain'"}
+{"id": "e4-E13-0027", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "e4-E13-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0029", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0030", "decision": "accept", "reason": "ok"}

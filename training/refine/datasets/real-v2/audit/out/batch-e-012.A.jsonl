@@ -1,0 +1,50 @@
+{"id": "e4-E10-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Ingrid'->'and read', 'pairings'->'parents'; result not a sensible dictation"}
+{"id": "e4-E10-0002", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0003", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0004", "decision": "fix_clean", "clean": "Call Oliwayson at 555-214-8830.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; use raw spelling"}
+{"id": "e4-E10-0005", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0006", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0007", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0008", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0009", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'What's'->'with'; question not recoverable from raw"}
+{"id": "e4-E10-0011", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0012", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; 'can you grab' lost"}
+{"id": "e4-E10-0013", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Osaka/Lisbon/ninth all garbled"}
+{"id": "e4-E10-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0015", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0016", "decision": "fix_clean", "clean": "We only need three more volunteers for the code check.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'code check' is a real phrase"}
+{"id": "e4-E10-0017", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0018", "decision": "fix_clean", "clean": "No, I'm a hundred percent sure Zainab takes the blitz section.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'No' not 'Nah'; Zainab recoverable via dictionary"}
+{"id": "e4-E10-0019", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0020", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0021", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0023", "decision": "fix_clean", "clean": "Ski rental is $45 the day or $160 for the whole week. Helmets are included.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the day'"}
+{"id": "e4-E10-0024", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0025", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "fenella->vanilla, lingualine garbled, 'by' lost"}
+{"id": "e4-E10-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "URL garbled: 'Northbridge Chest.more registered'"}
+{"id": "e4-E10-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0029", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0030", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0031", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0032", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0033", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0034", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Tokyo->token, digit 'oh' lost, 'their' lost"}
+{"id": "e4-E10-0036", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0037", "decision": "fix_clean", "clean": "The tournament has 128 players and seven rounds of Swiss. How many games get played in total?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'If a' became 'The' in raw"}
+{"id": "e4-E10-0038", "decision": "fix_clean", "clean": "We're expecting around 12,000 visitors in the first month, and the insurance value of the loan pieces is 2.3 million.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'loan'"}
+{"id": "e4-E10-0039", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"hall's\"->'Pulse'; not a sensible sentence"}
+{"id": "e4-E10-0041", "decision": "fix_clean", "clean": "Matteo, sorry, just to confirm, the invoice number is INB2026-0418.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "spelled letter V heard as B; keep raw"}
+{"id": "e4-E10-0042", "decision": "fix_clean", "clean": "Upload fails for any file over 25 megabytes. Test it on Chrome 129 and Firefox 131.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Test it' reads as plausible request"}
+{"id": "e4-E10-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'seat in row B'->'seed in Robee'"}
+{"id": "e4-E10-0044", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0045", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0046", "decision": "fix_clean", "clean": "First things first, thank you to everyone who stayed late to start chairs on Sunday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'stack'->'start' not inferable"}
+{"id": "e4-E10-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0048", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0049", "decision": "fix_clean", "clean": "Few hundred people came through on opening night, which is honestly more than we hoped.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "leading 'A' dropped; 'one'->'on' homophone"}
+{"id": "e4-E10-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'down two technicians'->'down to technician'; plural lost"}

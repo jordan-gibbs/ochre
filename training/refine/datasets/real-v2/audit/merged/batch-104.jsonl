@@ -1,0 +1,43 @@
+{"id": "s4-W17-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0053", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary: raw spelling 'El'"], "auditors": ["A", "B"], "clean": "Good morning, El, the invoice total is $2,500."}
+{"id": "s4-W17-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0057", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw kept only 'Which helps the language a lot.'"], "auditors": ["A", "B"]}
+{"id": "s4-W17-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0060", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'for' not 'before'"], "auditors": ["A", "B"], "clean": "So that the parents get the update, send it for Friday."}
+{"id": "s4-W17-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0062", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0063", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'true'; 'troop' not inferable"], "auditors": ["A", "B"], "clean": "Make that cake for the true banquet. The recipe is in the binder."}
+{"id": "s4-W17-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0069", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'that'"], "auditors": ["A", "B"], "clean": "I like the new plating, it's clean and that photographs well."}
+{"id": "s4-W17-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0073", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["ending 'backs in at six am' garbled to 'back sin its ictum'"], "auditors": ["A", "B"]}
+{"id": "s4-W17-0075", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["whole Rohan/Enzo sentence dropped by recognizer (>5 words)"], "auditors": ["A", "B"]}
+{"id": "s4-W17-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0078", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'not twenty' for 'got twenty'"], "auditors": ["A", "B"], "clean": "The delivery from the produce vendor is short again. We ordered 35 pounds of tomatoes and not 20. I actually told the driver and he said to call dispatch, so I'll do that after lunch and ask for a credit."}
+{"id": "s4-W17-0079", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected date '21st of June' and sign-off lost"], "auditors": ["A", "B"]}
+{"id": "s4-W17-0080", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0083", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Ela/gowns/TV clause lost; 'Rosa' as 'Russell'"], "auditors": ["A", "B"]}
+{"id": "s4-W17-0084", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0085", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'Enzo' not in dictionary; raw 'and Zo'"], "auditors": ["A", "B"], "clean": "Quick update on the ticket, the printer in the library is working again. And Zo replaced the drum unit, and the test page came out clean. Wait times for the print queue should be back to normal by tomorrow."}
+{"id": "s4-W17-0086", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected value 'tenth' lost"], "auditors": ["A", "B"]}
+{"id": "s4-W17-0087", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'already returned them' and 'keep it under one hundred words' lost"], "auditors": ["A", "B"]}
+{"id": "s4-W17-0088", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Rohan' heard as 'And'"], "auditors": ["A", "B"]}
+{"id": "s4-W17-0089", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0090", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'E stock'; 'east dock' not inferable with confidence"], "auditors": ["A", "B"], "clean": "We put the wrong labels on the pallets for the E stock. I actually caught it before the trucks left, so there's no harm done. Sorry for the confusion, I'll reprint the whole batch."}
+{"id": "s4-W17-0091", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0093", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W17-0096", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'pair them with a partner' and 'do not answer any of the prompts yourself' lost"], "auditors": ["A", "B"]}
+{"id": "s4-W17-0097", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'IT' dropped, 'guardian' as 'regarding', several article changes"], "auditors": ["A", "B"]}
+{"id": "s4-W17-0098", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'Rohan' heard as 'Well, Penn'; 'am' dropped"], "auditors": ["A", "B"], "clean": "Scout troop meeting recap. We have 14 scouts signed up for the river hike. Well, Penn will drive the van and Isaac has the first aid kit. We leave at 7 from the church lot, not the school lot. Bring lunch, two water bottles and a rain jacket. Sean said he actually likes the longer trail but the younger scouts can't do 8 miles so we'll take the short loop."}
+{"id": "s4-W17-0099", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw 'slot' singular"], "auditors": ["A", "B"], "clean": "Rosa, I need to flag something about the patient scheduling system. When we book a follow up it defaults to 15 minutes, but the biopsy follow ups really need 45 minutes, because the doctor does the wound check and the consent. It's been double booking the afternoon slot since June. Could you ask the vendor if there's a setting for per visit type durations? If not, let's just add a manual note and I'll make a sticky for the front desk."}
+{"id": "s4-W17-0100", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

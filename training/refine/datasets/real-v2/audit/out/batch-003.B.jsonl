@@ -1,0 +1,50 @@
+{"id": "s2-W1-0101", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "Hey, it's me. We still on for dinner at 7 or did you want to move it? Because I might be stuck at work until, like, 7:30.", "note": "'Are' lost"}
+{"id": "s2-W1-0102", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "From the core: Ravi told us to ignore the old pricing sheet and translate the new one into German and French before the launch on the 12th.", "note": "call heard as core"}
+{"id": "s2-W1-0103", "decision": "drop", "reason": "unrecoverable_meaning", "note": "step 2 click and 'to' lost"}
+{"id": "s2-W1-0104", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0105", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0110", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hey Claude, can you look at this function and tell me if the retry logic is right? I think it retries all 400 errors, which it shouldn't.", "note": "raw has 'all' not 'on'"}
+{"id": "s2-W1-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0113", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'her' for er"}
+{"id": "s2-W1-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0115", "decision": "drop", "reason": "unrecoverable_meaning", "note": "tail garbled"}
+{"id": "s2-W1-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0118", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening garbled"}
+{"id": "s2-W1-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0121", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "So I wrote this note to the vendor about the late shipment and honestly I think comes across kind of rude, so please soften it a little but keep the part about the penalty clause.", "note": "Hi and it lost"}
+{"id": "s2-W1-0122", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0124", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0125", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'say hi' lost"}
+{"id": "s2-W1-0126", "decision": "drop", "reason": "unrecoverable_meaning", "note": "chatbot heard as chocolate"}
+{"id": "s2-W1-0127", "decision": "drop", "reason": "unrecoverable_meaning", "note": "list garbled"}
+{"id": "s2-W1-0128", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hello Professor Lynn, here is the abstract I wrote. You mind telling me whether the first sentence is too long and if the methods are described clearly enough? And please don't rewrite it, just point out the problems.", "note": "name spelling and Would lost"}
+{"id": "s2-W1-0129", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0131", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0133", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0134", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hi Mag, I was wondering if you could rewrite the second paragraph of my proposal so it sounds less like a sales pitch. I feel like it comes off too pushy and the client is pretty conservative.", "note": "name truncated in raw"}
+{"id": "s2-W1-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0136", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "From now, answer every question as if you were a medieval knight.", "note": "'on' lost"}
+{"id": "s2-W1-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0138", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "Write the conclusion so it ties back to the opening story and...", "note": "'Re' lost"}
+{"id": "s2-W1-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0140", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'her, but' for er the"}
+{"id": "s2-W1-0141", "decision": "drop", "reason": "unrecoverable_meaning", "note": "TODO, ChatGPT, for lost"}
+{"id": "s2-W1-0142", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0145", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Patel lost"}
+{"id": "s2-W1-0146", "decision": "drop", "reason": "non_english", "note": "raw is not the dictation"}
+{"id": "s2-W1-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0148", "decision": "drop", "reason": "unrecoverable_meaning", "note": "correction garbled"}
+{"id": "s2-W1-0149", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Nice.' for uh"}
+{"id": "s2-W1-0150", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "You coming to the thing on Saturday?", "note": "'Are' lost"}

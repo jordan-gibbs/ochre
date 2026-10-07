@@ -1,0 +1,50 @@
+{"id": "s2-W7-0151", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0152", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0153", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0154", "decision": "drop", "reason": "unrecoverable_meaning", "note": "psycopg2 x2, have, pick all lost"}
+{"id": "s2-W7-0155", "decision": "drop", "reason": "unrecoverable_meaning", "note": "list->this, modes->moves, webhooks, idempotency garbled"}
+{"id": "s2-W7-0156", "decision": "drop", "reason": "unrecoverable_meaning", "note": "getItemLayout garbled, 'if' lost, danky"}
+{"id": "s2-W7-0157", "decision": "drop", "reason": "unrecoverable_meaning", "note": "avatar, pull, preview garbled"}
+{"id": "s2-W7-0158", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0159", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw heavily garbled"}
+{"id": "s2-W7-0160", "decision": "fix_clean", "clean": "This PR is quite large, so let me summarize. The first commit renames the module, the second commit moves the test, and the third one is the actual behavior change, which is that the scheduler now respects the timezone on each instead of using the server timezone. So you can review the first two quickly and spend your time on the third.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "job lost; tests->test per raw"}
+{"id": "s2-W7-0161", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Dude' for um; trailing Yeah"}
+{"id": "s2-W7-0162", "decision": "fix_clean", "clean": "And do that.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "undo misheard as real words"}
+{"id": "s2-W7-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0164", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0166", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah. from hesitation; diff->difference"}
+{"id": "s2-W7-0167", "decision": "fix_clean", "clean": "Make it a thing.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "async not inferable"}
+{"id": "s2-W7-0168", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0169", "decision": "drop", "reason": "unrecoverable_meaning", "note": "rename foo garbled"}
+{"id": "s2-W7-0170", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0171", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0172", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0174", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0175", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0176", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0177", "decision": "drop", "reason": "unrecoverable_meaning", "note": "check git blame garbled"}
+{"id": "s2-W7-0178", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0179", "decision": "fix_clean", "clean": "Nope, still feigning.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "failing->feigning"}
+{"id": "s2-W7-0180", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0182", "decision": "fix_clean", "clean": "Pump the Python version to 3.12.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "bump->Pump real word"}
+{"id": "s2-W7-0183", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0184", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled, open file path lost"}
+{"id": "s2-W7-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0187", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0188", "decision": "drop", "reason": "unrecoverable_meaning", "note": "rewrite lost"}
+{"id": "s2-W7-0189", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pull lost, main->Maine"}
+{"id": "s2-W7-0190", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W7-0191", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bug->book, lexer->lecture"}
+{"id": "s2-W7-0192", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0193", "decision": "fix_clean", "clean": "Can you explain why we need this file?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "lock->file"}
+{"id": "s2-W7-0194", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0195", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0198", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W7-0199", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0200", "decision": "accept", "reason": "ok"}

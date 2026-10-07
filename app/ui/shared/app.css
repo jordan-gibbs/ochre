@@ -1,0 +1,152 @@
+/* App-specific pieces that theme/components.css doesn't cover (gesture diagrams, latency bar,
+   hands-free phrases). Visual values come only from theme/tokens.css variables. */
+
+.keypicker { display: grid; gap: var(--space-2); justify-items: start; width: 100%; }
+.keypicker .capture { min-width: 220px; }
+.key-presets { flex-wrap: wrap; gap: var(--space-1); }
+.range-wrap { display: grid; gap: 2px; width: 220px; }
+.range-wrap .range { width: 100%; }
+.range-wrap .range-scale { width: 100%; }
+.hstack .spacer { flex: 1; }
+
+/* Voice key presets: the current key reads as selected (check + accent tint) */
+.key-presets .btn { gap: 5px; }
+.key-presets .btn svg { width: 13px; height: 13px; display: none; }
+.key-presets .btn[aria-pressed="true"] {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  box-shadow: inset 0 0 0 1px var(--accent-line);
+  font-weight: var(--weight-semibold);
+}
+.key-presets .btn[aria-pressed="true"] svg { display: block; }
+
+/* gestures: hold / double-tap / tap / Esc. Each card opens with a small scene (ui.js gestures):
+   the keycap with the user's key, a timeline cue of how it is pressed, and the mini HUD pill it
+   leads to. Vermilion only as the accent; hover plays the gesture once (not under reduced motion). */
+.gestures { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-2); }
+.gesture { padding: var(--space-2) var(--space-2) var(--space-3); border-radius: var(--radius-md); background: var(--panel-2); box-shadow: inset 0 0 0 1px var(--line); }
+.gesture .g-title, .gesture .g-desc { padding: 0 var(--space-1); }
+.gx {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 7px;
+  height: 104px;
+  margin-bottom: var(--space-3);
+  border-radius: calc(var(--radius-md) - 3px);
+  background: var(--sunk);
+  box-shadow: inset 0 0 0 1px var(--line);
+  overflow: hidden;
+}
+/* the key: the same Geist Mono keycap as the Voice key field */
+.gx-key { transition: transform var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease), background-color var(--dur-2) var(--ease), color var(--dur-2) var(--ease); }
+.gx-key.is-long { font-size: var(--text-2xs); padding: 0 6px; }
+.gx-key.is-down {
+  transform: translateY(1.5px);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  box-shadow: inset 0 0 0 1px var(--accent-line), inset 0 -1px 0 var(--accent-line);
+}
+/* the timeline cue */
+.gx-time { display: block; width: 64px; height: 12px; overflow: visible; }
+.gx-time .t-base { stroke: var(--line-2); stroke-width: 1.5; stroke-linecap: round; fill: none; }
+.gx-time .t-rec { stroke: var(--accent); stroke-width: 1.6; stroke-linecap: round; stroke-dasharray: 0.1 4; fill: none; opacity: 0.7; }
+.gx-time .t-held { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.4; }
+.gx-time .t-tap { fill: var(--accent); }
+.gx-time .t-tap.t-neutral { fill: var(--ink-3); }
+.gx-time rect { transform-box: fill-box; transform-origin: 50% 50%; }
+/* the mini HUD pill (the real HUD's colours) */
+.gx-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 26px;
+  padding: 0 10px 0 3px;
+  border-radius: var(--radius-full);
+  background: var(--hud-bg);
+  color: var(--hud-ink);
+  box-shadow: inset 0 0 0 1px var(--hud-edge), 0 0 0 1px var(--hud-outline), 0 2px 6px rgba(20, 16, 12, 0.08);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-semibold);
+  line-height: 1.3;
+  white-space: nowrap;
+  transition: transform var(--dur-3) var(--ease), opacity var(--dur-3) var(--ease);
+}
+.gx-orb {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--hud-accent-soft);
+  color: var(--hud-accent);
+}
+.gx-o { width: 13px; height: 13px; fill: currentColor; transition: transform var(--dur-3) var(--ease); }
+.gx-ico { width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.gx-pill[data-tone="locked"] { background: var(--hud-locked); color: var(--hud-on-locked); box-shadow: 0 0 0 1px rgba(120, 30, 0, 0.18), 0 2px 8px rgba(212, 64, 14, 0.28); }
+.gx-pill[data-tone="locked"] .gx-orb { background: rgba(255, 255, 255, 0.2); color: #fff; }
+.gx-pill[data-tone="done"] .gx-orb { background: var(--hud-success-soft); color: var(--hud-success); }
+.gx-pill[data-tone="cancel"] { opacity: 0.6; transform: translateY(3px) scale(0.96); }
+.gx-pill[data-tone="cancel"] .gx-orb { background: var(--hud-ink-4); color: var(--hud-ink-2); }
+.gx-pill[data-tone="cancel"] .gx-label { color: var(--hud-ink-2); }
+
+/* hover: play the gesture once */
+@media (prefers-reduced-motion: no-preference) {
+  .gesture:hover .gx-hold .gx-key { animation: gx-hold 1.6s var(--ease) both; }
+  .gesture:hover .gx-hold .gx-o { animation: gx-speak 1.6s var(--ease-in-out) both; }
+  .gesture:hover .gx-hold .t-held { animation: gx-grow 1.6s var(--ease) both; transform-origin: 0 50%; }
+  .gesture:hover .gx-double .gx-key { animation: gx-tap2 900ms var(--ease) both; }
+  .gesture:hover .gx-double .t-tap:nth-of-type(1) { animation: gx-pop 900ms var(--ease) both; }
+  .gesture:hover .gx-double .t-tap:nth-of-type(2) { animation: gx-pop 900ms var(--ease) 180ms both; }
+  .gesture:hover .gx-double .gx-pill { animation: gx-in 900ms var(--spring) 160ms both; }
+  .gesture:hover :is(.gx-tap, .gx-esc) .gx-key { animation: gx-tap1 600ms var(--ease) both; }
+  .gesture:hover :is(.gx-tap, .gx-esc) .t-tap { animation: gx-pop 600ms var(--ease) both; }
+  .gesture:hover .gx-tap .gx-pill { animation: gx-in 700ms var(--spring) 120ms both; }
+  .gesture:hover .gx-esc .gx-pill { animation: gx-out 900ms var(--ease) both; }
+}
+@keyframes gx-hold { 0% { transform: none; background: var(--panel); color: var(--ink); box-shadow: inset 0 0 0 1px var(--line-2), inset 0 -2px 0 var(--line-2); } 12%, 100% { transform: translateY(1.5px); } }
+@keyframes gx-speak { 0%, 15% { transform: scale(1); } 35% { transform: scale(1.22); } 50% { transform: scale(1.08); } 68% { transform: scale(1.28); } 85%, 100% { transform: scale(1); } }
+@keyframes gx-grow { from { transform: scaleX(0.08); } }
+@keyframes gx-tap1 { 0%, 100% { transform: none; } 20% { transform: translateY(1.5px); } }
+@keyframes gx-tap2 { 0%, 40%, 100% { transform: none; } 12%, 52% { transform: translateY(1.5px); } }
+@keyframes gx-pop { 0% { transform: scale(0.2); opacity: 0; } 30% { transform: scale(1.3); opacity: 1; } 60%, 100% { transform: none; } }
+@keyframes gx-in { 0%, 20% { transform: translateY(5px) scale(0.92); opacity: 0; } }
+@keyframes gx-out { 0%, 25% { transform: none; opacity: 1; } }
+.g-title { font-weight: var(--weight-semibold); font-size: var(--text-sm); color: var(--ink); }
+.g-desc { margin-top: 2px; color: var(--ink-2); font-size: var(--text-xs); line-height: var(--leading-snug); }
+
+/* hands-free control phrases */
+.says { display: grid; grid-template-columns: auto 1fr; gap: var(--space-2) var(--space-5); align-items: baseline; }
+.say-phrase { font-family: var(--font-mono); font-size: var(--text-sm); color: var(--companion-ink); white-space: nowrap; }
+.say-does { color: var(--ink-2); font-size: var(--text-sm); }
+
+/* last dictation latency */
+.lat-big { display: flex; align-items: baseline; gap: var(--space-3); flex-wrap: wrap; }
+.lat-num { font-family: var(--font-display); font-size: var(--text-3xl); font-weight: var(--weight-display); line-height: 1; letter-spacing: var(--tracking-display); color: var(--ink); }
+.lat-label { color: var(--ink-2); }
+.lat-bar { display: flex; gap: 3px; height: 8px; }
+.lat-bar i { display: block; border-radius: var(--radius-full); min-width: 6px; }
+.lat-legend { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-4); font-size: var(--text-xs); color: var(--ink-2); font-family: var(--font-mono); }
+.lat-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.lat-legend i { width: 8px; height: 8px; border-radius: var(--radius-xs); display: inline-block; }
+i.lat-a { background: var(--accent); }
+i.lat-b { background: var(--companion); }
+i.lat-c { background: var(--success); }
+i.lat-d { background: var(--ink-4); }
+
+/* about */
+.about-hero { padding: var(--space-7) var(--space-6); text-align: center; margin-bottom: var(--space-6); }
+.about-hero img { display: block; width: 72px; height: 72px; margin: 0 auto var(--space-4); }
+.about-hero .page-title { font-size: var(--text-3xl); }
+.about-wordmark { margin: 0; line-height: 0; }
+.about-wordmark .wordmark { --wm-h: 46px; }
+.about-hero .page-lede { margin: var(--space-2) auto 0; }
+.about-hero .hstack { justify-content: center; margin-top: var(--space-5); }
+
+.history-raw { margin-top: var(--space-1); color: var(--ink-3); font-size: var(--text-sm); }
+.empty { padding: var(--space-8) var(--space-4); text-align: center; color: var(--ink-3); }
+
+@media (max-width: 860px) {
+  .gestures { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

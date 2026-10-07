@@ -1,0 +1,50 @@
+{"id": "s2-W1-0004-r2", "decision": "drop", "reason": "hallucination", "note": "trailing 'said' never spoken"}
+{"id": "s2-W1-0010-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0020-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0022-r2", "decision": "fix_clean", "clean": "Review us and rename this function to something less vague.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Review us and'"}
+{"id": "s2-W1-0035-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Priya' became 'I pray'"}
+{"id": "s2-W1-0054-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0074-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0075-r2", "decision": "fix_clean", "clean": "Pa says that the translate button should be disabled until a language is selected.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "QA heard as Pa"}
+{"id": "s2-W1-0076-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0109-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several phrases lost"}
+{"id": "s2-W1-0113-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0122-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0129-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0140-r2", "decision": "fix_clean", "clean": "Write a Python script that renames all the files in a folder to lowercase and also replaces spaces with underscores. It should skip hidden files and ask me for confirmation before it changes.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'anything' lost"}
+{"id": "s2-W1-0149-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "column names lost"}
+{"id": "s2-W1-0162-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0165-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0175-r2", "decision": "fix_clean", "clean": "Okay, so for this section what I need is for you to rewrite it as a FAQ. Take each of the main points and turn it into a question and answer pair, and keep the answers.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'short' lost"}
+{"id": "s2-W1-0187-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0189-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0190-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0191-r2", "decision": "fix_clean", "clean": "So I just wanted to double-check: are we still planning to send the contracts out on the 15th, or has the day moved because of the holiday?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Hi all lost; date->day"}
+{"id": "s2-W1-0199-r2", "decision": "fix_clean", "clean": "Hi Rachel, so here is the intro I wrote for the newsletter: we are thrilled to announce that our spring sale starts this Friday with up to 40% off everything in store. Can you rewrite it to sound a little less like an ad and more like something a neighbour would say, and keep it under 50 words?", "reason": "spelling_from_raw", "rules": ["R10"]}
+{"id": "s2-W1-0204-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "emails mentioning / confirm garbled"}
+{"id": "s2-W1-0205-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0218-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0229-r2", "decision": "fix_clean", "clean": "Hi Alex, thanks for sending over the draft of the announcement. So I read it twice and honestly I think the content is right but the tone is a little off. It reads like a legal notice, and this is supposed to be good news for our customers. So what I would like you to do is write the whole thing so it starts with the benefit to the customer, keeps the dates and the pricing exactly as they are, and moves the fine print to the bottom. Also, can you make the subject line shorter, like under eight words? I know it's a lot to ask on short notice, but the announcement goes out on Monday morning, so I need a revised version by end of day Thursday. Let me know if anything is unclear.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'write'"}
+{"id": "s2-W1-0232-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "clause lost plus we're"}
+{"id": "s2-W1-0239-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ready->Ray, other changes"}
+{"id": "s2-W1-0247-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0253-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Text' became 'Did', babe->B"}
+{"id": "s2-W1-0263-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "invoice, wait, sentence garbled"}
+{"id": "s2-W1-0264-r2", "decision": "fix_clean", "clean": "I want you to pretend that you are a customer who was angry about a delayed order and I will practise responding to you as a support agent. Start the conversation yourself. Be realistic, don't calm down too quickly, and after about 10 messages stop and give me feedback on how I did, what I said well, and what I should work on.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw 'was', 'practise'"}
+{"id": "s2-W1-0267-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can' lost, request becomes statement"}
+{"id": "s2-W1-0273-r2", "decision": "fix_clean", "clean": "Dear Sir or Madam, I am writing to inquire about the status of my application, which I submitted on the 2nd of March. Could you please confirm that it has been received and let me know approximately when I can expect a decision? I would also appreciate it if you could send me a copy of the confirmation.", "reason": "spelling_from_raw", "rules": ["R10"]}
+{"id": "s2-W1-0274-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0280-r2", "decision": "fix_clean", "clean": "Hey, so I'm a first-year law student and I have a torts exam in two weeks. What I want you to do is quiz me. Start with negligence. Ask me one hypothetical fact pattern at a time, wait for my answer, then tell me whether I spotted all the issues, what I missed, and how a professor would rate it. Don't give me the answer before I try. Make the fact patterns realistic, like a slip and fall in a grocery store or a car accident with two drivers, and mix in some tricky ones with comparative fault and superseding causes. After every five questions, give me a quick score and tell me which topic I should review. If I say \"skip\", move on to the next one without commenting.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'rate'"}
+{"id": "s2-W1-0281-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0282-r2", "decision": "fix_clean", "clean": "I have a bunch of questions about the new on-call rotation because I don't think the doc covers them. First, what happens if you get paged at 3 in the morning? Are you expected to be online right away or is there a grace period? Second, if you work a weekend shift, do you get a comp day or is it just extra pay? And then also, who do you escalate to if the primary and the secondary both don't pick up? Is it the manager or is there a third person? I can add the answers to the doc after, so please just reply here.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hey all' lost"}
+{"id": "s2-W1-0283-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0284-r2", "decision": "fix_clean", "clean": "So this is the README for the project and honestly it needs a rewrite. The installation section is out of date, the usage examples are missing, and the contributing section is just one sentence. What I want is for you to restructure it so that it goes overview, installation, quick start, configuration, and then contributing. Keep all the existing technicals but fix anything that looks wrong. For the quick start, give me a minimal example that someone can copy and paste, and make it work on both Mac and Windows. If you are not sure about a detail, just leave a TODO marker instead of making something out.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s2-W1-0286-r2", "decision": "fix_clean", "clean": "Subject: Re: Contract renewal.\n\nHi Daniel, so I went through the renewal terms and a couple of things jumped out. The price increase is 12%, which is higher than we agreed, and the cancellation window went from 30 days to 90. I don't want to be difficult, but I want to push back on both. Did you draft a reply to the vendor for me that says we are happy to renew, that we need the increase capped at 5%, and that we want the cancellation window kept at 30 days? Keep it friendly but firm, and don't mention that we are also talking to another vendor.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Did you draft'"}
+{"id": "s2-W1-0288-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0289-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0294-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0298-r2", "decision": "drop", "reason": "hallucination", "note": "trailing 'Alright.'"}
+{"id": "s2-W1-0305-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "appear inside / you are garbled"}
+{"id": "s2-W1-0317-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'is it' became 'They said'"}
+{"id": "s2-W1-0320-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0323-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can you' / HR garbled"}

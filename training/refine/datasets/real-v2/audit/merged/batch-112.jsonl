@@ -1,0 +1,41 @@
+{"id": "s4-W21-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0053", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'abdul' heard as 'I've done', 'line height' as 'light line', typography as topography"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'F store' is a near form of app store given submitted/review"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0056", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'daniela so' heard as 'Then he'll up soul'"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0059", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'the monthly contribution is' lost; raw has 'It's'"], "auditors": ["A", "B"], "clean": "In this section we describe the savings plan. It's $200, and it's sort of flexible, so you can change it."}
+{"id": "s4-W21-0061", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Mika heard as Meeker"], "auditors": ["A", "B"], "clean": "Meeker, turn right at the light, and the studio is the brown building, you can't miss it, it's right there."}
+{"id": "s4-W21-0062", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw spells Quind"], "auditors": ["A", "B"], "clean": "Hi Quind, I'd like to confirm that the foundation inspection is passed, and we can pour the slab on Monday, as long as the weather holds."}
+{"id": "s4-W21-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0066", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Astrid heard as Aster, 'go home' as 'go on'"], "auditors": ["A", "B"], "clean": "Aster, are you still at the site? It's 9 pm, go on, the concrete isn't going anywhere."}
+{"id": "s4-W21-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Year Abdul' as email opener is an inferable 'Dear'"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0068", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'pnpm run build' heard as 'B in PMU build'"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0070", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Kalani heard as Cowani"], "auditors": ["A", "B"], "clean": "Hi Cowani, thanks for sending the file over. I went through it twice and the intake notes are fine, but the client's address is missing on page 3, and I mean I can't file without it, so could you get it from her by tomorrow?"}
+{"id": "s4-W21-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0072", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw has 'paid'"], "auditors": ["A", "B"], "clean": "I'm trying to build a monthly budget. Here's my situation: I make $5,000 after taxes, I paid $1,200 for rent and $300 for a car, and I want you to tell me what percent that is of my income."}
+{"id": "s4-W21-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0074", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'it syncs the moment you reconnect' heard as 'it sink the moment here we can act'"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0075", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'dear chen' heard as 'You're chan'"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0078", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0079", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'backs off' and 'retry loop' lost ('another read. I live.')"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0080", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the app freezes' heard as 'the outfizes'"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0082", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0083", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["name lost ('And yeah'), 'I'm stuck' heard as 'and stuff'"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0084", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'writing' heard as 'waiting'"], "auditors": ["A", "B"], "clean": "Good morning Ruth, I'm waiting to say that the board approved the budget, and the funding arrives in April, so we can hire the second attorney, which is honestly kind of a relief."}
+{"id": "s4-W21-0085", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'svg' heard as 'your sweet ye'"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0088", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'summarise'"], "auditors": ["A", "B"], "clean": "Summarise the following meeting notes in three bullet points, and keep the names, don't drop anybody, and don't add anything that isn't in the notes."}
+{"id": "s4-W21-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0091", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'chen dude' heard as 'Then do'"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0092", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'colour'"], "auditors": ["A", "B"], "clean": "The component library has no dark mode yet, so every colour token needs a dark twin, and that's kind of a lot of work, but actually it's the top ask from users."}
+{"id": "s4-W21-0093", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' that was never said"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0094", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'her refund'"], "auditors": ["A", "B"], "clean": "The client meeting at the legal aid clinic was kind of rough, she wants her refund, and we can't really give one, so we're stuck, we need to talk to the director."}
+{"id": "s4-W21-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0096", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0097", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'mika you know what, i'm like' heard as 'Unlike'"], "auditors": ["A", "B"]}
+{"id": "s4-W21-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W21-0099", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Daniela heard as Daniel"], "auditors": ["A", "B"], "clean": "Daniel, hey, the mockups are ready, all 12 screens, and I exported them to the shared folder, so you can start the handoff whenever you're ready."}

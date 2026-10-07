@@ -1,0 +1,50 @@
+{"id": "s2-W4-0451", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Or more talk' replaces 'er your talk'"}
+{"id": "s2-W4-0452", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'by noon if' lost; several garbles"}
+{"id": "s2-W4-0453", "decision": "drop", "reason": "unrecoverable_meaning", "note": "second half of message lost"}
+{"id": "s2-W4-0454", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0455", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many mishearings (bases, Ballot, Triman)"}
+{"id": "s2-W4-0456", "decision": "drop", "reason": "unrecoverable_meaning", "note": "appointment/whitening clause lost; hard for card"}
+{"id": "s2-W4-0457", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0458", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ver I are' for one-liner not inferable"}
+{"id": "s2-W4-0459", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'on it.' residue of um; 'end' heard as 'And'"}
+{"id": "s2-W4-0460", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0461", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0462", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0463", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'last time. Oh day'"}
+{"id": "s2-W4-0464", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Right the arc. I if we' unrecoverable"}
+{"id": "s2-W4-0465", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Endured/Dumb/Adam residues plus name"}
+{"id": "s2-W4-0466", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to' lost, 'It customized'"}
+{"id": "s2-W4-0467", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'But since' and 'Right.' residues of er"}
+{"id": "s2-W4-0468", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Ren Zone' for hands-on, several garbles"}
+{"id": "s2-W4-0469", "decision": "fix_clean", "clean": "Security incident response. When a suspected security incident is reported, the on-call engineer must acknowledge the report within 50 minutes and begin an initial assessment. If the incident involves customer data, the security lead must be notified immediately, and legal must be informed within two hours. All actions taken during the response must be recorded in the incident log, including timestamps and the names of those involved. After the incident is resolved, the team will hold a review within five business days and publish a summary of lessons learned.", "reason": "number_value", "rules": ["RECOVER"], "note": "raw says fifty minutes"}
+{"id": "s2-W4-0470", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0471", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' not spoken"}
+{"id": "s2-W4-0472", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0473", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0474", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0475", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0476", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No.' residue for uh, read as content"}
+{"id": "s2-W4-0477", "decision": "fix_clean", "clean": "Okay so I have to tell you about my day because it was literally the worst. I get to work and my badge does not work at all, and the security guy is like, we have no record of you. I am standing there with my coffee getting more and more annoyed. Then it turns out they had deactivated my badge by mistake because someone with a similar name left the company. I get, but still it took 40 minutes to sort out, and I missed the whole morning standup.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' after 'I get' lost in raw"}
+{"id": "s2-W4-0478", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'that where We schedule', wouldn't need, Ello and"}
+{"id": "s2-W4-0479", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Jona for Journal, leave/lead, a/the"}
+{"id": "s2-W4-0480", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0481", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0482", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I really do need the numbers by then because' lost"}
+{"id": "s2-W4-0483", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0484", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0485", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0486", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many mishearings (Batkin, law and sort of, the up)"}
+{"id": "s2-W4-0487", "decision": "drop", "reason": "unrecoverable_meaning", "note": "form key, offer, I checked lost"}
+{"id": "s2-W4-0488", "decision": "drop", "reason": "unrecoverable_meaning", "note": "education market clause lost"}
+{"id": "s2-W4-0489", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'some', 'Dumb' real-word residues; please lost; name spelling"}
+{"id": "s2-W4-0490", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large part of attendees/discussion lost"}
+{"id": "s2-W4-0491", "decision": "drop", "reason": "unrecoverable_meaning", "note": "clock/back cloak/shack/I'm call garbles"}
+{"id": "s2-W4-0492", "decision": "drop", "reason": "unrecoverable_meaning", "note": "a ball/were/our garbles"}
+{"id": "s2-W4-0493", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sparlier, we designed, final sentence lost"}
+{"id": "s2-W4-0494", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Idle for Title, 'not' lost, many garbles"}
+{"id": "s2-W4-0495", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No.' residue for uh; 'of former'"}
+{"id": "s2-W4-0496", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Bay group, economy, collar garbles"}
+{"id": "s2-W4-0497", "decision": "drop", "reason": "unrecoverable_meaning", "note": "goal sentence lost, job lost"}
+{"id": "s2-W4-0498", "decision": "drop", "reason": "unrecoverable_meaning", "note": "setup/Can you/safe for kids garbled, ending cut"}
+{"id": "s2-W4-0499", "decision": "drop", "reason": "unrecoverable_meaning", "note": "appointment/Best/Tad garbles"}
+{"id": "s2-W4-0500", "decision": "drop", "reason": "unrecoverable_meaning", "note": "main, settle in, who/to help lost"}

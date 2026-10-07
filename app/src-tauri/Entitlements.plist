@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- macOS hardened runtime entitlements (bundle.macOS.entitlements in tauri.conf.json). -->
+<plist version="1.0">
+<dict>
+	<!-- The microphone, under the hardened runtime required for notarization. -->
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+</dict>
+</plist>

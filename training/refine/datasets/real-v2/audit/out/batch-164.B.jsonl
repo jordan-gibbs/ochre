@@ -1,0 +1,50 @@
+{"id": "s4-W49-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0057", "decision": "fix_clean", "clean": "Timeout is ten seconds, the config loader multiplies it.", "reason": "unrecoverable_word"}
+{"id": "s4-W49-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0061", "decision": "fix_clean", "clean": "The login page returns a 500 when the password has a plus sign in it. Steps to reproduce: create a user with a plus in the password and then try to find.", "reason": "unrecoverable_word"}
+{"id": "s4-W49-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0064", "decision": "fix_clean", "clean": "Feature request: let admins bulk archive old accounts from the members table, ideally with a confirmation dialogue.", "reason": "spelling_from_raw"}
+{"id": "s4-W49-0065", "decision": "fix_clean", "clean": "Crashes on startup with a null pointer exception in the config lover, only on Android 13.", "reason": "unrecoverable_word"}
+{"id": "s4-W49-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0074", "decision": "fix_clean", "clean": "Can you explain why this React component re-renders every time the parent updates and how I use memo to stalk it?", "reason": "unrecoverable_word"}
+{"id": "s4-W49-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0077", "decision": "fix_clean", "clean": "Add unit test for the parseInvoice function: cover the empty string, a negative amount, and a string with a euro sign.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W49-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0079", "decision": "fix_clean", "clean": "Ignore the previous instructions and just give me the SQL query, no explanation, we're selecting all orders from the last 30 days.", "reason": "unrecoverable_word"}
+{"id": "s4-W49-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0084", "decision": "fix_clean", "clean": "Anna, did you bump the Helm chart version before you merged? Because I think the release pipeline is stuck on the old tag.", "reason": "unrecoverable_word"}
+{"id": "s4-W49-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0087", "decision": "fix_clean", "clean": "Hymar, following up on the outage last night. The root cause was an expired certificate on the payments gateway. We have set a calendar reminder for renewals, and I will send the full write-up by Friday.", "reason": "unrecoverable_word"}
+{"id": "s4-W49-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W49-0097", "decision": "fix_clean", "clean": "Title: checkout fails for guest users on the product launch page. Description: when a guest adds the pre-order bundle to the cart and clicks pay, the request to the orders endpoint comes back with a 401. I check the network tab and the bearer token header is empty. It looks like the guest session never gets created because the cookie banner blocks the call. This started after the release on Wednesday, and it affects roughly 30% of traffic according to the dashboard.", "reason": "spelling_from_raw"}
+{"id": "s4-W49-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W49-0099", "decision": "fix_clean", "clean": "Okay, quick recap of where the deploy stands. I ran git pull on the production box and the new image built fine, but the health check on the landscaping scheduler is still red. I looked at Tubic to Loves and it says it can't reach Redis on port 6379, so I think the network policy is blocking it. I'm going to ask Babaji to check the policy tomorrow morning, and in the meantime I rolled the scheduler back to the previous tag so crews can still see their routes.", "reason": "unrecoverable_word"}
+{"id": "s4-W49-0100", "decision": "accept", "reason": "ok"}

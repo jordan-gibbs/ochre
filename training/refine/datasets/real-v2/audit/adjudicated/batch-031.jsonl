@@ -1,0 +1,5 @@
+{"id": "s2-W4-0001", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "leading 'um' heard as 'And', a real word a reader keeps; also bullets garbled ('Bolle point', 'but a point')"}
+{"id": "s2-W4-0008", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'no.', a real word that reads as content/correction cue"}
+{"id": "s2-W4-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'CSV' heard as 'C E', not inferable; raw-based target is not a sensible dictation"}
+{"id": "s2-W4-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "third list item lost and raw ends on a dangling 'bullet point'; truncated list changes the message"}
+{"id": "s2-W4-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'blog' heard as 'blob'; raw word gives an odd heading, inferring 'blog' is mind-reading; torn fix vs drop -> drop"}

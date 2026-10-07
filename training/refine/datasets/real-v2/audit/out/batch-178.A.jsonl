@@ -1,0 +1,50 @@
+{"id": "s4-W54-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0052", "decision": "fix_clean", "clean": "The farm walk newsletter should mention the cheese, the cider and the new jam, and also that the stall moves to the north gate.", "reason": "unrecoverable_word", "note": "co-op heard as 'walk'"}
+{"id": "s4-W54-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'and McGlob.'"}
+{"id": "s4-W54-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0058", "decision": "fix_clean", "clean": "The pet adoption shelter is looking for a foster home for a three-legged beetle named Biscuit, preferably someone with a fenced yard.", "reason": "unrecoverable_word", "note": "beagle heard as beetle"}
+{"id": "s4-W54-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0062", "decision": "fix_clean", "clean": "We hit the pool early. The lifeguard blew the whistle on a kid doing cannonballs live.", "reason": "unrecoverable_word", "note": "'lol' heard as 'live'"}
+{"id": "s4-W54-0063", "decision": "fix_clean", "clean": "The allotment committee meets on the second Tuesday. Bring seed catalogs and any spare compost bins.", "reason": "spelling_from_raw", "note": "raw 'catalogs'"}
+{"id": "s4-W54-0064", "decision": "drop", "reason": "hallucination", "note": "'and come. Yeah.'; 'included' lost"}
+{"id": "s4-W54-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Fiona/ryokan/onsen lost"}
+{"id": "s4-W54-0066", "decision": "fix_clean", "clean": "Lucia needs a new bridle and a girth for the pony. Put it on the saddle reorder.", "reason": "unrecoverable_word", "note": "raw 'saddle re order'; saddlery not inferable"}
+{"id": "s4-W54-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0068", "decision": "drop", "reason": "unrecoverable_meaning", "note": "league/oche/pints lost"}
+{"id": "s4-W54-0069", "decision": "fix_clean", "clean": "Sarah's flight lands in Zurich at 9:40, then the train to Lucerne leaves at 10:15.", "reason": "unrecoverable_word", "note": "name spelling from raw"}
+{"id": "s4-W54-0070", "decision": "fix_clean", "clean": "The photography business inbox is full of newborn session inquiries, so can we hire a part-time editor?", "reason": "spelling_from_raw", "note": "raw 'inquiry'"}
+{"id": "s4-W54-0071", "decision": "fix_clean", "clean": "Hi Sarah, thanks for the update on the camp roster. I see we have 11 kids in the canoe group and only nine life vests, so could you order four more in the small size? Also, the bus is booked for 8:15 on Monday, not 8:30.", "reason": "unrecoverable_word", "note": "name spelling from raw"}
+{"id": "s4-W54-0072", "decision": "drop", "reason": "unrecoverable_meaning", "note": "slugs/copper tape garbled"}
+{"id": "s4-W54-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0074", "decision": "fix_clean", "clean": "Meeting notes, the clinic is changing the walk-in hours. Starting Monday at 8 to 8 instead of 9 to 6. Dana will update the sign, Colin handles the website, and we still need someone to confirm the new fob system works at the back door.", "reason": "unrecoverable_word", "note": "raw 'at' for \"it's\""}
+{"id": "s4-W54-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0076", "decision": "fix_clean", "clean": "Dear Mr. Ocafe, thank you for choosing us for your anniversary shoot. The session is booked for Saturday the 12th at 4 p.m. at the botanical garden. Please bring a change of outfit and arrive 15 minutes early. If it rains we will move it to the following Sunday.", "reason": "unrecoverable_word", "note": "Okafor heard as Ocafe"}
+{"id": "s4-W54-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Mine are the farm coa picker'"}
+{"id": "s4-W54-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled items"}
+{"id": "s4-W54-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'if it's point ... the gin'"}
+{"id": "s4-W54-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pot/compost key/share chick/wheel"}
+{"id": "s4-W54-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'serves a break soup'"}
+{"id": "s4-W54-0086", "decision": "fix_clean", "clean": "Hi Lucia, regarding the photo order, the prints are 12 by 8, not 8 by 10, and we need six of the sunset one and three of the harbour one. Delivery to the address on file.", "reason": "dropped_by_recognizer", "note": "'thank you' not in raw"}
+{"id": "s4-W54-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "hut trek/gaiters/map garbled"}
+{"id": "s4-W54-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'adoption there'"}
+{"id": "s4-W54-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Airbn post me it'"}
+{"id": "s4-W54-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "teen/coping/did"}
+{"id": "s4-W54-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0093", "decision": "fix_clean", "clean": "Hi everyone, here's a recap of the weekend at the farm. We sold out of tomatoes by 11, which was the first, and the cheese table did better than expected, around $340. The one problem was the card reader, so Colin ended up taking cash and writing names on a clipboard. Next week we're bringing the hotspot. Also, the jam vendor wants a bigger table, and Fiona offered to lend her folding one. Let's decide at Thursday's meeting. Thanks again for all the help.", "reason": "dropped_by_recognizer", "note": "co-op and Wi-Fi sentence missing from raw; 'the first', 'the hotspot'"}
+{"id": "s4-W54-0094", "decision": "fix_clean", "clean": "I need you to help me plan a garden layout for my allotment. It's about 10 meters by 4 meters, south-facing, with heavy clay soil. I want to grow tomatoes, runner beans, courgettes and some herbs, basil and dill mostly, plus a small flower border for pollinators in general. Please suggest where each crop should go, how far apart to space them, and what to do about the clay, and keep the advice suited to a cool, wet climate like the north of England.", "reason": "spelling_from_raw", "note": "raw 'meters'"}
+{"id": "s4-W54-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many lost words"}
+{"id": "s4-W54-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening sentence lost; science/grower"}
+{"id": "s4-W54-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "drip/miradura/pas des donata/a four"}
+{"id": "s4-W54-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0099", "decision": "fix_clean", "clean": "Annika and I got to the trailhead at 7 and the parking lot was already full, so we parked on the road and walked an extra mile. Then halfway up we met a guy sawing ice cream out of a backpack, no joke. We made it to the summit around noon, the view was unreal, and we ate our sandwiches next to a very friendly goat. Coming down my knee started hurting, so we took the slow path. I'll call you tomorrow, don't wait up.", "reason": "unrecoverable_word", "note": "'selling' heard as 'sawing'"}
+{"id": "s4-W54-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "rainfly/bathtub/old/test garbled"}

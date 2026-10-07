@@ -1,0 +1,50 @@
+{"id": "s2-W1-0351", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Next'/'did that package arrive'/'Or open it' (er misheard as 'Or', 'to' lost); multiple places garbled"}
+{"id": "s2-W1-0352", "decision": "accept", "reason": "ok", "note": "'Di' is a stutter fragment of 'did'"}
+{"id": "s2-W1-0353", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0354", "decision": "accept", "reason": "ok", "note": "'Elms. Tree' is a resegmentation of 'Elm Street'"}
+{"id": "s2-W1-0355", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0356", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0357", "decision": "fix_clean", "clean": "Can you explain this era to me like I'm five?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has real word 'era'; 'error' not inferable"}
+{"id": "s2-W1-0358", "decision": "fix_clean", "clean": "Summarise the last hour of this channel for me, I was in a meeting.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Summarise'"}
+{"id": "s2-W1-0359", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0360", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0361", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0362", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0363", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0364", "decision": "accept", "reason": "ok", "note": "'the post the' is a stutter artefact"}
+{"id": "s2-W1-0365", "decision": "accept", "reason": "ok", "note": "'At' -> 'Add' unambiguous"}
+{"id": "s2-W1-0366", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'forget the last thing' dropped by recognizer; removing it breaks the meaning"}
+{"id": "s2-W1-0367", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0368", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0369", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0370", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0371", "decision": "accept", "reason": "ok", "note": "'Owm' is how+um residue"}
+{"id": "s2-W1-0372", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0373", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'how to' heard as 'I'll'; raw reads as a statement, question not inferable"}
+{"id": "s2-W1-0374", "decision": "fix_clean", "clean": "Summarise the plot of Hamlet.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Summarise'"}
+{"id": "s2-W1-0375", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'or' ('whether I should or do it'), and 'um can' heard as 'And'"}
+{"id": "s2-W1-0376", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'no gore' heard as 'No girl' plus hubber/huck/And-end garbles"}
+{"id": "s2-W1-0377", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'Air' and 'Or'"}
+{"id": "s2-W1-0378", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0379", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'um the same' heard as 'On the scene'; also 'used' and 'just say'"}
+{"id": "s2-W1-0380", "decision": "accept", "reason": "ok", "note": "'Huh' residues are interjections"}
+{"id": "s2-W1-0381", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'said ignore' heard as 'setting or'; 'sent' -> 'send', 'rep' -> 'Ret'"}
+{"id": "s2-W1-0382", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um the evaluation' heard as 'On the evaluation'; also 'And'/'past' mishearings"}
+{"id": "s2-W1-0383", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No' ('And No, I only have dumbbells') and 'The'"}
+{"id": "s2-W1-0384", "decision": "fix_clean", "clean": "Hello, this is a follow-up to our conversation yesterday. Attached is the revised statement of work. Can you please review sections three and five, which is where we change the deliverables, and confirm by reply that you are happy with the new wording? If there is anything you want changed, please mark it up directly in the document and send it back.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'change' (present tense), not 'changed'"}
+{"id": "s2-W1-0385", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as real word 'No' ('tell me No if he's angry')"}
+{"id": "s2-W1-0386", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'is done' and 'Dumb. Sa'"}
+{"id": "s2-W1-0387", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'and not'; 'so' of 'so that' also lost"}
+{"id": "s2-W1-0388", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'who' and several articles dropped, 'the memo' -> 'a memo'; fix exceeds 2 places"}
+{"id": "s2-W1-0389", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'them' ('get them a blood test')"}
+{"id": "s2-W1-0390", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0391", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0392", "decision": "fix_clean", "clean": "Dear hiring manager, here's my cover letter. Can you shorten it to under 250 words, and keep the paragraph about my volunteer work because I think it's my strongest point?", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has contraction 'Here's'"}
+{"id": "s2-W1-0393", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'assistant' heard as 'effective'; 'and shorten the titles' -> 'I shorten the title'"}
+{"id": "s2-W1-0394", "decision": "fix_clean", "clean": "Please act as a negotiation coach. I'm buying a used car from a private seller. The listing price is 11,500, and I think a fair price is around 10,000. Give me an opening line, three arguments I can use, and what I should say if he refuses to budge.", "reason": "guide_violation", "rules": ["R10"], "note": "currency never spoken; '$' adds a fact"}
+{"id": "s2-W1-0395", "decision": "fix_clean", "clean": "Okay, so for the incident channel, can someone please summarise what happened in the last two hours in plain English, like no jargon, because the CEO just joined and he wants to know if customers were affected and how long it will take to fix?", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'summarise'"}
+{"id": "s2-W1-0396", "decision": "accept", "reason": "ok", "note": "'our scope' -> 'out of scope' inferable from following context"}
+{"id": "s2-W1-0397", "decision": "fix_clean", "clean": "Hi, so I have a few questions about the course. First, is it self-paced or are there live sessions? Second, how long do I have access after I finish? And third, is there a certificate the end, and is it recognized by employers?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'at' lost with the um; not re-inserted"}
+{"id": "s2-W1-0398", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0399", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0400", "decision": "accept", "reason": "ok", "note": "'air eye' is split form of AI"}

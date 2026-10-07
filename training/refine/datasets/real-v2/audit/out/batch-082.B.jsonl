@@ -1,0 +1,50 @@
+{"id": "s2-W9-0051", "decision": "fix_clean", "clean": "Now I think we should go with the cheaper one, it looks like it does the same thing.", "reason": "unrecoverable_word", "note": "raw 'Now' for nah"}
+{"id": "s2-W9-0052", "decision": "fix_clean", "clean": "Well, you know how I said I'd be there at 7.", "reason": "unrecoverable_word", "note": "lol heard as Well; no question mark said"}
+{"id": "s2-W9-0053", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0054", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0055", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0057", "decision": "fix_clean", "clean": "Yeah, you're right, I should call first, I just wasn't thinking.", "reason": "dropped_by_recognizer", "note": "raw 'should call'"}
+{"id": "s2-W9-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0059", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "out of the oat milk lost, kind->time"}
+{"id": "s2-W9-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0062", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W9-0063", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W9-0064", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0065", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0070", "decision": "fix_clean", "clean": "My phone is dying, I'll call you when I get home, okay?", "reason": "dropped_by_recognizer", "note": "Hey lost, raw has A"}
+{"id": "s2-W9-0071", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0072", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0073", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0074", "decision": "fix_clean", "clean": "Yeah, no, I like it a lot, he's so cute.", "reason": "unrecoverable_word", "note": "raw He's"}
+{"id": "s2-W9-0075", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0076", "decision": "fix_clean", "clean": "Do turn right at the one after that.", "reason": "unrecoverable_word", "note": "Dude heard as Do"}
+{"id": "s2-W9-0077", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0078", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0080", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0081", "decision": "fix_clean", "clean": "No man, I'm really not feeling it tonight, I'm so tired.", "reason": "unrecoverable_word", "note": "nah heard as No"}
+{"id": "s2-W9-0082", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Though"}
+{"id": "s2-W9-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0084", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0085", "decision": "fix_clean", "clean": "Dude, you won't believe what happened, I locked my keys in the car in...", "reason": "trailing_off", "note": "again heard as in"}
+{"id": "s2-W9-0086", "decision": "fix_clean", "clean": "Hey, can you take a look at the failing test? It's the login one.", "reason": "guide_violation", "note": "question mark on wrong clause"}
+{"id": "s2-W9-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0088", "decision": "fix_clean", "clean": "I think the book is in the cache, not the database.", "reason": "unrecoverable_word", "note": "bug heard as book"}
+{"id": "s2-W9-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "did she, and a chance"}
+{"id": "s2-W9-0090", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0091", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0094", "decision": "drop", "reason": "hallucination", "note": "trailing huh"}
+{"id": "s2-W9-0095", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "though"}
+{"id": "s2-W9-0096", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "all/at lost"}
+{"id": "s2-W9-0098", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0099", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled"}

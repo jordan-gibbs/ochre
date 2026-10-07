@@ -1,0 +1,44 @@
+{"id": "s4-W45-0001", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'lunch' lost; raw 'were you grabbing when you were what' garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0002", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw 'Do the mortgage rates thinks.' lost most of the message"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0004", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw 'No, on but on tacos' garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0008", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'Ha' absent from raw"], "auditors": ["A", "B"], "clean": "That was kind of a mess, honestly."}
+{"id": "s4-W45-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0010", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Tariq heard as 'Park', not in dictionary"], "auditors": ["A", "B"], "clean": "Park, you know the guy from the hardware store, right?"}
+{"id": "s4-W45-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0013", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'brb' heard as 'Earbie'; not inferable"], "auditors": ["A", "B"], "clean": "Gonna grab coffee, Earbie."}
+{"id": "s4-W45-0014", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected name lost ('no one has has')"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0016", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0019", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["'tax season' heard as 'taxis and'"], "auditors": ["A", "B"], "clean": "You know what, I'm gonna skip the happy hour. I'm kind of wiped from the taxis and stuff."}
+{"id": "s4-W45-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0024", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Ugh' -> 'Of', 'fried' -> 'far eyed', the -> a"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0025", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'hype' not 'hyped'"], "auditors": ["A", "B"], "clean": "No, I haven't tried the new sandwich place yet. Is it actually good or just hype?"}
+{"id": "s4-W45-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0032", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0034", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'or the broker's gonna' heard as 'of the brokers can'"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0039", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'it's for tomorrow' became 'in the fridge. Tomorrow.'"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0040", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0042", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw truncated after 'postgrews'"], "auditors": ["A", "B"]}
+{"id": "s4-W45-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0045", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'yes' for 'yeah'"], "auditors": ["A", "B"], "clean": "Mai, I mean, yes, I can cover your shift but you owe me big time."}
+{"id": "s4-W45-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W45-0049", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Laila, the line at the urgent' heard as 'La Line that the urging'"], "auditors": ["A", "B"]}

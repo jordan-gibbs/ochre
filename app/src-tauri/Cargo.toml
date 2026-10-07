@@ -1,0 +1,45 @@
+[package]
+name = "ochre-app"
+description = "Ochre: the Tauri v2 shell (HUD, tray, settings, onboarding)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+default-run = "ochre"
+
+[[bin]]
+name = "ochre"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2.7", features = [] }
+
+[dependencies]
+ochre-core = { path = "../../crates/ochre-core" }
+ochre = { path = "../../crates/ochre" }
+tauri = { version = "2.12", features = ["tray-icon", "image-png", "macos-private-api"] }
+tauri-plugin-single-instance = "2.5"
+tauri-plugin-autostart = "2.6"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ochre-platform = { version = "0.1.0", path = "../../crates/ochre-platform" }
+parking_lot = "0.12.5"
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_UI_Input_KeyboardAndMouse",
+    "Win32_System_Registry",
+] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+ochre-audio = { path = "../../crates/ochre-audio" }
+objc2 = "0.6"
+objc2-app-kit = { version = "0.3", default-features = false, features = ["std", "NSWindow", "NSResponder", "NSGraphics"] }
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }

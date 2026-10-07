@@ -1,0 +1,50 @@
+{"id": "s4-W46-0001", "decision": "fix_clean", "clean": "Lena, can you check the register tills before we open?", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0011", "decision": "fix_clean", "clean": "Either I'll send the notes after lunch.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0012", "decision": "fix_clean", "clean": "The vault finished with zero issues.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W46-0013", "decision": "fix_clean", "clean": "Finn, can you cover the counter at 2?", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0015", "decision": "fix_clean", "clean": "Why did you see the pipeline numbers?", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0017", "decision": "fix_clean", "clean": "We need more walnut, but for Friday.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0018", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0019", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0021", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0022", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0025", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0026", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0029", "decision": "fix_clean", "clean": "Hey Spenceul, do we have enough flour for Thursday's class, or should I order more?", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0031", "decision": "fix_clean", "clean": "I think the tele queue was really long on Fridays because we only have two people on the counter at lunch.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0032", "decision": "fix_clean", "clean": "In the meeting we agreed to push the launch to November 12th. Javiera owns the checklist, and Yuki will confirm with the printer.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0033", "decision": "fix_clean", "clean": "Has anyone else seeing the dashboard time out when you filter by region? I tried it twice. It just spins.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0034", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0035", "decision": "fix_clean", "clean": "I booked a ferry for Saturday at 8:15, so we need to be at the dock by 7:30.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0036", "decision": "fix_clean", "clean": "Lena, where did we land on the pricing for the annual plan? Is it still $1,900, or did legal change it?", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0038", "decision": "fix_clean", "clean": "Aiden, the whole team did a great job on the audit, and I want to say thanks.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0039", "decision": "fix_clean", "clean": "The client wants to move the demo from Wednesday to Friday.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W46-0040", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0042", "decision": "fix_clean", "clean": "Rainier, you know the supplier in Portland? I'm kind of worried they won't ship before the holiday.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0044", "decision": "fix_clean", "clean": "I'm out tomorrow for a dentist appointment, so Javier will be handling the support.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W46-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0049", "decision": "fix_clean", "clean": "Ada, could you send me the slide about church in the one with the blue chart, not the one from last quarter?", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0050", "decision": "fix_clean", "clean": "Then I think we should talk about the schedule for the holidays, like who's closing on Christmas Eve.", "reason": "unrecoverable_word"}

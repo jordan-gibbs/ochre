@@ -1,0 +1,50 @@
+{"id": "s2-W5-0151", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never spoken"}
+{"id": "s2-W5-0152", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I boat the cabin': booked vs bought not inferable"}
+{"id": "s2-W5-0153", "decision": "fix_clean", "clean": "Hey Lars, I just went through your draft and overall I think it looks really good. The intro is strong. I would maybe tighten up the second section a little bit, because it feels like it repeats what you said earlier. And one more thing, can you double check the numbers in the chart? They look slightly off to me.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken 'and one more thing'; clean dropped 'And'"}
+{"id": "s2-W5-0154", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'rev up us' for 'rebook us' not recoverable"}
+{"id": "s2-W5-0155", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0156", "decision": "fix_clean", "clean": "So I was thinking about this weekend. Instead of going to the market, maybe we could just stay in, cook something, watch a movie. I've had a really long week and I do not really feel like being around a lot of people. Is that okay with you?", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R10"], "note": "'Hey Chidi' became 'It's'; raw has \"I've\""}
+{"id": "s2-W5-0157", "decision": "drop", "reason": "unrecoverable_meaning", "note": "clean summarizes ('it is' dropped) and raw has hand/tacos bark/the fit/Harman's"}
+{"id": "s2-W5-0158", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'I'm going to dig into it more'"}
+{"id": "s2-W5-0159", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'slighting her'; also 'pick up penny time'"}
+{"id": "s2-W5-0160", "decision": "fix_clean", "clean": "So I know we said we would ship on Friday, but after talking to the car team, I think it's smarter to wait until Monday. There are a couple of bugs that could be pretty embarrassing and I would rather fix them now than deal with angry customers next week.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'car team' for QA"}
+{"id": "s2-W5-0161", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'soup, tea' became 'to deep'"}
+{"id": "s2-W5-0162", "decision": "fix_clean", "clean": "What time does the farmer's market close?", "reason": "spelling_from_raw", "rules": ["R11"], "note": "raw already clean (R11)"}
+{"id": "s2-W5-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0164", "decision": "fix_clean", "clean": "Yeah, the goalie has practice at 6 so I cannot make it before 7.", "reason": "guide_violation", "rules": ["R10", "R11"], "note": "spoken and raw 'cannot'; clean contracted"}
+{"id": "s2-W5-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0166", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'tent and' became 'dinner.'"}
+{"id": "s2-W5-0167", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0168", "decision": "fix_clean", "clean": "I think the pharmacy is closed on Sunday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Sunday'"}
+{"id": "s2-W5-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0170", "decision": "fix_clean", "clean": "Lol, that dog is huge.", "reason": "guide_violation", "rules": ["R6", "R11"], "note": "raw already clean; sentence-initial casing (R11)"}
+{"id": "s2-W5-0171", "decision": "fix_clean", "clean": "Okay, I see it now, thanks.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s2-W5-0172", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0174", "decision": "fix_clean", "clean": "What is the address? Okay.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'again' misheard as 'Okay'"}
+{"id": "s2-W5-0175", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0176", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0177", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0178", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0179", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0180", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W5-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0183", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.'"}
+{"id": "s2-W5-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0187", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0188", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0189", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'hmm' became 'Well'"}
+{"id": "s2-W5-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0191", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0192", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'noon' became 'me'"}
+{"id": "s2-W5-0193", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ship it' became 'she bit'"}
+{"id": "s2-W5-0194", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0195", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0199", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0200", "decision": "accept", "reason": "ok"}

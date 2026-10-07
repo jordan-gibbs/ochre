@@ -1,0 +1,50 @@
+{"id": "e4-E2-0041", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0042", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0043", "decision": "fix_clean", "clean": "Observing log: Saturn's rings were sharp all night, seeing held up until about 11:30 when the clouds roll.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw has 'when the clouds roll.' ('rolled in' lost)"}
+{"id": "e4-E2-0044", "decision": "fix_clean", "clean": "Dear Dr. El Cott, thank you for referring the patient who scheduled her initial records appointment for the week of the 20th.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary -> raw 'El Cott'; 'um we've' heard as 'who'"}
+{"id": "e4-E2-0045", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'if we combine our order' lost, raw ends 'interested in the', Mateo spelling: >2 places"}
+{"id": "e4-E2-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0048", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0049", "decision": "fix_clean", "clean": "Dear members, the annual general meeting of the Riverbent Paddling Club will be held on Saturday, March 8th at the boathouse, starting at 10 in the morning. Please, please make every effort to attend since we need a quorum to vote on the new dues structure.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "club name not in dictionary -> raw 'Riverbent'; smarting/dude judged inferable"}
+{"id": "e4-E2-0050", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0051", "decision": "fix_clean", "clean": "When a patient misses two consecutive adjustment appointments, the front desk should call them within 48 hours, and if we can't reach them, send a standard letter and flag the chart for Dr. Ustra to review at the next huddle.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Ustra' (no dictionary) and 'a standard letter'"}
+{"id": "e4-E2-0052", "decision": "fix_clean", "clean": "Hey Tandio, the commission's asking whether the parking study counts weekend traffic or just weekdays. I told them I'd check with you because I honestly don't remember if we...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary -> raw 'Tandio'"}
+{"id": "e4-E2-0053", "decision": "fix_clean", "clean": "Studio meeting:\n1. We're raising open studio fees to $95 a month starting January.\n2. The shelf labels need to be redone because half of them have fallen off.\n3. Engle is going to run a clay safety session for anyone mixing their own.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Engle' and 'clay safety'"}
+{"id": "e4-E2-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Oli Weisson, 'a telescope alone program', 'checkup form': >2 places"}
+{"id": "e4-E2-0055", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw ends 'repeat every ten.'; '14 days depending on rain' lost, meaning broken"}
+{"id": "e4-E2-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting 'Here in Sabernaki' and sign-off 'I follow you' garbled"}
+{"id": "e4-E2-0058", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Myrel, Mateo, 'a line of stock' (aligner) not inferable: >2 places"}
+{"id": "e4-E2-0059", "decision": "fix_clean", "clean": "Hi everyone, a few updates before the season opener. The new dock is finally in, huge thanks to Yusra and her crew for spending three weekends on it. We're also changing the sign-up process for group patterns. You'll now book through the club website instead of the email list, which should cut down on the double bookings we had last summer. And the river's still running high, about 4 feet above normal at the gauge, so beginner trips are on hold until it drops below 2 feet. I'll post updates in the channel as they come in. See you on the water.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'group patterns'"}
+{"id": "e4-E2-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'weeks' dropped, 'Tandio', 'a public comment period', 'seeding': >2 places"}
+{"id": "e4-E3-0001", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0002", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0003", "decision": "fix_clean", "clean": "Write a haiku about a telescope left out in the...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "'rain' lost; raw ends on 'the'"}
+{"id": "e4-E3-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "instruction 'fix the grammar in this sentence' lost"}
+{"id": "e4-E3-0005", "decision": "fix_clean", "clean": "Translate the next sentence into French. The zoning board meets on the second Tuesday every month.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'of' dropped"}
+{"id": "e4-E3-0006", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0007", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0008", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "e4-E3-0009", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'five' heard as 'fine'; PTA as 'tough'"}
+{"id": "e4-E3-0011", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0012", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0013", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0014", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said (also Rewrite->Write)"}
+{"id": "e4-E3-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'box pan' and 'beast firing': bisque not inferable"}
+{"id": "e4-E3-0016", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pulls us in the time' (sunset) and 'And you show me' not recoverable"}
+{"id": "e4-E3-0018", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0019", "decision": "fix_clean", "clean": "Explain like I'm five how refracting telescope works.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'a' dropped; 'like on five' idiom inferable"}
+{"id": "e4-E3-0020", "decision": "fix_clean", "clean": "Prompt idea for later: Ask the AI to draft a polite reminder to Ta parents about the bake sale sign-up deadline, which is October 24th.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Ta' for PTA not inferable"}
+{"id": "e4-E3-0021", "decision": "fix_clean", "clean": "You are a helpful assistant for a ceramic studio called the Muddy Wheel. Answer questions about class schedules, place safety and kiln bookings. If someone asks about refunds, tell them to email the front desk, and if you don't know something, say so instead of guessing. Never promise a firing date.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'ceramic', 'place safety'; Money Wheel via dictionary, dead->date inferable"}
+{"id": "e4-E3-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0023", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0024", "decision": "drop", "reason": "unrecoverable_meaning", "note": "instruction 'put this into spanish' lost"}
+{"id": "e4-E3-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'List' heard as 'With'; request no longer readable"}
+{"id": "e4-E3-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and keep it funny' heard as 'Empty the funny'"}
+{"id": "e4-E3-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'let'/'const' heard as 'Latin'/'Kant'"}
+{"id": "e4-E3-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0029", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0030", "decision": "accept", "reason": "ok"}

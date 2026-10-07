@@ -1,0 +1,43 @@
+{"id": "s2-W8-0251", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0252", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["'hiya' heard as 'I'; not inferable, removed; 'bought home' and stutter 'Yet' recoverable", "Hiya lost"], "auditors": ["A", "B"], "clean": "Just checking you got home okay. It was a bit icy on the roads, give us a text when you can."}
+{"id": "s2-W8-0253", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0254", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0257", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0258", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0259", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0260", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0262", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0264", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["uh/um heard as 'No', 'No', 'Come'", "stamps heard as stents"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0265", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["'Today.' appended; also um->'Jean', hire->'hide you'", "several garbles: Or/Jean/hide you/Today"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0266", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0267", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many misheard words: 'over', 'martial those', 'will write without the'", "tent, bug spray, marshmallows, riot garbled/lost"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0268", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'The young woman' and 'The man'", "The young/The man follow raw"], "auditors": ["A", "B"], "clean": "The old clockmaker looked up when the bell above the door rang. The young woman stood there holding a broken pocket watch. She said, \"My grandfather left me this, and I was told you were the only one who could fix it.\" He took it from her carefully, turned it over, and smiled sadly. \"I made this watch,\" he said, \"40 years ago, for a man who never came back to collect it.\" The woman stared at him. \"The man was my grandfather,\" she whispered, and for a long moment neither of them spoke."}
+{"id": "s2-W8-0269", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["tear off->'There are', underlayment->'anointment', 'at bay', 'Valeys'; too many places", "many garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0270", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0271", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0272", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0273", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0274", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["uh heard as 'Don't', inverting the reminder", "Dont residue reads as content"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0275", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0276", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0277", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0278", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0279", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0280", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'non-stick'", "raw non-stick; missing ?"], "auditors": ["A", "B"], "clean": "Which is better, a ceramic or a non-stick frying pan?"}
+{"id": "s2-W8-0281", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'the coffee stain'", "raw has the"], "auditors": ["A", "B"], "clean": "How to remove the coffee stain from a white shirt that has already been through the dryer"}
+{"id": "s2-W8-0282", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0283", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'learned' and 'it's'", "follow raw learned/it's"], "auditors": ["A", "B"], "clean": "Today I learned how to use the new cash register, it's a little bit difficult but my manager is very patient with me."}
+{"id": "s2-W8-0284", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["recognizer lost the opening 'the market was loud and bright'; remaining fragment has no subject", "first clause lost"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0286", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0287", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0288", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0289", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0290", "decision": "drop", "reasons": ["unrecoverable_meaning", "hesitation_misheard_as_word"], "notes": ["'ugh okay so' heard as 'I'll go Keso'", "I'll go Keso for ugh okay so"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0291", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0293", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'show her' -> 'sure', 'restock' -> 'We stock', 'the' -> 'A', 'and' -> 'in'; too many places", "restock/show her/cart garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0294", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0295", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'late nights and tears' absent from raw; 'Lo' is a residue", "late nights and tears lost"], "auditors": ["A", "B"], "clean": "So proud of my daughter today. She graduated from nursing school after four years of hard work, and she did it while working part-time. I cried through the whole ceremony. Congratulations, my sweet girl, the world needs more people like you."}
+{"id": "s2-W8-0296", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["uh heard as 'No' repeatedly, knees->'niece', garbled 'Ana Dégel. A mi'", "many garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0298", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'then pack the books' lost, kitchen->'title', kettle->'cattle', cancel->'can hold'", "many garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0299", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0300", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

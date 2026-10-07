@@ -1,0 +1,50 @@
+{"id": "s2-W3-0351", "decision": "fix_clean", "clean": "I am writing to request a meeting to discuss my compensation. Over the past year, I have taken on responsibility for two additional clients and led the redesign of our onboarding process, which reduced term by 18%. I would like to discuss an adjustment to my salary and title. Would you have 15 minutes next week? I am free on Tuesday after 2 or Wednesday morning.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'term' for churn"}
+{"id": "s2-W3-0352", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0353", "decision": "drop", "reason": "hallucination", "note": "trailing 'you'"}
+{"id": "s2-W3-0354", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0355", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0356", "decision": "fix_clean", "clean": "It's 5 o'clock somewhere. But Stu drinks at 6.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Let's do' became 'But Stu'"}
+{"id": "s2-W3-0357", "decision": "fix_clean", "clean": "Hi Siobhan, I hope your week is going well. I wanted to loop you in on the redesign timeline. Kowalski has finished the first round of wireframes, and they are in Figma now. The link is figma.com/file/bc123. We need your feedback by Wednesday the 5th so we can start visual design on the 6th. The full project should wrap up by the end of November, and the budget is still tracking at about $62,000 out of $70,000, so we have a bit of buffer.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw BC123; 'a' lost"}
+{"id": "s2-W3-0358", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Or' for er; 'R and no go'; tail 'before Wednesday' lost"}
+{"id": "s2-W3-0359", "decision": "drop", "reason": "unrecoverable_meaning", "note": "car payment garbled as 'On par pained'; 'On' for um"}
+{"id": "s2-W3-0360", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0361", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W3-0362", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'You have' for um before 'run the upgrade script'"}
+{"id": "s2-W3-0363", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0364", "decision": "fix_clean", "clean": "This test is skipped because it takes about 90 seconds and the psi limit is 60. You can run it locally with the slow flag. We should split it into three smaller tests, one for validation and one for the network call. Then they would each run in under 30 seconds.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'parsing' lost; CI heard as psi"}
+{"id": "s2-W3-0365", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0366", "decision": "fix_clean", "clean": "Okay, real talk, the on-call rotation is broken. Last week I got paged 11 times between midnight and 6 AM, and 9 of them were false alarms. The threshold on the disk alert is set to 80%, but that disk is always at 82. Can we raise it to 19 and add a delay of 15 minutes before it fires?", "reason": "number_value", "rules": ["RECOVER"], "note": "raw says nineteen"}
+{"id": "s2-W3-0367", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0368", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0369", "decision": "drop", "reason": "hallucination", "note": "'Do not. Yeah.' for 'due net thirty'"}
+{"id": "s2-W3-0370", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0371", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0372", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0373", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0374", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0375", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0376", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Nguyen/Okafor sentence garbled"}
+{"id": "s2-W3-0377", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'better anyway' lost, 'whose price is honestly' breaks"}
+{"id": "s2-W3-0378", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0379", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'where' for er"}
+{"id": "s2-W3-0380", "decision": "drop", "reason": "unrecoverable_meaning", "note": "subject 'The preview deployments on Vercel' lost"}
+{"id": "s2-W3-0381", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0382", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No.' for uh"}
+{"id": "s2-W3-0383", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0384", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0385", "decision": "fix_clean", "clean": "So I asked the designer if we could use the old look, and she said that the client told her to change it, but the client told me they never asked for that. So somebody is wrong here and I don't know who. Can we get everyone on a quick call to figure it out?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "logo heard as look"}
+{"id": "s2-W3-0386", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0387", "decision": "drop", "reason": "unrecoverable_meaning", "note": "URL and slides/FAQ garbled"}
+{"id": "s2-W3-0388", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0389", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0390", "decision": "drop", "reason": "unrecoverable_meaning", "note": "URL lost"}
+{"id": "s2-W3-0391", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0392", "decision": "fix_clean", "clean": "cd ~/project/my-app", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'project'"}
+{"id": "s2-W3-0393", "decision": "drop", "reason": "unrecoverable_meaning", "note": "version/is/bugs garbled"}
+{"id": "s2-W3-0394", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0395", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0396", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0397", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0398", "decision": "fix_clean", "clean": "Okay, I finally figured out the memory leak. It was the event emitter. We were adding a listener on every request and never removing it. After about 10,000 requests, Node started to warn about a possible leak, and by 50,000 the process was using something like 2 GB. One-line fix: I removed the listener on close. Memory is flat now. I will open the PR and...", "reason": "trailing_off", "rules": ["R4"], "note": "'in a bit' lost; raw ends on 'and'"}
+{"id": "s2-W3-0399", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Black' for love; 'Well' for uh; bookstore garbled"}
+{"id": "s2-W3-0400", "decision": "fix_clean", "clean": "User story: As a store manager, I want to see daily sales broken down by hour so that I can schedule staff. Acceptance criteria are that the chart covers the last seven days, the hours are shown in the store's local time zone, the data refreshes every 5 minutes, and the page loads in under 3 seconds with up to 10,000 orders. Out of scope are weekly reports and exports.", "reason": "guide_violation", "rules": ["R8", "R10"], "note": "undictated line breaks; restored dropped 'are that'/'are'"}

@@ -1,0 +1,41 @@
+{"id": "s2-W2-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'no wait for' -> four is an unambiguous homophone of the correction"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0002", "decision": "drop", "reasons": ["non_english", "non_english"], "notes": ["Whisper output Japanese/Korean script"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0003", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0005", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected value 'snow' lost ('it's no'); 'write' became 'Right'", "snow lost"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0007", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'call' misheard as 'Cool'; target verb not inferable from raw", "Call heard as Cool"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0011", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' decoded as 'Lark', readable as a name being addressed", "Lark for er"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Oh' is a pure interjection residue"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Yum' is an interjection residue; restart correction resolvable"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0024", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw is garbled; neither 'loops' nor 'orders' recoverable"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0028", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' decoded as 'Well', readable as content", "Well for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'and' is the residue of the 'en-' stutter"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0031", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Sam.ly'; 'lee' not inferable", "raw has sam.ly"], "auditors": ["A", "B"], "clean": "My email is sam.ly@gmail.com."}
+{"id": "s2-W2-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["garbled false start 'I was Kenna' dropped before restart"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'that' and 'this' are artefacts of the 'the the' / 'is is' repeats"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0034", "decision": "drop", "reasons": ["garbage", "non_english"], "notes": ["raw is unintelligible"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0041", "decision": "fix_clean", "reasons": ["trailing_off", "dropped_by_recognizer"], "notes": ["recognizer lost 'with a new project'"], "auditors": ["A", "B"], "clean": "Scratch that itch."}
+{"id": "s2-W2-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0047", "decision": "fix_clean", "reasons": ["trailing_off", "dropped_by_recognizer"], "notes": ["recognizer lost 'maybe later'"], "auditors": ["A", "B"], "clean": "Not now."}
+{"id": "s2-W2-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0050", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["Whisper appended a lone trailing 'you'; opening also garbled", "garbled"], "auditors": ["A", "B"]}

@@ -1,0 +1,7 @@
+{"id": "s4-W62-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"cut\" heard as \"at\"; raw reading not sensible"}
+{"id": "s4-W62-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"I'd bump that number up\" -> \"I mount the number up\", sign-off -> \"things. Alright.\"; B deletes raw words"}
+{"id": "s4-W62-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: count \"nine\" lost and \"clicked\" -> \"quit\""}
+{"id": "s4-W63-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"Calling me surprised\" not confidently \"Colour me\"; B also changes spelling variant"}
+{"id": "s4-W63-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"just gorgeous\" -> \"Dust Gordous\"; not confidently recoverable in a 9-word dictation"}
+{"id": "s4-W63-0029", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Nora's brother's getting the toast and Lord help us all, he's got no filter.", "note": "sided with A: Nor -> Nora (dictionary); raw \"brother's getting\" kept (contraction and verb from raw)"}
+{"id": "s4-W63-0038", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "I says the router firmware sorted but I'll believe it when I see it.", "note": "sided with A: \"I\" for Kai not a confident near form; keep raw \"I\", \"is\" dropped"}

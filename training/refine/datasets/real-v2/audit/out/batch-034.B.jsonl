@@ -1,0 +1,50 @@
+{"id": "s2-W4-0151", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cover letter heard as cavalry"}
+{"id": "s2-W4-0152", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W4-0153", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0155", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0157", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0158", "decision": "fix_clean", "clean": "Do you still have my charger?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "Hey lost"}
+{"id": "s2-W4-0159", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0160", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W4-0161", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0162", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0164", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0165", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "er heard as 'a dread'"}
+{"id": "s2-W4-0166", "decision": "fix_clean", "clean": "We show the annual price first and then the monthly price smaller underneath, because most people probably pick annual if the discount is clear, but then again some people might feel tricked if we...", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "opening words lost"}
+{"id": "s2-W4-0167", "decision": "fix_clean", "clean": "Just a heads up, though.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'though'"}
+{"id": "s2-W4-0168", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0169", "decision": "drop", "reason": "unrecoverable_meaning", "note": "git status heard as It says"}
+{"id": "s2-W4-0170", "decision": "fix_clean", "clean": "git commit -m \"fake login bug\"", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "fix heard as fake"}
+{"id": "s2-W4-0171", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pip lost"}
+{"id": "s2-W4-0172", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W4-0173", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W4-0174", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0175", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0176", "decision": "drop", "reason": "unrecoverable_meaning", "note": "apt lost"}
+{"id": "s2-W4-0177", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W4-0178", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0179", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W4-0180", "decision": "drop", "reason": "hallucination", "note": "Yeah plus dead"}
+{"id": "s2-W4-0181", "decision": "drop", "reason": "unrecoverable_meaning", "note": "two garbled places"}
+{"id": "s2-W4-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0183", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0187", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0188", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W4-0189", "decision": "fix_clean", "clean": "git add", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "dot lost"}
+{"id": "s2-W4-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0191", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W4-0192", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0194", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W4-0195", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W4-0196", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W4-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0199", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0200", "decision": "fix_clean", "clean": "What does the --no-cache flag do in Docker build?", "reason": "guide_violation", "rules": ["R6"], "note": "product name capitalized"}

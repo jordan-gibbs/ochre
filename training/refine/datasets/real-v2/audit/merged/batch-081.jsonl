@@ -1,0 +1,49 @@
+{"id": "s2-W9-0001", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["'Yeah.' appended, never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0005", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'at the light' lost by recognizer", "'at the light' lost"], "auditors": ["A", "B"], "clean": "Turn right, then it's on the left."}
+{"id": "s2-W9-0006", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'piece of so good line' garbled", "raw garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0007", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'No' for 'nah'", "raw 'No'"], "auditors": ["A", "B"], "clean": "No, I like the blue one."}
+{"id": "s2-W9-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0010", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Dude you know' became 'Did you know', turns statement into question", "dude lost, raw garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0013", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw has plural 'burritos'"], "auditors": ["A", "B"], "clean": "What do you like on your burritos?"}
+{"id": "s2-W9-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0015", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'at nine' lost as 'that not'", "time lost"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0018", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'It's' dropped by recognizer", "'It's' lost"], "auditors": ["A", "B"], "clean": "Something like 300 users."}
+{"id": "s2-W9-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0021", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Oh' for 'ha'", "raw 'Oh'"], "auditors": ["A", "B"], "clean": "Oh, you're right, it's not that far."}
+{"id": "s2-W9-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0024", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Well' for 'lol'", "lol heard as Well"], "auditors": ["A", "B"], "clean": "Well, no."}
+{"id": "s2-W9-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0030", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["'Yeah.' appended, never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0031", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["'Yeah.' appended, never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0032", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'We're' for 'you're'"], "auditors": ["A", "B"], "clean": "We're so right about that."}
+{"id": "s2-W9-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0036", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'No' for 'nah'", "raw 'No'"], "auditors": ["A", "B"], "clean": "No, I don't like spicy food."}
+{"id": "s2-W9-0037", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0046", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'The right it was my bed' garbled", "raw garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

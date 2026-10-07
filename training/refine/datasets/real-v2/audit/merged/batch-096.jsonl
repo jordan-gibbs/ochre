@@ -1,0 +1,40 @@
+{"id": "s4-W13-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0059", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'chair' heard as 'share'"], "auditors": ["A", "B"], "clean": "Helena will share the review panel next week."}
+{"id": "s4-W13-0060", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["bottle/sample/'And you' misheard"], "auditors": ["A", "B"]}
+{"id": "s4-W13-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0062", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary"], "auditors": ["A", "B"], "clean": "I actually don't mind if Marita takes the lead on the renewal."}
+{"id": "s4-W13-0063", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0074", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw spells the name Iesha"], "auditors": ["A", "B"], "clean": "I'm putting together onboarding materials for the new HR hires. Can you draft a welcome message for Iesha, who's joining the benefits team, and keep it under 100 words, warm but professional?"}
+{"id": "s4-W13-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0076", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw garbled throughout"], "auditors": ["A", "B"]}
+{"id": "s4-W13-0077", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "guide_violation"], "notes": ["'hi' lost (raw 'I I')"], "auditors": ["A", "B"], "clean": "Summarize the following customer email in two sentences. I bought the modem last week and it keeps dropping the connection every few hours."}
+{"id": "s4-W13-0078", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0079", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary"], "auditors": ["A", "B"], "clean": "Dear I Asher, thank you for your application to the accounting associate role. We were impressed by your background, and we'd like to invite you to interview at our Bristol office on the 12th of March at 10:30. Please let us know if that works."}
+{"id": "s4-W13-0081", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'sceptical'"], "auditors": ["A", "B"], "clean": "Act like a sceptical statistician reviewing my notebook and tell me where the model could be overfitting, then suggest three checks I could run."}
+{"id": "s4-W13-0082", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0086", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Mar, Gent, Lac Terrace from raw"], "auditors": ["A", "B"], "clean": "Hello Mar, I hope the move went smoothly. I'm writing because the hotel in Gent called to say our rooms are ready from 2 PM, and the parking is around the corner on the quay. Also, the restaurant you suggested, Lac Terrace, has a table for six on Saturday. Let me know if you want me to confirm."}
+{"id": "s4-W13-0088", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw garbled (boat trips, Moham, more and high morning)"], "auditors": ["A", "B"]}
+{"id": "s4-W13-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0093", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["clause 'or her backup, opens a file in the practice management system' lost"], "auditors": ["A", "B"]}
+{"id": "s4-W13-0094", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Setophy, tow, all change: too many slips"], "auditors": ["A", "B"]}
+{"id": "s4-W13-0095", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I've asked the tier two lead' lost, several slips"], "auditors": ["A", "B"]}
+{"id": "s4-W13-0097", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W13-0098", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'Hey Mara' heard as 'Say Marit'"], "auditors": ["A", "B"], "clean": "Say Marit, about the data science sync tomorrow, I know we said it's in the atrium, but facilities double booked it, so we're going to be in room 402 instead, that's the one next to the kitchen. Also, Nico wants to demo the new feature store, Tecton, and Hannah's going to present the churn results. Can you add both to the agenda and let me know if you need anything from me before then?"}
+{"id": "s4-W13-0099", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'hanging'"], "auditors": ["A", "B"], "clean": "Hanging on to the old badge until Helena confirms the new one."}
+{"id": "s4-W13-0100", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'remind babajide to cc me' heard as 'remain bad maje'"], "auditors": ["A", "B"]}

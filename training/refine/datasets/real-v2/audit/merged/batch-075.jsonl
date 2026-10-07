@@ -1,0 +1,41 @@
+{"id": "s2-W8-0201", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0202", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0203", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["raw 'Now' where 'uh' was said, at the start", "'Now' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0204", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["raw 'But' at 'uh'; also 'he'll tax' for 'I'll text'", "'But' for uh; also he'll tax"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0206", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'No to sell', 'a hundred ma', dropped 'it'", "'No to sell' for note to self; ma for amp"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0207", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Buffalo's', 'week in rush', 'card read an', 'wands'", "Buffalo's/week in/wands"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0208", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["recognizer dropped a whole clause (garden/Harold woodworking); fix exceeds 5 words", "whole sentence dropped by recognizer"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0209", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'say the low' for 'say hello' plus many word changes (their, the old, smiled, teachers, men)", "many changes by recognizer"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0210", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Okay.' never said", "trailing 'Okay.'"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0211", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'But' at 'uh'; 'wave' and 'and sometimes' lost", "wave/sometimes lost, garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0212", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0213", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'I am at the' lost"], "auditors": ["A", "B"], "clean": "Where are you? The front gate."}
+{"id": "s2-W8-0214", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Ring' heard as 'Bring'; raw reading is not sensible", "Bring for Ring"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0215", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0216", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'haha' lost", "haha lost"], "auditors": ["A", "B"], "clean": "No way, that's so funny."}
+{"id": "s2-W8-0217", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'cheap' heard as 'Sheep'", "Sheep for cheap"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0218", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0219", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0220", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0221", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0222", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["raw 'Dumb' where 'um' was said; 'now' heard as 'No.'", "'Dumb' for um; now lost"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0223", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0224", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0225", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'was' for 'is'", "raw has 'was'"], "auditors": ["A", "B"], "clean": "The new girl at work she was very kind, she bring me a coffee every morning, I want to buy her a small gift for the Christmas."}
+{"id": "s2-W8-0226", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["raw 'But' at the opening 'uh'", "'But' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0228", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0229", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0230", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0231", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0232", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'own'/'No' and 'No.' where 'uh' was said", "'own'/'No' residues for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0236", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling 'Petelbon'", "name from raw"], "auditors": ["A", "B"], "clean": "Need to remember to take my pills at 8 in the morning and again at 8 at night, the blue one with food, the white one without. And not to forget the appointment with Dr. Petelbon on the 13th. Ask about the knee."}
+{"id": "s2-W8-0237", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["raw 'No, bring a jumper' where 'uh' was said", "'No,' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0242", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'that's' for 'it's'", "raw has that's"], "auditors": ["A", "B"], "clean": "Happy birthday, hope that's a great one."}
+{"id": "s2-W8-0243", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0244", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0245", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0246", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'eight' heard as 'eat'; time value lost", "eight heard as eat"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0247", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0248", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Exange do' for 'oil change due'", "garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0249", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0250", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'line' heard as 'lying'; raw also has 'neighbor'", "fence lying"], "auditors": ["A", "B"]}

@@ -1,0 +1,9 @@
+{"id": "s4-W60-0041", "decision": "fix_clean", "clean": "Camille, I don't know if it's the cold or the altitude but I'm kind of white, so I might sit out the last climb, you guys go ahead.", "reason": "unrecoverable_word", "note": "A: 'white' kept from raw; 'set out' -> 'sit out' near-homophone kept as author wrote"}
+{"id": "s4-W60-0042", "decision": "fix_clean", "clean": "Risasso, the client wants the revisions by noon, which is insane, because they sent the notes at 11:30, so I'm just gonna say we'll do our best.", "reason": "unrecoverable_word", "note": "A: name from raw; 'by new' -> noon inferable from deadline context"}
+{"id": "s4-W60-0047", "decision": "fix_clean", "clean": "Leah, the playground is closed for repairs so the parking meetup is moved to the library lawn, and bring a blanket because the grass is soaked.", "reason": "unrecoverable_word", "note": "B: 'parking' is a real word from raw, not confidently 'park'; keep (R13)"}
+{"id": "s4-W60-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'babe' -> 'they don't forget' not sensible"}
+{"id": "s4-W60-0066", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'just nodded' -> 'Not it.' unrecoverable"}
+{"id": "s4-W60-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Where is I' for name garbles the opening"}
+{"id": "s4-W60-0079", "decision": "fix_clean", "clean": "Petro, the vault door is stuck again, and the locksmith won't be here until late 2, so if anyone needs anything from the vault, just wait, sorry.", "reason": "unrecoverable_word", "note": "B: 'late' is raw's word; never delete to hide (R13)"}
+{"id": "s4-W60-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'pick the playoffs' plus lost name; not a sensible dictation"}
+{"id": "s4-W60-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'after the drum room smells' garbled clause"}

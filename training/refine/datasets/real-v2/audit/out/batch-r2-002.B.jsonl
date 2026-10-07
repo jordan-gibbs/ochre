@@ -1,0 +1,33 @@
+{"id": "s2-W1-0345-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0350-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0375-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0377-r2", "decision": "fix_clean", "clean": "Good morning team. I drafted the response to the customer complaint about the damaged shipment and I would like a second pair of eyes before it goes out. Could someone read it and make sure I am not admitting liability? Because legal told us to be careful with the wording. I will wait until noon before sending.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'quick note' lost (raw has 'No.')"}
+{"id": "s2-W1-0382-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "SUMMY, 'short', 'past', 'cases' all misheard"}
+{"id": "s2-W1-0383-r2", "decision": "fix_clean", "clean": "I want you to help me plan a workout routine. Beginner. I can work out four days a week for about 45 minutes each, and I only have dumbbells and a pull-up bar at home. The goal is to build general strength, not to get huge. Please give me a simple split, tell me how many sets and reps for each exercise, and explain how to progress over the first eight weeks.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'I'm a' lost before Beginner"}
+{"id": "s2-W1-0385-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0386-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0387-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'exponential the cost' for backoff, plus warning/and-you changes"}
+{"id": "s2-W1-0389-r2", "decision": "fix_clean", "clean": "What are the symptoms of a little iron and how do I know if I should get a blood test?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'low' heard as 'a little'"}
+{"id": "s2-W1-0402-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0406-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'none of them', 'cut', 'for me' garbled in 3 places"}
+{"id": "s2-W1-0410-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large span lost plus many mishearings"}
+{"id": "s2-W1-0415-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cc-ing, could you, reply all, suggests garbled"}
+{"id": "s2-W1-0417-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0446-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0462-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0465-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0474-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0492-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0494-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hi, skill, pork, and an oven garbled in 4 places"}
+{"id": "s2-W1-0495-r2", "decision": "fix_clean", "clean": "From this point on I want you to behave differently. First, do not apologize. Second, do not start your answers with phrases like \"sure\" or \"certainly\" or \"of course\", just start with the answer. Third, if my question is vague, ask me one clarifying question instead of guessing. Fourth, if you don't know something, say you don't know, do not make up an answer. Fifth, keep your answers short unless I ask for more detail. If you understand these five rules, do not summarize them back to me, just say okay and wait for my first question.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'ever' lost"}
+{"id": "s2-W2-0011-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0027-r2", "decision": "fix_clean", "clean": "Deploy to staging, not production.", "reason": "guide_violation", "rules": ["R10"], "note": "'not production' was said and is not a correction"}
+{"id": "s2-W2-0028-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0040-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0060-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0096-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0116-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0125-r2", "decision": "fix_clean", "clean": "The maximum upload size is 20 MB.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'for premium accounts' lost"}
+{"id": "s2-W2-0138-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0177-r2", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W2-0194-r2", "decision": "fix_clean", "clean": "What would be the best way to learn rest in a month?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Rust' heard as 'rest'"}

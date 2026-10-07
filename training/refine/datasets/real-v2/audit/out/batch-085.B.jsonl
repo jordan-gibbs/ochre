@@ -1,0 +1,50 @@
+{"id": "s2-W10-0001", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W10-0002", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0003", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "configure/you know/API garbled"}
+{"id": "s2-W10-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0006", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W10-0007", "decision": "fix_clean", "clean": "Hey team, I wanted to give a quick update on the migration. We're about 80% done, and the hard part is behind us. We just need to cut over the replicas and run the final checks on Friday.", "reason": "dropped_by_recognizer", "note": "read lost"}
+{"id": "s2-W10-0008", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0010", "decision": "fix_clean", "clean": "My goals for this quarter are to ship a search feature, mentor the two new hires, and improve the test coverage, which is sort of embarrassing right now, it's under 40%, so I want to get it above 70.", "reason": "unrecoverable_word", "note": "raw 'a search feature'"}
+{"id": "s2-W10-0011", "decision": "fix_clean", "clean": "We cache this for 60 seconds because the upstream is kind of slow and we don't want to hammer...", "reason": "trailing_off", "note": "raw ends at hammer; 'it' lost"}
+{"id": "s2-W10-0012", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "hangs lost, correction garbled"}
+{"id": "s2-W10-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0016", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0017", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0018", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0019", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0022", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0024", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "logs/add/delete/someone garbled"}
+{"id": "s2-W10-0026", "decision": "fix_clean", "clean": "Follow up with Sam about the contract, he said it was sort of funnel but he's still waiting on legal.", "reason": "unrecoverable_word", "note": "final heard as funnel"}
+{"id": "s2-W10-0027", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah; bug heard as but"}
+{"id": "s2-W10-0028", "decision": "fix_clean", "clean": "Run the make target and wait for the green check.", "reason": "dropped_by_recognizer", "note": "'to deploy, run the script' lost"}
+{"id": "s2-W10-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "README heard as reini"}
+{"id": "s2-W10-0030", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0031", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0032", "decision": "fix_clean", "clean": "Can you check this paragraph for tone? I want it to sound friendly but not too casual.", "reason": "guide_violation", "note": "statement not a question"}
+{"id": "s2-W10-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0034", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "day / they thought at a log"}
+{"id": "s2-W10-0036", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "It's always sort / does a guarantee"}
+{"id": "s2-W10-0038", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0039", "decision": "fix_clean", "clean": "Dear hiring committee, I'm writing to apply for the senior analyst position, and I have eight years of experience in financial modelling and forecasting, and I'm particularly drawn to your company's focus on sustainability.", "reason": "spelling_from_raw", "note": "modelling"}
+{"id": "s2-W10-0040", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0041", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "names, everyone agreed, next lost"}
+{"id": "s2-W10-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0045", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0047", "decision": "fix_clean", "clean": "Dear Miss Denelka, thank you for your interest in the role, and we were really impressed with your portfolio, but unfortunately we've decided to move forward with another candidate, and we'd like to keep your details on file in case something comes up, that's okay with you.", "reason": "unrecoverable_word", "note": "name from raw; 'if' lost"}
+{"id": "s2-W10-0048", "decision": "drop", "reason": "unrecoverable_meaning", "note": "debrief garbled, it's/was"}
+{"id": "s2-W10-0049", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0050", "decision": "accept", "reason": "ok"}

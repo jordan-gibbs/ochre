@@ -1,0 +1,50 @@
+{"id": "s2-W2-0251", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value (eight hours) lost; raw ends \"no wait for it\""}
+{"id": "s2-W2-0252", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"refund\" heard as \"brief out of\"; Dear heard as Here"}
+{"id": "s2-W2-0253", "decision": "fix_clean", "clean": "The new build breaks the iOS simulator. The app launches and then immediately closes without an error message. I checked the logs and found nothing useful. It works on a physical device, so I think it was the simulator runtime, version 17.5.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'was'; tense not inferable"}
+{"id": "s2-W2-0254", "decision": "fix_clean", "clean": "Okay everyone, the incident review is scheduled and I want to make sure the right people are in the room. It is on Thursday at 3:00 PM, because the on-call team is travelling on Wednesday. Please read the timeline doc ahead of time and add any missing events. I would also like each team lead to bring one concrete action item. No blame, we just want to learn from this.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'travelling'"}
+{"id": "s2-W2-0255", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0256", "decision": "drop", "reason": "unrecoverable_meaning", "note": "read, End, a/to lost or garbled in several places"}
+{"id": "s2-W2-0257", "decision": "drop", "reason": "unrecoverable_meaning", "note": "attendees Priya/Omar lost, vendor heard as venture"}
+{"id": "s2-W2-0258", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0259", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled; CSV, columns, expected order lost"}
+{"id": "s2-W2-0260", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0261", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0262", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening clause and first step lost"}
+{"id": "s2-W2-0263", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0264", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"on\" for um; phone number partly lost; \"at Oh\""}
+{"id": "s2-W2-0265", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled spots"}
+{"id": "s2-W2-0266", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0267", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0268", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0269", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0270", "decision": "fix_clean", "clean": "Well, the best budget laptop for college students under $600 with at least 16 gigs of RAM", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "What is lost (Well); keep 'gigs' as said; not a question in raw"}
+{"id": "s2-W2-0271", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0272", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"Dom\" and \"Some\" for um"}
+{"id": "s2-W2-0273", "decision": "drop", "reason": "unrecoverable_meaning", "note": "is aware, if you, stay offline garbled/lost"}
+{"id": "s2-W2-0274", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"I'm for it\" from \"um for it\""}
+{"id": "s2-W2-0275", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"of that\", \"Again\" for than um / uh"}
+{"id": "s2-W2-0276", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening clause lost, Warren for warn"}
+{"id": "s2-W2-0277", "decision": "fix_clean", "clean": "I think we are overthinking the naming. The module just fetches user preferences. I mean, preferences service is more descriptive, but it is also longer. Let's just pick one and move on.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R6"], "note": "'so user prefs is fine' lost; Let's apostrophe"}
+{"id": "s2-W2-0278", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0279", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"though\" for uh reads as content"}
+{"id": "s2-W2-0280", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0281", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected month (May) heard as \"me\"; took out; several places"}
+{"id": "s2-W2-0282", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected email value lost"}
+{"id": "s2-W2-0283", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0284", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0285", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first sentence lost; today/jaw/spray several places"}
+{"id": "s2-W2-0286", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected time nine lost, fit lost"}
+{"id": "s2-W2-0287", "decision": "drop", "reason": "unrecoverable_meaning", "note": "middle of message lost"}
+{"id": "s2-W2-0288", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0289", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0290", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"it feels fresher\" lost, \"this market and\""}
+{"id": "s2-W2-0291", "decision": "drop", "reason": "unrecoverable_meaning", "note": "git log heard as Get both; oneline garbled"}
+{"id": "s2-W2-0292", "decision": "drop", "reason": "unrecoverable_meaning", "note": "books/votes, in/and, in the app several places"}
+{"id": "s2-W2-0293", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0294", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected name Priya lost"}
+{"id": "s2-W2-0295", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0296", "decision": "fix_clean", "clean": "I think I left my umbrella at your place. It is the black one with the metal handle. No rush, I just want to check before I buy a new one. Let me know if you see it.", "reason": "unrecoverable_word", "rules": ["R10"], "note": "raw has 'want'; tense not inferable"}
+{"id": "s2-W2-0297", "decision": "drop", "reason": "hallucination", "note": "\"Well, I'm not sure.\" invented; most content lost"}
+{"id": "s2-W2-0298", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0299", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0300", "decision": "accept", "reason": "ok"}

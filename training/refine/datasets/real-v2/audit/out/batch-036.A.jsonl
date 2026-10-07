@@ -1,0 +1,50 @@
+{"id": "s2-W4-0251", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'if er none' became 'of PR. None'; PR is a real token in place of the hesitation"}
+{"id": "s2-W4-0252", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer lost 'by team member right now i have to scroll through everything to'"}
+{"id": "s2-W4-0253", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0254", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'launching a new line' heard as 'enlarging a new mine'"}
+{"id": "s2-W4-0255", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0256", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Avoid a' heard as 'Why did'"}
+{"id": "s2-W4-0257", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0258", "decision": "accept", "reason": "ok", "note": "'Plead a' is a merge of 'Please add a', inferable"}
+{"id": "s2-W4-0259", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0260", "decision": "fix_clean", "clean": "The show was set in the Victorian period.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'was'"}
+{"id": "s2-W4-0261", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0262", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0263", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0264", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0265", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dear John' heard as 'Here, John'; greeting not inferable"}
+{"id": "s2-W4-0266", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0267", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0268", "decision": "fix_clean", "clean": "Five flowers, candles, and matches.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Five' for 'Buy'"}
+{"id": "s2-W4-0269", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0270", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0271", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0272", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hack' heard as 'hap' and 'works' as 'worked'"}
+{"id": "s2-W4-0273", "decision": "accept", "reason": "ok", "note": "read/red homophone, unambiguous"}
+{"id": "s2-W4-0274", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0275", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0276", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0277", "decision": "fix_clean", "clean": "Aaron's\nCall the bank\nRenew passport", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Aaron's' for 'errands'"}
+{"id": "s2-W4-0278", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sign-off name 'Ben' heard as 'bed'"}
+{"id": "s2-W4-0279", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0280", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0281", "decision": "fix_clean", "clean": "Thank you for the update, I will review this afternoon.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'it'"}
+{"id": "s2-W4-0282", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'weekend comma' heard as 'week in Palma'; 'um comma' heard as 'Come'; 'handled' as 'Handle'"}
+{"id": "s2-W4-0283", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0284", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Gym' heard as 'Jim' and 'Jess' as 'just'"}
+{"id": "s2-W4-0285", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'or' ('raise the limit or if possible'); 'error text' heard as 'air tax'"}
+{"id": "s2-W4-0286", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'whitespace' heard as 'like these', 'slash' lost, 'call it on' garbled"}
+{"id": "s2-W4-0287", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated after 'mentioned that'; most of the request lost"}
+{"id": "s2-W4-0288", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No.' before 'For most people'"}
+{"id": "s2-W4-0289", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'shift' heard as 'ship' and sign-off 'Priya' as 'for you'"}
+{"id": "s2-W4-0290", "decision": "fix_clean", "clean": "Outside.\nCome down when you are ready, no rush.\nI brought coffee.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'hey, i am'; starts with 'Autside'"}
+{"id": "s2-W4-0291", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled: 'in with S sport', 'with you', 'nut'"}
+{"id": "s2-W4-0292", "decision": "accept", "reason": "ok", "note": "'makes' for 'mix' inferable in recipe context; 'Ur.' is residue"}
+{"id": "s2-W4-0293", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer lost 'and no one explained the delay ... order was taken incorrectly'"}
+{"id": "s2-W4-0294", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large losses: 'know when to expect each', 'be sent to the people team', 'only'"}
+{"id": "s2-W4-0295", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'some' ('tracks some household expenses'); 'explanation short' also lost"}
+{"id": "s2-W4-0296", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles: 'Check our', 'of her Renewal', 'all on reminders', 'chick act or'"}
+{"id": "s2-W4-0297", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled: 'The trust. Be coming.', 'drink.' lost Thursday clause"}
+{"id": "s2-W4-0298", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled: 'This been triple', 'rhinop', 'Custer. Parts'"}
+{"id": "s2-W4-0299", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sign-off 'Omar' heard as 'on more'; 'er' heard as 'Or'"}
+{"id": "s2-W4-0300", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated after 'profile schema.'; most content lost"}

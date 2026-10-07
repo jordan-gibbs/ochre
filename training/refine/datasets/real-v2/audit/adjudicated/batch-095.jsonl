@@ -1,0 +1,5 @@
+{"id": "s4-W13-0001", "decision": "accept", "reason": "ok", "note": "A: 'Bing' -> 'Ping' inferable slip in Slack; correction resolvable"}
+{"id": "s4-W13-0013", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: corrected name and 'is stuck' lost"}
+{"id": "s4-W13-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: corrected value Boulder heard as 'Folder'; correction unresolvable"}
+{"id": "s4-W13-0033", "decision": "fix_clean", "clean": "Write this paragraph for the knowledge base and keep it friendly.", "reason": "unrecoverable_word", "note": "A: raw 'Right' -> homophone 'Write'; 'Rewrite' not inferable"}
+{"id": "s4-W13-0041", "decision": "fix_clean", "clean": "We are meeting the client at the Knoxville branch and then heading back.", "reason": "spelling_from_raw", "note": "A: raw has 'We are'; keep the input form"}

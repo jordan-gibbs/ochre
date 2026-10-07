@@ -1,0 +1,50 @@
+{"id": "s4-W41-0051", "decision": "fix_clean", "clean": "Hey Layla, can you re-export the Pro Tools session from yesterday?", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0054", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0056", "decision": "fix_clean", "clean": "I'm trying to understand index funds versus ETFs for a long-term plan. I'm 32, I can put in about $500 a month, and what I can't figure out is whether the fees aren't...", "reason": "trailing_off"}
+{"id": "s4-W41-0057", "decision": "fix_clean", "clean": "Adrian, the framing inspection is on Thursday, I think, and the drywall guys are scheduled for the same date which won't work because they can't start until the inspector has...", "reason": "spelling_from_raw"}
+{"id": "s4-W41-0058", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0061", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W41-0062", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0063", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0065", "decision": "fix_clean", "clean": "Well, did you see the new button styles? I think they look great but I'm not sure the contrast ratio on the secondary button is...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0071", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0072", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0074", "decision": "fix_clean", "clean": "Damien, the intake numbers for the month are in. We saw about 200 new clients which is up from last month, and the biggest category was housing, followed by...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0076", "decision": "fix_clean", "clean": "I need a polite email to a landlord about a broken heater. It's been out for five days, I've already called twice, and I wanted to mention that the lease says the landlord has to...", "reason": "spelling_from_raw"}
+{"id": "s4-W41-0077", "decision": "fix_clean", "clean": "Could you figure out why the tab bar flickers when we switch between the home and search screens? It might be related to how the navigation stack is...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0078", "decision": "fix_clean", "clean": "The thing is, Sheerer, we told the client the tokens would ship in version 2.1, but the spacing tokens aren't really done and I don't want to promise...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0079", "decision": "fix_clean", "clean": "We need to file by the 30th and the clerk's office closes at 4.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W41-0080", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0081", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0085", "decision": "fix_clean", "clean": "Hi Nora, I wanted to give you a full update on the mix. I went through all 12 tracks last night and I think we're close. The vocals sit well now, the strings need to come up maybe a decibel, the bridge feels a bit empty so I'm going to try doubling the panel, and I also want to try a different reverb on the second verse because the current one makes the words a little hard to understand. Anyway, let me know what you think and whether you want me to...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0086", "decision": "fix_clean", "clean": "Hey everyone, mobile app standup recap. Selen is finishing the offline mode work and says it should be ready for review tomorrow, Damien is blocked on the payment SDK upgrade because the new version dropped support for a method we use, Layla found that the search results screen is slow on Android and she thinks it's the image loading, and I'm going to spend today on the release notes and on figuring out why the beta testers keep seeing the old onboarding, which honestly might be a caching issue or it might be that we...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0087", "decision": "fix_clean", "clean": "Thoughts after talking with the clinic director.\n1. We need a better intake form because people leave blank fields and then we chase them for weeks.\n2. The waiting room is too small on Tuesdays so we should maybe stagger appointments.\n3. The volunteer lawyers want clear case summaries before they take a file.\n4. The one thing nobody has figured out yet is how we're going to...", "reason": "guide_violation"}
+{"id": "s4-W41-0088", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0089", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0090", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0093", "decision": "fix_clean", "clean": "I just realized that the quarterly tax estimate is due on the 15th, which means I'd have to move money out of savings by...", "reason": "spelling_from_raw"}
+{"id": "s4-W41-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0095", "decision": "fix_clean", "clean": "Honestly, no, I've been meaning to tell you that...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0096", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0099", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0100", "decision": "fix_clean", "clean": "Sil in, the app is fine on iOS but on Android the keyboard covers the input field and I tried the usual effects with the resize mode and it didn't change anything so I'm wondering if it's the...", "reason": "unrecoverable_word"}

@@ -1,0 +1,50 @@
+{"id": "s2-W8-0251", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0252", "decision": "fix_clean", "clean": "Just checking you got home okay. It was a bit icy on the roads, give us a text when you can.", "reason": "dropped_by_recognizer", "note": "Hiya lost"}
+{"id": "s2-W8-0253", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0254", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0255", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0256", "decision": "fix_clean", "clean": "For the party we need balloons and somebody to pick up Grandpa.", "reason": "dropped_by_recognizer", "note": "a cake lost; Okay artefact"}
+{"id": "s2-W8-0257", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0258", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0259", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0260", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0261", "decision": "fix_clean", "clean": "Had my first pottery class today, at the community center, and it was so much harder than it looks. My first bowl collapsed twice, the teacher laughed and said everybody does that. Then the third one stayed up and honestly I was prouder of that wobbly thing than anything I have made in years. I'm going back next week, there are eight of us in the class and one woman is 83. Excuses.", "reason": "dropped_by_recognizer", "note": "so no lost; center spelling"}
+{"id": "s2-W8-0262", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0263", "decision": "drop", "reason": "unrecoverable_meaning", "note": "loud heard as allowed"}
+{"id": "s2-W8-0264", "decision": "drop", "reason": "unrecoverable_meaning", "note": "stamps heard as stents"}
+{"id": "s2-W8-0265", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several garbles: Or/Jean/hide you/Today"}
+{"id": "s2-W8-0266", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0267", "decision": "drop", "reason": "unrecoverable_meaning", "note": "tent, bug spray, marshmallows, riot garbled/lost"}
+{"id": "s2-W8-0268", "decision": "fix_clean", "clean": "The old clockmaker looked up when the bell above the door rang. The young woman stood there holding a broken pocket watch. She said, \"My grandfather left me this, and I was told you were the only one who could fix it.\" He took it from her carefully, turned it over, and smiled sadly. \"I made this watch,\" he said, \"40 years ago, for a man who never came back to collect it.\" The woman stared at him. \"The man was my grandfather,\" she whispered, and for a long moment neither of them spoke.", "reason": "unrecoverable_word", "note": "The young/The man follow raw"}
+{"id": "s2-W8-0269", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles"}
+{"id": "s2-W8-0270", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0271", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0272", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0273", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0274", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Dont residue reads as content"}
+{"id": "s2-W8-0275", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0276", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0277", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0278", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W8-0279", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0280", "decision": "fix_clean", "clean": "Which is better, a ceramic or a non-stick frying pan?", "reason": "spelling_from_raw", "note": "raw non-stick; missing ?"}
+{"id": "s2-W8-0281", "decision": "fix_clean", "clean": "How to remove the coffee stain from a white shirt that has already been through the dryer", "reason": "unrecoverable_word", "note": "raw has the"}
+{"id": "s2-W8-0282", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0283", "decision": "fix_clean", "clean": "Today I learned how to use the new cash register, it's a little bit difficult but my manager is very patient with me.", "reason": "unrecoverable_word", "note": "follow raw learned/it's"}
+{"id": "s2-W8-0284", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first clause lost"}
+{"id": "s2-W8-0285", "decision": "fix_clean", "clean": "Drop off the kids at school at 8:15, then yoga...", "reason": "trailing_off", "note": "9:30 lost; raw ends at yoga"}
+{"id": "s2-W8-0286", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0287", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0288", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0289", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0290", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "I'll go Keso for ugh okay so"}
+{"id": "s2-W8-0291", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0292", "decision": "fix_clean", "clean": "This air fryer is very good for the price, I use it every morning for my breakfast and it worked perfect, it's easy to clean and not make too much noise. My only problem is the basket is a little bit small, but maybe it's normal. I recommend it to my friends and my family.", "reason": "unrecoverable_word", "note": "follow raw grammar"}
+{"id": "s2-W8-0293", "decision": "drop", "reason": "unrecoverable_meaning", "note": "restock/show her/cart garbled"}
+{"id": "s2-W8-0294", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0295", "decision": "fix_clean", "clean": "So proud of my daughter today. She graduated from nursing school after four years of hard work, and she did it while working part-time. I cried through the whole ceremony. Congratulations, my sweet girl, the world needs more people like you.", "reason": "dropped_by_recognizer", "note": "late nights and tears lost"}
+{"id": "s2-W8-0296", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles"}
+{"id": "s2-W8-0297", "decision": "fix_clean", "clean": "Okay team, gather round. First of all, I want to say how proud I am of how far you have come this season. In September half of you could not pass the ball straight, and now look at you. Tonight we played the Tigers, they are big and loud and they will try to scare you, but we are not scared. We play our game, we pass, we talk to each other, we help each other up. If somebody makes a mistake we say next one, okay? And win or lose, we shake hands and say good game, and then we get pizza. Deal? Alright, hands in.", "reason": "unrecoverable_word", "note": "raw says played"}
+{"id": "s2-W8-0298", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles"}
+{"id": "s2-W8-0299", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0300", "decision": "accept", "reason": "ok"}

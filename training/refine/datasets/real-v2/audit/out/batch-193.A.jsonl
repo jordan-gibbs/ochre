@@ -1,0 +1,50 @@
+{"id": "s4-W62-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cut' heard as 'at'; verb not inferable, raw reading not sensible"}
+{"id": "s4-W62-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I'd bump that' -> 'I mount the', 'hit' for 'had', sign-off 'thanks, jorge' -> 'things. Alright.'"}
+{"id": "s4-W62-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'nine' lost ('I actually entered'), 'clicked' -> 'quit'"}
+{"id": "s4-W62-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'errand ... toll for the week in That's leak six' garbled"}
+{"id": "s4-W62-0096", "decision": "fix_clean", "clean": "The matchmaking system groups players into lobbies of eight, and it waits up to 30 seconds to fill a lobby before it starts with bots. Skill rating ranges from 0 to 3,000, and a lobby can span at most 400 points between the highest and lowest player. If a player has waited more than 20 seconds, their range widens by 50 points every 5 seconds, up to a maximum of 800. Players on mobile are only matched with other mobile players unless the queue time passes 60 seconds, in which case cross-platform matching kicks in. All of these numbers are tunable in the config and default to the values here.", "reason": "unrecoverable_word", "note": "raw has 'Their range'"}
+{"id": "s4-W62-0097", "decision": "fix_clean", "clean": "I need you to write a test plan for a checkout flow. It should cover credit card payments from $1 up to $10,000, discount codes that take between 5 and 5% off, and shipping to at least three countries. Include edge cases like a cart with zero items and a cart with 101 items, because our limit is 100. Keep it to about two pages because there are a lot of cases. Use plain language, and don't write any code.", "reason": "number_value", "note": "raw has 5%, not 50%"}
+{"id": "s4-W62-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'release think', 'next Senghas', 'would duplicate', 'count as' etc."}
+{"id": "s4-W63-0001", "decision": "fix_clean", "clean": "Ain't no way I'm wearing the ducks again.", "reason": "unrecoverable_word", "note": "raw 'the ducks' for 'that tux'"}
+{"id": "s4-W63-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0005", "decision": "fix_clean", "clean": "The painter went off again, again.", "reason": "unrecoverable_word", "note": "raw 'painter' for 'pager'"}
+{"id": "s4-W63-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Calling me surprised' for 'colour me surprised'"}
+{"id": "s4-W63-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0015", "decision": "fix_clean", "clean": "Mom says hi.", "reason": "spelling_from_raw", "note": "raw has 'Mom'"}
+{"id": "s4-W63-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'He's easy.'"}
+{"id": "s4-W63-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw kept only 'Then fun.'"}
+{"id": "s4-W63-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'just gorgeous' -> 'Dust Gordous'"}
+{"id": "s4-W63-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0026", "decision": "fix_clean", "clean": "We're driving up Saturday morning, early doors, so the traffic doesn't eat us a lot.", "reason": "unrecoverable_word", "note": "raw 'a lot' for 'alive'"}
+{"id": "s4-W63-0027", "decision": "fix_clean", "clean": "The call handoff is at 9 sharp, not a minute after, so please be online.", "reason": "dropped_by_recognizer", "note": "raw lost 'on' and the repeated 'nine sharp'"}
+{"id": "s4-W63-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0029", "decision": "fix_clean", "clean": "Nora's brother's getting the toast and Lord help us all, he's got no filter.", "reason": "unrecoverable_word", "note": "raw 'getting' for 'giving'"}
+{"id": "s4-W63-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0032", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W63-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0038", "decision": "fix_clean", "clean": "I says the router firmware sorted but I'll believe it when I see it.", "reason": "unrecoverable_word", "note": "raw 'I' for Kai, 'is' dropped"}
+{"id": "s4-W63-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and amara's got the ice' -> 'I'm always got the us'"}

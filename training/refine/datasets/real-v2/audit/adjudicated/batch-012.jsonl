@@ -1,0 +1,14 @@
+{"id": "s2-W2-0060", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um is dep-' became real words 'This step'; target needs deleting content a reader of raw would keep (side A)"}
+{"id": "s2-W2-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "retracted part garbled ('Does parking now'); fixes needed in 3 places (I'm, 'the truck', corrective 'actually' cue)"}
+{"id": "s2-W2-0070", "decision": "fix_clean", "clean": "How do I convert a string to a float in Python?", "reason": "guide_violation", "note": "missing ? on a question; dataset search rows use ? (side B)"}
+{"id": "s2-W2-0072", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to' lost by recognizer; restoring it reads the speaker's mind, removing it yields 'going skip' (neither auditor's call clean)"}
+{"id": "s2-W2-0075", "decision": "fix_clean", "clean": "Meeting with the landlord on the 13th at 9:00.", "reason": "dropped_by_recognizer", "note": "'am' absent from raw; minimal edit keeps author's 9:00 form (side A)"}
+{"id": "s2-W2-0076", "decision": "fix_clean", "clean": "We cache the result for 60 seconds, not 30, to reduce load on the database.", "reason": "guide_violation", "note": "'not thirty' is spoken contrastive content, not a self-correction; clean omitted it (side A)"}
+{"id": "s2-W2-0081", "decision": "fix_clean", "clean": "Let me know if you have any concerns before the 30th.", "reason": "guide_violation", "note": "'or rather' is an R2 correction cue; keep only 'any concerns' (side A)"}
+{"id": "s2-W2-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Wedget' is not a near spelling of WebKit; keeping 'Wedget' trains a non-word (neither A's accept nor B's fix)"}
+{"id": "s2-W2-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'on-call' heard as 'uncle'; not safely inferable, and 'uncle shift' is not a sensible dictation"}
+{"id": "s2-W2-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'this spacing. It's cleaner.' supports several targets ('This spacing, it's cleaner'); the/this plus added 'It' make fix uncertain"}
+{"id": "s2-W2-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in' heard as 'And' and 'soon' lost; target not inferable (side A)"}
+{"id": "s2-W2-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'CI' heard as 'sign' and 'you merge' lost (side A)"}
+{"id": "s2-W2-0094", "decision": "fix_clean", "clean": "Hi team, just a quick update: the launch is on track, actually slightly ahead of schedule.", "reason": "dropped_by_recognizer", "note": "'and' absent from raw; remove it, everything else unchanged (side A)"}
+{"id": "s2-W2-0096", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Whisper wrote 'uh' as real word 'up' ('export it up') (side A)"}

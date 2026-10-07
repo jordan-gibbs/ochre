@@ -1,0 +1,8 @@
+{"id": "s2-W2-0155", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to' lost; 'from August 3rd, August 12th' is not a sensible dictation and re-inserting 'to' violates recoverability"}
+{"id": "s2-W2-0159", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'We be trying timeouts' cannot yield 'retry on'; B's fix keeps 'retry' absent from raw"}
+{"id": "s2-W2-0164", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost the entire first sentence (6 words); exceeds fix limit"}
+{"id": "s2-W2-0168", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'week' misheard as 'Wait', which reads as a correction cue; 'week' not recoverable"}
+{"id": "s2-W2-0179", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and' lost: 'on Monday. Tuesday.' reads as a correction to Tuesday, so 'Monday and Tuesday' is not inferable"}
+{"id": "s2-W2-0181", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "stuttered 'and um' became 'Anne.', a real name readable as a vocative; plus 'Spring' vs 'Sprint' ambiguity"}
+{"id": "s2-W2-0188", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the tests' became 'it. T.'; B's 'if you count it' changes the meaning"}
+{"id": "s2-W2-0196", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'accepts' heard as 'except' and 'and returns' lost; B's fix keeps 'accepts' and yields a fragment"}

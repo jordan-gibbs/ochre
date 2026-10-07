@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/jordan-gibbs/ochre/discussions
+    about: Ask a question, share an idea or show what you built. Bugs and concrete feature requests go in issues.
+  - name: Report a security vulnerability
+    url: https://github.com/jordan-gibbs/ochre/security/advisories/new
+    about: Please report security problems privately, not in a public issue.

@@ -1,0 +1,50 @@
+{"id": "s2-W1-0101", "decision": "fix_clean", "clean": "Hey, it's me. We still on for dinner at 7 or did you want to move it? Because I might be stuck at work until, like, 7:30.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Are' is absent from raw"}
+{"id": "s2-W1-0102", "decision": "fix_clean", "clean": "From the core: Ravi told us to ignore the old pricing sheet and translate the new one into German and French before the launch on the 12th.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'core' for 'call'"}
+{"id": "s2-W1-0103", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'two, click' became 'Do but' and 'to' lost; step 2 cannot be reconstructed"}
+{"id": "s2-W1-0104", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'beg' heard as 'began'; raw's reading is not a sensible dictation"}
+{"id": "s2-W1-0105", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0109", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'per'; also 'market plate' and 'what' for 'why'"}
+{"id": "s2-W1-0110", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'retry' heard as 'word tri' and 'on' as 'all'"}
+{"id": "s2-W1-0111", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'US' heard as 'the S'; country cannot be recovered from raw"}
+{"id": "s2-W1-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0113", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'her' ('send to her')"}
+{"id": "s2-W1-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0115", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'or do we still need a review' became 'for Jill. We still need your review.'"}
+{"id": "s2-W1-0116", "decision": "fix_clean", "clean": "Translate the following into Italian but keep it casual, like how a friend would say it, not a textbook. Actually, make a Sicilian dialect if you can.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'make a', not 'make it'"}
+{"id": "s2-W1-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0118", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'text jordan back' became 'Patch your artifact' and 'can't' became 'can'"}
+{"id": "s2-W1-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0121", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi' became 'I', 'it' dropped, 'clause' became 'Close'"}
+{"id": "s2-W1-0122", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became the real word 'Long.'"}
+{"id": "s2-W1-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0124", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0125", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'just say hi' became 'Dust say I'"}
+{"id": "s2-W1-0126", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'chatbot' became 'chocolate'"}
+{"id": "s2-W1-0127", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'damage deposit, pets, subletting' became 'Image deposit best sublating'"}
+{"id": "s2-W1-0128", "decision": "fix_clean", "clean": "Hello Professor Lynn, here is the abstract I wrote. You mind telling me whether the first sentence is too long and if the methods are described clearly enough? And please don't rewrite it, just point out the problems.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw has 'Lynn'; 'Would' dropped by recognizer"}
+{"id": "s2-W1-0129", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'and I' ('and I don't write'); also 'discussion' was added"}
+{"id": "s2-W1-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0131", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0133", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0134", "decision": "fix_clean", "clean": "Hi Mag, I was wondering if you could rewrite the second paragraph of my proposal so it sounds less like a sales pitch. I feel like it comes off too pushy and the client is pretty conservative.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw has 'Mag'"}
+{"id": "s2-W1-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0136", "decision": "fix_clean", "clean": "From now, answer every question as if you were a medieval knight.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'on' is absent from raw; night->knight is a homophone"}
+{"id": "s2-W1-0137", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'docker', 'grep' and 'postgres' became 'Doctor', 'grupp', 'postgurse'"}
+{"id": "s2-W1-0138", "decision": "fix_clean", "clean": "Write the conclusion so it ties back to the opening story and...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Write', not 'Rewrite'"}
+{"id": "s2-W1-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0140", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er the' became 'her, but'"}
+{"id": "s2-W1-0141", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'todo' lost, 'ChatGPT' became 'Chat', 'for' became 'war'"}
+{"id": "s2-W1-0142", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0145", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dr Patel' became 'DRP'"}
+{"id": "s2-W1-0146", "decision": "drop", "reason": "non_english", "note": "raw is Spanish"}
+{"id": "s2-W1-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0148", "decision": "drop", "reason": "unrecoverable_meaning", "note": "the corrected value 'sentence case' is lost"}
+{"id": "s2-W1-0149", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Nice' twice"}
+{"id": "s2-W1-0150", "decision": "fix_clean", "clean": "You coming to the thing on Saturday?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Are' is absent from raw"}

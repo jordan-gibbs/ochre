@@ -1,0 +1,40 @@
+{"id": "s2-W8-0001", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw 'MIP!' for 'milk'", "raw MIP!"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0002", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0005", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw is just 'Yeah.'; dictation lost", "raw Yeah. only"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0008", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'mom'", "raw has mom"], "auditors": ["A", "B"], "clean": "Hey Mom, just ringing to say I got the job, can't believe it."}
+{"id": "s2-W8-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0012", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'was very cheap' lost; raw has 'a spinach'", "lost 'was very cheap'; raw 'a'"], "auditors": ["A", "B"], "clean": "Yesterday I go to the market and I buy many vegetable, tomato and onion and a spinach."}
+{"id": "s2-W8-0013", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Bro I ain't' -> 'By', 'I'm finna' -> 'Infinite'", "raw garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0021", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'buy' heard as 'My'", "buy heard as My"], "auditors": ["A", "B"], "clean": "My stamps."}
+{"id": "s2-W8-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0025", "decision": "fix_clean", "reasons": ["spelling_from_raw", "unrecoverable_word"], "notes": ["name not in dictionary; raw 'Jalen's'", "name spelling from raw"], "auditors": ["A", "B"], "clean": "Mom, it's me. My phone died, I'm at Jalen's. Can you pick me up around 9?"}
+{"id": "s2-W8-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0032", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W8-0035", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'today itself' -> 'to date, so'", "to date, so / just"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0038", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'ring Dave' -> 'spring day'", "spring day for ring Dave"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0045", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; also essay->VSA, Monday->Monte", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W8-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0047", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many garbles: 'gear journal', 'him peggy', 'he am'", "multiple lost places"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0048", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W8-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0050", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.'; also 'Green the plumber', 'Kept the text'", "trailing Yeah."], "auditors": ["A", "B"]}

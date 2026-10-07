@@ -1,0 +1,50 @@
+{"id": "s4-W58-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W58-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W58-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W58-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled words, trailing Yeah"}
+{"id": "s4-W58-0065", "decision": "fix_clean", "clean": "Write a short bio for our restaurant's website about the head chef. His name is Antonio. He grew up in Naples, praemed in Lyon, and opened the restaurant 11 years ago with his brother. The bio should be in the third person, round eggy words, warm but not gushing, and don't call him a visionary or a maestro. And please end with a sentence about his favourite dish being the simple tomato pasta he cooks for the staff on Mondays.", "reason": "unrecoverable_word", "rules": ["R13", "R10", "RECOVER"], "note": "raw has favourite; trained/around 80 not inferable"}
+{"id": "s4-W58-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W58-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W58-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W58-0069", "decision": "fix_clean", "clean": "Please wait for me to finish before you start. I'm going to describe the problem in a few parts. Our nonprofit's volunteer sign-up sheet keeps getting duplicate entries. The sheet is shared with about 40 people, and the entries come from a web form. I think the duplicates happen when people click submit twice, or maybe three times. I'm not sure, so what are the most likely causes and what's the simplest fix? Assume I can't change the form software.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "only the sheet itself lost"}
+{"id": "s4-W58-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name and several words garbled"}
+{"id": "s4-W59-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "last clause lost/garbled"}
+{"id": "s4-W59-0002", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s4-W59-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0004", "decision": "fix_clean", "clean": "Hey Argen, the build is sort of green again. iOS passes but Android is still flaky, so we can't ship until it's fixed.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0005", "decision": "fix_clean", "clean": "Chitty, I'm at the legal aid clinic till 7. Can you grab the kids? And please don't let them have soda, they get wild.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name garbled, lol and ending lost"}
+{"id": "s4-W59-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0008", "decision": "fix_clean", "clean": "Gabriel, can you cover my arm cough tomorrow? I've got a dentist appointment, and I'll take you on Friday so you don't lose out.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W59-0009", "decision": "fix_clean", "clean": "Ro, had dude, the bank branch had a fire drill and I swear to God it was 10 degrees out and they made us stand there for 20 minutes.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0010", "decision": "fix_clean", "clean": "Lu Shahe, it's me. My phone's about to die, so if I don't answer it's not because I'm ignoring you. I'll charge it at the bookstore.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0011", "decision": "fix_clean", "clean": "The deploy failed because somebody pushed a config change without telling anyone, and now Rose's team is rolling it back. I'll keep you posted.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0013", "decision": "fix_clean", "clean": "Lucha, I just realized the on-call handoff doc still lists the old pager number. Sorry, I should've updated it. I'll do it after lunch.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0015", "decision": "fix_clean", "clean": "DAPA legal aid clinic is doing a free workshop on tenant rights next Thursday, and I thought of you since you've been fighting with your landlord, so maybe come.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled"}
+{"id": "s4-W59-0017", "decision": "fix_clean", "clean": "I finally finished that fantasy novel you lent me, Bo with a dragon, and honestly it's kind of overrated, but I love the ending, sorry.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name, eggs and place garbled"}
+{"id": "s4-W59-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0020", "decision": "fix_clean", "clean": "Bosa Gas, with a mobile app team just hit 100,000 downloads and my boss bought pizza for everybody, the good kind, not the cheap kind.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0021", "decision": "fix_clean", "clean": "Hi Gabriel, it's Anne Carol. Your phone keeps going to voicemail and I'm worried. Call me when you can, it's probably nothing.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0022", "decision": "fix_clean", "clean": "Bro, man, I think we should skip the retro. Nobody has anything to say and the sprint was boring, but if you disagree I'm open.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0025", "decision": "fix_clean", "clean": "Use, hang on, the on-call schedule says it's my week. Sorry, I was reading last month's.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0027", "decision": "fix_clean", "clean": "Morning all, the game studio build server is acting up again, so don't push anything to me until R is the all clear, thanks.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W59-0028", "decision": "fix_clean", "clean": "Do Chitty, you're not gonna believe this, my landlord is selling the building, so I've got 60 days to find a new place, and I'm freaking out.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0034", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s4-W59-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several garbled words"}
+{"id": "s4-W59-0036", "decision": "fix_clean", "clean": "Aid clinic wants to move their intake form to a new system, and honestly I think that's a great idea, but we need to check with the lawyers about privacy first.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s4-W59-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0039", "decision": "fix_clean", "clean": "Art and, quick one, did you get the invite for the planning session? Because mine says Friday but the calendar thread says Monday, and I don't wanna show up on the wrong day.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W59-0040", "decision": "fix_clean", "clean": "Shitty, the game studio is giving everyone a free week off between Christmas and New Year's, and I'm not even kidding, my manager just announced it.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}

@@ -1,0 +1,9 @@
+{"id": "s2-W1-0104", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'beg' heard as 'began'; restoring 'beg' reads the speaker's mind and raw's 'even if I began' is not a sensible dictation"}
+{"id": "s2-W1-0109", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became the real word 'per'; also 'what' for 'why' and 'market plate' need further unrecoverable fixes"}
+{"id": "s2-W1-0110", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'retry' heard as 'word tri' and 'on' as 'all'; B's fix still restores 'retry' from 'word tri', and the error-scope change makes it doubtful"}
+{"id": "s2-W1-0111", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the US' heard as 'the S'; the country is not reliably inferable from raw"}
+{"id": "s2-W1-0116", "decision": "fix_clean", "clean": "Translate the following into Italian but keep it casual, like how a friend would say it, not a textbook. Actually, make a Sicilian dialect if you can.", "reason": "unrecoverable_word", "note": "raw has 'make a', a real word; target follows raw (sided with A)"}
+{"id": "s2-W1-0121", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi' became 'I', 'it' dropped, 'clause' became 'Close'; three places affected, and B's fix keeps 'clause', which raw does not have"}
+{"id": "s2-W1-0122", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became the real word 'Long.' and 'um' became 'So'; a reader of raw could take them as content"}
+{"id": "s2-W1-0129", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'and I' ('and I don't write' changes the instruction); 'discussion' was also inserted"}
+{"id": "s2-W1-0137", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Doctor', 'grupp', 'postgurse' are not near forms of docker/grep/postgres in a literal terminal command"}

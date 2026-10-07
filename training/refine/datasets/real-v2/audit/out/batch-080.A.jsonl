@@ -1,0 +1,50 @@
+{"id": "s2-W8-0451", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'Dentists had' for 'dentist said'; raw-faithful target changes meaning"}
+{"id": "s2-W8-0452", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0453", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'Long'"}
+{"id": "s2-W8-0454", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0455", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0456", "decision": "fix_clean", "clean": "Eh, Auntie, thank you for the lovely car and the money, I am going to use it for my school books.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Eh' for hey and 'car' for card"}
+{"id": "s2-W8-0457", "decision": "fix_clean", "clean": "Work was okay today, I mean nothing special, but my manager said you liked how I handled the angry customer, so that's something.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'you' for 'she'"}
+{"id": "s2-W8-0458", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0459", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the, the' heard as name 'Dell' and 'hi' as 'I'"}
+{"id": "s2-W8-0460", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0461", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'is the, um' heard as 'does that'; name Oquoro"}
+{"id": "s2-W8-0462", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0463", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0464", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um/uh heard as 'Thumb', 'Them', 'No'; 'today' as 'the day'"}
+{"id": "s2-W8-0465", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0466", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and yall' heard as 'in Yol'; 'Seasoned' as 'Season'"}
+{"id": "s2-W8-0467", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0468", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh can someone check' heard as 'What and someone checked'"}
+{"id": "s2-W8-0469", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'on'; 'but and', 'this small'"}
+{"id": "s2-W8-0470", "decision": "drop", "reason": "unrecoverable_meaning", "note": "drug names garbled throughout"}
+{"id": "s2-W8-0471", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'you got a plate', 'I look thin', 'er' garbled"}
+{"id": "s2-W8-0472", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Padlet, update/Upnate/Up eight, Oli, 'All there'"}
+{"id": "s2-W8-0473", "decision": "fix_clean", "clean": "Dear Emily, happy birthday, sweetheart. I cannot believe you are 16 already, it feels like yesterday that you were learning to ride your bike in our driveway and refusing to wear a helmet. Your grandfather and I are so proud of the young woman you are becoming. I hope this card finds you well, we are sending a small cheque, please do not spend it all in one place. Actually, spend it however you like, you only turn 16 once. We will call on Sunday to hear all about the party. Give your mom and dad a big hug from us. All our love, Grandma and Grandpa.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'cheque'"}
+{"id": "s2-W8-0474", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'her flea' heard as 'or a fleet'; 'er' as 'For'"}
+{"id": "s2-W8-0475", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0477", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0478", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0479", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0480", "decision": "drop", "reason": "hallucination", "note": "raw 'You're not wrong.' unrelated to spoken"}
+{"id": "s2-W8-0481", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0482", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W8-0483", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'New Year' dropped by recognizer"}
+{"id": "s2-W8-0484", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0485", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'what are some quiet indoor' lost"}
+{"id": "s2-W8-0486", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0487", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0488", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'Alone'"}
+{"id": "s2-W8-0489", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; 'Tide Plays' for Thai place"}
+{"id": "s2-W8-0490", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'did you eat yet' lost, 'Yeah.' in its place"}
+{"id": "s2-W8-0491", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sixty' heard as 'six'; 'woman over 6' not sensible"}
+{"id": "s2-W8-0492", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Aye' and 'Gum' in place of stutter/um"}
+{"id": "s2-W8-0493", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'Yeah.' twice"}
+{"id": "s2-W8-0494", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; salad/toquitas"}
+{"id": "s2-W8-0495", "decision": "fix_clean", "clean": "Hi my friend, I am so sorry for not answering before, this week was very busy with the work and the children. Tomorrow I am free after lunch, we can talk by video. I have many news to tell you, I got a new job, it's in a hospital near my house, I start in two weeks. I am very nervous but also very happy.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a new job' and 'It's in'"}
+{"id": "s2-W8-0496", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening heavily garbled"}
+{"id": "s2-W8-0497", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0498", "decision": "drop", "reason": "unrecoverable_meaning", "note": "six C, 'that I am learning', Grandma, 'this secret': too many places"}
+{"id": "s2-W8-0499", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'Allah'; Moms/There is me/M fines"}
+{"id": "s2-W8-0500", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Bonum Street, parts, came up, in number, neighbors: too many places"}

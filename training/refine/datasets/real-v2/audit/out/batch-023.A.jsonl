@@ -1,0 +1,50 @@
+{"id": "s2-W3-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0102", "decision": "accept", "reason": "ok", "note": "'rejects' read as 'regex' in code comment context"}
+{"id": "s2-W3-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0104", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Priya->P, like->Mike, one/two/three->When/To/for you to, typo->title"}
+{"id": "s2-W3-0105", "decision": "fix_clean", "clean": "Dentist said I need two fillings and a cleaning. The total estimate is about $650, but insurance covers 80% of the fillings. The next appointment is on Wednesday the 4th at 11:45. I should also ask whether they take my new plan.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'am'"}
+{"id": "s2-W3-0106", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a time block schedule from eight am' became 'Lord. M'"}
+{"id": "s2-W3-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0108", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a CPU core' became 'a seed peak. You core'"}
+{"id": "s2-W3-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0110", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0111", "decision": "accept", "reason": "ok", "note": "hop path -> hot path inferable"}
+{"id": "s2-W3-0112", "decision": "accept", "reason": "ok", "note": "'Zam' non-word residue"}
+{"id": "s2-W3-0113", "decision": "fix_clean", "clean": "Ideas for the garden this spring. I wanna plant tomatoes, the basil and maybe two rows of peppers. The last frost is usually around April 20th, so I should wait until the first week of May. The raised bed is 4 feet by 8 feet, which should be plenty.", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "raw has 'wanna' and an added 'the' before basil; keep raw's words"}
+{"id": "s2-W3-0114", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W3-0115", "decision": "accept", "reason": "ok", "note": "'nine thirty M' -> 9:30 AM"}
+{"id": "s2-W3-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0118", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0119", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'scammed' became 'skin'; result not sensible"}
+{"id": "s2-W3-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0121", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Packing list, passport' became 'Vacking list, best point'"}
+{"id": "s2-W3-0122", "decision": "fix_clean", "clean": "This is a note to say that Zhang called this afternoon and asked if we could move the review up by two days. I told him that I would check with you first. If it works for you, I can confirm with him tomorrow morning before 9.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Hi Wei' became 'Cly Y'; not inferable"}
+{"id": "s2-W3-0123", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a field called total count' became 'the field call to account'"}
+{"id": "s2-W3-0124", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0125", "decision": "accept", "reason": "ok", "note": "Nu -> dictionary Nguyen; subject line dictated"}
+{"id": "s2-W3-0126", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'we think we found the cause' and 'the search service is still a bit slow'"}
+{"id": "s2-W3-0127", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'Or' before 'she wants'; also 'at the the' -> 'after the'"}
+{"id": "s2-W3-0128", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became 'Some'; raw also lost 'so I think I am overfitting'"}
+{"id": "s2-W3-0129", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I checked', 'devDependencies, not dependencies' garbled ('I chut', 'Deb dependencies not the pencies')"}
+{"id": "s2-W3-0130", "decision": "fix_clean", "clean": "I am reaching out because I ordered a blender on the 3rd and it arrived broken. The lid has a crack and the base wobbles. The order number is 8831. I would like a replacement or a full refund of $79.99. I have photos if you need them.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Hi' became 'I I'; not inferable"}
+{"id": "s2-W3-0131", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'to get a new one send a POST request to /oauth/'"}
+{"id": "s2-W3-0132", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became the real word 'Thumb'"}
+{"id": "s2-W3-0133", "decision": "accept", "reason": "ok", "note": "Alina -> dictionary Elena"}
+{"id": "s2-W3-0134", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0136", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Car' became 'Power' and 'gas around the' became 'Gasarum'"}
+{"id": "s2-W3-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0138", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became the real word 'Some'"}
+{"id": "s2-W3-0139", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sslmode' became 'U CSL node'"}
+{"id": "s2-W3-0140", "decision": "fix_clean", "clean": "She said, and I quote, \"The second time is always faster,\" which is true here. The first one took 90 seconds and the second took 30.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'first one' for 'first run'"}
+{"id": "s2-W3-0141", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0142", "decision": "fix_clean", "clean": "I am five minutes away, can you calm down?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'calm' for 'come'; not inferable"}
+{"id": "s2-W3-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0144", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'wifi' became 'Life. The'"}
+{"id": "s2-W3-0145", "decision": "accept", "reason": "ok", "note": "AOS -> iOS"}
+{"id": "s2-W3-0146", "decision": "fix_clean", "clean": "Okay, it is 61 degrees and sunny, so let's do the standup outside.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken and raw say 'it is'; no contraction"}
+{"id": "s2-W3-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0150", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost everything before 'than two to the power of thirty one'"}

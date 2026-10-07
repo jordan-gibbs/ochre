@@ -1,0 +1,50 @@
+{"id": "s4-W21-0001", "decision": "fix_clean", "clean": "Quinn said the vocal take on track two is fine, but the guitar sounds like it didn't can, so we should redo it tonight.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0002", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W21-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0005", "decision": "fix_clean", "clean": "I need you to review my design system tokens, and I mean all of them, not just the colours, because the spacing scale looks off and I think it's a rounding thing.", "reason": "spelling_from_raw"}
+{"id": "s4-W21-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0007", "decision": "fix_clean", "clean": "Dude, I think Chin is kind of mad at me. He didn't reply to my text for two days. Maybe he's busy but it's weird.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0008", "decision": "fix_clean", "clean": "Good afternoon Meeker, I'm writing to confirm that the recording studio is booked for Thursday at 10, and we'll need the drum room set up an hour, so please let the engineer know.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0010", "decision": "drop", "reason": "hesitation_misheard_as_word"}
+{"id": "s4-W21-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0012", "decision": "fix_clean", "clean": "Omg Daniella, I finally paid off the credit card, the whole thing, and honestly I feel kind of lighter, like my chest isn't tight anymore.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0015", "decision": "fix_clean", "clean": "Meeting notes. We agreed the studio rate stays the same for now, and Apple will send the revised quote on Friday, so no change until then.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0024", "decision": "fix_clean", "clean": "The legal aid clinic saw 43 clients this week, and that's up from 31, so it's sort of a record for a single...", "reason": "trailing_off"}
+{"id": "s4-W21-0025", "decision": "fix_clean", "clean": "Dear Mica, I'd like to apologize for the delay on the mix. I know it's two weeks late, and I mean it, I'm sorry, it won't happen again.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0026", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0029", "decision": "fix_clean", "clean": "Danielle, are you free Saturday? I'm moving boxes all day and I could really use help, seriously, I'll buy pizza.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0031", "decision": "fix_clean", "clean": "Hi Ruth, I hope you're well. I just wanted to follow up on the retainer, could you send the Zion copy, by Friday if possible, it's kind of urgent.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0032", "decision": "fix_clean", "clean": "The plan is three buckets: 50% needs, 30% wants, and 20% ceilings. It's the standard split, but I mean it works.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0035", "decision": "fix_clean", "clean": "Nika, the show last night was honestly kind of amazing, the drummer carried the whole thing, and I mean I'm not kidding.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0036", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0038", "decision": "fix_clean", "clean": "When you tap save twice, the app sends two requests, and the second one overwrites the first, so we lose the edit to race condition.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W21-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0042", "decision": "fix_clean", "clean": "Actions from the design review:\n1. Ruth will fix the focus ring.\n2. Abdul updates the docs.\n3. We meet again on Wednesday.", "reason": "guide_violation"}
+{"id": "s4-W21-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0045", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0046", "decision": "fix_clean", "clean": "Each component in the design system has three states, default, other, and disabled, and the disabled one is sort of grayed out, so it looks like a ghost.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0047", "decision": "fix_clean", "clean": "Helliny, the client at the legal aid clinic is asking if we can take her case, and she's got a hearing in March, so it's kind of urgent.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0048", "decision": "fix_clean", "clean": "Yo Jin, I hope this finds you well. We're thrilled with the master, and we'd love to move to the final delivery, and we're ready whenever you are.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0049", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W21-0050", "decision": "fix_clean", "clean": "Mika, the grout needs to dry for two days, so nobody walk on the floor, and I mean nobody, it's not another big deal if someone leaves a footprint.", "reason": "unrecoverable_word"}

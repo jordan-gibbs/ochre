@@ -1,0 +1,50 @@
+{"id": "s2-W2-0451", "decision": "fix_clean", "clean": "I am going to book the table for 7 at that Thai place you liked.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'liked'"}
+{"id": "s2-W2-0452", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0453", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0454", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0455", "decision": "drop", "reason": "unrecoverable_meaning", "note": "freezing rice, count smash, At back end, lost steps"}
+{"id": "s2-W2-0456", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0457", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0458", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0459", "decision": "fix_clean", "clean": "I just wanted to say. I feel really bad about how I acted at dinner. You did not deserve that, and I was just stressed about work. Can I make it up to you this weekend? I will cook, and you can pick the movie.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hey' lost; raw 'A'"}
+{"id": "s2-W2-0460", "decision": "drop", "reason": "unrecoverable_meaning", "note": "exits early/debug/logging lost"}
+{"id": "s2-W2-0461", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "John/Adam for um/hmm"}
+{"id": "s2-W2-0462", "decision": "fix_clean", "clean": "Dear Ms. Salvarez, thank you for your recent order. We are sorry to inform you that one of the items is out of stock. We expect the item to be available again in about two weeks. You can either wait for it or choose to receive a full refund for that item right away. The rest of your order will ship tomorrow as planned. Please let us know your preference by replying to this email. We apologize for the inconvenience.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s2-W2-0463", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0464", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W2-0465", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W2-0466", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W2-0467", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'page' lost"}
+{"id": "s2-W2-0468", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0469", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W2-0470", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0471", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0472", "decision": "fix_clean", "clean": "Not the staging environment, the production environment is what needs the patch.", "reason": "guide_violation", "rules": ["R10"], "note": "negation is content, not correction"}
+{"id": "s2-W2-0473", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'on' for um"}
+{"id": "s2-W2-0474", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0475", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0477", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'wait list' vs 'Wait, the list'"}
+{"id": "s2-W2-0478", "decision": "fix_clean", "clean": "Make that call synchronous.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s2-W2-0479", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0480", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W2-0481", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0482", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0483", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0484", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0485", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0486", "decision": "drop", "reason": "hallucination", "note": "'No.' for lost words"}
+{"id": "s2-W2-0487", "decision": "fix_clean", "clean": "Or rather than hiring someone new, we could reassign days.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Dave heard as days"}
+{"id": "s2-W2-0488", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0489", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0490", "decision": "fix_clean", "clean": "Sorry for the inconvenience, and please accept this coupon.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s2-W2-0491", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0492", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0493", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' and lost 'posting it'"}
+{"id": "s2-W2-0494", "decision": "fix_clean", "clean": "Do not wait on the lock here, tryLock and return early.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'use' lost"}
+{"id": "s2-W2-0495", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0496", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0497", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0498", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0499", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0500", "decision": "drop", "reason": "unrecoverable_meaning", "note": "They'd hurt; first sentence lost"}

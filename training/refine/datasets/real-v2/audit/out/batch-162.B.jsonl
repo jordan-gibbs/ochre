@@ -1,0 +1,50 @@
+{"id": "s4-W48-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0053", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0054", "decision": "fix_clean", "clean": "I don't think we need this lock, the queue is already single consumer, so I just deleted.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0056", "decision": "fix_clean", "clean": "It should just be a thing. The caller already awaits it.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0057", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0061", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0065", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0067", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0071", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0072", "decision": "fix_clean", "clean": "The cache key includes a user ID and the locale, but not the currency, which is probably why finance is seeing dollar amounts on the euro page.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0073", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0074", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0075", "decision": "fix_clean", "clean": "We could bash these inserts but honestly it's 40 rows a night so it's not worth the extra code.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0078", "decision": "fix_clean", "clean": "Thanks for splitting this up, it's way easier to follow now. My only concern is the naming, handleData and processData don't tell me anything, then we call them parseManifest and applyPatches instead.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0079", "decision": "fix_clean", "clean": "Harmon, I looked at the crash dump and it's an access violation in the audio mixer, specifically when two sound effects finish on the same frame, so I think we're freeing the buffer twice.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0082", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0083", "decision": "fix_clean", "clean": "Chitty, did you see the alert at 3:15 this morning? The primary database ran out of connections. I bumped the pool from 20 to 50 but we should figure out who is leaking them.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0084", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0085", "decision": "fix_clean", "clean": "Fix the grammar in this commit message, it says fix bob where users was not able to log in, and then make it shorter and in the imperative mood like the rest of our history.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0086", "decision": "fix_clean", "clean": "Why does this catch block swallow the exception? If the payment fails we'd never know. At least log it, and maybe retro so the caller can show an error.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0088", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0089", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0090", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W48-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0092", "decision": "fix_clean", "clean": "Title: ticket scanner rejects valid QR codes. Description: since the update to version 2.3 the scanner at the side door rejects about one in five codes that worked fine for. I tested the same 10 tickets on the old build and all 10 scan, on the new build only seven did. I suspect the new image library is stricter about contrast. Attaching the three failing codes.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0093", "decision": "fix_clean", "clean": "Okay, I need you to act as a code reviewer for the following pull requests, focus on error handling and naming, not formatting, we use Prettier for that. Give me a numbered list of the three most important issues, and for each one say which file and which line it's in, and don't suggest any new libraries because the credit union security team has to approve every dependency.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0098", "decision": "fix_clean", "clean": "Okay, a few notes on this PR.\n1. The retry helper looks good.\n2. The config loader reads the file on every call, please cache it.\n3. There's a typo in the log message, it says connection with one end.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0099", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0100", "decision": "drop", "reason": "unrecoverable_meaning"}

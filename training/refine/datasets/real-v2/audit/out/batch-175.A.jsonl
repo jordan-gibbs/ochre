@@ -1,0 +1,50 @@
+{"id": "s4-W53-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0002", "decision": "fix_clean", "clean": "Rainier, the key fob for the back door is in the top drawer.", "reason": "unrecoverable_word", "note": "raw 'Rainier' for Rania; not inferable", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0007", "decision": "fix_clean", "clean": "Noah, the pager went off at 3 a.m. It was a flapping health check on the load balancer.", "reason": "unrecoverable_word", "note": "raw 'Noah' for Nora", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'leak hiss from the gas state' not inferable as gasket"}
+{"id": "s4-W53-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0010", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W53-0011", "decision": "fix_clean", "clean": "Layla, can you put the pointe shoes order in before the recital fitting on the 12th?", "reason": "unrecoverable_word", "note": "raw 'Layla' for Leila", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'harbor store. You should read Malik Boy Larry'"}
+{"id": "s4-W53-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0017", "decision": "fix_clean", "clean": "Chin, the postmortem for Tuesday is out. It is due Friday, and the runbook needs a rollback step.", "reason": "unrecoverable_word", "note": "raw 'Chin'; 'outage' heard as 'is out. It is'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'um dad' became 'That is'"}
+{"id": "s4-W53-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0022", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting and several words garbled"}
+{"id": "s4-W53-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0024", "decision": "fix_clean", "clean": "A heat pump filter needs changing, and the flue is stuck open.", "reason": "unrecoverable_word", "note": "raw has 'A' not 'The'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "regex/parses/greedy quantifier garbled"}
+{"id": "s4-W53-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I need lobster beast'"}
+{"id": "s4-W53-0028", "decision": "fix_clean", "clean": "Hi Rania, the copy desk flagged the lid on the city budget piece, and you tighten it before the 6 p.m. deadline.", "reason": "unrecoverable_word", "note": "raw 'lid' and 'and you' not inferable as lede / can you", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0032", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening 'dear parents, the bunk assignments' lost"}
+{"id": "s4-W53-0033", "decision": "fix_clean", "clean": "I burned the roof, so we're having takeout. Sorry.", "reason": "unrecoverable_word", "note": "raw 'roof' for roux", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0035", "decision": "fix_clean", "clean": "Give me a recipe for Nakai that uses ricotta instead of potato and keep it under 30 minutes.", "reason": "unrecoverable_word", "note": "raw 'Nakai' not a near form of gnocchi", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hello Colin' heard as 'A low call'; 'now sand'"}
+{"id": "s4-W53-0038", "decision": "fix_clean", "clean": "Mom says the ewe had twins this morning.", "reason": "spelling_from_raw", "note": "raw has 'Mom' variant", "rules": ["R10"]}
+{"id": "s4-W53-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'isn't' became 'Is it'; negation lost"}
+{"id": "s4-W53-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ballet' heard as 'at Bell E'"}
+{"id": "s4-W53-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0043", "decision": "fix_clean", "clean": "We're getting foam for dinner. You want the usual with extra basil?", "reason": "unrecoverable_word", "note": "raw 'foam' for pho", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0046", "decision": "fix_clean", "clean": "Ason's cousin is staying in the guest room until the lease on his flat starts.", "reason": "unrecoverable_word", "note": "raw 'Ason's' for Hassan's", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0050", "decision": "fix_clean", "clean": "Yola, I'm making shakshuka tonight. Bring the Zider.", "reason": "unrecoverable_word", "note": "raw 'Yola' and 'Zider' not inferable", "rules": ["RECOVER", "R13"]}

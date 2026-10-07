@@ -1,0 +1,6 @@
+{"id": "s2-W3-0166", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' decoded as the real word 'Not.', which reads as negation; raw also truncates to 'the b' (sides with A)"}
+{"id": "s2-W3-0167", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'fifty minutes' became 'fifth'; 50 is not in raw, so B's '50 each way' reads the speaker's mind (sides with A)"}
+{"id": "s2-W3-0174", "decision": "fix_clean", "clean": "Honestly, it was 6 out of 10. The food was fine, but the service was slow.", "reason": "dropped_by_recognizer", "note": "raw lacks 'a'; remove it from clean (sides with A)"}
+{"id": "s2-W3-0180", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'needs' heard as 'means'; 'how much memory the app actually means' is not sensible (sides with A)"}
+{"id": "s2-W3-0187", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cabinets' heard as 'Avenues'; 'avenues are scheduled' is nonsense in a kitchen plan (sides with A)"}
+{"id": "s2-W3-0195", "decision": "fix_clean", "clean": "I am at day 12, boarding starts at 4:40.", "reason": "unrecoverable_word", "note": "'gate' heard as 'day', which can't be inferred; still a readable message (sides with A)"}

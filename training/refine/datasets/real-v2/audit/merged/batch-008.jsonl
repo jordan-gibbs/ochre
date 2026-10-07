@@ -1,0 +1,41 @@
+{"id": "s2-W1-0351", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Next'/'did that package arrive'/'Or open it' (er misheard as 'Or', 'to' lost); multiple places garbled", "raw: Next Emily did that package arrive; garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0352", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Di' is a stutter fragment of 'did'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0353", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0355", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0356", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0358", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Summarise'"], "auditors": ["A", "B"], "clean": "Summarise the last hour of this channel for me, I was in a meeting."}
+{"id": "s2-W1-0359", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0360", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0361", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0362", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0363", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0364", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'the post the' is a stutter artefact"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0365", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'At' -> 'Add' unambiguous"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0366", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'forget the last thing' dropped by recognizer; removing it breaks the meaning", "'forget the last thing' lost in raw"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0367", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0368", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0369", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0370", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0371", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Owm' is how+um residue"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0372", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0374", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Summarise'"], "auditors": ["A", "B"], "clean": "Summarise the plot of Hamlet."}
+{"id": "s2-W1-0375", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' heard as 'or' ('whether I should or do it'), and 'um can' heard as 'And'", "'should or Do it' residue; 'And you help' lost Can"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0376", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'no gore' heard as 'No girl' plus hubber/huck/And-end garbles", "many garbles: Sit, hubber, girl, huck"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0377", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' heard as 'Air' and 'Or'", "'Or I will wait' from er"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0378", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0379", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'um the same' heard as 'On the scene'; also 'used' and 'just say'", "used/just say/On the scene"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0380", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Huh' residues are interjections"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0381", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'said ignore' heard as 'setting or'; 'sent' -> 'send', 'rep' -> 'Ret'", "setting or / Ret garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0382", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um the evaluation' heard as 'On the evaluation'; also 'And'/'past' mishearings", "'On the evaluation' from um"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0386", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'um' heard as 'is done' and 'Dumb. Sa'", "is done / Dumb. Sa garble"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0387", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' heard as 'and not'; 'so' of 'so that' also lost", "'and not' from uh; 'so' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0389", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' heard as 'them' ('get them a blood test')", "'them a blood test' from um a"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0390", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0391", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0393", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'assistant' heard as 'effective'; 'and shorten the titles' -> 'I shorten the title'", "assistant->effective, so far, I shorten"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0394", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["currency never spoken; '$' adds a fact", "currency symbol never dictated"], "auditors": ["A", "B"], "clean": "Please act as a negotiation coach. I'm buying a used car from a private seller. The listing price is 11,500, and I think a fair price is around 10,000. Give me an opening line, three arguments I can use, and what I should say if he refuses to budge."}
+{"id": "s2-W1-0395", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'summarise'"], "auditors": ["A", "B"], "clean": "Okay, so for the incident channel, can someone please summarise what happened in the last two hours in plain English, like no jargon, because the CEO just joined and he wants to know if customers were affected and how long it will take to fix?"}
+{"id": "s2-W1-0396", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'our scope' -> 'out of scope' inferable from following context"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0398", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0399", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0400", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'air eye' is split form of AI"], "auditors": ["A", "B"]}

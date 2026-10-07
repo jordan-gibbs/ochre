@@ -1,0 +1,50 @@
+{"id": "s4-W45-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0052", "decision": "fix_clean", "clean": "Ok, I need to print the thing first, so give me five minutes, and tell Kaza I said hi.", "reason": "unrecoverable_word", "note": "Kasia heard as 'Kaza', not in dictionary"}
+{"id": "s4-W45-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'on this' dropped ('pair of eyes lone thing')"}
+{"id": "s4-W45-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0058", "decision": "fix_clean", "clean": "Oh, Antonio just walked into the glass door again. I swear that's the third time this month.", "reason": "unrecoverable_word", "note": "'lol' heard as 'Oh'"}
+{"id": "s4-W45-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bookstore layout' heard as 'books all the way up'"}
+{"id": "s4-W45-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hey Tariq' heard as 'Egg Tark'"}
+{"id": "s4-W45-0061", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W45-0062", "decision": "fix_clean", "clean": "Now you're basically a legend for fixing that, I owe you a beer, no, whole case, okay, maybe a six pack.", "reason": "unrecoverable_word", "note": "Kai heard as 'Now'; 'a' before 'whole case' dropped"}
+{"id": "s4-W45-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "doors->'So is that', 'and yes'->'I guess', nachos->'matches'"}
+{"id": "s4-W45-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Mai heard as 'my' (not in dictionary): 'my and I'"}
+{"id": "s4-W45-0066", "decision": "fix_clean", "clean": "Oh my gosh, Layla, the urgent care waiting room has a fish tank now and there's a little fish in there named Doctor Bubbles. I'm in love. I'm gonna visit him even when I'm not sick.", "reason": "spelling_from_raw", "note": "name not in dictionary; raw 'Layla'"}
+{"id": "s4-W45-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sprinted back' -> 'sprinted that'; 'cried' -> 'cry'"}
+{"id": "s4-W45-0068", "decision": "fix_clean", "clean": "We should totally do a team potluck. I can bring the hummus, Raphael can do something with rice, Irene's in charge of dessert because she's the only one who actually bakes, Antarik can bring ice or plates or whatever.", "reason": "unrecoverable_word", "note": "names not in dictionary: 'Raphael', 'and Tariq' merged to 'Antarik'"}
+{"id": "s4-W45-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0070", "decision": "fix_clean", "clean": "How did you end up finishing the quarterly numbers for the broker? Because I looked at the spreadsheet and the total tab was blank, which is either really good or really bad.", "reason": "unrecoverable_word", "note": "'Hey'->'How', 'totals'->'total'"}
+{"id": "s4-W45-0071", "decision": "fix_clean", "clean": "Ok, it's noon and I have already eaten both of the doughnuts I was saving. I don't want to talk about it.", "reason": "spelling_from_raw", "note": "raw has 'doughnuts'"}
+{"id": "s4-W45-0072", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Kasia heard as 'Has you'"}
+{"id": "s4-W45-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0076", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Kai dropped, 'baking'->'making'; result not sensible"}
+{"id": "s4-W45-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'phone with the supplier' merged into 'phler'"}
+{"id": "s4-W45-0078", "decision": "fix_clean", "clean": "I need to vent for a second. I asked the front desk three times to book the conference room for tomorrow at 2 and they keep saying it's booked, and then I looked at the calendar and it's booked by somebody named Test, no last name. So I'm gonna assume that's a glitch and go ahead and sit in there anyway, and if anybody asks, I was never here. I'm kidding, please don't actually tell on me, I'm not really in the mood for another talking to.", "reason": "dropped_by_recognizer", "note": "'just test' absent from raw"}
+{"id": "s4-W45-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Lea, squat, 'ought to', 'buy cabo': too many places"}
+{"id": "s4-W45-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "boat, 'my do', 'hand blame'"}
+{"id": "s4-W45-0081", "decision": "fix_clean", "clean": "Ok, I just got back from the tax preparer and it wasn't terrible. I'm getting a refund, it's $1,100-something, I can't read my own handwriting. Anyway, I'm thinking about using it for a new bike or maybe just paying down the car, which is the boring grown up thing, but the bike is so shiny, you guys, it has a basket. Anyway, tell me what to do, I'll do whatever the majority says.", "reason": "unrecoverable_word", "note": "raw has 'car' for 'card'"}
+{"id": "s4-W45-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first sentence lost; yoke, 'left of her parade'"}
+{"id": "s4-W45-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "quoted phrase lost from raw"}
+{"id": "s4-W45-0088", "decision": "fix_clean", "clean": "Aha, you're hilarious. No, but seriously, are you actually coming tonight or are you gonna ghost us again?", "reason": "unrecoverable_word", "note": "'Ha ha' heard as 'Aha'"}
+{"id": "s4-W45-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first clause (I left my charger at your place) lost"}
+{"id": "s4-W45-0090", "decision": "fix_clean", "clean": "The deploy is at 4, so if you had anything to push, just do it before then, okay?", "reason": "unrecoverable_word", "note": "raw has 'had'"}
+{"id": "s4-W45-0091", "decision": "fix_clean", "clean": "Raphael, are you free for coffee at 3 or is that when you have your thing with the broker?", "reason": "spelling_from_raw", "note": "name not in dictionary; raw 'Raphael'"}
+{"id": "s4-W45-0092", "decision": "fix_clean", "clean": "I think the vote was two thirds in favour, so we're probably doing the potluck.", "reason": "spelling_from_raw", "note": "raw has 'favour'"}
+{"id": "s4-W45-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pick a place' heard as 'I could please'"}
+{"id": "s4-W45-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Nah Mai said' heard as 'I said'"}
+{"id": "s4-W45-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Bro->'Grow', bags->'baths'"}
+{"id": "s4-W45-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0100", "decision": "accept", "reason": "ok"}

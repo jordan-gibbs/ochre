@@ -1,0 +1,41 @@
+{"id": "e4-E12-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0033", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["recognizer lost most of the second half"], "auditors": ["A", "B"]}
+{"id": "e4-E12-0035", "decision": "fix_clean", "reasons": ["spelling_from_raw", "unrecoverable_word"], "notes": ["raw has 'canceled' and 'the Saturday's'"], "auditors": ["A", "B"], "clean": "Dear parents, the Saturday's matches have been canceled because the pitches are waterlogged. The league will announce the rescheduled fixtures by Wednesday evening. We're sorry for the late notice and thank you for your patience."}
+{"id": "e4-E12-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0040", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Kwame heard as William"], "auditors": ["A", "B"], "clean": "William scored twice in the second half. The parents haven't stopped talking about it."}
+{"id": "e4-E12-0041", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'app for the Solent' lost"], "auditors": ["A", "B"]}
+{"id": "e4-E12-0042", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling Solvig"], "auditors": ["A", "B"], "clean": "Hi Solvig, would you be willing to do a guest spot at our studio in November? We'd cover your travel and you'd keep 60% of what you book."}
+{"id": "e4-E12-0043", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["crew names and 'crew' garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E12-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0045", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'organized'"], "auditors": ["A", "B"], "clean": "I'm moving from a two-bedroom flat in Leeds to a small house in York at the end of October and I've never organized a move on my own. Please give me a week-by-week checklist starting six weeks before the move, and include reminders for things people usually forget, like redirecting post, cancelling utilities and booking parking for the van."}
+{"id": "e4-E12-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0048", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary"], "auditors": ["A", "B"], "clean": "You still got my jacket from the shop, Theoter?"}
+{"id": "e4-E12-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0050", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Priyanka->Bienka, serviced->surfaced not inferable"], "auditors": ["A", "B"], "clean": "Bienka, harvest is moved to Thursday because the cooler's being surfaced."}
+{"id": "e4-E13-0001", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0002", "decision": "drop", "reasons": ["non_english", "non_english"], "notes": ["raw is German 'So geht's daran.'"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0005", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0006", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0007", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0012", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["-m and 'update' lost"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0015", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["empty raw"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0017", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["trailing 'Yeah.' and host lost"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0018", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Ottoline not inferable"], "auditors": ["A", "B"], "clean": "Audile and Pemberton baptism record 1864 Yorkshire"}
+{"id": "e4-E13-0019", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0024", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0025", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["empty raw"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0027", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["empty raw"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

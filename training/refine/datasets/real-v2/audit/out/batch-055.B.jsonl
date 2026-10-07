@@ -1,0 +1,50 @@
+{"id": "s2-W6-0201", "decision": "fix_clean", "clean": "Q4 targets are on H two.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'page' lost, raw has 'H two'"}
+{"id": "s2-W6-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0203", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0204", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0205", "decision": "fix_clean", "clean": "The cancel button on the billing page does nothing in Safari 15.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'works in chrome' absent from raw"}
+{"id": "s2-W6-0206", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0207", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0208", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0209", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Why printer paper stance' garbles buy/stamps"}
+{"id": "s2-W6-0210", "decision": "fix_clean", "clean": "Just to confirm, the shipment left Waterdown on the 6th and should arrive in Durban around the 24th.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s2-W6-0211", "decision": "drop", "reason": "unrecoverable_meaning", "note": "company name, 'sweet', dropped 'if'"}
+{"id": "s2-W6-0212", "decision": "drop", "reason": "unrecoverable_meaning", "note": "roles heard as rules/actors/walls in many places"}
+{"id": "s2-W6-0213", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0214", "decision": "fix_clean", "clean": "Hi Bev, I would like to attend the project management certification course in London from the 8th to the 10th of December. The course fee is £1,600, and the flights and hotel would be around £600 more. I think it would help me manage the vendor projects better. We discussed this at our one-to-one on Thursday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Bev from raw; question lost, raw says 'We discussed'"}
+{"id": "s2-W6-0215", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0216", "decision": "fix_clean", "clean": "My parcel tracking number is JD01465829. It was supposed to be delivered on the 1st. It shows as delivered, but I never received it. I checked with my neighbors and nobody has it. The photo you sent shows a door that is not mine. Please investigate and either find the parcel or refund the order, which was worth €240.", "reason": "guide_violation", "rules": ["R10"], "note": "'Hello' not in raw; neighbors spelling from raw"}
+{"id": "s2-W6-0217", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0218", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Silva, dropped sentence, many losses"}
+{"id": "s2-W6-0219", "decision": "drop", "reason": "unrecoverable_meaning", "note": "attendee names garbled"}
+{"id": "s2-W6-0220", "decision": "fix_clean", "clean": "Dear Claims Department, I am writing to report a motor accident that happened on the 16th of September at about 6:15 PM on the F38 in Birmingham. My policy number is MI-22817. I was stopped at traffic lights when another vehicle, a grey Ford Focus, registration LK68 XYZ, hit the back of my car. Nobody was injured, but the rear bumper and the boot are badly damaged. I have photographs and the other driver's details, which I will attach. I got a quote of £2,180 from a local garage. Please advise on the next steps. Yours faithfully, Imran Kureshi", "reason": "unrecoverable_word", "rules": ["R8", "RECOVER"], "note": "undictated line breaks removed; F38 and Kureshi from raw"}
+{"id": "s2-W6-0221", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0222", "decision": "drop", "reason": "unrecoverable_meaning", "note": "call the bank lost"}
+{"id": "s2-W6-0223", "decision": "fix_clean", "clean": "Did you give my email?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'give' vs 'get' not inferable"}
+{"id": "s2-W6-0224", "decision": "fix_clean", "clean": "And Sam. I will have the figures ready by noon.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Thanks' misheard as 'And'"}
+{"id": "s2-W6-0225", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0226", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0227", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' and 'No,' from noise"}
+{"id": "s2-W6-0228", "decision": "fix_clean", "clean": "Dear Sir or Madam, I am writing to inquire about the availability of your conference room for the 12th of December.", "reason": "guide_violation", "rules": ["R8", "R10"], "note": "undictated line break; inquire per raw"}
+{"id": "s2-W6-0229", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0230", "decision": "fix_clean", "clean": "We are looking at roughly 40 to 50% growth next year.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s2-W6-0231", "decision": "fix_clean", "clean": "Hello Mr. and Mrs. Davies, this is a reminder that the rent for November, which is £1,400, is due on the 1st. I noticed that October's payment was three days in, which is fine, these things happen, but please let me know if there are any problems so we can work something out. Thanks very much.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'late' lost"}
+{"id": "s2-W6-0232", "decision": "fix_clean", "clean": "Error handling for the payment form. We show a message saying the card was declined and suggest trying another card. If the network drops during payment, we show a retry button, and we do not charge the card twice. This is important. We need idempotency keys on every payment request. If the postcode does not match, we allow the payment but flag it for review.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'if the card is declined' lost"}
+{"id": "s2-W6-0233", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0234", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dear, invoice, sent, could you all garbled"}
+{"id": "s2-W6-0235", "decision": "drop", "reason": "unrecoverable_meaning", "note": "budget sentence and retracted value lost"}
+{"id": "s2-W6-0236", "decision": "fix_clean", "clean": "Dear Ms. Haruna, thank you so much for taking the time to speak with me yesterday about the logistics coordinator position. I really enjoyed hearing about the team and the plans for the new distribution center in Cano. Our conversation made me even more excited about the role. Please let me know if I can provide anything else. Best wishes.", "reason": "unrecoverable_word", "rules": ["R8", "RECOVER"], "note": "line breaks undictated; Cano, center from raw; sender name lost"}
+{"id": "s2-W6-0237", "decision": "drop", "reason": "unrecoverable_meaning", "note": "list item two lost, 'routine' for 'your team'"}
+{"id": "s2-W6-0238", "decision": "fix_clean", "clean": "Hi Nikolai,\n\nI am writing about the last delivery of aluminium profiles, the batch that arrived on the 8th of October. We inspected it on the 9th and found that about 12% of the profiles were outside the tolerance we agreed, which is plus or minus half a millimeter. Attached are the inspection photos and the measurement sheet.\n\nThis is the second time this year. The first was in March, and it is causing delays on our side because we have to sort and return the bad ones.\n\nI would like to ask you to do three things: send replacements for the faulty profiles by the 20th, tell us what went wrong in your process, and issue a credit note for the return shipping, which was €410.\n\nI value our relationship and want to resolve this quickly.\n\nRegards, Katerina", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "millimeter, Katerina from raw; sign-off line break undictated"}
+{"id": "s2-W6-0239", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Ola, HR, team, Your/Our, AM lost"}
+{"id": "s2-W6-0240", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pothole, invoice, David garbled"}
+{"id": "s2-W6-0241", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0242", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0243", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is only 'Machine.'"}
+{"id": "s2-W6-0244", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0245", "decision": "fix_clean", "clean": "Asha, can you share the slides before tomorrow's standup, the ones from the vendor demo?", "reason": "guide_violation", "rules": ["R10"], "note": "'Hey' not in raw"}
+{"id": "s2-W6-0246", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0247", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0248", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0249", "decision": "fix_clean", "clean": "Email notifications are being sent twice for every comment, starting from release version 5.8.", "reason": "dropped_by_recognizer", "rules": ["R10"], "note": "'version' dropped from clean"}
+{"id": "s2-W6-0250", "decision": "drop", "reason": "unrecoverable_meaning", "note": "hotel name, check in, AM, sender name lost"}

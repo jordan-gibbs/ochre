@@ -1,0 +1,50 @@
+{"id": "s4-W14-0001", "decision": "fix_clean", "clean": "Send it to Lego before we reply.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'Lego' for legal; not inferable"}
+{"id": "s4-W14-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0003", "decision": "fix_clean", "clean": "Hi Carl, the clerk says the hearing is set for Tuesday at 9:30.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Carl' for Karim"}
+{"id": "s4-W14-0004", "decision": "fix_clean", "clean": "I am at the back door.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has uncontracted 'I am'"}
+{"id": "s4-W14-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0006", "decision": "fix_clean", "clean": "Hannah, can you take the escalation queue this afternoon?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Hannah' for Hana; cue->queue homophone ok"}
+{"id": "s4-W14-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0012", "decision": "fix_clean", "clean": "Pedra wants us to wait for the audit.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Pedra' for Petra"}
+{"id": "s4-W14-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0023", "decision": "fix_clean", "clean": "The ticket is assigned to Alesha.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Alesha' for Alessia"}
+{"id": "s4-W14-0024", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W14-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0027", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; kubectl also garbled"}
+{"id": "s4-W14-0028", "decision": "fix_clean", "clean": "I'll handle the reefing myself.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'reefing' for refund"}
+{"id": "s4-W14-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0034", "decision": "fix_clean", "clean": "Please send the report to Simone and Theo and copy Petter.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'petter' for Petra"}
+{"id": "s4-W14-0035", "decision": "fix_clean", "clean": "Action item, Anna to call the vendor by Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Anna' for Hana"}
+{"id": "s4-W14-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0038", "decision": "fix_clean", "clean": "Oh no, the flight's canceled.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has US 'canceled' and contraction"}
+{"id": "s4-W14-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0040", "decision": "fix_clean", "clean": "Dear Mamet, thank you for your quick reply.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Mamet' for Mehmet"}
+{"id": "s4-W14-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw cut off after the correction cue; corrected text lost"}
+{"id": "s4-W14-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'substantial on Alm Street' not inferable; result not sensible"}
+{"id": "s4-W14-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0045", "decision": "drop", "reason": "hallucination", "note": "raw is only 'Yeah.'"}
+{"id": "s4-W14-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0050", "decision": "fix_clean", "clean": "The budget is 35,000 for the year.", "reason": "guide_violation", "rules": ["R10"], "note": "currency never spoken; $ added"}

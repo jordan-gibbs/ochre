@@ -1,0 +1,50 @@
+{"id": "s2-W11-0001", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0002", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0003", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hey' lost as 'AM', 'stuck'->'stock', 'I'll'->'they'll'; too many places"}
+{"id": "s2-W11-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0006", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'leaves at'->'leads. That's', 'I'll'->'it'll', plus R5 'Okay so' kept; >2 places"}
+{"id": "s2-W11-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled: dashboard/export/CSV/404/path lost"}
+{"id": "s2-W11-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'callers'->'colors' and 'a bug'->'above'; unreadable"}
+{"id": "s2-W11-0011", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0012", "decision": "fix_clean", "clean": "This guide walks you through setting up the development environment. First, install Node 20 or later and clone the repository from GitHub. Next, copy the sample environment file to a new file named .env and fill in your API keys. Finally, run the start script and open the app on localhost:3000.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'sample' for 'example'"}
+{"id": "s2-W11-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0016", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'oat milk eggs' heard as 'out mail cakes'"}
+{"id": "s2-W11-0018", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0019", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W11-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0022", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0024", "decision": "fix_clean", "clean": "Hi Grant, thanks for the intro to Lina at Brightwave. We spoke for about 40 minutes yesterday and she seems very interested in a pilot. She asked for a one page overview and a rough price range. I'll send both by Friday and copy you so you stay in the loop.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw has 'Lina'"}
+{"id": "s2-W11-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'was' for 'is', 'plug valve' for 'clogged valve', ending garbled; >2 places"}
+{"id": "s2-W11-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0027", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0028", "decision": "drop", "reason": "script_defect", "note": "clean adds '$' never spoken and 'p.m..'; also raw dropped 'of' and has 'Catherine'; >2 places"}
+{"id": "s2-W11-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0030", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0031", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0032", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0033", "decision": "fix_clean", "clean": "Hey Sam, I just talked to the landlord and he says the lease starts on August 1st. The deposit is $1,800 and we can pay it by check. You'll bring the paperwork to dinner on Friday so we can both sign.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'you'll', a sensible reading; 'I'll' not inferable"}
+{"id": "s2-W11-0034", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0035", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Priya' -> 'be it' and 'I'll' -> 'you'll'"}
+{"id": "s2-W11-0037", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'but can skip the regression suite' (changes meaning) and 'Our'->'A'"}
+{"id": "s2-W11-0039", "decision": "fix_clean", "clean": "Dear Ms. Aukhafer, thank you for attending our webinar on cloud security yesterday. As promised, I've attached the slides and a link to the recording. If you have any questions about Zero Trust or our SOC 2 report, just reply to this email. We would love to set up a short demo.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling 'Aukhafer'"}
+{"id": "s2-W11-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'Well let's follow fire up.' unrelated to command"}
+{"id": "s2-W11-0041", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0042", "decision": "fix_clean", "clean": "Hey everyone, quick heads up on the release. We are freezing the v5.3.0 branch tonight at 6 p.m. Pacific. Anything that is not merged by then goes into the next cycle. Please make sure your tests pass on CI before you ping Marcus for review.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'a' before 'review'"}
+{"id": "s2-W11-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0045", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dear all'->'Dear Paul', 'that'->'But', 'hullo' variant; >2 places"}
+{"id": "s2-W11-0048", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is just 'Tailed.'"}
+{"id": "s2-W11-0049", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'notes are in' heard as 'No sorry,', a false correction cue"}

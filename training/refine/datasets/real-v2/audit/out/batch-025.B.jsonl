@@ -1,0 +1,50 @@
+{"id": "s2-W3-0201", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0203", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0204", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0205", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hi both heard as I Beau, tenet for 10 AM, several losses"}
+{"id": "s2-W3-0206", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0207", "decision": "fix_clean", "clean": "I need help planning a birthday party for my daughter, who is turning seven. We will have around 15 kids. The party is at our house on Saturday the 8th, 2 to 4. My budget is about $300. Can you suggest a theme, a menu, and a list of activities? And please make sure everything is nut-free.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'from' before 2 to 4 not in raw"}
+{"id": "s2-W3-0208", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0209", "decision": "fix_clean", "clean": "When I click the export button, the file downloads but it is empty. The file name is report_2025_10_4.csv and the size is 0 bytes. This only happens when the date range is longer than 90 days. For shorter ranges it works fine.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'oh' of 04 lost; raw has four"}
+{"id": "s2-W3-0210", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0211", "decision": "fix_clean", "clean": "I am interested in the used bike you listed for $350. Is it still available? And would you take $300 cash if I can pick it up this weekend? I can come Saturday morning around 10.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hi' not in raw (I I)"}
+{"id": "s2-W3-0212", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0213", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0214", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ending 'So I'm awesome' lost 'lost some time'; Blockers garbled"}
+{"id": "s2-W3-0215", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0216", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0217", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0218", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lol, to main, CI all misheard"}
+{"id": "s2-W3-0219", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0220", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0221", "decision": "drop", "reason": "unrecoverable_meaning", "note": "five five five reduced to five"}
+{"id": "s2-W3-0222", "decision": "fix_clean", "clean": "To run the tests, use python -m pytest and expect around 300 tests.", "reason": "trailing_off", "rules": ["RECOVER"], "note": "raw lost 'to pass in under a minute'"}
+{"id": "s2-W3-0223", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0224", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0225", "decision": "drop", "reason": "hallucination", "note": "trailing 'but' never said"}
+{"id": "s2-W3-0226", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0227", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0229", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many recognition losses (blocks about, I would say, queues)"}
+{"id": "s2-W3-0230", "decision": "fix_clean", "clean": "Okay, so retro notes from today. What went well was that we shipped the new dashboard two days early, and the feedback from customers has been great. We got something like 40 responses, and most of them were positive. What did not go well was the testing. We found three bugs in production in the first day, which is kind of embarrassing, and the handoff between design and engineering was messy again. For next sprint, I think we should add a QA day before every release and have design sit in on planning. Thoughts? Nobody objects. I will put it on the board by the end of the day.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'if' lost"}
+{"id": "s2-W3-0231", "decision": "fix_clean", "clean": "Trip notes for the Italy. We land in Rome on the 5th of May at about 9:30 in the morning. We have the hotel booked for three nights at 180 euros a night. Then we take the train to Florence, which is about an hour and a half and costs 35 euros each. In Florence we have a cooking class on the 9th at 6 PM, and then we finish in Venice from the 11th to the 14th. The flight home leaves at 7:50 AM on the 15th, so we need to be at the airport by 5. I still have not booked the museum tickets for the Vatican.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'trip' after Italy lost"}
+{"id": "s2-W3-0232", "decision": "drop", "reason": "unrecoverable_meaning", "note": "billing rewrite, mentored, goes quiet misheard"}
+{"id": "s2-W3-0233", "decision": "drop", "reason": "unrecoverable_meaning", "note": "to slash orders, pool metrics garbled"}
+{"id": "s2-W3-0234", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'For' for er, plus Can/by lost"}
+{"id": "s2-W3-0235", "decision": "fix_clean", "clean": "Getting started with the design system: the system is built on a 4-pixel grid, so all spacing values are multiples of 4. The type scale has seven sizes ranging from 12 to 48 pixels. Colors are defined as tokens, and you should never use raw hex values in code. For example, use colour primary 500 and not the hex code. All components are documented in Figma and mirrored in Storybook. When in doubt, check the Figma file first because it is the source of truth.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'colour'; no dictated kebab-case"}
+{"id": "s2-W3-0236", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0237", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0238", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hey, third, Sandra, Venmo all misheard"}
+{"id": "s2-W3-0239", "decision": "drop", "reason": "unrecoverable_meaning", "note": "freelance, invoice lost"}
+{"id": "s2-W3-0240", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bottleneck, Postgres, fix garbled"}
+{"id": "s2-W3-0241", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W3-0242", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0243", "decision": "fix_clean", "clean": "She wrote, and I quote, \"Please send a signed form by noon on Friday.\"", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a'"}
+{"id": "s2-W3-0244", "decision": "fix_clean", "clean": "How many calories in a medium banana?", "reason": "guide_violation", "rules": ["R11", "R6"], "note": "raw already clean"}
+{"id": "s2-W3-0245", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0246", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0247", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0248", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0249", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0250", "decision": "fix_clean", "clean": "Conversation with Grandpa. He told me about the time he drove across the country in 1968 with just $200. It took him 12 days, and he slept in the car most nights. He said gas was 30 cents a gallon back then. He also said the best meal of the whole trip was a plate of pancakes in Nebraska that cost a dollar fifty. I want to record and tell the story properly before the family reunion on the 8th of August.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'him telling' not in raw"}

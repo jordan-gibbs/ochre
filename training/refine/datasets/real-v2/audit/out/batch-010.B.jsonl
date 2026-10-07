@@ -1,0 +1,50 @@
+{"id": "s2-W1-0451", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0452", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0453", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"ask the model to generate\" lost, raw \"Degenerate\""}
+{"id": "s2-W1-0454", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0455", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0456", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0457", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0458", "decision": "fix_clean", "clean": "Okay, so voice memo for myself. Tomorrow I need to finish the budget, call the accountant about the quarterly taxes, and ask the assistant to rewrite my out-of-office message so it sounds less stiff. Then in the afternoon I have the dentist at 2:30 and after that I want to pick up groceries. We need milk, spinach and that cheese my wife likes, the one with the blue label.", "reason": "dropped_by_recognizer", "note": "eggs lost"}
+{"id": "s2-W1-0459", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled spots"}
+{"id": "s2-W1-0460", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0461", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0462", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled spots"}
+{"id": "s2-W1-0463", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0464", "decision": "fix_clean", "clean": "So basically, does a section need a citation? I said that most users prefer dark mode but I don't have a source for that and I don't want to get called out in review.", "reason": "unrecoverable_word", "note": "raw \"a section\""}
+{"id": "s2-W1-0465", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"Mom\" for um"}
+{"id": "s2-W1-0466", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0467", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\""}
+{"id": "s2-W1-0468", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0469", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0470", "decision": "fix_clean", "clean": "Okay, so can somebody reply to the customer who emailed about the refund? Tell them we processed it yesterday and it should show up in three to five business days. Be nice about it if they have been waiting a while.", "reason": "unrecoverable_word", "note": "raw added \"if\"; keep"}
+{"id": "s2-W1-0471", "decision": "drop", "reason": "hallucination", "note": "trailing \"That's right.\""}
+{"id": "s2-W1-0472", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0473", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0474", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0475", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W1-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0477", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0478", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0479", "decision": "drop", "reason": "garbage", "note": "raw \"Yeah.\""}
+{"id": "s2-W1-0480", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0481", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0482", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W1-0483", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\""}
+{"id": "s2-W1-0484", "decision": "drop", "reason": "garbage", "note": ""}
+{"id": "s2-W1-0485", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Tokyo -> terms"}
+{"id": "s2-W1-0486", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0487", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0488", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0489", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\""}
+{"id": "s2-W1-0490", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W1-0491", "decision": "drop", "reason": "unrecoverable_meaning", "note": "negation lost and many errors"}
+{"id": "s2-W1-0492", "decision": "fix_clean", "clean": "Debrief after the parent-teacher conference. His teacher said that he is bright but easily distracted and suggested we ask him to read for 20 minutes every night. She also said to ignore the reading level label on the books he brings home because it is not accurate for him, he reads about it. His math is fine. The thing she is worried about is that he rushes through his work, so she wants us to respond to her by email if he says the homework is too easy. I also want to ask the school whether the after-school coding club has openings, and find out if the bus can drop him at Grandma's on Wednesdays. Action items: set up the reading routine, email the school about the club and the bus.", "reason": "unrecoverable_word", "note": "raw \"about\""}
+{"id": "s2-W1-0493", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W1-0494", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W1-0495", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W1-0496", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W1-0497", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W1-0498", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W1-0499", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W1-0500", "decision": "accept", "reason": "ok"}

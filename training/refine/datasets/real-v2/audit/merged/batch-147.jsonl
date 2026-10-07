@@ -1,0 +1,45 @@
+{"id": "s4-W41-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0009", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost \"I'll\""], "auditors": ["A", "B"], "clean": "Nah, just wait until..."}
+{"id": "s4-W41-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0011", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W41-0012", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W41-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0015", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Leila heard as Layla, not in dictionary"], "auditors": ["A", "B"], "clean": "Can you send Layla the intake form?"}
+{"id": "s4-W41-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0021", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["clinic heard as cake"], "auditors": ["A", "B"], "clean": "Does anyone know whether the cake is..."}
+{"id": "s4-W41-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0032", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'colour'"], "auditors": ["A", "B"], "clean": "Buttons in the primary variant use the brand colour for the fill and white for the label unless the background is..."}
+{"id": "s4-W41-0034", "decision": "drop", "reasons": ["unrecoverable_meaning", "hesitation_misheard_as_word"], "notes": ["Selin heard as 'Tell him' (changes addressee into instruction) plus 'Only' residue at end"], "auditors": ["A", "B"]}
+{"id": "s4-W41-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0036", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name spelled Damien in raw"], "auditors": ["A", "B"], "clean": "Hi Damien, regarding the client's custody paperwork, I think we still need the..."}
+{"id": "s4-W41-0037", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw adds a plausible final 'the'; keep it"], "auditors": ["A", "B"], "clean": "Emergency fund target is six months of expenses, which is about $18,000, then the rest goes to the..."}
+{"id": "s4-W41-0038", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'that' for 'the'; 'but And' treated as false start"], "auditors": ["A", "B"], "clean": "I was going to say the toggle component needs a disabled state and then I realized that..."}
+{"id": "s4-W41-0039", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["lol heard as Well, Nora as Nord"], "auditors": ["A", "B"], "clean": "Well, Nord, you have to hear what the drummer did today, he walked in and just..."}
+{"id": "s4-W41-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0044", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Leila heard as Layla"], "auditors": ["A", "B"], "clean": "Hello Layla, I'm writing about the housing appointment on the 14th, and I wanted to ask whether it would be possible to..."}
+{"id": "s4-W41-0045", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Diego heard as Ico"], "auditors": ["A", "B"], "clean": "Ico, the compressor on the vocal bus is, it's pumping way too much."}
+{"id": "s4-W41-0046", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Unless it's not.'; 'it's not' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W41-0047", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W41-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W41-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

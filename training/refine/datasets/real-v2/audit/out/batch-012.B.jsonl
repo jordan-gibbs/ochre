@@ -1,0 +1,50 @@
+{"id": "s2-W2-0051", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": "correction target 'Mom' lost; raw says no way tomorrow"}
+{"id": "s2-W2-0054", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0055", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W2-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sign contrary' not recoverable to signed contract"}
+{"id": "s2-W2-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0059", "decision": "fix_clean", "clean": "Maybe too late.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it is' lost in raw"}
+{"id": "s2-W2-0060", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0062", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0063", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0064", "decision": "fix_clean", "clean": "Hey, can you move the retro to Thursday at 3?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'so that Dave can join' lost"}
+{"id": "s2-W2-0065", "decision": "fix_clean", "clean": "Hey, I am almost there. I am stuck behind the truck, so give me 10 minutes.", "reason": "guide_violation", "rules": ["R2", "RECOVER"], "note": "drop corrective 'actually' cue; raw says 'the truck'"}
+{"id": "s2-W2-0066", "decision": "fix_clean", "clean": "Write a short product description for stainless steel water bottles that keeps drinks cold for 24 hours.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'for stainless steel water bottles'"}
+{"id": "s2-W2-0067", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' not spoken"}
+{"id": "s2-W2-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "docker/flags garbled in raw"}
+{"id": "s2-W2-0070", "decision": "fix_clean", "clean": "How do I convert a string to a float in Python?", "reason": "guide_violation", "rules": ["R6"], "note": "missing ?"}
+{"id": "s2-W2-0071", "decision": "drop", "reason": "unrecoverable_meaning", "note": "QA heard as cop, 'then' as Ben"}
+{"id": "s2-W2-0072", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0073", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0074", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0075", "decision": "fix_clean", "clean": "Meeting with the landlord on the 13th at 9.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'am' lost"}
+{"id": "s2-W2-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0077", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W2-0078", "decision": "fix_clean", "clean": "Can you ping Lena about the contract? She has the latest version.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has Lena both times"}
+{"id": "s2-W2-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0080", "decision": "fix_clean", "clean": "I need a recipe for lasagna that serves eight people that does not use meat.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'that' not 'and'"}
+{"id": "s2-W2-0081", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0082", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0083", "decision": "fix_clean", "clean": "This is a workaround for the Wedget bug where the scroll position resets.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "WebKit not inferable from Wedget"}
+{"id": "s2-W2-0084", "decision": "fix_clean", "clean": "Alex will take the uncle shift on Saturday and Priya will take Sunday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "on-call heard as uncle"}
+{"id": "s2-W2-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0086", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0088", "decision": "fix_clean", "clean": "I mean every word I said in the last email, and I hope we can resolve this in...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "'soon' lost; raw ends on 'in'"}
+{"id": "s2-W2-0089", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0090", "decision": "fix_clean", "clean": "Please wait for the sign to go green before...", "reason": "unrecoverable_word", "rules": ["R4", "RECOVER"], "note": "CI heard as sign; 'you merge' lost"}
+{"id": "s2-W2-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is just 'Right.'"}
+{"id": "s2-W2-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0094", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0095", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0096", "decision": "fix_clean", "clean": "When I click export, it hangs for like 30 seconds and then fails with the timeout.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the timeout'"}
+{"id": "s2-W2-0097", "decision": "fix_clean", "clean": "I will send the notes before lunch because I have a call.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'at one' lost"}
+{"id": "s2-W2-0098", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0099", "decision": "fix_clean", "clean": "Book club next month: the book is Puranissi and we meet at Lina's place.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "names follow raw"}
+{"id": "s2-W2-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "SQL, California, who ordered lost"}

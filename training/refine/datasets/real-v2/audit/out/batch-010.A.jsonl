@@ -1,0 +1,50 @@
+{"id": "s2-W1-0451", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0452", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0453", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ask the model to generate' became 'Degenerate'; 'uh is' heard as 'It's'"}
+{"id": "s2-W1-0454", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0455", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0456", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0457", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0458", "decision": "fix_clean", "clean": "Okay, so voice memo for myself. Tomorrow I need to finish the budget, call the accountant about the quarterly taxes, and ask the assistant to rewrite my out-of-office message so it sounds less stiff. Then in the afternoon I have the dentist at 2:30 and after that I want to pick up groceries. We need milk, spinach and that cheese my wife likes, the one with the blue label.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'eggs' absent from raw"}
+{"id": "s2-W1-0459", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pushed->goes, 'is hiring too, questions'->'or Firing two questions', what->with, to HR->though"}
+{"id": "s2-W1-0460", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0461", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0462", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um heard as 'on' ('show on The main frustrations', 'On.'); 'in the' heard as 'Then'"}
+{"id": "s2-W1-0463", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0464", "decision": "fix_clean", "clean": "So basically, does a section need a citation? I said that most users prefer dark mode but I don't have a source for that and I don't want to get called out in review.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a section', not 'this section'"}
+{"id": "s2-W1-0465", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um heard as 'Mom' before the correction"}
+{"id": "s2-W1-0466", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0467", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W1-0468", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0469", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0470", "decision": "fix_clean", "clean": "Okay, so can somebody reply to the customer who emailed about the refund? Tell them we processed it yesterday and it should show up in three to five business days. Be nice about it if they have been waiting a while.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has plausible content word 'if'"}
+{"id": "s2-W1-0471", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'That's right.' never said"}
+{"id": "s2-W1-0472", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0473", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0474", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'need uh it certified' heard as 'need that it's certified'"}
+{"id": "s2-W1-0475", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to um you' lost 'you', could->That, I'm->an; several places"}
+{"id": "s2-W1-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0477", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0478", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0479", "decision": "drop", "reason": "hallucination", "note": "raw is only 'Yeah.'"}
+{"id": "s2-W1-0480", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0481", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0482", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled: 'At air.log pod grep dash high time out'"}
+{"id": "s2-W1-0483", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W1-0484", "decision": "drop", "reason": "garbage", "note": "raw 'Hall. S H'"}
+{"id": "s2-W1-0485", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Tokyo heard as 'terms'"}
+{"id": "s2-W1-0486", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0487", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0488", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0489", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W1-0490", "decision": "drop", "reason": "unrecoverable_meaning", "note": "could->Good, rewrite->write, paragraph->paragraphs, 'I owe you'->'At OU'"}
+{"id": "s2-W1-0491", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hasn't started' heard as 'has started'; further garbling later"}
+{"id": "s2-W1-0492", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh he reads above it' heard as 'But he reads about it'"}
+{"id": "s2-W1-0493", "decision": "drop", "reason": "unrecoverable_meaning", "note": "IBO, timely, 'to subscriptions' lost, 'making it up' garbled"}
+{"id": "s2-W1-0494", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "er->'Or', uh->'well'; also 'explain' lost, pot->hot"}
+{"id": "s2-W1-0495", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh->'But', '9', 'Now'; 'short' lost"}
+{"id": "s2-W1-0496", "decision": "drop", "reason": "unrecoverable_meaning", "note": "eval->Avel, cleanup->clean app, 'two, rewrite'->'Do write'"}
+{"id": "s2-W1-0497", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Claude->Claw, gives->there's, 'can'->'yeah', summarise variant"}
+{"id": "s2-W1-0498", "decision": "drop", "reason": "unrecoverable_meaning", "note": "I'm->M, 'the signed'->assigned, Linda->linen, ask->asked"}
+{"id": "s2-W1-0499", "decision": "drop", "reason": "hallucination", "note": "raw has invented 'it's a little bit more than a little bit'; also 'Dear Ms.' lost, 'signed the premium'"}
+{"id": "s2-W1-0500", "decision": "accept", "reason": "ok"}

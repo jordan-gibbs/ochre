@@ -1,0 +1,9 @@
+{"id": "s4-W54-0005", "decision": "fix_clean", "clean": "Where can I find mussels near me?", "reason": "unrecoverable_word", "note": "raw \"find\"; muscles->mussels homophone; A fix"}
+{"id": "s4-W54-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Ahead is flying\"; name lost; A drop"}
+{"id": "s4-W54-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"needs more kill\"; A drop"}
+{"id": "s4-W54-0018", "decision": "fix_clean", "clean": "Sarah's tent has a broken guy line.", "reason": "unrecoverable_word", "note": "Sarah from raw; ten->tent inferable from guy line; A fix"}
+{"id": "s4-W54-0020", "decision": "fix_clean", "clean": "Lucia swap the reins for a halter.", "reason": "unrecoverable_word", "note": "raw \"Lucia swap\" reads as an instruction; keep raw; A fix"}
+{"id": "s4-W54-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"get phone tonight\"; A drop"}
+{"id": "s4-W54-0032", "decision": "fix_clean", "clean": "The photography business offers three packages. The basic one includes a two-hour session, and the premium one includes a second shoot-up.", "reason": "unrecoverable_word", "note": "raw \"shoot-up\" and comma splice split; A fix"}
+{"id": "s4-W54-0040", "decision": "fix_clean", "clean": "Paul, can you check whether the allotment shed has a spare hose reel or if I need to buy one?", "reason": "unrecoverable_word", "note": "\"Paul and\" for Colin; \"and\" is a name artefact; A fix"}
+{"id": "s4-W54-0041", "decision": "accept", "reason": "ok", "note": "sup->sub and note->know a inferable in context; A accept"}

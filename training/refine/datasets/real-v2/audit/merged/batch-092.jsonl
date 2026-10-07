@@ -1,0 +1,38 @@
+{"id": "s2-W11-0151", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Priya->'the Prior', Le Guin->Legin, 'and Month No More', 'had owned'; too many places", "Legin, Prior, 'and Month No More' garbled in several places"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0152", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0153", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0154", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["'Hi Dad' became 'I d'; greeting not inferable", "'Hi Dad' became 'I d'; removed"], "auditors": ["A", "B"], "clean": "The car is making a weird noise again, so I took it to the shop on Elm Avenue. They said the brake pads need replacing and it will cost about $320. Is that okay with you, or should I get a second opinion?"}
+{"id": "s2-W11-0155", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw dropped leading 'the'", "raw lacks 'The'"], "auditors": ["A", "B"], "clean": "Mobile SDK supports iOS 15 and later and Android 10 and later. To add it to your project, install the package with your dependency manager and call the initialize method with your project key. You should do this as early as possible in the app startup. Calls made before initialization are queued and sent once it completes."}
+{"id": "s2-W11-0156", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'neighbours' and 'the valve'", "neighbours variant in raw; 'the valve' in raw"], "auditors": ["A", "B"], "clean": "Dear neighbours, the building will have no hot water on Tuesday, June 10th from 9 a.m. to 3 p.m. while the plumbers replace the valve. We apologize for the inconvenience. If you have any questions, please contact the front desk. Thank you for your understanding."}
+{"id": "s2-W11-0157", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0158", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'access key' lost; raw 'in a WS Yeah'", "'access key' lost, 'Yeah' residue; remainder not a sensible query"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0162", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0163", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["recognizer dropped 'which is a known bug... central european time' (>5 words)", "middle sentences lost by recognizer"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0164", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["double period after p.m.", "double period after p.m."], "auditors": ["A", "B"], "clean": "Draft a polite message to my team explaining that we are moving the weekly sync from Monday to Wednesday at 1 p.m. Mention that the change is because of the new customer call. Keep it friendly and under 80 words. Don't use any emojis."}
+{"id": "s2-W11-0165", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0167", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'kube control get pods' became 'You control the pod'", "'get' lost/garbled, pod/in; command not inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0168", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0169", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0173", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0174", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0176", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Summarise'", "raw has Summarise"], "auditors": ["A", "B"], "clean": "Summarise this article in 3 bullet points."}
+{"id": "s2-W11-0177", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Marta and invite lost ('Mar. So', 'and by')", "Marta and 'invite' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0178", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0179", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0180", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0181", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0182", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0183", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0185", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Alfama->Alpha, fado->Foto, Luis->Lewis; 3 places", "Alpha/Alfama, Foto/fado, Lewis/Luis - three places"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0186", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'brutal' became 'Brivel', v2.0 -> 'the two point oh'", "'v' lost and 'brutal' garbled as Brivel"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0187", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["apply->play, changed/a/in/main.tf all garbled; >2 places", "main.th, 'play' for apply, changed a tag in -> several places"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0188", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0189", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw dropped 'said they'", "'said' lost"], "auditors": ["A", "B"], "clean": "The vendor finally replied about the SSO integration. They support SAML but not OIDC on the standard plan, and the enterprise plan costs $30 more per seat. I think SAML is enough for us. Does anyone object before I reply to confirm?"}
+{"id": "s2-W11-0190", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0191", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["double period after p.m.", "double period"], "auditors": ["A", "B"], "clean": "The meeting has moved to Thursday at 2 p.m."}
+{"id": "s2-W11-0192", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0193", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0195", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0197", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0199", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0200", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'rest and graph q l' became 'us congrats you'", "REST and GraphQL garbled"], "auditors": ["A", "B"]}

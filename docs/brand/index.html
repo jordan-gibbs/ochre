@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ochre brand</title>
+<meta name="description" content="The Ochre brand sheet: icon, wordmark, colour, type and usage.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<style>
+@font-face { font-family: "Funnel Display"; font-weight: 500; src: url("../../app/ui/theme/fonts/FunnelDisplay-500.woff2") format("woff2"); }
+@font-face { font-family: "Funnel Display"; font-weight: 700; src: url("../../app/ui/theme/fonts/FunnelDisplay-700.woff2") format("woff2"); }
+@font-face { font-family: "Funnel Display"; font-weight: 800; src: url("../../app/ui/theme/fonts/FunnelDisplay-800.woff2") format("woff2"); }
+@font-face { font-family: "Instrument Sans"; font-weight: 400 700; src: url("../../app/ui/theme/fonts/instrument-sans-latin-wght-normal.woff2") format("woff2-variations"); }
+@font-face { font-family: "Geist Mono"; font-weight: 100 900; src: url("../../app/ui/theme/fonts/geist-mono-latin-wght-normal.woff2") format("woff2-variations"); }
+:root {
+  --paper: #F7F5F1; --porcelain: #FFFEFC; --ink: #1A1714; --ink-2: #5A544D; --ink-3: #6F6860;
+  --line: rgba(40,30,20,.10); --hero: #F04E16; --accent: #D4400E; --accent-ink: #C23A0C;
+  --display: "Funnel Display", "Instrument Sans", system-ui, sans-serif;
+  --sans: "Instrument Sans", system-ui, sans-serif; --mono: "Geist Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.55 var(--sans); -webkit-font-smoothing: antialiased; }
+main { max-width: 1120px; margin: 0 auto; padding: 56px 16px 96px; }
+@media (min-width: 720px) { main { padding: 72px 40px 120px; } }
+h1, h2 { font-family: var(--display); font-weight: 700; letter-spacing: -0.04em; line-height: 1.05; margin: 0; }
+h1 { font-size: clamp(40px, 7vw, 72px); }
+h2 { font-size: 30px; margin-bottom: 8px; }
+.lede { max-width: 640px; font-size: 18px; color: var(--ink-2); margin: 16px 0 0; }
+section { padding-top: 64px; }
+.sub { color: var(--ink-2); margin: 0 0 24px; max-width: 680px; }
+.mono, code { font-family: var(--mono); font-size: 12.5px; }
+.card { background: var(--porcelain); border-radius: 16px; box-shadow: 0 0 0 1px var(--line); padding: 28px; }
+.card.dark { background: var(--ink); color: var(--paper); box-shadow: none; }
+.row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 28px; }
+figure { margin: 0; display: grid; gap: 10px; justify-items: start; }
+figcaption { font-family: var(--mono); font-size: 12px; color: var(--ink-3); }
+.dark figcaption, .dark .note { color: rgba(247,245,241,.62); }
+.note { font-family: var(--mono); font-size: 12px; margin: 18px 0 0; }
+.grid2 { display: grid; gap: 20px; grid-template-columns: 1fr; }
+@media (min-width: 820px) { .grid2 { grid-template-columns: 1fr 1fr; } }
+img { display: block; max-width: 100%; height: auto; }
+a { color: var(--accent-ink); }
+/* clear space: the lockup SVGs carry 1/4 of the icon height on every side */
+.clear { position: relative; display: inline-block; outline: 1px dashed rgba(240,78,22,.6); outline-offset: 0; }
+.clear img { height: 110px; width: auto; }
+.clear .tick { position: absolute; left: 6px; top: 3px; font: 11px var(--mono); color: var(--accent-ink); }
+.dark .clear .tick { color: #FF8552; }
+/* colour */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; min-width: 620px; }
+th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+tr:last-child td { border-bottom: 0; }
+th { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+.sw { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center; font: 700 15px var(--sans); box-shadow: inset 0 0 0 1px var(--line); }
+/* type */
+.spec { display: grid; gap: 6px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.spec:first-child { padding-top: 0; }
+.spec:last-child { border-bottom: 0; padding-bottom: 0; }
+.spec .big { font-family: var(--display); font-weight: 700; letter-spacing: -0.04em; font-size: clamp(32px, 5vw, 52px); line-height: 1.1; }
+/* do / don't */
+.rules { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+.rule { background: var(--porcelain); border-radius: 14px; box-shadow: 0 0 0 1px var(--line); padding: 16px; display: grid; gap: 10px; align-content: start; }
+.rule .art { height: 104px; display: grid; place-items: center; border-radius: 10px; background: var(--paper); overflow: hidden; }
+.rule .art img { width: 64px; height: 64px; }
+.rule b { font-size: 13px; }
+.rule .no { color: #B4283A; }
+.rule .yes { color: #1F7346; }
+.rule p { margin: 0; font-size: 13px; color: var(--ink-2); }
+/* story */
+.story { font-family: var(--display); font-weight: 700; letter-spacing: -0.03em; font-size: clamp(24px, 3.4vw, 36px); line-height: 1.2; max-width: 860px; margin: 0; }
+/* HUD pill sample (light, with the hero shadow and the speaking o) */
+.desk { border-radius: 16px; background: #ECE9E4; padding: 56px 16px; display: grid; justify-items: center; gap: 28px; }
+.pill { display: flex; align-items: center; gap: 10px; height: 44px; padding: 0 6px; border-radius: 999px; background: rgba(255,254,252,.97); white-space: nowrap; max-width: 100%; overflow: hidden;
+  box-shadow: inset 0 1px 0 #fff, 0 0 0 1px rgba(30,22,14,.09), 0 1px 2px rgba(20,16,12,.08), 0 10px 28px -8px rgba(20,16,12,.2), 0 14px 40px -6px rgba(240,78,22,.16); }
+.orb { position: relative; flex: none; width: 32px; height: 32px; border-radius: 50%; background: rgba(240,78,22,.12); display: grid; place-items: center; }
+.orb svg { width: 18px; height: 18px; position: relative; z-index: 1; }
+.orb path { fill: var(--hero); }
+.orb i { position: absolute; inset: 0; margin: auto; width: 18px; height: 18px; border-radius: 50%; border: 1.5px solid var(--hero); }
+.orb i:nth-of-type(1) { transform: scale(1.35); opacity: .38; }
+.orb i:nth-of-type(2) { transform: scale(1.7); opacity: .16; }
+.live { font-size: 15px; overflow: hidden; min-width: 0; padding-right: 4px; }
+.live .p { color: #7A736B; }
+.caret { display: inline-block; width: 2px; height: 18px; margin-left: 2px; border-radius: 1px; background: var(--hero); vertical-align: -4px; }
+.x { flex: none; width: 32px; height: 32px; display: grid; place-items: center; color: var(--ink-2); }
+.x svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+.pill.locked { background: var(--accent); color: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 0 0 1px rgba(120,30,0,.18), 0 10px 28px -8px rgba(20,16,12,.2), 0 16px 44px -6px rgba(240,78,22,.26); }
+.pill.locked .orb { background: rgba(255,255,255,.18); }
+.pill.locked .orb path { fill: #fff; }
+.pill.locked .orb i { border-color: #fff; }
+.pill.locked .x { color: rgba(255,255,255,.86); }
+.pill.locked .live .p { color: rgba(255,255,255,.72); }
+.pill.locked .caret { background: #fff; }
+/* README in context */
+.gh { border-radius: 12px; overflow: hidden; box-shadow: 0 0 0 1px #d0d7de; background: #fff; margin-top: 20px; }
+.gh-bar { padding: 10px 16px; font: 600 14px system-ui, sans-serif; color: #1f2328; border-bottom: 1px solid #d0d7de; background: #f6f8fa; }
+.gh-body { padding: 20px 24px 28px; color: #1f2328; font: 15px/1.5 system-ui, sans-serif; }
+.gh-body p { margin: 16px 0 0; text-align: center; }
+.files { columns: 2 220px; font-family: var(--mono); font-size: 13px; padding: 0; list-style: none; margin: 0; }
+.files li { padding: 3px 0; }
+footer { margin-top: 72px; color: var(--ink-3); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="../../app/icons/src/ochre-lockup-horizontal.svg" alt="ochre" style="height:96px;width:auto;margin:-16px 0 24px -16px">
+    <h1>Talk, and it’s typed.<br>Locally.</h1>
+    <p class="lede">The Ochre brand on one page: the icon, the wordmark, colour, type and how to use them. Every file is in <code>app/icons/src/</code>; the fonts are OFL and self-hosted.</p>
+  </header>
+
+  <section id="icon">
+    <h2>Icon</h2>
+    <p class="sub">A Funnel Display ExtraBold lowercase <b>o</b>, outlined, white on a flat vermilion squircle. Use the master at 48 px and up. At 32 px and below use the small cut, where the o fills 62% of the tile so its counter stays open at 16 px.</p>
+    <div class="card">
+      <div class="row">
+        <figure><img src="../../app/icons/src/ochre-icon.svg" width="160" height="160" alt="Ochre icon"><figcaption>ochre-icon · 160</figcaption></figure>
+        <figure><img src="../../app/icons/src/ochre-icon.svg" width="96" height="96" alt=""><figcaption>96</figcaption></figure>
+        <figure><img src="../../app/icons/src/ochre-icon.svg" width="64" height="64" alt=""><figcaption>64</figcaption></figure>
+        <figure><img src="../../app/icons/src/ochre-icon.svg" width="48" height="48" alt=""><figcaption>48</figcaption></figure>
+        <figure><img src="../../app/icons/src/ochre-icon-small.svg" width="32" height="32" alt=""><figcaption>small · 32</figcaption></figure>
+        <figure><img src="../../app/icons/src/ochre-icon-small.svg" width="24" height="24" alt=""><figcaption>24</figcaption></figure>
+        <figure><img src="../../app/icons/src/ochre-icon-small.svg" width="16" height="16" alt=""><figcaption>16</figcaption></figure>
+      </div>
+    </div>
+    <div class="grid2" style="margin-top:20px">
+      <div class="card" style="background:#ECE9E4;box-shadow:none"><div class="row">
+        <figure><img src="../../app/icons/src/ochre-icon-mono-black.svg" width="72" height="72" alt=""><figcaption>mono-black</figcaption></figure>
+        <figure><img src="../../app/icons/src/ochre-icon-mono-white.svg" width="72" height="72" alt=""><figcaption>mono-white</figcaption></figure>
+        <figure><img src="../../app/icons/src/ochre-glyph.svg" width="72" height="72" alt=""><figcaption>glyph</figcaption></figure>
+        <figure><img src="../../app/icons/src/ochre-icon-macos.svg" width="88" height="88" alt=""><figcaption>macos grid</figcaption></figure>
+      </div></div>
+      <div class="card dark"><div class="row">
+        <figure><img src="../../app/icons/src/tray/ochre-tray-idle-dark.svg" width="32" height="32" alt=""><figcaption>idle</figcaption></figure>
+        <figure><img src="../../app/icons/src/tray/ochre-tray-recording-dark.svg" width="32" height="32" alt=""><figcaption>recording</figcaption></figure>
+        <figure><img src="../../app/icons/src/tray/ochre-tray-busy-dark.svg" width="32" height="32" alt=""><figcaption>busy</figcaption></figure>
+        <figure><img src="../../app/icons/src/tray/ochre-tray-error-dark.svg" width="32" height="32" alt=""><figcaption>error</figcaption></figure>
+        <figure><img src="../../app/icons/src/tray/ochre-tray-off-dark.svg" width="32" height="32" alt=""><figcaption>off</figcaption></figure>
+      </div><p class="note">Tray states on a dark taskbar. Light taskbars get the ink tile.</p></div>
+    </div>
+  </section>
+
+  <section id="wordmark">
+    <h2>Wordmark and lockup</h2>
+    <p class="sub"><b>ochre</b>, lowercase, Funnel Display Bold at −0.045em, outlined. “Ochre” in prose, <code>ochre</code> in the CLI and in the wordmark. Clear space is a quarter of the icon height on every side; the lockup SVGs already include it (the dashed outline).</p>
+    <div class="grid2">
+      <div class="card"><figure>
+        <span class="clear"><img src="../../app/icons/src/ochre-lockup-horizontal.svg" alt="ochre lockup"><span class="tick">¼ h</span></span>
+        <figcaption>ochre-lockup-horizontal.svg</figcaption></figure></div>
+      <div class="card dark"><figure>
+        <span class="clear"><img src="../../app/icons/src/ochre-lockup-horizontal-dark.svg" alt="ochre lockup on ink"><span class="tick">¼ h</span></span>
+        <figcaption>ochre-lockup-horizontal-dark.svg</figcaption></figure></div>
+      <div class="card"><figure><img src="../../app/icons/src/ochre-wordmark.svg" alt="ochre" style="height:60px;width:auto"><figcaption>ochre-wordmark.svg</figcaption></figure></div>
+      <div class="card dark"><figure><img src="../../app/icons/src/ochre-wordmark-white.svg" alt="ochre" style="height:60px;width:auto"><figcaption>ochre-wordmark-white.svg</figcaption></figure></div>
+    </div>
+  </section>
+
+  <section id="colour">
+    <h2>Colour</h2>
+    <p class="sub">Paper, ink and one hero colour. Vermilion leans red; it is never recoloured toward amber.</p>
+    <div class="card table-wrap">
+      <table>
+        <thead><tr><th></th><th>Hex</th><th>Role</th><th>Pair</th><th>Contrast</th></tr></thead>
+        <tbody>
+          <tr><td><div class="sw" style="background:#D4400E;color:#fff">Aa</div></td><td class="mono">#D4400E</td><td><code>--accent</code>: fills under white text (buttons, the locked pill)</td><td>white on it</td><td class="mono">4.63 : 1 · AA</td></tr>
+          <tr><td><div class="sw" style="background:#F7F5F1;color:#C23A0C">Aa</div></td><td class="mono">#C23A0C</td><td><code>--accent-ink</code>: orange text and links</td><td>on paper</td><td class="mono">4.94 : 1 · AA</td></tr>
+          <tr><td><div class="sw" style="background:#F04E16"></div></td><td class="mono">#F04E16</td><td>icon tile and bright marks; never under text</td><td>on paper</td><td class="mono">3.32 : 1 · graphic only</td></tr>
+          <tr><td><div class="sw" style="background:#1F1B18;color:#FF8552">Aa</div></td><td class="mono">#FF8552</td><td><code>--accent-ink</code>, dark mode</td><td>on #1F1B18</td><td class="mono">7.11 : 1 · AAA</td></tr>
+          <tr><td><div class="sw" style="background:#F7F5F1"></div></td><td class="mono">#F7F5F1</td><td>paper: the canvas</td><td></td><td></td></tr>
+          <tr><td><div class="sw" style="background:#1A1714"></div></td><td class="mono">#1A1714</td><td>ink: text, and the dark canvas</td><td></td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="type">
+    <h2>Type</h2>
+    <p class="sub">Three families, all OFL and self-hosted in <code>app/ui/theme/fonts/</code>.</p>
+    <div class="card">
+      <div class="spec"><span class="big">Funnel Display 700</span><span class="mono">Headlines and titles · −0.04em tracking · no italic</span></div>
+      <div class="spec"><span style="font-size:26px;font-weight:520;line-height:1.25">Hold a key, talk, and the text lands where you type.</span><span class="mono">Instrument Sans · UI and supporting text · 420 / 520 / 600 / 680</span></div>
+      <div class="spec"><span class="mono" style="font-size:20px">v0.1.0 · Right Alt · 0.42 s</span><span class="mono">Geist Mono · keycaps, versions, numbers, specs</span></div>
+    </div>
+  </section>
+
+  <section id="usage">
+    <h2>Do and don’t</h2>
+    <p class="sub">Use the SVGs as they are.</p>
+    <div class="rules">
+      <div class="rule"><div class="art"><img src="../../app/icons/src/ochre-icon.svg" alt=""></div><b class="yes">Do: flat, one colour</b><p>The tile as drawn, on paper or ink.</p></div>
+      <div class="rule"><div class="art"><img src="../../app/icons/src/ochre-icon.svg" alt="" style="filter:drop-shadow(0 0 14px rgba(240,78,22,.9))"></div><b class="no">Don’t: gradients or glow</b><p>No blooms or gradients on the mark.</p></div>
+      <div class="rule"><div class="art"><span style="display:grid;place-items:center;width:84px;height:84px;border-radius:50%;box-shadow:inset 0 0 0 3px #1A1714"><img src="../../app/icons/src/ochre-icon.svg" alt="" style="width:50px;height:50px"></span></div><b class="no">Don’t: circle container</b><p>The o is already round. Don’t ring it.</p></div>
+      <div class="rule"><div class="art"><img src="../../app/icons/src/ochre-icon.svg" alt="" style="filter:hue-rotate(10deg) saturate(1.05) brightness(1.08)"></div><b class="no">Don’t: recolour to amber</b><p>Not <span class="mono">#EA6A1F</span> amber. Ours is vermilion.</p></div>
+      <div class="rule"><div class="art"><span style="position:relative;display:block"><img src="../../app/icons/src/ochre-icon.svg" alt=""><span style="position:absolute;right:-14px;top:-12px;font-size:22px;color:#F04E16">✦</span></span></div><b class="no">Don’t: sparkles</b><p>No sparkles, soundwaves or ornaments.</p></div>
+      <div class="rule"><div class="art"><img src="../../app/icons/src/ochre-icon.svg" alt="" style="width:96px;height:52px"></div><b class="no">Don’t: stretch</b><p>Scale uniformly. Below 48 px, use the small cut.</p></div>
+    </div>
+  </section>
+
+  <section id="name">
+    <h2>The name</h2>
+    <p class="story">Ochre is the earth pigment people used for their first marks. The oldest way to make a mark, for the newest way to write.</p>
+  </section>
+
+  <section id="context">
+    <h2>In context</h2>
+    <p class="sub">The HUD pill, light by default, sits on a soft vermilion-tinted shadow. While you talk the brand o grows with your voice in place of level bars; locked dictation turns the whole pill vermilion, with a white o.</p>
+    <div class="desk">
+      <div class="pill"><span class="orb"><i></i><i></i><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50.1 81.2Q40.2 81.2 32.8 77.35Q25.4 73.5 21.35 66.45Q17.3 59.4 17.3 49.9Q17.3 40.4 21.35 33.4Q25.4 26.4 32.8 22.6Q40.2 18.8 50.2 18.8Q60.2 18.8 67.45 22.6Q74.7 26.4 78.7 33.4Q82.7 40.4 82.7 50Q82.7 59.5 78.7 66.55Q74.7 73.6 67.4 77.4Q60.1 81.2 50.1 81.2ZM50.1 65.2Q57 65.2 60.65 61.05Q64.3 56.9 64.3 49.9Q64.3 42.9 60.65 38.85Q57 34.8 50.1 34.8Q43.1 34.8 39.4 38.85Q35.7 42.9 35.7 49.9Q35.7 56.9 39.4 61.05Q43.1 65.2 50.1 65.2Z"/></svg></span><span class="live"><span>let’s meet on Tuesday at three thirty</span><span class="p"> in the</span><span class="caret"></span></span><span class="x"><svg viewBox="0 0 16 16"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg></span></div>
+      <div class="pill locked"><span class="orb"><i></i><i></i><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50.1 81.2Q40.2 81.2 32.8 77.35Q25.4 73.5 21.35 66.45Q17.3 59.4 17.3 49.9Q17.3 40.4 21.35 33.4Q25.4 26.4 32.8 22.6Q40.2 18.8 50.2 18.8Q60.2 18.8 67.45 22.6Q74.7 26.4 78.7 33.4Q82.7 40.4 82.7 50Q82.7 59.5 78.7 66.55Q74.7 73.6 67.4 77.4Q60.1 81.2 50.1 81.2ZM50.1 65.2Q57 65.2 60.65 61.05Q64.3 56.9 64.3 49.9Q64.3 42.9 60.65 38.85Q57 34.8 50.1 34.8Q43.1 34.8 39.4 38.85Q35.7 42.9 35.7 49.9Q35.7 56.9 39.4 61.05Q43.1 65.2 50.1 65.2Z"/></svg></span><span class="live"><span>and send the deck to Priya before</span><span class="p"> lunch</span><span class="caret"></span></span><span class="x"><svg viewBox="0 0 16 16"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg></span></div>
+    </div>
+    <div class="gh">
+      <div class="gh-bar">README.md</div>
+      <div class="gh-body">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/readme-header-dark.png">
+          <img src="assets/readme-header-light.png" alt="Ochre — Talk, and it's typed. Locally." width="1280" height="320">
+        </picture>
+        <p><b>A free, local, open-source alternative to Wispr Flow.</b></p>
+      </div>
+    </div>
+    <div class="grid2" style="margin-top:20px">
+      <figure><img src="assets/og-1280x640.png" alt="Social card" style="border-radius:12px;box-shadow:0 0 0 1px var(--line)"><figcaption>og-1280x640.png · GitHub social / OG</figcaption></figure>
+      <figure><img src="assets/hf-thumbnail-1200x630.png" alt="Model card thumbnail" style="border-radius:12px"><figcaption>hf-thumbnail-1200x630.png · Hugging Face card</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="files">
+    <h2>Files</h2>
+    <p class="sub">SVG masters (final artwork) live in <code>app/icons/src/</code> and are rasterised by <code>python app/icons/build_icons.py</code>. The assets above are rendered by <code>python docs/brand/render.py</code> from <code>docs/brand/src/</code>.</p>
+    <div class="card">
+      <ul class="files">
+        <li><a href="../../app/icons/src/ochre-icon.svg">ochre-icon.svg</a></li>
+        <li><a href="../../app/icons/src/ochre-icon-small.svg">ochre-icon-small.svg</a></li>
+        <li><a href="../../app/icons/src/ochre-icon-macos.svg">ochre-icon-macos.svg</a></li>
+        <li><a href="../../app/icons/src/ochre-icon-mono-black.svg">ochre-icon-mono-black.svg</a></li>
+        <li><a href="../../app/icons/src/ochre-icon-mono-white.svg">ochre-icon-mono-white.svg</a></li>
+        <li><a href="../../app/icons/src/ochre-glyph.svg">ochre-glyph.svg</a></li>
+        <li><a href="../../app/icons/src/ochre-glyph-small.svg">ochre-glyph-small.svg</a></li>
+        <li><a href="../../app/icons/src/ochre-wordmark.svg">ochre-wordmark.svg</a></li>
+        <li><a href="../../app/icons/src/ochre-wordmark-white.svg">ochre-wordmark-white.svg</a></li>
+        <li><a href="../../app/icons/src/ochre-lockup-horizontal.svg">ochre-lockup-horizontal.svg</a></li>
+        <li><a href="../../app/icons/src/ochre-lockup-horizontal-dark.svg">ochre-lockup-horizontal-dark.svg</a></li>
+        <li><a href="../../app/icons/src/favicon.svg">favicon.svg</a></li>
+        <li><a href="../../app/icons/src/tray/">tray/ochre-tray-*-{light,dark}.svg</a></li>
+        <li><a href="../../app/icons/src/tray/macos/">tray/macos/ochre-template-*.svg</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>Ochre brand · 2026-10-05 · the design handoff is kept in <a href="handoff/HANDOFF.md">docs/brand/handoff/</a>.</footer>
+</main>
+</body>
+</html>

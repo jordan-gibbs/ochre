@@ -1,0 +1,38 @@
+{"id": "s4-W61-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0042", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["\"Rewrite\" heard as \"Write\""], "auditors": ["A", "B"], "clean": "Write this paragraph so it sounds friendlier, and also..."}
+{"id": "s4-W61-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0050", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw \"Dominic\""], "auditors": ["A", "B"], "clean": "Hi Dominic, I read the book club picks, and honestly I'd love to suggest..."}
+{"id": "s4-W61-0051", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["final \"the\" heard as \"they\""], "auditors": ["A", "B"], "clean": "Here's where we are on the courthouse e-filing project. The vendor delivered the first build on Monday. It passes about 80% of the test cases. The remaining failures are all in the document upload flow, and Chloe thinks the problem is the file size limit, but I'm not sure because they..."}
+{"id": "s4-W61-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0053", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["\"electric co op\" -> \"Electrical\", \"when\" -> \"win\""], "auditors": ["A", "B"]}
+{"id": "s4-W61-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0055", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["\"We're going to be able to do it\" never said"], "auditors": ["A", "B"]}
+{"id": "s4-W61-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0057", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing \"Okay.\" never said (also PA->pop)"], "auditors": ["A", "B"]}
+{"id": "s4-W61-0058", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["raw \"Oh there's dashboard.\""], "auditors": ["A", "B"]}
+{"id": "s4-W61-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0068", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["\"that they...\" heard as \"that day.\""], "auditors": ["A", "B"], "clean": "Call notes with the dealership finance manager. He said the interest rate is 5.9% for 60 months with nothing down, but if we put down $2,000 it drops to 5.4%. He also mentioned a doc fee of $400 that day."}
+{"id": "s4-W61-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0074", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0075", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw \"Dominic\""], "auditors": ["A", "B"], "clean": "Thanks, Dominic, that's really kind of you. I'll..."}
+{"id": "s4-W61-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0080", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0081", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0082", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Emil->Emma"], "auditors": ["A", "B"], "clean": "Emma's gonna kill me, but I accidentally pushed to main and the..."}
+{"id": "s4-W61-0084", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw adds \"I\""], "auditors": ["A", "B"], "clean": "What to say when I..."}
+{"id": "s4-W61-0085", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends complete"], "auditors": ["A", "B"], "clean": "Grace, you're the best. I owe you."}
+{"id": "s4-W61-0086", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0090", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["\"It is I sh my phone dies\" garbled"], "auditors": ["A", "B"]}

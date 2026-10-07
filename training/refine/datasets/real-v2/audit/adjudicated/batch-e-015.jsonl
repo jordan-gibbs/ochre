@@ -1,0 +1,9 @@
+{"id": "e4-E12-0034", "decision": "accept", "reason": "ok", "note": "A: 'rockful' is a near spelling of rockwool cubes (R13)"}
+{"id": "e4-E12-0046", "decision": "fix_clean", "clean": "Is the dinghy park locked after sunset, or can members get in with the fob?", "reason": "unrecoverable_word", "note": "A: fog->fob inferable (members get in with a fob); raw has 'the' not 'a'"}
+{"id": "e4-E13-0004", "decision": "fix_clean", "clean": "How to treat varroa mite in autumn without killing the queen", "reason": "unrecoverable_word", "note": "A: raw has singular 'Mite'; plural not traceable"}
+{"id": "e4-E13-0009", "decision": "accept", "reason": "ok", "note": "A: 'airway book' is a near form of the paired term 'air waybill' with bill of lading"}
+{"id": "e4-E13-0016", "decision": "fix_clean", "clean": "docker run --rm -p 8080:80 bashier/escape-room-kiosk:latest", "reason": "unrecoverable_word", "note": "A: username from raw 'bashier'; 'kios' is a non-word near 'kiosk' (B kept the slip)"}
+{"id": "e4-E13-0020", "decision": "fix_clean", "clean": "tar -czf backup/hype-records.tar.gz records/", "reason": "unrecoverable_word", "note": "A: Dar->tar inferable; raw has 'backup' and 'hype'; 2 small places"}
+{"id": "e4-E13-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: username 'ngozi' heard as 'and Gozi'; no sensible raw-faithful identifier"}
+{"id": "e4-E13-0023", "decision": "accept", "reason": "ok", "note": "A: 'install -r requirements.txt' makes pip certain; 'But' is the slip"}
+{"id": "e4-E13-0026", "decision": "accept", "reason": "ok", "note": "B: 'regain' is a near form of 'regatta' with 'over early at the start'; A's 'regain?' is not sensible"}

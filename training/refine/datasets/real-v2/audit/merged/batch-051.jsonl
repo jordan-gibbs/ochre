@@ -1,0 +1,40 @@
+{"id": "s2-W6-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0002", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw 'Please lease attached.' lost 'find the signed'", "find/signed lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0003", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Best' heard as 'As to'; closing not inferable", "As to regards; Best lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0005", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never said; also 'the equation' for uh", "trailing Yeah; 'the equation' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0008", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'of uh' heard as 'Emma' in 'a copy Emma.'", "'I want it, too' / 'Emma'"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0009", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'pre ascends' for 'priya sends'; third item cue lost", "pre ascends; third item marker lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0012", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["Whisper 'Noe, and Noe' for uh listed as attendees", "Noe, and Noe residue for uh and uh"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0013", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["opening lost and repetition loop in claim number", "claim number and greeting lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0014", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'Thumb' for um; also 'math', 'dedicating'", "math/Thumb/dedicating"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0016", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["item three content lost, 'X Ward', 'C in PDF'", "item 3 and export/CSV lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0020", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["date and 'my suitcase' lost, flight/baggage/rand garbled", "flight no, date, baggage, rand garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0022", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0026", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Could' heard as 'But'; request opener not inferable", "'But' for 'Could'"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0027", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["fails/error/reset heard as Fields/air/we said", "Fields/air/we said garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0030", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["company name not in dictionary; raw has Northland", "company from raw"], "auditors": ["A", "B"], "clean": "Excited to share that I have joined Northland Logistics as head of operations."}
+{"id": "s2-W6-0031", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'or' lost in 'Lomic. Lom it.'", "'Or' lost"], "auditors": ["A", "B"], "clean": "Hi, I am following up on purchase order 4417. We ordered 200 units of the standard bracket on the 2nd of September and they have not arrived. Your confirmation said delivery within 15 business days, which has now passed. Could you give me an updated delivery date? If the order is lost, let me know so we can reorder."}
+{"id": "s2-W6-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0033", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Bess. Not here.' for 'best, nadia'; Bright Power", "Brightpath, Nadia, Best garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0035", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'up there' for uh; also wire damage, H03", "'up there' for uh; H03 882"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0038", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["tier/deals/port/10 AM/name all garbled", "Hi, tier, deals, Port Authority, sign-off garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0039", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'Paul.' for uh; also 'rope', 'Galliver'", "Paul, rope, name, new paragraph garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0040", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["attendee names garbled ('President Warren Catch a', 'Annual')", "attendee names lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0046", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Cattell, 'your' for new, 'Kind' lost, undictated line breaks", "name, new, Kind lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

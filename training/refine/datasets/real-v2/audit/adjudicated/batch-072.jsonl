@@ -1,0 +1,6 @@
+{"id": "s2-W8-0051", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Hi love, uh' became 'I love it'; 'it' is a real word in place of the hesitation and the greeting is unrecoverable, so a raw-faithful target would invent a different statement. Side with A."}
+{"id": "s2-W8-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Brandmas Pie crossed' cannot support 'Grandma's pie crust' and the final sentence was lost; two separate unrecoverable places, no sensible raw-faithful target. Side with B."}
+{"id": "s2-W8-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lend Dave' became 'land the'; the raw-faithful 'never land the ladder again' changes the meaning. Side with A."}
+{"id": "s2-W8-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "5:30 became '53'; keeping 5:30 reads the speaker's mind, and '9 to 53' is not a sensible target. Side with A."}
+{"id": "s2-W8-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "First sentence (about 10 words) lost and 'I'll' became 'it'll'; the fix exceeds the 5-word limit. Side with A."}
+{"id": "s2-W8-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Call me' became 'Only'; 'Only when you can, okay?' changes the message. Side with A."}

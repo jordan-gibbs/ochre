@@ -1,0 +1,46 @@
+{"id": "s2-W8-0301", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0302", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Learned learn' is a stutter of learn"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0303", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'M leaving' -> I'm inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0304", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0305", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0306", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0307", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0308", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0309", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'next big rings' -> rain inferable from roof-leak context"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0311", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0312", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["speaker grammar kept"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0313", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0314", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0315", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends unspoken 'to the' at the end", "raw ends with 'to the' never said"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0316", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'call' heard as 'Oh', Janet as 'Channed'", "call dropped, Janet->Channed, garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0317", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0318", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0319", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["deck/Lopezes/cedar/pine/joists garbled", "deck/Lopezes/cedar/joists lost"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0320", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'Look,' and 'The'", "'Look,' where uh was said"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0323", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hi Mr. Reyes'->'I'm Mr. Rays', heater->Peter, 'could' lost", "heater->Peter, Reyes->Rays, Hi/Could lost"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0324", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'picked a'->'Bit to', 'then'->'And', neighbors variant", "'Bit to full basket' for picked; then lost"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0325", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'Look.'", "'Look.' where uh was said"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0326", "decision": "drop", "reasons": ["unrecoverable_meaning", "hesitation_misheard_as_word"], "notes": ["correction value 19,000 garbled to 1900; 'I'/'Aye' from uh", "'I' and 'Aye' for uh; 1900 vs nineteen thousand"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0327", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0328", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["raw invents 'Well, I think it's a very good thing'; much content lost", "opening lost, meaning changed, hallucinated sentence"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0329", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0330", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'I'm' not in raw", "I'm lost in raw"], "auditors": ["A", "B"], "clean": "Outside the building."}
+{"id": "s2-W8-0331", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0332", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0333", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0334", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0335", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'gray'", "raw 'gray'"], "auditors": ["A", "B"], "clean": "Paint samples for the hallway, gray or green."}
+{"id": "s2-W8-0336", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Can I borrow your ladder'->'And I borrow your letter'", "ladder->letter, can->and"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0337", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0338", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'it' not in raw", "'it' lost in raw"], "auditors": ["A", "B"], "clean": "Fix the porch light, keeps flickering."}
+{"id": "s2-W8-0339", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'Well,'; 'to' became 'but'", "'Well,' for uh; 'but' for 'to'"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0340", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'Hey, it's me' absent from raw", "'Hey, it's me' lost"], "auditors": ["A", "B"], "clean": "The power just went out at our place, is it out at yours too, or is it just us?"}
+{"id": "s2-W8-0341", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0342", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'the day' -> 'that day' inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0343", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'Low,'", "'Low,' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0344", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'No weights' is the changed correction cue; both values in raw"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0345", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0346", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'plumbers'", "raw 'plumbers'"], "auditors": ["A", "B"], "clean": "The plumbers said it was the wax ring under the toilet, so that's about $120 for the part and the work."}
+{"id": "s2-W8-0347", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0348", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'Aye,' and 'No.'", "'Aye,' and 'No.' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0349", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Grandpa->'grand', 'you've sent', 'Love you' lost: 3 places", "grand for Grandpa, Love you lost, you've"], "auditors": ["A", "B"]}

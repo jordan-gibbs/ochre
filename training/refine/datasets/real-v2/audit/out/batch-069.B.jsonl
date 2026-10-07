@@ -1,0 +1,50 @@
+{"id": "s2-W7-0401", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0402", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'look at test folder, count tests' and 'so I can see if it reads well'"}
+{"id": "s2-W7-0403", "decision": "drop", "reason": "unrecoverable_meaning", "note": "goat/gore routine/goreteen/gor teams/Golek garbled in many places"}
+{"id": "s2-W7-0404", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0405", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0406", "decision": "fix_clean", "clean": "Quick brain dump before I forget, since I'm out tomorrow. The deploy script is in the scripts folder, and it takes the environment as the first argument. Never run it against prod without the dry-run flag first. The database backups run at 2 a.m. and are kept for 14 days. Restoring one takes about 2 minutes, and the steps are in the runbook under disaster recovery. The on-call phone is in the shared password manager. The two flaky tests are in the checkout suite and are tracked in the ticket I linked earlier. Just retry them. If the payment provider webhook stops arriving, check their status page first and then the dead letter queue. And the only thing that really needs a decision this week is whether we renew the monitoring contract. The renewal date is the 30th.", "reason": "number_value", "rules": ["RECOVER"], "note": "raw says 2 minutes"}
+{"id": "s2-W7-0407", "decision": "drop", "reason": "hallucination", "note": "trailing 'Oh' never said"}
+{"id": "s2-W7-0408", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lee/State Flats/aerobs/poster garbled"}
+{"id": "s2-W7-0409", "decision": "drop", "reason": "unrecoverable_meaning", "note": "generate and /openapi.json lost"}
+{"id": "s2-W7-0410", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0411", "decision": "drop", "reason": "unrecoverable_meaning", "note": "In this/DON/Can lost in several places"}
+{"id": "s2-W7-0412", "decision": "drop", "reason": "unrecoverable_meaning", "note": "I DS, time held, name constant garbled"}
+{"id": "s2-W7-0413", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0414", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0415", "decision": "drop", "reason": "unrecoverable_meaning", "note": "I do rather a return or result / handle Yeah"}
+{"id": "s2-W7-0416", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0417", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Aloo, wear and claws, little cut map"}
+{"id": "s2-W7-0418", "decision": "drop", "reason": "unrecoverable_meaning", "note": "FPI, slow for UID"}
+{"id": "s2-W7-0419", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0420", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first line lost (Curve), Buttons, Start duck"}
+{"id": "s2-W7-0421", "decision": "drop", "reason": "unrecoverable_meaning", "note": "blank line lost, 'their lay unreferenced'"}
+{"id": "s2-W7-0422", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0423", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0424", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Fixed and bulk lost, list structure undictated"}
+{"id": "s2-W7-0425", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0426", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Downstream, tail of docstring lost"}
+{"id": "s2-W7-0427", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0428", "decision": "fix_clean", "clean": "This endpoint is public on purpose. It only returns data that is already visible on the Falcon marketing site. If you have anything user-specific here, it must go behind auth.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'have' not 'add'"}
+{"id": "s2-W7-0429", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw too short, most content lost"}
+{"id": "s2-W7-0430", "decision": "fix_clean", "clean": "Heads up, Granite will be read-only from 10 to 10:30 tonight for the schema change. Writes will return a 503 and clients should redrive. They'll post when it's done.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has re drive and They'll"}
+{"id": "s2-W7-0431", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0432", "decision": "drop", "reason": "unrecoverable_meaning", "note": "immutability/regex/reject garbled several places"}
+{"id": "s2-W7-0433", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0434", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dave Library, Rave Limiter, Trits"}
+{"id": "s2-W7-0435", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0436", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0437", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Bug lost, UT See, An ego, T's garbled"}
+{"id": "s2-W7-0438", "decision": "fix_clean", "clean": "I'm going to describe a bug, and I want you to resist the urge to fix it immediately. First reproduce it, then write a failing test, then show me both, and only then propose the fix. The bug is that when you drag a card from one column to another on the Kanban board and then quickly drag it back, the card duplicates. It appears in both columns until you refresh. I suspect the optimistic update and the server response race. The second move is applied, then the response from the first move arrives and puts the card back in the first column, while the second response adds it again in the original. So we probably need to either cancel the earlier request or ignore stale responses with a sequence number.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'locally' lost by recognizer"}
+{"id": "s2-W7-0439", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command mostly lost"}
+{"id": "s2-W7-0440", "decision": "fix_clean", "clean": "docker run --rm -it -v $PWD:/app -w /app node:20 npm", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R12"], "note": "'test' lost; mpm->npm, b->v inferable from volume mount"}
+{"id": "s2-W7-0441", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0442", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0443", "decision": "drop", "reason": "unrecoverable_meaning", "note": "middle of dictation lost"}
+{"id": "s2-W7-0444", "decision": "drop", "reason": "unrecoverable_meaning", "note": "notes lost, garbage clickton, in our heart, heat snatch out"}
+{"id": "s2-W7-0445", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Pfizer/any houses/Invert/Eat garbled"}
+{"id": "s2-W7-0446", "decision": "drop", "reason": "unrecoverable_meaning", "note": "permission to night, of the resource lost, many garbles"}
+{"id": "s2-W7-0447", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hiss for httptest, parallel for per route"}
+{"id": "s2-W7-0448", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Doth raised detect your flag etc"}
+{"id": "s2-W7-0449", "decision": "drop", "reason": "unrecoverable_meaning", "note": "currency list garbled/lost"}
+{"id": "s2-W7-0450", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Pythonic, Invert, something type, clean of one"}

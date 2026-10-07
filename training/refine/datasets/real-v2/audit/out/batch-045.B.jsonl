@@ -1,0 +1,50 @@
+{"id": "s2-W5-0201", "decision": "fix_clean", "clean": "Let's see. You mean the other repo.", "reason": "unrecoverable_word", "note": "Oh I lost"}
+{"id": "s2-W5-0202", "decision": "fix_clean", "clean": "Are you picking up the cake? Where should I?", "reason": "unrecoverable_word", "note": "or heard as Where"}
+{"id": "s2-W5-0203", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0204", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ha heard as how"}
+{"id": "s2-W5-0205", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0206", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0207", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W5-0208", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0209", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0210", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0211", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Sir?"}
+{"id": "s2-W5-0212", "decision": "drop", "reason": "hallucination", "note": "trailing Okay"}
+{"id": "s2-W5-0213", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah; Kwame heard Quay"}
+{"id": "s2-W5-0214", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0215", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0216", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0217", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0218", "decision": "drop", "reason": "unrecoverable_meaning", "note": "asked me to stay and help lost"}
+{"id": "s2-W5-0219", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "But"}
+{"id": "s2-W5-0220", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Where; broke->Bro"}
+{"id": "s2-W5-0221", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Oh low, onto"}
+{"id": "s2-W5-0222", "decision": "fix_clean", "clean": "Ok, I finally watched the show everyone keeps talking about and yet, I get it now. I stayed up until 3.", "reason": "unrecoverable_word", "note": "yeah heard yet"}
+{"id": "s2-W5-0223", "decision": "fix_clean", "clean": "Sorry for the late reply, I was in back to back meetings. I will have the answer for you by tomorrow afternoon.", "reason": "unrecoverable_word", "note": "an heard the"}
+{"id": "s2-W5-0224", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Nonna garbled, stray said"}
+{"id": "s2-W5-0225", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0226", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0227", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "on it"}
+{"id": "s2-W5-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0229", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0230", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Well case or; old table"}
+{"id": "s2-W5-0231", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W5-0232", "decision": "drop", "reason": "unrecoverable_meaning", "note": "safe heard say"}
+{"id": "s2-W5-0233", "decision": "fix_clean", "clean": "Thanks, Chivon, that is really helpful. I will use that for the next one.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s2-W5-0234", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0235", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "where; ping->King"}
+{"id": "s2-W5-0236", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0237", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0238", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0239", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0240", "decision": "fix_clean", "clean": "Yet, I have been thinking about it a lot and I think I want to take the job in Lisbon.", "reason": "unrecoverable_word", "note": "yeah heard Yet"}
+{"id": "s2-W5-0241", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0242", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W5-0243", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0244", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Okonkwo garbled"}
+{"id": "s2-W5-0245", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "no"}
+{"id": "s2-W5-0246", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0247", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "though"}
+{"id": "s2-W5-0248", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0249", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0250", "decision": "accept", "reason": "ok"}

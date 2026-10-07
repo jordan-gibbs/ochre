@@ -1,0 +1,50 @@
+{"id": "s4-W15-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0052", "decision": "fix_clean", "clean": "The quote comes to $12,500, including labor.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'labor'"}
+{"id": "s4-W15-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0057", "decision": "fix_clean", "clean": "Demo, the cake is chocolate, and the card is in my bag.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Gemma heard as 'Demo'"}
+{"id": "s4-W15-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0061", "decision": "fix_clean", "clean": "Hi Gemma, I'm writing about the group booking for the Sicily trip. We have 14 people traveling in late September, and we'd like to keep the same hotel as last year if possible. Thanks so much.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'traveling'"}
+{"id": "s4-W15-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0063", "decision": "fix_clean", "clean": "Car sync notes. The checkout bug is reproducible on Android 13, only when the coupon field is empty. Giorgio thinks the validation layer, I think it's the cache. We'll test both on Monday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "QA heard as 'Car'; 'it's' dropped before 'the validation layer'"}
+{"id": "s4-W15-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I'm at Tina Keep Howard. Yeah.' garbled plus trailing 'Yeah'"}
+{"id": "s4-W15-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0071", "decision": "fix_clean", "clean": "Can everyone arrive by 6:45 for the dress rehearsal? Bring your own shoes. Hassan has the music and Alif has the costumes, and please don't be late.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary: raw spelling Alif"}
+{"id": "s4-W15-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'nineteenth' lost; also Reno to do/call/ladder garbled"}
+{"id": "s4-W15-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'omg' heard as 'Owen. G. E.'"}
+{"id": "s4-W15-0075", "decision": "fix_clean", "clean": "The build failed on the Windows runner because the test for the date picker hangs, so I'm gonna rerun it and look at the logs afterwards.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'afterwards' not 'after lunch'"}
+{"id": "s4-W15-0076", "decision": "fix_clean", "clean": "The lesson plan for Friday is the basics, followed by a short social where everyone swaps partners, and I'll bring the speaker.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "bachata basics heard as 'The basics'"}
+{"id": "s4-W15-0077", "decision": "fix_clean", "clean": "Hi Lift, I looked at the quote again and the second option, the one with the walk-in shower, is the better price. We can fit it in the budget if we drop the heated floor, which I'm okay with.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Elif heard as 'lift'"}
+{"id": "s4-W15-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'The R S. Keep Hages Live.' garbled"}
+{"id": "s4-W15-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0080", "decision": "fix_clean", "clean": "Hi Camilleo, thanks for sending over the itinerary. I've gone through it and mostly it looks great. The flights are fine and the hotel in Coyote is perfect, but I think the rail pass should run from the 4th to the 14th, because we're staying until the 15th. The airport pickup on the first day should be at 8:30, not 8, since our flight doesn't land until 8. But you fix both and send the updated version. Also, please confirm the cancellation terms. Thank you.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Camilleo, Coyote, 'But you', 'Thank you' from raw; 4 places in ~110 words"}
+{"id": "s4-W15-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cents->'said', formatter->'form I heard', Hassan clause dropped"}
+{"id": "s4-W15-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'one' lost"}
+{"id": "s4-W15-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "flight->bike and 'it's' dropped; meaning broken"}
+{"id": "s4-W15-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0091", "decision": "fix_clean", "clean": "The export button is grayed out on the dashboard page when the filter has more than 500 rows.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'grayed'"}
+{"id": "s4-W15-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sink/draining/under garbled; 3+ places"}
+{"id": "s4-W15-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Britbud, calming, Emile: too many places"}
+{"id": "s4-W15-0095", "decision": "fix_clean", "clean": "The bridal shower is at 2, and honestly I'm just gonna go to the gym first, love, so I'll see you there.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'lol' heard as 'Love'"}
+{"id": "s4-W15-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0097", "decision": "fix_clean", "clean": "Hi Hassen, I wanted to follow up on our call about the studio expansion. We agreed on knocking down the wall between the two rooms, and the quote for that was $6,500, plus about a week of work. The plan is to start on the 10th of February, since the flooring only arrives that week, and we'll keep the front room open for classes during the work. The only thing I still need from you is the permit number and a copy of the insurance certificate. Thanks and talk soon.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary: raw spelling Hassen"}
+{"id": "s4-W15-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled; Wednesday night correction lost"}
+{"id": "s4-W15-0100", "decision": "fix_clean", "clean": "The tango showcase is on the 13th of April at the town hall. Doors open at 7 and the show starts at 7:30. We have 16 couples signed up as of this morning. Then I need volunteers for the coat check, the ticket table and the stage crew. Camille has the music list and Luca has the lighting plan, so talk to them if you're helping with either, and please send me your availability by Wednesday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'Then' for 'and'"}

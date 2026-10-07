@@ -1,0 +1,50 @@
+{"id": "e4-E5-0041", "decision": "fix_clean", "clean": "The new menu board looks like a chalkboard.", "reason": "dropped_by_recognizer"}
+{"id": "e4-E5-0042", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0043", "decision": "fix_clean", "clean": "The dehumidifier in the map room shut off again overnight, and the humidity was up to 62% when I came in this morning. I've put a fan in there for now, but we really need facilities.", "reason": "dropped_by_recognizer"}
+{"id": "e4-E5-0044", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E5-0045", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0046", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0048", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0049", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0050", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0051", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0052", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0053", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0054", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0055", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0056", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E5-0057", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E5-0058", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E5-0059", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0060", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0061", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0062", "decision": "fix_clean", "clean": "Unfortunately, the archive is going to be closed for the whole month of August this year because of the renovation, so I'd recommend that your class plan their research visits for September instead, and I'm happy to set up a group orientation for them in the first week.", "reason": "spelling_from_raw"}
+{"id": "e4-E5-0063", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E5-0064", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0065", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0066", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0067", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0068", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E5-0069", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0070", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0071", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0072", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0073", "decision": "fix_clean", "clean": "You know how the old hair used to jam? The new one does it too.", "reason": "unrecoverable_word"}
+{"id": "e4-E5-0074", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E5-0075", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0076", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0077", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0078", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E5-0079", "decision": "accept", "reason": "ok"}
+{"id": "e4-E5-0080", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E6-0001", "decision": "fix_clean", "clean": "Ellen Gozee, the truck's parked outside the library tonight.", "reason": "unrecoverable_word"}
+{"id": "e4-E6-0002", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0003", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0004", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0005", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E6-0006", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0007", "decision": "fix_clean", "clean": "Dimitri, can you check the cold chain log for Saskatchewan?", "reason": "unrecoverable_word"}
+{"id": "e4-E6-0008", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E6-0009", "decision": "fix_clean", "clean": "The collection was donated in 1972 by the estate of Aurelio Benedetti, a printer from Trice who specialized in shipping manifests.", "reason": "unrecoverable_word"}
+{"id": "e4-E6-0010", "decision": "drop", "reason": "unrecoverable_meaning"}

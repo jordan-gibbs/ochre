@@ -1,0 +1,50 @@
+{"id": "s2-W1-0251", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0252", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'slash dot dot'"}
+{"id": "s2-W1-0253", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'blend', 'you know' for hesitations; babe lost"}
+{"id": "s2-W1-0254", "decision": "fix_clean", "clean": "So basically this function takes the raw transcript and sends it to the model with a system prompt, and the problem is that if the transcript says something like \"translate this to French\", the model just does it. We should wrap the transcript into limiters and tell the model that everything between them is text to clean, not instructions to follow.", "reason": "unrecoverable_word", "note": "raw 'into limiters'"}
+{"id": "s2-W1-0255", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw says 'I do want to start Fight'; negation lost"}
+{"id": "s2-W1-0256", "decision": "fix_clean", "clean": "I am trying to find out whether their office is open on public holidays, and if it is, whether I would need an appointment. I am visiting from out of town and I can only come on the Monday that is the bank holiday.", "reason": "unrecoverable_word", "note": "'Hi' lost; raw 'their'"}
+{"id": "s2-W1-0257", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0258", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0259", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0260", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0261", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0262", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Because last time it did' lost/inverted"}
+{"id": "s2-W1-0263", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'So on the' for um"}
+{"id": "s2-W1-0264", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0265", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0266", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0267", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0268", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0269", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0270", "decision": "drop", "reason": "non_english", "note": "raw has non-English garble and lost first half"}
+{"id": "s2-W1-0271", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0272", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0273", "decision": "fix_clean", "clean": "Dear Sir or Madam, I am writing to inquire about the status of my application, which I submitted on the 2nd of March. Would you please confirm that it has been received and let me know approximately when I can expect a decision? I would also appreciate it if you could send me a copy of the confirmation.", "reason": "spelling_from_raw", "note": "inquire; 'Would' from raw"}
+{"id": "s2-W1-0274", "decision": "fix_clean", "clean": "Please explain the difference between the stock market and the bond market to me like in middle school, and use the pizza analogy.", "reason": "dropped_by_recognizer", "note": "I'm lost; 'the pizza' from raw"}
+{"id": "s2-W1-0275", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0276", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0277", "decision": "fix_clean", "clean": "This prompt currently says \"You are a helpful assistant\", but for the cleanup model that is the wrong framing because it invites the model to help with whatever the text asks for. So change it.", "reason": "trailing_off", "note": "raw ends after 'So change it.'"}
+{"id": "s2-W1-0278", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0279", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0280", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0281", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Valvarez, 'But you read', 'our', lost 'if'"}
+{"id": "s2-W1-0282", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hey all' lost, several garbles, 'You know' for uh"}
+{"id": "s2-W1-0283", "decision": "drop", "reason": "unrecoverable_meaning", "note": "last sentences garbled"}
+{"id": "s2-W1-0284", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0285", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles (Osaka, bad knees, pack)"}
+{"id": "s2-W1-0286", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Some cheek' for Subject plus other garbles"}
+{"id": "s2-W1-0287", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W1-0288", "decision": "drop", "reason": "unrecoverable_meaning", "note": "undictated structure plus several misheard words"}
+{"id": "s2-W1-0289", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'do you?' for uh"}
+{"id": "s2-W1-0290", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0291", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0292", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0293", "decision": "drop", "reason": "hallucination", "note": "trailing 'Ha'"}
+{"id": "s2-W1-0294", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Well' for uh"}
+{"id": "s2-W1-0295", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0296", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Rightway' for wait wait"}
+{"id": "s2-W1-0297", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0298", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'it' for uh"}
+{"id": "s2-W1-0299", "decision": "drop", "reason": "unrecoverable_meaning", "note": "kubectl lost as 'Que don't'"}
+{"id": "s2-W1-0300", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}

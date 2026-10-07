@@ -1,0 +1,43 @@
+{"id": "s4-W37-0001", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'apes' for 'eggs'"], "auditors": ["A", "B"], "clean": "- Apes\n- Milk\n- Rice"}
+{"id": "s4-W37-0002", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'in' for 'on'"], "auditors": ["A", "B"], "clean": "The bullet point in slide 4 is wrong."}
+{"id": "s4-W37-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'all the carrier' read as 'call'"], "auditors": ["A", "B"]}
+{"id": "s4-W37-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0009", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'with our' for 'in the parent'"], "auditors": ["A", "B"], "clean": "We ranked it number one with our survey."}
+{"id": "s4-W37-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0015", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'origin', 'trace'"], "auditors": ["A", "B"], "clean": "1. Check the origin sheet\n2. Label the trace"}
+{"id": "s4-W37-0017", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'power', 'dark'"], "auditors": ["A", "B"], "clean": "Three things:\n1. The invoice\n2. The power count\n3. The dark schedule"}
+{"id": "s4-W37-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0021", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["shallots/aioli garbled ('chill lots', 'make me the alley')"], "auditors": ["A", "B"]}
+{"id": "s4-W37-0022", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'the flashlight'"], "auditors": ["A", "B"], "clean": "The troop needs to bring:\n- A sleeping bag\n- A water bottle\n- Two pairs of socks\n- The flashlight"}
+{"id": "s4-W37-0023", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'steps to reproduce' missing from raw"], "auditors": ["A", "B"], "clean": "1. Open the gradebook\n2. Click export\n3. Watch it hang at 90%"}
+{"id": "s4-W37-0024", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'cells' for 'salsa'"], "auditors": ["A", "B"], "clean": "Okay, grocery run for the potluck:\n- Chips\n- Cells\n- Those little cups\n- Ice"}
+{"id": "s4-W37-0025", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Nate for Maeve plus two article changes: 3 places in 33 words"], "auditors": ["A", "B"]}
+{"id": "s4-W37-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0028", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'agree'"], "auditors": ["A", "B"], "clean": "Meeting notes\n- Vera will send the revised schedule\n- We agree to move the audit to Thursday\n- Nobody has the key to the cage"}
+{"id": "s4-W37-0029", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'need' for 'meet'"], "auditors": ["A", "B"], "clean": "Write me a short welcome message for new language partners that covers:\n- Where we need\n- What to bring\n- How pairing works"}
+{"id": "s4-W37-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0031", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw cut off after 'third the'; floor plan, sign-off lost"], "auditors": ["A", "B"]}
+{"id": "s4-W37-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'hang on' treated as a self-directed hold"], "auditors": ["A", "B"]}
+{"id": "s4-W37-0033", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'shell' for 'shelf'"], "auditors": ["A", "B"], "clean": "Okay, here's what I found on the returns shell:\n- Three damaged cartons\n- One pallet with no label\n- A stack of invoices that don't match anything"}
+{"id": "s4-W37-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0038", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary: raw 'Melan'"], "auditors": ["A", "B"], "clean": "Hi Melan, a quick summary of what we changed:\n1. We replaced the two access points in the library\n2. We updated the firmware on the switches\n3. We turned off the old guest network\n\nLet me know if anything looks off."}
+{"id": "s4-W37-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0041", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'the' for 'this'"], "auditors": ["A", "B"], "clean": "I want you to summarize the support ticket and then give me the next steps as a numbered list."}
+{"id": "s4-W37-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0045", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["lead-in lost; 'ought', 'myself' for audit/my cell"], "auditors": ["A", "B"]}
+{"id": "s4-W37-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0047", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected item 'fold the tarps' heard as 'pole for tarps'"], "auditors": ["A", "B"]}
+{"id": "s4-W37-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W37-0050", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["missing sentence-final periods"], "auditors": ["A", "B"], "clean": "The retention policy keeps student files for seven years.\n\nAfter that they are archived and then deleted."}

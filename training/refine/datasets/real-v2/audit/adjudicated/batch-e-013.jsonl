@@ -1,0 +1,5 @@
+{"id": "e4-E10-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'we have now reached' dropped and 'work'->'one'; B's fix is not a sensible sentence"}
+{"id": "e4-E10-0058", "decision": "accept", "reason": "ok", "note": "A: rate->write, 'spread? Cheat'->spreadsheet, marden->margin are inferable slips in a pricing prompt"}
+{"id": "e4-E11-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: 'random PM installed', 'dot n', 'dot in' plus then->and; too much inference in 20 words"}
+{"id": "e4-E11-0025", "decision": "accept", "reason": "ok", "note": "A: 'dot components calendar' in a can't-resolve error is a path; slashes are formatting (R7)"}
+{"id": "e4-E11-0028", "decision": "fix_clean", "clean": "The app reads three environment variables: STRIPE_SECRET_KEY, WEBHOOK_SECRET, and DONATION_GOAL_CENTS. DONATION_GOAL_CENTS is missing, the progress bar on the homepage defaults to a goal of $5,000, which is probably not what the church wants.", "reason": "dropped_by_recognizer", "note": "A: 'if' absent from raw; remove it per recoverability (example C), rest recoverable"}

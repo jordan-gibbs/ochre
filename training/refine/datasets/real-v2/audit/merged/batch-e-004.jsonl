@@ -1,0 +1,46 @@
+{"id": "e4-E3-0031", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never spoken", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "e4-E3-0032", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Zainab/Lachlan/8-inch Dobsonian/park garbled in many places", "garbled in many places"], "auditors": ["A", "B"]}
+{"id": "e4-E3-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0036", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw has 'because', not 'cuz'", "raw has 'because' not 'cuz'"], "auditors": ["A", "B"], "clean": "Polish this for the parent newsletter but keep it short: Hey guys, the October meeting got moved because the gym is booked. It's gonna be in the cafeteria now, same time, and Marguerite's bringing coffee."}
+{"id": "e4-E3-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0042", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'with or' dropped; 'without' alone changes the meaning", "'with or' lost; flips meaning"], "auditors": ["A", "B"]}
+{"id": "e4-E3-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0048", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["table/tables, forest/florist, but D G vs the DJ: too many places", "forest/D G/table/but"], "auditors": ["A", "B"]}
+{"id": "e4-E3-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0056", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "trailing_off"], "notes": ["'and give me a strong first line' missing from raw", "final request lost"], "auditors": ["A", "B"], "clean": "Can you help me outline a short speech for the zoning hearing on Thursday? I'm opposing the gas station they want to put on Elm Street, mostly because of traffic near the elementary school and the leaking tanks at the last one."}
+{"id": "e4-E3-0057", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "trailing_off"], "notes": ["'keep it to one sentence' missing from raw", "final request lost"], "auditors": ["A", "B"], "clean": "Why is the sky dark at night if there are so many stars?"}
+{"id": "e4-E3-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E3-0059", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Ever seat' for 'never seat' inverts the instruction", "'never' lost"], "auditors": ["A", "B"]}
+{"id": "e4-E3-0060", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["beef/coke/recital/Brienne garbles across many places", "many misheard dishes"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0005", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'Laura' is not a near form of Noor"], "auditors": ["A", "B"], "clean": "Laura's cat needs the distemper booster next Tuesday."}
+{"id": "e4-E4-0006", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'interviewed Taylor'; not near Teodor"], "auditors": ["A", "B"], "clean": "Write a short intro for episode 33 of our podcast, the one where we interviewed Taylor about field recording. Keep it under 100 words and mention that the episode is sponsored by a local coffee roaster."}
+{"id": "e4-E4-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0017", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Reyes not in dictionary; raw 'Rays'"], "auditors": ["A", "B"], "clean": "Can someone call Mrs. Okafor back about her dog's ultrasound results? The X-rays were last week. She's called twice already and she sounds pretty worried, so if Dr. Rays is free, he should be the one to call."}
+{"id": "e4-E4-0018", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Take me up ... at once': pick/one both misheard", "take/once"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0019", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Solveig not in dictionary; raw 'Solveg'"], "auditors": ["A", "B"], "clean": "Teodor is bringing the projector. Solveg has the extension cords."}
+{"id": "e4-E4-0020", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'TAR' -> PTA not inferable without context"], "auditors": ["A", "B"], "clean": "Let's make that a priority for the next TAR meeting."}

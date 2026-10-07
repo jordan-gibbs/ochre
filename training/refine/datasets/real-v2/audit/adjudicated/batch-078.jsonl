@@ -1,0 +1,10 @@
+{"id": "s2-W8-0358", "decision": "fix_clean", "clean": "Go to school before night.", "reason": "unrecoverable_word", "note": "call->go and nine->night not inferable; raw reads as a sensible note, 2 places (sided with B)"}
+{"id": "s2-W8-0370", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "leading um -> 'But', a real word a reader would keep (sided with A)"}
+{"id": "s2-W8-0371", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sighed, and said' lost, knight->night, quote unattributable; fix exceeds limits (sided with A)"}
+{"id": "s2-W8-0377", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um -> 'on' ('this month on autumn colors'), uh -> 'Oh.'; also scarves->scars, card->car (sided with A)"}
+{"id": "s2-W8-0381", "decision": "fix_clean", "clean": "Well, dear, that's Grandma again. I figured out the picture thing, so I sent you a photo of the roses but I think it came out upside down, sorry about that. The roses are doing wonderfully this year, the pink ones especially. Come see them when you visit, and bring that nice boy you were telling me about.", "reason": "unrecoverable_word", "note": "hello->Well and it's->that's taken from raw, raw's comma after Well kept (sided with A)"}
+{"id": "s2-W8-0382", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'now or wait' -> 'Now we'll wait' turns the question into a statement; torn, prefer drop (sided with A)"}
+{"id": "s2-W8-0384", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh -> 'No?' twice (reads as correction cue), 'Owen', 'No weight ten' (sided with A)"}
+{"id": "s2-W8-0394", "decision": "drop", "reason": "unrecoverable_meaning", "note": "get->'And'; whether 'And' survives the correction is ambiguous, A and B disagree on the target; torn, prefer drop"}
+{"id": "s2-W8-0395", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh -> 'Well', a real word; deleting it would teach removal of content (sided with A)"}
+{"id": "s2-W8-0400", "decision": "drop", "reason": "hallucination", "note": "trailing 'but' never said; my->By, it->ye, young->yun unrecoverable (sided with A)"}

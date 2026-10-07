@@ -1,0 +1,41 @@
+{"id": "s4-W30-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0002", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Zip install fast take AI' not recoverable to pip install fastapi"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0003", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["raw is garbled beyond recovery"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0004", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Vurcate' and 'and all' unrecoverable"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0006", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0014", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Who's first' cannot be inferred as Postgres"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0016", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["git rebase command garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0019", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["'pair form first Kalumi' unrecoverable"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0020", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0024", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'in'"], "auditors": ["A", "B"], "clean": "How to configure CORS Express"}
+{"id": "s4-W30-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0027", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Discord bot garbled and ending 'update' lost"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0030", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has Herman for Carmen and lost 'the'"], "auditors": ["A", "B"], "clean": "Herman, can you set up a Google Workspace group for mosque volunteers?"}
+{"id": "s4-W30-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0033", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'memoises'"], "auditors": ["A", "B"], "clean": "This memoises the selector with Reselect so we don't recompute on every Redux update."}
+{"id": "s4-W30-0034", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0040", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0041", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'fallback' heard as 'fault'"], "auditors": ["A", "B"], "clean": "Safari ignores the WebP fault when the CDN serves it with the wrong content type."}
+{"id": "s4-W30-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W30-0044", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has Lucas"], "auditors": ["A", "B"], "clean": "Lucas, the Elasticsearch cluster went yellow after the reindex, and Kibana is lagging."}
+{"id": "s4-W30-0046", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Sage deployed at' cannot be inferred as ssh deploy@"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0047", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0048", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["git log command garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W30-0049", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Dea/FBI/RWASP/mark: too many unrecoverable words"], "auditors": ["A", "B"]}

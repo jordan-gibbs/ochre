@@ -1,0 +1,13 @@
+{"id": "e4-E11-0033", "decision": "fix_clean", "clean": "Write this function to use async/await instead of .then chains.", "reason": "unrecoverable_word", "note": "A: raw 'write' not 'rewrite'; async/await and .then are near forms of known terms in context"}
+{"id": "e4-E11-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'endpoint at /live' became 'and point it to the live'; path lost, B's text not sensible"}
+{"id": "e4-E11-0036", "decision": "fix_clean", "clean": "The export to CSV button on the ticket sales report produces an empty file in Firefox. Chrome works fine. I check the network tab and the response has the right content type, so I think it's the blob download code.", "reason": "unrecoverable_word", "note": "A: raw has 'check' (present); tense not traceable, one word"}
+{"id": "e4-E11-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Pass' heard as 'As'; 'As --dry-run to preview' is not sensible"}
+{"id": "e4-E12-0004", "decision": "fix_clean", "clean": "Basil trays and rack 4 need fresh nutrient solution on Tuesday.", "reason": "unrecoverable_word", "note": "B: raw has 'and' not 'in'; 'basil trays and rack 4' is sensible, keep raw word"}
+{"id": "e4-E12-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: dinghy->'Thingy', Ewan->'UN', in->and; raw-faithful target not sensible"}
+{"id": "e4-E12-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Hi Priyanka' became 'High pre income'"}
+{"id": "e4-E12-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"trailer's got a flat\" became 'trailer started flat'; meaning changed"}
+{"id": "e4-E12-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Nah' heard as 'Not.'; exact word not inferable and raw word reads wrong"}
+{"id": "e4-E12-0024", "decision": "accept", "reason": "ok", "note": "B: 'chandelier' is a near spelling of 'chandlery' in a clear boating context; in doubt accept"}
+{"id": "e4-E12-0025", "decision": "fix_clean", "clean": "Booking calendar shows the studio as open on bank holidays, which is wrong. We are closed.", "reason": "unrecoverable_word", "note": "A: raw has 'we are'; contraction not in input (R10)"}
+{"id": "e4-E12-0026", "decision": "drop", "reason": "hallucination", "note": "A: trailing 'but' was never said (noise-decoded word)"}
+{"id": "e4-E12-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Could' heard as 'But'; modal not inferable with confidence, raw-faithful text not sensible"}

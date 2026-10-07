@@ -1,0 +1,50 @@
+{"id": "s4-W29-0051", "decision": "drop", "reason": "unrecoverable_meaning", "note": "can't heard as 'can' (meaning flipped); Ivan and Guadalajara garbled"}
+{"id": "s4-W29-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Cal Dalcala', 'a court ingless'"}
+{"id": "s4-W29-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dario, Pinotxo and La Boqueria all misheard in 9 words"}
+{"id": "s4-W29-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'See deployed at staging dot coyota': command garbled"}
+{"id": "s4-W29-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Tower' dropped: 'better than Tokyo at night' changes meaning"}
+{"id": "s4-W29-0058", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw only has 'It's on Rudu Church Middle.'"}
+{"id": "s4-W29-0059", "decision": "fix_clean", "clean": "Who ordered the bamboo cutting boards and the Le Creuset pots for the product launch swag?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has the common word 'bamboo'; brand Bambu not inferable"}
+{"id": "s4-W29-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Rhea' became 'I agree'; Fribourg and Hotel Schweizerhof garbled"}
+{"id": "s4-W29-0061", "decision": "fix_clean", "clean": "The co-op's heirloom tomatoes come from the San Marzano region near Naples, and we also grow a variety called Poor Debut. The buyers in Milan especially love them roasted with a little olive oil from Puglia and sea salt from Trapani.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "cuore di bue heard as 'Poor Debut'"}
+{"id": "s4-W29-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0064", "decision": "fix_clean", "clean": "Malik and I walked down the Via Dolorosa to the Church of the Holy Sepulchre, and then we grabbed falafel at a tiny place near the Damascus Gate. Afterward we took a cab to the Americel for coffee, and the Nefe at Jaffar Suites was the best thing I ate all week.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Colony Hotel merged into 'Americel'; knafeh/Jafar Sweets not inferable"}
+{"id": "s4-W29-0065", "decision": "fix_clean", "clean": "Lorenzo, I'm standing outside Territoria All and Tecuinia in Florence and the line is two blocks long. You want to wait or try somewhere else?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "restaurant name not inferable"}
+{"id": "s4-W29-0066", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W29-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'drops, I'll packa' and 'Stork You're in' garbled"}
+{"id": "s4-W29-0068", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Carl Joe and speak to the quarter store got'; Rhea became 'We'"}
+{"id": "s4-W29-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Lelit, 'in Trieste' -> 'and tries', 'or' -> 'for': too many places"}
+{"id": "s4-W29-0071", "decision": "fix_clean", "clean": "Hi Fatima, thanks again for hosting us at the farmers market in Aix-en-Provence. The cheese from the fromagerie on Rue des Marseille sold out in an hour, and the honey from the Plateau de Valence wasn't far behind. We'd love to come back in August.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has Marseille / Valence"}
+{"id": "s4-W29-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0073", "decision": "fix_clean", "clean": "Ivan, you know the Korean BBQ place on Olympic Boulevard in Koreatown? I think it's called Jen. We should go there after the product launch.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name Gen heard as Jen"}
+{"id": "s4-W29-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Meeting where Cap', 'Aubridge Law from Dupree and Bryan can'"}
+{"id": "s4-W29-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Mumbai lost ('and then buy'), Bandra garbled"}
+{"id": "s4-W29-0076", "decision": "fix_clean", "clean": "Echo, the council approved the permit for the stall on Nakamise Dori in Asakusa, and Sensoji Temple will let us set up before the market opens at 6. Malik will bring the portable stove, and I'll pick up the yuzu marmalade from the shop on Kamarman Street.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Aiko heard as Echo; Kaminarimon not inferable"}
+{"id": "s4-W29-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'miss player from Omaha on the Cornish', 'backola from Hayfis', 'fine end's office'"}
+{"id": "s4-W29-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Consuegra, Herat and Azafran del Sol all garbled"}
+{"id": "s4-W29-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Rhea became 'We'; Gdansk became 'the dance'"}
+{"id": "s4-W29-0081", "decision": "fix_clean", "clean": "Next steps for the launch.\n1. Confirm the cafe in the Lanes in Brighton called Plankton.\n2. Send the press kit to the editor of Monocle.\n3. Book the ferry from Newhaven to Dieppe.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'editor of'"}
+{"id": "s4-W29-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Bodhi, look' became 'By my look'; Stohrer became 'store'"}
+{"id": "s4-W29-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ship samples' merged into non-word 'shiples'; Gudauri as 'Gu Dory'"}
+{"id": "s4-W29-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'with a projector' lost (raw ends 'or'), Rhea as 'ree', Sacher as Sasha"}
+{"id": "s4-W29-0085", "decision": "fix_clean", "clean": "I'm writing a newsletter for our landscaping business and I want to mention that we're now stocking the Stihl MS 180 chainsaw, Felco pruners from Switzerland, the moss variety from the Kangongs. Make it sound warm but professional. I'd also like a line about free delivery on orders over $200.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Cairngorms heard as Kangongs; raw has 'The moss', no 'and'"}
+{"id": "s4-W29-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Arancina/'to park', 'stock', Folk Collective and Rhea all lost"}
+{"id": "s4-W29-0087", "decision": "fix_clean", "clean": "Dear Fatima, thank you for your patience. Following our call, I have confirmed that the shipment of dry apricots from Malatya will transit through the Port of Mersin and arrive at our depot in Hamburg on the 22nd of October. I will send the customs paperwork once the broker in Izmir signs off, and I'll copy Ivan so he can arrange the picker. Finally, please remind Ivan that the invoice from the customs broker in Izmir has to be paid in euros and not in lira, and that the original bills of lading must be couriered to our office on the 15th.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'dry' and 'picker'"}
+{"id": "s4-W29-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Juarez, tlayudas, Zocalo, Rhea (x2), Monte Alban all lost"}
+{"id": "s4-W29-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "plaza names garbled, Dario as Barrio/Sario, 'before'->'for', 'keep'->'teach'"}
+{"id": "s4-W29-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Eiko, Hikadashi, Yumeta, Itoy, 'want', 'international': too many places"}
+{"id": "s4-W29-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Kubota L2000, 'three'->'free', 'ships'->'chips', 'keep'->'Eat', 'then rewrite'->'we're right'"}
+{"id": "s4-W29-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hey Bodhi' became 'A Bob High'; Wollaston, leather, Boot Room garbled"}
+{"id": "s4-W29-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "travel agent, Sukiyabashi Jiro, Ginza, Roppongi, 'falls through' garbled"}
+{"id": "s4-W29-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0095", "decision": "fix_clean", "clean": "Barn shops near Rue Saint Menor in Paris open on Sunday", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "yarn heard as Barn; Saint-Honore heard as Saint Menor"}
+{"id": "s4-W29-0096", "decision": "fix_clean", "clean": "Lorenzo wants to use the DJI Mavic 2 for the aerial shots of the vineyard-style rows at the farm co-op, but the Bureau of Land Management says we need a permit for the drone. Ivan says the farm co-op manager will sign the paperwork on Thursday.", "reason": "number_value", "rules": ["RECOVER", "R7"], "note": "raw has 'Mavic II'"}
+{"id": "s4-W29-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Ivan lost; Rua do Ouro and Senhor Almeida garbled ('Send her all main')"}
+{"id": "s4-W29-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Rhea as Ree; Lavazza Qualita Rossa garbled; Via del Corto"}

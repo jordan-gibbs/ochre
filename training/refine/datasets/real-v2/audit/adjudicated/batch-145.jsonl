@@ -1,0 +1,12 @@
+{"id": "s4-W40-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"ask your if\" not sensible"}
+{"id": "s4-W40-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"one that\" not sensible"}
+{"id": "s4-W40-0023", "decision": "fix_clean", "clean": "Tamar said that the least...", "reason": "unrecoverable_word", "note": "sided with A: raw \"least\" real word; keep"}
+{"id": "s4-W40-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 9 words lost; over the fix limit"}
+{"id": "s4-W40-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"late\" lost; abandoned fragment unresolvable"}
+{"id": "s4-W40-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: most of the message lost"}
+{"id": "s4-W40-0034", "decision": "accept", "reason": "ok", "note": "sided with A: checkup/in are recoverable slips; doubt -> accept"}
+{"id": "s4-W40-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: head her/new logbooks: not sensible"}
+{"id": "s4-W40-0043", "decision": "fix_clean", "clean": "When the center comes in tomorrow, we're going to start with the ballad, and then we're going to do the uptempo stuff after lunch.", "reason": "unrecoverable_word", "note": "sided with A: center not inferable; ballot->ballad inferable from uptempo"}
+{"id": "s4-W40-0045", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: and you/tear/needed: too many places"}
+{"id": "s4-W40-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: fungal/Lee/And you: not sensible"}
+{"id": "s4-W40-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"the thing\"/\"bo speaker dinner\""}

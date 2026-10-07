@@ -1,0 +1,50 @@
+{"id": "s4-W42-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0004", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W42-0005", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W42-0006", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W42-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0011", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W42-0012", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W42-0013", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W42-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0018", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W42-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0020", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W42-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0023", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W42-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0025", "decision": "fix_clean", "clean": "How do I center div?", "reason": "dropped_by_recognizer"}
+{"id": "s4-W42-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0030", "decision": "fix_clean", "clean": "I need you to write this email to sound less angry. It's fine, but it's too blunt.", "reason": "unrecoverable_word"}
+{"id": "s4-W42-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0033", "decision": "fix_clean", "clean": "Hey, can you ask the bot to summarise the thread above, just the action items?", "reason": "spelling_from_raw"}
+{"id": "s4-W42-0034", "decision": "fix_clean", "clean": "Explain the difference between TCP and UDP, and give me an example of when you pick each.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W42-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0038", "decision": "fix_clean", "clean": "Write the cover letter for a recruiting coordinator position and...", "reason": "trailing_off"}
+{"id": "s4-W42-0039", "decision": "fix_clean", "clean": "Where are some good icebreakers for a camping weekend with people who don't know each other?", "reason": "unrecoverable_word"}
+{"id": "s4-W42-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W42-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0046", "decision": "fix_clean", "clean": "Write the second paragraph so it's more formal and remove the exclamation marks.", "reason": "unrecoverable_word"}
+{"id": "s4-W42-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0048", "decision": "fix_clean", "clean": "Please explain this error to me, cannot read properties of undefined reading math.", "reason": "unrecoverable_word"}
+{"id": "s4-W42-0049", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W42-0050", "decision": "accept", "reason": "ok"}

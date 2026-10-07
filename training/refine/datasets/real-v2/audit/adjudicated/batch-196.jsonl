@@ -1,0 +1,16 @@
+{"id": "s4-W64-0046", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Dear Anders, on behalf of Halden Books I am writing to confirm your event on the 12th of April from 2 to 4 p.m. We will provide a microphone and 30 chairs, but we cannot provide carrying, and the venue must be cleared by 5.", "note": "sided with A: Haldin -> Halden (dictionary); \"carrying\" kept from raw (R13)"}
+{"id": "s4-W64-0051", "decision": "accept", "reason": "ok", "note": "sided with B: \"row that\" is a split of \"rota\" (holiday rota, UK context); accept"}
+{"id": "s4-W64-0055", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: May -> \"many\", sign-off -> \"time regards\", name; too many places"}
+{"id": "s4-W64-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"stipends of up to\" -> \"statements about the\""}
+{"id": "s4-W64-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"close the menu\" -> \"Both the menu\"; not recoverable"}
+{"id": "s4-W64-0061", "decision": "accept", "reason": "ok", "note": "sided with B: \"Peyrol\" is a near-homophone of payroll in context; judgment call -> accept"}
+{"id": "s4-W64-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: Bonnet, per->for, your->their: 3 places, person changes"}
+{"id": "s4-W64-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"restart it\" -> \"We're started\"; not recoverable"}
+{"id": "s4-W64-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"audit\" -> \"the odd\"; not recoverable"}
+{"id": "s4-W64-0080", "decision": "fix_clean", "clean": "Dear Ms. Ostrander, thank you for your inquiry. The position is full time, 38 hours per week, with the salary range of 40,000 to 48,000 depending on experience, and the application closes on the 2nd of June at 5. Unfortunately, we cannot sponsor visas at this time.", "reason": "guide_violation", "note": "neither: A plus raw \"the salary range\"; dollars never said, p.m. lost"}
+{"id": "s4-W64-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: Emil -> \"Mmo\", rep -> \"rat\"; fixed text not sensible"}
+{"id": "s4-W64-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: skips -> steps, testers -> hester; not recoverable"}
+{"id": "s4-W64-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"Hi Hassan\" -> \"I hasn't\", a clause dropped"}
+{"id": "s4-W64-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: lie -> like (question broken), spoil -> spoiled, Bodhai"}
+{"id": "s4-W64-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: many garbles: \"Pick confirm the stand. By\", \"6 M\", \"of called\""}
+{"id": "s4-W64-0090", "decision": "accept", "reason": "ok", "note": "sided with A: \"six M\" -> 6 a.m. inferable; accept"}

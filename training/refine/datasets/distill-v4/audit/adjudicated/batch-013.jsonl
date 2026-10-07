@@ -1,0 +1,4 @@
+{"id": "sim4-s4-W34-0024-0", "decision": "fix_clean", "clean": "To reproduce, upload a file larger than 100 megabytes and the progress bar freezes at...", "note": "A: '94%' lost, end with '...'; 'freezes' agreement slip inferable"}
+{"id": "sim4-s4-W14-0038-2", "decision": "fix_clean", "clean": "Oh no, the train is cancelled. The flight is cancelled.", "note": "B: no correction cue in raw; train sentence must be kept"}
+{"id": "sim4-s4-W14-0083-2", "decision": "accept", "note": "A: repeated 'ls dash' in one terminal line is an implicit restart; target ok"}
+{"id": "sim4-d4-C045-0056-0", "decision": "fix_clean", "clean": "OpenTelemetry captures the cafe checks span. The payment retry has no parent identifier attached.", "note": "A: 'checks' not confidently 'checkout'; raw has sentence break, no 'but'"}

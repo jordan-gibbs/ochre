@@ -1,0 +1,50 @@
+{"id": "s4-W22-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0005", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W22-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0012", "decision": "fix_clean", "clean": "Migration is basically done, you just need to flip the flag.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W22-0013", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W22-0014", "decision": "fix_clean", "clean": "Rizar, the east wing booking is confirmed, I mean it, no more changes please.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0017", "decision": "fix_clean", "clean": "Let's go through the Kennedy pipeline for the design role.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0030", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W22-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0033", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W22-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0038", "decision": "fix_clean", "clean": "Yara, I wanted to follow up on the grant application, basically ready and I just need your signature.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W22-0039", "decision": "fix_clean", "clean": "Boom up, the push service is pretty flaky on the office network and people complain.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0040", "decision": "fix_clean", "clean": "I don't know why the poor surface is flaky, you know how it gets on Friday.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0041", "decision": "fix_clean", "clean": "Jada, I'm so excited for the triples, we're gonna have so much fun.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0045", "decision": "fix_clean", "clean": "I Tamar, the client is happy with the shortlist, thanks around so fast.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0046", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W22-0047", "decision": "fix_clean", "clean": "R then, the app crashes when you rotate the screen.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0048", "decision": "fix_clean", "clean": "Argen, the app basically works offline now, the only gap is photo upload.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0049", "decision": "fix_clean", "clean": "The library closes at 8 on weekdays and it opened at 9.", "reason": "number_value"}
+{"id": "s4-W22-0050", "decision": "accept", "reason": "ok"}

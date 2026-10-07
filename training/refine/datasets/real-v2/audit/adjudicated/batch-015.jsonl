@@ -1,0 +1,11 @@
+{"id": "s2-W2-0204", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name Bria, 'but'->'Well', 'terms'->'term' plus 'and I've' hesitation residue: fix exceeds 2 places"}
+{"id": "s2-W2-0212", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in the morning' became 'that more. Warning'; meaning changed and real-word residue"}
+{"id": "s2-W2-0221", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Trip', budget amount and rest of sentence lost; 'Wow.' residue"}
+{"id": "s2-W2-0223", "decision": "drop", "reason": "unrecoverable_meaning", "note": "correction cue merged into 'Nob'; corrected code AB747 not reliably recoverable from raw"}
+{"id": "s2-W2-0224", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'almonds' became 'owns'; self-correction no longer resolvable"}
+{"id": "s2-W2-0230", "decision": "fix_clean", "clean": "Feature request, add a dark mode toggle to the settings page. Many users have asked for it in the feedback form. The toggle should remember the choice across sessions and respect the system setting by default. They think this is a medium effort ticket, maybe five points.", "reason": "unrecoverable_word", "note": "raw has 'feedback form' and 'they think'; 'I' not inferable (2 places)"}
+{"id": "s2-W2-0232", "decision": "fix_clean", "clean": "The customer is asking why their invoice shows two charges. Looking at the system, it seems like the retry logic charged them twice. I will refund the duplicate today and file the bug. The amount is $49.99.", "reason": "unrecoverable_word", "note": "raw has 'file the bug'; correction $49 -> 49.99 resolvable"}
+{"id": "s2-W2-0233", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi all' heard as 'I ball' plus apostrophe and two time fixes: more than 2 places"}
+{"id": "s2-W2-0235", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I mean' cue became 'and in'; board->budget correction no longer resolvable"}
+{"id": "s2-W2-0238", "decision": "drop", "reason": "unrecoverable_meaning", "note": "batch->bash/dash, errors->airs, orders->order, time casing: far more than 2 places"}
+{"id": "s2-W2-0247", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'hmm then' became 'On and'; 'Dimplant' for 'Gym plan' also not recoverable"}

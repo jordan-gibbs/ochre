@@ -1,0 +1,11 @@
+{"id": "s4-W53-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"hiss\"/\"gas state\" leave no sensible target; A drop"}
+{"id": "s4-W53-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"harbor store. You should read Malik Boy Larry\": B's \"story\" not traceable; A drop"}
+{"id": "s4-W53-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Tuesday is out. It is\" rewrites the message beyond limit; B drop"}
+{"id": "s4-W53-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Dad\" became \"That is\"; fix not sensible; A drop"}
+{"id": "s4-W53-0024", "decision": "fix_clean", "clean": "A heat pump filter needs changing, and the flue is stuck open.", "reason": "unrecoverable_word", "note": "raw \"A\" for \"uh the\"; flu/suck recoverable; A fix"}
+{"id": "s4-W53-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"lid\" and \"and you tighten\" lose the request; B drop"}
+{"id": "s4-W53-0035", "decision": "fix_clean", "clean": "Give me a recipe for Nakai that uses ricotta instead of potato and keep it under 30 minutes.", "reason": "unrecoverable_word", "note": "\"Nakai\" not a near form of gnocchi; A fix"}
+{"id": "s4-W53-0038", "decision": "fix_clean", "clean": "Mom says the ewe had twins this morning.", "reason": "spelling_from_raw", "note": "Mom from raw; U->ewe homophone with twins; A fix"}
+{"id": "s4-W53-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "negation lost (\"Is it registering\"); A drop"}
+{"id": "s4-W53-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"at Bell E\" for ballet not inferable; A drop"}
+{"id": "s4-W53-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "neither: \"getting foam for dinner\" is not a sensible dictation and pho is not inferable"}

@@ -1,0 +1,50 @@
+{"id": "s4-W47-0001", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Okay.' never said"}
+{"id": "s4-W47-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0005", "decision": "fix_clean", "clean": "Action item, Mallowed to send the revised quote.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Malik heard as 'Mallowed'"}
+{"id": "s4-W47-0006", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.'"}
+{"id": "s4-W47-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Best regards' heard as 'As regards'"}
+{"id": "s4-W47-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Who owns' heard as 'Bones'"}
+{"id": "s4-W47-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0013", "decision": "fix_clean", "clean": "Okay, thanks, I'll take a look this afternoon.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s4-W47-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0015", "decision": "fix_clean", "clean": "Hello Sane, attached is the signed contract.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Sana heard as 'Sane'"}
+{"id": "s4-W47-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Ugh the wifi' heard as 'Other wife. I'"}
+{"id": "s4-W47-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0019", "decision": "fix_clean", "clean": "Reed, did you take the late shift on Saturday?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Rhea->Reed, can->did"}
+{"id": "s4-W47-0020", "decision": "drop", "reason": "hallucination", "note": "raw appends 'We can'"}
+{"id": "s4-W47-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'comms plan' heard as 'Com's Pine' plus extra 'it'"}
+{"id": "s4-W47-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0032", "decision": "fix_clean", "clean": "Good afternoon Father, I'm writing to confirm that we need 40 banners by the 12th of June. Thank you.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Fatima heard as 'Father'"}
+{"id": "s4-W47-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'instead of A4' heard as 'instead for the four'"}
+{"id": "s4-W47-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Met with' heard as 'That were', planters->planners, a->per"}
+{"id": "s4-W47-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'logo bigger' heard as 'low-baker'"}
+{"id": "s4-W47-0039", "decision": "fix_clean", "clean": "Bodhai is out sick, so I'm taking his 2 o'clock with the Mercer account.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary"}
+{"id": "s4-W47-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Rhea' heard as 'When you'"}
+{"id": "s4-W47-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0043", "decision": "fix_clean", "clean": "Hi Sonna, just circling back on the invoice for March. Our accounts team says it hasn't come through yet. Could you resend it please?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Sana->Sonna, from->for"}
+{"id": "s4-W47-0044", "decision": "fix_clean", "clean": "The thing about the new commission plan is that it only kicks in after the first quarter, so reps who miss it get nothing.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "quota heard as quarter"}
+{"id": "s4-W47-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Aiko Dario and Rhea' heard as 'Eco Dario agree'"}
+{"id": "s4-W47-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0049", "decision": "fix_clean", "clean": "Thanks, Lorenzo. The part arrived this morning and we can have your car ready by 5.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'for your patience' missing from raw"}
+{"id": "s4-W47-0050", "decision": "accept", "reason": "ok"}

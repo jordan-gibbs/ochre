@@ -1,0 +1,50 @@
+{"id": "s4-W53-0051", "decision": "fix_clean", "clean": "Tinskin needs a permission slip for the canoe trip and a physical form from the doctor.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0053", "decision": "fix_clean", "clean": "Hi Nora, the raid block expires on the 15th, so we should schedule the closing before then, ideally the week of the 8th.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0056", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W53-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0059", "decision": "fix_clean", "clean": "Dear Hassan, thank you for volunteering to run the archery range. Please bring clothes, toast shoes and your own water bottle.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0063", "decision": "fix_clean", "clean": "The roofer said the flashing is fine but the soft vents are blocked.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0064", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W53-0065", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W53-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0068", "decision": "fix_clean", "clean": "Whoever owns the cron job that rotates the logs, spilling the dish. We're at 92%.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0069", "decision": "fix_clean", "clean": "He and Hagring to go on the north side, and the lavender needs full sun.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0070", "decision": "fix_clean", "clean": "Pauline spilled the miso soup all over the rug. Mom is not happy.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0071", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W53-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0073", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W53-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0077", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W53-0078", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W53-0079", "decision": "fix_clean", "clean": "The washing machine is making a grinding noise again, and I think it's the drum bear. The repair guy can come Thursday between 9 and noon. Can you be home?", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0080", "decision": "fix_clean", "clean": "Layla, the studio floor needs to be mopped before the evening classes, and someone has to refill the rosin box. Oh, and the sound system is cutting out, so don't use the blue speaker.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0081", "decision": "fix_clean", "clean": "The rotation is weekly, handoff is Monday at 10, the outgoing engineer posts a summary in the on-call channel, and any open incidents must be acknowledged by the incoming engineer within 50 minutes.", "reason": "number_value"}
+{"id": "s4-W53-0082", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W53-0083", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W53-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0089", "decision": "fix_clean", "clean": "Can somebody with prime access check the cache hit ratio? It dropped from 95 to 60% right after the deploy, and I want to know if the TTL got changed.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0090", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W53-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0093", "decision": "fix_clean", "clean": "Hi Amir, here's where we stand on your file. The appraisal came in at $412,000, which covers the purchase price, so we're good there. The underwriter still wants a signed letter about the gift from your parents, and the Tyrell Company found an old easement on the back of the lot that we need to review. It shouldn't affect the build, but let's confirm. Your rate lock runs through the 30th, so if closing slips past. But we need a one-week extension, which costs about $200. Call me tomorrow if you have questions.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0094", "decision": "fix_clean", "clean": "Quick recap of the weekend on. We got paged four times. Three were the same flapping disk alert on the logging node, which I silenced and filed a ticket for, and one was a real outage on Saturday night when the certificate on the payments gateway expired. I renewed it by hand and added an alert 30 days before expiry, not a reminder. Anyway, Colin, you're up next and the handoff notes are in the doc, and please double-check the escalation numbers because two of them are out of date.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W53-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0096", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W53-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0098", "decision": "fix_clean", "clean": "The dress rehearsal ran 40 minutes over because the tap numbers went out of order. We need to fix the running order before Saturday. The tutus for the little ones are still at the cleaner, and I'll pick them up Thursday. The stage manager wants all props labeled and the parents' seating chart posted by Friday noon. Also, the program has a typo on the second page. It says paste de Dieu, but it should say paste de toi. Alana has the flowers ordered but needs a final headcount.", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0099", "decision": "fix_clean", "clean": "Dear family, thank you for a wonderful first week. A few reminders for week two. Please label everything your camper brings, especially water bottles, towels and jackets, because the lost and found is overflowing. The overnight on the island is Thursday, so campers need a sleeping bag, headlamp and a warm sweatshirt, and no phones. Pickup on Friday moves to 3:30 instead of 4 because of the ferry schedule. Your child has a new allergy or medication. Tell Nurse Layla before Wednesday. Warmly, Rainia", "reason": "unrecoverable_word"}
+{"id": "s4-W53-0100", "decision": "drop", "reason": "hallucination"}

@@ -1,0 +1,50 @@
+{"id": "s4-W12-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0052", "decision": "fix_clean", "clean": "No, I haven't seen the biddle. Did Chloe send it?", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0057", "decision": "fix_clean", "clean": "The crew meal is catered by the tide plays on 4th Street, and it's for 60 people.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0060", "decision": "fix_clean", "clean": "Wait, which cabin is my...", "reason": "trailing_off"}
+{"id": "s4-W12-0061", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W12-0062", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0063", "decision": "fix_clean", "clean": "Lucas is shooting scene 14 first thing tomorrow.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0070", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0071", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0072", "decision": "fix_clean", "clean": "Update on the summer camp. Registration closed at 212 kids and we have 14 counsellors, which is one short of what we need. I'm gonna ask Jorge if his nephew can fill in Sunday for the orientation.", "reason": "spelling_from_raw"}
+{"id": "s4-W12-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0074", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0075", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0077", "decision": "fix_clean", "clean": "Action items from the payroll standup. Carmen will fix the overtime calculation by Tuesday. Chitty will confirm the new tax rate at 7.25%, and I'll send the corrected pay stubs to all 108 employees by Friday.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0079", "decision": "fix_clean", "clean": "Hi Amir, following up on the thing for the fall collection. The model measurements you sent say the bust is 36 inches and the waist is 26 inches. Can you confirm both before we cut the fabric on Friday?", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0080", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0082", "decision": "fix_clean", "clean": "Hi Dina, no, I haven't received the W-9 forms yet from the three new hires, and I'm not sure when they'll arrive, so can you wait for me before running peril? I'll confirm by noon tomorrow.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0085", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0086", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0087", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0090", "decision": "fix_clean", "clean": "I'm sorry Chloe, I know I said I'd be there at 6 but the train's still late so I'll make it by 7. Wait, is that okay with you?", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0091", "decision": "fix_clean", "clean": "T of E production wrap party Saturday the 14th at the warehouse on Dock Street. Doors at 8, DJ starts at 9, budget is 3,000.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0092", "decision": "fix_clean", "clean": "Or hey, can you double check the wire transfer? It should be for $13,500 to the fabric supplier, and let me know when it's out.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0093", "decision": "fix_clean", "clean": "Hi everyone, thanks for coming to the planning session yesterday. I wanted to recap where we landed. The summer camp opens on June 29th because the pool inspection got pushed for cap in enrollment at 160 campers because we only have 10 counselors confirmed so far. The registration fee stays at $450, and the early bird discount ends on May 15th. Please let me know if I missed anything, and have a great weekend.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0094", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0095", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0096", "decision": "fix_clean", "clean": "Dear Chitty, I'm writing to follow up on the client files you asked about. The Smith family trust has a filing deadline of October 15th because of the extension we filed earlier, and the total estimated tax owed is $19,400 based on the latest figures. I've attached the worksheet, and I'd like to walk you through it on a call tomorrow at 2 PM or maybe 3 PM, whichever is better for you. Thank you, Jorge", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0098", "decision": "fix_clean", "clean": "Heads up everyone, the schedule change for the shoot tomorrow. Call time is now 6:30 instead of 7, and we're moving to the second location first, which is the warehouse on Mill Road, not the studio. Luke is confirmed the permit is good until 5 PM, and the catering truck will arrive at 11:30, so lunch is at 12. Please don't be late, the director's already stressed.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0100", "decision": "drop", "reason": "hallucination"}

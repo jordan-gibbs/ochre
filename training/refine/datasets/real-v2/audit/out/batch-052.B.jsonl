@@ -1,0 +1,50 @@
+{"id": "s2-W6-0051", "decision": "fix_clean", "clean": "Dear Ms. Schwartz, thank you for your letter about the rent increase. I understand costs have gone up, but an increase of 18% is much higher than I expected. I have lived here for four years and always paid on time. Would you consider a smaller increase, say 5%? I am happy to sign a two-year lease in return. Kind regards, Hamza Ali", "reason": "guide_violation", "note": "line breaks never dictated", "rules": ["R8"]}
+{"id": "s2-W6-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0053", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh because' heard as 'Not because' flips meaning"}
+{"id": "s2-W6-0054", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No' inside sentences"}
+{"id": "s2-W6-0055", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'said Yeah' for uh, name garbled Oiler/Polamentez"}
+{"id": "s2-W6-0056", "decision": "fix_clean", "clean": "I spent the last decade in banking, and people ask me why I left. Honest answer, they stopped learning. So I took a pay cut of about 30% to join a nonprofit in Nairobi, and it has been the best decision of my career. If you are thinking about a change, talk to someone who has made it.", "reason": "unrecoverable_word", "note": "raw says 'They stopped learning'", "rules": ["RECOVER"]}
+{"id": "s2-W6-0057", "decision": "fix_clean", "clean": "I am writing to dispute the invoice dated the 8th of September from your clinic. The invoice charges me $320 for a procedure that was not performed. My insurer has already covered the consultation. Please send a corrected invoice. I would like this resolved within 30 days.", "reason": "dropped_by_recognizer", "note": "'Thank you' lost by recognizer", "rules": ["RECOVER"]}
+{"id": "s2-W6-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "names, delivered clause, Goals/Lead all garbled or lost"}
+{"id": "s2-W6-0060", "decision": "fix_clean", "clean": "Hello, my name is William Chen and I am writing about my claim for the knee surgery on the 14th of August. The claim reference is CLM-45912. Your letter dated the 2nd of October says the claim was denied because the procedure was not preauthorized, but my surgeon's office sent the preauthorization request on the 25th of July, and I have the fax confirmation. I am attaching it to this message. I would like to appeal the decision. Please tell me the next steps and the deadline for filing. You can reach me on 555-0142 in the evenings.", "reason": "spelling_from_raw", "note": "raw uses preauthorized/preauthorization", "rules": ["R10"]}
+{"id": "s2-W6-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0062", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' not spoken"}
+{"id": "s2-W6-0063", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Some' heard for um, reads as content"}
+{"id": "s2-W6-0064", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0065", "decision": "drop", "reason": "non_english", "note": "Japanese text appended"}
+{"id": "s2-W6-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0070", "decision": "fix_clean", "clean": "Pick up prescription from the pharmacy on Elm Street before 6, and call the dentist about the inlays.", "reason": "unrecoverable_word", "note": "invoice heard as inlays", "rules": ["RECOVER"]}
+{"id": "s2-W6-0071", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0072", "decision": "fix_clean", "clean": "Proposal for the website redesign. We will redesign the homepage, the pricing page, and the checkout flow, and we will not touch the blog. The timeline is 10 weeks from kickoff. The total fee is $18,500, payable in three equal installments, the first due on signing.", "reason": "spelling_from_raw", "note": "raw uses installments", "rules": ["R10"]}
+{"id": "s2-W6-0073", "decision": "fix_clean", "clean": "Hey Nina, I wanted to ask about taking leave from the 21st to the 25th of July. I had already handed the vendor onboarding over to Sam, and he is fine with covering. Let me know if you need anything else from me before I go.", "reason": "unrecoverable_word", "note": "raw has 'had already handed'", "rules": ["R10"]}
+{"id": "s2-W6-0074", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh heard as No / and asked / Darth; tail lost"}
+{"id": "s2-W6-0075", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0077", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salutation garbled (Here in Esabara), several other changes"}
+{"id": "s2-W6-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "goal sentence and spec lost/garbled"}
+{"id": "s2-W6-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sixty vs sixteenth, Sophia, said, lost reason clause"}
+{"id": "s2-W6-0081", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0082", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0084", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0086", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'see' lost, EUC garbled, sentence broken"}
+{"id": "s2-W6-0088", "decision": "fix_clean", "clean": "Hi Mia, like they said on the call, the budget is capped at $60,000, so we cannot add the extra module.", "reason": "unrecoverable_word", "note": "raw 'they said' not 'I said'", "rules": ["RECOVER"]}
+{"id": "s2-W6-0089", "decision": "fix_clean", "clean": "Ask HR about the parental leave policy.", "reason": "dropped_by_recognizer", "note": "rest of dictation lost", "rules": ["RECOVER"]}
+{"id": "s2-W6-0090", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No delivery is free' for uh"}
+{"id": "s2-W6-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting and name garbled, correction unresolvable"}
+{"id": "s2-W6-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0094", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0095", "decision": "fix_clean", "clean": "Hi, this is Raj Meta. I am a patient of Dr. Alvarez. I need a refill on my blood pressure medication. I have about three days left. Do you send the prescription to the Walgreens on Fifth Avenue? My date of birth is the 12th of June, 1972. Thank you.", "reason": "unrecoverable_word", "note": "Meta and 'Do you' from raw", "rules": ["RECOVER"]}
+{"id": "s2-W6-0096", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value forty one lost"}
+{"id": "s2-W6-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled"}
+{"id": "s2-W6-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled"}
+{"id": "s2-W6-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salutation, sign-off, sentences garbled"}

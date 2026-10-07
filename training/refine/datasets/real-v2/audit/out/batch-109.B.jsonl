@@ -1,0 +1,50 @@
+{"id": "s4-W20-0001", "decision": "fix_clean", "clean": "The draft is on Sunday at 7 and Anna is picking first.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0002", "decision": "fix_clean", "clean": "Anna basically wrote the whole league constitution herself.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0003", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W20-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0005", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W20-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0009", "decision": "fix_clean", "clean": "We eat the vocal ticks by Thursday.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0010", "decision": "fix_clean", "clean": "Passes sort of the blue of this studio.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0015", "decision": "fix_clean", "clean": "Elias, we ship the returge this morning.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0016", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W20-0017", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W20-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0019", "decision": "fix_clean", "clean": "Give me a tray offer that a rival would actually accept.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0020", "decision": "fix_clean", "clean": "Give me this sort of tray offer a rival would actually accept.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0021", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W20-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0023", "decision": "fix_clean", "clean": "The rule is never put more than 10% in one stop.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0024", "decision": "fix_clean", "clean": "The 10% rule is basically a guideline. No.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W20-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0031", "decision": "fix_clean", "clean": "Just summarise this week's scores for Nikhil.", "reason": "spelling_from_raw"}
+{"id": "s4-W20-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0033", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W20-0034", "decision": "fix_clean", "clean": "The inspection is sort of done, we still owe them the latter logs.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0038", "decision": "fix_clean", "clean": "Explaining what kind of risk a covered call carries.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0039", "decision": "fix_clean", "clean": "Yes, we need the holiday banner by Friday.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0040", "decision": "fix_clean", "clean": "The holiday banner is basically done, Des just needs to export it.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0044", "decision": "fix_clean", "clean": "The drummer literally broke two sticks in one tape.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0046", "decision": "fix_clean", "clean": "Right, the kind of safety checklist a fire station kitchen needs.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0047", "decision": "fix_clean", "clean": "This page covers...", "reason": "trailing_off"}
+{"id": "s4-W20-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0050", "decision": "accept", "reason": "ok"}

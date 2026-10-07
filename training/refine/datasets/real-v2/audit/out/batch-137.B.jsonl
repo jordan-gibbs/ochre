@@ -1,0 +1,50 @@
+{"id": "s4-W36-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0003", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W36-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0009", "decision": "fix_clean", "clean": "- Towels\n- Mess", "reason": "unrecoverable_word"}
+{"id": "s4-W36-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0011", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W36-0012", "decision": "fix_clean", "clean": "Thank you so much, Lewis.", "reason": "spelling_from_raw"}
+{"id": "s4-W36-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0016", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0019", "decision": "fix_clean", "clean": "She drew the question mark on the whiteboard.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W36-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0024", "decision": "fix_clean", "clean": "The new line characters are showing the CSV.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W36-0025", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0026", "decision": "fix_clean", "clean": "Hi Grace,\n\nThe florist confirmed the delivery for Saturday morning.\n\nCan you let the venue know?\n\nAlso, I think the delivery trip needs access to the back gate.\n\nThanks,\nLewis", "reason": "unrecoverable_word"}
+{"id": "s4-W36-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0030", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W36-0031", "decision": "fix_clean", "clean": "Thank you for your patience, I will have the roof schedule by end of day.\n\nIf anything changes, I will let you know right away.\n\nKind regards,\nDaily", "reason": "unrecoverable_word"}
+{"id": "s4-W36-0032", "decision": "fix_clean", "clean": "The class is full. You can add her to the wait list, and I will text you if a spot opens up.\nPlease send her a confirmation email. She has the details for the first class.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W36-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0037", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W36-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0047", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0050", "decision": "accept", "reason": "ok"}

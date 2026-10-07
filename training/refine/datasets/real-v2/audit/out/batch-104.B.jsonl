@@ -1,0 +1,50 @@
+{"id": "s4-W17-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0053", "decision": "fix_clean", "clean": "Good morning, El, the invoice total is $2,500.", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0057", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0060", "decision": "fix_clean", "clean": "So that the parents get the update, send it for Friday.", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0063", "decision": "fix_clean", "clean": "Make that cake for the true banquet. The recipe is in the binder.", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0065", "decision": "fix_clean", "clean": "What actually happened with the robbery in the East Wing?", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0066", "decision": "fix_clean", "clean": "There is no wait list for the Saturday class...", "reason": "trailing_off"}
+{"id": "s4-W17-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0069", "decision": "fix_clean", "clean": "I like the new plating, it's clean and that photographs well.", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0073", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0074", "decision": "fix_clean", "clean": "I need you to write a prep list for Friday's dinner service. We have 90 covers, and the menu has a roast chicken, a mushroom risotto and a lemon tart. Please group the tasks by station and put the task and eat the oven first.", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0075", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0078", "decision": "fix_clean", "clean": "The delivery from the produce vendor is short again. We ordered 35 pounds of tomatoes and not 20. I actually told the driver and he said to call dispatch, so I'll do that after lunch and ask for a credit.", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0079", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0081", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0082", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0083", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0085", "decision": "fix_clean", "clean": "Quick update on the ticket, the printer in the library is working again. And Zo replaced the drum unit, and the test page came out clean. Wait times for the print queue should be back to normal by tomorrow.", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0086", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0087", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0088", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0090", "decision": "fix_clean", "clean": "We put the wrong labels on the pallets for the E stock. I actually caught it before the trucks left, so there's no harm done. Sorry for the confusion, I'll reprint the whole batch.", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0094", "decision": "fix_clean", "clean": "Hi Isaac, I wanted to follow up on the cycle count we did last week. The totals for zone B were off by about 60 units, and I think it's because the returns from the 30th never got scanned in. It's not a disaster but we can't ship against inventory we can't see. But you ask Maria Turi scan the return spin tomorrow afternoon, after the morning pick wave is done. Once that's finished, send me the updated sheet and I'll update the dashboard. Also, please hang on to the original count sheets, the auditors will want to see them. Thanks, Roll one", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0096", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W17-0098", "decision": "fix_clean", "clean": "Scout troop meeting recap. We have 14 scouts signed up for the river hike. Well, Penn will drive the van and Isaac has the first aid kit. We leave at 7 from the church lot, not the school lot. Bring lunch, two water bottles and a rain jacket. Sean said he actually likes the longer trail but the younger scouts can't do 8 miles so we'll take the short loop.", "reason": "unrecoverable_word"}
+{"id": "s4-W17-0099", "decision": "fix_clean", "clean": "Rosa, I need to flag something about the patient scheduling system. When we book a follow up it defaults to 15 minutes, but the biopsy follow ups really need 45 minutes, because the doctor does the wound check and the consent. It's been double booking the afternoon slot since June. Could you ask the vendor if there's a setting for per visit type durations? If not, let's just add a manual note and I'll make a sticky for the front desk.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W17-0100", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,50 @@
+{"id": "s2-W3-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0102", "decision": "drop", "reason": "unrecoverable_meaning", "note": "regex heard as rejects"}
+{"id": "s2-W3-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0104", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled places"}
+{"id": "s2-W3-0105", "decision": "fix_clean", "clean": "Dentist said I need two fillings and a cleaning. The total estimate is about $650, but insurance covers 80% of the fillings. The next appointment is on Wednesday the 4th at 11:45. I should also ask whether they take my new plan.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "AM lost"}
+{"id": "s2-W3-0106", "decision": "drop", "reason": "unrecoverable_meaning", "note": "time block schedule from eight lost"}
+{"id": "s2-W3-0107", "decision": "fix_clean", "clean": "Summary: The search bar does not handle accents correctly. For example, if you type \"cafe\" with an accent, nothing is returned even though there are 200 matching products. I tested on Chrome 120 and Safari 17 and both have the same issue, so it is probably on the backend.", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "mojibake in clean; raw has cafe"}
+{"id": "s2-W3-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0110", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0113", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0114", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W3-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0118", "decision": "fix_clean", "clean": "How to cook rice in a pot for four people.", "reason": "guide_violation", "rules": ["R11"], "note": "raw already clean"}
+{"id": "s2-W3-0119", "decision": "drop", "reason": "unrecoverable_meaning", "note": "scammed heard as skin"}
+{"id": "s2-W3-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0121", "decision": "drop", "reason": "unrecoverable_meaning", "note": "passport lost, list not dictated, Vacking"}
+{"id": "s2-W3-0122", "decision": "fix_clean", "clean": "This is a note to say that Zhang called this afternoon and asked if we could move the review up by two days. I told him that I would check with you first. If it works for you, I can confirm with him tomorrow morning before 9.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "Hi Wei lost to Cly Y"}
+{"id": "s2-W3-0123", "decision": "drop", "reason": "unrecoverable_meaning", "note": "total count heard as call to account"}
+{"id": "s2-W3-0124", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0126", "decision": "fix_clean", "clean": "Okay, update on the outage. A bad config push at 2:41 AM that doubled the connection limits, which caused the database to run out of memory. We rolled it back at 3:05 and everything has been mostly green since. So we are keeping an eye on it, and I will post a full write-up tomorrow.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "two clauses lost by recognizer"}
+{"id": "s2-W3-0127", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "er heard as Or; also at->after, aim->Ain"}
+{"id": "s2-W3-0128", "decision": "fix_clean", "clean": "I am training a small convolutional network in PyTorch on a dataset of about 50,000 images. The accuracy plateaus at around 72% after 10 epochs and the validation loss starts going up. What regularisation techniques would you suggest, and how should I set the dropout rate? I am using a batch size of 32 and a learning rate of 0.001.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R10"], "note": "overfitting clause lost; regularisation from raw"}
+{"id": "s2-W3-0129", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled places"}
+{"id": "s2-W3-0130", "decision": "fix_clean", "clean": "I am reaching out because I ordered a blender on the 3rd and it arrived broken. The lid has a crack and the base wobbles. The order number is 8831. I would like a replacement for a full refund of $79.99. I have photos if you need them.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "Hi lost; or heard as for"}
+{"id": "s2-W3-0131", "decision": "drop", "reason": "unrecoverable_meaning", "note": "send a POST request to /oauth/token lost"}
+{"id": "s2-W3-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0133", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0134", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0136", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Power trip, Gasarum, chap in"}
+{"id": "s2-W3-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0138", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0139", "decision": "drop", "reason": "unrecoverable_meaning", "note": "strings and sslmode garbled"}
+{"id": "s2-W3-0140", "decision": "fix_clean", "clean": "She said, and I quote, \"The second time is always faster,\" which is true here. The first one took 90 seconds and the second took 30.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "run heard as one"}
+{"id": "s2-W3-0141", "decision": "fix_clean", "clean": "Python script to rename files in a folder.", "reason": "guide_violation", "rules": ["R11"], "note": "raw already clean"}
+{"id": "s2-W3-0142", "decision": "fix_clean", "clean": "I am five minutes away, can you calm down?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "come heard as calm"}
+{"id": "s2-W3-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0144", "decision": "drop", "reason": "unrecoverable_meaning", "note": "wifi heard as Life"}
+{"id": "s2-W3-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0146", "decision": "fix_clean", "clean": "Okay, it is 61 degrees and sunny, so let's do the standup outside.", "reason": "guide_violation", "rules": ["R10"], "note": "it is not it's"}
+{"id": "s2-W3-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0150", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is only a tail fragment"}

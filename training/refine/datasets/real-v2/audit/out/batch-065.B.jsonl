@@ -1,0 +1,50 @@
+{"id": "s2-W7-0201", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W7-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0203", "decision": "fix_clean", "clean": "ls -la /etc", "reason": "dropped_by_recognizer", "note": "nginx lost"}
+{"id": "s2-W7-0204", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cat misheard as Air"}
+{"id": "s2-W7-0205", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pytest lost"}
+{"id": "s2-W7-0206", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cargo and --bin lost"}
+{"id": "s2-W7-0207", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0208", "decision": "fix_clean", "clean": "Temporary workaround removed after the migration.", "reason": "unrecoverable_word", "note": "raw has removed"}
+{"id": "s2-W7-0209", "decision": "fix_clean", "clean": "They do add input validation.", "reason": "unrecoverable_word", "note": "TODO heard as They do"}
+{"id": "s2-W7-0210", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0211", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many words garbled"}
+{"id": "s2-W7-0212", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many words garbled"}
+{"id": "s2-W7-0213", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Some for um"}
+{"id": "s2-W7-0214", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0215", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0216", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0217", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0218", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled and truncated"}
+{"id": "s2-W7-0219", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled"}
+{"id": "s2-W7-0220", "decision": "fix_clean", "clean": "There's a bug where the discount is applied when the user refreshes the cart page. I think the calculation is in the getter and also in the reducer. Find where it's done twice and keep only one, preferably the reducer.", "reason": "dropped_by_recognizer", "note": "twice lost"}
+{"id": "s2-W7-0221", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Mosaic lost, surface heard as service, the dropped"}
+{"id": "s2-W7-0222", "decision": "fix_clean", "clean": "Look at the failing job in the GitHub Actions run. I think it's the Node version. We pin 20 in the workflow, but the lock file is generated with 22. Fix whichever one is wrong.", "reason": "unrecoverable_word", "note": "raw has 'is generated'"}
+{"id": "s2-W7-0223", "decision": "fix_clean", "clean": "Add a Kubernetes CronJob that runs the cleanup script at 3 a.m. every day. Set the concurrency policy to Forbid.", "reason": "dropped_by_recognizer", "note": "last clause lost"}
+{"id": "s2-W7-0224", "decision": "fix_clean", "clean": "Ember is the push notification service. The retries there use a fixed 1-second delay, which hammers APNs when it's down. Change it to exponential with a max delay of 5 minutes, and jitter.", "reason": "dropped_by_recognizer", "note": "'add' lost"}
+{"id": "s2-W7-0225", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0226", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0227", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0229", "decision": "fix_clean", "clean": "The unit tests pass, but the integration tests fail with a connection refused on port 5432. Does the test database container even start? Check the Docker Compose file and the test setup script.", "reason": "unrecoverable_word", "note": "raw has Does...start"}
+{"id": "s2-W7-0230", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Pylon lost, REST heard as Rust, garbled"}
+{"id": "s2-W7-0231", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0232", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ESLint and Prettier clauses lost"}
+{"id": "s2-W7-0233", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0234", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0235", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0236", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0237", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0238", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0239", "decision": "drop", "reason": "unrecoverable_meaning", "note": "line number lost, 'Online Well'"}
+{"id": "s2-W7-0240", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0241", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.'"}
+{"id": "s2-W7-0242", "decision": "fix_clean", "clean": "PR title: Orbit: fixed token expiry check\n\nDescription: The expiry check compared seconds to milliseconds, so tokens were valid a thousand times longer than intended. This changes the comparison to use milliseconds on both sides and adds a regression test with the token that expired one second ago.", "reason": "unrecoverable_word", "note": "raw has Fixed and 'the token'"}
+{"id": "s2-W7-0243", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0244", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sharator' merges shared decorator"}
+{"id": "s2-W7-0245", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0246", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0247", "decision": "drop", "reason": "unrecoverable_meaning", "note": "-m wip garbled"}
+{"id": "s2-W7-0248", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0249", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0250", "decision": "accept", "reason": "ok"}

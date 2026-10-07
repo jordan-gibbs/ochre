@@ -1,0 +1,50 @@
+{"id": "s2-W8-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0102", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0104", "decision": "fix_clean", "clean": "Toothpaste, paper towels.", "reason": "dropped_by_recognizer", "note": "shampoo lost"}
+{"id": "s2-W8-0105", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0110", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0112", "decision": "drop", "reason": "unrecoverable_meaning", "note": "trellis heard as trolley's"}
+{"id": "s2-W8-0113", "decision": "fix_clean", "clean": "Okay so, I checked the schedule and I can swap chefs with you on Thursday.", "reason": "unrecoverable_word", "note": "shifts heard as chefs"}
+{"id": "s2-W8-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0116", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W8-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0118", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most content lost"}
+{"id": "s2-W8-0119", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Some, / Hi."}
+{"id": "s2-W8-0120", "decision": "fix_clean", "clean": "Handover for room 12: Mr. Okafer is stable, he ate half his breakfast, pain is a 3 out of 10. He needs his dressing changed at 2, and his daughter is visiting this afternoon, so please let her know the doctor wants to talk to her.", "reason": "unrecoverable_word", "note": "name spelling from raw"}
+{"id": "s2-W8-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0122", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large parts lost"}
+{"id": "s2-W8-0123", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several misheard words"}
+{"id": "s2-W8-0124", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many errors"}
+{"id": "s2-W8-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0128", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh heard as but"}
+{"id": "s2-W8-0129", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pick up and Walgreens lost"}
+{"id": "s2-W8-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0131", "decision": "fix_clean", "clean": "Vegetarian dinner ideas for four people", "reason": "dropped_by_recognizer", "note": "cheap lost"}
+{"id": "s2-W8-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0133", "decision": "fix_clean", "clean": "Tuesday Benz, Wednesday library, Thursday choir.", "reason": "unrecoverable_word", "note": "bins heard as Benz"}
+{"id": "s2-W8-0134", "decision": "fix_clean", "clean": "We are out of coffee again.", "reason": "dropped_by_recognizer", "note": "ugh lost"}
+{"id": "s2-W8-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0136", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh heard as No"}
+{"id": "s2-W8-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0138", "decision": "fix_clean", "clean": "Tell Mr. Jickens that the hint will be done by Friday because the paint needs to dry.", "reason": "unrecoverable_word", "note": "name and fence from raw"}
+{"id": "s2-W8-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0140", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh heard as No"}
+{"id": "s2-W8-0141", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0142", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh heard as But"}
+{"id": "s2-W8-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0146", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0148", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "No. / It"}
+{"id": "s2-W8-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0150", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh heard as No"}

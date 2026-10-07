@@ -1,0 +1,50 @@
+{"id": "s4-W36-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0055", "decision": "fix_clean", "clean": "Thanks, Dalia. I will review it tomorrow.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W36-0056", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W36-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0060", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0063", "decision": "fix_clean", "clean": "Ideas for the fundraiser:\n\nSilent auction\n\nBig sale\n\nRaffle", "reason": "unrecoverable_word"}
+{"id": "s4-W36-0064", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0066", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0070", "decision": "fix_clean", "clean": "Paul Grace at 3, then Lewis at 4.", "reason": "unrecoverable_word"}
+{"id": "s4-W36-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0073", "decision": "fix_clean", "clean": "Hi Claire,\n\nThanks for sending over the quote for the kitchen renovation. We reviewed it last night and a few things stood out: the cabinet price is higher than we expected, and the timeline says 8 weeks. I also noticed the quote does not include the demolition Allway, which I thought was included.\n\nCould we hop on a call tomorrow?\n\nBest,\nIn all", "reason": "unrecoverable_word"}
+{"id": "s4-W36-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0077", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0080", "decision": "fix_clean", "clean": "Hi Daily.\n\nFollowing up on the parent group fundraiser. We raised $2,400 last night, which is 80% of the goal. The silent auction alone brought in $900, and the bake sale added $350.\n\nThank you for all your help,\nFeminine", "reason": "unrecoverable_word"}
+{"id": "s4-W36-0081", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0082", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W36-0083", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0084", "decision": "fix_clean", "clean": "Florist inventory:\n- Peonies, 30 stems\n- Twelve, 60 stems\n- Eucalyptus, 12 bunches", "reason": "unrecoverable_word"}
+{"id": "s4-W36-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0088", "decision": "fix_clean", "clean": "Summarise the following email in two sentences:\n\nHi team, the warehouse inventory count is moving to next weekend. Please sign up for shift by Thursday.", "reason": "spelling_from_raw"}
+{"id": "s4-W36-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0093", "decision": "fix_clean", "clean": "I told her the new paragraph should start after the quote, but she says should be a new line instead.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W36-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0095", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W36-0096", "decision": "fix_clean", "clean": "Okay team, here is the plan for the forest pop up on Saturday:\n- Setup starts at 7, so please arrive by 6:45\n- We need 40 bouquets ready by 9\n- Lewis is handling the cash register\n- Daily is on the front table\n- Cleanup is at 2.\nPlease do not forget the signs.\nAnd somebody please grab ice for the buckets.", "reason": "unrecoverable_word"}
+{"id": "s4-W36-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0098", "decision": "fix_clean", "clean": "Meeting recap:\n\nAttendees were Grace and Femi.\n\nDecisions:\n- We are moving the warehouse audit to June\n- The new scanner order is approved, 20 units at $300 each\n- Overtime is capped at 10 hours per week\n\nAction items:\n- Femi sends the vendor list by Friday\n- Lewis updates the schedule", "reason": "dropped_by_recognizer"}
+{"id": "s4-W36-0099", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W36-0100", "decision": "drop", "reason": "unrecoverable_meaning"}

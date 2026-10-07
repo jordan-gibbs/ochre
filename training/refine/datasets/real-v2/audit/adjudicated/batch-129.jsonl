@@ -1,0 +1,5 @@
+{"id": "s4-W32-0012", "decision": "fix_clean", "clean": "Punishment is not applied to the final paycheck.", "reason": "unrecoverable_word", "note": "B: 'Punishment' kept from raw (garnishment not inferable); 'apply'->'applied' grammatical; sensible sentence"}
+{"id": "s4-W32-0027", "decision": "fix_clean", "clean": "The arbitration clause and section 12 needs a second look before we sign.", "reason": "dropped_by_recognizer", "note": "A: 'Hi Alessia' lost; raw 'and section' kept (in not inferable)"}
+{"id": "s4-W32-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Maybe it texted me' not a sensible dictation"}
+{"id": "s4-W32-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: IRA/'fired' unrecoverable; 'like I'm fired' not sensible"}
+{"id": "s4-W32-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Hi Mehmet' heard as 'I name it.'; fix not sensible"}

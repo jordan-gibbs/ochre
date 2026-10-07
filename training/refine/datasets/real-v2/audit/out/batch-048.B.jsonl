@@ -1,0 +1,50 @@
+{"id": "s2-W5-0351", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0352", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'left' lost; sentence broken"}
+{"id": "s2-W5-0353", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0354", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'In fact' for uh"}
+{"id": "s2-W5-0355", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0356", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No' for oh/uh"}
+{"id": "s2-W5-0357", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0358", "decision": "drop", "reason": "unrecoverable_meaning", "note": "poll->call, for->to, a dropped"}
+{"id": "s2-W5-0359", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0360", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0361", "decision": "fix_clean", "clean": "The elevator is broken again, so if you are on the fifth floor, good luck, take the stairs.", "reason": "dropped_by_recognizer", "note": "'Ugh' not in raw"}
+{"id": "s2-W5-0362", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0363", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0364", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Well' for uh"}
+{"id": "s2-W5-0365", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0366", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0367", "decision": "fix_clean", "clean": "Yep, that was me, sorry, I did not realise the file was locked.", "reason": "spelling_from_raw"}
+{"id": "s2-W5-0368", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0369", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0370", "decision": "fix_clean", "clean": "Babe, the plumber says it is going to be $300 for the part and another $150 for labour.", "reason": "spelling_from_raw"}
+{"id": "s2-W5-0371", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0372", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0373", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'But' for er"}
+{"id": "s2-W5-0374", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W5-0375", "decision": "fix_clean", "clean": "I told him it was a joke and he took it so seriously, I feel awful.", "reason": "dropped_by_recognizer", "note": "haha lost; Uh-huh dropped"}
+{"id": "s2-W5-0376", "decision": "fix_clean", "clean": "So apparently the concert starts at 8 but doors are at 7. But you want to get there early?", "reason": "unrecoverable_word", "note": "'Do' heard as 'But'"}
+{"id": "s2-W5-0377", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0378", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0379", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0380", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0381", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'And now' for uh"}
+{"id": "s2-W5-0382", "decision": "fix_clean", "clean": "Yeah so my train got canceled, I am gonna be like an hour late. Tell them to start without me.", "reason": "spelling_from_raw"}
+{"id": "s2-W5-0383", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0384", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0385", "decision": "drop", "reason": "hallucination", "note": "trailing 'said'"}
+{"id": "s2-W5-0386", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0387", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0388", "decision": "fix_clean", "clean": "Okay, so I just got off the phone with the supplier and they said the parts will be here on the 12th, which is 2 days later than we planned. So we are gonna have to move the install to the 15th. I will update the schedule and let the crew know.", "reason": "unrecoverable_word", "note": "raw has Okay not Hey"}
+{"id": "s2-W5-0389", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0390", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0391", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'don't' for uh flips meaning"}
+{"id": "s2-W5-0392", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0393", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0394", "decision": "fix_clean", "clean": "Okay so tomorrow I have the dentist at 9, then lunch with my sister at noon, and then I need to go to the bank before it closes at 4, so I probably cannot meet before 5. Is that too late for you? So we could do Thursday instead.", "reason": "unrecoverable_word", "note": "raw: Okay; 'So we could' not 'If so'"}
+{"id": "s2-W5-0395", "decision": "fix_clean", "clean": "Hey, just a reminder that if you were going to be out next week, please add it to the team calendar. I have had a couple of cases where nobody knew someone was away until the day of, and it makes it really hard to plan the sprint.", "reason": "unrecoverable_word", "note": "raw has 'were'"}
+{"id": "s2-W5-0396", "decision": "drop", "reason": "unrecoverable_meaning", "note": "kitchen clause and ending lost"}
+{"id": "s2-W5-0397", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No' for uh; restructure needed"}
+{"id": "s2-W5-0398", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0399", "decision": "fix_clean", "clean": "Hi Sophia, thanks for sending over the quote. It looks good overall. I just had one question about the shipping cost. It seems higher than what you quoted last time. Is there a reason for that? If it is because of the rush delivery, we can do standard instead. We are not in a hurry.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s2-W5-0400", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Well' for uh; 'And we talk'"}

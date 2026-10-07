@@ -1,0 +1,50 @@
+{"id": "s4-W34-0001", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never spoken"}
+{"id": "s4-W34-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0008", "decision": "fix_clean", "clean": "best tire pressure for a road bike 25 millimetres", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'millimetres'"}
+{"id": "s4-W34-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'It's a ... shot' became 'So ... shots'"}
+{"id": "s4-W34-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'note that' -> 'no, but', 'filing' -> 'file and'"}
+{"id": "s4-W34-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0014", "decision": "fix_clean", "clean": "Oh, the tickets were 280 bucks each, which is kind of insane.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'Oh' not 'Yo'"}
+{"id": "s4-W34-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can' -> 'And' and 'upload' -> 'output'"}
+{"id": "s4-W34-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'docker' -> 'Aka', 'm' -> 'and'"}
+{"id": "s4-W34-0034", "decision": "fix_clean", "clean": "We have about 40% of cases still open. The deadline is the 30th.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R6"], "note": "'and' missing from raw"}
+{"id": "s4-W34-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Traffic spiked to' garbled to 'Traffics by two to'"}
+{"id": "s4-W34-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Call the courthouse' -> 'All the core tiles'"}
+{"id": "s4-W34-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0047", "decision": "fix_clean", "clean": "The ride is 30 miles, but it's mostly flat, so we'll take maybe 2 hours.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'we'll' not 'it'll'"}
+{"id": "s4-W34-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0050", "decision": "drop", "reason": "garbage", "note": "empty raw"}

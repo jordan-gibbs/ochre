@@ -1,0 +1,50 @@
+{"id": "s4-W50-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0003", "decision": "fix_clean", "clean": "Paller's watches arrive on Tuesday.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0004", "decision": "fix_clean", "clean": "Thank you for your patience. May it.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0005", "decision": "fix_clean", "clean": "How do I store iron tomato seeds over winter?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0006", "decision": "fix_clean", "clean": "What does a fishing kit contain?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0008", "decision": "fix_clean", "clean": "Save me a seat.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0009", "decision": "fix_clean", "clean": "Call the Framer before Nin.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0010", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W50-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0015", "decision": "fix_clean", "clean": "We've had the request twice before giving up.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0019", "decision": "fix_clean", "clean": "Nobody's seen a spare key since Monday.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0026", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W50-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0032", "decision": "fix_clean", "clean": "Dear Mr Hokafer, thank you for your inquiry about the exhibition space. We would be delighted to arrange a viewing next week.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0034", "decision": "fix_clean", "clean": "I told him twice that he never listens, does he?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0035", "decision": "fix_clean", "clean": "The new moderator rules go live on Saturday, so please read the pen post before then.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0044", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W50-0045", "decision": "fix_clean", "clean": "Good morning Kara, the seed order has shipped and should reach you by the end of the week.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0047", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W50-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0049", "decision": "fix_clean", "clean": "Open the settings page, how about dark mode, and reload the tab. The sidebar disappears.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0050", "decision": "fix_clean", "clean": "Our contrast must meet the accessibility guidelines, and every image needs descriptive alt text.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}

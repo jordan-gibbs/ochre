@@ -1,0 +1,4 @@
+{"id": "s4-W18-0010", "decision": "fix_clean", "clean": "I need the signed engagement letter by noon so that I can file.", "reason": "trailing_off", "note": "A: raw ends on \"so that I can file\", which does not visibly end mid-thought; end with a period"}
+{"id": "s4-W18-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: \"desk got\" merged into the real word \"desktop\"; raw-form target \"The desktop 40 calls\" is not sensible"}
+{"id": "s4-W18-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Alejandro heard as \"The Gendra B\"; the address is lost and the raw-form sentence is garbled"}
+{"id": "s4-W18-0050", "decision": "fix_clean", "clean": "The result is 0.03, so is significant.", "reason": "dropped_by_recognizer", "note": "B: \"it's\" was dropped by the recognizer; do not re-insert it, the meaning survives"}

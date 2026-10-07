@@ -1,0 +1,50 @@
+[project]
+name = "openwhisprflow"
+version = "0.1.0"
+description = "Open-source, cross-platform voice dictation: local or bring-your-own-key transcription, AI refinement, and hands-free wake word."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy>=1.26",
+  "sounddevice>=0.5",
+  "onnxruntime>=1.20; sys_platform != 'win32' or platform_machine != 'ARM64'",
+  "onnx-asr[hub]>=0.7",
+  "httpx>=0.27",
+  "websockets>=13",
+  "platformdirs>=4",
+  "keyring>=25",
+  "tomli-w>=1.0",
+  "pynput>=1.7; sys_platform == 'linux'",
+  "pyobjc-framework-Quartz>=10; sys_platform == 'darwin'",
+  "pyobjc-framework-ApplicationServices>=10; sys_platform == 'darwin'",
+]
+
+[project.optional-dependencies]
+whisper = ["faster-whisper>=1.1"]
+cuda = ["onnxruntime-gpu>=1.20", "faster-whisper>=1.1"]
+directml = ["onnxruntime-directml>=1.20"]
+dev = ["pytest>=8", "ruff>=0.6", "soundfile>=0.12", "jiwer>=3.0"]
+
+[project.scripts]
+openwhisprflow = "openwhisprflow.__main__:main"
+owf = "openwhisprflow.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/openwhisprflow"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["hardware: needs a microphone, display or keyboard", "network: calls a real provider", "slow: downloads models"]

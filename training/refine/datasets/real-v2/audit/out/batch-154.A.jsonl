@@ -1,0 +1,50 @@
+{"id": "s4-W44-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0052", "decision": "fix_clean", "clean": "Alana, honestly the band sounded so much better to me, way better than last week.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'tonight' heard as 'to me'"}
+{"id": "s4-W44-0053", "decision": "fix_clean", "clean": "I'm gonna need you to cover my shift on Tuesday.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R13"], "note": "'if that's cool' lost"}
+{"id": "s4-W44-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "got/nicked/tomatoes all changed in a short text"}
+{"id": "s4-W44-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dominik's dad' heard as 'Dominics that'"}
+{"id": "s4-W44-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0066", "decision": "fix_clean", "clean": "Bill's coming now I think, or maybe he said tomorrow, I'm not sure.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw 'Bill's'"}
+{"id": "s4-W44-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Get this'/'lead'/'at' all misheard"}
+{"id": "s4-W44-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0069", "decision": "fix_clean", "clean": "Nah, I'll pass on the pub, I've got to water the plants at the allotment.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R13"], "note": "'before it gets dark' lost"}
+{"id": "s4-W44-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first half of dictation lost"}
+{"id": "s4-W44-0071", "decision": "fix_clean", "clean": "You're not gonna believe what happened at the paper today. The printer broke right in the middle of the run and we had to wait 3 hours, and Dominic was sprinting around trying to find a technician, and in the end it was the cleaner who fixed it, which is kind of hilarious, honestly.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary (raw 'Dominic'); 'right in the middle' is meaningful, restored"}
+{"id": "s4-W44-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "month/friend/ward/vegetarian garbled"}
+{"id": "s4-W44-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I'll sort out' heard as 'also out'"}
+{"id": "s4-W44-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name lost; cake/cried/ending garbled"}
+{"id": "s4-W44-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0081", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W44-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0085", "decision": "fix_clean", "clean": "Bro, I'm not even joking, the keeper just threw it into his own net and the whole stand was silent, and then some guy behind me started laughing so hard he knocked his pie over, and I think that's the funniest thing I've seen all season.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'was silent'"}
+{"id": "s4-W44-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'swapped shifts'/'I'm on nights' garbled"}
+{"id": "s4-W44-0087", "decision": "fix_clean", "clean": "The new singer sounds like a cat being stepped on but in a good way, it's like a punk thing, and the crowd loves it, I love it, and my mom came to the last show and she stayed till the end, which is a first, so what do I know?", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'mom'"}
+{"id": "s4-W44-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0089", "decision": "fix_clean", "clean": "Go, Kenji here. We've got the rehearsal room until 10 tonight but the landlord said we can't be loud after 9, so we'll do acoustic stuff for the last hour, and that's probably better for working out the harmonies anyway, so don't bring the electric kit.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'Yo' heard as 'Go'"}
+{"id": "s4-W44-0090", "decision": "fix_clean", "clean": "You did not hear this from me, but I think the new registrar and the charge nurse are a thing. They were sharing a sandwich in a stairwell and he laughed at her joke, and nobody laughs at her jokes.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'a stairwell'"}
+{"id": "s4-W44-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0092", "decision": "fix_clean", "clean": "Listen, I'm not saying the drummer is bad, I'm just saying that maybe, maybe, we could try mentoring them, because last night the chorus was twice as fast as the verse and the bass player looked like he was running for a bus.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'a metronome' heard as 'mentoring them'"}
+{"id": "s4-W44-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0094", "decision": "drop", "reason": "hallucination", "note": "trailing 'Cool.' never said"}
+{"id": "s4-W44-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sick/so that/three/ate garbled"}
+{"id": "s4-W44-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many content words garbled, a sentence lost"}
+{"id": "s4-W44-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'band news' heard as 'bad news' and several garbled phrases"}
+{"id": "s4-W44-0099", "decision": "fix_clean", "clean": "Hi Dad, it's Annika. I'm just letting you know I'm taking the train up on Friday and not the bus, because the bus times are rubbish now. I get in at 6:45, can you pick me up from the station? If not I'll get a taxi, it's not a big deal. And Mum said you're doing a roast on Saturday, which is amazing because I've been living on pasta and toast since January. Oh, and I might bring a plus one, but it's not serious, so don't say anything to Grant, she'll get ideas. Love you, see you Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'gran' heard as name 'Grant'"}
+{"id": "s4-W44-0100", "decision": "fix_clean", "clean": "Guys, the fan club meeting last night was pretty productive, here's the summary. We agreed to print new scarves for next season, which is gonna cost about 800 quid, so we need to raise it. The plan is a quiz night in November and a raffle at the Christmas match. Victor is in charge of the quiz, Hector is doing the raffle prizes, and Annika is going to design the scarf, which she's super excited about. Oh, and we're getting the banner for the way in that says something like United Forever, it's kind of cheesy but I like it. And the next meeting is on the 9th of November at 7.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'the banner for the way in'"}

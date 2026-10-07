@@ -1,0 +1,13 @@
+{"id": "s4-W45-0053", "decision": "fix_clean", "clean": "Hey, did anybody else's badge stop working this morning? Because mine just beeped red at me three times and security looked at me like I was a criminal.", "reason": "guide_violation", "note": "neither: spoken because is in raw and was dropped (B right on that), but the question mark must stay"}
+{"id": "s4-W45-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: on this dropped, eyes lone thing"}
+{"id": "s4-W45-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Hey Tariq heard as Egg Tark"}
+{"id": "s4-W45-0062", "decision": "fix_clean", "clean": "Now you're basically a legend for fixing that, I owe you a beer, no, whole case, okay, maybe a six pack.", "reason": "unrecoverable_word", "note": "A: Now from raw, article a dropped; minimal edits"}
+{"id": "s4-W45-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Mai heard as my"}
+{"id": "s4-W45-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: sprinted back -> sprinted that"}
+{"id": "s4-W45-0068", "decision": "fix_clean", "clean": "We should totally do a team potluck. I can bring the hummus, Raphael can do something with rice, Irene's in charge of dessert because she's the only one who actually bakes, Antarik can bring ice or plates or whatever.", "reason": "unrecoverable_word", "note": "A: Antarik absorbs and; do not double it"}
+{"id": "s4-W45-0076", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Kai dropped leaves Sunday dragged me with no subject"}
+{"id": "s4-W45-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: phone with the supplier merged into phler; B silently restored phone"}
+{"id": "s4-W45-0092", "decision": "fix_clean", "clean": "I think the vote was two thirds in favour, so we're probably doing the potluck.", "reason": "spelling_from_raw", "note": "A: favour from raw; potla near non-word form of potluck"}
+{"id": "s4-W45-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Nah Mai said heard as I said, changes who said it"}
+{"id": "s4-W45-0097", "decision": "accept", "reason": "ok", "note": "A: hyphen is optional spelling; author decision stands"}
+{"id": "s4-W45-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Bro->Grow, bags->baths"}

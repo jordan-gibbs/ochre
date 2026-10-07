@@ -1,0 +1,50 @@
+{"id": "s2-W7-0001", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0002", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0003", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0004", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0006", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled start and .env/YAML"}
+{"id": "s2-W7-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled"}
+{"id": "s2-W7-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0010", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0011", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W7-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "-m, null, middleware lost"}
+{"id": "s2-W7-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Today I'm heard as Hit A M"}
+{"id": "s2-W7-0016", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0017", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W7-0018", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0019", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0022", "decision": "drop", "reason": "unrecoverable_meaning", "note": "tsx heard as two six"}
+{"id": "s2-W7-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "endpoint path garbled"}
+{"id": "s2-W7-0024", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0025", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated, large content lost"}
+{"id": "s2-W7-0028", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0030", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0031", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0032", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0034", "decision": "drop", "reason": "hallucination", "note": "trailing \"No.\""}
+{"id": "s2-W7-0035", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0036", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0037", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0038", "decision": "drop", "reason": "hallucination", "note": "Thank you."}
+{"id": "s2-W7-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0040", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0041", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "three words misheard"}
+{"id": "s2-W7-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0045", "decision": "drop", "reason": "unrecoverable_meaning", "note": "logging plugin and .md garbled"}
+{"id": "s2-W7-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0047", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0048", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0049", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0050", "decision": "accept", "reason": "ok"}

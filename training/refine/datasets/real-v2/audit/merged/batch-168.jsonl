@@ -1,0 +1,44 @@
+{"id": "s4-W51-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0055", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'me mum says' lost, 'as a spare do me'"], "auditors": ["A", "B"]}
+{"id": "s4-W51-0056", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'legacy and border' for legacy importer"], "auditors": ["A", "B"]}
+{"id": "s4-W51-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0058", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Could you' heard as 'Middle'"], "auditors": ["A", "B"]}
+{"id": "s4-W51-0060", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'or' heard as 'Why'"], "auditors": ["A", "B"], "clean": "Is that really what he said? Why are you winding me up?"}
+{"id": "s4-W51-0061", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'color'"], "auditors": ["A", "B"], "clean": "I think the new shelf looks great, but the color is a bit too bold for the front window and I'd rather we tried something softer before the weekend."}
+{"id": "s4-W51-0062", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0063", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'traffic wasn't at all', 'the satneb'"], "auditors": ["A", "B"]}
+{"id": "s4-W51-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0072", "decision": "drop", "reasons": ["hallucination", "garbage"], "notes": ["raw 'That's a hard one.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W51-0073", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'ain't' dropped"], "auditors": ["A", "B"], "clean": "We never had no trouble with that supplier before and now this."}
+{"id": "s4-W51-0074", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0076", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw 'prioritized'; 'a' dropped"], "auditors": ["A", "B"], "clean": "We have prioritized the refund process because customers consistently told us that waiting for decision is more upsetting than the decision itself, and we plan to publish the new timescales in the summer."}
+{"id": "s4-W51-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0078", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the colorists That's promised the great'"], "auditors": ["A", "B"]}
+{"id": "s4-W51-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0080", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0081", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0082", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0085", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'for new starters at the physiotherapy practice' dropped"], "auditors": ["A", "B"], "clean": "I'm putting together a short guide and I want it to cover the booking system, the way we label the treatment rooms, and what to do if a patient arrives early or late. So could you suggest a sensible order for those sections and tell me whether I should add a part about the insurance forms?"}
+{"id": "s4-W51-0086", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw 'want to fuss', 'Mom's'"], "auditors": ["A", "B"], "clean": "Listen, I know you said you didn't want to fuss, but Mom's already booked the table and she's told everyone, and Aunt Valentina is coming all the way from Turin, so you can't really say no now, can you? And besides, it's only dinner and there's gonna be cake and I promise nobody will sing."}
+{"id": "s4-W51-0088", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["opening garbled, 'paid' for panicked, 'Craigant'"], "auditors": ["A", "B"]}
+{"id": "s4-W51-0089", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'color'"], "auditors": ["A", "B"], "clean": "Ideas for the open house: we could put out proper coffee instead of the instant stuff, we should print the floor plans in color, not black and white, and maybe ask Hassan to walk people through the garden because he knows all the plants and nobody else does."}
+{"id": "s4-W51-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0091", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'spread. cheats', 'made it some mug'"], "auditors": ["A", "B"]}
+{"id": "s4-W51-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0093", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw has 'name' not 'names'"], "auditors": ["A", "B"], "clean": "Give me three ideas for a name for a small coffee shop that sells good pastries and has a lot of plants and maybe a cat, and please keep the name short and a bit funny."}
+{"id": "s4-W51-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0096", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0097", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W51-0099", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'then load and decide our color flashes'"], "auditors": ["A", "B"]}
+{"id": "s4-W51-0100", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

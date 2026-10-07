@@ -1,0 +1,15 @@
+{"id": "s4-W58-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Thursday'->'there's day', 'Garcie. My job', copper->'cocker'; accept keeps untraceable words"}
+{"id": "s4-W58-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Praemed in Lion', 'Round eggy words' not inferable"}
+{"id": "s4-W58-0068", "decision": "fix_clean", "clean": "Dean, update on a co-op spring seed order. I placed it yesterday with the usual supplier. We got the tomatoes and the peppers, but the beans are out of stock until April, so I swapped them for a different variety, which Shira approved. The total came to $960, and it should ship by the end of next week. I'll post the tracking number here as soon as I have it, and if anyone wants to add something, tell me by Friday.", "reason": "unrecoverable_word", "note": "A: raw 'Dean.' for team and 'a co-op' for 'the co-op's'"}
+{"id": "s4-W59-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'on-call' -> 'arm cough'"}
+{"id": "s4-W59-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Rohan dude' -> 'Ro, had dude'"}
+{"id": "s4-W59-0014", "decision": "fix_clean", "clean": "Yusuf, we gotta talk about Sarre. The game studio thing got moved, so I can't do the movie, but Sunday works, if you're free.", "reason": "unrecoverable_word", "note": "A: Saturday heard as 'Sarre' (keep raw's word); moomie -> movie inferable"}
+{"id": "s4-W59-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'the one with the dragons' -> 'Bo with a dragon'"}
+{"id": "s4-W59-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Rosa guess what the' -> 'Bosa Gas, with a'"}
+{"id": "s4-W59-0023", "decision": "fix_clean", "clean": "Hey sis, the game studio holiday party is on the 20th, so mark your calendar, and yes, you can bring the plus one, but not that guy from last year.", "reason": "unrecoverable_word", "note": "A: raw 'the plus one'"}
+{"id": "s4-W59-0024", "decision": "fix_clean", "clean": "Elias, is the bookstore open Sunday? Because I need to grab the atlas, and if not I'll go Saturday. Actually, no, I have the thing Saturday, so it has to be Sunday.", "reason": "unrecoverable_word", "note": "A: raw 'the Atlas'"}
+{"id": "s4-W59-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Yusuf heard as 'Use'"}
+{"id": "s4-W59-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'to main until Arjun gives' -> 'to me until R is'"}
+{"id": "s4-W59-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Dude Chidi' -> 'Do chitty'"}
+{"id": "s4-W59-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Art and', 'my says pride'; B silently restored Friday"}
+{"id": "s4-W59-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Chidi heard as 'Shitty'; name not recoverable and reads as an insult"}

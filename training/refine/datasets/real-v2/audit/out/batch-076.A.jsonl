@@ -1,0 +1,50 @@
+{"id": "s2-W8-0251", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0252", "decision": "fix_clean", "clean": "Just checking you got home okay. It was a bit icy on the roads, give us a text when you can.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'hiya' heard as 'I'; not inferable, removed; 'bought home' and stutter 'Yet' recoverable"}
+{"id": "s2-W8-0253", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0254", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0255", "decision": "fix_clean", "clean": "My husband he's working night shift this week so the children must be quiet in the morning, I will tell them again.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'he's'; keep the input's form"}
+{"id": "s2-W8-0256", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a cake' heard as 'Okay'; list item lost and stray real word"}
+{"id": "s2-W8-0257", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0258", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0259", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0260", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0261", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh heard as 'No' (reads as correction cue); also 'so no excuses' became 'Excuses.'"}
+{"id": "s2-W8-0262", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0263", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0264", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh/um heard as 'No', 'No', 'Come'"}
+{"id": "s2-W8-0265", "decision": "drop", "reason": "hallucination", "note": "'Today.' appended; also um->'Jean', hire->'hide you'"}
+{"id": "s2-W8-0266", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0267", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many misheard words: 'over', 'martial those', 'will write without the'"}
+{"id": "s2-W8-0268", "decision": "fix_clean", "clean": "The old clockmaker looked up when the bell above the door rang. The young woman stood there holding a broken pocket watch. She said, \"My grandfather left me this, and I was told you were the only one who could fix it.\" He took it from her carefully, turned it over, and smiled sadly. \"I made this watch,\" he said, \"40 years ago, for a man who never came back to collect it.\" The woman stared at him. \"The man was my grandfather,\" she whispered, and for a long moment neither of them spoke.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'The young woman' and 'The man'"}
+{"id": "s2-W8-0269", "decision": "drop", "reason": "unrecoverable_meaning", "note": "tear off->'There are', underlayment->'anointment', 'at bay', 'Valeys'; too many places"}
+{"id": "s2-W8-0270", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0271", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0272", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0273", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0274", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh heard as 'Don't', inverting the reminder"}
+{"id": "s2-W8-0275", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0276", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0277", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0278", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W8-0279", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0280", "decision": "fix_clean", "clean": "Which is better, a ceramic or a non-stick frying pan?", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'non-stick'"}
+{"id": "s2-W8-0281", "decision": "fix_clean", "clean": "How to remove the coffee stain from a white shirt that has already been through the dryer", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the coffee stain'"}
+{"id": "s2-W8-0282", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0283", "decision": "fix_clean", "clean": "Today I learned how to use the new cash register, it's a little bit difficult but my manager is very patient with me.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'learned' and 'it's'"}
+{"id": "s2-W8-0284", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer lost the opening 'the market was loud and bright'; remaining fragment has no subject"}
+{"id": "s2-W8-0285", "decision": "fix_clean", "clean": "Drop off the kids at school at 8:15, then yoga.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'at nine thirty' absent from raw; 'spool' -> school inferable"}
+{"id": "s2-W8-0286", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0287", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0288", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0289", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0290", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ugh okay so' heard as 'I'll go Keso'"}
+{"id": "s2-W8-0291", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0292", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh heard as 'But'; raw also normalizes 'worked', 'It's', 'it's'"}
+{"id": "s2-W8-0293", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'show her' -> 'sure', 'restock' -> 'We stock', 'the' -> 'A', 'and' -> 'in'; too many places"}
+{"id": "s2-W8-0294", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0295", "decision": "fix_clean", "clean": "So proud of my daughter today. She graduated from nursing school after four years of hard work, and she did it while working part-time. I cried through the whole ceremony. Congratulations, my sweet girl, the world needs more people like you.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'late nights and tears' absent from raw; 'Lo' is a residue"}
+{"id": "s2-W8-0296", "decision": "drop", "reason": "unrecoverable_meaning", "note": "uh heard as 'No' repeatedly, knees->'niece', garbled 'Ana Dégel. A mi'"}
+{"id": "s2-W8-0297", "decision": "fix_clean", "clean": "OK, gather round. First of all, I want to say how proud I am of how far you have come this season. In September half of you could not pass the ball straight, and now look at you. Tonight we play the Tigers, they are big and loud and they will try to scare you, but we are not scared. We play our game, we pass, we talk to each other, we help each other up. If somebody makes a mistake we say next one, okay? And win or lose, we shake hands and say good game, and then we get pizza. Deal? Alright, hands in.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "'team' heard as 'T' (not inferable); raw spells 'OK'"}
+{"id": "s2-W8-0298", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'then pack the books' lost, kitchen->'title', kettle->'cattle', cancel->'can hold'"}
+{"id": "s2-W8-0299", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0300", "decision": "accept", "reason": "ok"}

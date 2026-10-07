@@ -1,0 +1,50 @@
+{"id": "s2-W9-0051", "decision": "fix_clean", "clean": "Now, I think we should go with the cheaper one, it looks like it does the same thing.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Now' for 'nah'"}
+{"id": "s2-W9-0052", "decision": "fix_clean", "clean": "Well, you know how I said I'd be there at 7?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Well' for 'lol'"}
+{"id": "s2-W9-0053", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0054", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0055", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0057", "decision": "fix_clean", "clean": "Yeah, you're right, I should call first, I just wasn't thinking.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'should call', not 'should've called'"}
+{"id": "s2-W9-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0059", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'out of the oat milk' -> 'up at the', 'kind' -> 'time'"}
+{"id": "s2-W9-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0062", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never said; 'haha' -> 'I'll hell'"}
+{"id": "s2-W9-0063", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never said"}
+{"id": "s2-W9-0064", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0065", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0070", "decision": "fix_clean", "clean": "My phone is dying, I'll call you when I get home, okay?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'hey' heard as 'A'; not inferable"}
+{"id": "s2-W9-0071", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0072", "decision": "drop", "reason": "hallucination", "note": "raw ends with unspoken 'but'"}
+{"id": "s2-W9-0073", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0074", "decision": "fix_clean", "clean": "Yeah, no, I like it a lot, he's so cute.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'He's' for 'it's'"}
+{"id": "s2-W9-0075", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0076", "decision": "fix_clean", "clean": "Do turn right at the one after that.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Do' for 'dude'"}
+{"id": "s2-W9-0077", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0078", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0080", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0081", "decision": "fix_clean", "clean": "No man, I'm really not feeling it tonight, I'm so tired.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'No' for 'nah'"}
+{"id": "s2-W9-0082", "decision": "fix_clean", "clean": "Though I think we should just tell her.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'so' heard as content word 'Though'"}
+{"id": "s2-W9-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0084", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0085", "decision": "fix_clean", "clean": "Dude, you won't believe what happened, I locked my keys in the car in...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "'again' heard as 'in'; raw ends on 'in'"}
+{"id": "s2-W9-0086", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bug' -> 'book' and 'cache' -> 'cash'; 'bug' not inferable"}
+{"id": "s2-W9-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'did you get' -> 'did she, and'"}
+{"id": "s2-W9-0090", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0091", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0094", "decision": "drop", "reason": "hallucination", "note": "raw appends unspoken 'huh?'"}
+{"id": "s2-W9-0095", "decision": "fix_clean", "clean": "Though nobody told me the meeting was canceled, I just sat there.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "'so' heard as 'though'; raw spells 'canceled'"}
+{"id": "s2-W9-0096", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'all so' -> 'also a' and 'at' dropped before 'like five'"}
+{"id": "s2-W9-0098", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0099", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'out thursday' and 'can you cover standup' garbled"}

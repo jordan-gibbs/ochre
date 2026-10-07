@@ -1,0 +1,42 @@
+{"id": "s2-W2-0151", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["no currency was spoken; '$' adds a fact", "$ never spoken"], "auditors": ["A", "B"], "clean": "Call back Mr. Alvarez about the quote. It was 4,800."}
+{"id": "s2-W2-0152", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0153", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["'not April' is a spoken contrast, not a correction; it was dropped", "'not April' is content, not a correction"], "auditors": ["A", "B"], "clean": "Cheap flights to Tokyo in March, not April, with free cancellation"}
+{"id": "s2-W2-0154", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0156", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0157", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0158", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw adds 'No.' and 'Yeah.' never spoken", "trailing 'Yeah.' not said"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0160", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Amy and 'data pipeline' correction lost", "Amy and data pipeline lost"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0161", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0162", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0163", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'you' absent from raw", "'you' lost"], "auditors": ["A", "B"], "clean": "Thank you for applying. We will contact by the end of next week."}
+{"id": "s2-W2-0165", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0166", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0167", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Gias' and 'Thumb the' garble the opening", "opening garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0169", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0170", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0171", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has 'Nobo'", "name from raw"], "auditors": ["A", "B"], "clean": "The restaurant is called Nobo and the reservation is at 8."}
+{"id": "s2-W2-0172", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0173", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["missing '?' on question; raw already clean"], "auditors": ["A", "B"], "clean": "How long should I wait to swim after eating?"}
+{"id": "s2-W2-0174", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0175", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0176", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0177", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'Down' in place of um", "'Down' in place of um"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0178", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'it' absent from raw", "'it' lost"], "auditors": ["A", "B"], "clean": "No, no, no, do not send that message. I have not finished writing."}
+{"id": "s2-W2-0180", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'It's not helias' cannot yield 'is not aliased'", "'aliased' heard as 'helias'"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0182", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0183", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'right it rejects' and 'as phone numbers' lose write a regex / US", "write a regex that garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0184", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0185", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0186", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0187", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["speaker said 'let's'; do not expand to 'Let us'", "spoken 'lets', not 'let us'"], "auditors": ["A", "B"], "clean": "Let's stick with MySQL since the team already knows it."}
+{"id": "s2-W2-0189", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["filename and 'data' garbled", "backup/data lost"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0190", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Friday's agenda' and 'roadmap' lost", "agenda garbled, roadmap lost"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0191", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0192", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0193", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0194", "decision": "drop", "reasons": ["unrecoverable_meaning", "hesitation_misheard_as_word"], "notes": ["'Rustine. No a month.' garbles 'Rust in a month'", "'Lung' and 'No' replace um/uh"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0195", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'in a week' absent from raw", "'in a week' lost"], "auditors": ["A", "B"], "clean": "The thing is that the vendor has not responded."}
+{"id": "s2-W2-0197", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0198", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0199", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'kidding' misheard and 'which movie we see' lost", "kidding/movie lost"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0200", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

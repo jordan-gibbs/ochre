@@ -1,0 +1,5 @@
+{"id": "sim4-d4-C057-0134-1", "decision": "accept", "note": "B: trailing stray 'It.' is a recognizer artifact; dropped per dataset convention"}
+{"id": "sim4-d4-C051-0157-0", "decision": "accept", "note": "A: 'fake rate drops to 24' -> frame rate is confident in issue context"}
+{"id": "sim4-s4-W58-0021-1", "decision": "fix_clean", "note": "A: 50 per raw; B needlessly restructures 'and sign it'", "clean": "Write a thank-you note from our scout troop to the fire department that hosted our visit last month. Keep it warm but short. Mention that the kids loved climbing into the truck and that Make, our youngest scout, asked about the siren about 50 times, and sign it from Troop 24. Don't add any facts I didn't give you."}
+{"id": "sim4-s4-W55-0066-0", "decision": "accept", "note": "B: trailing stray 'No.' is a recognizer artifact; dropped per dataset convention"}
+{"id": "sim4-d4-D008-0006-0", "decision": "fix_clean", "note": "B: 'is' confidently inferable from yes/no question; A's verbless question is odd", "clean": "Reply with yes or no only. Is this contract clause enforceable in New York?"}

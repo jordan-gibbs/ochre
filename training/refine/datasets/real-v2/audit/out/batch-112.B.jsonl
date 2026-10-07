@@ -1,0 +1,50 @@
+{"id": "s4-W21-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0053", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0055", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0056", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0059", "decision": "fix_clean", "clean": "In this section we describe the savings plan. It's $200, and it's sort of flexible, so you can change it.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W21-0060", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0061", "decision": "fix_clean", "clean": "Meeker, turn right at the light, and the studio is the brown building, you can't miss it, it's right there.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0062", "decision": "fix_clean", "clean": "Hi Quind, I'd like to confirm that the foundation inspection is passed, and we can pour the slab on Monday, as long as the weather holds.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0066", "decision": "fix_clean", "clean": "Aster, are you still at the site? It's 9 pm, go on, the concrete isn't going anywhere.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0068", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0069", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0070", "decision": "fix_clean", "clean": "Hi Cowani, thanks for sending the file over. I went through it twice and the intake notes are fine, but the client's address is missing on page 3, and I mean I can't file without it, so could you get it from her by tomorrow?", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0072", "decision": "fix_clean", "clean": "I'm trying to build a monthly budget. Here's my situation: I make $5,000 after taxes, I paid $1,200 for rent and $300 for a car, and I want you to tell me what percent that is of my income.", "reason": "spelling_from_raw"}
+{"id": "s4-W21-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0074", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0075", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0076", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0079", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0080", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0081", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0083", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0084", "decision": "fix_clean", "clean": "Good morning Ruth, I'm waiting to say that the board approved the budget, and the funding arrives in April, so we can hire the second attorney, which is honestly kind of a relief.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0085", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0086", "decision": "fix_clean", "clean": "When, hey, the vocalist is running late, 20 minutes, and I told her it's fine, so let's set up the mics in the meantime.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0088", "decision": "fix_clean", "clean": "Summarise the following meeting notes in three bullet points, and keep the names, don't drop anybody, and don't add anything that isn't in the notes.", "reason": "spelling_from_raw"}
+{"id": "s4-W21-0089", "decision": "fix_clean", "clean": "Apple, I found the issue with the broken rebar order, it shipped to the wrong site, and it's sitting in a warehouse, so we need to call them, and it's kind of an emergency.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0091", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0092", "decision": "fix_clean", "clean": "The component library has no dark mode yet, so every colour token needs a dark twin, and that's kind of a lot of work, but actually it's the top ask from users.", "reason": "spelling_from_raw"}
+{"id": "s4-W21-0093", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W21-0094", "decision": "fix_clean", "clean": "The client meeting at the legal aid clinic was kind of rough, she wants her refund, and we can't really give one, so we're stuck, we need to talk to the director.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W21-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0099", "decision": "fix_clean", "clean": "Daniel, hey, the mockups are ready, all 12 screens, and I exported them to the shared folder, so you can start the handoff whenever you're ready.", "reason": "unrecoverable_word"}
+{"id": "s4-W21-0100", "decision": "fix_clean", "clean": "I asked, though I wanted to give you a quick update on the studio build out. The walls are up and the acoustic panels are arriving Friday, and the floor is the one thing that worries me because it looks like the wrong wood, so please look at the sample before we sign off, and actually I'd rather you call me tonight.", "reason": "unrecoverable_word"}

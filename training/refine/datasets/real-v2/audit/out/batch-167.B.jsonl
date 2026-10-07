@@ -1,0 +1,50 @@
+{"id": "s4-W51-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0002", "decision": "fix_clean", "clean": "We were just about to leave.", "reason": "spelling_from_raw"}
+{"id": "s4-W51-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0004", "decision": "fix_clean", "clean": "Color palette need to rethink.", "reason": "spelling_from_raw"}
+{"id": "s4-W51-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0006", "decision": "fix_clean", "clean": "No, no, no, not that.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W51-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0009", "decision": "fix_clean", "clean": "Me and Alif are gonna be late.", "reason": "unrecoverable_word"}
+{"id": "s4-W51-0010", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W51-0011", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W51-0012", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W51-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0014", "decision": "fix_clean", "clean": "What's the difference between effect and effect?", "reason": "unrecoverable_word"}
+{"id": "s4-W51-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0016", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W51-0017", "decision": "fix_clean", "clean": "The button is gray on hover.", "reason": "spelling_from_raw"}
+{"id": "s4-W51-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0020", "decision": "fix_clean", "clean": "Talk to Lu about the leaf.", "reason": "unrecoverable_word"}
+{"id": "s4-W51-0021", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W51-0022", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W51-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0025", "decision": "fix_clean", "clean": "What are you up to tonight?", "reason": "spelling_from_raw"}
+{"id": "s4-W51-0026", "decision": "fix_clean", "clean": "The viewing at the flat on Harbor Road went well, and the landlord says we can have the keys on Monday if the deposit clears.", "reason": "spelling_from_raw"}
+{"id": "s4-W51-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0028", "decision": "fix_clean", "clean": "Dear Mr Rossi, thank you for your inquiry about the lease, and I would be glad to arrange a visit this week.", "reason": "spelling_from_raw"}
+{"id": "s4-W51-0029", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W51-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0033", "decision": "fix_clean", "clean": "The practice has recognized that patients always prefer an early appointment and analyze the data before the autumn.", "reason": "spelling_from_raw"}
+{"id": "s4-W51-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0038", "decision": "fix_clean", "clean": "The client wants the color scheme changed and honestly I think it was better in gray.", "reason": "spelling_from_raw"}
+{"id": "s4-W51-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0041", "decision": "fix_clean", "clean": "But I still felt daft.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W51-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0049", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W51-0050", "decision": "accept", "reason": "ok"}

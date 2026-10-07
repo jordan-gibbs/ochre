@@ -1,0 +1,50 @@
+{"id": "s2-W11-0101", "decision": "fix_clean", "clean": "Now the doctor said everything looks good. Next checkup is in 6 months.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Now' for 'mom'"}
+{"id": "s2-W11-0102", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W11-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0104", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the pricing page confused people' and 'third' lost; list broken"}
+{"id": "s2-W11-0105", "decision": "drop", "reason": "unrecoverable_meaning", "note": "main->May, Rachel->Ratio; 'Ratio will present' not sensible"}
+{"id": "s2-W11-0106", "decision": "accept", "reason": "ok", "note": "'the date, the team' read as data team"}
+{"id": "s2-W11-0107", "decision": "drop", "reason": "unrecoverable_meaning", "note": "file path lost"}
+{"id": "s2-W11-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0110", "decision": "fix_clean", "clean": "Hey Mina, did the new Datadog monitors get deployed? I'm not seeing the latency alert on the dashboard. Last week we agreed on a threshold of 500 milliseconds for the 95th percentile. Let me know if you need help with the config.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Nina heard as Mina, not in dictionary"}
+{"id": "s2-W11-0111", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I'll paste' heard as 'you paste'"}
+{"id": "s2-W11-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0113", "decision": "fix_clean", "clean": "python manage.py migrate --state-initial", "reason": "unrecoverable_word", "rules": ["RECOVER", "R12"], "note": "raw has 'state' for 'fake'"}
+{"id": "s2-W11-0114", "decision": "fix_clean", "clean": "I need a regular expression that matches US phone numbers in a few formats that should accept numbers with parentheses, dashes, or dots, and an optional country code. Please explain each part of the expression in plain English. Also give me five test strings, some that match and some that do not.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'that should' for 'it should'"}
+{"id": "s2-W11-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0117", "decision": "drop", "reason": "unrecoverable_meaning", "note": "runbook/Aisha/Grafana clause lost"}
+{"id": "s2-W11-0118", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0122", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0124", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W11-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0127", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is only 'were started after any change.'"}
+{"id": "s2-W11-0128", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Friday fine, and sneeze' for 'finance needs'"}
+{"id": "s2-W11-0129", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0131", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W11-0132", "decision": "drop", "reason": "unrecoverable_meaning", "note": "agent heard as 'age'"}
+{"id": "s2-W11-0133", "decision": "fix_clean", "clean": "Hi Mr. Brennan, thank you for your interest in the studio apartment on Harbor Street. The rent is $1,450 per month and utilities are included. We can arrange a viewing this Saturday at 11 a.m. Please bring the photo ID and your most recent pay stub.", "reason": "guide_violation", "rules": ["R6", "RECOVER"], "note": "double period after a.m.; raw has 'the photo ID'"}
+{"id": "s2-W11-0134", "decision": "fix_clean", "clean": "Summary, the checkout page hangs when the cart contains more than 50 items. Steps to reproduce, add 51 items to the cart and click Pay Now. The spinner never stops and the network tab shows a 504 from the payment service. This started in version 2.7.0.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'payment service'"}
+{"id": "s2-W11-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0136", "decision": "fix_clean", "clean": "Accessibility issue, the modal dialogue does not trap keyboard focus. Pressing Tab moves the focus to elements behind the overlay, which is confusing for screen reader users. It also fails the WCAG requirements for focus management. Please fix this before the audit on November 20th.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'dialogue'"}
+{"id": "s2-W11-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0138", "decision": "fix_clean", "clean": "Who owns the building service now?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'building'"}
+{"id": "s2-W11-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0140", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also 'assistant theme'"}
+{"id": "s2-W11-0141", "decision": "fix_clean", "clean": "Quick update, the Stripe webhook is now live in production. Sophia tested it with a $5 charge and it came through fine.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling Sophia"}
+{"id": "s2-W11-0142", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' never said"}
+{"id": "s2-W11-0143", "decision": "fix_clean", "clean": "I'm writing a cover letter for a product manager role at a fintech startup. I have 6 years of experience in e-commerce and I led a team of 8 engineers. Please write a first draft that is confident but not arrogant. Keep it to 3 short paragraphs and include a line about why I like their mission.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'e-commerce'"}
+{"id": "s2-W11-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0145", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'there likely' -> 'they like the', permits -> 'pummet'"}
+{"id": "s2-W11-0146", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'stir medication him free'; multiple misheard words"}
+{"id": "s2-W11-0147", "decision": "fix_clean", "clean": "Translate the following paragraph into Spanish, but keep the product names in English. It's for user manual, so use a formal tone. After the translation, point out any phrases that might sound odd to a native speaker. I'll paste a paragraph in the next message.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw drops 'a' before user manual; raw has 'a paragraph'"}
+{"id": "s2-W11-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0149", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W11-0150", "decision": "fix_clean", "clean": "Thanks Alina, that fixed it.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Elena heard as Alina, not in dictionary"}

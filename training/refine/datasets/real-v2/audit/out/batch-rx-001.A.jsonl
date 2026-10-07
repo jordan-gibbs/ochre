@@ -1,0 +1,50 @@
+{"id": "s2-W1-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0095", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0126", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw has 'the chocolate answered' for 'the chatbot'; not inferable and raw's word makes no sense"}
+{"id": "s2-W1-0142", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0145", "decision": "fix_clean", "clean": "Dear DRP, could you please let me know whether the results of the blood test are ready and whether I need to fast before the next one?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'DRP'; 'Dr. Patel' not inferable"}
+{"id": "s2-W1-0183", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0207", "decision": "drop", "reason": "hallucination", "note": "Whisper appended Japanese subtitle credit"}
+{"id": "s2-W1-0411", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0434", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0438", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0466", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0500", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0110", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0071", "decision": "fix_clean", "clean": "Write an email to my landlord, and here are the points to include:\n1. The heater is broken\n2. It has been broken for nine days\n3. I would like...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends 'I would like'; 'it fixed this week' lost"}
+{"id": "s2-W4-0251", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'if er none' became 'of PR. None'"}
+{"id": "s2-W4-0289", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Priya' became 'for you' in the sign-off and 'shift' became 'ship'"}
+{"id": "s2-W4-0301", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0345", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0394", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0396", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0407", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0472", "decision": "fix_clean", "clean": "The problem happens when a customer upgrades their plan in the middle of a billing cycle. Here is the exact sequence:\n1. The customer opens the billing page and clicks upgrade\n2. The payment is processed correctly and the confirmation page appears\n3. The invoice is generated but it uses the old plan price instead of the new one\n4. The next renewal charges the customer the old price again\n5. Support has to manually issue a refund and fix the subscription record\nThis has now happened to at least 12 customers this month, so I would call it high priority, and I think the root cause is the cash plan lookup in the invoice service.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'cash. Plan lookup'; 'cached' not inferable"}
+{"id": "s2-W4-0485", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'clause says' became 'clays'; target not traceable to raw"}
+{"id": "s2-W5-0053", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0252", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0254", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0282", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0318", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0380", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for letting' dropped by recognizer: 'Thanks me crash'"}
+{"id": "s2-W5-0392", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0018", "decision": "fix_clean", "clean": "Dear Hiring Manager,\n\nI am writing to apply for the senior accountant position advertised on your website. I have eight years of experience in financial reporting, most recently at Harlow and Finch, where I led the month-end close for a team of five.\n\nIn that role, I reduced the close time from 14 days to 12 days, and I introduced a review process that cut reporting errors by about 30%. I am also a certified chartered accountant and comfortable with both SAP and Oracle.\n\nI would welcome the chance to discuss how my experience could support your team. I am available for an interview any weekday after 2 PM.\n\nYours faithfully, Michael O'Brien", "reason": "guide_violation", "rules": ["R8"], "note": "line break before the name was not dictated"}
+{"id": "s2-W6-0058", "decision": "fix_clean", "clean": "Hi Carlos,\n\nThanks for the quote. I went through it with our finance director yesterday and we have a few points. The first thing is the unit price of €42, which is higher than the €38 we paid last year. Can you explain the difference? The second is the delivery fee. You have it at €350 per shipment, but our agreement says free delivery above €5,000, and our orders are always above that. The third is that we would need payment terms of 60 days instead of 30. If you can move on those three points, I am confident we can sign by the end of the month.\n\nI am in the office until 6 PM today if you would like to talk it through.\n\nRegards, Ingrid", "reason": "guide_violation", "rules": ["R8"], "note": "line break before the name was not dictated"}
+{"id": "s2-W6-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0104", "decision": "fix_clean", "clean": "Dear Mr. Nakamura, thank you for your swift reply and for sending the revised drawings. Best, Elise", "reason": "guide_violation", "rules": ["R8"], "note": "no new paragraph/new line dictated; prose kept"}
+{"id": "s2-W6-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0152", "decision": "fix_clean", "clean": "Feedback for Quame. Strengths. He is calm under pressure and everyone trusts him in an incident. He wrote the runbook that cut our average recovery time from 40 minutes to 25. Areas to grow. He can be quiet in cross-team meetings, and he sometimes keeps problems to himself for too long. I would encourage him to ask for help earlier.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling 'Quame'"}
+{"id": "s2-W6-0157", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'asthma' became 'been', 'in' dropped, 'via' became 'by', mould/mold variant"}
+{"id": "s2-W6-0198", "decision": "fix_clean", "clean": "Hi Fatima,\n\nI wanted to let you know that I am expecting a baby. The due date is the 3rd of March, and I would like to talk about my maternity leave. I plan to start leave on the 24th of February, so about a week before, and I am hoping to take six months in total.\n\nCould you send me the leave policy and the forms I need to fill in? I would also like to understand how my pay and benefits work while I am away.\n\nI have not told the wider team yet, so please keep this between us for now.\n\nThank you, Grace", "reason": "guide_violation", "rules": ["R8"], "note": "line break before the name was not dictated"}
+{"id": "s2-W6-0206", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0254", "decision": "drop", "reason": "unrecoverable_meaning", "note": "names Moro/Laron/Ruta Rivoli plus undictated line breaks: fix exceeds 2 places"}
+{"id": "s2-W6-0266", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0267", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0273", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0277", "decision": "fix_clean", "clean": "Call with the head of procurement at Kestrel Energy. They are unhappy with the current delivery times, which average nine days, and want it under five. They have a budget of about 200,000 for next year. The decision maker is a woman called Ingrid Solber, who joins the next call. They asked for case studies from other energy companies. I promised to send two by Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling 'Solber'"}
+{"id": "s2-W6-0295", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'up to' became 'of...'; cap meaning lost"}
+{"id": "s2-W6-0310", "decision": "fix_clean", "clean": "I meant to say the budget is 20,000, not 12,000. Sorry for the typo.", "reason": "guide_violation", "rules": ["R10"], "note": "'dollars' never said; $ added"}
+{"id": "s2-W6-0319", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,50 @@
+{"id": "s4-W19-0051", "decision": "fix_clean", "clean": "Hi Maim, the headshots from Monday look great and I'll send the edited set by Thursday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw 'Maim'"}
+{"id": "s4-W19-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0053", "decision": "fix_clean", "clean": "The intern already did a sound check.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'a sound check'"}
+{"id": "s4-W19-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0057", "decision": "drop", "reason": "hallucination", "note": "trailing 'Oh.' never said"}
+{"id": "s4-W19-0058", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W19-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Bath order is' for draft order"}
+{"id": "s4-W19-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'he king wise' for picking last"}
+{"id": "s4-W19-0061", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah' never said"}
+{"id": "s4-W19-0062", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'do' lost, 'late Luke permit'"}
+{"id": "s4-W19-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0064", "decision": "fix_clean", "clean": "Can you resize the bear so that the right edge fits, 1,200 pixels wide?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'bear' for banner"}
+{"id": "s4-W19-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0066", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'we're studious' for where studio b is"}
+{"id": "s4-W19-0067", "decision": "drop", "reason": "hallucination", "note": "garbled opening and trailing 'Yeah.'"}
+{"id": "s4-W19-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0072", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W19-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'trail. A gate', 'logs', Sophia"}
+{"id": "s4-W19-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'key' for gate, 'lock' for lot, Sophia"}
+{"id": "s4-W19-0075", "decision": "accept", "reason": "ok", "note": "'shut list' read as shot list"}
+{"id": "s4-W19-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'don't you' lost, 'so we must' for let's"}
+{"id": "s4-W19-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'if you mean the saturday shift' dropped"}
+{"id": "s4-W19-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0082", "decision": "fix_clean", "clean": "Hi Dana, you know Sam, right? He's covering the radio test Friday and he's right about the schedule.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'test' for desk"}
+{"id": "s4-W19-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0085", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; also 'Dear Milan' lost, 'week' for weekend"}
+{"id": "s4-W19-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0087", "decision": "fix_clean", "clean": "Budget is $800 and the lenses alone are half of that.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R13"], "note": "raw lacks 'The'"}
+{"id": "s4-W19-0088", "decision": "accept", "reason": "ok", "note": "'You know what I mean.' accepted as filler reading"}
+{"id": "s4-W19-0089", "decision": "accept", "reason": "ok", "note": "comma splices kept as author's choice"}
+{"id": "s4-W19-0090", "decision": "fix_clean", "clean": "Action items, Deeper sends the contract by Friday, and Maeve books the room for the second week, and Anders checks the speakers before the show on the 14th.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw 'Deeper'"}
+{"id": "s4-W19-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0092", "decision": "drop", "reason": "hallucination", "note": "trailing 'but' never said"}
+{"id": "s4-W19-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0095", "decision": "accept", "reason": "ok", "note": "'Mave' -> dictionary Maeve"}
+{"id": "s4-W19-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0099", "decision": "fix_clean", "clean": "Hype notes, we leave at 6 sharp, and the right trail is the north one.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Hype' for hike"}
+{"id": "s4-W19-0100", "decision": "accept", "reason": "ok"}

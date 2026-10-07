@@ -1,0 +1,50 @@
+{"id": "s2-W1-0251", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0252", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'slash dot dot'; cd .. vs cd ../.. changes meaning"}
+{"id": "s2-W1-0253", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'blend num' for 'and um'; also babe->B unrecoverable"}
+{"id": "s2-W1-0254", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0255", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'I do want to start Fight' flips don't->do and lost 'a'"}
+{"id": "s2-W1-0256", "decision": "fix_clean", "clean": "I am trying to find out whether their office is open on public holidays, and if it is, whether I would need an appointment. I am visiting from out of town and I can only come on the Monday that is the bank holiday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Hi' heard as 'I' (stutter-like); 'your' heard as 'their'"}
+{"id": "s2-W1-0257", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0258", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0259", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0260", "decision": "fix_clean", "clean": "I'm trying to learn SQL. I keep getting confused by joins. Can you explain the difference between an inner join and a left join using a really simple example, like customers and orders, with just three rows in each table, and show me what the result looks like?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'and' after SQL not in raw"}
+{"id": "s2-W1-0261", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0262", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'because last time it did' became 'It didn't'; runbook as 'run work'"}
+{"id": "s2-W1-0263", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'So on the', 'some', 'Some' are real words where um was said"}
+{"id": "s2-W1-0264", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Stove' where 'um dont' was said; don't not inferable"}
+{"id": "s2-W1-0265", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0266", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0267", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'love' where 'uh' was said"}
+{"id": "s2-W1-0268", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0269", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0270", "decision": "drop", "reason": "non_english", "note": "raw starts 'la oh este', most of the prompt lost"}
+{"id": "s2-W1-0271", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0272", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0273", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'writing her' where 'er' was said"}
+{"id": "s2-W1-0274", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Or to me' where 'er' was said; also I'm lost"}
+{"id": "s2-W1-0275", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0276", "decision": "fix_clean", "clean": "And you ask your dad if he still has that ladder. We need it for Saturday. And if he says yes, ask if we can come get it Friday night.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'can' heard as 'And'; question form not inferable"}
+{"id": "s2-W1-0277", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated after 'So change it.'; fix would remove >5 words"}
+{"id": "s2-W1-0278", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0279", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0280", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Bum' for um; also grade/slip/quick/topic misheard"}
+{"id": "s2-W1-0281", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Bum', 'But' for um/uh; could->But; many errors"}
+{"id": "s2-W1-0282", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Some', 'No', 'You know' where hesitations were said; 'Hey all' lost"}
+{"id": "s2-W1-0283", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'on a month' for 'um a month'; 'I knee the follow up' garbled"}
+{"id": "s2-W1-0284", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Some installation' for 'um installation'"}
+{"id": "s2-W1-0285", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'In planning that', 'hasband knee', 'Stark', 'in a saca', 'What a path'"}
+{"id": "s2-W1-0286", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'then where' for 'and er'; subject line lost as 'Some cheek'"}
+{"id": "s2-W1-0287", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also several garbles"}
+{"id": "s2-W1-0288", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'where' for 'er'; treats->traces, ten->then"}
+{"id": "s2-W1-0289", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'do you?' where 'uh' was said"}
+{"id": "s2-W1-0290", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0291", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0292", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0293", "decision": "drop", "reason": "hallucination", "note": "trailing 'Ha' never said"}
+{"id": "s2-W1-0294", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Well' where 'uh' was said"}
+{"id": "s2-W1-0295", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0296", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'uh wait wait' became 'Rightway'; 'Wait' not inferable"}
+{"id": "s2-W1-0297", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0298", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'What is it?' where 'uh' was said"}
+{"id": "s2-W1-0299", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Que don't' is not a near form of kubectl"}
+{"id": "s2-W1-0300", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; 'on' for um"}

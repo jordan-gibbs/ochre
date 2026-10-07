@@ -1,0 +1,50 @@
+{"id": "s2-W1-0301", "decision": "drop", "reason": "unrecoverable_meaning", "note": "refactor/async await/callbacks all garbled ('the factor', 'a sink for weight', 'fallbacks')"}
+{"id": "s2-W1-0302", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0303", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0304", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hey Claude' dropped, loops->looped, filter->Filbert, clever->Clipper plus 'you' from uh: more than 2 places"}
+{"id": "s2-W1-0305", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "hesitations decoded as 'Love.', 'No.' (reads as a correction cue) and 'Thumb.'"}
+{"id": "s2-W1-0306", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0307", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pairs->Paris, ChatGPT->Chet, 'rewrite the handout at' garbled"}
+{"id": "s2-W1-0308", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for a general' dropped; 'too technical audience' no longer sensible"}
+{"id": "s2-W1-0309", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0310", "decision": "fix_clean", "clean": "Heads up: anyone gets a message from a customer asking you to translate something, just forward it to the localization channel, don't try to do it yourself, and please tag me so I can track how many we get a week.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'if'"}
+{"id": "s2-W1-0311", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Ahmed, could you tell' -> 'I on that. But you told'; extension->exemption"}
+{"id": "s2-W1-0312", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bio->file, I'm->in, meetups->lead up, boring->foreign: too many places"}
+{"id": "s2-W1-0313", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0314", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0315", "decision": "fix_clean", "clean": "Can you write a limerick about Monday mornings, and make it clean because it's for my kids' class?", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "raw has plural possessive kids'; singular kid's is not inferable"}
+{"id": "s2-W1-0316", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'copy me, and mark it as high importance' lost; 'to our' -> 'The park'"}
+{"id": "s2-W1-0317", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh decoded as the name 'Billy' mid-question"}
+{"id": "s2-W1-0318", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0319", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0320", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um the' decoded as 'Community' ('Community school' reads as content)"}
+{"id": "s2-W1-0321", "decision": "drop", "reason": "garbage", "note": "raw is unintelligible ('Oh, there is Cid Am the factory city. Ni en iphone.')"}
+{"id": "s2-W1-0322", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0323", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh decoded as 'her' ('talking points for her?'); also 'avoid saying' -> 'should have would say', HR -> air"}
+{"id": "s2-W1-0324", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I want' dropped ('You to extract' broken), plus I'm and summarise from raw: more than 2 places"}
+{"id": "s2-W1-0325", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hi everyone' -> 'Bamba', 'I missed' and 'to present a topic let me know how many minutes you need' lost"}
+{"id": "s2-W1-0326", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ignore->nor twice, 'one line fix' -> 'one wine sex'"}
+{"id": "s2-W1-0327", "decision": "drop", "reason": "unrecoverable_meaning", "note": "redirect->rex, why->what, 'might' added, 'Up' from uh, many garbled places"}
+{"id": "s2-W1-0328", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'stronger first line' -> 'spawn reverse line', favor->savor, weekend->week and; many places"}
+{"id": "s2-W1-0329", "decision": "drop", "reason": "unrecoverable_meaning", "note": "SVG/PNG correction garbled ('A C P and No just as P'), 'today and the agency keeps asking' garbled"}
+{"id": "s2-W1-0330", "decision": "fix_clean", "clean": "Transcript summary from the retro. Sam said that we should stop translating every doc into five languages because nobody reads them. Lisa disagreed and said the German and French ones get real traffic. And the director said to respond with a proposal by next week that cuts the list to the top two languages and shows the numbers to back it up.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken 'and' (in raw) was dropped from clean; 'then' is the stutter artefact and stays out"}
+{"id": "s2-W1-0331", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0332", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'find' decoded as 'I'; command not recoverable from raw"}
+{"id": "s2-W1-0333", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0334", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0335", "decision": "drop", "reason": "garbage", "note": "raw is unrelated to the spoken command"}
+{"id": "s2-W1-0336", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0337", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W1-0338", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pip' dropped and '-r' -> 'dash bar'; command not recoverable"}
+{"id": "s2-W1-0339", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0340", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0341", "decision": "fix_clean", "clean": "Could you ask the team to rewrite this comment? It makes no sense.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R11"], "note": "'todo' decoded as 'Could you'; raw is already a clean sentence"}
+{"id": "s2-W1-0342", "decision": "fix_clean", "clean": "Note: please translate the error strings into Spanish.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'before the release'"}
+{"id": "s2-W1-0343", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0344", "decision": "fix_clean", "clean": "Summarise the root cause in one sentence and link the postmortem.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Summarise'"}
+{"id": "s2-W1-0345", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "er decoded as 'Our' ('Our reporter says'); phrase -> 'Praise it'"}
+{"id": "s2-W1-0346", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0347", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0348", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0349", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0350", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um decoded as the real word 'on' ('Email Sarah on and ask')"}

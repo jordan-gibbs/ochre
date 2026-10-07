@@ -1,0 +1,50 @@
+{"id": "s4-W61-0091", "decision": "fix_clean", "clean": "Miners for tomorrow, pick up the car from the dealership, return the library book, and email Julie about...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'Miners' and 'Julie'"}
+{"id": "s4-W61-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can you' heard as 'and you' twice; request not recoverable"}
+{"id": "s4-W61-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0094", "decision": "drop", "reason": "hallucination", "note": "raw appends 'you're not going to be able to', never said"}
+{"id": "s4-W61-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hadn't read' became 'had right'"}
+{"id": "s4-W61-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'legacy API' became 'lady C M'"}
+{"id": "s4-W61-0099", "decision": "fix_clean", "clean": "The vendor sent over the revised contract. The term is now 36 months instead of 24, and the early termination fees...", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R4"], "note": "raw has 'fees' with no 'is'"}
+{"id": "s4-W61-0100", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'gate' became 'K', '22B' unclear"}
+{"id": "s4-W62-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0010", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W62-0011", "decision": "fix_clean", "clean": "The second time that passed.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'that'"}
+{"id": "s4-W62-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0015", "decision": "fix_clean", "clean": "Ping jada.r@example.com.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'at jada' lost; raw has 'Jada dot R at example.com'"}
+{"id": "s4-W62-0016", "decision": "fix_clean", "clean": "I'm 100% sure he said Friday.", "reason": "guide_violation", "rules": ["R11"], "note": "raw already clean; 'a' not in raw"}
+{"id": "s4-W62-0017", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W62-0018", "decision": "fix_clean", "clean": "The range is 10 to 15 kilograms.", "reason": "guide_violation", "rules": ["R11", "R10"], "note": "raw already clean"}
+{"id": "s4-W62-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0020", "decision": "drop", "reason": "hallucination", "note": "garbled flight number plus 'Yeah.' never said"}
+{"id": "s4-W62-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0024", "decision": "drop", "reason": "unrecoverable_meaning", "note": "kubectl command garbled"}
+{"id": "s4-W62-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0028", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Okay.'"}
+{"id": "s4-W62-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Kai' heard as 'I' and 'build locked' as 'bill block'"}
+{"id": "s4-W62-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0036", "decision": "fix_clean", "clean": "Give me the loot table where the common drop rate is 60%, rare is 30%, and legendary is 10%.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R11"], "note": "raw has 'the'"}
+{"id": "s4-W62-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'oneline' and '-n' garbled"}
+{"id": "s4-W62-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0040", "decision": "fix_clean", "clean": "Second build failed, so we reran the first one twice.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lacks 'The'"}

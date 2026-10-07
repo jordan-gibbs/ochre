@@ -1,0 +1,45 @@
+{"id": "s4-W22-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0005", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hi Arjun' heard as 'I are Jun'; not inferable, result not a sensible greeting"], "auditors": ["A", "B"]}
+{"id": "s4-W22-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0012", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw dropped 'the' and has 'You' for 'we'"], "auditors": ["A", "B"], "clean": "Migration is basically done, you just need to flip the flag."}
+{"id": "s4-W22-0013", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Dear Reza' heard as 'There is a', 'east wing' as 'East Wayne'"], "auditors": ["A", "B"]}
+{"id": "s4-W22-0014", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling 'Rizar'"], "auditors": ["A", "B"], "clean": "Rizar, the east wing booking is confirmed, I mean it, no more changes please."}
+{"id": "s4-W22-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0017", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'candidate' heard as 'Kennedy'"], "auditors": ["A", "B"], "clean": "Let's go through the Kennedy pipeline for the design role."}
+{"id": "s4-W22-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0030", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Okay.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W22-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0033", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W22-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0040", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'push service' heard as 'poor surface'"], "auditors": ["A", "B"], "clean": "I don't know why the poor surface is flaky, you know how it gets on Friday."}
+{"id": "s4-W22-0041", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'trip lol' merged into 'triples'"], "auditors": ["A", "B"], "clean": "Jada, I'm so excited for the triples, we're gonna have so much fun."}
+{"id": "s4-W22-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W22-0046", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["raw is only 'Hi Tamar. Yeah.'; content lost and 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W22-0048", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling 'Argen'"], "auditors": ["A", "B"], "clean": "Argen, the app basically works offline now, the only gap is photo upload."}
+{"id": "s4-W22-0049", "decision": "fix_clean", "reasons": ["unrecoverable_word", "number_value"], "notes": ["raw has 'opened'"], "auditors": ["A", "B"], "clean": "The library closes at 8 on weekdays and it opened at 9."}
+{"id": "s4-W22-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

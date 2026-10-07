@@ -1,0 +1,7 @@
+{"id": "s4-W36-0053", "decision": "fix_clean", "clean": "Steps to reproduce:\n1. Open the schedule page\n2. Click export\n3. Observe the crash\nActual: Page freezes after about 30 seconds and the browser shows an error", "reason": "dropped_by_recognizer", "note": "sided with A: raw dropped \"the\" before page; A removes it"}
+{"id": "s4-W36-0059", "decision": "fix_clean", "clean": "Hi Elegandro,\n\nAttached is the revised floor plan.\nLet me know what you think.", "reason": "unrecoverable_word", "note": "sided with A: Alejandro not in dictionary; use raw spelling Elegandro"}
+{"id": "s4-W36-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: Allway and sign-off \"in all\" unrecoverable; fixed text not sensible"}
+{"id": "s4-W36-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: Lar/C/time's our/stuff garbled: over the limit for 45 words"}
+{"id": "s4-W36-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: sign-off Femi->feminine, Dalia->Daily: fixed text not sensible"}
+{"id": "s4-W36-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: tulips heard as \"twelve\": item not sensible"}
+{"id": "s4-W36-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: forest/AM lost/Daily/\"Is that two\": too many places"}

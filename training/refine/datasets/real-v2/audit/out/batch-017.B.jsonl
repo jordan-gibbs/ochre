@@ -1,0 +1,50 @@
+{"id": "s2-W2-0301", "decision": "drop", "reason": "unrecoverable_meaning", "note": "as a/torquitoes/Cadden/key is lost"}
+{"id": "s2-W2-0302", "decision": "fix_clean", "clean": "Quick question, are you free tomorrow? I was thinking we could grab lunch at that new ramen place. Or we could do tacos if you prefer. Actually let us just do ramen.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "Hey and final clause lost in raw"}
+{"id": "s2-W2-0303", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W2-0304", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0305", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0306", "decision": "drop", "reason": "unrecoverable_meaning", "note": "volunteer work, 3 years, to cut lost"}
+{"id": "s2-W2-0307", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Priya sentence lost"}
+{"id": "s2-W2-0308", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W2-0309", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "er heard as 'or'; the lost"}
+{"id": "s2-W2-0310", "decision": "fix_clean", "clean": "Dear Mr. Rodriguez, I am pleased to inform you that your application has been accepted. Orientation will be held on Tuesday the 4th at 9:00 AM in the student center. Please bring a photo ID and your signed enrollment form. We look forward to welcoming you.", "reason": "guide_violation", "rules": ["R6"], "note": "ID casing"}
+{"id": "s2-W2-0311", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several garbled spots"}
+{"id": "s2-W2-0312", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0313", "decision": "fix_clean", "clean": "I will check the email and text you back in a minute. Just do not leave without me.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "okay lost"}
+{"id": "s2-W2-0314", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0315", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W2-0316", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0317", "decision": "fix_clean", "clean": "Okay, let me explain why I changed the query. The old version scanned the whole table, which was fine and we had 10,000 rows, but we now have over 2 million. The new version uses the index on created at, so it only touches the rows in the date range. I saw the response time drop from about 4 seconds to about 200 milliseconds.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'and' not 'when'"}
+{"id": "s2-W2-0318", "decision": "fix_clean", "clean": "Ok I talked to the landlord. He says we can move on the 15th, because the painters are still there. It gives us two extra weeks to pack, which is not bad. I still have to tell the movers.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'in' lost; raw 'It gives'"}
+{"id": "s2-W2-0319", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0320", "decision": "drop", "reason": "unrecoverable_meaning", "note": "email address unrecoverable"}
+{"id": "s2-W2-0321", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled; clean drops spoken ssh part"}
+{"id": "s2-W2-0322", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many words lost"}
+{"id": "s2-W2-0323", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W2-0324", "decision": "drop", "reason": "unrecoverable_meaning", "note": "adage/root calls/deploy boys/Zone"}
+{"id": "s2-W2-0325", "decision": "fix_clean", "clean": "The SDK exposes a single client class. Create an instance with your API key and optionally a base URL. All methods return promises, and errors are thrown as typed exceptions. Do not commit your API key to source control.", "reason": "guide_violation", "rules": ["R6"], "note": "SDK casing"}
+{"id": "s2-W2-0326", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W2-0327", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um it heard as Amit"}
+{"id": "s2-W2-0328", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0329", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0330", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value four lost"}
+{"id": "s2-W2-0331", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dear, name, model lost"}
+{"id": "s2-W2-0332", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W2-0333", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recap/short piece garbled"}
+{"id": "s2-W2-0334", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0335", "decision": "drop", "reason": "unrecoverable_meaning", "note": "could, finance, churn, I want lost"}
+{"id": "s2-W2-0336", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh heard as 'and ask'"}
+{"id": "s2-W2-0337", "decision": "fix_clean", "clean": "To run the tests locally, install the dependencies first. Then start the test database with Docker, and run the test command. The suite takes about three minutes on a modern laptop. If a test fails, rerun it alone with the verbose flag.", "reason": "trailing_off", "rules": ["RECOVER"], "note": "tail lost in raw"}
+{"id": "s2-W2-0338", "decision": "fix_clean", "clean": "Hi Tom, sorry for the confusion on the invoice. I double checked, and the correct amount is $850, not $815. I have attached the corrected version. Let me know.", "reason": "trailing_off", "rules": ["RECOVER"], "note": "tail lost in raw"}
+{"id": "s2-W2-0339", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Love x4; Priya lost"}
+{"id": "s2-W2-0340", "decision": "fix_clean", "clean": "The new intern starts Monday. Can someone set up her laptop and add her to the right channels? Her name is Anna and she is joining the data team. She will be sitting next to me, so I can show her round.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw Anna x2; round"}
+{"id": "s2-W2-0341", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "But I'm dead"}
+{"id": "s2-W2-0342", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0343", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A low banana for Hello Dana"}
+{"id": "s2-W2-0344", "decision": "drop", "reason": "unrecoverable_meaning", "note": "props/babel/day to garbled"}
+{"id": "s2-W2-0345", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Well; could we lost; garbled cue"}
+{"id": "s2-W2-0346", "decision": "drop", "reason": "script_defect", "note": "clean omits said 'do not delete anything'; raw garbled"}
+{"id": "s2-W2-0347", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value May lost"}
+{"id": "s2-W2-0348", "decision": "drop", "reason": "unrecoverable_meaning", "note": "locked my keys lost"}
+{"id": "s2-W2-0349", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Love/low; source lost"}
+{"id": "s2-W2-0350", "decision": "fix_clean", "clean": "I need a volunteer for the on call rotation next week. It is only two nights, and you get a count day afterwards. I was going to ask Dave but he is on vacation. Any takers? Otherwise I will just pick someone at random.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'count day'"}

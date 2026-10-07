@@ -1,0 +1,316 @@
+{
+  "name": "transcribe",
+  "phrase": "Transcribe",
+  "pronunciation": "/trænˈskraɪb/ (tran-SCRIBE)",
+  "positive_variants": [
+    "transcribe",
+    "tran-scribe",
+    "trans-cribe",
+    "trans scribe"
+  ],
+  "created": "2026-10-04 15:59:34",
+  "format": "onnx classifier head",
+  "input": {
+    "name": "embeddings",
+    "shape": [
+      "batch",
+      16,
+      96
+    ],
+    "dtype": "float32"
+  },
+  "output": {
+    "name": "score",
+    "shape": [
+      "batch",
+      1
+    ],
+    "range": "sigmoid probability [0,1]"
+  },
+  "frontend": {
+    "type": "openWakeWord melspectrogram.onnx + embedding_model.onnx (frozen)",
+    "audio": "16 kHz mono, int16-scale samples (as openwhisprflow/wake/frontend.py feeds them)",
+    "frame_samples": 1280,
+    "embedding_frames": 16,
+    "embedding_dim": 96,
+    "mel_transform": "x/10 + 2"
+  },
+  "architecture": "livekit-wakeword conv_attention (medium)",
+  "recommended": {
+    "threshold": 0.45,
+    "consecutive_frames": 2,
+    "cooldown_s": 1.5
+  },
+  "stats": {
+    "heldout_synthetic_recall": 0.879,
+    "real_recording_recall": null,
+    "near_miss_false_accept_rate": 0.005,
+    "fpph_validation_stream_gate": 0.374,
+    "validation_hours": 10.7,
+    "n_heldout_positive": 1000,
+    "n_heldout_near_miss": 1000,
+    "real_positive_recordings": 0,
+    "heldout_prefix_recall": 0.87125,
+    "prefix_near_miss_false_accept_rate": 0.01375,
+    "runtime_check": {
+      "via": "openwhisprflow.wake.detector.WakeDetector (2 frames, 1.5 s cooldown), streamed 80 ms frames, random level -35..-18 dBFS, SNR 10-30 dB white noise",
+      "threshold": 0.45,
+      "heldout_positive_clips_detected": 0.95,
+      "heldout_prefix_clips_detected": 0.9233,
+      "heldout_near_miss_clips_fired": 0.03,
+      "heldout_prefix_near_miss_clips_fired": 0.03,
+      "by_category": {
+        "after_prefix_alone": {
+          "n": 28,
+          "fired": 1.0
+        },
+        "after_prefix_with_control_word": {
+          "n": 53,
+          "fired": 0.9057
+        },
+        "after_prefix_with_speech_after": {
+          "n": 219,
+          "fired": 0.9178
+        },
+        "alone": {
+          "n": 111,
+          "fired": 0.991
+        },
+        "near_miss": {
+          "n": 300,
+          "fired": 0.03
+        },
+        "near_miss_after_prefix": {
+          "n": 300,
+          "fired": 0.03
+        },
+        "with_control_word": {
+          "n": 59,
+          "fired": 0.9322
+        },
+        "with_speech_after": {
+          "n": 130,
+          "fired": 0.9231
+        }
+      },
+      "n_per_split": 300
+    }
+  },
+  "training": {
+    "tts": "Piper VITS en-us-libritts-high, 904 speakers, SLERP pairs; test split = held-out speakers",
+    "negatives": "near-miss + CMUdict phonetic neighbours + commands, MUSAN noise, ACAV100M features (acav100m_partial_16bit.npy)",
+    "prefixes": [
+      "OK",
+      "and that's it",
+      "anyway",
+      "best regards",
+      "hey",
+      "hi",
+      "i'll send it later today",
+      "let me know what you think",
+      "looks great",
+      "okay",
+      "see you tomorrow",
+      "so",
+      "sounds good to me",
+      "talk soon",
+      "thanks so much",
+      "that's all",
+      "the meeting is at three",
+      "um"
+    ],
+    "train_seconds": 990,
+    "pipeline": "training/wakeword/pipeline.py",
+    "compute": {
+      "gpu": "RTX 5070 Ti",
+      "tts_s": 830,
+      "augment_features_s": 605,
+      "train_s": 990,
+      "export_eval_s": 45,
+      "total_s": 2520
+    },
+    "clips": {
+      "positive_train": 8000,
+      "positive_test": 1000,
+      "negative_train": 10000,
+      "negative_test": 1000,
+      "prefix_positive_train": 6000,
+      "prefix_positive_test": 800,
+      "prefix_negative_train": 5000,
+      "prefix_negative_test": 800
+    },
+    "steps": 30000
+  },
+  "threshold_table": [
+    {
+      "threshold": 0.3,
+      "recall_synth_heldout": 0.902,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.9025,
+      "prefix_near_miss_false_accept": 0.015,
+      "near_miss_false_accept": 0.005,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.9348803872482315,
+      "fpph_stream_single_frame": 1.4023205808723473
+    },
+    {
+      "threshold": 0.35,
+      "recall_synth_heldout": 0.894,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.895,
+      "prefix_near_miss_false_accept": 0.015,
+      "near_miss_false_accept": 0.005,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.8413923485234084,
+      "fpph_stream_single_frame": 0.9348803872482315
+    },
+    {
+      "threshold": 0.4,
+      "recall_synth_heldout": 0.885,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.8825,
+      "prefix_near_miss_false_accept": 0.015,
+      "near_miss_false_accept": 0.005,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.6544162710737621,
+      "fpph_stream_single_frame": 0.7479043097985852
+    },
+    {
+      "threshold": 0.45,
+      "recall_synth_heldout": 0.879,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.87125,
+      "prefix_near_miss_false_accept": 0.01375,
+      "near_miss_false_accept": 0.005,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.3739521548992926,
+      "fpph_stream_single_frame": 0.46744019362411576
+    },
+    {
+      "threshold": 0.5,
+      "recall_synth_heldout": 0.869,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.865,
+      "prefix_near_miss_false_accept": 0.01375,
+      "near_miss_false_accept": 0.003,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.2804641161744695,
+      "fpph_stream_single_frame": 0.46744019362411576
+    },
+    {
+      "threshold": 0.55,
+      "recall_synth_heldout": 0.855,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.8575,
+      "prefix_near_miss_false_accept": 0.01125,
+      "near_miss_false_accept": 0.003,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.2804641161744695,
+      "fpph_stream_single_frame": 0.46744019362411576
+    },
+    {
+      "threshold": 0.6,
+      "recall_synth_heldout": 0.844,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.84875,
+      "prefix_near_miss_false_accept": 0.01125,
+      "near_miss_false_accept": 0.002,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.1869760774496463,
+      "fpph_stream_single_frame": 0.1869760774496463
+    },
+    {
+      "threshold": 0.65,
+      "recall_synth_heldout": 0.834,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.83875,
+      "prefix_near_miss_false_accept": 0.00875,
+      "near_miss_false_accept": 0.002,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.1869760774496463,
+      "fpph_stream_single_frame": 0.1869760774496463
+    },
+    {
+      "threshold": 0.7,
+      "recall_synth_heldout": 0.813,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.8275,
+      "prefix_near_miss_false_accept": 0.00625,
+      "near_miss_false_accept": 0.002,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.1869760774496463,
+      "fpph_stream_single_frame": 0.1869760774496463
+    },
+    {
+      "threshold": 0.75,
+      "recall_synth_heldout": 0.791,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.80875,
+      "prefix_near_miss_false_accept": 0.00625,
+      "near_miss_false_accept": 0.002,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.1869760774496463,
+      "fpph_stream_single_frame": 0.1869760774496463
+    },
+    {
+      "threshold": 0.8,
+      "recall_synth_heldout": 0.764,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.78125,
+      "prefix_near_miss_false_accept": 0.00625,
+      "near_miss_false_accept": 0.002,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.1869760774496463,
+      "fpph_stream_single_frame": 0.1869760774496463
+    },
+    {
+      "threshold": 0.85,
+      "recall_synth_heldout": 0.724,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.72375,
+      "prefix_near_miss_false_accept": 0.005,
+      "near_miss_false_accept": 0.002,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.09348803872482316,
+      "fpph_stream_single_frame": 0.1869760774496463
+    },
+    {
+      "threshold": 0.9,
+      "recall_synth_heldout": 0.647,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.62875,
+      "prefix_near_miss_false_accept": 0.00375,
+      "near_miss_false_accept": 0.001,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.09348803872482316,
+      "fpph_stream_single_frame": 0.09348803872482316
+    },
+    {
+      "threshold": 0.95,
+      "recall_synth_heldout": 0.323,
+      "recall_real": null,
+      "recall_prefix_heldout": 0.23,
+      "prefix_near_miss_false_accept": 0.0,
+      "near_miss_false_accept": 0.001,
+      "noise_false_accept": 0.0,
+      "room_false_accept": null,
+      "fpph_stream_gate": 0.0,
+      "fpph_stream_single_frame": 0.0
+    }
+  ],
+  "sha256": "b941dadad7f36f5b001378e65f59c527f6c69addb357dd099f3a320a1ba5ba37",
+  "bytes": 870323
+}

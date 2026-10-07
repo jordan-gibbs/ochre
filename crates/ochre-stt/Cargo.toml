@@ -1,0 +1,38 @@
+[package]
+name = "ochre-stt"
+version = "0.1.0"
+edition = "2024"
+description = "Local speech-to-text engines for Ochre (Parakeet via ONNX Runtime, Whisper via whisper.cpp)"
+
+[features]
+default = []
+# ONNX Runtime execution providers. CPU is always available and always the fallback.
+cuda = ["ort/cuda"]
+directml = ["ort/directml"]
+coreml = ["ort/coreml"]
+# whisper.cpp through whisper-rs (needs CMake + a C/C++ toolchain at build time).
+whisper = ["dep:whisper-rs"]
+whisper-cuda = ["whisper", "whisper-rs/cuda"]
+whisper-metal = ["whisper", "whisper-rs/metal"]
+whisper-vulkan = ["whisper", "whisper-rs/vulkan"]
+
+[dependencies]
+ochre-core = { path = "../ochre-core" }
+ochre-models = { path = "../ochre-models" }
+ort = { version = "=2.0.0-rc.13", default-features = false, features = ["std", "download-binaries", "copy-dylibs", "api-24", "tls-rustls", "tracing"] }
+realfft = "3"
+tracing = "0.1"
+whisper-rs = { version = "0.16", optional = true }
+num_cpus = "1.17.0"
+
+[dev-dependencies]
+hound = "3.5"
+ochre-audio = { path = "../ochre-audio" }
+serde_json = "1"
+tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_System_Threading"] }
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"

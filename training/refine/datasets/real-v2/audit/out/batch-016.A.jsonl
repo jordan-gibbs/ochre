@@ -1,0 +1,50 @@
+{"id": "s2-W2-0251", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'eight hours' lost; raw ends 'no wait for it'"}
+{"id": "s2-W2-0252", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dear'->'Here', 'refund of'->'brief out of', amounts garbled; >2 places"}
+{"id": "s2-W2-0253", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'It works'->'at work', 'is'->'was', 'sorry'->'Sari'; physical-device sentence meaning lost"}
+{"id": "s2-W2-0254", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'is'->'The', 'to' dropped before learn, raw 'travelling' vs clean 'traveling'; >2 places"}
+{"id": "s2-W2-0255", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0256", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a' dropped twice, 'read'->'re', 'End with a toast to'->'in with the toast of'; >2 places"}
+{"id": "s2-W2-0257", "decision": "drop", "reason": "unrecoverable_meaning", "note": "attendees Priya and Omar lost ('For you. On me'), vendor->venture"}
+{"id": "s2-W2-0258", "decision": "fix_clean", "clean": "Hey, change of plans. The restaurant had a pipe burst so they are closed tonight. I found another place called the Olive Branch that has a table for four at 7:30, if that works for everyone, otherwise we can just do pizza at my place. Let me know in the next hour so I can book.", "reason": "guide_violation", "rules": ["R2"], "note": "'I mean' is the trailing cue of 'seven, no, seven thirty I mean'; drop it"}
+{"id": "s2-W2-0259", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw heavily garbled: admin, CSV, expected order lost"}
+{"id": "s2-W2-0260", "decision": "fix_clean", "clean": "The hiring committee, I am excited to apply for the senior designer position posted on your careers page. Over the past seven years, I have led design for mobile products at two startups. I would welcome the chance to discuss how my experience could help your team. Thank you for your consideration.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'The Hiring Committee'; 'Dear' not inferable"}
+{"id": "s2-W2-0261", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um a'->'our' (our required key), 'uh is'->'It is'; also 'that'->'but'"}
+{"id": "s2-W2-0262", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to rotate your API keys without downtime first create' lost"}
+{"id": "s2-W2-0263", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh the the'->'And then the', 'uh to'->'That change it'"}
+{"id": "s2-W2-0264", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um'->'on' (my team on to request, and on The cost); phone number also lost a 555"}
+{"id": "s2-W2-0265", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ideas uh for um' -> 'I T is four'; hardware store / need garbled"}
+{"id": "s2-W2-0266", "decision": "accept", "reason": "ok", "note": "'and Python' -> in Python inferable; scratch that retracts the abandoned 'also'"}
+{"id": "s2-W2-0267", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'let him in' -> 'let him off', a different real meaning"}
+{"id": "s2-W2-0268", "decision": "accept", "reason": "ok", "note": "'The Priya' is function-word residue of uh; 'action items' was spoken"}
+{"id": "s2-W2-0269", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and it' -> 'Handing'; result does not read as written text"}
+{"id": "s2-W2-0270", "decision": "fix_clean", "clean": "The best budget laptop for college students under $600 with at least 16 GB of RAM", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'What is' lost (raw 'Well, the'); correction values still in order"}
+{"id": "s2-W2-0271", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0272", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'Dom' (reads as a name), 'um' -> 'Some', 'hmm' -> 'Peltum'"}
+{"id": "s2-W2-0273", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'is aware' -> 'So where?', 'stay offline' -> 'state off why', times garbled"}
+{"id": "s2-W2-0274", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'make up um for it' -> 'To make up? I'm for it.' reads as content"}
+{"id": "s2-W2-0275", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'than um' -> 'of that', 'uh' -> 'Again, we could...' reads as content"}
+{"id": "s2-W2-0276", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening 'The configuration file supports three log levels' lost"}
+{"id": "s2-W2-0277", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'so user prefs is fine' lost; 'pick one' no longer has two options"}
+{"id": "s2-W2-0278", "decision": "accept", "reason": "ok", "note": "'keep you ... the loop' idiom makes 'in' inferable; 'of'/'Yeah' are hesitation residue"}
+{"id": "s2-W2-0279", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'end uh with' -> 'end, though, with' reads as content"}
+{"id": "s2-W2-0280", "decision": "accept", "reason": "ok", "note": "'Ridd' -> read and 'Maine' -> Main are near forms"}
+{"id": "s2-W2-0281", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected month 'May' -> 'me', 'took down' -> 'took out in'"}
+{"id": "s2-W2-0282", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hey, can you' -> 'A. And you'; corrected email 'When you ta I.' unrecoverable"}
+{"id": "s2-W2-0283", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0284", "decision": "fix_clean", "clean": "Let me rephrase that, I do not think the design is bad. I think it just needs a bit more contrast than the header. And the buttons feel a little small for mobile. Otherwise it looks great.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'contrast than the header'; 'in' not inferable"}
+{"id": "s2-W2-0285", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pretend you are a career coach' lost, 'to data'->'today', 'job'->'jaw'"}
+{"id": "s2-W2-0286", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'fit' lost, lamp->layup, corrected value nine lost"}
+{"id": "s2-W2-0287", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I can not tell you what it is though' -> 'I can nuttowel. You want for this one'"}
+{"id": "s2-W2-0288", "decision": "fix_clean", "clean": "When the user pastes a link into the editor, it does not get auto-linked. This works in Chrome but not in Firefox. I test it on Firefox 121 and it still fails. The paste event fires, but the clipboard data is empty.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw 'I test it on' (real words); keep raw's 'auto-linked'"}
+{"id": "s2-W2-0289", "decision": "accept", "reason": "ok", "note": "collapsed 'her her' still readable"}
+{"id": "s2-W2-0290", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'it feels fresher, but' lost, 'with marketing'->'this market and then'"}
+{"id": "s2-W2-0291", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'git log --oneline -n' -> 'Get both dash dash one in dash in'"}
+{"id": "s2-W2-0292", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'or rather ten books' -> 'Or were other ten votes', 'in the app' -> 'Oh any app'"}
+{"id": "s2-W2-0293", "decision": "fix_clean", "clean": "To enable two-factor authentication, open your account settings. Select security and then choose add a method. You can use an authenticator app or a hardware key. We strongly recommend saving the backup codes in a password manager.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'two-factor'"}
+{"id": "s2-W2-0294", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected addressee 'Priya' lost; 'own'->'are on'"}
+{"id": "s2-W2-0295", "decision": "accept", "reason": "ok", "note": "'teen' -> team inferable in an expense-report email; 'Huh?' interjection"}
+{"id": "s2-W2-0296", "decision": "fix_clean", "clean": "I think I left my umbrella at your place. It is the black one with the metal handle. No rush, I just want to check before I buy a new one. Let me know if you see it.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw 'I just want to check'"}
+{"id": "s2-W2-0297", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the dictation lost (raw_too_short)"}
+{"id": "s2-W2-0298", "decision": "accept", "reason": "ok", "note": "'he see'/'lugs' recoverable as you see/logs in a code comment"}
+{"id": "s2-W2-0299", "decision": "fix_clean", "clean": "I would like to move our one on one. Can we do Thursday at 11 instead of Wednesday at 10, because I have a dentist appointment? If that does not work, I'm flexible on Friday morning.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has contraction 'I'm'"}
+{"id": "s2-W2-0300", "decision": "accept", "reason": "ok"}

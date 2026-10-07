@@ -1,0 +1,43 @@
+{"id": "s2-W11-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0055", "decision": "fix_clean", "reasons": ["trailing_off", "dropped_by_recognizer"], "notes": ["raw lost 'take a look when you get a chance'", "last sentence lost"], "auditors": ["A", "B"], "clean": "The Figma file is updated and Tomas left comments on the onboarding flow."}
+{"id": "s2-W11-0056", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost 'is ready for comments and I'd love feedback'", "middle sentence lost, fragments"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0059", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hey' heard as 'eight', 'pancakes' as 'paint takes'", "hey->eight, pancakes->paint takes"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0062", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'ran'->'we're at', Elena->Alena, a->the plus 'a.m..' in clean; more than 2 places", "ran->we're at, at/a lost, Alena"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0063", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0064", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw lost '15' and has 'that' for 'who'", "15 lost; who->that"], "auditors": ["A", "B"], "clean": "Compare the iPhone and the Pixel 8 for someone that mostly takes photos of their kids. I care about low light performance and battery life. Budget is around $800. Give me a clear recommendation at the end, not just a list of specs."}
+{"id": "s2-W11-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0066", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'launched'", "launched in raw"], "auditors": ["A", "B"], "clean": "Roadmap for the second half. In Q3 we focus on stability and performance, including the database migration. In Q4 we launched the new mobile app and the partner program. Hiring needs are two backend engineers and one designer. Budget approval is expected by the end of August."}
+{"id": "s2-W11-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0069", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["passed->'we've asked', outdated->'updated', Kwame->'Queen'", "passed, outdated, Kwame all garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0072", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling", "name from raw"], "auditors": ["A", "B"], "clean": "Call Dr. O'Kaffa on Monday morning."}
+{"id": "s2-W11-0073", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'at my place'->'at night place', 'Zadie'->'New Zealand'", "my place, Zadie Smith, tense"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0074", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0078", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0080", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0081", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Okonkwo->Oconquo and 'order the cabinets'->'order of the countenance'", "cabinets->countenance, name, garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0082", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw name 'Lindfist'; also removed doubled period after p.m.", "name from raw; double period"], "auditors": ["A", "B"], "clean": "Dear Mr. Lindfist, I'm writing to confirm our appointment on Wednesday, October 14th at 3:30 p.m. Please let me know if you need to reschedule."}
+{"id": "s2-W11-0084", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name from raw", "name from raw"], "auditors": ["A", "B"], "clean": "Hey Meyer, I found your sunglasses in my car. I can drop them off at your office tomorrow if you're around. Otherwise I'll leave them with the front desk at the gym. Just tell me which one works better for you."}
+{"id": "s2-W11-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0087", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["a.m.->'again', Postgres->'postcards', I'll->'you'll'", "a.m., Postgres, I'll all garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0088", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0089", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0091", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'open invoice number 10482' garbled", "invoice number value and words garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0093", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0097", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'You'll'", "I'll heard as You'll"], "auditors": ["A", "B"], "clean": "You'll be there in 20 minutes."}
+{"id": "s2-W11-0098", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'API key'->'appeal, i.e.', 'status quo', 'reheader'", "API key, status code, retry header garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0100", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

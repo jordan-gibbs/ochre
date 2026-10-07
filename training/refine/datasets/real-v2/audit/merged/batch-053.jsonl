@@ -1,0 +1,44 @@
+{"id": "s2-W6-0101", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0102", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'next' misheard as 'Mixed'; not inferable", "'Next' heard as 'Mixed'"], "auditors": ["A", "B"], "clean": "Mixed review in January."}
+{"id": "s2-W6-0103", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' heard as 'No' (changes meaning) plus trailing 'are'", "'No' and trailing 'are' from uh/noise"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0105", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never said", "trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0106", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0107", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spells Dimitri", "name spelling from raw"], "auditors": ["A", "B"], "clean": "Hi Dimitri, attached is the invoice for September. The total is $4,210, net 30."}
+{"id": "s2-W6-0108", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0109", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never said", "trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0110", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' heard as 'the year'; also name Okoye -> Akoi", "'the year' for 'uh the'; also Akoi"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0111", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["final 'um' heard as 'And I'm'", "'And I'm' before name heard for um"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0112", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["monolith->model, goals->bowls, 'a month' lost, 'head' inserted", "model/bowls/head/month lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0114", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'enrollment'", "enrollment"], "auditors": ["A", "B"], "clean": "Hello, I would like to add my newborn son to my health insurance plan. He was born on the 8th of September. My policy number is BT77291, and I have attached a copy of the birth certificate. Please let me know if you need anything else to complete the enrollment, and what the new monthly premium will be."}
+{"id": "s2-W6-0115", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected value 'five' lost; raw says seven days", "corrected value five lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0116", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0117", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'it' dropped by recognizer", "'it' dropped"], "auditors": ["A", "B"], "clean": "Ten years ago today, I walked into my first job as a junior nurse, terrified. I did not know where the supply room was. Today I lead a team of 42 nurses at a hospital in Manchester. If you are starting out and feeling lost, gets better."}
+{"id": "s2-W6-0118", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many garbles: headman, 'And someone', phone number 'one AD', 'export statistics V'", "greeting, admin, phone number, csv lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0119", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["fish/manded/'Grace Barley' and more; too many fixes", "finished, mentored, risk early lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0121", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0122", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'said' never spoken", "trailing 'said'"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0123", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0124", "decision": "fix_clean", "reasons": ["unrecoverable_word", "guide_violation"], "notes": ["raw 'waiting' not inferable as 'writing'; undictated line break removed", "undictated breaks; 'waiting' from raw"], "auditors": ["A", "B"], "clean": "Dear Dr. Kim, I am waiting to confirm my appointment on the 7th of November at 2:45 PM."}
+{"id": "s2-W6-0125", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0126", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0128", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'customer' dropped by recognizer", "'customer' lost"], "auditors": ["A", "B"], "clean": "Ideas for the newsletter, story from the bakery in Porto, a short guide to invoicing, and a poll about pricing."}
+{"id": "s2-W6-0129", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0130", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0131", "decision": "drop", "reasons": ["non_english", "non_english"], "notes": ["raw ends in French 'Jean, tu dis aise.' plus garbles", "garbled/French residue in sign-off, hospital lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0132", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["CFO sentence lost entirely; 'ten minutes', 'quarter', trailing 'Yeah.'", "CFO sentence and quorum/AM lost; trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0133", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'uh' heard as 'not a' before grade; 'Zone' residue", "'not a' and 'three on four' for uh/304"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0135", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'codes loaded'->'coded', 'FAQ'->'the fact'; items no longer sensible", "codes loaded, 9 AM, FAQ lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0136", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0137", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["every 'um' decoded as 'Some' ('Some link in the comments')", "'Some' for um; clinic/clinics"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0138", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'in the last six weeks' sentence lost, Tariq->Taric, Dubai->Jibai", "six-weeks sentence lost, Jibai, Taric"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0139", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the aim of' and 'of' dropped, pumps->pots: 3 places", "aim of, pots, water worn, of which"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0140", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Dear' lost, names garbled, account number missing a digit", "greeting, name, account number, rand garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0141", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0142", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0143", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0144", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0145", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0146", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0148", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0149", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0150", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' heard as 'But', readable as content", "'But' for uh"], "auditors": ["A", "B"]}

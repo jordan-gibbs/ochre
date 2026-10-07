@@ -1,0 +1,50 @@
+{"id": "s2-W2-0001", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0002", "decision": "drop", "reason": "non_english"}
+{"id": "s2-W2-0003", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W2-0004", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0005", "decision": "drop", "reason": "unrecoverable_meaning", "note": "snow lost"}
+{"id": "s2-W2-0006", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Call heard as Cool"}
+{"id": "s2-W2-0008", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0010", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0011", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Lark for er"}
+{"id": "s2-W2-0012", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0016", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0017", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0018", "decision": "fix_clean", "clean": "There are no wait times at the...", "reason": "trailing_off", "note": "DMV lost, raw ends at the D"}
+{"id": "s2-W2-0019", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0022", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0024", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W2-0025", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0027", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "The for um to"}
+{"id": "s2-W2-0028", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Well for uh"}
+{"id": "s2-W2-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0030", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0031", "decision": "fix_clean", "clean": "My email is sam.ly@gmail.com.", "reason": "unrecoverable_word", "note": "raw has sam.ly"}
+{"id": "s2-W2-0032", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0034", "decision": "drop", "reason": "non_english"}
+{"id": "s2-W2-0035", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0036", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0037", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0038", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0040", "decision": "fix_clean", "clean": "I mean no harm by the way.", "reason": "unrecoverable_word"}
+{"id": "s2-W2-0041", "decision": "fix_clean", "clean": "Scratch that itch.", "reason": "dropped_by_recognizer"}
+{"id": "s2-W2-0042", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0045", "decision": "fix_clean", "clean": "No wait is a good name for a song.", "reason": "guide_violation", "note": "undictated quotes/title case; raw wording"}
+{"id": "s2-W2-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0047", "decision": "fix_clean", "clean": "Not now.", "reason": "dropped_by_recognizer"}
+{"id": "s2-W2-0048", "decision": "fix_clean", "clean": "Actually this...", "reason": "trailing_off"}
+{"id": "s2-W2-0049", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled"}

@@ -1,0 +1,10 @@
+{"id": "s4-W20-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"eat the vocal ticks\" for \"need the vocal takes\""}
+{"id": "s4-W20-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"Passes sort of the blue\" is garbled"}
+{"id": "s4-W20-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"Ship the returge\" is garbled"}
+{"id": "s4-W20-0019", "decision": "accept", "reason": "ok", "note": "A: \"tray offer\" is a near spelling of \"trade offer\", inferable from \"a rival would actually accept\""}
+{"id": "s4-W20-0020", "decision": "fix_clean", "clean": "Give me this sort of trade offer a rival would actually accept.", "reason": "unrecoverable_word", "note": "A: raw has \"this\" not \"the\"; \"tray\" to \"trade\" is inferable as in 0019"}
+{"id": "s4-W20-0024", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"not a law\" became \"No.\"; the meaning is lost"}
+{"id": "s4-W20-0034", "decision": "fix_clean", "clean": "The inspection is sort of done, we still owe them the latter logs.", "reason": "unrecoverable_word", "note": "B: \"the latter logs\" is a sensible real-word reading; \"ladder\" not inferable with confidence"}
+{"id": "s4-W20-0038", "decision": "fix_clean", "clean": "Explaining what kind of risk a covered call carries.", "reason": "unrecoverable_word", "note": "B: raw \"explaining\" is a real word; keep it rather than guess (R13)"}
+{"id": "s4-W20-0044", "decision": "fix_clean", "clean": "The drummer literally broke two sticks in one tape.", "reason": "unrecoverable_word", "note": "B: \"tape\" is plausible in a recording studio; \"take\" not inferable with confidence"}
+{"id": "s4-W20-0046", "decision": "accept", "reason": "ok", "note": "A: right/write is a listed homophone and the sentence needs the verb; unambiguous"}

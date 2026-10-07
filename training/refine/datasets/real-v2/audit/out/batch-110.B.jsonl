@@ -1,0 +1,50 @@
+{"id": "s4-W20-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0053", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W20-0054", "decision": "fix_clean", "clean": "Usa sort of sold half his position, they were only partly filled.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0055", "decision": "fix_clean", "clean": "The shift's schedule is rotated every two weeks.", "reason": "spelling_from_raw"}
+{"id": "s4-W20-0056", "decision": "fix_clean", "clean": "The shift schedule was kinda fixed, but swaps are allowed.", "reason": "spelling_from_raw"}
+{"id": "s4-W20-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0059", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W20-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0061", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W20-0062", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W20-0063", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W20-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0067", "decision": "fix_clean", "clean": "Thomas, we have the room booked until 6.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0070", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W20-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0072", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W20-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0075", "decision": "fix_clean", "clean": "When you save a session, name it with the dig first.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0080", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W20-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0084", "decision": "fix_clean", "clean": "The market literally froze for 10 minutes after the allowance.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0086", "decision": "fix_clean", "clean": "The trade deadline is tonight at 11, so we need to decide, and I mean it's no more stalling.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0089", "decision": "fix_clean", "clean": "Test, the studio is booked on Saturday, but Sunday is basically free, so take it.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0090", "decision": "fix_clean", "clean": "What kind of questions should I ask the sound vendor for conference?", "reason": "dropped_by_recognizer"}
+{"id": "s4-W20-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0093", "decision": "fix_clean", "clean": "I sell candles online as sort of a side thing, so give me a shop name that's kind of cozy.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0094", "decision": "fix_clean", "clean": "Anna, you literally saved me, I was basically about to sell everything at a loss.", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0096", "decision": "fix_clean", "clean": "Laus, what sort of budget do we have for the keynote?", "reason": "unrecoverable_word"}
+{"id": "s4-W20-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0098", "decision": "fix_clean", "clean": "The football draft is sort of a mess because half the owners haven't signed in.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W20-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0100", "decision": "fix_clean", "clean": "Summarize the incident report for a knee and keep it literally under 100 words.", "reason": "unrecoverable_word"}

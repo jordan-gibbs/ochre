@@ -1,0 +1,50 @@
+{"id": "s2-W7-0051", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'retry wrapper', 'S3', 'multipart abort' garbled beyond recovery"}
+{"id": "s2-W7-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0053", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0054", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0055", "decision": "fix_clean", "clean": "Why are we calling here? Can we borrow instead?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'calling' for 'cloning'"}
+{"id": "s2-W7-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0059", "decision": "fix_clean", "clean": "Nice cleanup. I like that you removed the global...", "reason": "trailing_off", "rules": ["RECOVER", "R4"], "note": "'state' lost; raw ends on 'the global'"}
+{"id": "s2-W7-0060", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0062", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0063", "decision": "fix_clean", "clean": "git commit -m \"fix handle empty response in the retry launcher\"", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'launcher' for 'logic' and lost 'colon'"}
+{"id": "s2-W7-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "git/m/chore/colon/to all misheard"}
+{"id": "s2-W7-0065", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0070", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0071", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W7-0072", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw unrelated to the command"}
+{"id": "s2-W7-0073", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'--tail' and pod name '7d9' lost"}
+{"id": "s2-W7-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'src' and 'ls -la' garbled"}
+{"id": "s2-W7-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0077", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0078", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'psql' lost, flags garbled"}
+{"id": "s2-W7-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Butter Popket' not inferable as flutter pub get"}
+{"id": "s2-W7-0082", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0083", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W7-0084", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W7-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0086", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'groups' heard as 'Roots'; also 'log' vs 'logs'"}
+{"id": "s2-W7-0089", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um check' became 'I'm K'; also 'null shape operator'"}
+{"id": "s2-W7-0090", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0091", "decision": "fix_clean", "clean": "The Kubernetes deployment keeps getting OOM killed. Memory limit is 2 gig. Can you check if there's a leak in the worker or if we just need to raise the limit? Look at the heap profile if there is one.", "reason": "guide_violation", "rules": ["R10"], "note": "clean added 'The' before 'memory limit'"}
+{"id": "s2-W7-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0094", "decision": "fix_clean", "clean": "Create a new Rust crate in the workspace called protocol, move the message types out of the server crate into it, update the Cargo.tomls, and make sure everything still compiles with cargo check.", "reason": "guide_violation", "rules": ["R10"], "note": "'files' was never said"}
+{"id": "s2-W7-0095", "decision": "fix_clean", "clean": "Can you explain the difference between what this function does and the other one in a helpers file? They look the same to me.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a' for 'the'"}
+{"id": "s2-W7-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'API' and 'dry run' lost (OPN, R mode)"}
+{"id": "s2-W7-0097", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Redis lock code' garbled, 'lock' heard as 'lot'"}
+{"id": "s2-W7-0099", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0100", "decision": "drop", "reason": "hallucination", "note": "Whisper appended trailing 'you'"}

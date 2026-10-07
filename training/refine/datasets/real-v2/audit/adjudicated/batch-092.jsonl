@@ -1,0 +1,12 @@
+{"id": "s2-W11-0159", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Paul for Call, Dimitri, \"day the processing\": 3 places; opening no longer sensible"}
+{"id": "s2-W11-0160", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"ten a m\" became \"Tenny. And\"; time not recoverable"}
+{"id": "s2-W11-0161", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"I'm\" heard as \"and\": 'came back ... and still hoarse' changes who is hoarse; torn, prefer drop"}
+{"id": "s2-W11-0166", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Can ... bump\" heard as \"And ... bumped\": request no longer recoverable, raw reading is not a sensible dictation"}
+{"id": "s2-W11-0170", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Wei heard as \"Y\" plus broken on-call sentence; fix yields implausible text; torn, prefer drop"}
+{"id": "s2-W11-0171", "decision": "drop", "reason": "unrecoverable_meaning", "note": "three PM vs a.m., \"the new\", \"connections during\" for connection string: 3+ places"}
+{"id": "s2-W11-0172", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"the lasagna was\" became \"Lisa. It was\": adds an addressee, changes meaning"}
+{"id": "s2-W11-0175", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped 6 words of content (>5 word limit)"}
+{"id": "s2-W11-0184", "decision": "drop", "reason": "unrecoverable_meaning", "note": "flyers->wires, \"at eight\" lost, Facebook Marketplace garbled"}
+{"id": "s2-W11-0194", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"for Eddie's\" for edits and finished/finish not recoverable"}
+{"id": "s2-W11-0196", "decision": "fix_clean", "clean": "Hello Miss Alvarez, I attached the signed agreement and the W-9 form. Let me know if anything else is missing.", "reason": "guide_violation", "note": "\"Miss\" was said and is in raw; \"Ms.\" changes the word (R10)"}
+{"id": "s2-W11-0198", "decision": "fix_clean", "clean": "Ideas for the keynote. Open with the story about the 1998 server room flood, because it always gets a laugh. Then move into the three lessons about backups, testing, and communication. Close with the call to action to audit your restore process this month. Keep the whole talk under 25 minutes.", "reason": "dropped_by_recognizer", "note": "raw has \"the call to action\"; \"a\" not inferable"}

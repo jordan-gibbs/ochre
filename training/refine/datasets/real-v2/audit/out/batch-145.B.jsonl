@@ -1,0 +1,50 @@
+{"id": "s4-W40-0001", "decision": "fix_clean", "clean": "Can you ask your if the lineup is...", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0002", "decision": "fix_clean", "clean": "Best way to trade out of a position one that...", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0005", "decision": "fix_clean", "clean": "The shipping label that's wrong for the...", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0008", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W40-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0010", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0012", "decision": "fix_clean", "clean": "Did Riz send the invoice?", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0014", "decision": "fix_clean", "clean": "We could move the tailbeak to Saturday or...", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0015", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0016", "decision": "fix_clean", "clean": "I was going to say that.", "reason": "trailing_off"}
+{"id": "s4-W40-0017", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0018", "decision": "fix_clean", "clean": "The sound tech takes about 45 minutes and then...", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0022", "decision": "fix_clean", "clean": "I'm heading to the station.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W40-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0025", "decision": "fix_clean", "clean": "How to export orders from Shopify to a spreadsheet.", "reason": "trailing_off"}
+{"id": "s4-W40-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0028", "decision": "fix_clean", "clean": "For the waiver wire, I'm thinking we grab the tight end.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W40-0029", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0030", "decision": "fix_clean", "clean": "Hey, I'm running. The train got held up but anyway, I should be there by 10 after.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W40-0031", "decision": "fix_clean", "clean": "The drummer wants to track first, which is fine, but the...", "reason": "dropped_by_recognizer"}
+{"id": "s4-W40-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0033", "decision": "fix_clean", "clean": "Can we push the sponsor call to Wednesday afternoon, because our Jun is travelling until then?", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0034", "decision": "fix_clean", "clean": "The checkup page is throwing in a 409 whenever someone applies two discount codes at the same time.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0036", "decision": "fix_clean", "clean": "Reminder that the truck inspection is Thursday morning, so please head her gear checked off. Oh, and bring new logbooks.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0039", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0043", "decision": "fix_clean", "clean": "When the center comes in tomorrow, we're going to start with the ballot, and then we're going to do the uptempo stuff after lunch.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0044", "decision": "fix_clean", "clean": "The earnings call was after the bell on Tuesday, and I'm not sure I want to hold through it. The premiums are crazy right now.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0045", "decision": "fix_clean", "clean": "Can you send me the final headcount by end of day? I need it for the tear, they needed 48 hours ahead.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0046", "decision": "fix_clean", "clean": "I'm trying to figure out how to explain the fungal recovery rule to my Lee. Can you give me a simple version?", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0047", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0050", "decision": "fix_clean", "clean": "Send the floor plan to the thing, then follow up with the AV team, and then bo speaker dinner.", "reason": "unrecoverable_word"}

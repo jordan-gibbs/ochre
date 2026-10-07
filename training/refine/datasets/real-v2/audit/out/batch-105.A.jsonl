@@ -1,0 +1,50 @@
+{"id": "s4-W18-0001", "decision": "fix_clean", "clean": "Hey Gray, are you still up for the language exchange tonight?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'Gray' for Grace"}
+{"id": "s4-W18-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0007", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Okay.' never spoken"}
+{"id": "s4-W18-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0010", "decision": "fix_clean", "clean": "I need the signed engagement letter by noon so that I can file.", "reason": "trailing_off", "rules": ["RECOVER"], "note": "'before the deadline' lost by recognizer"}
+{"id": "s4-W18-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0012", "decision": "fix_clean", "clean": "No, I like the new trail, but the hike starts too early.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'Yo' heard as 'No'"}
+{"id": "s4-W18-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dalia so' heard as 'Daily or so'"}
+{"id": "s4-W18-0016", "decision": "fix_clean", "clean": "Dahlia, I'd like to finish the flashcards, so tell me when you're free.", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling Dahlia"}
+{"id": "s4-W18-0017", "decision": "fix_clean", "clean": "Samuel, we should probably move the standup.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Femi heard as Samuel"}
+{"id": "s4-W18-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0021", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never spoken; name also garbled"}
+{"id": "s4-W18-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0026", "decision": "fix_clean", "clean": "I think we should run the ablation so that the reviewers can't complain.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'run' not 'rerun'"}
+{"id": "s4-W18-0027", "decision": "fix_clean", "clean": "Aliyah, are you gonna bring the snacks?", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s4-W18-0028", "decision": "fix_clean", "clean": "Aliah, I like the snacks you brought last time.", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s4-W18-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Emil so' heard as 'I'm also'"}
+{"id": "s4-W18-0032", "decision": "fix_clean", "clean": "Emily was so good last night that I forgot to eat.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'Emil it' merged into 'Emily'"}
+{"id": "s4-W18-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0035", "decision": "fix_clean", "clean": "Lewis, it's fine, whatever you pick.", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s4-W18-0036", "decision": "fix_clean", "clean": "Lewis, I mean it when I say whatever you pick is fine.", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s4-W18-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0041", "decision": "fix_clean", "clean": "I was confused by the second cause.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'cause' not confidently 'clause'"}
+{"id": "s4-W18-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Race / so light / flash guards: too many garbled words"}
+{"id": "s4-W18-0044", "decision": "fix_clean", "clean": "Greece, I forgot the flashcard, so I'm making new ones.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Grace heard as Greece; raw has singular flash card"}
+{"id": "s4-W18-0045", "decision": "fix_clean", "clean": "And in general, the adoption fee is $75.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Alejandro heard as 'And in general'"}
+{"id": "s4-W18-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Alejandro heard as 'The Gendra B'"}
+{"id": "s4-W18-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0050", "decision": "accept", "reason": "ok"}

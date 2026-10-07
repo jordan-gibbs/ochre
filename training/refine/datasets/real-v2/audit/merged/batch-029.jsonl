@@ -1,0 +1,36 @@
+{"id": "s2-W3-0401", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["step two, tag, acme and /health lost or garbled", "bump, acme, /health lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0402", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Fifth, sign, price value, cat, email all garbled", "street name, price, email garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0403", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0404", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'a stale read' became 'stay'; sentence no longer inferable", "stale read -> stay"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0405", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0406", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["heading lost and ending 'though we wouldn't hook maybe' garbled", "ending garbled, opening lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0408", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0411", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0412", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0413", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0414", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'What?' never said", "What? appended; drive lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0416", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0417", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0418", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0419", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Design QA' became 'Design car'; hex values guessed", "Design car, hex values garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0420", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["connection string lost", "connection string lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0421", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0422", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' -> 'Did', 'uh' -> 'No.'", "Did / No residues"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0423", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0425", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["bench, squats lost; Random mile", "bench press, squats lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0426", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Roth IRA' became 'rah'; 'M twenty eight'", "Roth IRA garbled, I am lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0428", "decision": "fix_clean", "reasons": ["number_value", "number_value"], "notes": ["raw says four kilobytes", "raw says four"], "auditors": ["A", "B"], "clean": "I think we should consider dropping support for Internet Explorer. It accounts for less than half a percent of our traffic, which is around 200 visits a month, and it costs us about three days of work every release. If we remove it, we can also drop two polyfills and cut the bundle size by roughly 4 kilobytes."}
+{"id": "s2-W3-0430", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Grab to R to do dot Sar C' not recoverable to the command", "command garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0431", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0432", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Her'", "raw Her"], "auditors": ["A", "B"], "clean": "Her total is $36.40."}
+{"id": "s2-W3-0434", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' -> 'Well', 'er' -> 'But'; 'interviewed' lost", "Well/But residues, needed, clarifytions"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0437", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' -> 'Low'; 'instead of a direct get' dropped", "Low residue; instead of a direct get lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0440", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'grab it and come back' became 'and pump back'", "grab it and come back -> pump back"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0441", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0443", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw dropped 'A'", "A dropped"], "auditors": ["A", "B"], "clean": "I am pleased to confirm your enrollment in the advanced statistics course beginning on the 8th of January. Classes meet on Tuesdays and Thursdays from 6 to 8:30 PM in room 214. Tuition is $1,800 and is due by the 20th of December. Syllabus will be sent to you two weeks before the start date."}
+{"id": "s2-W3-0444", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Call with Mom, train time lost", "Call with Mom, 8:10 garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0445", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["TCP lost", "TCP lost as he"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0446", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["checkout button, tapped, error text lost", "multiple garbles, ending lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0447", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0448", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["command garbled", "command garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0449", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Well' for 'lol'", "lol heard as Well"], "auditors": ["A", "B"], "clean": "Well, it took me three tries, but I got it."}

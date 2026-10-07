@@ -1,0 +1,50 @@
+{"id": "s2-W1-0151", "decision": "drop", "reason": "hallucination", "note": "raw inserts 'a little bit of a The' that was never said"}
+{"id": "s2-W1-0152", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0153", "decision": "fix_clean", "clean": "My director said to ask you to reply all and confirm that she reviewed the budget, so please reply to all and say reviewed and approved.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'she' for 'you'"}
+{"id": "s2-W1-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0155", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0156", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'valid JSON' heard as 'value. Saw'"}
+{"id": "s2-W1-0157", "decision": "fix_clean", "clean": "Can you help me prepare for salary negotiation? I got an offer for $95,000 and I think the market rate is closer to $110,000. I want to practice what to say.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'a' before 'salary negotiation'"}
+{"id": "s2-W1-0158", "decision": "drop", "reason": "garbage", "note": "raw 'It's time firepot.' bears no relation to the command"}
+{"id": "s2-W1-0159", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0160", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'too stiff' heard as 'to Steph' and 'it' dropped"}
+{"id": "s2-W1-0161", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0162", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as the name 'Nina'"}
+{"id": "s2-W1-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0164", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'can you roleplay as'"}
+{"id": "s2-W1-0165", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'him'"}
+{"id": "s2-W1-0166", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0167", "decision": "fix_clean", "clean": "I want you to help me write a grant proposal for community garden project in our neighborhood. Let me give you the background first. The garden would be on a vacant lot owned by the city, about half an acre, and we have a letter of support from the council member. We want to grow vegetables for the local food pantry and also run weekend workshops for kids. The grant is up to $15,000 and the deadline is November 1st. The proposal needs a project summary, a budget breakdown, timeline for the first year, and a section on how we will measure impact. Please write it in a warm but professional tone. Don't use any jargon, and don't make up numbers. If you need a number from me, just ask. Also, I want you to start by asking me any clarifying questions before you write anything.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'a' before 'community garden' and before 'timeline'"}
+{"id": "s2-W1-0168", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many words lost/garbled (backend, check, retry-after, Redis, 'be specific, reference line numbers')"}
+{"id": "s2-W1-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0170", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0171", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'notification service' heard as 'notifications of this'"}
+{"id": "s2-W1-0172", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0174", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ribeye steak' heard as 'rye? I stick'"}
+{"id": "s2-W1-0175", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'done'; also 'you two', 'fact' for FAQ"}
+{"id": "s2-W1-0176", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'correct my mistakes after each message' reduced to 'Correct.'"}
+{"id": "s2-W1-0177", "decision": "fix_clean", "clean": "Subject line: quick favor, buddy. Hi Umar, could you respond to the vendor and tell them we are going with option B?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R6"], "note": "raw has 'buddy' for 'body' and 'Umar' for undictionaried 'Omar'"}
+{"id": "s2-W1-0178", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0179", "decision": "drop", "reason": "unrecoverable_meaning", "note": "terminal command lost (dist, user@, paths, flags)"}
+{"id": "s2-W1-0180", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0183", "decision": "fix_clean", "clean": "Help me write a toast for my best friend's wedding. His name is Carlos and hers is May. They met in a pottery class, and Carlos is terrible at pottery. I want it to be funny at the start and then get sincere. About two minutes when read out loud. I also don't want any jokes about the ex.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw has 'May'"}
+{"id": "s2-W1-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0187", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'no', reads as a correction cue"}
+{"id": "s2-W1-0188", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0189", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'is it' heard as 'Yes. At'; question no longer recoverable"}
+{"id": "s2-W1-0190", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'Thumb', 'uh' as 'Log'"}
+{"id": "s2-W1-0191", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'on'"}
+{"id": "s2-W1-0192", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'add a comment here that tells the next engineer'"}
+{"id": "s2-W1-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0194", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0195", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0199", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'Well'; also 'uh to' heard as 'the'"}
+{"id": "s2-W1-0200", "decision": "drop", "reason": "script_defect", "note": "clean rewrites the correction: drops 'because' and 'Sunday might be better', restructures the reason"}

@@ -1,0 +1,50 @@
+{"id": "s2-W2-0151", "decision": "fix_clean", "clean": "Call back Mr. Alvarez about the quote. It was 4,800.", "reason": "guide_violation", "rules": ["R10"], "note": "no currency was spoken; '$' adds a fact"}
+{"id": "s2-W2-0152", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0153", "decision": "fix_clean", "clean": "Cheap flights to Tokyo in March, not April, with free cancellation", "reason": "guide_violation", "rules": ["R10"], "note": "'not April' is a spoken contrast, not a correction; it was dropped"}
+{"id": "s2-W2-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0155", "decision": "fix_clean", "clean": "I would like to request leave from August 3rd, August 12th.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'to' absent from raw"}
+{"id": "s2-W2-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0157", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0158", "decision": "drop", "reason": "hallucination", "note": "raw adds 'No.' and 'Yeah.' never spoken"}
+{"id": "s2-W2-0159", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'We be trying timeouts, eh?' cannot yield 'retry on'"}
+{"id": "s2-W2-0160", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Amy and 'data pipeline' correction lost"}
+{"id": "s2-W2-0161", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0162", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0163", "decision": "fix_clean", "clean": "Thank you for applying. We will contact by the end of next week.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'you' absent from raw"}
+{"id": "s2-W2-0164", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost the whole first sentence (6 words)"}
+{"id": "s2-W2-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0166", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0167", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Gias' and 'Thumb the' garble the opening"}
+{"id": "s2-W2-0168", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'next Wait' reads as a correction cue; 'week' not recoverable"}
+{"id": "s2-W2-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0170", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0171", "decision": "fix_clean", "clean": "The restaurant is called Nobo and the reservation is at 8.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw has 'Nobo'"}
+{"id": "s2-W2-0172", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0173", "decision": "fix_clean", "clean": "How long should I wait to swim after eating?", "reason": "guide_violation", "rules": ["R6", "R11"], "note": "missing '?' on question; raw already clean"}
+{"id": "s2-W2-0174", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0175", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0176", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0177", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Down' in place of um"}
+{"id": "s2-W2-0178", "decision": "fix_clean", "clean": "No, no, no, do not send that message. I have not finished writing.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' absent from raw"}
+{"id": "s2-W2-0179", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and' lost: 'Monday. Tuesday.' reads as a correction to Tuesday"}
+{"id": "s2-W2-0180", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'It's not helias' cannot yield 'is not aliased'"}
+{"id": "s2-W2-0181", "decision": "fix_clean", "clean": "Spring goal: finish the checkout flow and fix the 36 open bugs.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Spring', a plausible real word"}
+{"id": "s2-W2-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0183", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'right it rejects' and 'as phone numbers' lose write a regex / US"}
+{"id": "s2-W2-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0187", "decision": "fix_clean", "clean": "Let's stick with MySQL since the team already knows it.", "reason": "guide_violation", "rules": ["R10"], "note": "speaker said 'let's'; do not expand to 'Let us'"}
+{"id": "s2-W2-0188", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the tests' lost ('count it. T.')"}
+{"id": "s2-W2-0189", "decision": "drop", "reason": "unrecoverable_meaning", "note": "filename and 'data' garbled"}
+{"id": "s2-W2-0190", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Friday's agenda' and 'roadmap' lost"}
+{"id": "s2-W2-0191", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0192", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0194", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Rustine. No a month.' garbles 'Rust in a month'"}
+{"id": "s2-W2-0195", "decision": "fix_clean", "clean": "The thing is that the vendor has not responded.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'in a week' absent from raw"}
+{"id": "s2-W2-0196", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and returns' clause lost; 'except'"}
+{"id": "s2-W2-0197", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W2-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0199", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'kidding' misheard and 'which movie we see' lost"}
+{"id": "s2-W2-0200", "decision": "accept", "reason": "ok"}

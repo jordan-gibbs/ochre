@@ -1,0 +1,50 @@
+{"id": "s4-W47-0001", "decision": "drop", "reason": "hallucination", "note": "trailing Okay."}
+{"id": "s4-W47-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0005", "decision": "fix_clean", "clean": "Action item, Mallowed to send the revised quote.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0006", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s4-W47-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0008", "decision": "fix_clean", "clean": "As regards, Lorenzo", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W47-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0015", "decision": "fix_clean", "clean": "Hello Sane, attached is the signed contract.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W47-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0019", "decision": "fix_clean", "clean": "Reed, did you take the late shift on Saturday?", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0020", "decision": "drop", "reason": "hallucination", "note": "Q3 lost, trailing We can"}
+{"id": "s4-W47-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0029", "decision": "fix_clean", "clean": "Decisions, we're going with the second vendor, rollout starts April 1st, and Ivan owns the Com's Pine.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0032", "decision": "fix_clean", "clean": "Good afternoon Father, I'm writing to confirm that we need 40 banners by the 12th of June. Thank you.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0034", "decision": "fix_clean", "clean": "Lorenzo, the pilot says the aircraft swap puts us at gate B12 instead for the four.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W47-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0037", "decision": "fix_clean", "clean": "Dear Malik, I hope you're well if I wanted to follow up on the draft I said last week and see if you had any thoughts.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0038", "decision": "fix_clean", "clean": "The client wants the low-baker, which is the opposite of what they asked for last time.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0039", "decision": "fix_clean", "clean": "Bodhai is out sick, so I'm taking his 2 o'clock with the Mercer account.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0041", "decision": "fix_clean", "clean": "When you did the dealership send over the title paperwork or are we still waiting?", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0043", "decision": "fix_clean", "clean": "Hi Sonna, just circling back on the invoice for March. Our accounts team says it hasn't come through yet. Could you resend it please?", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0044", "decision": "fix_clean", "clean": "The thing about the new commission plan is that it only kicks in after the first quarter, so reps who miss it get nothing.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W47-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W47-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W47-0049", "decision": "fix_clean", "clean": "Thanks, Lorenzo. The part arrived this morning and we can have your car ready by 5.", "reason": "dropped_by_recognizer", "note": ""}
+{"id": "s4-W47-0050", "decision": "accept", "reason": "ok"}

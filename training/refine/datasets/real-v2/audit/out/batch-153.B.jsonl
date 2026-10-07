@@ -1,0 +1,50 @@
+{"id": "s4-W44-0001", "decision": "fix_clean", "clean": "Oh, are you coming tonight?", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0002", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0008", "decision": "fix_clean", "clean": "I totally forgot.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W44-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0011", "decision": "fix_clean", "clean": "Dude, it's kinda blue, not green.", "reason": "spelling_from_raw"}
+{"id": "s4-W44-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0015", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W44-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0020", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0025", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0027", "decision": "fix_clean", "clean": "Hey Beatrice, I was thinking we could do the party at my place instead of the pub, because it's cheaper.", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0031", "decision": "fix_clean", "clean": "I'll be there at 7. The shift ends. It's 6:30.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W44-0032", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W44-0033", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0036", "decision": "fix_clean", "clean": "Once says dinner is at 6, bring your appetite.", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0039", "decision": "fix_clean", "clean": "Bilal, pick up your phone.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W44-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0042", "decision": "fix_clean", "clean": "No way, you've actually got tickets?", "reason": "dropped_by_recognizer"}
+{"id": "s4-W44-0043", "decision": "fix_clean", "clean": "Yeah, I'll text you but when I'm upside, just come down.", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0045", "decision": "fix_clean", "clean": "It looks like rain, so maybe bring the jacket to the match.", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0050", "decision": "accept", "reason": "ok"}

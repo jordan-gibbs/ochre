@@ -1,0 +1,50 @@
+{"id": "s4-W60-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"who\" dropped by recognizer; \"which like does that?\" breaks the question"}
+{"id": "s4-W60-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Reza->\"Inside\", tacos->\"Tuples\", because->\"Cause\": 3 unrecoverable places"}
+{"id": "s4-W60-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0096", "decision": "fix_clean", "clean": "Bill, I keep getting phishing DMs from fake support accounts, three a day, so I muted the whole server and now I'm kind of out of the loop.", "reason": "unrecoverable_word", "note": "raw has \"Bill\" for Bilal"}
+{"id": "s4-W60-0097", "decision": "fix_clean", "clean": "Alright, tell the little ones to bring their ballet shoes and the tights, not the leotards. The leotards are provided, I mean the ones with the school logo.", "reason": "unrecoverable_word", "note": "raw has \"Alright\" where Yara was said"}
+{"id": "s4-W60-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"morning\" dropped and \"comes Well of free donuts\" garbled, plus Lena"}
+{"id": "s4-W60-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0100", "decision": "fix_clean", "clean": "Abdul, OK, last thing, the master is due on the 20th, the artwork is due on the 10th, and the label wants a lyric sheet by next Friday, so yeah, we're gonna be busy.", "reason": "guide_violation", "note": "standalone \"okay\" is not an R5 filler; said and in raw"}
+{"id": "s4-W61-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Hey Clara ... to...\" became \"A Claire ... too.\" (complete sentence)"}
+{"id": "s4-W61-0003", "decision": "fix_clean", "clean": "How to transfer a car title in a dealership.", "reason": "unrecoverable_word", "note": "\"when the dealership...\" became \"in a dealership.\""}
+{"id": "s4-W61-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "noon heard as \"near\": \"before near\" not sensible"}
+{"id": "s4-W61-0005", "decision": "fix_clean", "clean": "Hi Ayeshu, thanks for sending the urgent care schedule. The only thing I'd flag is that the Saturday shift...", "reason": "unrecoverable_word", "note": "raw \"Ayeshu\"; \"over\" dropped"}
+{"id": "s4-W61-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0007", "decision": "drop", "reason": "hallucination", "note": "trailing \"Oh.\" where nothing was said"}
+{"id": "s4-W61-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"You better get paused. Cubic target pods\" cannot yield the command"}
+{"id": "s4-W61-0010", "decision": "fix_clean", "clean": "Oh man. Gee Lori, you will not believe what the guy at the dealership told me about the...", "reason": "unrecoverable_word", "note": "omg->\"Oh man. Gee\", Laura->Lori"}
+{"id": "s4-W61-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0012", "decision": "fix_clean", "clean": "We should loop in Dominic before we...", "reason": "unrecoverable_word", "note": "raw \"Dominic\""}
+{"id": "s4-W61-0013", "decision": "fix_clean", "clean": "Open the quest log, then tap the back button twice and again.", "reason": "unrecoverable_word", "note": "\"and the game...\" became \"And again.\""}
+{"id": "s4-W61-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0015", "decision": "drop", "reason": "hallucination", "note": "trailing \"Mm-hmm.\" never said"}
+{"id": "s4-W61-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"can\" lost in the restart: \"And you grab you pick up...\" no longer a request"}
+{"id": "s4-W61-0018", "decision": "fix_clean", "clean": "Summarize the following meeting notes in three bullet points.", "reason": "trailing_off", "note": "trailing \"and\" lost; raw ends complete"}
+{"id": "s4-W61-0019", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\" never said"}
+{"id": "s4-W61-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0022", "decision": "fix_clean", "clean": "But the waiting room is packed and the nurse said it'll be at least...", "reason": "unrecoverable_word", "note": "\"ugh\" heard as \"But\""}
+{"id": "s4-W61-0023", "decision": "fix_clean", "clean": "This function assumes that your reading is always positive, but if the...", "reason": "unrecoverable_word", "note": "\"the meter\" heard as \"that you're\""}
+{"id": "s4-W61-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0028", "decision": "fix_clean", "clean": "Hi Lura, the car is ready for pickup. The keys are at the front desk in a few.", "reason": "unrecoverable_word", "note": "Laura->Lura; \"and if you\" heard as \"in a few.\""}
+{"id": "s4-W61-0029", "decision": "fix_clean", "clean": "Nora, I don't think Chloe's coming tonight. She said she was feeling kind of...", "reason": "unrecoverable_word", "note": "\"nah\" heard as \"Nora\""}
+{"id": "s4-W61-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0032", "decision": "fix_clean", "clean": "Chapter 4. The novel opens with a flashback to...", "reason": "dropped_by_recognizer", "note": "\"of\" dropped"}
+{"id": "s4-W61-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"stays greyed out\" heard as \"stays great.\""}
+{"id": "s4-W61-0034", "decision": "fix_clean", "clean": "The minute I'm outside the courthouse and I can't find the...", "reason": "unrecoverable_word", "note": "\"Dominik\" heard as \"The minute\""}
+{"id": "s4-W61-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0036", "decision": "fix_clean", "clean": "Thanks, Grace, for the update on the urgent care renovation.", "reason": "dropped_by_recognizer", "note": "\"one more thing, the\" lost"}
+{"id": "s4-W61-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0038", "decision": "fix_clean", "clean": "Game studio retro, wins, the launch trailer, losses, though...", "reason": "unrecoverable_word", "note": "\"the\" heard as \"though\""}
+{"id": "s4-W61-0039", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\" never said"}
+{"id": "s4-W61-0040", "decision": "accept", "reason": "ok"}

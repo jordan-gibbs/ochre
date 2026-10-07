@@ -1,0 +1,50 @@
+{"id": "s2-W3-0051", "decision": "drop", "reason": "unrecoverable_meaning", "note": "slash signup lost, replaced by 'to sign up'; code casing unknown"}
+{"id": "s2-W3-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0053", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Poignant B2' for 'endpoint /v2/'"}
+{"id": "s2-W3-0055", "decision": "fix_clean", "clean": "iPhone Pro Max case under $20", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "fifteen lost"}
+{"id": "s2-W3-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0058", "decision": "fix_clean", "clean": "Hey folks, quick one: the standup tomorrow is moved to 9:30 because the other team is a thing. Please update your tickets before then, and if you are blocked on something, put it in the thread so we don't waste time.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'is a thing' not 'has a thing'"}
+{"id": "s2-W3-0059", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0060", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0061", "decision": "fix_clean", "clean": "The nightly backup job is failing with an out of memory error. Started on October 3rd. The job runs at 1 AM and normally finishes in about 20 minutes, but the last 3 runs were killed after 60 minutes. I think the dump is bigger than the container limit of 2 GB. The PostgreSQL database is now around 5 GB, so we either need to raise the limit or stream the dump.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'It' lost before 'started'"}
+{"id": "s2-W3-0062", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0063", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0064", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0065", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0070", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0071", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0072", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "png/svg garbled, 1008 vs 1080"}
+{"id": "s2-W3-0074", "decision": "drop", "reason": "hallucination", "note": "URL lost; trailing 'Yeah.' invented"}
+{"id": "s2-W3-0075", "decision": "fix_clean", "clean": "Okay at 7. I will bring two bottles of wine.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'see you' lost"}
+{"id": "s2-W3-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0077", "decision": "fix_clean", "clean": "This loop runs in O(n²), so it will be slow for lists over 10,000 items.", "reason": "guide_violation", "rules": ["R6"], "note": "mojibake in clean"}
+{"id": "s2-W3-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "PNG garbled in raw"}
+{"id": "s2-W3-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0080", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "candor, rubric, by garbled in more than 2 places"}
+{"id": "s2-W3-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "middle and end of message lost or garbled"}
+{"id": "s2-W3-0083", "decision": "fix_clean", "clean": "Thoughts after the marathon training went. I did 18 miles today, which is the longest so far. First 10 felt easy, and then around mile 14 my left knee started to hurt. I should probably get new shoes because these have about 500 miles on them. Race day is November 9th, and I have six weeks left, so I need to taper in the last two.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'went' not 'run'; 'The' lost"}
+{"id": "s2-W3-0084", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0085", "decision": "fix_clean", "clean": "Observed behavior: after upgrading Nginx to 1.25, the server returns a 402 Bad Gateway for any request that takes longer than 60 seconds. Expected behavior is that the proxy read timeout of 300 seconds is respected. I checked the config and the directive is set correctly in the location block, so I suspect the upstream keepalive setting is overriding it.", "reason": "number_value", "rules": ["R7"], "note": "spoken and raw say four oh two, not 502"}
+{"id": "s2-W3-0086", "decision": "drop", "reason": "hallucination", "note": "trailing 'Oh' not said"}
+{"id": "s2-W3-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0088", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "OS/VPC/CIDR/subnets garbled in many places"}
+{"id": "s2-W3-0090", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0091", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0094", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0095", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0096", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0097", "decision": "fix_clean", "clean": "Can you grab milk on the way home, like 2%, not skimmed.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'skimmed'"}
+{"id": "s2-W3-0098", "decision": "fix_clean", "clean": "My new address is m.revera@studio-8.com.", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s2-W3-0099", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0100", "decision": "fix_clean", "clean": "That is about three weeks away.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "first clause lost"}

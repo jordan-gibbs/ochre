@@ -1,0 +1,7 @@
+{"id": "e4-E10-0011", "decision": "accept", "reason": "ok", "note": "A: 'six forty M' is a clear slip for AM; B's '6:40 M' is not a sensible target"}
+{"id": "e4-E10-0018", "decision": "fix_clean", "clean": "No, I'm a hundred percent sure Zainab takes the blitz section.", "reason": "unrecoverable_word", "note": "A: Zainab recoverable from split 'as Ayn U' via dictionary; raw has 'No' not 'Nah'"}
+{"id": "e4-E10-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: fenella->vanilla, 'by'->'the'; raw-faithful email sentence is ungrammatical and the address guessed"}
+{"id": "e4-E10-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"hall's\" heard as 'Pulse'; 'Pulse free from 7 to noon' is not sensible"}
+{"id": "e4-E10-0041", "decision": "fix_clean", "clean": "Matteo, sorry, just to confirm, the invoice number is INB2026-0418.", "reason": "unrecoverable_word", "note": "A: spelled letter V heard as B; identifier letters cannot be inferred, keep INB"}
+{"id": "e4-E10-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'seat in row B' became 'seed in Robee'; B's fix is not sensible and 'row B' is a guess"}
+{"id": "e4-E10-0044", "decision": "fix_clean", "clean": "There were only four of us at the planning meeting, so we push the vote to next week.", "reason": "unrecoverable_word", "note": "B: raw has 'push'; tense not traceable to raw (R10/RECOVER), one word"}

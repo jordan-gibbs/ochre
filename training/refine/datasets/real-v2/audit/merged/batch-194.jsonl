@@ -1,0 +1,39 @@
+{"id": "s4-W63-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0043", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["name not in dictionary; raw 'Hannah'"], "auditors": ["A", "B"], "clean": "Hannah, I swear if you tell her about the surprise I will never forgive you."}
+{"id": "s4-W63-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0046", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Mora' for Laura"], "auditors": ["A", "B"], "clean": "Mora will walk you through the offer letter and then we can talk about a start date."}
+{"id": "s4-W63-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0050", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'May that is the Daphtis' idea'", "mate and daftest both garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W63-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0061", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'No.' never said", "trailing No."], "auditors": ["A", "B"]}
+{"id": "s4-W63-0063", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'for' instead of 'from'"], "auditors": ["A", "B"], "clean": "Hi Jamal, the candidate is available for the 1st of the month, but she'd like to finish her notice period properly, which I think is fair. Can we hold the offer open until Friday and see where we land?"}
+{"id": "s4-W63-0065", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw 'Anna' for Hana"], "auditors": ["A", "B"], "clean": "Anna, you will not believe it, my cousin's plus one turned out to be her ex, and nobody warned me, so I spent the entire dinner smiling through gritted teeth."}
+{"id": "s4-W63-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0069", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Kai lost, 'no ban, no Brian'", "Kai, band, bride all garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W63-0070", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["first clause lost, 'Teflus soon'", "first clause and checklist lost"], "auditors": ["A", "B"]}
+{"id": "s4-W63-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0074", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0078", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0080", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'ran' for read, 'Even' for given"], "auditors": ["A", "B"], "clean": "Hi Laura, thanks for sending the plan over. I ran through it last night and I think the shape is right. The emergency fund comes first, six months of expenses, and we agreed on that. The part I'm less sure about is the timeline. Paying off the loan in 18 months feels tight, even the car repair and the trip in the spring. Could we stretch it to two years and see how the numbers look? I'm not trying to be difficult, I just don't want us to be stressed. Let me know what you think and we can sit down on Sunday."}
+{"id": "s4-W63-0083", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'inquiry'"], "auditors": ["A", "B"], "clean": "Dear Nora, thank you for your inquiry about our broadband service. I'm sorry to hear the connection has dropped several times this week. I have looked at your line, and the readings show a fault between your house and the cabinet. An engineer has been booked for Thursday between 8 and 12, and he will need access to the front garden. There is no charge for the visit. If the fault turns out to be inside your home, we will tell you before we do any work. Please do not hesitate to call if anything changes. Yours sincerely, Kai"}
+{"id": "s4-W63-0086", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'bought', 'fresh highs', 'club bill', 'planing me'", "bought/highs/club/planing me/whatever garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W63-0087", "decision": "fix_clean", "reasons": ["number_value", "number_value"], "notes": ["raw says fifty"], "auditors": ["A", "B"], "clean": "Escalation policy for the night shift. If an alert fires, the primary on-call has five minutes to acknowledge it. If they don't, it goes to the secondary, who also has five minutes. If neither responds, the manager is called directly, and that call is logged. The aim is that no alert ever goes unanswered for more than 50 minutes. We review the log every month, and anyone who misses a page twice in a row gets a friendly chat, not a telling off."}
+{"id": "s4-W63-0088", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Cheers for the left, for a star.'", "lift/you're garbled in a 7 word line"], "auditors": ["A", "B"]}
+{"id": "s4-W63-0089", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

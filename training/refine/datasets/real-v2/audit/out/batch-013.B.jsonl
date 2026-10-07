@@ -1,0 +1,50 @@
+{"id": "s2-W2-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0102", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0103", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pick lost as Let me up"}
+{"id": "s2-W2-0104", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0105", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0110", "decision": "fix_clean", "clean": "What time does the Target on Oak Street close on Sundays?", "reason": "guide_violation", "note": "missing ?"}
+{"id": "s2-W2-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0113", "decision": "drop", "reason": "unrecoverable_meaning", "note": "toggle heard as pal"}
+{"id": "s2-W2-0114", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W2-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0116", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "here"}
+{"id": "s2-W2-0117", "decision": "fix_clean", "clean": "I cannot make it on Saturday. How about Sunday?", "reason": "dropped_by_recognizer", "note": "morning lost"}
+{"id": "s2-W2-0118", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0120", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W2-0121", "decision": "fix_clean", "clean": "We have four open tickets.", "reason": "dropped_by_recognizer", "note": "billing service lost"}
+{"id": "s2-W2-0122", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W2-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0124", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0126", "decision": "fix_clean", "clean": "Anyone have a spare USB-C charger, not the old kind?", "reason": "guide_violation", "note": "not the old kind was said and is content"}
+{"id": "s2-W2-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0128", "decision": "drop", "reason": "unrecoverable_meaning", "note": "nair lost"}
+{"id": "s2-W2-0129", "decision": "fix_clean", "clean": "The party is at 8 at Sam's place. Bring snacks if you...", "reason": "trailing_off", "note": "can lost; raw ends on if you"}
+{"id": "s2-W2-0130", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W2-0131", "decision": "fix_clean", "clean": "Two options for the logo, the blue one, the green one. We pick the green one because it prints better.", "reason": "guide_violation", "note": "added and; follow raw verb form"}
+{"id": "s2-W2-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0133", "decision": "fix_clean", "clean": "This should return an empty list, not null, because callers iterate over...", "reason": "trailing_off", "note": "without checking lost; not null was said"}
+{"id": "s2-W2-0134", "decision": "fix_clean", "clean": "Authentication uses OAuth 2 with PKCE.", "reason": "dropped_by_recognizer", "note": "tokens expire clause lost"}
+{"id": "s2-W2-0135", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W2-0136", "decision": "fix_clean", "clean": "Who won the World Cup in 2022?", "reason": "guide_violation", "note": "missing ?"}
+{"id": "s2-W2-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0138", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "sign it off"}
+{"id": "s2-W2-0139", "decision": "drop", "reason": "hallucination", "note": "Thank you."}
+{"id": "s2-W2-0140", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W2-0141", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0142", "decision": "drop", "reason": "unrecoverable_meaning", "note": "share sheet lost"}
+{"id": "s2-W2-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0146", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W2-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0150", "decision": "accept", "reason": "ok"}

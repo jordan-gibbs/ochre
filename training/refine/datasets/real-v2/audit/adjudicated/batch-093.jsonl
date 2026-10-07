@@ -1,0 +1,3 @@
+{"id": "s4-W12-0014", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "A: 'uh' became the real word 'you' ('you make that 25K' reads as content)"}
+{"id": "s4-W12-0041", "decision": "fix_clean", "clean": "Hey, it's Chitty. The call time 6:45 at the loading dock.", "reason": "unrecoverable_word", "note": "A: name from raw 'chitty'; 'is' dropped by recognizer, not re-inserted"}
+{"id": "s4-W12-0046", "decision": "fix_clean", "clean": "And you ask Gamir to bring the generator and the two lights from the truck.", "reason": "unrecoverable_word", "note": "B: 'Can' heard as 'And' not inferable; Gamir from raw; every word traceable"}

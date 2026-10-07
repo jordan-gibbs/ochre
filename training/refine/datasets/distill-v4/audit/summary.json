@@ -1,0 +1,33 @@
+{
+ "audited": 2434,
+ "auditor_agreement": 0.965,
+ "final": {
+  "accept": 2265,
+  "fix_clean": 141,
+  "drop": 20
+ },
+ "bad_slices": [
+  "claude/sonnet|self_correction_long",
+  "claude/sonnet|work_detailed"
+ ],
+ "counts": {
+  "unaudited_kept": 21603,
+  "audited_accept": 2254,
+  "audited_fix": 134,
+  "audited_drop": 19,
+  "slice_removed": 183
+ },
+ "rows_out": 23991,
+ "by_writer": {
+  "claude/sonnet": {
+   "accept": 712,
+   "fix_clean": 47,
+   "drop": 5
+  },
+  "codex/gpt-6-astra": {
+   "accept": 1553,
+   "fix_clean": 94,
+   "drop": 15
+  }
+ }
+}

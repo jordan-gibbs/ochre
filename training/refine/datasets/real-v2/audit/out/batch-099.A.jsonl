@@ -1,0 +1,50 @@
+{"id": "s4-W15-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0003", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value Porto heard as 'portion'; correction unresolvable"}
+{"id": "s4-W15-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Elif heard as 'I left'; 'Call I left Monday' not sensible"}
+{"id": "s4-W15-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0014", "decision": "fix_clean", "clean": "The bathroom tile is gray.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'gray'"}
+{"id": "s4-W15-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "correction cue 'no' heard as 'of'; correction unresolvable"}
+{"id": "s4-W15-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'four three, hanging on four four' garbled"}
+{"id": "s4-W15-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0023", "decision": "fix_clean", "clean": "Tell Mahamed the code is ready.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary: raw spelling Mahamed"}
+{"id": "s4-W15-0024", "decision": "fix_clean", "clean": "Hi Giorgio, I wanted to confirm the booking for the Amalfi trip. Six nights starting June 3rd.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it's' absent from raw"}
+{"id": "s4-W15-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hassan->Allen, rerun->run, suite->sweep: 3 places in short dictation"}
+{"id": "s4-W15-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0027", "decision": "fix_clean", "clean": "This spin class is at 7 a.m. on Thursdays.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'This'"}
+{"id": "s4-W15-0028", "decision": "fix_clean", "clean": "We need to order the granite countertop.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'eighty inches long' absent from raw"}
+{"id": "s4-W15-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0031", "decision": "fix_clean", "clean": "It's actually a lot cheaper if we book Shellhead.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'shuttle ahead' heard as 'Shellhead'"}
+{"id": "s4-W15-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Elif's heard as 'a lift's'; not sensible"}
+{"id": "s4-W15-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0038", "decision": "fix_clean", "clean": "Please put three seats on the morning train to Florence.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'put' not 'book'"}
+{"id": "s4-W15-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'no sorry' merged into 'Nosari', reads as surname; correction unresolvable"}
+{"id": "s4-W15-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0044", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled"}
+{"id": "s4-W15-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0050", "decision": "drop", "reason": "garbage", "note": "raw empty"}

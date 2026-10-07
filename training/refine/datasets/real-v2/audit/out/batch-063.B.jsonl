@@ -1,0 +1,50 @@
+{"id": "s2-W7-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0102", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0103", "decision": "fix_clean", "clean": "What's the best way to handle this in Go? Should I return an error or pick?", "reason": "unrecoverable_word", "note": "raw has 'pick'"}
+{"id": "s2-W7-0104", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'a is' for 'uh use'"}
+{"id": "s2-W7-0105", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled; clean adds quotes/not"}
+{"id": "s2-W7-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0107", "decision": "fix_clean", "clean": "The Dockerfile is installing the dependencies in the final image. Make it a multi-stage build so the final image only has the production dependencies and run through non-root user.", "reason": "dropped_by_recognizer", "note": "dev dropped; 'runs as a' heard as 'run through'"}
+{"id": "s2-W7-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0110", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0113", "decision": "drop", "reason": "unrecoverable_meaning", "note": "FIXME/breaks/UTC garbled"}
+{"id": "s2-W7-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0118", "decision": "fix_clean", "clean": "We retry up to 5 times with a 2-second delay because the license server is flaky on start.", "reason": "unrecoverable_word", "note": "raw 'start' not 'startup'"}
+{"id": "s2-W7-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0122", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hug Hug for hack, hack"}
+{"id": "s2-W7-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0124", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W7-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0128", "decision": "fix_clean", "clean": "Bug: the export button does nothing in Firefox. Works fine in Chrome. Console shows a Content Security Policy error.", "reason": "guide_violation", "note": "added 'The'"}
+{"id": "s2-W7-0129", "decision": "fix_clean", "clean": "The login page returns a 500 when the email has a plus sign in it. I think we are not URL-encoding it.", "reason": "guide_violation", "note": "contraction not spoken"}
+{"id": "s2-W7-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0131", "decision": "fix_clean", "clean": "Expected behavior: the modal closes when you click outside of it. Actual behavior: nothing happens.", "reason": "guide_violation", "note": "undictated line break"}
+{"id": "s2-W7-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0133", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0134", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0136", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0138", "decision": "fix_clean", "clean": "Yesterday I reviewed two PRs and paired with Dana on the cache bug. Today I am picking up the OAuth ticket. Blocked on the client secret from DevOps.", "reason": "guide_violation", "note": "contraction not spoken"}
+{"id": "s2-W7-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0140", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W7-0141", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0142", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0143", "decision": "drop", "reason": "unrecoverable_meaning", "note": "I'll dropped, heap dump heard as heat up"}
+{"id": "s2-W7-0144", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many recognizer errors"}
+{"id": "s2-W7-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0146", "decision": "fix_clean", "clean": "To-do for tomorrow:\n- Fix the flaky test\n- Update the dependency\n- Answer Praya about the schema", "reason": "unrecoverable_word", "note": "name not in dictionary; raw spelling"}
+{"id": "s2-W7-0147", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Russ/sink/trade"}
+{"id": "s2-W7-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0150", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled"}

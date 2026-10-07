@@ -1,0 +1,50 @@
+{"id": "e4-E9-0001", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pool/bag/click garbles, whole clause dropped, invented \"not the same\""}
+{"id": "e4-E9-0003", "decision": "drop", "reason": "hallucination", "note": "raw adds \"the floor.\" never said"}
+{"id": "e4-E9-0004", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0005", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Kofi->Bofie and request garbled into \"But you emailed around four\""}
+{"id": "e4-E9-0007", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0008", "decision": "fix_clean", "clean": "The proofing room should stay at 78 degrees overnight. The humidity drops below... Someone has to check the sensor at 5 a.m. and log the reading on the clipboard by the door.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "\"if\" dropped by recognizer"}
+{"id": "e4-E9-0009", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0010", "decision": "fix_clean", "clean": "The readout calibration script fails whenever the fridge temperature goes above 20 millikelvin. It doesn't throw an error, it just writes empty files, and I think it's because the threshold is hard-coded in there.", "reason": "trailing_off", "rules": ["RECOVER", "R4"], "note": "raw ends \"in there.\" so trailing off no longer visible"}
+{"id": "e4-E9-0011", "decision": "fix_clean", "clean": "Ask Myril about the invoice for the...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Mireille not in dictionary"}
+{"id": "e4-E9-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"isn't rising\" became \"is it rising\"; correction unresolvable"}
+{"id": "e4-E9-0013", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0015", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0016", "decision": "fix_clean", "clean": "Nassio, the new laser for the ion trap is going to... The vendor call about the laser moved to Thursday at 2.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Ignacio not in dictionary"}
+{"id": "e4-E9-0017", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Yusra did you\" heard as \"You should\""}
+{"id": "e4-E9-0019", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "entire request lost"}
+{"id": "e4-E9-0021", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"retries the pulse sequence\" heard as \"is the same thing\""}
+{"id": "e4-E9-0024", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is only \"We're sure.\""}
+{"id": "e4-E9-0026", "decision": "fix_clean", "clean": "Myrill is out today, so if the patient's family calls about the bridge, don't promise them a date, because the shade tab they sent was the wrong one and we had to request another photo. Just tell them the lab is still waiting on...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Mireille not in dictionary; raw MyRill"}
+{"id": "e4-E9-0027", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\" never said; brioche dough also garbled"}
+{"id": "e4-E9-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0029", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0030", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0031", "decision": "fix_clean", "clean": "The scanner in the back room keeps losing calibration. The replacement part arrives Friday, and Zofia will install it before the afternoon cases.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "\"whenever someone opens the\" dropped"}
+{"id": "e4-E9-0032", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"hello bartholomew\" heard as \"All of our following you\""}
+{"id": "e4-E9-0033", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "e4-E9-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Yusra heard as \"You sweet\""}
+{"id": "e4-E9-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"dog rumors ... to do\" garbled"}
+{"id": "e4-E9-0036", "decision": "fix_clean", "clean": "Give me five name ideas for mobile dog grooming van that sound friendly but not too...", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "\"a\" dropped by recognizer"}
+{"id": "e4-E9-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Tendai/rota/croissant/break garbled in several places"}
+{"id": "e4-E9-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Mireille dropped and ceremony heard as tenement"}
+{"id": "e4-E9-0040", "decision": "fix_clean", "clean": "We convert the scan margin line into a spline before export.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has \"scan\", not \"scanned\""}
+{"id": "e4-E9-0041", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0042", "decision": "fix_clean", "clean": "Pick up the dog shampoo from the supplier tomorrow.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "correction \"get\" lost; raw only has \"pick up the\""}
+{"id": "e4-E9-0043", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0044", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Zircomiachroms crafter\" garbled"}
+{"id": "e4-E9-0045", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0046", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0048", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0049", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0050", "decision": "accept", "reason": "ok"}

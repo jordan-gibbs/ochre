@@ -1,0 +1,4 @@
+{"id": "s4-W19-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"Draft order\" heard as \"Bath order\"; raw-form target is not sensible"}
+{"id": "s4-W19-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"picking last\" became \"he king wise\""}
+{"id": "s4-W19-0075", "decision": "accept", "reason": "ok", "note": "A: \"shut list\" is a near homophone of \"shot list\", inferable from portraits/group photo"}
+{"id": "s4-W19-0087", "decision": "fix_clean", "clean": "Budget is $800 and the lenses alone are half of that.", "reason": "dropped_by_recognizer", "note": "A: raw lacks \"The\"; clean follows raw"}

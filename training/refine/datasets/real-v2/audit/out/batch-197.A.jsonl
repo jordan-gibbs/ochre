@@ -1,0 +1,10 @@
+{"id": "s4-W64-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'manifest rechecked before we push back' -> 'manifesto check.'"}
+{"id": "s4-W64-0092", "decision": "fix_clean", "clean": "Hi Mina, thanks for the draft. The budget section is good, but the totals on page 4 don't add up. The subtotal says 9,600 and the line items sum to 9,800. Please fix that and also remove the line for the old server, which we cancelled in March.", "reason": "guide_violation", "rules": ["R10"], "note": "dollars never said"}
+{"id": "s4-W64-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "$85 -> 'E five dollars', ninth -> 'night'"}
+{"id": "s4-W64-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Vera -> 'Here', shift 'two to eight' -> 'to eight'"}
+{"id": "s4-W64-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hi bodhi' -> 'I bought High.'"}
+{"id": "s4-W64-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0100", "decision": "accept", "reason": "ok"}

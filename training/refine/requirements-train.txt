@@ -1,0 +1,21 @@
+# Training venv (Python 3.12, Windows, RTX 5070 Ti / sm_120). Install:
+#   uv venv --python 3.12 .venv-train-refine
+#   uv pip install --python .venv-train-refine/Scripts/python.exe torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+#   uv pip install --python .venv-train-refine/Scripts/python.exe -r requirements-train.txt -e .llama.cpp/gguf-py
+# flash-linear-attention (+ triton-windows) is required for speed: without it the Gated DeltaNet
+# layers fall back to the torch reference and training is ~20x slower.
+accelerate==1.15.0
+datasets==5.0.1
+einops==0.8.2
+fla-core==0.5.2
+flash-linear-attention==0.5.2
+httpx==0.28.1
+numpy==2.5.3
+peft==0.21.2
+protobuf==7.36.2
+pyyaml==6.0.3
+safetensors==0.8.0
+sentencepiece==0.2.2
+tokenizers==0.23.2
+transformers==5.18.0
+triton-windows==3.7.1.post27

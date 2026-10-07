@@ -1,0 +1,80 @@
+name: Bug report
+description: Something doesn't work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. For security problems, please use **Security > Report a vulnerability** instead.
+        Please remove anything private (dictated text, API keys) from logs before pasting.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Hold the voice key in ...
+        2. Say ...
+        3. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Linux (X11)
+        - Linux (Wayland)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version / distro
+      placeholder: e.g. Windows 11 24H2, macOS 15.3, Ubuntu 24.04 GNOME
+  - type: input
+    id: version
+    attributes:
+      label: Ochre version or commit
+      placeholder: e.g. v0.1.0 or a1b2c3d (Settings > About)
+    validations:
+      required: true
+  - type: input
+    id: engine
+    attributes:
+      label: Speech engine and cleanup model
+      placeholder: e.g. Parakeet (CPU), refine auto -> ochre-refine-2b (CUDA); or OpenAI gpt-transcribe
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware
+      placeholder: e.g. Ryzen 7 7840U, 32 GB, no discrete GPU
+  - type: textarea
+    id: timings
+    attributes:
+      label: timings.jsonl snippet (for speed problems)
+      description: |
+        The last few lines of `timings.jsonl` from the Ochre data directory
+        (Windows: `%LOCALAPPDATA%\ochre\data`, macOS: `~/Library/Application Support/ochre`,
+        Linux: `~/.local/share/ochre`). The log is written when `debug.log_timings = true` in
+        `config.toml`. It contains timings, character counts and engine ids only, no dictated text.
+      render: json
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant log lines, with private text removed.
+      render: text

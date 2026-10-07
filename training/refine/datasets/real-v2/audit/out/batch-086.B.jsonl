@@ -1,0 +1,50 @@
+{"id": "s2-W10-0051", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected time 2:30 and Call/mockups lost"}
+{"id": "s2-W10-0054", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0055", "decision": "fix_clean", "clean": "I have a Python script that reads a CSV and it's really slow, it takes 10 minutes for 100,000 rows, so what are some ways to speed it up, and shouldn't I be using pandas?", "reason": "unrecoverable_word", "note": "raw has shouldn't"}
+{"id": "s2-W10-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0059", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0060", "decision": "fix_clean", "clean": "This rejects is kind of ugly but it handles the edge cases from the legacy for life.", "reason": "unrecoverable_word", "note": "regex/format misheard"}
+{"id": "s2-W10-0061", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several garbled words"}
+{"id": "s2-W10-0062", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0063", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0064", "decision": "fix_clean", "clean": "Hi Jordan, I really appreciate the feedback on the draft, and I've already incorporated most of it, I'll send a new version over by Friday.", "reason": "unrecoverable_word", "note": "raw appreciate / a new"}
+{"id": "s2-W10-0065", "decision": "fix_clean", "clean": "I'm building a dashboard for my team and I need some help, can you suggest a layout that kind of puts the most important metrics at the top, and keep the details below, and don't write any code yet, just describe it.", "reason": "unrecoverable_word", "note": "raw has keep"}
+{"id": "s2-W10-0066", "decision": "drop", "reason": "unrecoverable_meaning", "note": "budget clause garbled, didn't share, hint count"}
+{"id": "s2-W10-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heads up/demo/moved garbled"}
+{"id": "s2-W10-0071", "decision": "fix_clean", "clean": "Hi Marcus, I wanted to follow up on our conversation from Tuesday, the one about the renewals, and let you know that we can offer a 10% discount if you sign by the end of the month.", "reason": "unrecoverable_word", "note": "raw renewals"}
+{"id": "s2-W10-0072", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0073", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "starts and org lost, Sorry it's Monday ambiguous"}
+{"id": "s2-W10-0075", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0077", "decision": "drop", "reason": "non_english", "note": "trailing 'Hör.' artifact"}
+{"id": "s2-W10-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "unfair, most of, for misheard"}
+{"id": "s2-W10-0079", "decision": "fix_clean", "clean": "Hi Pria, thanks for the intro. I'd love to chat with Marcus next week.", "reason": "unrecoverable_word", "note": "name spelling from raw"}
+{"id": "s2-W10-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "if/after/parked misheard"}
+{"id": "s2-W10-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "about, Postgres, Mongo lost"}
+{"id": "s2-W10-0082", "decision": "fix_clean", "clean": "When you lose connection while it's open, it shows a blank screen instead of the offline banner, and the banner works if you start offline, so it's kind of only the transition that's broken.", "reason": "guide_violation", "note": "'the app' not said"}
+{"id": "s2-W10-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "end of sentence garbled 'a book, Buddy'"}
+{"id": "s2-W10-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0086", "decision": "fix_clean", "clean": "Decisions, we go with vendor C and revisit price in January.", "reason": "unrecoverable_word", "note": "raw price"}
+{"id": "s2-W10-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "an int not a lost"}
+{"id": "s2-W10-0088", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0089", "decision": "fix_clean", "clean": "The permissions model is kind of confusing at first, so here's the short version, an admin can do everything, the editor can change content but not settings, and a viewer can only read, and if you need something in between you can create a custom role.", "reason": "unrecoverable_word", "note": "raw the editor"}
+{"id": "s2-W10-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "workaround/Safari lost"}
+{"id": "s2-W10-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value async not recoverable"}
+{"id": "s2-W10-0092", "decision": "fix_clean", "clean": "The order of these checks matters, because the first one short circuits, and if you swap them you'll get the null pointer.", "reason": "unrecoverable_word", "note": "raw the"}
+{"id": "s2-W10-0093", "decision": "fix_clean", "clean": "Thanks, sir, I'll review the contract tonight and get back to you by end of day tomorrow.", "reason": "unrecoverable_word", "note": "name misheard as sir"}
+{"id": "s2-W10-0094", "decision": "fix_clean", "clean": "We got 4.", "reason": "unrecoverable_word", "note": "Meet at lost"}
+{"id": "s2-W10-0095", "decision": "fix_clean", "clean": "The pipe point has four stages, in chest, validate, transform, and load, and each stage can fail independently, so you'll want to monitor them separately, with a dashboard that shows the failure rate for each one.", "reason": "unrecoverable_word", "note": "pipeline/ingest misheard"}
+{"id": "s2-W10-0096", "decision": "fix_clean", "clean": "Search results are out of order when you sort by relevance and then filter.", "reason": "dropped_by_recognizer", "note": "'the' not in raw"}
+{"id": "s2-W10-0097", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0098", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W10-0099", "decision": "fix_clean", "clean": "Notes from the product sync. First, the bait signups are at about 2,000, which is kind of higher than we expected. Second, the onboarding drop off is still a problem, it's 40% at step 2. Third, we agreed to prioritize the fix for that before adding new features.", "reason": "unrecoverable_word", "note": "beta heard as bait"}
+{"id": "s2-W10-0100", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}

@@ -1,0 +1,11 @@
+{"id": "s2-W7-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'PR' heard as 'VR' and 'flag' as 'fight'; target cannot follow raw without reading the speaker's mind, and following raw gives 'VR description... feature fight lookup'"}
+{"id": "s2-W7-0059", "decision": "fix_clean", "clean": "Nice cleanup. I like that you remove the global...", "reason": "trailing_off", "note": "with B: 'state' lost so raw ends mid-thought; raw has 'remove', and the tense cannot be recovered"}
+{"id": "s2-W7-0060", "decision": "accept", "reason": "ok", "note": "with A: 'unsquared' is a merged form of 'n squared'; after 'nested loop' it clearly means O(n²)"}
+{"id": "s2-W7-0063", "decision": "fix_clean", "clean": "git commit -m \"fix handle empty response in the retry launcher\"", "reason": "unrecoverable_word", "note": "with A: raw has 'launcher' for 'logic' and lost the spoken 'colon', so no colon"}
+{"id": "s2-W7-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "with B: '-i' cannot be recovered from 'dash ahead', and 'till the' for tilde makes it a guess"}
+{"id": "s2-W7-0066", "decision": "fix_clean", "clean": "git push origin features/oauth-login", "reason": "unrecoverable_word", "note": "with B: raw has 'features'; 'Oath' is a near form of OAuth"}
+{"id": "s2-W7-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "with B: 'Return to', 'if it's silver', 'That's the client' leave 3 garbled places"}
+{"id": "s2-W7-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "with A: 'Roots errors' cannot be read as 'groups errors', and following raw would not make sense"}
+{"id": "s2-W7-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'tomls' heard as 'tunnels' can't be recovered; 'update the cargo tunnels' does not make sense, and the target also added 'files'"}
+{"id": "s2-W7-0095", "decision": "fix_clean", "clean": "Can you explain the difference between what this function does and the other one in a helpers file? They look the same to me.", "reason": "unrecoverable_word", "note": "with A: raw has 'a' for 'the'"}
+{"id": "s2-W7-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "with A: 'API' (OPN) and 'dry run' (R mode) are both lost"}

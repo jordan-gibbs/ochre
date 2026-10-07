@@ -1,0 +1,50 @@
+{"id": "s2-W3-0201", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0203", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0204", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0205", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I Beau' for 'hi both', 'tenet' for '10 AM', plus 'a first'/'agree' substitutions: too many places"}
+{"id": "s2-W3-0206", "decision": "fix_clean", "clean": "So I talked to the client and here's the thing. She said, \"We love the direction, but the logo needs to be bigger.\" And then she said, \"Also, can we make it pop?\" which is like, what does that even mean? Anyway, she wants a new round by Wednesday, so we have about two days.", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "raw has the contraction 'here's'"}
+{"id": "s2-W3-0207", "decision": "fix_clean", "clean": "I need help planning a birthday party for my daughter, who is turning seven. We will have around 15 kids. The party is at our house on Saturday the 8th, 2 to 4. My budget is about $300. Can you suggest a theme, a menu, and a list of activities? And please make sure everything is nut-free.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'from' before '2 to 4' missing in raw"}
+{"id": "s2-W3-0208", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0209", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'four dots is B' for '04.csv' and 'For sure it ranges' for 'For shorter ranges'"}
+{"id": "s2-W3-0210", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0211", "decision": "fix_clean", "clean": "I am interested in the used bike you listed for $350. Is it still available? And would you take $300 cash if I can pick it up this weekend? I can come Saturday morning around 10.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hi' lost; raw 'I I' reads as a stutter"}
+{"id": "s2-W3-0212", "decision": "fix_clean", "clean": "We use our advisory lock here so that only one worker can run the migration at a time. The lock ID is 42, which is arbitrary, but it has to be the same across all workers. If PostgreSQL restarts, the lock is released automatically.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'our' for 'a'"}
+{"id": "s2-W3-0213", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0214", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ending 'so I lost some time' became 'So I'm awesome'; 'On Blocker's part'"}
+{"id": "s2-W3-0215", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0216", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0217", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0218", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lol' -> 'Well', 'CI' -> 'side'"}
+{"id": "s2-W3-0219", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0220", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0221", "decision": "drop", "reason": "unrecoverable_meaning", "note": "phone number lost '55' ('same five. Oh one four seven')"}
+{"id": "s2-W3-0222", "decision": "fix_clean", "clean": "To run the tests, use python -m pytest and expect around 300 tests.", "reason": "trailing_off", "rules": ["RECOVER"], "note": "raw ends after 'three hundred tests'"}
+{"id": "s2-W3-0223", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0224", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0225", "decision": "drop", "reason": "hallucination", "note": "raw appends a trailing 'but' never said"}
+{"id": "s2-W3-0226", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0227", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0229", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I want you to share', 'Would say' (I dropped), 'Which brought five' for 'which blocks about five'"}
+{"id": "s2-W3-0230", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'books', 'first date', 'K day', missing 'If': more than 2 places"}
+{"id": "s2-W3-0231", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Italy trip' lost 'trip', 'had' for 'have', 'and' for 'AM'"}
+{"id": "s2-W3-0232", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'building we're right' for 'billing rewrite', 'Or Venture' for 'mentored', 'feels quiet'"}
+{"id": "s2-W3-0233", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'that water's' for 'to /orders', 'connection full metric', 'Ritty's'"}
+{"id": "s2-W3-0234", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'For' ('For one vegetarian'), plus 'works up to', 'And you ... like tomorrow'"}
+{"id": "s2-W3-0235", "decision": "fix_clean", "clean": "Getting started with the design system: the system is built on a 4-pixel grid, so all spacing values are multiples of 4. The type scale has seven sizes ranging from 12 to 48 pixels. Colors are defined as tokens, and you should never use raw hex values in code. For example, use colour-primary-500 and not the hex code. All components are documented in Figma and mirrored in Storybook. When in doubt, check the Figma file first because it is the source of truth.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'colour'"}
+{"id": "s2-W3-0236", "decision": "fix_clean", "clean": "So update, the flight got delayed by like 2 hours. Now it lands at 11:40 instead of 9:40. I already told the Uber to push the pickup. Can you let Mom know? Also tell her I am not hungry because they gave us the sandwich.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the sandwich'"}
+{"id": "s2-W3-0237", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0238", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Ain't everyone', 'And sir' for 'third', 'Santa's' for 'Sandra's', 'or' dropped"}
+{"id": "s2-W3-0239", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'fruit and the income', 'inquis', 'said as'"}
+{"id": "s2-W3-0240", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'at peak' lost, 'bottom', 'Can I switch the poster', 'fit', 'plan' lost"}
+{"id": "s2-W3-0241", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W3-0242", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0243", "decision": "fix_clean", "clean": "She wrote, and I quote, \"Please send a signed form by noon on Friday.\"", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a' for 'the'"}
+{"id": "s2-W3-0244", "decision": "fix_clean", "clean": "How many calories in a medium banana?", "reason": "guide_violation", "rules": ["R6", "R11"], "note": "raw already clean; question needs '?'"}
+{"id": "s2-W3-0245", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0246", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0247", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0248", "decision": "fix_clean", "clean": "Dear Mr. Nguyen, thank you for your letter of 3rd of August regarding the delay in construction. We sincerely apologize for the inconvenience. The delay was caused by unexpected rain over the past three weeks as well as a shortage of steel. We now expect the building to be completed by the 30th of November, which is six weeks later than originally planned. As a gesture of goodwill, we would like to offer a credit of 5% of the contract value. Please contact me directly at 415-555-0139 if you would like to discuss this further.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'the' before '3rd of August' missing in raw"}
+{"id": "s2-W3-0249", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'and' ('and so call at one thirty five')"}
+{"id": "s2-W3-0250", "decision": "fix_clean", "clean": "Conversation with Grandpa. He told me about the time he drove across the country in 1968 with just $200. It took him 12 days, and he slept in the car most nights. He said gas was 30 cents a gallon back then. He also said the best meal of the whole trip was a plate of pancakes in Nebraska that cost a dollar fifty. I want to record and tell the story properly before the family reunion on the 8th of August.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'record and tell' for 'record him telling'"}

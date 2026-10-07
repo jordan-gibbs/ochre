@@ -1,0 +1,1922 @@
+[
+ {
+  "file": "D001",
+  "names": [
+   "Julia",
+   "Chloe",
+   "Lukas",
+   "Amara",
+   "Antonio",
+   "Sami",
+   "Beatriz",
+   "Laura"
+  ],
+  "topics": [
+   "a conference organizer",
+   "a cat owner",
+   "a municipal water utility",
+   "a camping weekend",
+   "a cycling team",
+   "a farmers market stall",
+   "a landlord",
+   "a courthouse"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D002",
+  "names": [
+   "Gabriel",
+   "Babajide",
+   "Selin",
+   "Marta",
+   "Anders",
+   "Sofia",
+   "Caleb",
+   "Fatima"
+  ],
+  "topics": [
+   "a construction site",
+   "a nursing home",
+   "a city council",
+   "a newspaper",
+   "a carpool",
+   "a gaming community",
+   "a roommate chat",
+   "a landlord"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D003",
+  "names": [
+   "Chiara",
+   "Sana",
+   "Bruno",
+   "Tamar",
+   "Jin",
+   "Simone",
+   "Deepa",
+   "Bianca"
+  ],
+  "topics": [
+   "a logistics warehouse",
+   "an e-commerce shop",
+   "a data science team",
+   "a cooking class",
+   "a construction site",
+   "a mortgage broker",
+   "a home brewer",
+   "a car rental"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D004",
+  "names": [
+   "Mateo",
+   "Jonas",
+   "Nasser",
+   "Theo",
+   "Mohammed",
+   "Lars",
+   "Jamal",
+   "Giorgio"
+  ],
+  "topics": [
+   "a law firm",
+   "a photography business",
+   "a customer support desk",
+   "a scout troop",
+   "a gym owner",
+   "a fishing trip",
+   "a wedding guest (not planner)",
+   "a hospital IT team"
+  ],
+  "emphasis": "more self-corrections (30%)"
+ },
+ {
+  "file": "D005",
+  "names": [
+   "Isaac",
+   "Wei",
+   "Antonio",
+   "Bruno",
+   "Rania",
+   "Maria",
+   "Damian",
+   "Keanu"
+  ],
+  "topics": [
+   "a hiking group",
+   "a surf school",
+   "a landlord",
+   "a car dealership",
+   "a crypto hobbyist",
+   "a summer camp",
+   "a wedding guest (not planner)",
+   "a yoga studio"
+  ],
+  "emphasis": "more filler contrast (30%)"
+ },
+ {
+  "file": "D006",
+  "names": [
+   "Valentina",
+   "Pedro",
+   "Tess",
+   "Mohammed",
+   "Annika",
+   "Babajide",
+   "Hector",
+   "Nikhil"
+  ],
+  "topics": [
+   "a cooking class",
+   "a construction site",
+   "a stock trading hobbyist",
+   "a hospital IT team",
+   "a restaurant kitchen",
+   "an optometrist",
+   "a woodworking shop",
+   "a bank branch"
+  ],
+  "emphasis": "more long dictations (25%)"
+ },
+ {
+  "file": "D007",
+  "names": [
+   "Naomi",
+   "Kirsten",
+   "Dana",
+   "Yara",
+   "Bodhi",
+   "Paolo",
+   "Anders",
+   "Erik"
+  ],
+  "topics": [
+   "a road trip",
+   "a game studio",
+   "a physiotherapy practice",
+   "a nursing home",
+   "a pizza place",
+   "a home brewer",
+   "a customer support desk",
+   "a hotel front desk"
+  ],
+  "emphasis": "more numbers (25%)"
+ },
+ {
+  "file": "D008",
+  "names": [
+   "Milan",
+   "Maeve",
+   "Sean",
+   "Ines",
+   "Chen",
+   "Maya",
+   "Marco",
+   "Laila"
+  ],
+  "topics": [
+   "an elementary school",
+   "a payroll team",
+   "a hiking group",
+   "a cybersecurity team",
+   "a language exchange",
+   "a TV production",
+   "a museum guard (not exhibit)",
+   "a law firm"
+  ],
+  "emphasis": "more AI prompts (25%)"
+ },
+ {
+  "file": "D009",
+  "names": [
+   "Hannah",
+   "Irene",
+   "Abdul",
+   "Chidi",
+   "Maria",
+   "Ruth",
+   "Leila",
+   "Yara"
+  ],
+  "topics": [
+   "a synagogue event committee",
+   "a florist",
+   "a retiree",
+   "a coffee shop",
+   "a podcast listener",
+   "a pizza place",
+   "a nursing home",
+   "a ferry company"
+  ],
+  "emphasis": "more casual texting (25%)"
+ },
+ {
+  "file": "D010",
+  "names": [
+   "Luis",
+   "Bianca",
+   "Nora",
+   "Maeve",
+   "Anders",
+   "Dina",
+   "Annika",
+   "Emil"
+  ],
+  "topics": [
+   "a city bus driver",
+   "a hospital ward",
+   "a fantasy football league",
+   "a wedding guest (not planner)",
+   "a coffee shop",
+   "a design system team",
+   "a DevOps on-call rotation",
+   "a hiking group"
+  ],
+  "emphasis": "more technical/terminal (25%)"
+ },
+ {
+  "file": "D011",
+  "names": [
+   "Sami",
+   "Benedikt",
+   "Laura",
+   "Yasmin",
+   "Ahmed",
+   "Antonio",
+   "Emil",
+   "Lina"
+  ],
+  "topics": [
+   "a hiking group",
+   "a plumbing company",
+   "a woodworking shop",
+   "an airline crew",
+   "a kindergarten teacher",
+   "a fire station",
+   "a farm co-op",
+   "a museum guard (not exhibit)"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D012",
+  "names": [
+   "Nasser",
+   "Nina",
+   "Nora",
+   "Joao",
+   "Aurora",
+   "Chiara",
+   "Bianca",
+   "Keanu"
+  ],
+  "topics": [
+   "a public library",
+   "a chemistry lab",
+   "a hospital ward",
+   "an immigration lawyer",
+   "a bank branch",
+   "a mortgage broker",
+   "a nail salon",
+   "an accounting firm"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D013",
+  "names": [
+   "Chidi",
+   "Sara",
+   "Ahmed",
+   "Rosa",
+   "Jamal",
+   "Babajide",
+   "Hana",
+   "Reza"
+  ],
+  "topics": [
+   "an airline crew",
+   "a hotel front desk",
+   "an ML research group",
+   "a nonprofit",
+   "a car rental",
+   "a hackathon",
+   "a running club",
+   "a theater ticket office"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D014",
+  "names": [
+   "Fatima",
+   "Yara",
+   "Dominik",
+   "Gabriel",
+   "Maeve",
+   "Felix",
+   "Elias",
+   "Reza"
+  ],
+  "topics": [
+   "a fishing trip",
+   "an ML research group",
+   "a book club",
+   "a recruiting firm",
+   "a sales engineer",
+   "a product launch",
+   "a marathon training group",
+   "a woodworking shop"
+  ],
+  "emphasis": "more self-corrections (30%)"
+ },
+ {
+  "file": "D015",
+  "names": [
+   "Milan",
+   "Kiara",
+   "Laura",
+   "Astrid",
+   "Esther",
+   "Bianca",
+   "Felix",
+   "Nico"
+  ],
+  "topics": [
+   "a marketing agency",
+   "a university lab",
+   "a mortgage broker",
+   "a library volunteer",
+   "a DevOps on-call rotation",
+   "a chemistry lab",
+   "a woodworking shop",
+   "a cybersecurity team"
+  ],
+  "emphasis": "more filler contrast (30%)"
+ },
+ {
+  "file": "D016",
+  "names": [
+   "Bruno",
+   "Lucia",
+   "Elias",
+   "Nina",
+   "Dario",
+   "Mehmet",
+   "Karim",
+   "Ayesha"
+  ],
+  "topics": [
+   "a nursing home",
+   "a student writing a thesis",
+   "a ferry company",
+   "a cybersecurity team",
+   "a home renovation",
+   "a knitting circle",
+   "a florist",
+   "a book club"
+  ],
+  "emphasis": "more long dictations (25%)"
+ },
+ {
+  "file": "D017",
+  "names": [
+   "Chloe",
+   "Uma",
+   "Nasser",
+   "Chidi",
+   "Yara",
+   "Valentina",
+   "Nikhil",
+   "Kiara"
+  ],
+  "topics": [
+   "a holiday trip",
+   "a game studio",
+   "a bank branch",
+   "a TV production",
+   "a design system team",
+   "a gym owner",
+   "a garden allotment",
+   "a farmers market stall"
+  ],
+  "emphasis": "more numbers (25%)"
+ },
+ {
+  "file": "D018",
+  "names": [
+   "Dominik",
+   "Enzo",
+   "Aiko",
+   "Grace",
+   "Ivan",
+   "Petra",
+   "Gabriel",
+   "Tomas"
+  ],
+  "topics": [
+   "a telecom support team",
+   "a product launch",
+   "a board game cafe",
+   "a landlord",
+   "a game studio",
+   "a construction site",
+   "an HR department",
+   "a gamer"
+  ],
+  "emphasis": "more AI prompts (25%)"
+ },
+ {
+  "file": "D019",
+  "names": [
+   "Theo",
+   "Reza",
+   "Maria",
+   "Petra",
+   "Carlos",
+   "Ruth",
+   "Chloe",
+   "Rohan"
+  ],
+  "topics": [
+   "a new parent",
+   "a band",
+   "a city bus driver",
+   "a law firm",
+   "a QA team",
+   "a hiking group",
+   "a landscaping business",
+   "a gym"
+  ],
+  "emphasis": "more casual texting (25%)"
+ },
+ {
+  "file": "D020",
+  "names": [
+   "Nikhil",
+   "Yuki",
+   "Bruno",
+   "Shira",
+   "Anders",
+   "Kai",
+   "Reza",
+   "Rosa"
+  ],
+  "topics": [
+   "a library volunteer",
+   "a family group chat",
+   "a conference organizer",
+   "a physiotherapy practice",
+   "a logistics warehouse",
+   "a recording studio",
+   "a car dealership",
+   "a dermatology clinic"
+  ],
+  "emphasis": "more technical/terminal (25%)"
+ },
+ {
+  "file": "D021",
+  "names": [
+   "Quinn",
+   "Mina",
+   "Simone",
+   "Aiko",
+   "Andre",
+   "Mika",
+   "Kai",
+   "Yara"
+  ],
+  "topics": [
+   "a cat owner",
+   "a retiree",
+   "a mobile app team",
+   "a recording studio",
+   "a crypto exchange support desk",
+   "a new parent",
+   "a car rental",
+   "a chemistry lab"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D022",
+  "names": [
+   "Quinn",
+   "Giorgio",
+   "Rhea",
+   "Hana",
+   "Simone",
+   "Elias",
+   "Milan",
+   "Chen"
+  ],
+  "topics": [
+   "a wedding photographer",
+   "a fire station",
+   "a pizza place",
+   "a mechanic shop",
+   "a summer camp",
+   "a credit union",
+   "a pet adoption shelter",
+   "a sports bar"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D023",
+  "names": [
+   "Antonio",
+   "Enzo",
+   "Javier",
+   "Caleb",
+   "Clara",
+   "Laura",
+   "Chiara",
+   "Grace"
+  ],
+  "topics": [
+   "a garden allotment",
+   "a grant writer",
+   "a newspaper",
+   "a data science team",
+   "a nursing home",
+   "a museum guard (not exhibit)",
+   "a hospital ward",
+   "a nonprofit"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D024",
+  "names": [
+   "Dalia",
+   "Maya",
+   "Rania",
+   "Mai",
+   "Kasia",
+   "Maria",
+   "Ela",
+   "Laila"
+  ],
+  "topics": [
+   "a synagogue event committee",
+   "a dance school",
+   "an airline crew",
+   "a band",
+   "a university lab",
+   "a gamer",
+   "a city bus driver",
+   "an optometrist"
+  ],
+  "emphasis": "more self-corrections (30%)"
+ },
+ {
+  "file": "D025",
+  "names": [
+   "Kalani",
+   "Reza",
+   "Yusuf",
+   "Jada",
+   "Rania",
+   "Andre",
+   "Blake",
+   "Felix"
+  ],
+  "topics": [
+   "a design system team",
+   "a cybersecurity team",
+   "a public library",
+   "a real estate office",
+   "a car dealership",
+   "a law firm",
+   "a game studio",
+   "a tenant"
+  ],
+  "emphasis": "more filler contrast (30%)"
+ },
+ {
+  "file": "D026",
+  "names": [
+   "Hana",
+   "Mai",
+   "Chloe",
+   "Sami",
+   "Rania",
+   "Tamar",
+   "Paolo",
+   "Kai"
+  ],
+  "topics": [
+   "a cycling team",
+   "a recruiting firm",
+   "a conference organizer",
+   "a law firm",
+   "a tenant",
+   "a credit union",
+   "a radio station",
+   "a band"
+  ],
+  "emphasis": "more long dictations (25%)"
+ },
+ {
+  "file": "D027",
+  "names": [
+   "Ayesha",
+   "Hana",
+   "Aurora",
+   "Wei",
+   "Esther",
+   "Annika",
+   "Hannah",
+   "Caleb"
+  ],
+  "topics": [
+   "a podcast listener",
+   "a SaaS sales team",
+   "a university lab",
+   "a wedding photographer",
+   "a radio station",
+   "a game studio",
+   "a carpool",
+   "a gym owner"
+  ],
+  "emphasis": "more numbers (25%)"
+ },
+ {
+  "file": "D028",
+  "names": [
+   "Gabriel",
+   "Blake",
+   "Dalia",
+   "Hannah",
+   "Amara",
+   "Deepa",
+   "Elias",
+   "Joao"
+  ],
+  "topics": [
+   "a startup's backend team",
+   "a nail salon",
+   "a mortgage broker",
+   "a roommate chat",
+   "a hospital IT team",
+   "a running club",
+   "a language exchange",
+   "a real estate office"
+  ],
+  "emphasis": "more AI prompts (25%)"
+ },
+ {
+  "file": "D029",
+  "names": [
+   "Kenji",
+   "Adrian",
+   "Grace",
+   "Alejandro",
+   "Adebayo",
+   "Quinn",
+   "Selin",
+   "Dina"
+  ],
+  "topics": [
+   "a retiree",
+   "a kindergarten teacher",
+   "a photography business",
+   "a hospital IT team",
+   "a family group chat",
+   "a comic shop",
+   "a fishing trip",
+   "a board game cafe"
+  ],
+  "emphasis": "more casual texting (25%)"
+ },
+ {
+  "file": "D030",
+  "names": [
+   "Luis",
+   "Quinn",
+   "Jin",
+   "Erik",
+   "Felix",
+   "Keanu",
+   "Ela",
+   "Chen"
+  ],
+  "topics": [
+   "a tutoring center",
+   "a woodworking shop",
+   "a coffee shop",
+   "a game studio",
+   "a TV production",
+   "a credit union",
+   "a police non-emergency desk",
+   "a comic shop"
+  ],
+  "emphasis": "more technical/terminal (25%)"
+ },
+ {
+  "file": "D031",
+  "names": [
+   "Dalia",
+   "Ana",
+   "Aurora",
+   "Lorenzo",
+   "Quinn",
+   "Irene",
+   "Vera",
+   "Gemma"
+  ],
+  "topics": [
+   "a school district IT",
+   "a carpool",
+   "a gamer",
+   "a legal aid clinic",
+   "a home renovation",
+   "a radio station",
+   "a hospital IT team",
+   "a DevOps on-call rotation"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D032",
+  "names": [
+   "Hannah",
+   "Laura",
+   "Kalani",
+   "Sean",
+   "Julia",
+   "Gemma",
+   "Alana",
+   "Joao"
+  ],
+  "topics": [
+   "a neighborhood association",
+   "an ML research group",
+   "a law firm",
+   "a DevOps on-call rotation",
+   "a travel agency",
+   "an elementary school",
+   "a cybersecurity team",
+   "a kindergarten teacher"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D033",
+  "names": [
+   "Ines",
+   "Petra",
+   "Elias",
+   "Giorgio",
+   "Quinn",
+   "Abdul",
+   "Babajide",
+   "Hannah"
+  ],
+  "topics": [
+   "a cycling team",
+   "a gym",
+   "a ferry company",
+   "a car dealership",
+   "a pizza place",
+   "a bank branch",
+   "a scout troop",
+   "a soccer fan club"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D034",
+  "names": [
+   "Zoe",
+   "Femi",
+   "Aurora",
+   "Theo",
+   "Rosa",
+   "Clara",
+   "Valentina",
+   "Lucia"
+  ],
+  "topics": [
+   "a telecom support team",
+   "a fishing trip",
+   "a hiking group",
+   "a restaurant kitchen",
+   "a hardware store",
+   "a carpool",
+   "a retiree",
+   "a sports bar"
+  ],
+  "emphasis": "more self-corrections (30%)"
+ },
+ {
+  "file": "D035",
+  "names": [
+   "Quinn",
+   "Chen",
+   "Rohan",
+   "Sven",
+   "Adrian",
+   "Theo",
+   "Felix",
+   "Aurora"
+  ],
+  "topics": [
+   "a book club",
+   "a car dealership",
+   "a gaming community",
+   "an accounting firm",
+   "a design system team",
+   "an electric co-op",
+   "a crypto exchange support desk",
+   "a city council"
+  ],
+  "emphasis": "more filler contrast (30%)"
+ },
+ {
+  "file": "D036",
+  "names": [
+   "Zara",
+   "Adrian",
+   "Ruth",
+   "Gemma",
+   "Owen",
+   "Hannah",
+   "Aaliyah",
+   "Mohammed"
+  ],
+  "topics": [
+   "a courthouse",
+   "a running club",
+   "a cloud migration",
+   "a dance school",
+   "a gym owner",
+   "a cooking class",
+   "a kindergarten teacher",
+   "a plumbing company"
+  ],
+  "emphasis": "more long dictations (25%)"
+ },
+ {
+  "file": "D037",
+  "names": [
+   "Arjun",
+   "Hannah",
+   "Fiona",
+   "Elif",
+   "Femi",
+   "Nadia",
+   "Paolo",
+   "Lorenzo"
+  ],
+  "topics": [
+   "a crypto hobbyist",
+   "a chemistry lab",
+   "a road trip",
+   "a carpool",
+   "a marketing agency",
+   "a hardware store",
+   "a theater ticket office",
+   "a police non-emergency desk"
+  ],
+  "emphasis": "more numbers (25%)"
+ },
+ {
+  "file": "D038",
+  "names": [
+   "Javier",
+   "Yusuf",
+   "Sven",
+   "Carmen",
+   "Adebayo",
+   "Nora",
+   "Anders",
+   "Oscar"
+  ],
+  "topics": [
+   "a radio station",
+   "a dermatology clinic",
+   "a neighborhood association",
+   "a surf school",
+   "a roommate chat",
+   "an immigration lawyer",
+   "a road trip",
+   "a student writing a thesis"
+  ],
+  "emphasis": "more AI prompts (25%)"
+ },
+ {
+  "file": "D039",
+  "names": [
+   "Nasser",
+   "Bruno",
+   "Sean",
+   "Elias",
+   "Joao",
+   "Aurora",
+   "Nikhil",
+   "Adrian"
+  ],
+  "topics": [
+   "a roommate chat",
+   "a gamer",
+   "a crypto hobbyist",
+   "a cat owner",
+   "a crypto exchange support desk",
+   "a radio station",
+   "an urgent care clinic",
+   "a mosque community group"
+  ],
+  "emphasis": "more casual texting (25%)"
+ },
+ {
+  "file": "D040",
+  "names": [
+   "Emil",
+   "Arjun",
+   "Tess",
+   "Babajide",
+   "Chiara",
+   "Rohan",
+   "Hannah",
+   "Lars"
+  ],
+  "topics": [
+   "a game studio",
+   "a new parent",
+   "a recruiting firm",
+   "a fantasy football league",
+   "an airline crew",
+   "a payroll team",
+   "a home brewer",
+   "a museum guard (not exhibit)"
+  ],
+  "emphasis": "more technical/terminal (25%)"
+ },
+ {
+  "file": "D041",
+  "names": [
+   "Luis",
+   "Ahmed",
+   "Colin",
+   "Aaliyah",
+   "Owen",
+   "Mina",
+   "Mai",
+   "Javier"
+  ],
+  "topics": [
+   "a gym",
+   "a wedding photographer",
+   "a woodworking shop",
+   "an electric co-op",
+   "a summer camp",
+   "a fashion brand",
+   "a theater ticket office",
+   "a DevOps on-call rotation"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D042",
+  "names": [
+   "Kai",
+   "Kasia",
+   "Lukas",
+   "Bruno",
+   "Ela",
+   "Adebayo",
+   "Ivan",
+   "Grace"
+  ],
+  "topics": [
+   "an e-commerce shop",
+   "a cooking class",
+   "a pizza place",
+   "an urgent care clinic",
+   "a crypto hobbyist",
+   "an accounting firm",
+   "a sports bar",
+   "a recording studio"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D043",
+  "names": [
+   "Amara",
+   "Ines",
+   "Bianca",
+   "Amir",
+   "Isaac",
+   "Chloe",
+   "Giorgio",
+   "Hassan"
+  ],
+  "topics": [
+   "a farmers market stall",
+   "a new parent",
+   "a summer camp",
+   "a logistics warehouse",
+   "an e-commerce shop",
+   "a sports bar",
+   "a book club",
+   "a ferry company"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D044",
+  "names": [
+   "Selin",
+   "Sean",
+   "Elif",
+   "Astrid",
+   "Amara",
+   "Mara",
+   "Mina",
+   "Yasmin"
+  ],
+  "topics": [
+   "a garden allotment",
+   "a road trip",
+   "a museum guard (not exhibit)",
+   "a city council",
+   "a florist",
+   "a knitting circle",
+   "a sales engineer",
+   "a wedding photographer"
+  ],
+  "emphasis": "more self-corrections (30%)"
+ },
+ {
+  "file": "D045",
+  "names": [
+   "Keanu",
+   "Irene",
+   "Jamal",
+   "Gustavo",
+   "Hana",
+   "Mai",
+   "Gabriel",
+   "Javier"
+  ],
+  "topics": [
+   "a library volunteer",
+   "a pizza place",
+   "a fashion brand",
+   "a hotel front desk",
+   "a hospital ward",
+   "a crypto hobbyist",
+   "a mosque community group",
+   "a running club"
+  ],
+  "emphasis": "more filler contrast (30%)"
+ },
+ {
+  "file": "D046",
+  "names": [
+   "Pedro",
+   "Sean",
+   "Esther",
+   "Mina",
+   "Karim",
+   "Mateo",
+   "Chen",
+   "Dominik"
+  ],
+  "topics": [
+   "a photography business",
+   "a dance school",
+   "a landscaping business",
+   "a wedding guest (not planner)",
+   "a synagogue event committee",
+   "a pet adoption shelter",
+   "an art gallery",
+   "a product launch"
+  ],
+  "emphasis": "more long dictations (25%)"
+ },
+ {
+  "file": "D047",
+  "names": [
+   "Sven",
+   "Elias",
+   "Agnes",
+   "Mara",
+   "Luca",
+   "Rohan",
+   "Emil",
+   "Lina"
+  ],
+  "topics": [
+   "a real estate office",
+   "a university lab",
+   "a construction site",
+   "a home brewer",
+   "a recruiting firm",
+   "an accounting firm",
+   "a florist",
+   "a running club"
+  ],
+  "emphasis": "more numbers (25%)"
+ },
+ {
+  "file": "D048",
+  "names": [
+   "Rosa",
+   "Zoe",
+   "Erik",
+   "Babajide",
+   "Hector",
+   "Giorgio",
+   "Luca",
+   "Maeve"
+  ],
+  "topics": [
+   "a hospital IT team",
+   "a comic shop",
+   "a stock trading hobbyist",
+   "a bank branch",
+   "a florist",
+   "a bookstore",
+   "a tenant",
+   "a kindergarten teacher"
+  ],
+  "emphasis": "more AI prompts (25%)"
+ },
+ {
+  "file": "D049",
+  "names": [
+   "Tomas",
+   "Owen",
+   "Aaliyah",
+   "Antonio",
+   "Luis",
+   "Rosa",
+   "Nasser",
+   "Milan"
+  ],
+  "topics": [
+   "a physiotherapy practice",
+   "a family group chat",
+   "a nonprofit",
+   "a holiday trip",
+   "a hiking group",
+   "a dentist (patient side)",
+   "a gamer",
+   "a cybersecurity team"
+  ],
+  "emphasis": "more casual texting (25%)"
+ },
+ {
+  "file": "D050",
+  "names": [
+   "Selin",
+   "Alessia",
+   "Aaliyah",
+   "Camille",
+   "Femi",
+   "Sven",
+   "Alejandro",
+   "Javier"
+  ],
+  "topics": [
+   "a florist",
+   "a plumbing company",
+   "a nail salon",
+   "a farmers market stall",
+   "a fantasy football league",
+   "a dermatology clinic",
+   "a credit union",
+   "a scout troop"
+  ],
+  "emphasis": "more technical/terminal (25%)"
+ },
+ {
+  "file": "D051",
+  "names": [
+   "Rohan",
+   "Theo",
+   "Dominik",
+   "Lucia",
+   "Hana",
+   "Fatima",
+   "Vera",
+   "Aaliyah"
+  ],
+  "topics": [
+   "a SaaS sales team",
+   "a cloud migration",
+   "a soccer fan club",
+   "a gamer",
+   "a recruiting firm",
+   "a summer camp",
+   "a photography business",
+   "a kindergarten teacher"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D052",
+  "names": [
+   "Rohan",
+   "Fiona",
+   "Sean",
+   "Giorgio",
+   "Aiko",
+   "Mara",
+   "Jin",
+   "Ana"
+  ],
+  "topics": [
+   "a bank branch",
+   "a marathon training group",
+   "a home brewer",
+   "a landlord",
+   "a customer support desk",
+   "a police non-emergency desk",
+   "a parent group",
+   "a tenant"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D053",
+  "names": [
+   "Leila",
+   "Felix",
+   "Paolo",
+   "Alana",
+   "Kasia",
+   "Maria",
+   "Lars",
+   "Lukas"
+  ],
+  "topics": [
+   "a marketing agency",
+   "a QA team",
+   "a roommate chat",
+   "a cat owner",
+   "a courthouse",
+   "a mortgage broker",
+   "a fishing trip",
+   "a mobile app team"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D054",
+  "names": [
+   "Joao",
+   "Dominik",
+   "Femi",
+   "Nasser",
+   "Esther",
+   "Hannah",
+   "Jada",
+   "Bilal"
+  ],
+  "topics": [
+   "a fishing trip",
+   "a legal aid clinic",
+   "a nonprofit",
+   "a museum guard (not exhibit)",
+   "a wedding photographer",
+   "a conference organizer",
+   "a hardware store",
+   "a pizza place"
+  ],
+  "emphasis": "more self-corrections (30%)"
+ },
+ {
+  "file": "D055",
+  "names": [
+   "Amir",
+   "Enzo",
+   "Ahmed",
+   "Valentina",
+   "Chiara",
+   "Marco",
+   "Anders",
+   "Diego"
+  ],
+  "topics": [
+   "a pizza place",
+   "a crypto exchange support desk",
+   "a summer camp",
+   "a fantasy football league",
+   "a customer support desk",
+   "a hotel front desk",
+   "a theater ticket office",
+   "a logistics warehouse"
+  ],
+  "emphasis": "more filler contrast (30%)"
+ },
+ {
+  "file": "D056",
+  "names": [
+   "Diego",
+   "Rohan",
+   "Nasser",
+   "Alana",
+   "Joao",
+   "Lina",
+   "Leon",
+   "Kalani"
+  ],
+  "topics": [
+   "a mechanic shop",
+   "a knitting circle",
+   "a family group chat",
+   "a DevOps on-call rotation",
+   "a customer support desk",
+   "a recruiting firm",
+   "a yoga studio",
+   "a landlord"
+  ],
+  "emphasis": "more long dictations (25%)"
+ },
+ {
+  "file": "D057",
+  "names": [
+   "Caleb",
+   "Simone",
+   "Emil",
+   "Lorenzo",
+   "Laila",
+   "Joao",
+   "Maya",
+   "Ayesha"
+  ],
+  "topics": [
+   "a city council",
+   "a kindergarten teacher",
+   "a marketing agency",
+   "an e-commerce shop",
+   "a hackathon",
+   "a hospital IT team",
+   "a marathon training group",
+   "a tax preparer"
+  ],
+  "emphasis": "more numbers (25%)"
+ },
+ {
+  "file": "D058",
+  "names": [
+   "Laura",
+   "Nikhil",
+   "Aiko",
+   "Zoe",
+   "Mara",
+   "Giorgio",
+   "Zara",
+   "Mai"
+  ],
+  "topics": [
+   "a car dealership",
+   "an electric co-op",
+   "a bookstore",
+   "a student writing a thesis",
+   "a cooking class",
+   "a construction site",
+   "a police non-emergency desk",
+   "a marathon training group"
+  ],
+  "emphasis": "more AI prompts (25%)"
+ },
+ {
+  "file": "D059",
+  "names": [
+   "Andre",
+   "Wei",
+   "Kasia",
+   "Lars",
+   "Hector",
+   "Karim",
+   "Yasmin",
+   "Alfie"
+  ],
+  "topics": [
+   "a public library",
+   "a synagogue event committee",
+   "a recording studio",
+   "a scout troop",
+   "a DevOps on-call rotation",
+   "a cooking class",
+   "a birthday party",
+   "a payroll team"
+  ],
+  "emphasis": "more casual texting (25%)"
+ },
+ {
+  "file": "D060",
+  "names": [
+   "Bilal",
+   "Nikhil",
+   "Nasser",
+   "Luca",
+   "Grace",
+   "Maya",
+   "Paolo",
+   "Carlos"
+  ],
+  "topics": [
+   "a home brewer",
+   "a law firm",
+   "a SaaS sales team",
+   "a soccer fan club",
+   "a hiking group",
+   "a personal finance plan",
+   "a telecom support team",
+   "a synagogue event committee"
+  ],
+  "emphasis": "more technical/terminal (25%)"
+ },
+ {
+  "file": "D061",
+  "names": [
+   "Nadia",
+   "Lars",
+   "Valentina",
+   "Astrid",
+   "Rania",
+   "Ela",
+   "Luis",
+   "Colin"
+  ],
+  "topics": [
+   "a physiotherapy practice",
+   "a vet tech student",
+   "a cooking class",
+   "a bookstore",
+   "a library volunteer",
+   "a board game cafe",
+   "a telecom support team",
+   "a hospital ward"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D062",
+  "names": [
+   "Mateo",
+   "Bianca",
+   "Antonio",
+   "Hannah",
+   "Yusuf",
+   "Aurora",
+   "Emil",
+   "Beatriz"
+  ],
+  "topics": [
+   "a landlord",
+   "a home brewer",
+   "a hospital IT team",
+   "a landscaping business",
+   "a payroll team",
+   "a gaming community",
+   "a wedding photographer",
+   "a gamer"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D063",
+  "names": [
+   "Yuki",
+   "Fiona",
+   "Sami",
+   "Caleb",
+   "Jada",
+   "Ines",
+   "Sven",
+   "Hassan"
+  ],
+  "topics": [
+   "an e-commerce shop",
+   "a police non-emergency desk",
+   "a product launch",
+   "a marketing agency",
+   "a city bus driver",
+   "a physiotherapy practice",
+   "a legal aid clinic",
+   "a photography business"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D064",
+  "names": [
+   "Fiona",
+   "Clara",
+   "Irene",
+   "Tess",
+   "Dina",
+   "Kai",
+   "Andre",
+   "Lukas"
+  ],
+  "topics": [
+   "a plumbing company",
+   "a photography business",
+   "a cat owner",
+   "a gym owner",
+   "a payroll team",
+   "a dermatology clinic",
+   "a student writing a thesis",
+   "a camping weekend"
+  ],
+  "emphasis": "more self-corrections (30%)"
+ },
+ {
+  "file": "D065",
+  "names": [
+   "Bianca",
+   "Abdul",
+   "Nikhil",
+   "Femi",
+   "Milan",
+   "Leon",
+   "Alessia",
+   "Jada"
+  ],
+  "topics": [
+   "a payroll team",
+   "a fashion brand",
+   "a city council",
+   "a logistics warehouse",
+   "a marathon training group",
+   "a crypto hobbyist",
+   "an e-commerce shop",
+   "a retiree"
+  ],
+  "emphasis": "more filler contrast (30%)"
+ },
+ {
+  "file": "D066",
+  "names": [
+   "Dario",
+   "Milan",
+   "Victor",
+   "Hana",
+   "Abdul",
+   "Bilal",
+   "Valentina",
+   "Yuki"
+  ],
+  "topics": [
+   "a yoga studio",
+   "a neighborhood association",
+   "a camping weekend",
+   "an art gallery",
+   "a wedding guest (not planner)",
+   "a gym",
+   "a carpool",
+   "a mortgage broker"
+  ],
+  "emphasis": "more long dictations (25%)"
+ },
+ {
+  "file": "D067",
+  "names": [
+   "Gustavo",
+   "Alejandro",
+   "Vera",
+   "Elif",
+   "Ada",
+   "Kai",
+   "Malik",
+   "Leon"
+  ],
+  "topics": [
+   "a legal aid clinic",
+   "a stock trading hobbyist",
+   "a crypto hobbyist",
+   "a mortgage broker",
+   "a bookstore",
+   "a fishing trip",
+   "a library volunteer",
+   "a cooking class"
+  ],
+  "emphasis": "more numbers (25%)"
+ },
+ {
+  "file": "D068",
+  "names": [
+   "Malik",
+   "Benedikt",
+   "Lukas",
+   "Sean",
+   "Clara",
+   "Ruth",
+   "Babajide",
+   "Dalia"
+  ],
+  "topics": [
+   "a nursing home",
+   "a real estate office",
+   "a vet tech student",
+   "a restaurant kitchen",
+   "a startup's backend team",
+   "a wedding photographer",
+   "a coffee shop",
+   "a stock trading hobbyist"
+  ],
+  "emphasis": "more AI prompts (25%)"
+ },
+ {
+  "file": "D069",
+  "names": [
+   "Sven",
+   "Laila",
+   "Marco",
+   "Adrian",
+   "Laura",
+   "Ela",
+   "Luis",
+   "Mai"
+  ],
+  "topics": [
+   "a mortgage broker",
+   "a QA team",
+   "a farmers market stall",
+   "a home renovation",
+   "a tenant",
+   "a farm co-op",
+   "a dance school",
+   "a tutoring center"
+  ],
+  "emphasis": "more casual texting (25%)"
+ },
+ {
+  "file": "D070",
+  "names": [
+   "Tariq",
+   "Laura",
+   "Nadia",
+   "Dalia",
+   "Carlos",
+   "Adebayo",
+   "Amir",
+   "Selin"
+  ],
+  "topics": [
+   "a gym",
+   "a nursing home",
+   "a cycling team",
+   "an art gallery",
+   "a cat owner",
+   "a knitting circle",
+   "a hardware store",
+   "a yoga studio"
+  ],
+  "emphasis": "more technical/terminal (25%)"
+ },
+ {
+  "file": "D071",
+  "names": [
+   "Irene",
+   "Dalia",
+   "Rhea",
+   "Dana",
+   "Annika",
+   "Bilal",
+   "Luca",
+   "Owen"
+  ],
+  "topics": [
+   "a marketing agency",
+   "a soccer fan club",
+   "a florist",
+   "a carpool",
+   "a library volunteer",
+   "a summer camp",
+   "a coffee shop",
+   "an urgent care clinic"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D072",
+  "names": [
+   "Ayesha",
+   "Yuki",
+   "Dalia",
+   "Esther",
+   "Mai",
+   "Yasmin",
+   "Ela",
+   "Nikhil"
+  ],
+  "topics": [
+   "a law firm",
+   "a neighborhood association",
+   "a car dealership",
+   "a ferry company",
+   "an immigration lawyer",
+   "a home renovation",
+   "an optometrist",
+   "an ML research group"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D073",
+  "names": [
+   "Caleb",
+   "Chloe",
+   "Giorgio",
+   "Dominik",
+   "Alessia",
+   "Simone",
+   "Alejandro",
+   "Julia"
+  ],
+  "topics": [
+   "a fashion brand",
+   "an urgent care clinic",
+   "a podcast listener",
+   "a startup's backend team",
+   "a landlord",
+   "a physiotherapy practice",
+   "a tenant",
+   "an art gallery"
+  ],
+  "emphasis": "balanced"
+ },
+ {
+  "file": "D074",
+  "names": [
+   "Milan",
+   "Petra",
+   "Mia",
+   "Dario",
+   "Agnes",
+   "Aaliyah",
+   "Yuki",
+   "Owen"
+  ],
+  "topics": [
+   "a grant writer",
+   "a personal finance plan",
+   "a hospital IT team",
+   "a gamer",
+   "a language exchange",
+   "a kindergarten teacher",
+   "a ferry company",
+   "a family group chat"
+  ],
+  "emphasis": "more self-corrections (30%)"
+ },
+ {
+  "file": "D075",
+  "names": [
+   "Annika",
+   "Camille",
+   "Laila",
+   "Maya",
+   "Laura",
+   "Babajide",
+   "Mika",
+   "Quinn"
+  ],
+  "topics": [
+   "a new parent",
+   "a car dealership",
+   "a game studio",
+   "a cybersecurity team",
+   "a summer camp",
+   "a customer support desk",
+   "a coffee shop",
+   "a cat owner"
+  ],
+  "emphasis": "more filler contrast (30%)"
+ },
+ {
+  "file": "D076",
+  "names": [
+   "Lina",
+   "Carmen",
+   "Ahmed",
+   "Andre",
+   "Yasmin",
+   "Blake",
+   "Dominik",
+   "Carlos"
+  ],
+  "topics": [
+   "a surf school",
+   "a road trip",
+   "a hotel front desk",
+   "a newspaper",
+   "a cooking class",
+   "a yoga studio",
+   "a plumbing company",
+   "a home renovation"
+  ],
+  "emphasis": "more long dictations (25%)"
+ },
+ {
+  "file": "D077",
+  "names": [
+   "Julia",
+   "Yasmin",
+   "Helena",
+   "Mohammed",
+   "Chiara",
+   "Gustavo",
+   "Petra",
+   "Nina"
+  ],
+  "topics": [
+   "a mosque community group",
+   "a public library",
+   "a cat owner",
+   "a personal finance plan",
+   "a synagogue event committee",
+   "an e-commerce shop",
+   "a camping weekend",
+   "a marketing agency"
+  ],
+  "emphasis": "more numbers (25%)"
+ },
+ {
+  "file": "D078",
+  "names": [
+   "Deepa",
+   "Mai",
+   "Dalia",
+   "Ines",
+   "Kai",
+   "Lina",
+   "Dana",
+   "Hannah"
+  ],
+  "topics": [
+   "a farm co-op",
+   "a nail salon",
+   "a city council",
+   "an accounting firm",
+   "a crypto exchange support desk",
+   "a dentist (patient side)",
+   "a design system team",
+   "a plumbing company"
+  ],
+  "emphasis": "more AI prompts (25%)"
+ },
+ {
+  "file": "D079",
+  "names": [
+   "Sami",
+   "Zoe",
+   "Luis",
+   "Leon",
+   "Hannah",
+   "Lina",
+   "Leila",
+   "Tariq"
+  ],
+  "topics": [
+   "a hardware store",
+   "an accounting firm",
+   "a theater ticket office",
+   "a customer support desk",
+   "a mechanic shop",
+   "a parent group",
+   "a language exchange",
+   "a city council"
+  ],
+  "emphasis": "more casual texting (25%)"
+ },
+ {
+  "file": "D080",
+  "names": [
+   "Jada",
+   "Reza",
+   "Grace",
+   "Joao",
+   "Theo",
+   "Jonas",
+   "Aaliyah",
+   "Alana"
+  ],
+  "topics": [
+   "a newspaper",
+   "a hiking group",
+   "a roommate chat",
+   "a comic shop",
+   "a wedding photographer",
+   "a retiree",
+   "an airline crew",
+   "a city council"
+  ],
+  "emphasis": "more technical/terminal (25%)"
+ }
+]

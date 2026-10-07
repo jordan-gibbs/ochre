@@ -1,0 +1,50 @@
+{"id": "s2-W9-0151", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'the plan for Saturday is Bike.' - 'like' misheard as content word 'Bike'"}
+{"id": "s2-W9-0152", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0153", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0155", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0157", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0158", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0159", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0160", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0161", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a hundred twenty a night' became '120 to 9'; 'hey' became 'Okay'"}
+{"id": "s2-W9-0162", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0163", "decision": "fix_clean", "clean": "I went through the customer feedback from last week, and it looks like most people were asking for the same thing, the dark mode, it's something like 60% of the requests, so I think we should prioritize it.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'were asking' and 'the dark mode'"}
+{"id": "s2-W9-0164", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sorry DePay, you went a week in', 'the psych is down' garbled"}
+{"id": "s2-W9-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0166", "decision": "fix_clean", "clean": "Hey, I looked at her PR and overall it's great, really clean, but there are a couple of things, the variable names are kind of confusing, and I think we should add a test so that we don't break it later.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'her PR', not 'your'"}
+{"id": "s2-W9-0167", "decision": "drop", "reason": "unrecoverable_meaning", "note": "homepage/template/redo/section/real photos all garbled"}
+{"id": "s2-W9-0168", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0170", "decision": "fix_clean", "clean": "The database maintenance is tonight at 11, and it's gonna take about, maybe 2 hours, so if you're on call, you might see some alerts, but it's expected, so don't panic.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'heads up that' missing from raw"}
+{"id": "s2-W9-0171", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0172", "decision": "drop", "reason": "non_english", "note": "raw contains Cyrillic 'краish'"}
+{"id": "s2-W9-0173", "decision": "fix_clean", "clean": "Last thing, thanks everyone for the hard work this quarter, it was a tough one, but we had our goals, and I'm so proud of this team, so lunch is on me Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'had our goals'"}
+{"id": "s2-W9-0174", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0175", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'on Saturday' became 'one. Not a day.'"}
+{"id": "s2-W9-0176", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0177", "decision": "fix_clean", "clean": "Hey Mike, thanks for the update, I really appreciate it, and it looks like we're on track, so the only thing I'd add is that we should loop in legal before we send anything now, so that nothing slips.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'send anything now'"}
+{"id": "s2-W9-0178", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'at noon' and 'that' dropped, 'the sheet' -> 'this sheet': fix needs 3 places"}
+{"id": "s2-W9-0179", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hey jen' -> 'Agent', 'like' -> 'Mike'"}
+{"id": "s2-W9-0180", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0183", "decision": "fix_clean", "clean": "Just wanted to let you know the package arrived and it's so nice, the quality is amazing, and my wife loves it, so thank you again, I'll definitely order from you again.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Hey' heard as 'A'; not inferable"}
+{"id": "s2-W9-0184", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I can't' became 'I can' (meaning flipped); 'I promise' -> 'ever Promise'"}
+{"id": "s2-W9-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0186", "decision": "fix_clean", "clean": "We need to talk about the logo, the client sent back feedback and they want it bigger, and I think it looks fine, but whatever they want, so I'll update it and send a new version by 4.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Hey' heard as 'A'; not inferable"}
+{"id": "s2-W9-0187", "decision": "fix_clean", "clean": "Dude, the thing is, I don't want to be that guy, but you kind of owe me 40 bucks, from the concert tickets, so whenever you get a chance, no rush.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'want to', not 'wanna'"}
+{"id": "s2-W9-0188", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'out on you' -> 'I'll buy you', 'I'll come' -> 'Oh come'"}
+{"id": "s2-W9-0189", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'four miles' -> 'Cormot', 'by the lake' lost, 'hey' -> 'Okay'"}
+{"id": "s2-W9-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0191", "decision": "fix_clean", "clean": "Dude, you know the apartment I told you about, the one downtown, we toured it today and it's so nice, the kitchen is huge, and the rent is something like $1800 a month, which is kind of high, but I think we can swing it, so what do you think, should we apply?", "reason": "guide_violation", "rules": ["R5"], "note": "'you know the apartment' is meaningful, not filler"}
+{"id": "s2-W9-0192", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ten miles' -> 'than miles': value lost"}
+{"id": "s2-W9-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0194", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'two a m' -> 'two eight and', job->jump, limit->linen, queue->cue"}
+{"id": "s2-W9-0195", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also 'three' -> 'C', roadmap lost"}
+{"id": "s2-W9-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0197", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'as promised I'm attaching' -> 'it's promised time attaching'"}
+{"id": "s2-W9-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0199", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0200", "decision": "accept", "reason": "ok"}

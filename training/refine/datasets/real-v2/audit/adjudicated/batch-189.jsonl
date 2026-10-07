@@ -1,0 +1,11 @@
+{"id": "s4-W60-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: 'fifth doll' does not give the value $50; unrecoverable"}
+{"id": "s4-W60-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Inside', 'Tuples' and more; unrecoverable"}
+{"id": "s4-W60-0097", "decision": "fix_clean", "clean": "Alright, tell the little ones to bring their ballet shoes and the tights, not the leotards. The leotards are provided, I mean the ones with the school logo.", "reason": "unrecoverable_word", "note": "A: 'Alright' from raw; 'in the tights' -> 'and' inferable"}
+{"id": "s4-W60-0100", "decision": "accept", "reason": "ok", "note": "B: dropping standalone 'okay' is a filler judgment call; accept"}
+{"id": "s4-W61-0002", "decision": "fix_clean", "clean": "Hey Claire, I was gonna say we should probably move book club too.", "reason": "trailing_off", "note": "neither: raw ends complete with 'too.' (no visible trailing off); name 'Claire' from raw; 2 places"}
+{"id": "s4-W61-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'before near' not inferable as noon; not sensible"}
+{"id": "s4-W61-0013", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B's drop, but reason unrecoverable_meaning: 'and the game...' misheard as 'And again.' (not hallucination)"}
+{"id": "s4-W61-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: request lost ('And you grab you pick up')"}
+{"id": "s4-W61-0028", "decision": "fix_clean", "clean": "Hi Lura, the car is ready for pickup. The keys are at the front desk in a few.", "reason": "unrecoverable_word", "note": "A: raw ends complete with 'in a few.'; name from raw"}
+{"id": "s4-W61-0032", "decision": "fix_clean", "clean": "Chapter 4. The novel opens with a flashback to...", "reason": "dropped_by_recognizer", "note": "A: 'of' dropped by recognizer; follow raw"}
+{"id": "s4-W61-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'stays great.' for 'stays greyed out'; unrecoverable"}

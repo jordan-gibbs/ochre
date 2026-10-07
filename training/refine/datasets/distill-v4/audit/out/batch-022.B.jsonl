@@ -1,0 +1,100 @@
+{"id": "sim4-s4-W46-0060-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C048-0103-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C041-0018-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D004-0042-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W25-0017-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C003-0218-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C053-0050-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C037-0013-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C037-0103-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D009-0022-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C020-0172-0", "decision": "fix_clean", "clean": "Julia said the hardest part of retiring was answering people who assumed she wanted to fill every spare hour immediately. She enjoys seeing friends but also wants days without a plan and does not think that needs fixing. Should remember that when suggesting things for next month. Invite her and make it clear that declining is fine rather than sending a whole schedule. She mentioned wanting to try the morning swimming session but said she would book it herself once she knows which day feels right. There is no need for me to chase that up.", "reason": "casing", "note": "sentence start lowercase"}
+{"id": "sim4-d4-C044-0006-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W47-0065-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C058-0030-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C014-0240-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D002-0159-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W40-0007-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C056-0200-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C043-0237-0", "decision": "fix_clean", "clean": "Translate this clinic reminder into Italian and leave the appointments reference untouched. If a place name has no obvious translated form, keep the original spelling. After the translation, identify any phrase in the English message that could be read in two different ways so I can ask reception to clarify.", "reason": "rule13", "note": "keep raw word, plural not inferable"}
+{"id": "sim4-s4-W62-0029-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D007-0185-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C032-0168-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D010-0150-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W61-0036-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C023-0015-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C047-0093-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C033-0247-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C008-0168-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C058-0266-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C057-0208-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C039-0283-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C055-0216-0", "decision": "fix_clean", "clean": "Read my presentation outline as a strict tutor and point out where the analogy explanation becomes hard to follow.", "reason": "rule13", "note": "anatomy not inferable from analogy"}
+{"id": "sim4-d4-D002-0174-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C015-0088-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C053-0235-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C021-0286-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C017-0074-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C023-0052-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C061-0027-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C058-0207-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W48-0087-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C008-0202-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C055-0057-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C022-0092-2", "decision": "fix_clean", "clean": "Actually seeing the waiting room helped me understand why visitor keeps missing the sign beside the lift.", "reason": "rule10", "note": "do not fix grammar"}
+{"id": "sim4-d4-D004-0045-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C003-0168-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W51-0080-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W64-0056-0", "decision": "fix_clean", "clean": "Bodhi, the build on the staging server is failing because the config file has the wrong app key, not the production one, the other one, the one that ends in 49, and the deploy window closes 6, so we have about two hours.", "reason": "rule13", "note": "API not inferable; APP odd"}
+{"id": "sim4-d4-D014-0180-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C051-0251-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D010-0214-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C040-0094-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C005-0222-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C041-0140-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C023-0036-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C032-0127-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C008-0260-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C061-0226-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C039-0088-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C014-0062-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D005-0025-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C059-0078-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C027-0164-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W39-0018-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W37-0095-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D015-0179-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C033-0076-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C005-0053-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C045-0276-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W23-0030-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W34-0032-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C007-0252-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C029-0153-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W54-0009-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C026-0288-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C055-0020-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C035-0074-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C039-0104-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C050-0197-2", "decision": "fix_clean", "clean": "The customer can hear dropping behind the clipboard but cannot see whether it is coming from...", "reason": "rule13", "note": "not inferable"}
+{"id": "sim4-d4-C002-0049-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C002-0189-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C009-0127-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C043-0274-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C029-0296-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C054-0093-0", "decision": "fix_clean", "clean": "Sven bringing dinner on Sunday because his train does not arrive until late.", "reason": "rule13", "note": "day name inferable"}
+{"id": "sim4-d4-D007-0044-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C007-0242-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C013-0293-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W43-0073-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C048-0246-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W29-0081-0", "decision": "fix_clean", "clean": "Next steps for the launch.\n1. Confirm the cafe in the linter in Brighton called Plankton.\n2. Send the press kit to the editor at Monocle.\n3. Book the ferry from Newhaven to Dieppe.", "reason": "rule13", "note": "casing; lanes not inferable"}
+{"id": "sim4-d4-C020-0161-2", "decision": "fix_clean", "clean": "After the software demo, the buyer stayed on the call to explain that their support team would be the main users rather than their managers. That changes which examples we should use in the follow-up because the current deck spends too long on reporting. Please keep the pricing page but replace the opening story with the shared index example. They also asked whether the trial could start after their training week, so there is no point sending an activation link today. I will confirm the date once their team lead has checked who is available.", "reason": "rule13", "note": "inbox not inferable"}
+{"id": "sim4-d4-D011-0157-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C054-0058-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D002-0029-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C020-0297-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D007-0125-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C015-0288-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C017-0090-1", "decision": "fix_clean", "clean": "Paolo, the customer ordered the flowers for the retirement lunch has called back about the table sizes. They are using long tables instead of round ones and would prefer several small arrangements that people can talk across. Keep the warm colours we discuss but replace the tall branches with shorter foliage. The collection time still Friday morning before the office opens. They will bring their own crates and would appreciate cardboard between the vases. Please keep the handwritten message with the order because it includes a personal joke.", "reason": "rule10", "note": "keep raw tense"}
+{"id": "sim4-d4-C039-0128-3", "decision": "accept", "reason": "ok", "note": ""}

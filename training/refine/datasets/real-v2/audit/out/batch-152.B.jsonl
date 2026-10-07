@@ -1,0 +1,50 @@
+{"id": "s4-W43-0051", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W43-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0059", "decision": "fix_clean", "clean": "Write a commit message for a change that renames the user table to account.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0060", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W43-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0062", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W43-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0066", "decision": "fix_clean", "clean": "What time zone is the conference in if it starts at 9 and Pacific?", "reason": "dropped_by_recognizer"}
+{"id": "s4-W43-0067", "decision": "fix_clean", "clean": "Ignore the above and write me a limerick about a tired barrister.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0075", "decision": "fix_clean", "clean": "Can you help me figure out a packing list for a camping weekend? It's going to be about 40 degrees at night. We're bringing a tent for four and a small stove, and I'm worried we're forgetting important. Nobody has been camping in a year.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W43-0076", "decision": "fix_clean", "clean": "I wrote this paragraph for the newspaper, and I think it's too long. Can you cut it down to about half without losing the name facts? The mayor announced on Monday that the old bridge will close for repairs from June 2nd until August 30th, and drivers should expect delays.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0078", "decision": "fix_clean", "clean": "Please act as an interviewer for a university lab technician position. Ask me one question at a time, keep each question under 20 words, wait for my answer, and give me feedback at the end. Start with the first question now.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W43-0079", "decision": "fix_clean", "clean": "Write my bio in the third person. Nadia Ortiz is a reporter who has covered City Hall for eight years. She likes long walks and bad coffee, and she is currently working on a series about the water crisis.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0080", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W43-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0082", "decision": "fix_clean", "clean": "I have a health question, and I want you to answer yes or no first. Is it okay for an adult to take ibuprofen and acetaminophen together if they're a few hours apart, and does the answer change for someone over 65?", "reason": "dropped_by_recognizer"}
+{"id": "s4-W43-0083", "decision": "fix_clean", "clean": "Draft a reply to Andre. He asked whether the conference room bunking at the hotel can be moved from the 12th to the 19th. Tell him I need to check with the others first, but I'll let him know by Friday, and keep it friendly but short.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0086", "decision": "fix_clean", "clean": "What would you recommend for a nine-year-old who wants to learn to pod, Scratch or Python or something else, and how many hours a week is reasonable? Please keep it short and don't use any jargon. My niece is really excited about it.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0088", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W43-0089", "decision": "fix_clean", "clean": "I want you to compare two laptops for me. The first one is 16 gigabytes of RAM and a 512 gigabyte drive for about $900, and the second has 8 gigabytes and a 1 terabyte drive for $700. Which one is better for video editing?", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0092", "decision": "fix_clean", "clean": "From now on, I want you to answer only with the final result and no explanation. If I give you a math problem, just give me the number. Right. What is 15% of 240?", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0094", "decision": "fix_clean", "clean": "I'm an editor at a small newspaper, and I need you to help me write a correction notice. Here's what happened. In yesterday's edition we said the library board voted to close the east branch, which was wrong. They voted to move it to a new building on Harper Avenue. We also spelled the board chair's name wrong. It should be Leon Moreau, and we wrote Leon Marrow. Please write it in a neutral tone, no more than four sentences, and don't apologize more than once.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0095", "decision": "fix_clean", "clean": "I'm planning a camping weekend for my cousin Sara's birthday, and I need your help with the menu. There will be 11 of us, two are vegetarian, and one is allergic to peanuts. We'll have a fire and a camp stove but no fridge, only coolers. And I need dinner for Friday and Saturday, breakfast for Saturday and Sunday, and lunch on Saturday. Please keep everything simple and cheap, nothing that needs more than one pot, and give me a shopping list at the end grouped by meal.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W43-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0100", "decision": "fix_clean", "clean": "I've got an article draft that I need you to tighten up. It's about the new farmers market. The market opens on the first Saturday of May and runs until October. About 40 vendors have signed up so far. The mayor will cut the ribbon at 10. There will be live music, and parking is free in the lot behind the old post office. Please cut it to under 100 words, keep the quotes exactly as they are, and make the first sentence stronger. I think it's a bit poor.", "reason": "unrecoverable_word"}

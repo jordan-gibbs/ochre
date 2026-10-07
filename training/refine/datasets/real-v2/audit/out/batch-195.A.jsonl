@@ -1,0 +1,50 @@
+{"id": "s4-W63-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0093", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W63-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0099", "decision": "fix_clean", "clean": "The sample goes in, the lid goes on, the timer starts, and then we wait, decently, for the result.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'patiently' heard as 'Decently'"}
+{"id": "s4-W63-0100", "decision": "fix_clean", "clean": "That is not how the load balancer works.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s4-W64-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Tess->test, a.m. lost, Lobing Bay, 'Thanks, Hassan' -> 'things': too many places"}
+{"id": "s4-W64-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0003", "decision": "fix_clean", "clean": "Crew briefing notes. Flight 412 to Denver departs Gate B7 at 6:15 a.m. Forecast shows crosswinds up to 22 knots, so expect the delay of maybe 10 minutes. Flight attendants must complete the safety demo before pushback, no exceptions.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0004", "decision": "fix_clean", "clean": "Dear Vera, please find the revised build schedule below. The alpha milestone moves from June 3rd to June 10th, the beta stays on August 1st, and the certification submission is only possible if car signs off by July 20th.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "QA heard as 'car'; sign-off dropped by recognizer"}
+{"id": "s4-W64-0005", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'not noon' heard as 'Not new'"}
+{"id": "s4-W64-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0007", "decision": "fix_clean", "clean": "The vendor quoted $4,200 for the shelving, but that's before tax and only if we order at least eight units. Otherwise it goes up to $5,000 even. Can you confirm which option you want by Wednesday?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'uh mina' heard as filler 'I mean'"}
+{"id": "s4-W64-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0009", "decision": "fix_clean", "clean": "Mmo, I moved the interview with the candidate from 2 p.m. to 3:30 because the hiring manager is stuck in a budget meeting, and the panel is now only three people instead of five.", "reason": "unrecoverable_word", "rules": ["R13"], "note": "name heard as 'Mmo'"}
+{"id": "s4-W64-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hello bodhi' -> 'Oh low on I.'"}
+{"id": "s4-W64-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hired before' -> 'hire for', 'HR' -> 'in her'"}
+{"id": "s4-W64-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0015", "decision": "fix_clean", "clean": "Hey Test, the preorder count for the new fantasy trilogy is at 312, which is up 15% from last week, but the publisher said they'll only ship the first 250 on the release date.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0016", "decision": "fix_clean", "clean": "Hi Vera, I need the patch notes by end of day Friday, not Monday, because the console team submits at 9 Saturday. If the file is bigger than 50 megabytes, please compress it first.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'am' lost"}
+{"id": "s4-W64-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped 'coach leaves from the stadium at eight' and 'on the M6'"}
+{"id": "s4-W64-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Quinn -> 'When', 'or HR will send it back' dropped"}
+{"id": "s4-W64-0019", "decision": "fix_clean", "clean": "Dear members, the annual dinner will be held on Saturday, October 11th at the Harbor Hotel. Doors open at 6:30, dinner is served at 7:30, and the cost is £35, which does not include drinks.", "reason": "spelling_from_raw", "rules": ["R10"]}
+{"id": "s4-W64-0020", "decision": "fix_clean", "clean": "The save file corrupts if the player quits during autosave and has less than 200 megabytes read. Steps are: start a new game, trigger autosave at the first checkpoint, then Alt+F4. Not reproducible on the PC build.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled, last question dropped"}
+{"id": "s4-W64-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "CSV->'C', Emil->'M', blocked on -> 'Block from'"}
+{"id": "s4-W64-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0025", "decision": "fix_clean", "clean": "Hi Bod Height, the harness check on the second aircraft failed because the strap was frayed, so please don't sign it off, and the replacement part number is 774-B. It should arrive by Tuesday morning, thank you.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'thirty days' -> 'thirst'"}
+{"id": "s4-W64-0028", "decision": "fix_clean", "clean": "Dear Mr. A Caffre, thank you for applying. We would like to invite you to a second interview on Tuesday the 9th at 10 a.m. in Room 402. Please bring a photo ID and two references, and note that parking is validated only for the north garage.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hey Bodhi' -> 'A by I', second clause lost words"}
+{"id": "s4-W64-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Hassan' -> 'I has and', 'either' -> 'I the'"}
+{"id": "s4-W64-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0033", "decision": "fix_clean", "clean": "Best, the cafe order is two lattes, one flat white with oat milk, and a hot chocolate with no whipped cream. The total should be under $25, or put it on the shop card.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0036", "decision": "fix_clean", "clean": "Vera, the crew van picks up at 4:15 a.m. sharp. If you're not at the curb, the driver won't wait more than five minutes, and no, he can't call you because the phone numbers on a roster are out of date.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled places (Ka, roll that, ha fixes)"}
+{"id": "s4-W64-0040", "decision": "accept", "reason": "ok"}

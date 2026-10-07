@@ -1,0 +1,38 @@
+{"id": "s4-W63-0091", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0093", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W63-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0096", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0097", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0100", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": [], "auditors": ["A", "B"], "clean": "That is not how the load balancer works."}
+{"id": "s4-W64-0001", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Tess->test, a.m. lost, Lobing Bay, 'Thanks, Hassan' -> 'things': too many places"], "auditors": ["A", "B"]}
+{"id": "s4-W64-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0007", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["'uh mina' heard as filler 'I mean'"], "auditors": ["A", "B"], "clean": "The vendor quoted $4,200 for the shelving, but that's before tax and only if we order at least eight units. Otherwise it goes up to $5,000 even. Can you confirm which option you want by Wednesday?"}
+{"id": "s4-W64-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0009", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["name heard as 'Mmo'"], "auditors": ["A", "B"], "clean": "Mmo, I moved the interview with the candidate from 2 p.m. to 3:30 because the hiring manager is stuck in a budget meeting, and the panel is now only three people instead of five."}
+{"id": "s4-W64-0010", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'hello bodhi' -> 'Oh low on I.'"], "auditors": ["A", "B"]}
+{"id": "s4-W64-0011", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'hired before' -> 'hire for', 'HR' -> 'in her'"], "auditors": ["A", "B"]}
+{"id": "s4-W64-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0017", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["recognizer dropped 'coach leaves from the stadium at eight' and 'on the M6'"], "auditors": ["A", "B"]}
+{"id": "s4-W64-0018", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Quinn -> 'When', 'or HR will send it back' dropped"], "auditors": ["A", "B"]}
+{"id": "s4-W64-0019", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": [], "auditors": ["A", "B"], "clean": "Dear members, the annual dinner will be held on Saturday, October 11th at the Harbor Hotel. Doors open at 6:30, dinner is served at 7:30, and the cost is £35, which does not include drinks."}
+{"id": "s4-W64-0021", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["heavily garbled, last question dropped"], "auditors": ["A", "B"]}
+{"id": "s4-W64-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0023", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["CSV->'C', Emil->'M', blocked on -> 'Block from'"], "auditors": ["A", "B"]}
+{"id": "s4-W64-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0030", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hey Bodhi' -> 'A by I', second clause lost words"], "auditors": ["A", "B"]}
+{"id": "s4-W64-0031", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hi Hassan' -> 'I has and', 'either' -> 'I the'"], "auditors": ["A", "B"]}
+{"id": "s4-W64-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W64-0039", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many garbled places (Ka, roll that, ha fixes)"], "auditors": ["A", "B"]}
+{"id": "s4-W64-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

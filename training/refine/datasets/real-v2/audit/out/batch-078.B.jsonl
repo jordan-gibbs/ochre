@@ -1,0 +1,50 @@
+{"id": "s2-W8-0351", "decision": "fix_clean", "clean": "I bought this rice cooker for my mother and she is very happy. The rice come out soft and not sticky, and it have many function, like for soup and for porridge. The instruction in English is little bit hard to understand, but my daughter help us. Price is reasonable.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "five stars lost in raw"}
+{"id": "s2-W8-0352", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled words"}
+{"id": "s2-W8-0353", "decision": "drop", "reason": "unrecoverable_meaning", "note": "arvo lost, last sentence garbled"}
+{"id": "s2-W8-0354", "decision": "drop", "reason": "unrecoverable_meaning", "note": "two sentences lost"}
+{"id": "s2-W8-0355", "decision": "drop", "reason": "unrecoverable_meaning", "note": "budget tight garbled"}
+{"id": "s2-W8-0356", "decision": "drop", "reason": "unrecoverable_meaning", "note": "adobo, thighs, thick garbled"}
+{"id": "s2-W8-0357", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting and ending lost"}
+{"id": "s2-W8-0358", "decision": "fix_clean", "clean": "Go to school before night.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw value"}
+{"id": "s2-W8-0359", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0360", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0361", "decision": "drop", "reason": "non_english", "note": ""}
+{"id": "s2-W8-0362", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0363", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W8-0364", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0365", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0366", "decision": "fix_clean", "clean": "New idea, cookbook of Gran's recipes.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": ""}
+{"id": "s2-W8-0367", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W8-0368", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0369", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0370", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0371", "decision": "fix_clean", "clean": "The dragon looked at the knight. So honestly, I was hoping you would be taller.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": ""}
+{"id": "s2-W8-0372", "decision": "fix_clean", "clean": "So sorry, my boss is keeping me late again. Can you start dinner without me? Be there by 7:30.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": ""}
+{"id": "s2-W8-0373", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W8-0374", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0375", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0376", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0377", "decision": "fix_clean", "clean": "Ideas for the shop window this month. Autumn colors, orange and deep red, with pumpkins and some dried flowers, maybe a scarecrow made out of old scarves, the kids would love that. I could also put a little sign about the loyalty card, because hardly anyone asks about it, and change the lighting, the bulbs are too yellow.", "reason": "spelling_from_raw", "rules": ["R10"], "note": ""}
+{"id": "s2-W8-0378", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0379", "decision": "fix_clean", "clean": "We camped here for two nights with the kids and it was perfect. The sites are big and shady, the bathrooms were clean, and there is a creek right behind the tents where the kids caught poles all afternoon. The only downside is that the nearest store is 20 minutes away, so bring everything you need. We will definitely be back next summer.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": ""}
+{"id": "s2-W8-0380", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0381", "decision": "fix_clean", "clean": "Well dear, that's Grandma again. I figured out the picture thing, so I sent you a photo of the roses but I think it came out upside down, sorry about that. The roses are doing wonderfully this year, the pink ones especially. Come see them when you visit, and bring that nice boy you were telling me about.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": ""}
+{"id": "s2-W8-0382", "decision": "fix_clean", "clean": "Things to ask at the pediatrician tomorrow. Is it normal that she wakes up three times a night at this age? Should we start solid foods? Now we'll wait until six months. The rash on her cheeks, is it eczema? And when is the next vaccine? Also bring the red book.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": ""}
+{"id": "s2-W8-0383", "decision": "fix_clean", "clean": "I never thought I would be the kind of person who gets up at 5 in the morning to run. In fact, for most of my life I avoided exercise like it was homework, but last winter my doctor told me my blood pressure was too high, and something in me just decided enough. So I bought a cheap pair of running shoes and went out the next morning in the dark. I made it exactly two blocks before I had to stop and hold onto a lamp post, but I went back the next day, and the next. Now, 10 months later, I can run 5 kilometers without stopping, and more importantly I actually look forward to it, the quiet streets, the sunrise, the feeling that the day belongs to me.", "reason": "spelling_from_raw", "rules": ["R10"], "note": ""}
+{"id": "s2-W8-0384", "decision": "fix_clean", "clean": "Estimate for the interior job at the Kims, living room, hallway, and two bedrooms, about 900 square feet of wall, so two coats is roughly 10 gallons, because the walls are textured and drink the paint, plus a gallon of primer for the patch spots. Labor is three days with two people, so call it $2,400 for labor and $400 for materials. Tell them we can start the second week of November, and they need to move the furniture to the middle of the rooms the day before. Oh, and ask if they want the trim done in white or off-white.", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": ""}
+{"id": "s2-W8-0385", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W8-0386", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W8-0387", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0388", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W8-0389", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0390", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0391", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0392", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W8-0393", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0394", "decision": "fix_clean", "clean": "An anniversary present for the in-laws.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": ""}
+{"id": "s2-W8-0395", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0396", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0397", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0398", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0399", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0400", "decision": "accept", "reason": "ok"}

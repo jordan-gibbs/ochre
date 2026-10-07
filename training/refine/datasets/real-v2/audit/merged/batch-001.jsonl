@@ -1,0 +1,44 @@
+{"id": "s2-W1-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0002", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["Whisper appended 'Thank you.'", "Whisper appended 'Thank you.'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0003", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'you' never said; also 'Dirt.' from the hesitation", "trailing 'you' and 'Dirt' for er"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0004", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'youth and' / 'that' in place of 'you uh' (worked example F)", "'youth and' for 'you uh'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0010", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' heard as \"I'll\", turning the request into a statement", "'I'll' for 'uh' turns request into statement"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0012", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; 'uh' also heard as \"I'll\"", "trailing 'Yeah.' and garbled 'Emmid'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0018", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["name 'Jen' heard as 'And'; raw-faithful target is not a sensible dictation", "name Jen lost, raw starts 'And said'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0019", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'can you shorten' heard as 'And you shortened'; request lost", "'And you shortened' for 'Can you shorten'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0020", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' heard as 'The arm did'", "'The arm did' for 'um'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0021", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'um format this as' heard as 'Poor Muttis has'", "'Poor Muttis has' for 'Format this as'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0025", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0026", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'then' for 'and'; 'meet' to 'me' is inferable", "raw has 'then' where 'and uh' was said"], "auditors": ["A", "B"], "clean": "Okay, so please translate the attached contract into Portuguese then send it back to me by Monday."}
+{"id": "s2-W1-0027", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Act as a' heard as 'After the'; not inferable", "'After the' for 'Act as a' plus 'features spec'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0034", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'who won the' heard as 'Wanna'; question lost", "'Wanna' for 'Who won the'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0035", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'uh could' heard as 'But but'; 'could' not inferable", "'But but you' for 'uh could you'; could lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0043", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'sign it for me' not 'from me'; 'Bum,' treated as interjection residue of um", "'from me' heard as 'for me'"], "auditors": ["A", "B"], "clean": "Please write a thank-you note to my team for shipping the release. Make it warm but not cheesy, about three sentences, and sign it for me."}
+{"id": "s2-W1-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0047", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the plan' heard as 'Paper', 'flag' as 'flow', 'database' as 'data basic', 'keep uh' as 'Keep up': too many places", "Paper/flow/Keep up/data basic: more than 2 places"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0049", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'spread cheat', 'had' dropped, 'but only use' heard as 'The only use of': too many places", "spread cheat, had dropped, 'The only use of'"], "auditors": ["A", "B"]}

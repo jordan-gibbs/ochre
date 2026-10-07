@@ -1,0 +1,50 @@
+{"id": "s2-W10-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0102", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0104", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0105", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0106", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost the opening and the ending; garbled 'I happens'"}
+{"id": "s2-W10-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0110", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0113", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0115", "decision": "fix_clean", "clean": "For the conference talk, I want to cover three things, why we considered microservices, what we learned, and what we do differently, and the whole thing should be about 30 minutes with 10 for questions.", "reason": "dropped_by_recognizer", "note": "raw has 'we do differently'"}
+{"id": "s2-W10-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0118", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0120", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Eight Jordan' and 'off butt' not inferable"}
+{"id": "s2-W10-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0122", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0123", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dependent C in spall', 'bill', 'cash' garbled"}
+{"id": "s2-W10-0124", "decision": "drop", "reason": "unrecoverable_meaning", "note": "SLA and weekends lost; trailing Yeah"}
+{"id": "s2-W10-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0128", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0129", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0131", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0133", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0134", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0136", "decision": "fix_clean", "clean": "Retro, what went well, we shipped on time, and the team communication was kind of great, what could be better, the handoffs between design and engineering, and we should have a shared channel for that, an action for me is to set it up by next week.", "reason": "guide_violation", "note": "raw 'an action'"}
+{"id": "s2-W10-0137", "decision": "drop", "reason": "unrecoverable_meaning", "note": "multiple garbles: said, or/concern, hinter"}
+{"id": "s2-W10-0138", "decision": "fix_clean", "clean": "Repro steps, create a project, add collaborators, then remove them, and the project still shows them as a member until you refresh, which I think is a fail state issue in the sidebar component.", "reason": "unrecoverable_word", "note": "raw 'collaborators', 'fail state'"}
+{"id": "s2-W10-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0140", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0141", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0142", "decision": "fix_clean", "clean": "I sort of lost track, what did we decide about the pricing page, was it the blue one or the green one?", "reason": "guide_violation", "note": "'I sort of lost track' is content"}
+{"id": "s2-W10-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0146", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0149", "decision": "drop", "reason": "unrecoverable_meaning", "note": "rumble/page/a Q"}
+{"id": "s2-W10-0150", "decision": "fix_clean", "clean": "To get started you'll need to log in with your account, and then you also need to set the project ID, and after that you can run the init command which sort of walks you through the rest.", "reason": "dropped_by_recognizer", "note": "'install the CLI' lost"}

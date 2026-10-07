@@ -1,0 +1,11 @@
+{"id": "s2-W8-0451", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'Dentists had' for 'dentist said'; raw-faithful target says something else entirely"}
+{"id": "s2-W8-0459", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the, the' became the name 'Dell' and 'hi' became 'I'; raw-faithful target names a person never mentioned"}
+{"id": "s2-W8-0461", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'is the' heard as 'does that'; raw-faithful text is not a sensible sentence, and Okoro became Oquoro"}
+{"id": "s2-W8-0466", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and y'all' heard as 'in Yol' (not recoverable), plus 'Num' residues and 'Season'; B's fix keeps y'all, which raw does not support"}
+{"id": "s2-W8-0467", "decision": "accept", "reason": "ok", "note": "'at the Nelsons'' is an acceptable possessive; wrong-not-different, so no fix"}
+{"id": "s2-W8-0469", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'on', plus the inserted 'but' and 'this'; too many raw artefacts, and drop wins when torn"}
+{"id": "s2-W8-0490", "decision": "drop", "reason": "unrecoverable_meaning", "note": "the question 'did you eat yet' was lost and 'Yeah.' stands in its place"}
+{"id": "s2-W8-0491", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sixty' heard as 'six'; 'a woman over six' is not a sensible query"}
+{"id": "s2-W8-0492", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "the stutter and 'um' came out as the real words 'Aye.' and 'Gum.'"}
+{"id": "s2-W8-0493", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard twice as 'Yeah.', a real word a reader would take as content"}
+{"id": "s2-W8-0495", "decision": "fix_clean", "clean": "Hi my friend, I am so sorry for not answering before, this week was very busy with the work and the children. Tomorrow I am free after lunch, we can talk by video. I have many news to tell you, I got a new job, it's in a hospital near my house, I start in two weeks. I am very nervous but also very happy.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a new job' and 'It's in'; 'into weeks' is a recoverable homophone of 'in two weeks'"}

@@ -1,0 +1,142 @@
+[
+ {
+  "system": "quill-2b-shared",
+  "id": "synth-v1-A-0031",
+  "overall": "fail",
+  "note": "self-correction not applied: keeps 'John will send the notes'",
+  "set": "tuning"
+ },
+ {
+  "system": "quill-2b-shared",
+  "id": "synth-v1-B-0001",
+  "overall": "fail",
+  "note": "merged false start into restart: 'I was going to ship it tomorrow' changes meaning, drops 'should probably just'",
+  "set": "tuning"
+ },
+ {
+  "system": "quill-2b-shared",
+  "id": "synth-v1-C-0073",
+  "overall": "fail",
+  "note": "dropped 'Nah'",
+  "set": "tuning"
+ },
+ {
+  "system": "quill-0.8b-shared",
+  "id": "synth-v1-E-0039",
+  "overall": "fail",
+  "note": "voice commands typed as words ('new paragraph', 'Period.')",
+  "set": "tuning"
+ },
+ {
+  "system": "quill-0.8b-shared",
+  "id": "synth-v1-D-0024",
+  "overall": "fail",
+  "note": "wrote the cover letter (answered), and merged Spotify/Netflix",
+  "set": "tuning"
+ },
+ {
+  "system": "quill-2b-shared",
+  "id": "synth-v1-A-0082",
+  "overall": "pass",
+  "note": "both corrections applied; only an optional comma differs",
+  "set": "tuning"
+ },
+ {
+  "system": "quill-2b-shared",
+  "id": "synth-v1-D-0026",
+  "overall": "pass",
+  "note": "only an optional comma before 'or' missing",
+  "set": "tuning"
+ },
+ {
+  "system": "quill-2b-shared",
+  "id": "synth-v1-E-0005",
+  "overall": "pass",
+  "note": "bullets correct; blank line after lead-in and item periods are style",
+  "set": "tuning"
+ },
+ {
+  "system": "quill-2b-shared",
+  "id": "synth-v1-E-0040",
+  "overall": "pass",
+  "note": "kept 'trial period' as a word; extra comma before 'so' is fine",
+  "set": "tuning"
+ },
+ {
+  "system": "quill-0.8b-shared",
+  "id": "synth-v1-D-0030",
+  "overall": "pass",
+  "note": "questions kept, all words kept; only optional commas missing",
+  "set": "tuning"
+ },
+ {
+  "system": "gpt-4.1-nano",
+  "id": "synth-v1-A-0063",
+  "overall": "fail",
+  "note": "correction not applied: keeps 'it stays open' and drops only the cue",
+  "set": "holdout"
+ },
+ {
+  "system": "gpt-4.1-nano",
+  "id": "synth-v1-D-0096",
+  "overall": "fail",
+  "note": "wrote the limerick (answered)",
+  "set": "holdout"
+ },
+ {
+  "system": "gpt-4.1-nano",
+  "id": "synth-v1-D-0013",
+  "overall": "fail",
+  "note": "question left without '?' and lowercase",
+  "set": "holdout"
+ },
+ {
+  "system": "gpt-4.1-nano",
+  "id": "synth-v1-E-0007",
+  "overall": "fail",
+  "note": "dictated 'first... second... third' list not formatted",
+  "set": "holdout"
+ },
+ {
+  "system": "gpt-4.1-nano",
+  "id": "synth-v1-C-0039",
+  "overall": "fail",
+  "note": "'12th. in room 204' keeps the bad sentence break, lowercase start, no final period",
+  "set": "holdout"
+ },
+ {
+  "system": "quill-2b-shared",
+  "id": "synth-v1-E-0067",
+  "overall": "fail",
+  "note": "dropped the casual 'Okay so' opener the guide says to keep",
+  "set": "holdout"
+ },
+ {
+  "system": "gpt-4.1-nano",
+  "id": "synth-v1-C-0025",
+  "overall": "pass",
+  "note": "digits are equivalent; sentence split and Dr. correct",
+  "set": "holdout"
+ },
+ {
+  "system": "gpt-4.1-nano",
+  "id": "synth-v1-C-0037",
+  "overall": "pass",
+  "note": "God capitalised and an optional comma; nothing else changed",
+  "set": "holdout"
+ },
+ {
+  "system": "quill-2b-shared",
+  "id": "synth-v1-D-0035",
+  "overall": "pass",
+  "note": "request kept, sentences split; only optional commas differ",
+  "set": "holdout"
+ },
+ {
+  "system": "quill-2b-shared",
+  "id": "synth-v1-D-0038",
+  "overall": "pass",
+  "note": "question kept; only an optional comma differs",
+  "set": "holdout"
+ }
+]

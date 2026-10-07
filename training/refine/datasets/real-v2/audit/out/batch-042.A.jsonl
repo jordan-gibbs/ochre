@@ -1,0 +1,50 @@
+{"id": "s2-W5-0051", "decision": "fix_clean", "clean": "So I talked to the landlord and he said the plumber can come on Tuesday between 9 and 11. How does that work for you?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'How does that work'; plausible content word kept"}
+{"id": "s2-W5-0052", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became 'It' (reads as IT database) and 'is is back up' became 'is his backup'"}
+{"id": "s2-W5-0053", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dentist appointment at one' became 'dentist. Pointman have one.'"}
+{"id": "s2-W5-0055", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Aliah/John/light/missing 'Are': too many changes, 'selling the light' nonsensical"}
+{"id": "s2-W5-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'park by the lake' heard as 'park or the lake'; with raw's word the message no longer makes sense"}
+{"id": "s2-W5-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0059", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0060", "decision": "fix_clean", "clean": "Quick update, shipment is delayed until the 3rd, so we will have to reschedule the install.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'the vendor said the' absent from raw"}
+{"id": "s2-W5-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0062", "decision": "fix_clean", "clean": "I think we could just ask Diedo to take a look since he wrote the module.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary uses raw spelling; raw has 'the module'"}
+{"id": "s2-W5-0063", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for three' became 'a 43'; value not recoverable"}
+{"id": "s2-W5-0065", "decision": "fix_clean", "clean": "Okay, I am leaving the house now, should be there by like quarter to 6.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s2-W5-0066", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I was in a workshop' became 'Like shop'"}
+{"id": "s2-W5-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can' and 'I' both became 'And'; question not recoverable"}
+{"id": "s2-W5-0070", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0071", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0072", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0073", "decision": "fix_clean", "clean": "Hey so I do not think I can make it tonight, I am feeling really white. Sorry.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'wiped' heard as 'white'"}
+{"id": "s2-W5-0074", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0075", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0076", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' not spoken"}
+{"id": "s2-W5-0077", "decision": "fix_clean", "clean": "So the thing about the budget is that we kind of... Never mind, I will write it up.", "reason": "guide_violation", "rules": ["R4", "R10"], "note": "clean dropped the spoken words 'that we kind of'"}
+{"id": "s2-W5-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is only 'Oh. What day is it?'"}
+{"id": "s2-W5-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw heavily garbled"}
+{"id": "s2-W5-0081", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0082", "decision": "fix_clean", "clean": "Okay so the thing is that I do not actually have access to that folder.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s2-W5-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'start' heard as 'Sharp'"}
+{"id": "s2-W5-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lol' heard as 'All'"}
+{"id": "s2-W5-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled"}
+{"id": "s2-W5-0086", "decision": "fix_clean", "clean": "Wednesday is better for me, I have the kids on Tuesday.", "reason": "guide_violation", "rules": ["R2", "R10"], "note": "clean rewrote the corrected clause; spoken was 'wednesday is better for me'"}
+{"id": "s2-W5-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Hannah' became 'I have not.'"}
+{"id": "s2-W5-0088", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became 'numb'"}
+{"id": "s2-W5-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'FYI' became 'That's Y I'"}
+{"id": "s2-W5-0090", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0091", "decision": "fix_clean", "clean": "Yeah, I'm not sure. I would ask Ravi, he did the...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends at 'He did the'"}
+{"id": "s2-W5-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0094", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0095", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' not spoken; start garbled"}
+{"id": "s2-W5-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'wanted to let you know' became 'want it'"}
+{"id": "s2-W5-0097", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0098", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0099", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a trip this' became 'a well practice'"}

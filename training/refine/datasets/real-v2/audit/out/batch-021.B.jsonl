@@ -1,0 +1,50 @@
+{"id": "s2-W3-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "finance team lost; hesitation became Well, it dropped"}
+{"id": "s2-W3-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "date and cafe garbled"}
+{"id": "s2-W3-0003", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W3-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled words"}
+{"id": "s2-W3-0005", "decision": "drop", "reason": "unrecoverable_meaning", "note": "email and phone lost"}
+{"id": "s2-W3-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "url garbled"}
+{"id": "s2-W3-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sentence lost, bay/this sign"}
+{"id": "s2-W3-0008", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "csv clause lost"}
+{"id": "s2-W3-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name lost, eight vs eighty"}
+{"id": "s2-W3-0011", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0012", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "off by like lost"}
+{"id": "s2-W3-0016", "decision": "fix_clean", "clean": "This function retries the request up to three times with an exponential backoff starting at 200 milliseconds. If all retries fail, raises a timeout error. Note that the maximum wait is capped at 5 seconds.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped \"it\""}
+{"id": "s2-W3-0017", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most content lost"}
+{"id": "s2-W3-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "An arm, postgrad school, Release"}
+{"id": "s2-W3-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several garbled phrases"}
+{"id": "s2-W3-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "soft/pain misheard, Okay dropped"}
+{"id": "s2-W3-0022", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled words"}
+{"id": "s2-W3-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0024", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W3-0025", "decision": "fix_clean", "clean": "How many ounces in 2.5 cups?", "reason": "guide_violation", "rules": ["R6"], "note": "question needs ? and capital"}
+{"id": "s2-W3-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0027", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0028", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "start of sentence lost"}
+{"id": "s2-W3-0031", "decision": "drop", "reason": "hallucination", "note": "trailing No, no, no."}
+{"id": "s2-W3-0032", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0034", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W3-0035", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0036", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sales clause lost, garbles"}
+{"id": "s2-W3-0038", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0040", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "AM UTC garbled"}
+{"id": "s2-W3-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "percent->present, plural lost, several places"}
+{"id": "s2-W3-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0045", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "That will ship / to hit the garbled"}
+{"id": "s2-W3-0047", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0048", "decision": "fix_clean", "clean": "This query is slow because it does a sequential scan on the orders table, which has about 2 million rows. We should add a composite index on customer_id and created_at. The benchmark on PostgreSQL 16 shows the drop from 800 milliseconds to about 12.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has \"the drop\""}
+{"id": "s2-W3-0049", "decision": "fix_clean", "clean": "Act as a travel planner and build me a five-day itinerary for Coyote in April. I like temples and food, but I do not like crowds. My budget is about $200 a day.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Kyoto heard as Coyote"}
+{"id": "s2-W3-0050", "decision": "accept", "reason": "ok"}

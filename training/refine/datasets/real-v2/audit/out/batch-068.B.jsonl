@@ -1,0 +1,50 @@
+{"id": "s2-W7-0351", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled"}
+{"id": "s2-W7-0352", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"Some\" in place of um"}
+{"id": "s2-W7-0353", "decision": "drop", "reason": "unrecoverable_meaning", "note": "idempotency/keyed lost"}
+{"id": "s2-W7-0354", "decision": "fix_clean", "clean": "Relay is eating memory because the in-memory queue is unbounded. Make it bounded at 10,000 messages and apply backpressure to the producers when it's full.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "last sentence lost in raw"}
+{"id": "s2-W7-0355", "decision": "drop", "reason": "unrecoverable_meaning", "note": "resize/max/EXIF lost"}
+{"id": "s2-W7-0356", "decision": "fix_clean", "clean": "Move the validation logic out of the controllers and into a service layer. The controllers should only parse the request and call the service. Start with the user controller as the example, and I will tell you if I like the shape.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R10"], "note": "Tessera dropped by recognizer; keep \"I will\""}
+{"id": "s2-W7-0357", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W7-0358", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled start and truncated"}
+{"id": "s2-W7-0359", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0360", "decision": "drop", "reason": "unrecoverable_meaning", "note": "multiple garbles"}
+{"id": "s2-W7-0361", "decision": "drop", "reason": "unrecoverable_meaning", "note": "start lost, RFC lost"}
+{"id": "s2-W7-0362", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0363", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of message lost"}
+{"id": "s2-W7-0364", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"the goal here is to\" lost as \"Did\""}
+{"id": "s2-W7-0365", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0366", "decision": "drop", "reason": "unrecoverable_meaning", "note": "multiple lost words"}
+{"id": "s2-W7-0367", "decision": "drop", "reason": "hallucination", "note": "trailing \"you\""}
+{"id": "s2-W7-0368", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled and truncated"}
+{"id": "s2-W7-0369", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0370", "decision": "drop", "reason": "unrecoverable_meaning", "note": "key order, keep it lost"}
+{"id": "s2-W7-0371", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0372", "decision": "fix_clean", "clean": "Meeting notes from the architecture sync. We agreed to freeze new features on the monolith. All new work goes into the new services. The billing extraction starts next sprint and is owned by Priya. Tomas will define the event schema by Friday. We will use the outbox pattern to publish events reliably. Open question: do we need a schema registry now, or can we start with versioned JSON in a shared repo? We will decide next week.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "Tomas accent not in raw"}
+{"id": "s2-W7-0373", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0374", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0375", "decision": "drop", "reason": "hallucination", "note": "trailing Okay."}
+{"id": "s2-W7-0376", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0377", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles (exec, SIGTERM, jobs)"}
+{"id": "s2-W7-0378", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles"}
+{"id": "s2-W7-0379", "decision": "drop", "reason": "unrecoverable_meaning", "note": "CI/prod/A-B/writeup garbled, Aiko->Echo"}
+{"id": "s2-W7-0380", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lost clause and garbles"}
+{"id": "s2-W7-0381", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles"}
+{"id": "s2-W7-0382", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0383", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles"}
+{"id": "s2-W7-0384", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several garbles"}
+{"id": "s2-W7-0385", "decision": "drop", "reason": "unrecoverable_meaning", "note": "retry helper and inject lost"}
+{"id": "s2-W7-0386", "decision": "drop", "reason": "unrecoverable_meaning", "note": "question and end lost"}
+{"id": "s2-W7-0387", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0388", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0389", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0390", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0391", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0392", "decision": "fix_clean", "clean": "Marlin standup: yesterday I fixed the webhook signature button. Today I'm adding the replay protection with a timestamp check. No blockers, though I'll need a second pair of eyes on the crypto bit, so Echo, if you have time this afternoon.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "bug->button, Aiko->Echo from raw"}
+{"id": "s2-W7-0393", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0394", "decision": "drop", "reason": "unrecoverable_meaning", "note": "title content lost"}
+{"id": "s2-W7-0395", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0396", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled end"}
+{"id": "s2-W7-0397", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0398", "decision": "drop", "reason": "unrecoverable_meaning", "note": "backup/dump/production lost"}
+{"id": "s2-W7-0399", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several lost/garbled"}
+{"id": "s2-W7-0400", "decision": "drop", "reason": "unrecoverable_meaning", "note": "aspect ratio garbled"}

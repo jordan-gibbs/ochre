@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Settings preview · Ochre</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="components.css">
+<style>
+  /* preview-only: a floating theme switch */
+  .preview-switch { position: fixed; right: 14px; top: 12px; z-index: 99; }
+  body.shot .preview-switch { display: none; }
+</style>
+</head>
+<body>
+<div class="preview-switch seg" role="radiogroup" style="--n:2; --i:0" id="theme-switch">
+  <button role="radio" aria-checked="true" data-theme-set="light">Light</button>
+  <button role="radio" aria-checked="false" data-theme-set="dark">Dark</button>
+</div>
+
+<div class="shell">
+  <!-- ============================================================== sidebar -->
+  <aside class="sidebar">
+    <div class="brand"><img src="brand/ochre-icon-small.svg" alt=""><span class="wordmark" role="img" aria-label="Ochre"></span></div>
+    <nav class="nav" aria-label="Settings">
+      <a class="nav-item" href="#general" data-section="general"><svg viewBox="0 0 24 24"><path d="M4 7h9M19 7h1M4 17h3M13 17h7"/><circle cx="16" cy="7" r="2.5"/><circle cx="10" cy="17" r="2.5"/></svg>General</a>
+      <a class="nav-item" href="#transcription" data-section="transcription"><svg viewBox="0 0 24 24"><path d="M4 12v0M8 8.5v7M12 5v14M16 8v8M20 11v2"/></svg>Transcription</a>
+      <a class="nav-item" href="#refinement" data-section="refinement"><svg viewBox="0 0 24 24"><path d="M11 3.5c.7 4.6 2.4 6.3 7 7-4.6.7-6.3 2.4-7 7-.7-4.6-2.4-6.3-7-7 4.6-.7 6.3-2.4 7-7z"/><path d="M18.5 15.5c.3 1.7.8 2.2 2.5 2.5-1.7.3-2.2.8-2.5 2.5-.3-1.7-.8-2.2-2.5-2.5 1.7-.3 2.2-.8 2.5-2.5z"/></svg>Refinement</a>
+      <a class="nav-item" href="#handsfree" data-section="handsfree"><svg viewBox="0 0 24 24"><path d="M6.3 7.5a8 8 0 0 0 0 9M17.7 7.5a8 8 0 0 1 0 9M9.2 10a3.6 3.6 0 0 0 0 4M14.8 10a3.6 3.6 0 0 1 0 4"/><circle cx="12" cy="12" r=".6"/></svg>Hands-free</a>
+      <a class="nav-item" href="#dictionary" data-section="dictionary"><svg viewBox="0 0 24 24"><path d="M5 18.5V5.5A2.5 2.5 0 0 1 7.5 3H19v15H7.5A2.5 2.5 0 0 0 5 20.5 2.5 2.5 0 0 0 7.5 23H19"/><path d="M9 7.5h6"/></svg>Dictionary</a>
+      <a class="nav-item" href="#history" data-section="history"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>History</a>
+      <div class="nav-sep"></div>
+      <a class="nav-item" href="#about" data-section="about"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8v.01"/></svg>About</a>
+    </nav>
+    <div class="sidebar-foot">
+      <div class="engine-status">
+        <span class="status" data-tone="success" aria-hidden="true"></span>
+        <span><strong>Ready</strong>Parakeet · local</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============================================================== content -->
+  <main class="main" id="main">
+
+    <!-- ------------------------------------------------------------ general -->
+    <section class="page" id="general" hidden>
+      <header class="page-head">
+        <h1 class="page-title">General</h1>
+        <p class="page-lede">How you start dictating, and how Ochre fits into your desktop.</p>
+      </header>
+
+      <div class="group">
+        <div class="group-head"><h2 class="group-title">Dictation</h2></div>
+        <div class="card">
+          <div class="row">
+            <div class="row-text"><span class="row-label">Voice key</span><span class="row-desc">Hold to talk. Double-tap to lock hands-off.</span></div>
+            <div class="row-control"><button class="capture" type="button" aria-label="Voice key: Right Alt. Click to change"><kbd class="keycap">Right Alt</kbd><span class="capture-edit">Change</span></button></div>
+          </div>
+          <div class="row">
+            <div class="row-text"><span class="row-label">Cancel key</span><span class="row-desc">Discard the current dictation.</span></div>
+            <div class="row-control"><button class="capture" type="button" data-capturing aria-live="polite">Press a key…</button></div>
+          </div>
+          <div class="row">
+            <div class="row-text"><span class="row-label">Insert text by</span><span class="row-desc">Typing is slower but works in apps that block paste.</span></div>
+            <div class="row-control"><span class="select"><select><option>Pasting (fastest)</option><option>Typing keystrokes</option></select></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="group-head"><h2 class="group-title">System</h2></div>
+        <div class="card">
+          <div class="row">
+            <div class="row-text"><span class="row-label">Start at login</span></div>
+            <div class="row-control"><input type="checkbox" role="switch" class="toggle" checked aria-label="Start at login"></div>
+          </div>
+          <div class="row">
+            <div class="row-text"><span class="row-label">Language</span><span class="row-desc">Auto-detect works best with two or more languages.</span></div>
+            <div class="row-control"><span class="select"><select><option>English</option><option>Auto-detect</option></select></span></div>
+          </div>
+          <div class="row">
+            <div class="row-text"><span class="row-label">Appearance</span><span class="row-desc">Light by default. System follows your OS.</span></div>
+            <div class="row-control"><div class="seg" role="radiogroup" style="--n:3; --i:0"><button role="radio" aria-checked="true">Light</button><button role="radio" aria-checked="false">Dark</button><button role="radio" aria-checked="false">System</button></div></div>
+          </div>
+          <div class="row">
+            <div class="row-text"><span class="row-label">Sounds</span><span class="row-desc">A soft tick when recording starts and stops.</span></div>
+            <div class="row-control"><input type="checkbox" role="switch" class="toggle" aria-label="Sounds"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------ transcription -->
+    <section class="page" id="transcription" hidden>
+      <header class="page-head">
+        <h1 class="page-title">Transcription</h1>
+        <p class="page-lede">Turn speech into words, privately on this computer or with a cloud provider you choose.</p>
+      </header>
+
+      <div class="group">
+        <div class="card">
+          <div class="row">
+            <div class="row-text"><span class="row-label">Engine</span><span class="row-desc">Local never sends audio anywhere.</span></div>
+            <div class="row-control"><div class="seg" role="radiogroup" style="--n:2; --i:0"><button role="radio" aria-checked="true">Local</button><button role="radio" aria-checked="false">Cloud</button></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="group-head"><h2 class="group-title">Local model</h2><span class="group-aside">Stored in AppData · 2.1 GB free</span></div>
+        <div class="card choices" role="radiogroup">
+          <label class="choice">
+            <input type="radio" name="model" checked>
+            <span class="choice-title">Parakeet TDT 0.6B <span class="badge" data-tone="accent">Recommended</span></span>
+            <span class="choice-meta">670 MB · 25 European languages · fastest</span>
+            <span class="choice-side"><button class="btn btn-sm btn-ghost" type="button">Cancel</button></span>
+            <span class="choice-progress"><span class="progress" style="--value:.466" role="progressbar" aria-valuenow="47"><i></i></span><span class="num">312 / 670 MB</span></span>
+          </label>
+          <label class="choice">
+            <input type="radio" name="model">
+            <span class="choice-title">Whisper large-v3 turbo</span>
+            <span class="choice-meta">1.6 GB · 99 languages</span>
+            <span class="choice-side"><button class="btn btn-sm" type="button"><svg viewBox="0 0 16 16"><path d="M8 2.5v8M4.5 7.5 8 11l3.5-3.5M3 13.5h10"/></svg>Download</button></span>
+          </label>
+          <label class="choice">
+            <input type="radio" name="model">
+            <span class="choice-title">Moonshine base</span>
+            <span class="choice-meta">120 MB · English · light on battery</span>
+            <span class="choice-side"><span class="badge" data-tone="success"><svg viewBox="0 0 12 12"><path d="M2.5 6.3l2.2 2.2 4.8-5"/></svg>Installed</span></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="group-head"><h2 class="group-title">Cloud provider</h2></div>
+        <div class="card">
+          <div class="row">
+            <div class="row-text"><span class="row-label">Provider</span><span class="row-desc">Used when the engine is set to Cloud.</span></div>
+            <div class="row-control"><span class="select"><select><option>Groq · whisper-large-v3</option><option>OpenAI</option><option>Soniox</option></select></span></div>
+          </div>
+          <div class="row is-stacked">
+            <div class="row-text"><span class="row-label">API key</span><span class="row-desc">Kept in Windows Credential Manager, never in config files.</span></div>
+            <div class="row-control" style="flex-direction:column; align-items:flex-start; gap:0">
+              <div class="key-field">
+                <div class="field">
+                  <input class="input mono" type="password" value="gsk_live_4c9a1f7e83b2d6" aria-label="Groq API key">
+                  <button class="field-btn" type="button" aria-label="Show key"><svg viewBox="0 0 16 16"><path d="M1.5 8S4 3.5 8 3.5 14.5 8 14.5 8 12 12.5 8 12.5 1.5 8 1.5 8z"/><circle cx="8" cy="8" r="2"/></svg></button>
+                </div>
+                <button class="btn" type="button">Test</button>
+              </div>
+              <span class="status" data-tone="success">Connected <span class="meta">· 182 ms round trip</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------- refinement -->
+    <section class="page" id="refinement" hidden>
+      <header class="page-head">
+        <h1 class="page-title">Refinement</h1>
+        <p class="page-lede">A language model tidies punctuation, removes filler words and fixes the obvious, in your own voice.</p>
+      </header>
+
+      <div class="group">
+        <div class="card">
+          <div class="row">
+            <div class="row-text"><span class="row-label">Refine with</span><span class="row-desc">Adds about 300 ms after you release the key.</span></div>
+            <div class="row-control"><div class="seg" role="radiogroup" style="--n:3; --i:2"><button role="radio" aria-checked="false">Off</button><button role="radio" aria-checked="false">Local</button><button role="radio" aria-checked="true">Cloud</button></div></div>
+          </div>
+          <div class="row">
+            <div class="row-text"><span class="row-label">Style</span></div>
+            <div class="row-control"><span class="select"><select><option>Clean: punctuation and fillers</option><option>Verbatim</option><option>Polished</option></select></span></div>
+          </div>
+          <div class="row">
+            <div class="row-text"><span class="row-label">Keep my wording</span><span class="row-desc">Never rephrase; only fix what was misheard.</span></div>
+            <div class="row-control"><input type="checkbox" role="switch" class="toggle" checked aria-label="Keep my wording"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="group-head"><h2 class="group-title">Cloud model</h2></div>
+        <div class="card">
+          <div class="row">
+            <div class="row-text"><span class="row-label">Provider</span></div>
+            <div class="row-control"><span class="select"><select><option>Anthropic · Claude Haiku</option><option>OpenAI · gpt-4.1-mini</option><option>Groq · llama-3.3</option></select></span></div>
+          </div>
+          <div class="row is-stacked">
+            <div class="row-text"><span class="row-label">API key</span></div>
+            <div class="row-control" style="flex-direction:column; align-items:flex-start; gap:0">
+              <div class="key-field">
+                <div class="field">
+                  <input class="input mono" type="password" value="sk-ant-api03-x9f2" aria-label="Anthropic API key">
+                  <button class="field-btn" type="button" aria-label="Show key"><svg viewBox="0 0 16 16"><path d="M1.5 8S4 3.5 8 3.5 14.5 8 14.5 8 12 12.5 8 12.5 1.5 8 1.5 8z"/><circle cx="8" cy="8" r="2"/></svg></button>
+                </div>
+                <button class="btn" type="button">Test</button>
+              </div>
+              <span class="status" data-tone="danger">Key rejected <span class="meta">· 401 from api.anthropic.com</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="group-head"><h2 class="group-title">Per-app styles</h2><button class="btn btn-sm btn-ghost" type="button">+ Add app</button></div>
+        <div class="card">
+          <div class="app-row"><span class="app-icon" style="background:#4a154b">S</span><span class="app-name">Slack<small>Casual, keeps emoji words</small></span><span class="select" style="min-width:140px"><select><option>Casual</option></select></span><button class="btn btn-ghost btn-icon btn-sm" type="button" aria-label="Remove"><svg viewBox="0 0 16 16"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg></button></div>
+          <div class="app-row"><span class="app-icon" style="background:#d93025">M</span><span class="app-name">Gmail<small>Full sentences, sign-off kept</small></span><span class="select" style="min-width:140px"><select><option>Formal</option></select></span><button class="btn btn-ghost btn-icon btn-sm" type="button" aria-label="Remove"><svg viewBox="0 0 16 16"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg></button></div>
+          <div class="app-row"><span class="app-icon" style="background:#0e72c4">VS</span><span class="app-name">Visual Studio Code<small>No rewriting near code</small></span><span class="select" style="min-width:140px"><select><option>Verbatim</option></select></span><button class="btn btn-ghost btn-icon btn-sm" type="button" aria-label="Remove"><svg viewBox="0 0 16 16"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg></button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------- hands-free -->
+    <section class="page" id="handsfree" hidden>
+      <header class="page-head">
+        <h1 class="page-title">Hands-free</h1>
+        <p class="page-lede">Say a wake phrase to start dictating without touching the keyboard.</p>
+      </header>
+
+      <div class="group">
+        <div class="card">
+          <div class="row">
+            <div class="row-text"><span class="row-label">Listen for the wake phrase</span><span class="row-desc">Detection runs entirely on this computer.</span></div>
+            <div class="row-control"><input type="checkbox" role="switch" class="toggle" checked aria-label="Hands-free"></div>
+          </div>
+          <div class="row">
+            <div class="row-text"><span class="row-label">Wake phrase</span><span class="row-desc">End with “transcribe send”, “stop” or “cancel”.</span></div>
+            <div class="row-control" style="width:200px"><input class="input" value="transcribe" aria-label="Wake phrase"></div>
+          </div>
+          <div class="row">
+            <div class="row-text"><span class="row-label">Sensitivity</span><span class="row-desc">Higher wakes more easily, and more often by mistake.</span></div>
+            <div class="row-control" style="flex-direction:column; align-items:stretch; gap:0"><input type="range" class="range" min="0" max="1" step="0.01" value="0.62" style="--value:.62" aria-label="Sensitivity"><span class="range-scale"><span>Strict</span><span>Eager</span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="group-head"><h2 class="group-title">Train your voice</h2><span class="group-aside">Optional · improves accuracy</span></div>
+        <div class="card">
+          <div class="row">
+            <div class="row-text"><span class="row-label">Say “transcribe” five times</span><span class="row-desc" style="margin-top:8px"><span class="status" data-tone="companion">Listening for sample 4</span></span></div>
+            <div class="row-control"><span class="dots-progress" aria-label="3 of 5 samples"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+          </div>
+          <div class="row">
+            <div class="row-text"><span class="row-label">Model</span><span class="row-desc">Trained 3 days ago from 5 samples.</span></div>
+            <div class="row-control"><button class="btn btn-ghost" type="button">Reset</button><button class="btn btn-primary" type="button">Retrain</button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5"/><path d="M8 7.2v4M8 4.9v.1"/></svg><span>Hands-free pauses automatically while your microphone is in use by a call.</span></div>
+    </section>
+
+    <!-- ---------------------------------------------------------- dictionary -->
+    <section class="page" id="dictionary" hidden>
+      <header class="page-head">
+        <h1 class="page-title">Dictionary</h1>
+        <p class="page-lede">Names and terms Ochre should always get right.</p>
+      </header>
+
+      <div class="group">
+        <div class="group-head"><h2 class="group-title">Preferred spellings</h2><span class="group-aside">8 words</span></div>
+        <div class="tags">
+          <span class="tag">Kubernetes<button class="tag-x" type="button" aria-label="Remove"></button></span>
+          <span class="tag">Priya Raman<button class="tag-x" type="button" aria-label="Remove"></button></span>
+          <span class="tag">PostgreSQL<button class="tag-x" type="button" aria-label="Remove"></button></span>
+          <span class="tag">Tauri<button class="tag-x" type="button" aria-label="Remove"></button></span>
+          <span class="tag">Ochre<button class="tag-x" type="button" aria-label="Remove"></button></span>
+          <span class="tag">gRPC<button class="tag-x" type="button" aria-label="Remove"></button></span>
+          <span class="tag">Zoë<button class="tag-x" type="button" aria-label="Remove"></button></span>
+          <span class="tag">OKRs<button class="tag-x" type="button" aria-label="Remove"></button></span>
+          <input class="tag-input" placeholder="Add a word, press Enter" aria-label="Add a word">
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="group-head"><h2 class="group-title">Replacements</h2><span class="group-aside">Applied after refinement</span></div>
+        <div class="card stack">
+          <div class="pairs">
+            <div class="pairs-head"><span>When I say</span><span></span><span>Write</span><span></span></div>
+            <div class="pair"><input class="input" value="oaker" aria-label="Spoken"><span class="pair-arrow"></span><input class="input" value="Ochre" aria-label="Written"><button class="btn btn-ghost btn-icon btn-sm" type="button" aria-label="Remove"><svg viewBox="0 0 16 16"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg></button></div>
+            <div class="pair"><input class="input" value="my address" aria-label="Spoken"><span class="pair-arrow"></span><input class="input" value="221B Baker Street, London" aria-label="Written"><button class="btn btn-ghost btn-icon btn-sm" type="button" aria-label="Remove"><svg viewBox="0 0 16 16"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg></button></div>
+            <div class="pair"><input class="input" value="new paragraph" aria-label="Spoken"><span class="pair-arrow"></span><input class="input mono" value="¶" aria-label="Written"><button class="btn btn-ghost btn-icon btn-sm" type="button" aria-label="Remove"><svg viewBox="0 0 16 16"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg></button></div>
+            <div class="pair"><input class="input" placeholder="Spoken phrase" aria-label="Spoken"><span class="pair-arrow"></span><input class="input" placeholder="Replacement" aria-label="Written"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------- history -->
+    <section class="page" id="history" hidden>
+      <header class="page-head">
+        <h1 class="page-title">History</h1>
+        <p class="page-lede">Everything you dictated, stored only on this computer.</p>
+      </header>
+
+      <div class="hstack" style="margin-bottom:var(--space-4)">
+        <div class="field">
+          <svg class="icon-lead" viewBox="0 0 16 16"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
+          <input class="input" placeholder="Search history" aria-label="Search history">
+        </div>
+        <button class="btn btn-danger" type="button">Clear all</button>
+      </div>
+
+      <div class="card history">
+        <div class="day-label">Today</div>
+        <div class="history-item">
+          <span class="history-time">14:32</span>
+          <div><div class="history-text">Thanks for the notes. I will send the revised deck tonight and loop in Priya on the pricing slide.</div>
+            <div class="history-meta"><span class="badge" data-tone="accent">Refined</span><span>Slack</span><span>·</span><span class="tnum">19 words</span></div></div>
+          <div class="history-actions"><button class="btn btn-ghost btn-sm btn-icon" type="button" aria-label="Copy"><svg viewBox="0 0 16 16"><rect x="5" y="5" width="8.5" height="8.5" rx="2"/><path d="M3 10.5V4a1.5 1.5 0 0 1 1.5-1.5H10"/></svg></button><button class="btn btn-ghost btn-sm" type="button">Re-insert</button></div>
+        </div>
+        <div class="history-item is-hover">
+          <span class="history-time">13:05</span>
+          <div><div class="history-text">Can we move the design review to Thursday? I want the HUD states and the settings window in front of everyone before we cut the release.</div>
+            <div class="history-meta"><span class="badge" data-tone="accent">Refined</span><span>Gmail</span><span>·</span><span class="tnum">28 words</span></div></div>
+          <div class="history-actions"><button class="btn btn-ghost btn-sm btn-icon" type="button" aria-label="Copy"><svg viewBox="0 0 16 16"><rect x="5" y="5" width="8.5" height="8.5" rx="2"/><path d="M3 10.5V4a1.5 1.5 0 0 1 1.5-1.5H10"/></svg></button><button class="btn btn-ghost btn-sm" type="button">Re-insert</button></div>
+        </div>
+        <div class="history-item">
+          <span class="history-time">11:48</span>
+          <div><div class="history-text">git commit, fix the off by one in the level meter</div>
+            <div class="history-meta"><span class="badge">Raw</span><span>Visual Studio Code</span><span>·</span><span class="tnum">10 words</span></div></div>
+          <div class="history-actions"><button class="btn btn-ghost btn-sm btn-icon" type="button" aria-label="Copy"><svg viewBox="0 0 16 16"><rect x="5" y="5" width="8.5" height="8.5" rx="2"/><path d="M3 10.5V4a1.5 1.5 0 0 1 1.5-1.5H10"/></svg></button><button class="btn btn-ghost btn-sm" type="button">Re-insert</button></div>
+        </div>
+        <div class="day-label">Yesterday</div>
+        <div class="history-item">
+          <span class="history-time">18:20</span>
+          <div><div class="history-text">Remind me to call the dentist about moving Friday's appointment.</div>
+            <div class="history-meta"><span class="badge">Hands-free</span><span>Notes</span><span>·</span><span class="tnum">11 words</span></div></div>
+          <div class="history-actions"><button class="btn btn-ghost btn-sm btn-icon" type="button" aria-label="Copy"><svg viewBox="0 0 16 16"><rect x="5" y="5" width="8.5" height="8.5" rx="2"/><path d="M3 10.5V4a1.5 1.5 0 0 1 1.5-1.5H10"/></svg></button><button class="btn btn-ghost btn-sm" type="button">Re-insert</button></div>
+        </div>
+        <div class="history-item">
+          <span class="history-time">09:02</span>
+          <div><div class="history-text">Not inserted: the focused window was a password field.</div>
+            <div class="history-meta"><span class="badge" data-tone="warning">Saved only</span><span>1Password</span></div></div>
+          <div class="history-actions"><button class="btn btn-ghost btn-sm btn-icon" type="button" aria-label="Copy"><svg viewBox="0 0 16 16"><rect x="5" y="5" width="8.5" height="8.5" rx="2"/><path d="M3 10.5V4a1.5 1.5 0 0 1 1.5-1.5H10"/></svg></button><button class="btn btn-ghost btn-sm" type="button">Re-insert</button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------- about -->
+    <section class="page" id="about" hidden>
+      <div class="card" style="padding:var(--space-7) var(--space-6); text-align:center; margin-bottom:var(--space-6)">
+        <img src="brand/ochre-icon.svg" alt="" width="72" height="72" style="display:block; margin:0 auto var(--space-4)">
+        <h1 style="margin:0; line-height:0"><span class="wordmark" role="img" aria-label="Ochre" style="--wm-h:46px"></span></h1>
+        <p class="page-lede" style="margin:var(--space-2) auto 0">Hold a key, talk, and polished text lands where you type.</p>
+        <p class="mono small muted" style="margin:var(--space-3) 0 var(--space-5)">v0.1.0 · Windows x64 · core 0.1.0</p>
+        <div class="hstack" style="justify-content:center"><button class="btn" type="button">Check for updates</button><button class="btn btn-ghost" type="button">GitHub ↗</button></div>
+      </div>
+      <div class="group">
+        <div class="group-head"><h2 class="group-title">Privacy</h2></div>
+        <div class="card">
+          <div class="row"><div class="row-text"><span class="row-label">Audio</span><span class="row-desc">Processed locally unless you pick a cloud engine. Never stored.</span></div><div class="row-control"><span class="badge" data-tone="success">On device</span></div></div>
+          <div class="row"><div class="row-text"><span class="row-label">Keys</span><span class="row-desc">Held by the OS keyring, never written to disk by Ochre.</span></div><div class="row-control"><span class="badge">Keyring</span></div></div>
+          <div class="row"><div class="row-text"><span class="row-label">Telemetry</span><span class="row-desc">None. There is nothing to opt out of.</span></div><div class="row-control"><span class="badge">Off</span></div></div>
+        </div>
+      </div>
+      <p class="small muted" style="text-align:center">Open source under the MIT license. Type: Funnel Display, Instrument Sans and Geist Mono (SIL OFL 1.1).</p>
+    </section>
+  </main>
+</div>
+
+<script>
+'use strict';
+const P = new URLSearchParams(location.search);
+if (P.has('shot')) document.body.classList.add('shot');
+const setTheme = (t) => {
+  document.documentElement.dataset.theme = t;
+  document.querySelectorAll('#theme-switch button').forEach((b, i) => {
+    const on = b.dataset.themeSet === t;
+    b.setAttribute('aria-checked', String(on));
+    if (on) b.parentElement.style.setProperty('--i', i);
+  });
+};
+setTheme(P.get('theme') || 'light');   // light by default, like the app
+
+function show(id) {
+  document.querySelectorAll('.page').forEach((s) => { s.hidden = s.id !== id; });
+  document.querySelectorAll('.nav-item').forEach((a) => {
+    if (a.dataset.section === id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+  });
+  document.getElementById('main').scrollTop = 0;
+}
+show(P.get('section') || location.hash.slice(1) || 'general');
+document.querySelectorAll('.nav-item').forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); show(a.dataset.section); history.replaceState(null, '', '#' + a.dataset.section); }));
+
+/* segmented controls: move the thumb */
+document.querySelectorAll('.seg').forEach((seg) => {
+  const btns = [...seg.querySelectorAll('button')];
+  btns.forEach((b, i) => b.addEventListener('click', () => {
+    btns.forEach((x) => x.setAttribute('aria-checked', String(x === b)));
+    seg.style.setProperty('--i', i);
+    if (b.dataset.themeSet) setTheme(b.dataset.themeSet);
+  }));
+});
+/* range fill */
+document.querySelectorAll('.range').forEach((r) => r.addEventListener('input', () => r.style.setProperty('--value', r.value)));
+/* key capture demo */
+document.querySelectorAll('.capture').forEach((c) => c.addEventListener('click', () => {
+  if (c.hasAttribute('data-capturing')) return;
+  const prev = c.innerHTML;
+  c.setAttribute('data-capturing', ''); c.textContent = 'Press a key…';
+  const done = (e) => { e.preventDefault(); c.removeAttribute('data-capturing'); c.innerHTML = `<kbd class="keycap">${e.code.replace(/(Left|Right)$/, ' $1').replace('Key', '')}</kbd><span class="capture-edit">Change</span>`; removeEventListener('keydown', done, true); };
+  addEventListener('keydown', done, true);
+  setTimeout(() => { if (c.hasAttribute('data-capturing')) { c.removeAttribute('data-capturing'); c.innerHTML = prev; removeEventListener('keydown', done, true); } }, 5000);
+}));
+</script>
+</body>
+</html>

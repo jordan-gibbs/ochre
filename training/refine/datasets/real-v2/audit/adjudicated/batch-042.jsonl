@@ -1,0 +1,9 @@
+{"id": "s2-W5-0051", "decision": "fix_clean", "clean": "So I talked to the landlord and he said the plumber can come on Tuesday between 9 and 11. How does that work for you?", "reason": "unrecoverable_word", "note": "sided with A: raw has 'How does'; plausible content word, keep it; 'at between' is an artefact"}
+{"id": "s2-W5-0052", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "sided with A: 'um' became 'It' and 'is is back up' became 'is his backup'; meaning changed"}
+{"id": "s2-W5-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'by' heard as 'or'; 'park or the lake' no longer gives a clear location; torn, prefer drop"}
+{"id": "s2-W5-0068", "decision": "fix_clean", "clean": "Just merge the fix, please pull the main before you push anything else.", "reason": "unrecoverable_word", "note": "sided with B: 'merged' heard as 'merge', 'uh' heard as 'the'; follow raw, still a sensible message"}
+{"id": "s2-W5-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'Can' and 'I am' both became 'And'; B's fix reinserts 'Can', which is not in raw"}
+{"id": "s2-W5-0077", "decision": "fix_clean", "clean": "So the thing about the budget is that we kind of... Never mind, I will write it up.", "reason": "guide_violation", "note": "sided with A: clean cut spoken words 'that we kind of' that raw has"}
+{"id": "s2-W5-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'start' heard as 'Sharp'; cannot be inferred"}
+{"id": "s2-W5-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'lol' heard as 'All'; 'All same.' is not a sensible dictation"}
+{"id": "s2-W5-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'FYI' became 'That's Y I'; not inferable"}

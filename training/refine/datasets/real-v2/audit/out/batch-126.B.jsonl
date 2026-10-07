@@ -1,0 +1,50 @@
+{"id": "s4-W30-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0052", "decision": "fix_clean", "clean": "Amir pushed a hotfix for the Next.js hydration error, but Reversal preview is still showing the old build.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0054", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W30-0055", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0057", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W30-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0059", "decision": "fix_clean", "clean": "I horhe, the pen test report flagged an outdated OpenSSL version on the VPN appliance.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0064", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W30-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0068", "decision": "fix_clean", "clean": "The DNS records for the new domain are on Cloudflare, so the MX records should propagate by tonight.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W30-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0071", "decision": "fix_clean", "clean": "Hi Gustavo, thanks for sending over the sensor data from the greenhouses. I loaded the CSV into Grafana and connected it to InfluxDB, but the temperature panel is showing Celsius instead of Fahrenheit, and I can't find where to change it. Would you take a look when you have a minute? No rush.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0073", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0074", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0075", "decision": "fix_clean", "clean": "For the new donation page, I'm thinking we use GiveWP since it's free and it plugs into strike, and we can host it on the existing WordPress site, but I want to check with the board about the processing fees before we commit to the first time.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0077", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0080", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W30-0081", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0082", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0083", "decision": "fix_clean", "clean": "The anti-cheat flagged 40 accounts last night, but when I looked at the logs, half of them are just using Linux with Proton, so we need to whitelist the Steam Deck, which is annoying. And also the appeal form on the website is broken, so people are pinging me on Discord and said.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0086", "decision": "fix_clean", "clean": "Dear Dina, the youth program signup form is on.form and it's emailing the submissions to an old address, so please update the notification settings to the shared inbox and double check that the confirmation message still goes out to the parents. Gazaka.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0087", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0088", "decision": "fix_clean", "clean": "Carmen, the virtual staging tool is charging us per image, and we did 300 last time, so I priced out running Stable Diffusion on our own GPU box, and it pays for itself by October.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0091", "decision": "fix_clean", "clean": "Hi Jamal, I review the Figma mockups for the new listing page. Two things, the price filter needs a slider, and the map should use Mapbox instead of Google Maps, since we're already paying for the Mapbox license.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W30-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0093", "decision": "fix_clean", "clean": "Hi everyone, quick update on the co-op's new inventory system. We moved the produce database from Google Sheets to Airtable last week, and the Zapier flows that send the weekly order emails are working again. The one open problem is the barcode scanner app, which she uses an old version have reignated, and won't build on the latest Xcode. Cestavo is looking at upgrading it, and if that doesn't work, we'll switch to a web based scanner using the ZXing library. Please keep using the paper sheets for the Saturday market until we confirm everything is stable. Thanks.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0094", "decision": "fix_clean", "clean": "Dev recap for the weekend. Poor Hay got the Unreal Engine build running on the new Jenkins agent, which cut the compile time from 40 minutes to around 15. I fixed the Steam Web API key that was expiring, and the Discord OF lobby now works with the new redirect URL. The only thing left is the leaderboard, which is still hitting the old DynamoDB table and returning stale scores, so I'll look at that tomorrow.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0095", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0096", "decision": "fix_clean", "clean": "Dear Chloe, thank you for sending the installation files for the new exhibition. The projector software runs on TouchDesigner, and I've tested the patch on the gallery Mac mini, but the audio output keeps defaulting to the HDMI display instead of the USB interface. I've asked Jamal whether he can set the default through the Audio MIDI Setup utility. In the meantime, please don't unplug the interface. Kind regards, Or hate", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0097", "decision": "fix_clean", "clean": "I'm building a small website for our mosque community group using Next.js and Tailwind, and I want a page that lists upcoming events from a Google Calendar. Can you walk me through using the Google Calendar of the I with a service account, show me how to store the credentials safely in Vercel environment variables, and tell me how to cache the results so we don't hit the quota every time somebody opens the page?", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0099", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0100", "decision": "drop", "reason": "unrecoverable_meaning"}

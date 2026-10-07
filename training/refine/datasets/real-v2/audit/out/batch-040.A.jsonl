@@ -1,0 +1,50 @@
+{"id": "s2-W4-0451", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er your' became 'Or more'; 'your' not inferable"}
+{"id": "s2-W4-0452", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'by noon. If' became 'buying new nif.'; 'has'->'is', extra 'from the'"}
+{"id": "s2-W4-0453", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost most of the middle (salad, bread, remind dad)"}
+{"id": "s2-W4-0454", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er act on' -> 'Or act on', plus added 'We' and lost 'and'"}
+{"id": "s2-W4-0455", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled (bases, Ballot codes can't, Triman, by Tan)"}
+{"id": "s2-W4-0456", "decision": "drop", "reason": "unrecoverable_meaning", "note": "appointment/six months/whitening deal lost; card->hard"}
+{"id": "s2-W4-0457", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0458", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'one-liner'/'debug' garbled to 'one, ver I are'/'de but'"}
+{"id": "s2-W4-0459", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'it' ('on it. Thursday'); 'end' lost to 'Lum. And'"}
+{"id": "s2-W4-0460", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ship it um as is' -> 'chip it. As if'"}
+{"id": "s2-W4-0461", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0462", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0463", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'last er day' -> 'last time. Oh day'"}
+{"id": "s2-W4-0464", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in a row'->'Dan. A row', 'write the archive'->'Right the arc', 'I if'"}
+{"id": "s2-W4-0465", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Dumb', 'Adam', 'Endureing. Endured' from hesitations; name Alina"}
+{"id": "s2-W4-0466", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi all'->'I all', 'hard to customize'->'hard. It customized'"}
+{"id": "s2-W4-0467", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'want er to' -> 'want. Right. To'; 'er since' -> 'But since'"}
+{"id": "s2-W4-0468", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hands-on activity' -> 'A Ren Zone Activity', 'Zone.'"}
+{"id": "s2-W4-0469", "decision": "fix_clean", "clean": "Security incident response. When a suspected security incident is reported, the on-call engineer must acknowledge the report within 50 minutes and begin an initial assessment. If the incident involves customer data, the security lead must be notified immediately, and legal must be informed within two hours. All actions taken during the response must be recorded in the incident log, including timestamps and the names of those involved. After the incident is resolved, the team will hold a review within five business days and publish a summary of lessons learned.", "reason": "number_value", "rules": ["RECOVER", "R7"], "note": "raw says fifty minutes"}
+{"id": "s2-W4-0470", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0471", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Okay.' never spoken"}
+{"id": "s2-W4-0472", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0473", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0474", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pads' -> \"Pat's\" plus several garbled items (oh meal, Bud Spray, first a kit)"}
+{"id": "s2-W4-0475", "decision": "fix_clean", "clean": "First of all, thank you for the detailed notes. The second thing I want to say is that I agree with most of your points, but there are one or two places where I think we should push back. For example, the timeline you proposed assumes the vendor delivers on the first try, and in my experience the second round of revisions is where things usually slip. Also, the number one risk in my view is not the budget but the handoff between teams, so I would like to spend the first half of our next call on that, and then we can go through the rest. Lastly, could you share the original spread so I can check the assumptions?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'spread', spreadsheet not inferable"}
+{"id": "s2-W4-0476", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No' three times (reads as a correction cue)"}
+{"id": "s2-W4-0477", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I get it' lost 'it' ('I get but still'); 'is like' -> 'It's like'"}
+{"id": "s2-W4-0478", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'would need' heard as 'wouldn't need' (negation flip)"}
+{"id": "s2-W4-0479", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'journal' -> 'Jona', 'lead a project' -> 'leave the project'"}
+{"id": "s2-W4-0480", "decision": "fix_clean", "clean": "Okay so, can we please talk about the meeting invites, because it is getting out of hand. I got three invites for the same thing this morning, and none of them have an agenda. I'm all for syncing up, but we literally spend more time scheduling meetings than doing the work. What I would like is a rule where every invite needs a one-line agenda, and if there is no agenda, people can decline without feeling bad. Honestly, I think half of these could just be a message in Slack.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has the contraction I'm"}
+{"id": "s2-W4-0481", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0482", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I really do need the numbers by then because' dropped by recognizer (>5 words)"}
+{"id": "s2-W4-0483", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0484", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0485", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0486", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'backend'->'Batkin', 'logins or'->'law and sort of', 'streak'->'street'"}
+{"id": "s2-W4-0487", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I checked'->'And check', 'foreign'->'form', 'author'->'offer'"}
+{"id": "s2-W4-0488", "decision": "drop", "reason": "unrecoverable_meaning", "note": "education market sentence lost"}
+{"id": "s2-W4-0489", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'some', 'Dumb'; 'please' lost"}
+{"id": "s2-W4-0490", "decision": "drop", "reason": "unrecoverable_meaning", "note": "attendees and discussion largely lost"}
+{"id": "s2-W4-0491", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Q workers', 'clock', 'back cloak', 'I'm call', 'do paragraph'"}
+{"id": "s2-W4-0492", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'about three hundred words' -> 'a ball. Three hundred were'; 'our'->'a'"}
+{"id": "s2-W4-0493", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sparlier', 'we designed', final sentence lost"}
+{"id": "s2-W4-0494", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'not' lost ('I did. Test on mobile'), 'Idle', 'accident letter'"}
+{"id": "s2-W4-0495", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'No.' ('at No. A large software company')"}
+{"id": "s2-W4-0496", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Bay group', 'clearer economy', 'on'/'or' from hesitations"}
+{"id": "s2-W4-0497", "decision": "drop", "reason": "unrecoverable_meaning", "note": "goal sentence lost ('Improve I can handle')"}
+{"id": "s2-W4-0498", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can you'->'And you', 'setup'->'said of', 'Gids', trailing lost"}
+{"id": "s2-W4-0499", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'deployment'->'appointment', 'test'->'Best', 'tag'->'Tad'"}
+{"id": "s2-W4-0500", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'settle in'->'settle. And', 'main' and 'to help' lost"}

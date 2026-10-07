@@ -1,0 +1,50 @@
+{"id": "s4-W13-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0004", "decision": "fix_clean", "clean": "Route to tier three.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' missing from raw"}
+{"id": "s4-W13-0005", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s4-W13-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0009", "decision": "fix_clean", "clean": "I mean it, Nigo owned the dashboard.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has Nigo and 'owned'"}
+{"id": "s4-W13-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0012", "decision": "fix_clean", "clean": "No, I haven't tried the Zenis export.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Zendesk not inferable from Zenis"}
+{"id": "s4-W13-0013", "decision": "drop", "reason": "unrecoverable_meaning", "note": "correction and 'is stuck' lost"}
+{"id": "s4-W13-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value Boulder heard as Folder"}
+{"id": "s4-W13-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is 'I meant Helena. Pretty.'"}
+{"id": "s4-W13-0017", "decision": "fix_clean", "clean": "Summarise the last email.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Summarise'"}
+{"id": "s4-W13-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Bianca lost; raw garbled"}
+{"id": "s4-W13-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0021", "decision": "fix_clean", "clean": "Baba Joyde has the keys.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "name not in dictionary"}
+{"id": "s4-W13-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'Three bulls in GitLab. Sorry, get up.'"}
+{"id": "s4-W13-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0026", "decision": "fix_clean", "clean": "Hi Margo, thanks for sending the budget to the audit team. I'll review it tonight.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Marta heard as Margo"}
+{"id": "s4-W13-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected 'orders CSV' garbled to 'order C'"}
+{"id": "s4-W13-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected name heard as 'Baba died'"}
+{"id": "s4-W13-0032", "decision": "fix_clean", "clean": "We actually shipped a fix yesterday, Miko can confirm.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'a fixed', 'Miko'"}
+{"id": "s4-W13-0033", "decision": "fix_clean", "clean": "Write this paragraph for the knowledge base and keep it friendly.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'Right' -> Write; 're-' lost"}
+{"id": "s4-W13-0034", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s4-W13-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0038", "decision": "fix_clean", "clean": "I mean it when I say Byomka did great work on the tax filing.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Bianca not inferable"}
+{"id": "s4-W13-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0041", "decision": "fix_clean", "clean": "We are meeting the client at the Knoxville branch and then heading back.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'We are'"}
+{"id": "s4-W13-0042", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.'; 'data' heard as 'day'"}
+{"id": "s4-W13-0043", "decision": "fix_clean", "clean": "Marta sent the dashboard link to Tamara, and it still doesn't open.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Mara heard as Tamara"}
+{"id": "s4-W13-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0048", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first half of dictation lost"}
+{"id": "s4-W13-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Azure heard as 'edger'; raw garbled"}
+{"id": "s4-W13-0050", "decision": "fix_clean", "clean": "Hi Babage, the phone you asked about is the Pixel, and it's available now.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "name not in dictionary"}

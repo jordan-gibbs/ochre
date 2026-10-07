@@ -1,0 +1,2 @@
+{"id": "e4-E13-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: author 'ngozi' heard as 'and goze'; merging into 'andgoze' invents an identifier"}
+{"id": "e4-E13-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: bucket name 'ngozi' heard as 'and gozy' plus several garbled parts; identifier not recoverable"}

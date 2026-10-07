@@ -1,0 +1,50 @@
+{"id": "s2-W7-0351", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled throughout (No worry the IO app, boring, titleman)"}
+{"id": "s2-W7-0352", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became real word 'Some' before 'bonyx'"}
+{"id": "s2-W7-0353", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'item hope and see check key on', 'readies' unrecoverable"}
+{"id": "s2-W7-0354", "decision": "fix_clean", "clean": "Relay is eating memory because the in-memory queue is unbounded. Make it bounded at 10,000 messages and apply backpressure to the producers when it's full.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "final sentence 'don't drop messages silently' absent from raw"}
+{"id": "s2-W7-0355", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Precise/Next dimension/ETF: three unrecoverable mishearings"}
+{"id": "s2-W7-0356", "decision": "fix_clean", "clean": "Move the validation logic out of the controllers and into a service layer. The controllers should only parse the request and call the service. Start with the user controller as the example, and I will tell you if I like the shape.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Tessera' absent from raw; spoken and raw say 'I will'"}
+{"id": "s2-W7-0357", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W7-0358", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Will is if you add', 'belief components', 'Pinas'' garbled"}
+{"id": "s2-W7-0359", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Arrow/heaped snapchal/Rowing: three mishearings"}
+{"id": "s2-W7-0360", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'In the salt dysfunction swallows the air ... colour' garbled"}
+{"id": "s2-W7-0361", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Well it's EX4' replaces 'bug in granite, the csv export'; 'perfect' for 'per the rfc'"}
+{"id": "s2-W7-0362", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Eastone/They'll/air rate: person and words changed"}
+{"id": "s2-W7-0363", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw only has the last clause"}
+{"id": "s2-W7-0364", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Did remove' replaces 'the goal here is to remove'; opening unrecoverable"}
+{"id": "s2-W7-0365", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0366", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I mean you like', 'only risk the network aggress costs', 'And you confirm'; clean also adds words"}
+{"id": "s2-W7-0367", "decision": "drop", "reason": "hallucination", "note": "Whisper trailing 'you'"}
+{"id": "s2-W7-0368", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Heading/climb/Nick setup/local vost and last sentence lost"}
+{"id": "s2-W7-0369", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0370", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled (Includer in the J. Sound, buddy, it's not a little bit more)"}
+{"id": "s2-W7-0371", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0372", "decision": "fix_clean", "clean": "Meeting notes from the architecture sync. We agreed to freeze new features on the monolith. All new work goes into the new services. The billing extraction starts next sprint and is owned by Priya. Tomas will define the event schema by Friday. We will use the outbox pattern to publish events reliably. Open question: do we need a schema registry now, or can we start with versioned JSON in a shared repo? We will decide next week.", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name not in dictionary; raw spells 'Tomas'"}
+{"id": "s2-W7-0373", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Love.'"}
+{"id": "s2-W7-0374", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0375", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' never said; also they'll/chat/the net"}
+{"id": "s2-W7-0376", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Love.'; also 'said' inserted"}
+{"id": "s2-W7-0377", "decision": "drop", "reason": "unrecoverable_meaning", "note": "UPI, shell screen. Use is exact, sick term, jots: too many places"}
+{"id": "s2-W7-0378", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'STEPS TO REPRODUS I. FORSEQIT the AP', 'options' lost, bill, log head"}
+{"id": "s2-W7-0379", "decision": "drop", "reason": "unrecoverable_meaning", "note": "inside/broad/Echo/on a B test/ride up/it'll: too many places"}
+{"id": "s2-W7-0380", "decision": "drop", "reason": "unrecoverable_meaning", "note": "clause 'how it decides...' lost, 'Gimme New Hire', 'coat'"}
+{"id": "s2-W7-0381", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'there or And', 'late oh', 'been tested', 'desktop leg'"}
+{"id": "s2-W7-0382", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0383", "decision": "drop", "reason": "unrecoverable_meaning", "note": "He did/at about/hold blocks/this all a migration: too many places"}
+{"id": "s2-W7-0384", "decision": "drop", "reason": "unrecoverable_meaning", "note": "FPI, 'So in thinking', 'But the dirty', 'How do I', 'write quote'"}
+{"id": "s2-W7-0385", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'The reader is good'; 'inject' lost ('Slow the clock')"}
+{"id": "s2-W7-0386", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can we' became 'And we' and 'the default' lost; question unrecoverable"}
+{"id": "s2-W7-0387", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0388", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0389", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0390", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0391", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0392", "decision": "drop", "reason": "unrecoverable_meaning", "note": "button/it'll/Echo: three places"}
+{"id": "s2-W7-0393", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bill/pipe one/month: three places"}
+{"id": "s2-W7-0394", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the dashboard crashes' lost; title fragment"}
+{"id": "s2-W7-0395", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0396", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'And you add lugging around the connection lights, I call'"}
+{"id": "s2-W7-0397", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0398", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a backup. Take a dump' -> 'the back'; 'not production' lost"}
+{"id": "s2-W7-0399", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cover adding an item' lost, plying, moff"}
+{"id": "s2-W7-0400", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'run' for wrong, 'SFIT ratio'; clean also adds 'the'"}

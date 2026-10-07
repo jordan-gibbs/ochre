@@ -1,0 +1,50 @@
+{"id": "s4-W39-0001", "decision": "fix_clean", "clean": "Hey Kirlene, did you ever hear back from the...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw has Kirlene"}
+{"id": "s4-W39-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0007", "decision": "fix_clean", "clean": "I wanted to tell Abdul that they were...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'that they were' for 'that the'"}
+{"id": "s4-W39-0008", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W39-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0011", "decision": "fix_clean", "clean": "Chen's wedding shoot starts at 4 then we need to be...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'then' for 'and'"}
+{"id": "s4-W39-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0014", "decision": "fix_clean", "clean": "Jim, do you remember where we left the...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw Jim; Jin not in dictionary"}
+{"id": "s4-W39-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0018", "decision": "fix_clean", "clean": "Daniella was going to send the playlist for the...", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s4-W39-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0020", "decision": "fix_clean", "clean": "I think we skip the second setup.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'second setup.' is complete; 'set of' not inferable"}
+{"id": "s4-W39-0021", "decision": "drop", "reason": "hallucination", "note": "raw invents 'I'm not going to be able to'; 'be there in like' lost"}
+{"id": "s4-W39-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hi abdul' heard as 'I have the'"}
+{"id": "s4-W39-0028", "decision": "fix_clean", "clean": "Meeting with the radio station manager Tuesday at 10. We need to discuss the weekend slot, the sponsorship money, and weather.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'and weather.' reads as a complete list item; 'whether' not inferable"}
+{"id": "s4-W39-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'yo quinn i'm' heard as 'Ilquin on'"}
+{"id": "s4-W39-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in the infra repo' heard as 'Then the infarepo'"}
+{"id": "s4-W39-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0034", "decision": "fix_clean", "clean": "Good morning Danielle, I'm writing about the booking for the engagement shoot on the 15th, and I wanted to confirm that...", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name from raw"}
+{"id": "s4-W39-0035", "decision": "fix_clean", "clean": "This function retries the upload, but only if the status code is above 500 and...", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R4"], "note": "raw ends on 'and'; 'the' lost"}
+{"id": "s4-W39-0036", "decision": "fix_clean", "clean": "The alert dashboard times out whenever more than 12 alerts fire at once, which is probably because they...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'they' for 'the'"}
+{"id": "s4-W39-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0038", "decision": "fix_clean", "clean": "Ideas for the next hike, the ridge loop is about 6 miles and has a great view of the valley, but the parking lot is tiny, so we need to...", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw 'we need' not 'we'd need'"}
+{"id": "s4-W39-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Nika, swamp, 'off here', 'be sure' for 'we should'"}
+{"id": "s4-W39-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'exam if you' heard as 'exan of fume'"}
+{"id": "s4-W39-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "final 'the' heard as 'day'; fixed target not sensible"}
+{"id": "s4-W39-0044", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W39-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0047", "decision": "fix_clean", "clean": "Again, I looked at the draft board last night and honestly I think we're overpaying for that.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R4"], "note": "'Jin' heard as 'Again'; raw ends on complete 'for that.'"}
+{"id": "s4-W39-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W39-0050", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}

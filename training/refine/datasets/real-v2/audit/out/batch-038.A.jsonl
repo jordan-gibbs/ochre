@@ -1,0 +1,50 @@
+{"id": "s2-W4-0351", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'Well' mid-sentence ('here is what. Well I want')"}
+{"id": "s2-W4-0352", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ideas' heard as 'I to use'; also article changes (the compost bin, the small pond)"}
+{"id": "s2-W4-0353", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0354", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0355", "decision": "fix_clean", "clean": "This component has a few known limitations:\n- It does not support right-to-left languages\n- It renders on every keystroke\n- The tooltip position breaks inside scrollable containers", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'renders'; 're' prefix lost"}
+{"id": "s2-W4-0356", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0357", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and we have contacted them' lost; raw ends 'same issue. As well.'"}
+{"id": "s2-W4-0358", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0359", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'has not approved' heard as 'has ought to prove'"}
+{"id": "s2-W4-0360", "decision": "fix_clean", "clean": "The definition of done is:\n1. All tests passed\n2. Docs are updated\n3. The change is behind a feature flag\n4. Product has signed off", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'passed'"}
+{"id": "s2-W4-0361", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'the' and 'if', changed 'a list' to 'the list'; 3 places"}
+{"id": "s2-W4-0362", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0363", "decision": "fix_clean", "clean": "Recipe ingredient:\n- 2 cups of flour\n- 1 teaspoon of salt\n- 3 eggs\n- A cup of milk", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has singular 'ingredient'"}
+{"id": "s2-W4-0364", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0365", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0366", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0367", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0368", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for um the final presentations' heard as 'first. The final presentations'"}
+{"id": "s2-W4-0369", "decision": "fix_clean", "clean": "Okay so I just got off the phone with the client and, honestly, they're not thrilled, but they're not leaving either.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has contractions they're"}
+{"id": "s2-W4-0370", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'card on file' heard as 'card on VA'"}
+{"id": "s2-W4-0371", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0372", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0373", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0374", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0375", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0376", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0377", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0378", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost final sentence and has 'want to party'; target content not in raw"}
+{"id": "s2-W4-0379", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'no fluff' heard as 'no flat'; 'Postgres' as 'posters'"}
+{"id": "s2-W4-0380", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0381", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0382", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0383", "decision": "fix_clean", "clean": "This method is the thin wrapper around fetch, but it adds retries and a timeout.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the thin wrapper'"}
+{"id": "s2-W4-0384", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0385", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0386", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0387", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bro that' heard as 'broke a'; 'points down' as 'point stamp'"}
+{"id": "s2-W4-0388", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0389", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "several 'uh' became 'no' ('Basically no', 'and now. No.', 'because no', 'But no.')"}
+{"id": "s2-W4-0390", "decision": "fix_clean", "clean": "Hi Samuel, thanks for getting back to me so quickly, I really appreciate it. Here is where we are. We reviewed your quote. Honestly, it is kind of higher than what we had budgeted. We understand that the materials cost more this year, but we were hoping you could maybe work with us on the price, especially since this would be a long-term partnership. We are planning to order every quarter, so could you let me know if there is any flexibility on the unit price if we commit to a larger volume? Thanks again, and I look forward to hearing from you.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R6"], "note": "'and' lost by recognizer"}
+{"id": "s2-W4-0391", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'who might actually use it' heard as 'Why might be.'; 'and um' as 'Anne'"}
+{"id": "s2-W4-0392", "decision": "fix_clean", "clean": "I have this Python script that reads a CSV file and sums up the sales by region, but it is really slow when the file gets big, over a million rows. I think the problem is that I am looping for every row instead of using something like pandas. Can you look at my approach and tell me how to speed it up? Please explain the reasoning, because I actually want to understand it, not just copy and paste.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'looping for every row'"}
+{"id": "s2-W4-0393", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0394", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0395", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0396", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0397", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'fine' lost ('is I'), 'uh' as 'Well', 'token' as 'Tobin', 'web' as 'WED'"}
+{"id": "s2-W4-0398", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0399", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0400", "decision": "accept", "reason": "ok"}

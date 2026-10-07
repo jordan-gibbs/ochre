@@ -1,0 +1,150 @@
+{"id": "dpo4-s4-W28-0077", "verdict": "worse", "note": "mangles name Papi Georgiou"}
+{"id": "dpo4-s4-W34-0076", "verdict": "equal", "note": "km/euro symbol vs words is style; both apply 140 correction"}
+{"id": "dpo4-s4-W13-0069", "verdict": "worse", "note": "misses haiku/self-correction"}
+{"id": "dpo4-s4-W43-0085", "verdict": "equal", "note": "page 3/7 digits vs words is optional style"}
+{"id": "dpo4-s4-W51-0020", "verdict": "worse", "note": "invents lease"}
+{"id": "dpo4-s4-W20-0055", "verdict": "equal", "note": "shift schedule vs shift's schedule, trivial"}
+{"id": "dpo4-s2-W6-0204", "verdict": "worse", "note": "mocks for mockups"}
+{"id": "dpo4-s2-W2-0440", "verdict": "worse", "note": "drops storage bucket/download, restructures"}
+{"id": "dpo4-s2-W3-0179", "verdict": "equal", "note": "0.5% vs half a percent is style"}
+{"id": "dpo4-s4-W44-0028", "verdict": "worse", "note": "ignores dictionary Annika"}
+{"id": "dpo4-s4-W53-0025", "verdict": "worse", "note": "invents Seared, drops 'a side'"}
+{"id": "dpo4-s4-W32-0100", "verdict": "worse", "note": "keeps wheat, invents cath"}
+{"id": "dpo4-s2-W2-0208", "verdict": "better", "note": "rejected uses 200 digits (rule 7) and colon; chosen keeps 'two hundred' inconsistently"}
+{"id": "dpo4-s4-W27-0010", "verdict": "both_bad", "note": "rejected invents 'Loan'; chosen deletes raw 'Col' (rule 13 says keep)"}
+{"id": "dpo4-s4-W52-0166", "verdict": "worse", "note": "changes recipient to Amara, drops sign-off"}
+{"id": "dpo4-s4-W52-0254", "verdict": "worse", "note": "drops roughly, per head"}
+{"id": "dpo4-s4-W38-0085", "verdict": "worse", "note": "invents question content"}
+{"id": "dpo4-s4-W32-0013", "verdict": "worse", "note": "limbo for in limine"}
+{"id": "dpo4-s4-W22-0066", "verdict": "worse", "note": "invents Upgrade"}
+{"id": "dpo4-s4-W13-0081", "verdict": "worse", "note": "changes spelling sceptical"}
+{"id": "dpo4-s4-W30-0073", "verdict": "worse", "note": "garbles SPF/DKIM, EDR->email"}
+{"id": "dpo4-s4-W26-0022", "verdict": "worse", "note": "Hakuno vs Hakone"}
+{"id": "dpo4-s2-W6-0113", "verdict": "equal", "note": "'I quick' -> chosen drops, rejected 'Hi'; both defensible"}
+{"id": "dpo4-s4-W59-0047", "verdict": "worse", "note": "mangles name, invents 'it matters'"}
+{"id": "dpo4-s4-W30-0056", "verdict": "worse", "note": "PR for regex"}
+{"id": "dpo4-s4-W31-0067", "verdict": "worse", "note": "drops the instruction"}
+{"id": "dpo4-s4-W24-0033", "verdict": "worse", "note": "half an hour -> 30 minutes"}
+{"id": "dpo4-s4-W21-0082", "verdict": "worse", "note": "Review for Proofread, keeps 'I like'"}
+{"id": "dpo4-s4-W35-0006", "verdict": "worse", "note": "invents date/time"}
+{"id": "dpo4-s4-W64-0028", "verdict": "worse", "note": "valid for validated"}
+{"id": "dpo4-s4-W58-0042", "verdict": "worse", "note": "coop for co-op"}
+{"id": "dpo4-s4-W40-0081", "verdict": "worse", "note": "evacuation for evolution"}
+{"id": "dpo4-s2-W10-0099", "verdict": "equal", "note": "dropoff/step two vs drop off/step 2, style"}
+{"id": "dpo4-s4-W57-0046", "verdict": "worse", "note": "misses scratch-that correction"}
+{"id": "dpo4-s4-W37-0040", "verdict": "worse", "note": "invents craving, unfixed braise/charred"}
+{"id": "dpo4-s4-W42-0100", "verdict": "equal", "note": "'car' -> 'QA' plausible in testing context but not certain; borderline"}
+{"id": "dpo4-s4-W52-0113", "verdict": "worse", "note": "'big piece, he touched' wrong"}
+{"id": "dpo4-s4-W29-0085", "verdict": "worse", "note": "Velpo pluners, Kangos makes"}
+{"id": "dpo4-s4-W23-0005", "verdict": "equal", "note": "sisters' vs sister's both defensible; minor comma diffs"}
+{"id": "dpo4-s4-W29-0071", "verdict": "worse", "note": "changes Marseille spelling"}
+{"id": "dpo4-s4-W50-0085", "verdict": "worse", "note": "ends, keeps 'lame you'"}
+{"id": "dpo4-s4-W32-0029", "verdict": "worse", "note": "changes spelling counsellors"}
+{"id": "dpo4-s2-W4-0337", "verdict": "worse", "note": "changes tense asked->asks"}
+{"id": "dpo4-s4-W53-0023", "verdict": "worse", "note": "water for wok"}
+{"id": "dpo4-s4-W34-0013", "verdict": "worse", "note": "invents 100 km"}
+{"id": "dpo4-s2-W3-0048", "verdict": "worse", "note": "ignores dictionary PostgreSQL"}
+{"id": "dpo4-s4-W33-0003", "verdict": "worse", "note": "30th for 31st"}
+{"id": "dpo4-s4-W56-0008", "verdict": "worse", "note": "keeps Cruise, 100, 40"}
+{"id": "dpo4-s4-W35-0032", "verdict": "worse", "note": "Bill 41,180 fail"}
+{"id": "dpo4-s4-W52-0119", "verdict": "equal", "note": "5 weeks/7 days digits vs words, Mr. vs Mr; style"}
+{"id": "dpo4-s4-W24-0043", "verdict": "worse", "note": "all caps, invented content"}
+{"id": "dpo4-s4-W45-0052", "verdict": "worse", "note": "misses self-correction"}
+{"id": "dpo4-s4-W46-0029", "verdict": "worse", "note": "guesses Spence"}
+{"id": "dpo4-s4-W57-0024", "verdict": "worse", "note": "misses self-corrections, Cur"}
+{"id": "dpo4-s4-W32-0095", "verdict": "both_bad", "note": "rejected drops 'too', singularizes clearances; chosen keeps 'peril' though 'payroll' is inferable in finance context"}
+{"id": "dpo4-s4-W47-0009", "verdict": "worse", "note": "cracker list for roster"}
+{"id": "dpo4-s4-W49-0024", "verdict": "worse", "note": "invents ssh options"}
+{"id": "dpo4-s4-W21-0063", "verdict": "equal", "note": "'bill' vs 'build' for design tokens; build plausible, borderline"}
+{"id": "dpo4-s4-W28-0052", "verdict": "equal", "note": "'cutoff is' vs 'cut off at' both reasonable reads of 'as'"}
+{"id": "dpo4-s4-W34-0082", "verdict": "equal", "note": "6/5 nights digits vs words, style"}
+{"id": "dpo4-s4-W30-0053", "verdict": "worse", "note": "session for assertion"}
+{"id": "dpo4-s2-W2-0499", "verdict": "worse", "note": "misparses no wait, drops content"}
+{"id": "dpo4-s2-W6-0395", "verdict": "equal", "note": "'called' fixes dropped -ed slip; otherwise same"}
+{"id": "dpo4-s2-W4-0043", "verdict": "worse", "note": "mocks for mockups"}
+{"id": "dpo4-s4-W49-0078", "verdict": "worse", "note": "non-redirect for non-root"}
+{"id": "dpo4-s4-W32-0036", "verdict": "worse", "note": "attached for enclosed"}
+{"id": "dpo4-s4-W52-0163", "verdict": "worse", "note": "misses self-corrections"}
+{"id": "dpo4-s4-W52-0245", "verdict": "worse", "note": "misses correction, nameplate"}
+{"id": "dpo4-s4-W50-0052", "verdict": "worse", "note": "Thank you adds word"}
+{"id": "dpo4-s4-W37-0058", "verdict": "worse", "note": "drops please note, door->dock"}
+{"id": "dpo4-s4-W19-0011", "verdict": "worse", "note": "misspells propping"}
+{"id": "dpo4-s4-W24-0045", "verdict": "worse", "note": "invents Sarah, DAX, kicksets"}
+{"id": "dpo4-s4-W64-0047", "verdict": "worse", "note": "drops name and hardcover discount"}
+{"id": "dpo4-s4-W45-0047", "verdict": "worse", "note": "misses Rafael correction, latter/led"}
+{"id": "dpo4-s4-W25-0008", "verdict": "equal", "note": "dropping 'Do' (likely 'So' filler) and '2 hours' digits are acceptable"}
+{"id": "dpo4-s4-W48-0003", "verdict": "equal", "note": "getUser vs get_user, no language context"}
+{"id": "dpo4-s4-W32-0008", "verdict": "worse", "note": "nonsense for tonsillectomy"}
+{"id": "dpo4-s4-W23-0044", "verdict": "worse", "note": "misses self-correction"}
+{"id": "dpo4-s4-W38-0072", "verdict": "worse", "note": "waitlist for weekend"}
+{"id": "dpo4-s4-W47-0072", "verdict": "worse", "note": "adds Hi"}
+{"id": "dpo4-s4-W56-0049", "verdict": "worse", "note": "3:00 for 10, drops three buses"}
+{"id": "dpo4-s4-W36-0017", "verdict": "worse", "note": "keeps question mark command as words"}
+{"id": "dpo4-s4-W54-0023", "verdict": "worse", "note": "paddle for pedal"}
+{"id": "dpo4-s4-W24-0059", "verdict": "equal", "note": "digits vs words, Mr. vs Mr; style"}
+{"id": "dpo4-s4-W36-0038", "verdict": "worse", "note": "voice command not applied"}
+{"id": "dpo4-s4-W13-0033", "verdict": "worse", "note": "misses make-that correction"}
+{"id": "dpo4-s2-W4-0484", "verdict": "worse", "note": "rollback for runbook"}
+{"id": "dpo4-s4-W27-0054", "verdict": "worse", "note": "respells Taric, adds 'a'"}
+{"id": "dpo4-s4-W32-0025", "verdict": "worse", "note": "guesses close"}
+{"id": "dpo4-s4-W56-0032", "verdict": "worse", "note": "Misses, run-on, keeps also"}
+{"id": "dpo4-s4-W29-0003", "verdict": "worse", "note": "Bonso for Bonus"}
+{"id": "dpo4-s4-W14-0092", "verdict": "worse", "note": "keeps abandoned fragment"}
+{"id": "dpo4-s4-W37-0008", "verdict": "worse", "note": "no list, no commas"}
+{"id": "dpo4-s4-W23-0003", "verdict": "worse", "note": "O'Conno, 'turns out', bad phone"}
+{"id": "dpo4-s4-W33-0001", "verdict": "worse", "note": "Standby guess"}
+{"id": "dpo4-s4-W49-0064", "verdict": "worse", "note": "changes spelling dialogue"}
+{"id": "dpo4-s4-W62-0098", "verdict": "worse", "note": "drops 'the gate', adds 'of this month'"}
+{"id": "dpo4-s2-W11-0096", "verdict": "worse", "note": "DBA for Rabbi"}
+{"id": "dpo4-s4-W38-0074", "verdict": "equal", "note": "semi vs semicolon, minor"}
+{"id": "dpo4-s2-W3-0442", "verdict": "worse", "note": "quinoa"}
+{"id": "dpo4-s4-W32-0075", "verdict": "worse", "note": "drops name Hamia, adds Hi"}
+{"id": "dpo4-s4-W36-0076", "verdict": "worse", "note": "drops 'new paragraph', ignores new line"}
+{"id": "dpo4-s2-W4-0216", "verdict": "worse", "note": "garbled rsync"}
+{"id": "dpo4-s4-W36-0036", "verdict": "better", "note": "'Conn or' is a split name -> Connor (rule 13); chosen deletes the name"}
+{"id": "dpo4-s4-W58-0068", "verdict": "worse", "note": "adds Hi"}
+{"id": "dpo4-s4-W36-0028", "verdict": "worse", "note": "White Rose singular"}
+{"id": "dpo4-s4-W20-0019", "verdict": "worse", "note": "keeps fillers, price for trade"}
+{"id": "dpo4-s4-W45-0019", "verdict": "worse", "note": "drops 'You know what', taxi"}
+{"id": "dpo4-s2-W7-0318", "verdict": "worse", "note": "Post-autumn"}
+{"id": "dpo4-s4-W33-0037", "verdict": "worse", "note": "acts on request, adds Hi team"}
+{"id": "dpo4-s4-W24-0024", "verdict": "equal", "note": "games -> gigs plausible for a band, borderline"}
+{"id": "dpo4-s4-W48-0021", "verdict": "worse", "note": "useEffect unfixed"}
+{"id": "dpo4-s4-W33-0019", "verdict": "worse", "note": "invents deadline, drops Q3"}
+{"id": "dpo4-s4-W16-0082", "verdict": "worse", "note": "misapplies correction, drops 3 at 8"}
+{"id": "dpo4-s4-W29-0094", "verdict": "worse", "note": "FarmCo up, drops guide, Carl Hart"}
+{"id": "dpo4-s4-W41-0082", "verdict": "worse", "note": "audit for addon"}
+{"id": "dpo4-s4-W21-0031", "verdict": "worse", "note": "invoice for Zion"}
+{"id": "dpo4-s4-W59-0007", "verdict": "worse", "note": "adds Hey, drops bro"}
+{"id": "dpo4-s4-W59-0072", "verdict": "worse", "note": "adds Hi, respells name"}
+{"id": "dpo4-s2-W4-0330", "verdict": "equal", "note": "'traffic slows' vs 'traffic is low' both plausible reads"}
+{"id": "dpo4-s4-W39-0088", "verdict": "worse", "note": "Mike, 105"}
+{"id": "dpo4-s2-W5-0287", "verdict": "worse", "note": "drops long time no talk"}
+{"id": "dpo4-s4-W49-0042", "verdict": "worse", "note": "O(n2), coop, wrong break"}
+{"id": "dpo4-s4-W22-0049", "verdict": "equal", "note": "opens vs opened, slip fix; trivial"}
+{"id": "dpo4-s4-W39-0095", "verdict": "worse", "note": "invents playoffs"}
+{"id": "dpo4-s4-W39-0060", "verdict": "worse", "note": "invents 'after'"}
+{"id": "dpo4-s4-W57-0004", "verdict": "worse", "note": "keeps liters/tenths"}
+{"id": "dpo4-s4-W12-0096", "verdict": "worse", "note": "drops 2 PM option"}
+{"id": "dpo4-s4-W47-0093", "verdict": "worse", "note": "adds 'and', rush hour"}
+{"id": "dpo4-s4-W25-0048", "verdict": "worse", "note": "Hi, drops I'm told"}
+{"id": "dpo4-s4-W46-0031", "verdict": "worse", "note": "ticket guess"}
+{"id": "dpo4-s4-W54-0094", "verdict": "worse", "note": "cukes, suit"}
+{"id": "dpo4-s4-W14-0012", "verdict": "worse", "note": "misses correction, Peda"}
+{"id": "dpo4-s4-W64-0020", "verdict": "worse", "note": "boss save, all fail"}
+{"id": "dpo4-s4-W57-0045", "verdict": "worse", "note": "misses correction, drops family chat"}
+{"id": "dpo4-s2-W3-0111", "verdict": "worse", "note": "heap for hot"}
+{"id": "dpo4-s4-W22-0038", "verdict": "worse", "note": "adds Hi and It's"}
+{"id": "dpo4-s4-W19-0095", "verdict": "worse", "note": "drops 'right now', 'I mean'"}
+{"id": "dpo4-s2-W7-0127", "verdict": "worse", "note": "invents 29th"}
+{"id": "dpo4-s4-W53-0016", "verdict": "worse", "note": "box for hook"}
+{"id": "dpo4-s4-W52-0021", "verdict": "worse", "note": "Miss for Mrs."}
+{"id": "dpo4-s4-W29-0087", "verdict": "worse", "note": "keeps Malatia/Ismer/even"}
+{"id": "dpo4-s4-W56-0038", "verdict": "worse", "note": "bad sentence breaks, adds meeting"}
+{"id": "dpo4-s2-W8-0062", "verdict": "worse", "note": "invents 'cut it short'"}
+{"id": "dpo4-s4-W57-0025", "verdict": "worse", "note": "bad breaks, tend, drops kit"}
+{"id": "dpo4-s4-W52-0217", "verdict": "worse", "note": "drops don't-mention instruction"}
+{"id": "dpo4-s4-W56-0021", "verdict": "worse", "note": "3 million"}
+{"id": "dpo4-s4-W45-0017", "verdict": "worse", "note": "login for loan"}
+{"id": "dpo4-s4-W25-0003", "verdict": "worse", "note": "cough, app"}
+{"id": "dpo4-s4-W51-0018", "verdict": "equal", "note": "6:30 vs half past six, style"}

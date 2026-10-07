@@ -1,0 +1,43 @@
+{"id": "s2-W10-0001", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.' never said", "trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0004", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw badly garbled: 'It in figure... object key'", "configure/you know/API garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0006", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.' never said", "trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0007", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'read' missing from raw", "read lost"], "auditors": ["A", "B"], "clean": "Hey team, I wanted to give a quick update on the migration. We're about 80% done, and the hard part is behind us. We just need to cut over the replicas and run the final checks on Friday."}
+{"id": "s2-W10-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0010", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'a search feature'", "raw 'a search feature'"], "auditors": ["A", "B"], "clean": "My goals for this quarter are to ship a search feature, mentor the two new hires, and improve the test coverage, which is sort of embarrassing right now, it's under 40%, so I want to get it above 70."}
+{"id": "s2-W10-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0014", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'it hangs, no' -> 'an act.', 'it' -> 'that'; target not inferable", "hangs lost, correction garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0025", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many misrecognitions: all loads, have, to leave, I want objects", "logs/add/delete/someone garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0027", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["'bug' -> 'but' plus trailing 'Yeah.' never said", "trailing Yeah; bug heard as but"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0028", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'to deploy, run the script' lost from raw", "'to deploy, run the script' lost"], "auditors": ["A", "B"], "clean": "Run the make target and wait for the green check."}
+{"id": "s2-W10-0029", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected value README garbled to 'reini'", "README heard as reini"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0032", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["question and statement run together under one '?'", "statement not a question"], "auditors": ["A", "B"], "clean": "Can you check this paragraph for tone? I want it to sound friendly but not too casual."}
+{"id": "s2-W10-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0035", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'data'->'day', 'the audit log'->'they thought at a log'", "day / they thought at a log"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0037", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'doesn't guarantee' -> 'does a guarantee' flips meaning; 'It's always'", "It's always sort / does a guarantee"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0039", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'modelling'", "modelling"], "auditors": ["A", "B"], "clean": "Dear hiring committee, I'm writing to apply for the senior analyst position, and I have eight years of experience in financial modelling and forecasting, and I'm particularly drawn to your company's focus on sustainability."}
+{"id": "s2-W10-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0042", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["names garbled, 'everyone agreed' and 'next' lost", "names, everyone agreed, next lost"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0048", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'debrief'->'decrie', 'was'->'it's'", "debrief garbled, it's/was"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

@@ -1,0 +1,42 @@
+{"id": "s4-W29-0001", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0004", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Or the Patagonia Please put the code up'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0005", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'For call to rob train time'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0010", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'told you Bliana'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0012", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'store opens' and Champs-Elysees garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0014", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'We're a thief. I think Government Bergwall.'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0016", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0018", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; greeting/quote also garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0020", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Pho Bac heard as Fullback"], "auditors": ["A", "B"], "clean": "Dinner at Fullback on Fifth."}
+{"id": "s4-W29-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0023", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Buk Burayok and Coyote', 'A Nikoski dinner'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0024", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0027", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hi Dario' became 'I Dar you'; Banco Santander garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0030", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Jardin Majorelle and Marrakech not inferable"], "auditors": ["A", "B"], "clean": "I think the landscaping crew is heading to the Jared Madorel in Murray next spring."}
+{"id": "s4-W29-0031", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Bodhi and Sukhumvit not inferable"], "auditors": ["A", "B"], "clean": "Yo Ba Tide, are we still doing dinner at the Thai place on Sakampith Road? I can't remember the name."}
+{"id": "s4-W29-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0034", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Okafor heard as Awkward"], "auditors": ["A", "B"], "clean": "Dear Councillor Awkward, please find attached the proposal for the redevelopment of the Via della Conciliazione corridor."}
+{"id": "s4-W29-0035", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["command garbled: 'Get check out Dad B feature American Daf Prizing'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0036", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Cafe d'A Certe Sunro'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0037", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Now I sent me', 'They current', 'Chuya new the cross in'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0038", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Tirana heard as Toronto"], "auditors": ["A", "B"], "clean": "The new iPhone 16 Pro shipped to our cooperative in Toronto yesterday."}
+{"id": "s4-W29-0039", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Ouagadougou heard as Wagatubu"], "auditors": ["A", "B"], "clean": "Thanks for meeting with us, Lorenzo. We'll follow up about the Wagatubu branch once the board approves the budget."}
+{"id": "s4-W29-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0041", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Fatima lost; 'via DHL' merged into 'Cuscoville'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0042", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Alleon Friedrich Stress', 'old Libraris Edition'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0045", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Sana heard as Sarner"], "auditors": ["A", "B"], "clean": "Hi Sarner, the pallets leave the Port of Rotterdam on the 14th and should reach the depot in Duisburg by the 18th."}
+{"id": "s4-W29-0046", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Lion Park? De Turin'; 'to' lost and Part-Dieu garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W29-0048", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'bridge connecting Rua' garbled to 'bridcon,'"], "auditors": ["A", "B"]}
+{"id": "s4-W29-0049", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Niigata heard as Niagara"], "auditors": ["A", "B"], "clean": "The landscaping business imports Japanese maples from a nursery in Niagara."}
+{"id": "s4-W29-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

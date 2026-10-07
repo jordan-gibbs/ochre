@@ -1,0 +1,50 @@
+{"id": "s2-W5-0401", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0402", "decision": "fix_clean", "clean": "Hey Amy, did you see the email from procurement about the new laptops? Apparently we can order them starting Monday, but only if the request is approved by our director. So I think we should put together a list of who needs one and send it to her by Friday.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0403", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0404", "decision": "drop", "reason": "hesitation_misheard_as_word"}
+{"id": "s2-W5-0405", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0406", "decision": "drop", "reason": "hesitation_misheard_as_word"}
+{"id": "s2-W5-0407", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0408", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0409", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0410", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0411", "decision": "fix_clean", "clean": "Okay, so let's talk about the logo. I like the second option because it feels more modern, but the colors are a bit too bright for what we do, so maybe we ask the designer to tone them down. What do you think? I do not want to be too picky.", "reason": "spelling_from_raw"}
+{"id": "s2-W5-0412", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0413", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0414", "decision": "fix_clean", "clean": "The audit is next week and I have not heard back from the finance folks about the receipts. So if you have any outstanding receipts, please upload them by Wednesday, otherwise it will cause problems.", "reason": "dropped_by_recognizer"}
+{"id": "s2-W5-0415", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0416", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0417", "decision": "fix_clean", "clean": "Hi, it's Pooja. I am so sorry to do this last minute but I am not going to be... My daughter has a fever and I do not want to leave her. I will make it up to you, I promise. Tell everyone I said hi.", "reason": "dropped_by_recognizer"}
+{"id": "s2-W5-0418", "decision": "drop", "reason": "hesitation_misheard_as_word"}
+{"id": "s2-W5-0419", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0420", "decision": "fix_clean", "clean": "Okay, I have thought about it all night and I think we should tell her. She deserves to know. I know it will be awkward, but it is better coming from us than hearing it from someone else. Can we do it together this weekend?", "reason": "spelling_from_raw"}
+{"id": "s2-W5-0421", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0422", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0423", "decision": "fix_clean", "clean": "Well also my mom just tried to use the emoji thing and sent me like 20 crying faces in a row. I asked what was wrong and she said nothing, she just thought they were hearts.", "reason": "dropped_by_recognizer"}
+{"id": "s2-W5-0424", "decision": "drop", "reason": "hesitation_misheard_as_word"}
+{"id": "s2-W5-0425", "decision": "drop", "reason": "hesitation_misheard_as_word"}
+{"id": "s2-W5-0426", "decision": "fix_clean", "clean": "Okay, I found the root cause. It was the timezone bug in the report generator. Anything created after 8 PM Pacific was getting the wrong date, so about 300 records are off by a day. I have a script to fix them. Can I run it tonight?", "reason": "spelling_from_raw"}
+{"id": "s2-W5-0427", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0428", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0429", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0430", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0431", "decision": "fix_clean", "clean": "Dear parents, this is a reminder that the field trip to the science museum is next Friday, the 11th. Please make sure your child brings a packed lunch and a water bottle. Buses leave at 8:30 sharp, and the permission sets need to be back by Wednesday.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0432", "decision": "fix_clean", "clean": "Okay, so tell me if this is crazy, but I was thinking we could drive up to the lake this weekend, camp one night, and then drive back on Sunday. I know the weather might be rough but I really need to get out of the city.", "reason": "spelling_from_raw"}
+{"id": "s2-W5-0433", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0434", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0435", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0436", "decision": "fix_clean", "clean": "Hi everyone, I am writing to let you know about some changes to our team structure that will take effect on the 1st of next month. As you may have heard, we are expanding the customer success group, and as part of that, Tamaka will be moving over to lead the enterprise accounts, which means that she will be handing off her current projects over the next 2 weeks. Nikolai will take over the training materials, and Rashid will pick up the quarterly reports. I know change can be unsettling, but I really think this will be good for the team and for our customers. Please come talk to me if you have any questions or concerns. I am happy to meet one on one, and we will also have a team meeting on Monday morning at 10 to go over the details and answer questions.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0437", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0438", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0439", "decision": "fix_clean", "clean": "Quick summary of the vendor call for anyone who missed it. We talked to the people at Harperview about the new scheduling tool. They showed us a demo and honestly it looks pretty good. It integrates with our calendar and our payroll system, which is a huge win. The price is $12 per user per month if we sign a 1-year deal. The main concern is the mobile app, which felt a bit slow, and they could not tell us when that would be improved. They also said the setup takes about 3 weeks, so if we want it live before the holidays, we have to decide by the end of the month. I think we should do a 2-week trial first and let a few managers try it out. Shall I set that up? Let me know here or just give me a thumbs up.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0440", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0441", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0442", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0443", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0444", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0445", "decision": "fix_clean", "clean": "Give me 10, I am finishing the call.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0446", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0447", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0448", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0449", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0450", "decision": "accept", "reason": "ok"}

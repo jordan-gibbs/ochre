@@ -1,0 +1,7 @@
+{"id": "s4-W31-0021", "decision": "fix_clean", "clean": "The weather is going to affect the chute.", "reason": "unrecoverable_word", "note": "B: chute is a real word and not unambiguously 'shoot'; keep raw"}
+{"id": "s4-W31-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Pete, coal and trailing 'and': 3 places in 20 words"}
+{"id": "s4-W31-0032", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: cite/sight collapsed to 'site'"}
+{"id": "s4-W31-0034", "decision": "fix_clean", "clean": "Dear Mr. O'Caffer, thank you for your offer. We are happy to accept it, except for the closing date.", "reason": "unrecoverable_word", "note": "A: 'Here' as salutation inferable as Dear; O'Caffer kept from raw"}
+{"id": "s4-W31-0038", "decision": "fix_clean", "clean": "Team 12 needs a better establishing shot of the lake, maybe from the peak behind the cabin.", "reason": "unrecoverable_word", "note": "A: 'Team 12' is plausible, scene not inferable"}
+{"id": "s4-W31-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Who up the tap running' is not sensible"}
+{"id": "s4-W31-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'site or site' question collapses"}

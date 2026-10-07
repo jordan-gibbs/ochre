@@ -1,0 +1,124 @@
+# "transcribe" wake word: config for `python -m training.wakeword.pipeline all --word transcribe`.
+# Top-level keys are livekit-wakeword's WakeWordConfig (trainer settings); the `wake:` section drives
+# our own generation / augmentation / eval (training/wakeword/pipeline.py). data_dir/output_dir are
+# filled in by the pipeline (word-independent data: --data / $OWF_WAKE_DATA; output: output/<word>/).
+#
+# What counts as "transcribe" (espeak-ng en-us IPA, checked 2026-10-04):
+#   POSITIVE  transcribe tɹænskɹˈaɪb   tran-scribe tɹˈænskɹˈaɪb   trans-cribe tɹˈænzkɹˈaɪb
+#             trans scribe tɹˈænz skɹˈaɪb (slow, split delivery)
+#             alone, followed by speech ("Transcribe, hey Sarah ..."), followed by a control word
+#             ("transcribe stop / send / done / cancel / scratch that"), after "hey/okay/so", and
+#             after the end of a dictated sentence ("... see you tomorrow, transcribe send"): in a
+#             hands-free session the control phrase always comes after speech, so the 2 s window
+#             holds the tail of the previous sentence.
+#             "transcribe" in the middle of a sentence ("I need to transcribe this") is acoustically
+#             the wake word. No acoustic model can tell it apart, so it is NOT a negative (that would
+#             teach the model to reject the word itself); the transcript layer rejects it instead
+#             (wake/handsfree.py verifies the session's first words; text/commands.py only acts on a
+#             TRAILING control phrase).
+#   LEFT OUT  "transcribes" tɹænskɹˈaɪbz and "transcribed" tɹænskɹˈaɪbd: they are the same sounds as
+#             "transcribe s(top/end)" and "transcribe d(one)", i.e. the control phrases themselves.
+#             Training them as negatives would suppress exactly the in-session hits we want.
+#   NEGATIVE  same ending, different onset: describe dᵻskɹˈaɪb, prescribe, subscribe, inscribe,
+#             ascribe, scribe; same onset, different ending: transcript tɹˈænskɹɪpt, transcription,
+#             transcribing / transcriber (audible suffix, no pause), trans-X words (transfer,
+#             translate, transport, transit, transcend ...), -script words (manuscript, scripture,
+#             prescription, description, subscription), rhymes (tribe, bribe, vibe, "train scribe",
+#             "trans crib"), other assistants' names; plus CMUdict phonetic neighbours. Exact
+#             homophones of a positive spelling are dropped automatically.
+model_name: transcribe
+target_phrases: ["transcribe"]
+
+augmentation:
+  clip_duration: 2.0
+
+model:
+  model_type: conv_attention         # (1,16,96) -> score; loads in openwhisprflow/wake/detector.py
+  model_size: medium
+
+steps: 30000
+learning_rate: 0.0003
+weight_decay: 0.01
+label_smoothing: 0.05
+max_negative_weight: 1500
+target_fp_per_hour: 0.2
+
+batch_n_per_class:
+  positive: 96
+  adversarial_negative: 128
+  ACAV100M_sample: 1024
+  background_noise: 64
+
+wake:
+  phrase: Transcribe
+  pronunciation: "/trænˈskraɪb/ (tran-SCRIBE)"
+  positive_variants: ["transcribe", "tran-scribe", "trans-cribe", "trans scribe"]
+  seed: 5150
+  gpu_mem_fraction: 0.30             # leave VRAM for the desktop and other apps during TTS
+  wake_spellings:                    # spelling: weight
+    transcribe: 6                    # tɹænskɹˈaɪb
+    tran-scribe: 2                   # tɹˈænskɹˈaɪb  (stress on both syllables)
+    trans-cribe: 1                   # tɹˈænzkɹˈaɪb  (voiced s, common in fast speech)
+    trans scribe: 1                  # tɹˈænz skɹˈaɪb (slow, deliberate)
+  command_fraction: 0.6              # share of positives followed by speech (rest: the word alone)
+  n_positive_train: 8000
+  n_positive_test: 1000
+  n_negative_train: 10000
+  n_negative_test: 1000
+  test_speaker_mod: 8
+  tts_batch: 32
+  length_scales: [0.8, 1.35]
+  noise_scales: [0.5, 0.9]
+  noise_scale_ws: [0.6, 1.0]
+  aug_pos_train: 3
+  aug_neg_train: 2
+  aug_test: 1
+  n_background_train: 6000
+  n_background_test: 800
+  prefix:                            # "Hey transcribe", "Okay, transcribe", "... see you tomorrow. Transcribe send"
+    words: {
+      hey: 3, okay: 2, OK: 2, so: 2, hi: 1, um: 1,
+      "that's all": 1, "see you tomorrow": 1, "thanks so much": 1, "let me know what you think": 1,
+      "and that's it": 1, "talk soon": 1, "the meeting is at three": 1, "sounds good to me": 1,
+      "i'll send it later today": 1, "best regards": 1, "looks great": 1, "anyway": 1,
+    }
+    pause: {space: 3, comma: 2, period: 2}
+    n_positive_train: 6000
+    n_positive_test: 800
+    n_negative_train: 5000
+    n_negative_test: 800
+  fragments: ["trans", "tran", "scribe", "cribe", "crime", "trance", "tran tran", "the scribe"]
+  max_fpph: 0.5                      # threshold pick: best recall with <= 0.5 false wakes/h through the gate
+  real_pos_aug: 60
+  real_test_every: 5
+  cmu_adversarial_words: 1500
+  near_misses: [
+    "describe", "describes", "described", "describe it", "prescribe", "prescribed", "subscribe",
+    "subscribed", "subscriber", "inscribe", "inscribed", "ascribe", "scribe", "scribes", "the scribe",
+    "a scribe", "scribble", "transcript", "transcripts", "the transcript", "transcription",
+    "transcriptions", "transcriptionist", "transcribing", "transcriber", "manuscript", "script",
+    "scripture", "subscript", "conscript", "prescription", "description", "subscription",
+    "inscription", "postscript", "trans", "transfer", "translate", "translation", "transport",
+    "transit", "transcend", "transmit", "transform", "transplant", "transpire", "transparent",
+    "transaction", "transition", "transatlantic", "transgender", "trance", "trans fat", "tranquil",
+    "tribe", "tribes", "bribe", "vibe", "jibe", "diatribe", "imbibe", "train scribe", "train's cribe",
+    "trans crib", "trance cry", "trance crime", "can scribe", "ten scribes", "the tribe",
+    "chance cry", "france cried", "dance crib", "grand scribe", "describe stop",
+    "subscribe now", "prescribe that", "scribe, send it", "trans, stop", "crime stop", "describe, send",
+    "transport, done", "translate, cancel", "subscribe, done", "transcript, send it",
+    "stop", "send", "done", "cancel", "scratch that", "send it", "stop it", "i'm done",
+    "hey siri", "alexa", "ok google", "hey jarvis", "computer", "hello", "okay", "transcript ready",
+    "chris cried", "cranberry", "grapes", "strange crab", "trans scripted",
+  ]
+  drop_negative_texts: []            # labels that became ambiguous after listening
+  commands: [
+    # dictation openings (what follows the wake word from idle)
+    "hey sarah, just wanted to check in", "meeting notes for monday", "dear team", "thanks for the update",
+    "can you send me the report", "i think we should push the launch to friday", "quick question",
+    "remind the team about the deadline", "here are my thoughts on the proposal", "hi mom",
+    "the build is failing on windows", "let's grab lunch tomorrow", "to do list", "new paragraph",
+    "i'm running about ten minutes late", "great work on the demo", "please review the pull request",
+    "what time works for you", "following up on our call", "ok so the plan is",
+    # control words (in a session: "transcribe stop", "transcribe send", ...)
+    "stop", "stop", "send", "send", "done", "cancel", "scratch that", "send it", "stop please",
+  ]

@@ -1,0 +1,9 @@
+{"id": "s4-W61-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'can you' -> 'and you' twice; request lost"}
+{"id": "s4-W61-0097", "decision": "fix_clean", "clean": "How do electric co-ops decide?", "reason": "trailing_off", "note": "B: raw is a complete question; trailing off not visible (R11)"}
+{"id": "s4-W61-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'legacy API' -> 'lady C M' unrecoverable"}
+{"id": "s4-W61-0099", "decision": "fix_clean", "clean": "The vendor sent over the revised contract. The term is now 36 months instead of 24, and the early termination fees.", "reason": "dropped_by_recognizer", "note": "B: raw ends on content word with a period; end as raw ends"}
+{"id": "s4-W62-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'gate' -> 'K'; result not sensible"}
+{"id": "s4-W62-0016", "decision": "fix_clean", "clean": "I'm 100% sure he said Friday.", "reason": "guide_violation", "note": "A: raw already clean; 'a' not in raw (R11)"}
+{"id": "s4-W62-0018", "decision": "fix_clean", "clean": "The range is 10 to 15 kilograms.", "reason": "guide_violation", "note": "A: raw already clean; 'kilograms' must not become 'kg' (R10/R11)"}
+{"id": "s4-W62-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'I says', 'bill block'; too many unrecoverable places"}
+{"id": "s4-W62-0040", "decision": "fix_clean", "clean": "Second build failed, so we reran the first one twice.", "reason": "dropped_by_recognizer", "note": "A: 'The' dropped by recognizer; follow raw"}

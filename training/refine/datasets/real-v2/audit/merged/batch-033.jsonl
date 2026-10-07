@@ -1,0 +1,46 @@
+{"id": "s2-W4-0101", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0102", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'No' not 'Nah'", "Nah heard as No"], "auditors": ["A", "B"], "clean": "No, I think we should wait."}
+{"id": "s2-W4-0103", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0104", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0105", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0106", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0107", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0108", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'happening on' lost; raw 'It is. Every request.' not a sensible target", "happening on lost"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0109", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0110", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0111", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0112", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0113", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0114", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0115", "decision": "fix_clean", "reasons": ["unrecoverable_word", "trailing_off"], "notes": ["'late' heard as 'like'; raw ends mid-thought", "late lost; raw ends on like"], "auditors": ["A", "B"], "clean": "The thing is, the vendor is like..."}
+{"id": "s2-W4-0116", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0117", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0118", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0120", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["nah->now, launch yep->launching up, honestly lol->honest at all, fixing typos->fix some titans", "many misrecognitions"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0121", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends with complete 'afraid of it.'", "raw ends complete-looking"], "auditors": ["A", "B"], "clean": "Write me a story about a dragon who is afraid of it."}
+{"id": "s2-W4-0122", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'they'"], "auditors": ["A", "B"], "clean": "Need to remember to call the plumber and also they..."}
+{"id": "s2-W4-0123", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0124", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0125", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0126", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0127", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0128", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0129", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends complete 'like that.'"], "auditors": ["A", "B"], "clean": "Maybe the answer is something like that."}
+{"id": "s2-W4-0130", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0131", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'I'm not sure.' never said", "invented 'I'm not sure'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0132", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0133", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0134", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0135", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0136", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0137", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0138", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0140", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling Akifer", "name not in dictionary"], "auditors": ["A", "B"], "clean": "Dear Dr. Akifer, thank you for meeting with me last week. I have been thinking about our conversation regarding the research proposal, and I believe the strongest direction would be to focus on the longitudinal data, although I am still uncertain about whether the funding would cover the extra year of..."}
+{"id": "s2-W4-0141", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Yeah, it's fun of', 'They will wait. Oh the setup be', 'The prod up': too many places", "opening and fee/product garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0142", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'you're going to be able to do it'", "invented trailing phrase"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0143", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends complete 'do it.'"], "auditors": ["A", "B"], "clean": "Unfortunately, we will not be able to do it."}
+{"id": "s2-W4-0144", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0146", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0147", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0148", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0150", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}

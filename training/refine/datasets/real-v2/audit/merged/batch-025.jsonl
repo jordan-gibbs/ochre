@@ -1,0 +1,41 @@
+{"id": "s2-W3-0201", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0202", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0203", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0204", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0205", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I Beau' for 'hi both', 'tenet' for '10 AM', plus 'a first'/'agree' substitutions: too many places", "Hi both heard as I Beau, tenet for 10 AM, several losses"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0207", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'from' before '2 to 4' missing in raw", "'from' before 2 to 4 not in raw"], "auditors": ["A", "B"], "clean": "I need help planning a birthday party for my daughter, who is turning seven. We will have around 15 kids. The party is at our house on Saturday the 8th, 2 to 4. My budget is about $300. Can you suggest a theme, a menu, and a list of activities? And please make sure everything is nut-free."}
+{"id": "s2-W3-0208", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0210", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0211", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'Hi' lost; raw 'I I' reads as a stutter", "'Hi' not in raw (I I)"], "auditors": ["A", "B"], "clean": "I am interested in the used bike you listed for $350. Is it still available? And would you take $300 cash if I can pick it up this weekend? I can come Saturday morning around 10."}
+{"id": "s2-W3-0213", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0214", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["ending 'so I lost some time' became 'So I'm awesome'; 'On Blocker's part'", "ending 'So I'm awesome' lost 'lost some time'; Blockers garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0215", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0216", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0217", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0218", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'lol' -> 'Well', 'CI' -> 'side'", "lol, to main, CI all misheard"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0219", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0220", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0221", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["phone number lost '55' ('same five. Oh one four seven')", "five five five reduced to five"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0222", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends after 'three hundred tests'", "raw lost 'to pass in under a minute'"], "auditors": ["A", "B"], "clean": "To run the tests, use python -m pytest and expect around 300 tests."}
+{"id": "s2-W3-0223", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0224", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0225", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends a trailing 'but' never said", "trailing 'but' never said"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0226", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0227", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0228", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0229", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I want you to share', 'Would say' (I dropped), 'Which brought five' for 'which blocks about five'", "many recognition losses (blocks about, I would say, queues)"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0232", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'building we're right' for 'billing rewrite', 'Or Venture' for 'mentored', 'feels quiet'", "billing rewrite, mentored, goes quiet misheard"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0233", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'that water's' for 'to /orders', 'connection full metric', 'Ritty's'", "to slash orders, pool metrics garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0234", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' became 'For' ('For one vegetarian'), plus 'works up to', 'And you ... like tomorrow'", "'For' for er, plus Can/by lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0237", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0238", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Ain't everyone', 'And sir' for 'third', 'Santa's' for 'Sandra's', 'or' dropped", "Hey, third, Sandra, Venmo all misheard"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0239", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'fruit and the income', 'inquis', 'said as'", "freelance, invoice lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0240", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'at peak' lost, 'bottom', 'Can I switch the poster', 'fit', 'plan' lost", "bottleneck, Postgres, fix garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0241", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never said", "trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0242", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0243", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'a' for 'the'", "raw has 'a'"], "auditors": ["A", "B"], "clean": "She wrote, and I quote, \"Please send a signed form by noon on Friday.\""}
+{"id": "s2-W3-0244", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["raw already clean; question needs '?'", "raw already clean"], "auditors": ["A", "B"], "clean": "How many calories in a medium banana?"}
+{"id": "s2-W3-0245", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0246", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0247", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0250", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw has 'record and tell' for 'record him telling'", "'him telling' not in raw"], "auditors": ["A", "B"], "clean": "Conversation with Grandpa. He told me about the time he drove across the country in 1968 with just $200. It took him 12 days, and he slept in the car most nights. He said gas was 30 cents a gallon back then. He also said the best meal of the whole trip was a plate of pancakes in Nebraska that cost a dollar fifty. I want to record and tell the story properly before the family reunion on the 8th of August."}

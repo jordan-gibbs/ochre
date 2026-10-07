@@ -1,0 +1,50 @@
+{"id": "s2-W1-0201", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is garbled throughout (father, unboarded, fortune with a little march)"}
+{"id": "s2-W1-0202", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'how we got here' -> 'Al We Dive here', 'we can' -> 'We and'; not inferable"}
+{"id": "s2-W1-0203", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0204", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' -> 'for her'; also 'Pine' for 'hi team' and 'murderer' for 'merger'"}
+{"id": "s2-W1-0205", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'as Armada'; trailing 'Mm-hmm.' never said"}
+{"id": "s2-W1-0206", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bug' -> 'Bogle', ending 'not strong enough' -> 'Not Yeah.'"}
+{"id": "s2-W1-0207", "decision": "drop", "reason": "non_english", "note": "Whisper appended Japanese subtitle credit"}
+{"id": "s2-W1-0208", "decision": "fix_clean", "clean": "Can you text my brother and ask him if he's still coming to Mom's birthday on Sunday, and if so can he pick up the cake from the bakery on the way? Tell him it's under the name Garcia.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'hey' became 'A'; 'Hey' not inferable"}
+{"id": "s2-W1-0209", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0210", "decision": "fix_clean", "clean": "Please go through the whole proposal and change every instance of the client to Acme Corp, and then read the executive summary and tell me if it still makes sense after that change.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw has 'read', not 'reread'"}
+{"id": "s2-W1-0211", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0212", "decision": "fix_clean", "clean": "Dear Mr. Okerfor, thank you for your quick response. I have drafted a short summary of our discussion below. Could you please review it, correct anything I got wrong, and let me know if you would like me to add the timeline we talked about? I can have that ready by Wednesday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; use raw spelling Okerfor"}
+{"id": "s2-W1-0213", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0214", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0215", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'boring and generic' -> 'born a generic'; ending 'keep the argument the same' lost"}
+{"id": "s2-W1-0216", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0217", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0218", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also 'um' -> 'on' and 'a hospital' lost"}
+{"id": "s2-W1-0219", "decision": "drop", "reason": "unrecoverable_meaning", "note": "clause 'I will paste a section of my lease and you will tell me what it means' lost"}
+{"id": "s2-W1-0220", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'-m' -> 'dash and', 'origin main' -> 'Orijan May'; command not recoverable"}
+{"id": "s2-W1-0221", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0222", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0223", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0224", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0225", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0226", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the numbers match what finance sent over' -> 'I'm The numbers sent over'"}
+{"id": "s2-W1-0227", "decision": "fix_clean", "clean": "Questions for the pediatrician: is it normal for a toddler to still wake up twice a night? Should we be worried about the cost that lingers? When do we start solid food portions?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'cost'; 'cough' not inferable"}
+{"id": "s2-W1-0228", "decision": "fix_clean", "clean": "Rewrite my LinkedIn About section so it sounds confident but humble. Here is what I have: I am a nurse with eight years of experience in pediatric care and I recently started a master's in public health. I want to move toward policy work, and I don't want to sound like I'm leaving patients behind.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'and' where 'but' was said"}
+{"id": "s2-W1-0229", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'No,'; also 'also can you make' and 'morning' lost"}
+{"id": "s2-W1-0230", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the first and third questions lost or garbled"}
+{"id": "s2-W1-0231", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening sentences and much of the prompt lost"}
+{"id": "s2-W1-0232", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' -> 'Good.', 'uh' -> 'No,' twice"}
+{"id": "s2-W1-0233", "decision": "drop", "reason": "unrecoverable_meaning", "note": "final word 'plan' -> 'What?'; ending not recoverable"}
+{"id": "s2-W1-0234", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sign the contract by Friday' -> 'find'; several other garbles"}
+{"id": "s2-W1-0235", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ounces are in a cup' -> 'Cub', 'but it returns' -> 'Everybody returns'"}
+{"id": "s2-W1-0236", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Could you please read' -> 'Good. You please grade', 'If there is' -> 'There's', more"}
+{"id": "s2-W1-0237", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0238", "decision": "drop", "reason": "non_english", "note": "raw begins with Spanish 'Sí'; also 'four' -> 'force'"}
+{"id": "s2-W1-0239", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' -> 'Or'; also 'you have received before this message' lost"}
+{"id": "s2-W1-0240", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cover letter' -> 'cover ladder', 'position' -> 'of Asian'"}
+{"id": "s2-W1-0241", "decision": "fix_clean", "clean": "Are you at the store right now?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'yo' absent from raw"}
+{"id": "s2-W1-0242", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0243", "decision": "fix_clean", "clean": "Please summarise this.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'summarise'"}
+{"id": "s2-W1-0244", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0245", "decision": "fix_clean", "clean": "Make shorter, please.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' absent from raw"}
+{"id": "s2-W1-0246", "decision": "fix_clean", "clean": "How far is the moon from Earth?", "reason": "guide_violation", "rules": ["R11"], "note": "raw already clean; keep lowercase moon"}
+{"id": "s2-W1-0247", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' -> 'Or'"}
+{"id": "s2-W1-0248", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0249", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0250", "decision": "accept", "reason": "ok"}

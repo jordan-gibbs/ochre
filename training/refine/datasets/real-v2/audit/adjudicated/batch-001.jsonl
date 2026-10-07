@@ -1,0 +1,6 @@
+{"id": "s2-W1-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'said translate' became 'had translated' (changes meaning) plus 'dock'; A's fix keeps a sentence the speaker never meant and still guesses 'doc'"}
+{"id": "s2-W1-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cup' heard as 'cot'; 'ounces in a cot' is not a sensible query and 'cup' is not inferable"}
+{"id": "s2-W1-0022", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'The' and 'to to' as 'due to'; removing 'due' guesses a stutter, keeping it changes meaning"}
+{"id": "s2-W1-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in um' heard as '10'; 'in' (vs to/on) is a guess from raw, so in doubt drop"}
+{"id": "s2-W1-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'summarize' heard as 'To memorize'; the raw-faithful target is not a sensible request"}
+{"id": "s2-W1-0050", "decision": "fix_clean", "clean": "Hey Sam, so here is what I wrote to the client: we are sorry for the delay and we will ship by the end of the next week. Can you make it sound more professional and a little less apologetic?", "reason": "unrecoverable_word", "note": "raw adds 'the' before 'next week', a plausible content word, not a stutter artefact; keep it per rubric (minimal edit, sided with A)"}

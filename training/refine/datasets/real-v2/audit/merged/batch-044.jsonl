@@ -1,0 +1,42 @@
+{"id": "s2-W5-0151", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.' never spoken", "trailing 'Yeah.' not spoken"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0154", "decision": "drop", "reasons": ["unrecoverable_meaning", "hesitation_misheard_as_word"], "notes": ["'rev up us' for 'rebook us' not recoverable", "'up' for uh, 'rev up' for rebook"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0155", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0157", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["clean summarizes ('it is' dropped) and raw has hand/tacos bark/the fit/Harman's", "hand/tacos bark/Harman's multiple losses"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0158", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost 'I'm going to dig into it more'", "I'm going to dig into it more lost, >5 words"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0159", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' became 'slighting her'; also 'pick up penny time'", "'slighting her' for letting er; 'penny time'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0160", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'car team' for QA", "QA heard as car"], "auditors": ["A", "B"], "clean": "So I know we said we would ship on Friday, but after talking to the car team, I think it's smarter to wait until Monday. There are a couple of bugs that could be pretty embarrassing and I would rather fix them now than deal with angry customers next week."}
+{"id": "s2-W5-0161", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'soup, tea' became 'to deep'", "soup, tea lost as 'to deep'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0162", "decision": "fix_clean", "reasons": ["spelling_from_raw", "guide_violation"], "notes": ["raw already clean (R11)", "raw already clean"], "auditors": ["A", "B"], "clean": "What time does the farmer's market close?"}
+{"id": "s2-W5-0163", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0164", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["spoken and raw 'cannot'; clean contracted", "spoken cannot, not can't"], "auditors": ["A", "B"], "clean": "Yeah, the goalie has practice at 6 so I cannot make it before 7."}
+{"id": "s2-W5-0165", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0167", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0168", "decision": "fix_clean", "reasons": ["unrecoverable_word", "number_value"], "notes": ["raw has 'Sunday'", "raw has Sunday singular"], "auditors": ["A", "B"], "clean": "I think the pharmacy is closed on Sunday."}
+{"id": "s2-W5-0169", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0172", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0173", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0175", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0176", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0177", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0178", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0179", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0180", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0181", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0182", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0183", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.'", "trailing 'Yeah.' not spoken"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0184", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0185", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0186", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0187", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0188", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0190", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0191", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0192", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'noon' became 'me'", "noon heard as 'me'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0193", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'ship it' became 'she bit'", "'she bit' for ship it"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0194", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0195", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0196", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0197", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0198", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0199", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0200", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

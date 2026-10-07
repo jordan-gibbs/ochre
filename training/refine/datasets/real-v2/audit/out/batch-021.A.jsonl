@@ -1,0 +1,50 @@
+{"id": "s2-W3-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'finance team' heard as 'fine Anstein'; 'uh it' became 'Well'"}
+{"id": "s2-W3-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "date and place garbled: 'Marche Dine at the Gav?'"}
+{"id": "s2-W3-0003", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; 'honestly' became 'Possibly'"}
+{"id": "s2-W3-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bug->buds, Post Rest full, time error, idle time: too many places"}
+{"id": "s2-W3-0005", "decision": "drop", "reason": "unrecoverable_meaning", "note": "email address lost: 'jobsneth athme.eu'"}
+{"id": "s2-W3-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'D V I reference slides at Doc.acme dot com', /api lost"}
+{"id": "s2-W3-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "whole sentence about hitting 1,000 dropped; beta/Priya/design garbled"}
+{"id": "s2-W3-0008", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a CSV file with about ten thousand rows' lost"}
+{"id": "s2-W3-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hey'->'And', Nguyen->'new. And', eighty->eight"}
+{"id": "s2-W3-0011", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dalker', 'engines' for nginx, colon lost"}
+{"id": "s2-W3-0013", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Hi' before 'what do you think?'"}
+{"id": "s2-W3-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I have'->'I'd have', 'off by like'->'off. I like'"}
+{"id": "s2-W3-0016", "decision": "fix_clean", "clean": "This function retries the request up to three times with an exponential backoff starting at 200 milliseconds. If all retries fail, raises a timeout error. Note that the maximum wait is capped at 5 seconds.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'it' before 'raises'"}
+{"id": "s2-W3-0017", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost most of the journal entry"}
+{"id": "s2-W3-0019", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um two' became 'An arm to'; Redis heard as 'Release'"}
+{"id": "s2-W3-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'could you help' became 'But you helped'; 'here is what I' garbled"}
+{"id": "s2-W3-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'looks off, just ping me' became 'looks soft, just pain me'"}
+{"id": "s2-W3-0022", "decision": "drop", "reason": "unrecoverable_meaning", "note": "CLI, Node, environment, timeout flag, home, config path all garbled"}
+{"id": "s2-W3-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0024", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W3-0025", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0026", "decision": "fix_clean", "clean": "The bill takes like 14 minutes now, which is up from 9. Someone check what changed.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'bill' for build"}
+{"id": "s2-W3-0027", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0028", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'the' in 'And the five avocados'"}
+{"id": "s2-W3-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost the TODO and Python 3.8 clause"}
+{"id": "s2-W3-0031", "decision": "drop", "reason": "hallucination", "note": "trailing 'No, no, no.' never said"}
+{"id": "s2-W3-0032", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0034", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W3-0035", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lock'->'block' and 'Can someone'->'And someone'"}
+{"id": "s2-W3-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Sales wants to include a ten' lost; product sync/colors garbled"}
+{"id": "s2-W3-0038", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0040", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' area produced 'And' before 'traffic'"}
+{"id": "s2-W3-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'2 AM UTC' heard as 'two M E T. C.'"}
+{"id": "s2-W3-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "percent->present, works->worked, broke in->broken, characters->character"}
+{"id": "s2-W3-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0045", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'it'->'That' and 'at the'->'to hit the'"}
+{"id": "s2-W3-0047", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0048", "decision": "fix_clean", "clean": "This query is slow because it does a sequential scan on the orders table, which has about 2 million rows. We should add a composite index on customer_id and created_at. The benchmark on PostgreSQL 16 shows the drop from 800 milliseconds to about 12.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the drop', not 'a drop'"}
+{"id": "s2-W3-0049", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0050", "decision": "accept", "reason": "ok"}

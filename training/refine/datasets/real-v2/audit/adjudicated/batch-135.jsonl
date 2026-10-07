@@ -1,0 +1,4 @@
+{"id": "s4-W35-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'I were' not confidently 'Hi, we're'"}
+{"id": "s4-W35-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'You're Sean' opening not sensible"}
+{"id": "s4-W35-0044", "decision": "fix_clean", "clean": "The group rate is €89 a night for 10 nights, so that's €890 totally.", "reason": "unrecoverable_word", "note": "A: raw 'Totally' kept (total not inferable)"}
+{"id": "s4-W35-0046", "decision": "fix_clean", "clean": "My membership ID is GYM 77204, and can you check why my card was declined twice?", "reason": "dropped_by_recognizer", "note": "A: spoken dash lost in raw; GYM 77204"}

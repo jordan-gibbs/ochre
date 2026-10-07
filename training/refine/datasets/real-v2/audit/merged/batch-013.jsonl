@@ -1,0 +1,38 @@
+{"id": "s2-W2-0102", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0103", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Let me up at the airport': 'pick' not inferable (pick/meet), raw word not sensible", "pick lost as Let me up"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0104", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0105", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0106", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0107", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0109", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0110", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["question missing '?'", "missing ?"], "auditors": ["A", "B"], "clean": "What time does the Target on Oak Street close on Sundays?"}
+{"id": "s2-W2-0111", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0112", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0113", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'toggle' heard as 'pal'; not inferable and raw word not sensible", "toggle heard as pal"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0114", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw mostly unintelligible; corrected IP lost"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0115", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0116", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'the uh' became 'here', a content word a reader would keep", "here"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0118", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0119", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0120", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is mostly unintelligible"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0121", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'for the billing service'", "billing service lost"], "auditors": ["A", "B"], "clean": "We have four open tickets."}
+{"id": "s2-W2-0122", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Call the plumber' heard as 'Ball. The bomber.'"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0123", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0124", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0126", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["'not the old kind' was said and is in raw", "not the old kind was said and is content"], "auditors": ["A", "B"], "clean": "Anyone have a spare USB-C charger, not the old kind?"}
+{"id": "s2-W2-0128", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected email garbled ('pre dot narrated'); 'nair' not inferable", "nair lost"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0130", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw truncated to 'Let me rephrase I want.'"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0132", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0134", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'and tokens expire after one hour'", "tokens expire clause lost"], "auditors": ["A", "B"], "clean": "Authentication uses OAuth 2 with PKCE."}
+{"id": "s2-W2-0135", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Sarcee' for src and garbled command; target not inferable from raw"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0136", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["question missing '?'", "missing ?"], "auditors": ["A", "B"], "clean": "Who won the World Cup in 2022?"}
+{"id": "s2-W2-0137", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0138", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' heard as 'off' ('sign it off')", "sign it off"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0139", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["Whisper appended 'Thank you.'", "Thank you."], "auditors": ["A", "B"]}
+{"id": "s2-W2-0140", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' that was never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W2-0141", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0142", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'share sheet' heard as 'She or She'", "share sheet lost"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0143", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0145", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0146", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost most of the sentence"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0149", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

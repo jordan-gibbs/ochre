@@ -1,0 +1,50 @@
+{"id": "e4-E6-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "names, tense and annex garbled"}
+{"id": "e4-E6-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting, names, many slips"}
+{"id": "e4-E6-0013", "decision": "drop", "reason": "unrecoverable_meaning", "note": "call/Ngozi garbled"}
+{"id": "e4-E6-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0015", "decision": "fix_clean", "clean": "Running late, stuck behind a tour bus on two buttons.", "reason": "unrecoverable_word"}
+{"id": "e4-E6-0016", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many slips"}
+{"id": "e4-E6-0018", "decision": "drop", "reason": "garbage"}
+{"id": "e4-E6-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Szczecin lost"}
+{"id": "e4-E6-0020", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0021", "decision": "drop", "reason": "hallucination", "note": "Thanks."}
+{"id": "e4-E6-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0023", "decision": "drop", "reason": "hallucination", "note": "Yeah. and redo lost"}
+{"id": "e4-E6-0024", "decision": "fix_clean", "clean": "Researchers must cite a collection by its accession number, and photography is permitted except for items marked fragile.", "reason": "unrecoverable_word"}
+{"id": "e4-E6-0025", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0026", "decision": "fix_clean", "clean": "For the quarterly review, the new blister packaging didn't really affect the fill times much. We're still around 4 minutes per order, but the effect on returns huge. They dropped by almost a third. I want to know whether we can roll it out to the mail order site before the holidays or if that's too aggressive.", "reason": "dropped_by_recognizer"}
+{"id": "e4-E6-0027", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0029", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "e4-E6-0030", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0031", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "e4-E6-0032", "decision": "fix_clean", "clean": "Dear Professor Quen, the reading room will be closed for the holiday, so the earliest we can host your seminar is the week of January 12th. We can also arrange for the original manuscripts to be on display in the gallery, which seats about 30. Please let me know which shape suits your class and whether you'll need the projector.", "reason": "unrecoverable_word"}
+{"id": "e4-E6-0033", "decision": "fix_clean", "clean": "While a customer complimented the salsa and said it was the perfect complement to the elote.", "reason": "unrecoverable_word", "note": "lol heard as while"}
+{"id": "e4-E6-0034", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0035", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0036", "decision": "fix_clean", "clean": "The customer wants to swap his Campagnolo groupset for Shimano Ultegra. Does anyone know if the freehub body is compatible, or do we need a whole new wheel? He's riding the Gran Fondo in China next month, so I'd rather not order the wrong part and lose a week.", "reason": "unrecoverable_word"}
+{"id": "e4-E6-0037", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0039", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0040", "decision": "fix_clean", "clean": "Hi Bashia, we received your submission through FilmFreeway, but for the festival screening we'll need a DCP, not a ProRes file, and the deadline for delivery is October 24th.", "reason": "unrecoverable_word"}
+{"id": "e4-E6-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E6-0042", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E6-0043", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E6-0044", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E6-0045", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0046", "decision": "drop", "reason": "garbage", "note": "replacement char and bougets"}
+{"id": "e4-E6-0047", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah., garbled"}
+{"id": "e4-E6-0048", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0049", "decision": "fix_clean", "clean": "Hi N Goze, the 340B audit is scheduled for the week of November 3rd. Can you pull the dispensing records for the contract pharmacies in Dagon and Akron before then, and flag anything that looks like a duplicate claim?", "reason": "unrecoverable_word"}
+{"id": "e4-E6-0050", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E6-0051", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0052", "decision": "fix_clean", "clean": "Won the gold medal in the metal fabrication category, still can't believe it.", "reason": "dropped_by_recognizer"}
+{"id": "e4-E6-0053", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0054", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0055", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0056", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0057", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0058", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E6-0059", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0060", "decision": "accept", "reason": "ok"}

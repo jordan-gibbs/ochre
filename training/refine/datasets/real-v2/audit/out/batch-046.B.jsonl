@@ -1,0 +1,50 @@
+{"id": "s2-W5-0251", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Look.' for uh"}
+{"id": "s2-W5-0252", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0253", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Yeah/or No/It as hesitations"}
+{"id": "s2-W5-0254", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0255", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled spots"}
+{"id": "s2-W5-0256", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many errors"}
+{"id": "s2-W5-0257", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Well/Low"}
+{"id": "s2-W5-0258", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Though/Well"}
+{"id": "s2-W5-0259", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled ending"}
+{"id": "s2-W5-0260", "decision": "drop", "reason": "unrecoverable_meaning", "note": "4 separate fixes needed"}
+{"id": "s2-W5-0261", "decision": "fix_clean", "clean": "Just a quick recap of where we landed in the meeting for anyone who could not make it. We decided to go with the second vendor because their pricing is better and their support seems more responsive. The contract will be about $24,000 a year, which is a bit more than we planned but still within budget. Legal is going to review it by next Friday, and then we will aim to start the rollout in the first week of November. Ease will be the main point of contact, so please send any questions to her. And if you have concerns about the choice, please speak up now rather than later.", "reason": "unrecoverable_word", "note": "Ines heard as 'ease'"}
+{"id": "s2-W5-0262", "decision": "fix_clean", "clean": "Hi Pre Yank, thanks for the update on the shipment, that is really helpful. I checked with the warehouse and they said the pallets should arrive on Thursday morning, so if you can have someone ready to receive them, that would be great. Let me know if anything changes.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s2-W5-0263", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0264", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0265", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0266", "decision": "drop", "reason": "unrecoverable_meaning", "note": "price value garbled"}
+{"id": "s2-W5-0267", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0268", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0269", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Dumb for um"}
+{"id": "s2-W5-0270", "decision": "drop", "reason": "unrecoverable_meaning", "note": "can/at 4 lost, spelling"}
+{"id": "s2-W5-0271", "decision": "fix_clean", "clean": "So I'm just thinking about the roadmap and I think we are trying to do too much in Q2. If we cut the reporting feature and push it to Q3, we could actually ship the other two features properly. What do you all think?", "reason": "unrecoverable_word", "note": "raw has I'm just thinking; Wow dropped"}
+{"id": "s2-W5-0272", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Thumb x2"}
+{"id": "s2-W5-0273", "decision": "fix_clean", "clean": "Guess what, we got the house. They accepted our offer, closing is on the 18th of next month. I am literally shaking right now.", "reason": "dropped_by_recognizer", "note": "Call me lost"}
+{"id": "s2-W5-0274", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah; also garbled"}
+{"id": "s2-W5-0275", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0276", "decision": "drop", "reason": "unrecoverable_meaning", "note": "billing bug lost, quick lost"}
+{"id": "s2-W5-0277", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0278", "decision": "drop", "reason": "unrecoverable_meaning", "note": "car->power etc"}
+{"id": "s2-W5-0279", "decision": "fix_clean", "clean": "Dear Mrs. Alvarez, thank you for coming on Friday. It was a pleasure to meet you. I wanted to let you know that we have decided to move forward with your application. Someone from Anarch will reach out this week to discuss the next steps.", "reason": "unrecoverable_word", "note": "HR heard as Anarch; 'in' dropped"}
+{"id": "s2-W5-0280", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0281", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first part of sentence lost"}
+{"id": "s2-W5-0282", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0283", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large span lost"}
+{"id": "s2-W5-0284", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0285", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0286", "decision": "fix_clean", "clean": "Ok, so we need to decide on the offsite location. The options are the lake house, which is about 2 hours away and sleeps 12, or the downtown hotel, which is easier to get to but way more expensive.", "reason": "dropped_by_recognizer", "note": "last sentence lost"}
+{"id": "s2-W5-0287", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0288", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "It am"}
+{"id": "s2-W5-0289", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0290", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0291", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "her for er"}
+{"id": "s2-W5-0292", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "to or me; there for dinner"}
+{"id": "s2-W5-0293", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large span lost"}
+{"id": "s2-W5-0294", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large span lost"}
+{"id": "s2-W5-0295", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled"}
+{"id": "s2-W5-0296", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled"}
+{"id": "s2-W5-0297", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0298", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0299", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0300", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name and jack lost"}

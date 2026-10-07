@@ -1,0 +1,10 @@
+{"id": "e4-E1-0001", "decision": "fix_clean", "clean": "Lev, are you still coming to the IV inspection Saturday? I need somebody to hold the smoker while I pull the frames.", "reason": "unrecoverable_word", "note": "B: Lev kept (filler heard as name); \"hive\" from \"IV\" is a guess, keep raw word"}
+{"id": "e4-E1-0002", "decision": "accept", "reason": "ok", "note": "A: \"stunten\" is a non-word near \"stung\"; inferable"}
+{"id": "e4-E1-0003", "decision": "fix_clean", "clean": "Hey Ren, want to split a pizza tonight?", "reason": "unrecoverable_word", "note": "A: name from raw \"Ren\", \"want to\" from raw; leading \"A\" is a clear slip for \"Hey\""}
+{"id": "e4-E1-0005", "decision": "fix_clean", "clean": "I like the new rehearsal space way better, honestly. The old one smelled like wet carpet, and you could hear the bowling alley next door.", "reason": "guide_violation", "note": "A: raw is already a perfect cleanup, R11 requires clean == raw"}
+{"id": "e4-E1-0006", "decision": "accept", "reason": "ok", "note": "A: \"Light\" after \"20 minutes\" is an inferable slip for \"late\""}
+{"id": "e4-E1-0020", "decision": "fix_clean", "clean": "And you grab eggs on your way home.", "reason": "unrecoverable_word", "note": "A: \"Can\" heard as \"and\"; question not inferable, keep raw word"}
+{"id": "e4-E1-0031", "decision": "fix_clean", "clean": "I mean it. You're the best sister ever.", "reason": "guide_violation", "note": "A: raw already clean, R11"}
+{"id": "e4-E1-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"lol\" heard as \"all\"; neither keeping nor deleting it gives a faithful target"}
+{"id": "e4-E1-0043", "decision": "fix_clean", "clean": "It was like a scene from a movie. The whole hive just lifted off at once.", "reason": "guide_violation", "note": "A: raw already clean, R11"}
+{"id": "e4-E1-0044", "decision": "fix_clean", "clean": "I think we should just order Thai. Nobody wants to cook after the game and the place on Main does delivery to 11.", "reason": "unrecoverable_word", "note": "A: raw \"to\" not \"till\"; Maine->Main is an unambiguous homophone"}

@@ -1,0 +1,50 @@
+{"id": "s4-W54-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0003", "decision": "fix_clean", "clean": "The Tingy is on the trailer.", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0005", "decision": "fix_clean", "clean": "Where can I find muscles near me?", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0009", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W54-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0011", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W54-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0014", "decision": "fix_clean", "clean": "Ahead is flying into Marrakesh on Friday.", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0016", "decision": "fix_clean", "clean": "Pick up Nakai on the way home.", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0017", "decision": "fix_clean", "clean": "The shelter needs more kill.", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0018", "decision": "fix_clean", "clean": "Sarah's ten has a broken guy line.", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0021", "decision": "fix_clean", "clean": "Let's get phone tonight.", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0025", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W54-0026", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W54-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0028", "decision": "fix_clean", "clean": "Hi Annika, thanks for sending the itinerary. I'd like to swap the dinghy sailing session for the afternoon trip to the cave if there's room.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W54-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0030", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W54-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0032", "decision": "fix_clean", "clean": "The photography business offers three packages, the basic one includes a two-hour session, and the premium one includes a second shoot-up.", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0033", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W54-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0035", "decision": "fix_clean", "clean": "I left the beast in the freezer. It's the one with the blue lid, not the green one.", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0036", "decision": "fix_clean", "clean": "Fiona recommended the bakery near the harbor in Galway. Get the soda bread early because it sells out by 10:30.", "reason": "spelling_from_raw"}
+{"id": "s4-W54-0037", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W54-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0040", "decision": "fix_clean", "clean": "Paul and can you check whether the allotment shed has a spare hose reel or if I need to buy one?", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W54-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0044", "decision": "fix_clean", "clean": "Dear Ms. Alvarez, thank you for your inquiry about the guided tour of the Cinque Terre. We do have space on the 14th.", "reason": "spelling_from_raw"}
+{"id": "s4-W54-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0046", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W54-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W54-0049", "decision": "fix_clean", "clean": "The new lens arrived. It's the prime, and it's sharper than the old one.", "reason": "unrecoverable_word"}
+{"id": "s4-W54-0050", "decision": "accept", "reason": "ok"}

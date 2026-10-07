@@ -1,0 +1,39 @@
+{"id": "s2-W6-0402", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0403", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw is 'Well though.'; content lost", "raw 'Well though.'"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0404", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0405", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'value. It's' phrase cut; 'is' inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0406", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Gift for the retiring' became 'Giftiring'; plus 'Yeah.' residue", "Giftiring garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0407", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0408", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'then' for 'and'", "raw says then"], "auditors": ["A", "B"], "clean": "Memory usage climbs steadily to about 4 gigabytes after six hours then the process gets killed."}
+{"id": "s2-W6-0409", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0410", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling Joe", "name Joe from raw"], "auditors": ["A", "B"], "clean": "Hey Joe, just a heads up that the vendor wants to move the demo to Friday at 2. Are you free?"}
+{"id": "s2-W6-0412", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'team on call' and last sentence lost, replaced by 'Yeah.'", "lost team on call and last sentence"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0414", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'No' twice where uh was said; iPhone 12/14 numbers lost", "iPhone models lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0415", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'thank you for paying on time' -> 'Time.', 'Kind regards, Helen' -> 'I regards. Alan.'", "many garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0417", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["salutation, 'adding a second crew', signature garbled", "garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0418", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["whole sentences lost (operators training, discussed on site, plant manager Ewa)", "lost sentence and name"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0421", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0422", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0423", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling Farrah", "name spelling from raw"], "auditors": ["A", "B"], "clean": "Hi Farrah, the invoice is overdue by 12 days. Could you let me know when it will be paid?"}
+{"id": "s2-W6-0424", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0425", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["Ring->Bring, sign->signed inferable from context"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0426", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0427", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0428", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected name Mia lost (raw 'Sorry. Yeah.')", "corrected name Mia lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0429", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0433", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0434", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Ibrahan, 'ship take', 'than' lost, 'set', plus line breaks: >2 places", "many garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0435", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0436", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Dr. Oak's, 'where' for 'or', 'if' lost: >2 places", "name, or->where, if lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0437", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["names Priya/Kwabena/Anna/Ines garbled, 'shared channel today' lost", "garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0438", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'spam folder' lost, phone number lost 555", "garbled, phone lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0439", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'ending in' -> 'NA', 'one' lost, phone 555 -> 'five five', Morno", "many garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0440", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["invented 'No, I'm not going to be able to'; large spans lost", "I'm not going to be able to; much lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0441", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0442", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'bang' -> bank inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0444", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0445", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'flaws' -> floors inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0446", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0447", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0448", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0449", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'favor'"], "auditors": ["A", "B"], "clean": "Thanks for covering for me on Monday. I owe you one. I will return the favor next month."}

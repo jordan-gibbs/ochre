@@ -1,0 +1,39 @@
+{"id": "s4-W60-0092", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["\"who\" dropped by recognizer; \"which like does that?\" breaks the question"], "auditors": ["A", "B"]}
+{"id": "s4-W60-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W60-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W60-0096", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has \"Bill\" for Bilal"], "auditors": ["A", "B"], "clean": "Bill, I keep getting phishing DMs from fake support accounts, three a day, so I muted the whole server and now I'm kind of out of the loop."}
+{"id": "s4-W60-0098", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["\"morning\" dropped and \"comes Well of free donuts\" garbled, plus Lena"], "auditors": ["A", "B"]}
+{"id": "s4-W60-0099", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0003", "decision": "fix_clean", "reasons": ["unrecoverable_word", "trailing_off"], "notes": ["\"when the dealership...\" became \"in a dealership.\""], "auditors": ["A", "B"], "clean": "How to transfer a car title in a dealership."}
+{"id": "s4-W61-0005", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw \"Ayeshu\"; \"over\" dropped"], "auditors": ["A", "B"], "clean": "Hi Ayeshu, thanks for sending the urgent care schedule. The only thing I'd flag is that the Saturday shift..."}
+{"id": "s4-W61-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0007", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing \"Oh.\" where nothing was said"], "auditors": ["A", "B"]}
+{"id": "s4-W61-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0009", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["\"You better get paused. Cubic target pods\" cannot yield the command"], "auditors": ["A", "B"]}
+{"id": "s4-W61-0010", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["omg->\"Oh man. Gee\", Laura->Lori"], "auditors": ["A", "B"], "clean": "Oh man. Gee Lori, you will not believe what the guy at the dealership told me about the..."}
+{"id": "s4-W61-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0012", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw \"Dominic\""], "auditors": ["A", "B"], "clean": "We should loop in Dominic before we..."}
+{"id": "s4-W61-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0015", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing \"Mm-hmm.\" never said"], "auditors": ["A", "B"]}
+{"id": "s4-W61-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0018", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["trailing \"and\" lost; raw ends complete"], "auditors": ["A", "B"], "clean": "Summarize the following meeting notes in three bullet points."}
+{"id": "s4-W61-0019", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing \"Yeah.\" never said"], "auditors": ["A", "B"]}
+{"id": "s4-W61-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0022", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["\"ugh\" heard as \"But\""], "auditors": ["A", "B"], "clean": "But the waiting room is packed and the nurse said it'll be at least..."}
+{"id": "s4-W61-0023", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["\"the meter\" heard as \"that you're\""], "auditors": ["A", "B"], "clean": "This function assumes that your reading is always positive, but if the..."}
+{"id": "s4-W61-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0029", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["\"nah\" heard as \"Nora\""], "auditors": ["A", "B"], "clean": "Nora, I don't think Chloe's coming tonight. She said she was feeling kind of..."}
+{"id": "s4-W61-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0034", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["\"Dominik\" heard as \"The minute\""], "auditors": ["A", "B"], "clean": "The minute I'm outside the courthouse and I can't find the..."}
+{"id": "s4-W61-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0036", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "trailing_off"], "notes": ["\"one more thing, the\" lost"], "auditors": ["A", "B"], "clean": "Thanks, Grace, for the update on the urgent care renovation."}
+{"id": "s4-W61-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W61-0038", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["\"the\" heard as \"though\""], "auditors": ["A", "B"], "clean": "Game studio retro, wins, the launch trailer, losses, though..."}
+{"id": "s4-W61-0039", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing \"Yeah.\" never said"], "auditors": ["A", "B"]}
+{"id": "s4-W61-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

@@ -1,0 +1,41 @@
+{"id": "e4-E8-0001", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'When' for running, 'close' for croissant"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0002", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["rooftop array, interconnection, sign-off all garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0003", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["lead-in line lost entirely, oatmeal/shampoo garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0004", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'second to government' for 'second deck oven'"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0008", "decision": "drop", "reasons": ["unrecoverable_meaning", "hesitation_misheard_as_word"], "notes": ["'food claimant', 'reporting', 'filing gear': 3 places", "'food' for uh; 'gear' for period"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0010", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Hamish not in dictionary; raw has Himish"], "auditors": ["A", "B"], "clean": "Happy birthday, Himish!! Hope the gig goes well tonight."}
+{"id": "e4-E8-0012", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'Wren, I' merged into 'Renai'"], "auditors": ["A", "B"], "clean": "Renai went through the quote for the Henderson job, and there are three issues:\n1. The inverter is undersized for 12 panels.\n2. The racking quote is from last year.\n3. We never priced the trenching from the panel to the house, which could add a couple thousand."}
+{"id": "e4-E8-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0016", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'big' for 'vague'"], "auditors": ["A", "B"], "clean": "The new paragraph about liability in the installer contract is way too big. Can you ask legal to tighten it up?"}
+{"id": "e4-E8-0017", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I should mention', 'sharve', 'more common' for 'warm comma'"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0018", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0019", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary"], "auditors": ["A", "B"], "clean": "Thanks, Dashiel!"}
+{"id": "e4-E8-0020", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Bray word' for 'great work'"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0023", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'the' not 'a'"], "auditors": ["A", "B"], "clean": "We're launching the new line of gluten-free pastries in March."}
+{"id": "e4-E8-0024", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Tobias, Wren, fridge, Imogen lost"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0025", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'L', 'tree' for tray, trailing 'and'"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0030", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["sign-off 'best new line tobias' garbled to 'that's new line to buy is'"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0031", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["taglines, grooming, mutt spa, suds all garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0033", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many garbled places (Anouk, cryogenics, sign-off)"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E8-0047", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Remind', 'start the 10', 'freaking room'"], "auditors": ["A", "B"]}
+{"id": "e4-E8-0048", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'demanding' for 'dematting'"], "auditors": ["A", "B"], "clean": "I'm writing a policy for my grooming salon about matted dogs.\n\nHere's the gist: if a dog is severely matted, we shave it short instead of brushing it out because brushing hurts the dog, and we charge a $20 demanding fee. Owners have to sign off before we start.\n\nCan you rewrite that so it sounds friendly but firm?"}
+{"id": "e4-E8-0049", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'not an exclamation point' missing from raw"], "auditors": ["A", "B"], "clean": "Tell Imogen to end the menu caption with a question mark."}

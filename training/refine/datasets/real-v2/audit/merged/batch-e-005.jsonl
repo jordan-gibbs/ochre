@@ -1,0 +1,41 @@
+{"id": "e4-E4-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0022", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected value 'Thursday' lost; raw ends 'Wednesday. Sorry.'"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0024", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.' never spoken"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0032", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0040", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'sponsor' heard as 'spot or'"], "auditors": ["A", "B"], "clean": "Pull out every spot or mention from the attached transcript with its timestamp."}
+{"id": "e4-E4-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0045", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Teodor clause dropped by recognizer (7 words) plus Glasgow->Alasco"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0049", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw 'Adami'"], "auditors": ["A", "B"], "clean": "Please send the volunteer forms to Mr. Adami. He's taking over as secretary. The forms are due back on the 21st, and anyone who hasn't turned one in can't chaperone the field trip. Thanks for your patience with all the paperwork this year."}
+{"id": "e4-E4-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0051", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'Solveig' heard as 'Solid'"], "auditors": ["A", "B"], "clean": "Solid's birthday is March 13th. Put it on the shared calendar."}
+{"id": "e4-E4-0052", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected value 'ten' lost (became 'And')"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0054", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Noor not in dictionary; raw 'Nor'"], "auditors": ["A", "B"], "clean": "Running late, tell Nor I'll be there by 6:45."}
+{"id": "e4-E4-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0059", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Lingfist'"], "auditors": ["A", "B"], "clean": "Dear Mrs. Lingfist, your cat Pepper is due for her annual vaccines on October 22nd. Please call us to confirm a time."}
+{"id": "e4-E4-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0061", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Honeston' for Augustin"], "auditors": ["A", "B"], "clean": "I'm writing a toast for my sister's wedding. She's marrying a guy named Honeston who she met at a climbing gym. Can you give me five openings that are funny but not embarrassing, and keep each under two sentences?"}
+{"id": "e4-E4-0063", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0066", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Hendrix'"], "auditors": ["A", "B"], "clean": "Service call notes for the Hendrix house: the customer said the upstairs is always hot in the afternoon. I checked the filter and it was filthy, so I swapped it. The return vent in the master bedroom was blocked by a dresser, and the attic ductwork has a disconnected run going to the second bedroom. I reattached it and sealed it with mastic. Recommended a zoning damper, quoted $375 for that. Customer wants to think about it and will call back by Friday."}
+{"id": "e4-E4-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0068", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'reading corner'->'meeting coin', Noor->'Nor', 'it'->'air': 3 places"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0070", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'nine'->'night', 'cedar'->'seated', 'Emeka'->'Matty'"], "auditors": ["A", "B"]}

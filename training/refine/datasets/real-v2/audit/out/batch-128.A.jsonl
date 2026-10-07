@@ -1,0 +1,50 @@
+{"id": "s4-W31-0051", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Write a' heard as 'Brya'"}
+{"id": "s4-W31-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0061", "decision": "fix_clean", "clean": "Mart just texted that the rain has delayed the shoot by two hours.", "reason": "unrecoverable_word", "note": "name not in dictionary"}
+{"id": "s4-W31-0062", "decision": "fix_clean", "clean": "Dear patients, a clinic will be closed on the 3rd of March for staff training. Please accept our apologies for the inconvenience.", "reason": "unrecoverable_word", "note": "'our' heard as 'A'"}
+{"id": "s4-W31-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hint of citrus' heard as 'milk situation'"}
+{"id": "s4-W31-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0065", "decision": "fix_clean", "clean": "It's a bit of a stretch to say the walls are thin, but you can hear that TV.", "reason": "unrecoverable_word", "note": "'their' heard as 'that'"}
+{"id": "s4-W31-0066", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W31-0067", "decision": "fix_clean", "clean": "Write this paragraph so it sounds less formal. The principal reason for the delay was the weather.", "reason": "unrecoverable_word", "note": "'Rewrite' heard as 'Right' (homophone of 'Write' only)"}
+{"id": "s4-W31-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0071", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi' lost, 'clause' as 'clay', closing question 'Can we' became 'And we'"}
+{"id": "s4-W31-0072", "decision": "fix_clean", "clean": "The plan for Friday is that Nico picks up the kids at 8, and then I take over at the school gate, and the principal said we can't park on the front lane anywhere because it affects the buses, so we'd have to use the side road behind the gym, which is a bit of a walk but whatever.", "reason": "unrecoverable_word", "note": "raw has 'anywhere' and 'we'd'; 'what Never' read as split 'whatever'"}
+{"id": "s4-W31-0073", "decision": "fix_clean", "clean": "Patient is a 42-year-old runner with pain at the peak of the stride, mostly on the left side. We agreed to reduce the volume by about 30% for two weeks and add head strengthening, and she should avoid hills except on the treadmill at a low incline. Follow up in two weeks.", "reason": "unrecoverable_word", "note": "'hip' heard as 'head'"}
+{"id": "s4-W31-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0076", "decision": "fix_clean", "clean": "Hiya show, quick update on the shoot. The weather forecast has changed, and it looks like the rain will peak around noon on Wednesday, so I'd like to move the outdoor scenes to Thursday morning. The crew can all accept the change except the sound recordist, who is away until Friday. Let me know how you want to handle it.", "reason": "unrecoverable_word", "note": "'Hi Ayesha' heard as 'Hiya show'; name not in dictionary"}
+{"id": "s4-W31-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "beginner/stake/use/staking all lost"}
+{"id": "s4-W31-0080", "decision": "fix_clean", "clean": "Dear Marray, please find attached the revised shooting schedule. The biggest change is that the cafe scene has moved to the second week because the location isn't available except on weekends. The cast has already accepted the new dates, and the costume team will need a couple of extra days. Kind regards, Babajide", "reason": "unrecoverable_word", "note": "name not in dictionary; Baba Jide -> dictionary Babajide"}
+{"id": "s4-W31-0081", "decision": "fix_clean", "clean": "Mary, you will not believe it. The landlord is finally gonna fix the heating, but he wants to come on Saturday morning and I'm out of town, so can you let him in? He's got his own key but he doesn't want to use it, it's a privacy thing.", "reason": "unrecoverable_word", "note": "name heard as 'Mary'; raw has 'want to' not 'wanna'"}
+{"id": "s4-W31-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Team/lift your waist/say drive through all garbled"}
+{"id": "s4-W31-0083", "decision": "fix_clean", "clean": "The carpool group chat has gotten out of hand, so I'm gonna set some ground rules. If you're running late by more than 10 minutes, you text the crew, and if you can't drive your day, you swap with someone, no exceptions except for emergencies.", "reason": "unrecoverable_word", "note": "'group' heard as 'crew'"}
+{"id": "s4-W31-0084", "decision": "fix_clean", "clean": "Hello Julia, I am writing to confirm that the site inspection is scheduled for Tuesday at 2:30, and I'll be meeting the engineer there. Please make sure the gate is unlocked and that the neighbours know we'll be on the property, since the noise might affect them. Thanks very much.", "reason": "unrecoverable_word", "note": "raw has 'I am', not 'I'm'"}
+{"id": "s4-W31-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "launch/hype/pull heard as mark/height/four"}
+{"id": "s4-W31-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'my ride fell' lost, 'Can you' became 'And you'"}
+{"id": "s4-W31-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0090", "decision": "fix_clean", "clean": "The lead is unavailable on the 14th, so we're gonna shoot the courtroom scene without him and use the body double. The budget impact is minimal, around $2,000, and the producer has to sign off on it by Friday.", "reason": "dropped_by_recognizer", "note": "'Production meeting notes' missing from raw; raw has 'the body double'"}
+{"id": "s4-W31-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0093", "decision": "fix_clean", "clean": "This morning was a disaster. I picked up the kids at 7:45 like usual, and halfway down the main road the check engine light came on, and then I heard this noise from the back, and it turned out to be a flat tire. I pulled over by the petrol station and there was no spare because somebody, I won't say who, I taken it out for the camping trip. So I called the tow truck and waited 40 minutes, and the kids were late for school and the principal wasn't through. Anyway, can someone else take tomorrow?", "reason": "unrecoverable_word", "note": "'had' heard as 'I', 'thrilled' as 'through'"}
+{"id": "s4-W31-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to ice' heard as 'that I east', name and his/this also changed"}
+{"id": "s4-W31-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recap/start time on set/lead's coat/on target at about all garbled"}
+{"id": "s4-W31-0096", "decision": "fix_clean", "clean": "I'm putting together a short explainer for my friends who are new to crypto, and I need your help. Start with the difference between a coin and the token, then explain what a wallet actually is, because people think it holds the coins, oh, that really just holds the keys. After that, cover why the effect of gas fees varies so much and what the principle behind them is, and finish with some basic safety tips, like never sharing your seed phrase. Please keep it friendly in under 500 words.", "reason": "unrecoverable_word", "note": "raw: 'the token', 'Oh, that' for 'but it', 'in under'"}
+{"id": "s4-W31-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'heat' as 'he', ending 'we sold out of the pour over' garbled"}
+{"id": "s4-W31-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'check that' became 'check But', plus was/a changes"}
+{"id": "s4-W31-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'calm' lost ('to come'); self-correction unresolvable"}
+{"id": "s4-W31-0100", "decision": "accept", "reason": "ok"}

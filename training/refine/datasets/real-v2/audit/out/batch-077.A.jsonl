@@ -1,0 +1,50 @@
+{"id": "s2-W8-0301", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0302", "decision": "accept", "reason": "ok", "note": "'Learned learn' is a stutter of learn"}
+{"id": "s2-W8-0303", "decision": "accept", "reason": "ok", "note": "'M leaving' -> I'm inferable"}
+{"id": "s2-W8-0304", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0305", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0306", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0307", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0308", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0309", "decision": "accept", "reason": "ok", "note": "'next big rings' -> rain inferable from roof-leak context"}
+{"id": "s2-W8-0310", "decision": "fix_clean", "clean": "How you babe? Pick up some bread on your way home, and maybe something sweet. I had a long day.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'How you babe?' for 'hey babe'"}
+{"id": "s2-W8-0311", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0312", "decision": "accept", "reason": "ok", "note": "speaker grammar kept"}
+{"id": "s2-W8-0313", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0314", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0315", "decision": "drop", "reason": "hallucination", "note": "raw appends unspoken 'to the' at the end"}
+{"id": "s2-W8-0316", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'call' heard as 'Oh', Janet as 'Channed'"}
+{"id": "s2-W8-0317", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0318", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0319", "decision": "drop", "reason": "unrecoverable_meaning", "note": "deck/Lopezes/cedar/pine/joists garbled"}
+{"id": "s2-W8-0320", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Look,' and 'The'"}
+{"id": "s2-W8-0321", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "hesitations became 'The' in 3 places; also apologized variant"}
+{"id": "s2-W8-0322", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0323", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Mr. Reyes'->'I'm Mr. Rays', heater->Peter, 'could' lost"}
+{"id": "s2-W8-0324", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'picked a'->'Bit to', 'then'->'And', neighbors variant"}
+{"id": "s2-W8-0325", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Look.'"}
+{"id": "s2-W8-0326", "decision": "drop", "reason": "unrecoverable_meaning", "note": "correction value 19,000 garbled to 1900; 'I'/'Aye' from uh"}
+{"id": "s2-W8-0327", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0328", "decision": "drop", "reason": "hallucination", "note": "raw invents 'Well, I think it's a very good thing'; much content lost"}
+{"id": "s2-W8-0329", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0330", "decision": "fix_clean", "clean": "Outside the building.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'I'm' not in raw"}
+{"id": "s2-W8-0331", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W8-0332", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0333", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0334", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0335", "decision": "fix_clean", "clean": "Paint samples for the hallway, gray or green.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'gray'"}
+{"id": "s2-W8-0336", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can I borrow your ladder'->'And I borrow your letter'"}
+{"id": "s2-W8-0337", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W8-0338", "decision": "fix_clean", "clean": "Fix the porch light, keeps flickering.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' not in raw"}
+{"id": "s2-W8-0339", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Well,'; 'to' became 'but'"}
+{"id": "s2-W8-0340", "decision": "fix_clean", "clean": "The power just went out at our place, is it out at yours too, or is it just us?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hey, it's me' absent from raw"}
+{"id": "s2-W8-0341", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0342", "decision": "accept", "reason": "ok", "note": "'the day' -> 'that day' inferable"}
+{"id": "s2-W8-0343", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Low,'"}
+{"id": "s2-W8-0344", "decision": "accept", "reason": "ok", "note": "'No weights' is the changed correction cue; both values in raw"}
+{"id": "s2-W8-0345", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0346", "decision": "fix_clean", "clean": "The plumbers said it was the wax ring under the toilet, so that's about $120 for the part and the work.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'plumbers'"}
+{"id": "s2-W8-0347", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0348", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Aye,' and 'No.'"}
+{"id": "s2-W8-0349", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Grandpa->'grand', 'you've sent', 'Love you' lost: 3 places"}
+{"id": "s2-W8-0350", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'that' became 'But' and 'in that order' lost"}

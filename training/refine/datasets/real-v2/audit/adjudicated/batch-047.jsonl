@@ -1,0 +1,13 @@
+{"id": "s2-W5-0319", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'could' heard as 'Did': request became a question about a past change; 'Something came up' no longer follows. Torn fix vs drop, so drop"}
+{"id": "s2-W5-0321", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' decoded as the name 'Inga', which reads as a vocative a reader would keep"}
+{"id": "s2-W5-0329", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ugh' became 'Oh go'; 'Ugh' is not inferable and dropping the real word 'go' would read the speaker's mind"}
+{"id": "s2-W5-0336", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'who who' became 'Ugu': raw is a statement about a person, so the question is not recoverable"}
+{"id": "s2-W5-0342", "decision": "fix_clean", "clean": "I love the way you handle that, honestly.", "reason": "unrecoverable_word", "note": "raw has 'handle'; tense cannot be inferred (R10)"}
+{"id": "s2-W5-0343", "decision": "fix_clean", "clean": "No, no, I have not seen.", "reason": "dropped_by_recognizer", "note": "'Nope' heard as 'No', 'it' lost; do not re-insert. B's real answer (shifted line) was the same"}
+{"id": "s2-W5-0344", "decision": "accept", "reason": "ok", "note": "B's line for this id was its answer for 0343 (B shifted by one from 0343); B's real answer was accept"}
+{"id": "s2-W5-0345", "decision": "fix_clean", "clean": "Okay, bet.", "reason": "spelling_from_raw", "note": "raw has 'Okay' (R10); B's shifted answer agreed"}
+{"id": "s2-W5-0346", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' decoded as 'but'; also 'hey' lost and 'is moved' became 'does move'"}
+{"id": "s2-W5-0347", "decision": "fix_clean", "clean": "So the patient intake form is still showing the old insurance field. I really will push a fix after lunch.", "reason": "unrecoverable_word", "note": "the 'i will i will' repeat was decoded as the plausible content word 'really'; keep it"}
+{"id": "s2-W5-0348", "decision": "fix_clean", "clean": "I am gonna be honest, I do not think that the vendor is going to deliver before the holidays.", "reason": "unrecoverable_word", "note": "false-start 'the' decoded as 'that', a plausible content word with no repeat visible in raw; keep it"}
+{"id": "s2-W5-0349", "decision": "fix_clean", "clean": "John, can you cover the front desk from noon to 2? I have a delivery coming that I have to sign for.", "reason": "unrecoverable_word", "note": "'Jun' is not in the dictionary and raw has 'John'; 'Dus' is a droppable fragment"}
+{"id": "s2-W5-0350", "decision": "accept", "reason": "ok", "note": "'Zum.' is a non-word residue of 'um'; B's line was its shifted answer for 0349"}

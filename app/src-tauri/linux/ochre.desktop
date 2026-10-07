@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Application
+Name={{name}}
+GenericName=Dictation
+Comment={{comment}}
+Exec={{exec}}
+Icon={{icon}}
+Terminal=false
+Categories=Utility;Accessibility;
+Keywords=dictation;speech;voice;transcribe;speech-to-text;whisper;
+StartupWMClass={{exec}}
+Actions=toggle;settings;history;
+
+[Desktop Action toggle]
+Name=Start or Stop Dictation
+Exec={{exec}} toggle
+
+[Desktop Action settings]
+Name=Settings
+Exec={{exec}} settings
+
+[Desktop Action history]
+Name=History
+Exec={{exec}} history

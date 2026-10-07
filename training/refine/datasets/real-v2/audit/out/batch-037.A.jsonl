@@ -1,0 +1,50 @@
+{"id": "s2-W4-0301", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0302", "decision": "fix_clean", "clean": "Thanks for catching that. I will push a fix this afternoon.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'and let you know when it is live'"}
+{"id": "s2-W4-0303", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0304", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'attached', 'let me know if you have any', 'line'->'online'"}
+{"id": "s2-W4-0305", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0306", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0307", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0308", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0309", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0310", "decision": "fix_clean", "clean": "The demo went way better than I expected. Nice work, everyone.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'The' not 'That'"}
+{"id": "s2-W4-0311", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0312", "decision": "fix_clean", "clean": "Summarise the following text in two sentences, and keep the original tone.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Summarise'"}
+{"id": "s2-W4-0313", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'app' heard as 'air', 'on' as 'and'"}
+{"id": "s2-W4-0314", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0315", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um before dinner heard as 'the'"}
+{"id": "s2-W4-0316", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0317", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0318", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "er heard as 'or' ('all or other devices')"}
+{"id": "s2-W4-0319", "decision": "fix_clean", "clean": "This loop runs once per item and...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends on 'and'; rest lost"}
+{"id": "s2-W4-0320", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ship' heard as 'shut', 'sprint' as 'print'"}
+{"id": "s2-W4-0321", "decision": "fix_clean", "clean": "How long should I boil an egg for a ruddy yolk?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'ruddy'"}
+{"id": "s2-W4-0322", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0323", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0324", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Clearing' heard as 'They're in'"}
+{"id": "s2-W4-0325", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0326", "decision": "fix_clean", "clean": "Call the pharmacy before noon because they close early on Saturdays.", "reason": "guide_violation", "rules": ["R11"], "note": "raw already clean; clean must equal raw"}
+{"id": "s2-W4-0327", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'API'/'JSON' heard as 'FPI'/'JOM'"}
+{"id": "s2-W4-0328", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0329", "decision": "fix_clean", "clean": "Hi Marcus, I wanted to follow up on our conversation from last Friday. After reviewing the numbers with my team, we think the revised budget is workable as long as the delivery day stays the same. Could we set up the call this week to finalize the details? I am free most afternoons.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'delivery day' and 'the call'"}
+{"id": "s2-W4-0330", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0331", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0332", "decision": "fix_clean", "clean": "I am trying to decide between two jobs. One pays more but has a long commute, and the other is closer to home with better benefits. Can you help me think through the tradeoffs? Please ask me questions rather than just telling me what to do.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'offers' ('two jobs')"}
+{"id": "s2-W4-0333", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'error' lost, 'CI' heard as 'size'"}
+{"id": "s2-W4-0334", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0335", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "er heard as 'Or'; also 'are'->'were'"}
+{"id": "s2-W4-0336", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um/er heard as 'the'/'Or'; 'is' lost, 'swallowed in'"}
+{"id": "s2-W4-0337", "decision": "fix_clean", "clean": "Honestly, I think we are overcomplicating this. The customer asked for a simple export button, and we are talking about a whole new reporting framework. Let us ship the button this week and see whether anyone asked for more.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'asked' not 'asks'; chip->ship inferable"}
+{"id": "s2-W4-0338", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Nguyen->Newton, 'your' lost, 'from my'->'for mine': 3 places"}
+{"id": "s2-W4-0339", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I did not exercise' and 'I stayed up' lost"}
+{"id": "s2-W4-0340", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'data analyst' heard as 'day Oh Annela's'"}
+{"id": "s2-W4-0341", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um heard as 'Summed'"}
+{"id": "s2-W4-0342", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'added' heard as 'out of', uh as 'Th'/'No'"}
+{"id": "s2-W4-0343", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; 'one I could not'->'When I cannot'"}
+{"id": "s2-W4-0344", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "er heard as 'There are'"}
+{"id": "s2-W4-0345", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0346", "decision": "drop", "reason": "unrecoverable_meaning", "note": "middle sentence lost, trailing 'What'"}
+{"id": "s2-W4-0347", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0348", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'in uh' heard as 'Well'; 'date'->'data'"}
+{"id": "s2-W4-0349", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'timesheet' heard as 'her time. She', 'ahead'->'Head of'"}
+{"id": "s2-W4-0350", "decision": "accept", "reason": "ok"}

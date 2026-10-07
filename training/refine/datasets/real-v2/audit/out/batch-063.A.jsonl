@@ -1,0 +1,50 @@
+{"id": "s2-W7-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0102", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0104", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'uh use' became 'a is'; the imperative 'Use' is not recoverable"}
+{"id": "s2-W7-0105", "decision": "drop", "reason": "script_defect", "note": "clean rewrites the spoken explanation into new words; raw also garbled ('reme', 'received the I swapped')"}
+{"id": "s2-W7-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0107", "decision": "fix_clean", "clean": "The Dockerfile is installing the dependencies in the final image. Make it a multi-stage build so the final image only has the production dependencies and runs as a non-root user.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'dev' heard as 'the'"}
+{"id": "s2-W7-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0110", "decision": "fix_clean", "clean": "Return the user ID for the given session token, or None if the token is expired.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has imperative 'Return', a valid docstring form"}
+{"id": "s2-W7-0111", "decision": "fix_clean", "clean": "Docstring: parse the config file and return a dictionary. Raises FileNotFoundError if the path doesn't exist.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken and recognized 'docstring' was dropped from clean"}
+{"id": "s2-W7-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0113", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is garbled: 'Thick s new this fricks ... you to see'"}
+{"id": "s2-W7-0114", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'No to sell', 'It's', 'collar': too many misrecognitions"}
+{"id": "s2-W7-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0117", "decision": "fix_clean", "clean": "Args: user_id. Returns: a list of orders sorted by date.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'the id of the user' absent from raw"}
+{"id": "s2-W7-0118", "decision": "fix_clean", "clean": "We retry up to 5 times with a 2-second delay because the license server is flaky on start.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw has 'start', not 'startup'"}
+{"id": "s2-W7-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0122", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hack, hack' recognized as 'Hug Hug'; not inferable"}
+{"id": "s2-W7-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0124", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' that was never said"}
+{"id": "s2-W7-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0126", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'eggs it with an air' for 'exit with an error'"}
+{"id": "s2-W7-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0128", "decision": "fix_clean", "clean": "Bug: the export button does nothing in Firefox. Works fine in Chrome. Console shows a Content Security Policy error.", "reason": "guide_violation", "rules": ["R10"], "note": "clean added 'The'"}
+{"id": "s2-W7-0129", "decision": "fix_clean", "clean": "The login page returns a 500 when the email has a plus sign in it. I think we are not URL-encoding it.", "reason": "guide_violation", "rules": ["R10"], "note": "speaker said 'we are'; clean contracted it"}
+{"id": "s2-W7-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0131", "decision": "fix_clean", "clean": "Expected behavior: the modal closes when you click outside of it. Actual behavior: nothing happens.", "reason": "guide_violation", "rules": ["R8", "R10"], "note": "undictated line break removed"}
+{"id": "s2-W7-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0133", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'router' heard as 'Rower'; not inferable and raw's word is nonsense"}
+{"id": "s2-W7-0134", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0136", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'promote to prod' heard as 'promote the broad'"}
+{"id": "s2-W7-0137", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'heads up the ci' heard as 'Ed's up, the side'"}
+{"id": "s2-W7-0138", "decision": "fix_clean", "clean": "Yesterday I reviewed two PRs and paired with Dana on the cache bug. Today I am picking up the OAuth ticket. Blocked on the client secret from DevOps.", "reason": "guide_violation", "rules": ["R10"], "note": "speaker said 'I am'; clean contracted it"}
+{"id": "s2-W7-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0140", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W7-0141", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0142", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'run it on prod' heard as 'run and unpro'"}
+{"id": "s2-W7-0143", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I'll' dropped and 'heap dump' heard as 'heat up'"}
+{"id": "s2-W7-0144", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many misrecognitions: ship, bucks, start it, they'll, in right docks"}
+{"id": "s2-W7-0145", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'three' heard as 'We' so list item 3 is lost; 'IDs' for 'Ideas'"}
+{"id": "s2-W7-0146", "decision": "fix_clean", "clean": "To-do for tomorrow:\n- Fix the flaky test\n- Update the dependency\n- Answer Praya about the schema", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Priya not in dictionary; raw has 'praya'"}
+{"id": "s2-W7-0147", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Russ to sink trade' for 'rust async trait'"}
+{"id": "s2-W7-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0150", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'J8 on B Intex Jin' for 'json b index gin'"}

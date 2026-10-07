@@ -1,0 +1,50 @@
+{"id": "s4-W41-0051", "decision": "fix_clean", "clean": "Hey Layla, can you re-export the Pro Tools session from yesterday?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Leila heard as Layla"}
+{"id": "s4-W41-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'design systems think', 'She're', 'colour': 3 places in ~40 words"}
+{"id": "s4-W41-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0056", "decision": "fix_clean", "clean": "I'm trying to understand index funds versus ETFs for a long-term plan. I'm 32, I can put in about $500 a month, and what I can't figure out is whether the fees aren't...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'on' heard as 'aren't'"}
+{"id": "s4-W41-0057", "decision": "fix_clean", "clean": "Adrian, the framing inspection is on Thursday, I think, and the drywall guys are scheduled for the same date which won't work because they can't start until the inspector has...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'date' for 'day'"}
+{"id": "s4-W41-0058", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'he fixed it here', 'if I walk her'"}
+{"id": "s4-W41-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0061", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W41-0062", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'And the landlord to keep the deposit' loses the question"}
+{"id": "s4-W41-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped the whole 'it's higher than we budgeted by about 12%' clause"}
+{"id": "s4-W41-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0065", "decision": "fix_clean", "clean": "Well, did you see the new button styles? I think they look great but I'm not sure the contrast ratio on the secondary button is...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Leila heard as 'Well'"}
+{"id": "s4-W41-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0071", "decision": "fix_clean", "clean": "Hi Sellin, I went through the crash reports from the last release and there are really three things going on. First, the login screen freezes on older phones. Second, the sync job times out when you're on a bad network. And third...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name spelled Sellin in raw"}
+{"id": "s4-W41-0072", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cap/kick, listen, guitar: too many unrecoverable places"}
+{"id": "s4-W41-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0074", "decision": "fix_clean", "clean": "Damien, the intake numbers for the month are in. We saw about 200 new clients which is up from last month, and the biggest category was housing, followed by...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name spelled Damien in raw"}
+{"id": "s4-W41-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0076", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heater->here, lease->leaf, want it->wanted"}
+{"id": "s4-W41-0077", "decision": "fix_clean", "clean": "Could you figure out why the tab bar flickers when we switch between the home and search screens? It might be related to how the navigation stack is...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "TODO heard as 'Could you'"}
+{"id": "s4-W41-0078", "decision": "fix_clean", "clean": "The thing is, Sheerer, we told the client the tokens would ship in version 2.1, but the spacing tokens aren't really done and I don't want to promise...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Shira heard as Sheerer"}
+{"id": "s4-W41-0079", "decision": "fix_clean", "clean": "We need to file by the 30th and the clerk's office closes at 4.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'after the lawyer's review' absent from raw"}
+{"id": "s4-W41-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped the room mics clause (~15 words)"}
+{"id": "s4-W41-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name garbled, 'landlords know this', ending lost"}
+{"id": "s4-W41-0082", "decision": "fix_clean", "clean": "Okay design system folks, I've been looking at the Storybook setup and there are a few things. The docs pages or the form components are out of date, the dark mode toggle doesn't persist between stories, and I also noticed that the accessibility addon is reporting contrast failures on the disabled states, which I think is a false positive but I'm honestly not sure, so can someone take a look at...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'or' for 'for'"}
+{"id": "s4-W41-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0085", "decision": "fix_clean", "clean": "Hi Nora, I wanted to give you a full update on the mix. I went through all 12 tracks last night and I think we're close. The vocals sit well now, the strings need to come up maybe a decibel, the bridge feels a bit empty so I'm going to try doubling the panel, and I also want to try a different reverb on the second verse because the current one makes the words a little hard to understand. Anyway, let me know what you think and whether you want me to...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "piano heard as panel"}
+{"id": "s4-W41-0086", "decision": "fix_clean", "clean": "Hey everyone, mobile app standup recap. Selen is finishing the offline mode work and says it should be ready for review tomorrow, Damien is blocked on the payment SDK upgrade because the new version dropped support for a method we use, Layla found that the search results screen is slow on Android and she thinks it's the image loading, and I'm going to spend today on the release notes and on figuring out why the beta testers keep seeing the old onboarding, which honestly might be a caching issue or it might be that we...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "names from raw: Selen, Damien, Layla"}
+{"id": "s4-W41-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "once/to/for list markers, 'thantake', 'clear'; target list also not formatted per R8"}
+{"id": "s4-W41-0088", "decision": "fix_clean", "clean": "Good news and bad news about the foundation. The good news is the soil test came back fine and the engineer proved the footing depth. The bad news is the inspector wants us to add two more of our ties at every corner, and that means we need to reorder. I call the supplier, and he said about 10 days, which would push the pour to the following...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Pedro lost, approved->proved, rebar->of our, called->call"}
+{"id": "s4-W41-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Laly, 'So I like fine', 'You do guitars', ending 'She's a'"}
+{"id": "s4-W41-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped the 'favoring...' clause and the ending"}
+{"id": "s4-W41-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0093", "decision": "fix_clean", "clean": "I just realized that the quarterly tax estimate is due on the 15th, which means I'd have to move money out of savings by...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has \"I'd have to\""}
+{"id": "s4-W41-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0095", "decision": "fix_clean", "clean": "Honestly, no, I've been meaning to tell you that...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Nora heard as 'no'"}
+{"id": "s4-W41-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'The date picker shows the wrong' lost ('the raw month')"}
+{"id": "s4-W41-0097", "decision": "fix_clean", "clean": "What's the difference between a tenant's security deposit and the last month's rent payment?", "reason": "trailing_off", "rules": ["RECOVER", "R4"], "note": "'when the lease says' lost; raw has 'the last'"}
+{"id": "s4-W41-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0099", "decision": "fix_clean", "clean": "Mastering reference tracks. The first one is too bright, the second one has a nice low end, the third one I can't remember what I liked about it.", "reason": "trailing_off", "rules": ["RECOVER", "R4"], "note": "raw lost the last words"}
+{"id": "s4-W41-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Selin heard as 'Sil in', fix heard as 'effects'"}

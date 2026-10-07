@@ -1,0 +1,50 @@
+{"id": "s4-W41-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0009", "decision": "fix_clean", "clean": "Nah, just wait until...", "reason": "dropped_by_recognizer"}
+{"id": "s4-W41-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0011", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W41-0012", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W41-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0015", "decision": "fix_clean", "clean": "Can you send Layla the intake form?", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0017", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W41-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0021", "decision": "fix_clean", "clean": "Does anyone know whether the cake is...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0024", "decision": "fix_clean", "clean": "Okay, I'll be there...", "reason": "dropped_by_recognizer"}
+{"id": "s4-W41-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0032", "decision": "fix_clean", "clean": "Buttons in the primary variant use the brand colour for the fill and white for the label unless the background is...", "reason": "spelling_from_raw"}
+{"id": "s4-W41-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0034", "decision": "drop", "reason": "hesitation_misheard_as_word"}
+{"id": "s4-W41-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0036", "decision": "fix_clean", "clean": "Hi Damien, regarding the client's custody paperwork, I think we still need the...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0037", "decision": "fix_clean", "clean": "Emergency fund target is six months of expenses, which is about $18,000, then the rest goes to the...", "reason": "dropped_by_recognizer"}
+{"id": "s4-W41-0038", "decision": "fix_clean", "clean": "I was going to say the toggle component needs a disabled state and then I realized that...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0039", "decision": "fix_clean", "clean": "Well, Nord, you have to hear what the drummer did today, he walked in and just...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0044", "decision": "fix_clean", "clean": "Hello Layla, I'm writing about the housing appointment on the 14th, and I wanted to ask whether it would be possible to...", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0045", "decision": "fix_clean", "clean": "Ico, the compressor on the vocal bus is, it's pumping way too much.", "reason": "unrecoverable_word"}
+{"id": "s4-W41-0046", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W41-0047", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W41-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W41-0050", "decision": "fix_clean", "clean": "Design system documentation site examples with left code playgrounds and version...", "reason": "unrecoverable_word"}

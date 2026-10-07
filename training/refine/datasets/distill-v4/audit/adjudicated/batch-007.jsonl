@@ -1,0 +1,5 @@
+{"id": "sim4-d4-C060-0042-1", "decision": "fix_clean", "clean": "Aiko found the stopcock behind a removable panel rather than under the spine where the tenant expected it.", "note": "B: 'spine' not confidently 'sink' (rule 13), keep raw word; no optional comma added"}
+{"id": "sim4-d4-C046-0200-2", "decision": "drop", "note": "A: 'parked the ten' garbles both content words; keeping raw yields nonsense, drop"}
+{"id": "sim4-d4-C021-0017-0", "decision": "fix_clean", "clean": "PowerShell -NoProfile", "note": "B: raw and dictionary give 'PowerShell'; keep casing as spoken"}
+{"id": "sim4-d4-C029-0210-0", "decision": "fix_clean", "clean": "Before the copy, the migration needs another rehearsal.", "note": "A: raw reads as one coherent sentence; abandonment of 'before the copy' not inferable"}
+{"id": "sim4-s4-W34-0026-2", "decision": "fix_clean", "clean": "The nonprofit raised $18,000 in March, which is up to about 12% from last year.", "note": "A: raw 'up to about' is grammatical; target must not delete raw 'to'"}

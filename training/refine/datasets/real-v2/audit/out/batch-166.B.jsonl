@@ -1,0 +1,50 @@
+{"id": "s4-W50-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0052", "decision": "fix_clean", "clean": "Thanks for hosting us last night, the food was wonderful and the conversation even better.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0053", "decision": "fix_clean", "clean": "Summarize the following paragraph in one sentence and keep the tone neutral.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0055", "decision": "fix_clean", "clean": "Remember the bull calf needs his vaccination before the fair.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0056", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W50-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0062", "decision": "fix_clean", "clean": "Need to talk to Theo about the keys, the alarm code, and the parking for it.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0067", "decision": "fix_clean", "clean": "But who invited...", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0069", "decision": "fix_clean", "clean": "The ghost got out again, so check the fence along the lower pasture.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0070", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W50-0071", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W50-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0074", "decision": "fix_clean", "clean": "Mum says dinner will be ready soon but you know what she's like, this will be ages. Bring a jumper because the garden gets cold, and don't forget the wine for dad.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0075", "decision": "fix_clean", "clean": "Please draft a listing description for a two bedroom flat near the station. Mention the bright living room and the small balcony, but don't promise anything about noise. Keep it short and user friendly. Professional tone.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0077", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W50-0078", "decision": "fix_clean", "clean": "Friends, a general reminder that the car park will be closed on Friday for resurfacing, so please carpool or walk if you can. There will be volunteers at the gate to help the elderly, and this side entrance will stay open throughout.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0080", "decision": "fix_clean", "clean": "Employees must lock their screen whenever they leave their desks, and shared accounts are not permitted under any circumstances. Any lost device must be reported to the security team immediately, even if the owner believes it will turn up. Failure to report may result in disciplinary action.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0085", "decision": "fix_clean", "clean": "Chicken feed is running low, so order another delivery before the week. The new fencing arrives on Thursday, and the contractor needs access through the east gate. Also remember to call the vet about the lame ewe.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0086", "decision": "fix_clean", "clean": "The server will go down for maintenance tonight, and it should be back within about an hour. If you're in the middle of a raid, please wrap it up early so nobody loses progress. Will post an update in the announcements channel as soon as it's done.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0087", "decision": "fix_clean", "clean": "Good morning, I'm following up on the offer we submitted last week. Our buyers are keen to move quickly, and they've already arranged their mortgage approval. Could you let us know whether the sellers have had a chance to review? We're happy to discuss any concerns.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0088", "decision": "fix_clean", "clean": "The community garden is open to all members of the congregation and their families. Plots are allocated each spring on a first come, first served basis, and tools are kept in a shed behind the main building. Please return everything to its place when you're done.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0089", "decision": "fix_clean", "clean": "Maim is picking me up at the station, so don't worry about the car. I'll text when we're nearby, and I might need five minutes to find my keys.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0091", "decision": "fix_clean", "clean": "The sculptor wants the plants moved closer to the window, but I'm worried about the afternoon sun. Can we try a screen first and see how it looks? If it doesn't work, we can always move it back.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0092", "decision": "fix_clean", "clean": "Hi Petre, I wanted to thank you for coming to the open day. Several visitors asked about the cheese stall and the seasonal veg boxes, and two schools have already asked about tours. I'll send the contact details, and we can plan the next steps together.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0093", "decision": "fix_clean", "clean": "Hi Maimit, thanks for walking me through the three bedroom on Elm Court yesterday. I talked it over with my partner last night, and we both really like the garden and the light in the kitchen. Our main worry is the age of the boiler, so could you ask the sellers when it was last serviced and whether they have the paperwork? If that all checks out, we'd like to put in an offer early next week. We're also happy to meet again on Saturday morning if that suits you.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0094", "decision": "fix_clean", "clean": "Notes from the community group meeting. The Ramadan food drive collected more than we expected, and the volunteers deserve real thanks for sorting everything in a single weekend. The main hall needs its carpet cleaned before the next gathering, and Hana offered to arrange that with the usual company. We also agreed that the youth evening will move to Fridays, mainly because of the school timetable. Next meeting is at the community center, and tea will be provided.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0095", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W50-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W50-0097", "decision": "fix_clean", "clean": "You're all, following last week's phishing simulation, I want to share a few observations. Around a third of staff clicked the link, but nearly everyone who did reported it within the hour, which is encouraging. The finance team was the most careful, and the front desk team was the quickest to report. We will run another exercise in the spring, and in the meantime I'll circulate the short guide on spotting fake login pages. Thank you for taking this seriously.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0098", "decision": "fix_clean", "clean": "Recap of Tuesday's meeting. We agreed to split the cost of the new cold store between all members, based on how much produce each farm sells through the stall. Simo will draft the agreement and bring that to the next meeting. The apple harvest is looking strong this year, but the pickers are short, so we will ask the neighboring farms whether they can spare anyone for a weekend. We also need a volunteer to take minutes from now on.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0099", "decision": "fix_clean", "clean": "You will not believe what happened at the party. Elisha turned up in the exact same dress as her sister, and neither of them would speak to the other for an hour. Then the cake arrived and it was the wrong flavor, so my uncle ate most of it himself. Anyway we are going to be late tomorrow because the car is at the garage, so don't wait for us.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}
+{"id": "s4-W50-0100", "decision": "fix_clean", "clean": "All prospective tenants must complete the application form in full and provide proof of income for the last three months. References from a previous landlord are preferred but not required. The holding deposit is refundable if the application is declined, but it will be kept if the applicant withdraws after the offer is accepted. We aim to reply within two working days, and we will contact applicants by email. Viewings can be arranged on weekday evenings and on Saturday mornings, that our agents will be happy to answer questions on the day.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"]}

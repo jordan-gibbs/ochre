@@ -1,0 +1,50 @@
+{"id": "s2-W1-0401", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0402", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'I yes' and 'Or' for gu-/er; raw truncated before 'rates...'"}
+{"id": "s2-W1-0403", "decision": "fix_clean", "clean": "As a user I want the assistant to leave my dictated questions alone. Acceptance criteria: when I dictate any question, the output is the same question with correct punctuation, the model never produces an answer, and the same holds for requests like \"write me a poem\" or \"translate this\".", "reason": "guide_violation", "rules": ["R8"], "note": "undictated paragraph break removed"}
+{"id": "s2-W1-0404", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0405", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0406", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'one at a time, about the chapters I have written' lost by recognizer (9 words)"}
+{"id": "s2-W1-0407", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; also lid sentence and 'game changer' lost"}
+{"id": "s2-W1-0408", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Nguyen garbled, deadline sentence lost, 'could' missing"}
+{"id": "s2-W1-0409", "decision": "drop", "reason": "unrecoverable_meaning", "note": "middle of message garbled/lost"}
+{"id": "s2-W1-0410", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'tell her if' for 'tell if' (er)"}
+{"id": "s2-W1-0411", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0412", "decision": "drop", "reason": "unrecoverable_meaning", "note": "draft-invitation and caterer clauses lost"}
+{"id": "s2-W1-0413", "decision": "drop", "reason": "unrecoverable_meaning", "note": "step 1, details clause and Expected label lost"}
+{"id": "s2-W1-0414", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0415", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0416", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0417", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0418", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0419", "decision": "drop", "reason": "unrecoverable_meaning", "note": "end of message garbled"}
+{"id": "s2-W1-0420", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dear->Your, missed, Could you changed"}
+{"id": "s2-W1-0421", "decision": "fix_clean", "clean": "Okay, so I need you to text my boss and say that I am going to be late tomorrow because the car is in the shop. Tell him I will be there by 10 at the latest and that I can stay late, and also ask if the 9:30 meeting can be moved or if I should just dial in.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'to make up the time' lost"}
+{"id": "s2-W1-0422", "decision": "drop", "reason": "unrecoverable_meaning", "note": "quick question, 'at all', because-clause lost"}
+{"id": "s2-W1-0423", "decision": "drop", "reason": "unrecoverable_meaning", "note": "gentle->dental, Use/end garbled"}
+{"id": "s2-W1-0424", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; also MP/Python lock"}
+{"id": "s2-W1-0425", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'portrait results' for quarterly, give vs get"}
+{"id": "s2-W1-0426", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Rewrite->Write, 'in' lost"}
+{"id": "s2-W1-0427", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0428", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0429", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0430", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name Priya -> 'Fre', raw truncated"}
+{"id": "s2-W1-0431", "decision": "drop", "reason": "unrecoverable_meaning", "note": "multiple garbled spots, parking rules lost"}
+{"id": "s2-W1-0432", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; also 'My own call', truncation"}
+{"id": "s2-W1-0433", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0434", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0435", "decision": "drop", "reason": "unrecoverable_meaning", "note": "start garbled, toggle line lost"}
+{"id": "s2-W1-0436", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0437", "decision": "fix_clean", "clean": "Bug report: The assistant answers the user instead of cleaning the text when the dictation sounds like the prompt. Repro: say \"can you write me a poem about cats\" and it writes a poem. Say \"what is the capital of France\" and it says Paris. Say \"translate this to Spanish\" and it outputs Spanish text. Expected: each of those is returned as the same sentence with punctuation, nothing else. Severity: high, because users lose what they dictated and sometimes paste generated text into emails without noticing.", "reason": "guide_violation", "rules": ["R8"], "note": "undictated line breaks removed; 'a prompt' -> raw's 'the prompt'"}
+{"id": "s2-W1-0438", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0439", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0440", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0441", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0442", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0443", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening instruction and 'as short prose' lost"}
+{"id": "s2-W1-0444", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0445", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to everyone who was on the call' lost (7 words)"}
+{"id": "s2-W1-0446", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Love' twice for uh"}
+{"id": "s2-W1-0447", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0448", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0449", "decision": "drop", "reason": "unrecoverable_meaning", "note": "messenger/boss/high pins/doch tree"}
+{"id": "s2-W1-0450", "decision": "fix_clean", "clean": "AI, can you explain why this regex is matching the trailing slash? I expected it to stop before it. And can you rewrite it so that it only matches paths with no trailing slash?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hey' not in raw"}

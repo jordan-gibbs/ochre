@@ -1,0 +1,33 @@
+{"id": "s2-W6-0352", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["recognizer lost 'are required' and the whole meals clause", "raw lost 'are required' and the whole meals clause"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0353", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["lost 'on Cedar Avenue' and 'the extra traffic would'; 'And I'm', 'Love' residues", "raw lost street name and traffic clause"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0356", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0357", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'overall the place is clean' lost", "raw lost 'Overall the place is clean'; leaves fragment"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0359", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["title clause about St Mary's Hospital lost entirely", "raw lost whole opening phrase and other words"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0361", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0362", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0363", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0364", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has 'Polo'", "name not in dictionary"], "auditors": ["A", "B"], "clean": "Hi Polo, thanks for the quick fix. The report looks great now."}
+{"id": "s2-W6-0365", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends at 'the'", "raw ends at 'the'"], "auditors": ["A", "B"], "clean": "The main reason for the delay is that the supplier has not yet confirmed the..."}
+{"id": "s2-W6-0366", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0367", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0369", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'council' lost into 'Amstful'", "'Amstful tax' garbled, council lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0370", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0373", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0374", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing 'Yeah.' not spoken"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0378", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["heavily garbled (oars, bell mode, Got it, sponsor name)", "raw garbled in many places"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0380", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Byrne' and signature name lost", "salutation name, signature and words lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0381", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0382", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'on the admin page' lost", "raw too short"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0383", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0384", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0385", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0386", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0387", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has 'Ray'", "name per raw"], "auditors": ["A", "B"], "clean": "Dr. Ray said no food after midnight and bring the insurance card on the morning of the procedure."}
+{"id": "s2-W6-0388", "decision": "drop", "reasons": ["unrecoverable_meaning", "hesitation_misheard_as_word"], "notes": ["'comma inside' -> 'combat and site', 'Fuck', 'pretty'", "'Fuck' for uh; 'combat and site' garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0389", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0390", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0393", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["names garbled, 'on' for um, sign-off 'Almost.'", "names garbled, signature lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0396", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has 'Hannah'", "name per raw"], "auditors": ["A", "B"], "clean": "I had the pleasure of working with Hannah for three years at Brightstone Capital. She is one of the sharpest analysts I have met. She built our risk model from scratch, which now covers more than $2 billion in assets, and she mentors junior colleagues with patience and generosity. Any team would be lucky to have her."}
+{"id": "s2-W6-0397", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Simone', 'it', 'date', 'Best' lost or misheard", "name, sign-off and several words garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0399", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'No,' twice and 'Yum'; 'AF' and 'Claire' lost", "flight code, name, spelling variant: too many places"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0400", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'keen but' and 'a bit vague' lost", "keen/vague/kickoff lost"], "auditors": ["A", "B"]}

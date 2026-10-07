@@ -1,0 +1,39 @@
+{"id": "s2-W3-0352", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0353", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["Whisper appended trailing 'you'", "trailing 'you'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0354", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0355", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0356", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'let's do' heard as 'But Stu'; cannot be inferred", "'Let's do' became 'But Stu'"], "auditors": ["A", "B"], "clean": "It's 5 o'clock somewhere. But Stu drinks at 6."}
+{"id": "s2-W3-0358", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' -> 'Or I walked'; also 'before Wednesday' dropped", "'Or' for er; 'R and no go'; tail 'before Wednesday' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0359", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'um car payment' -> 'On par pained at', 'um' -> 'On'", "car payment garbled as 'On par pained'; 'On' for um"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0360", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0361", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; also 'limit' dropped", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0362", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um run' -> 'You have run' changes the imperative", "'You have' for um before 'run the upgrade script'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0363", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0365", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0368", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0369", "decision": "drop", "reasons": ["unrecoverable_meaning", "hallucination"], "notes": ["'due net thirty' -> 'Do not. Yeah.'", "'Do not. Yeah.' for 'due net thirty'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0370", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0371", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0372", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0373", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0374", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0375", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0376", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Nguyen rewrote' -> 'near in Row', 'Okafor' -> 'how Cafe'", "Nguyen/Okafor sentence garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0377", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'better anyway' dropped; 'whose price is honestly' breaks the sentence", "'better anyway' lost, 'whose price is honestly' breaks"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0378", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0379", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' -> 'where the speech should be'", "'where' for er"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0380", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["opening 'The preview deployments on Vercel' dropped; sentence has no subject", "subject 'The preview deployments on Vercel' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0381", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0382", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' -> 'No.' reads as a correction cue", "'No.' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0383", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0386", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0387", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["URL garbled, 'slides' -> 'thirds', 'FAQ' -> 'fact'", "URL and slides/FAQ garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0390", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'bit dot ly slash q four plan' -> 'the botlides Q4 plan'", "URL lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0391", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0392", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'project', not 'projects'", "raw 'project'"], "auditors": ["A", "B"], "clean": "cd ~/project/my-app"}
+{"id": "s2-W3-0393", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Version 1.0 is' -> 'Virgin one point, always', 'bugs' -> 'boats'", "version/is/bugs garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0394", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0395", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0397", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0398", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends 'open the PR and'; 'in a bit' lost", "'in a bit' lost; raw ends on 'and'"], "auditors": ["A", "B"], "clean": "Okay, I finally figured out the memory leak. It was the event emitter. We were adding a listener on every request and never removing it. After about 10,000 requests, Node started to warn about a possible leak, and by 50,000 the process was using something like 2 GB. One-line fix: I removed the listener on close. Memory is flat now. I will open the PR and..."}
+{"id": "s2-W3-0399", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'bookstore' -> 'books were', 'love' -> 'Black', 'uh' -> 'Well'", "'Black' for love; 'Well' for uh; bookstore garbled"], "auditors": ["A", "B"]}

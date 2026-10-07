@@ -1,0 +1,50 @@
+{"id": "s2-W8-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0102", "decision": "fix_clean", "clean": "Can you call me when you are free?", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "raw has 'you are', not the contraction"}
+{"id": "s2-W8-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0104", "decision": "fix_clean", "clean": "Toothpaste, paper towels.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'shampoo' missing from raw"}
+{"id": "s2-W8-0105", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0110", "decision": "fix_clean", "clean": "I'm going to the pharmacy tomorrow for to buy the medicine of my father, after that I will come home.", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "raw has 'I'm'"}
+{"id": "s2-W8-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0113", "decision": "fix_clean", "clean": "Okay so, I checked the schedule and I can swap chefs with you on Thursday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'chefs' for shifts, not inferable"}
+{"id": "s2-W8-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0116", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W8-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0118", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large parts lost (woke early, pancakes, last sentence); 'What? Do your diary'"}
+{"id": "s2-W8-0119", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Hi.' and 'Some' where uh/um were said"}
+{"id": "s2-W8-0120", "decision": "fix_clean", "clean": "Handover for room 12: Mr. Okafer is stable, he ate half his breakfast, pain is a 3 out of 10. He needs his dressing changed at 2, and his daughter is visiting this afternoon, so please let her know the doctor wants to talk to her.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling 'Okafer'"}
+{"id": "s2-W8-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0122", "decision": "drop", "reason": "unrecoverable_meaning", "note": "order of tiles/adhesive sentence lost, 'Paul Mr Garcisi other', 'grub'"}
+{"id": "s2-W8-0123", "decision": "fix_clean", "clean": "Okay so, I want to get this down before I forget. The day I finally went through Mom's old boxes in the attic, the ones we have been putting off for like two years, and honestly it was harder than I thought. There were so many photographs, some of her and Dad when they were young, standing in front of that old blue car, and some of me and my brother as kids with those terrible haircuts. I found her recipe cards too, with her handwriting all over them, and Anna sat on the floor for a long time just reading them. I think I'm going to make her apple cake this weekend and invite everyone over. I don't know, it just feels like the right thing to do, you know, to keep a little piece of her in the kitchen.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'The day' for today and 'Anna' for 'and I'"}
+{"id": "s2-W8-0124", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'But now read', 'then we'll overmix it' reverses meaning, 'it tooth becomes'"}
+{"id": "s2-W8-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0128", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh decoded as 'but'"}
+{"id": "s2-W8-0129", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'They got ... from Wall Marines' for 'pick up ... from walgreens'"}
+{"id": "s2-W8-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0131", "decision": "fix_clean", "clean": "Vegetarian dinner ideas for four people", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'cheap' missing from raw"}
+{"id": "s2-W8-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0133", "decision": "fix_clean", "clean": "Tuesday Benz, Wednesday library, Thursday choir.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Benz' for bins"}
+{"id": "s2-W8-0134", "decision": "fix_clean", "clean": "We are out of coffee again.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'ugh' missing from raw"}
+{"id": "s2-W8-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0136", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh decoded as leading 'No'"}
+{"id": "s2-W8-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0138", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the hint will be done' for fence plus name misheard"}
+{"id": "s2-W8-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0140", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh decoded as 'No,'; also 'You all' vs Y'all"}
+{"id": "s2-W8-0141", "decision": "fix_clean", "clean": "Math test on Friday, need to redo the practice problems from the review sheet.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'chapters five through seven' missing from raw"}
+{"id": "s2-W8-0142", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh decoded as 'But'"}
+{"id": "s2-W8-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0146", "decision": "fix_clean", "clean": "I've been using this blender for about three weeks now and I have to say, it is really powerful. Crushed ice no problem. The only issue is it is so loud, like really loud. My husband jumped every time, but smoothies come out silky so I'm keeping it. Four stars.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' missing from raw"}
+{"id": "s2-W8-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0148", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh decoded as 'No.' twice, um as 'It'"}
+{"id": "s2-W8-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0150", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh decoded as 'No,'"}

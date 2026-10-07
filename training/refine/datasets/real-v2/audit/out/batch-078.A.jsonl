@@ -1,0 +1,50 @@
+{"id": "s2-W8-0351", "decision": "fix_clean", "clean": "I bought this rice cooker for my mother and she is very happy. The rice come out soft and not sticky, and it have many function, like for soup and for porridge. The instruction in English is little bit hard to understand, but my daughter help us. Price is reasonable.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'five stars' absent from raw; 'rye' inferable as rice from rice cooker"}
+{"id": "s2-W8-0352", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Jam, Allen T, 'the Wadlatch', tat, want, lies: too many garbled places"}
+{"id": "s2-W8-0353", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'arvo' lost, 'shovel you all', 'You absolutely cooked it'"}
+{"id": "s2-W8-0354", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'still feel sad though' and 'I think tomorrow I'll ask her' became 'No.'"}
+{"id": "s2-W8-0355", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'budgets are tight' -> 'budget's forty', 'before' lost, 'Oh.'"}
+{"id": "s2-W8-0356", "decision": "drop", "reason": "unrecoverable_meaning", "note": "adobo -> 'no', thighs -> 'A thoughts', 'become thick' -> 'be convicted'"}
+{"id": "s2-W8-0357", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening greeting/name/number and closing sentence dropped by recognizer; >5 words"}
+{"id": "s2-W8-0358", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Go to school before night'"}
+{"id": "s2-W8-0359", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0360", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0361", "decision": "drop", "reason": "non_english", "note": "raw is Dutch-like garble"}
+{"id": "s2-W8-0362", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0363", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W8-0364", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0365", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0366", "decision": "fix_clean", "clean": "New idea, cookbook of Gran's recipes.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Gran's' and no 'a'"}
+{"id": "s2-W8-0367", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'today' lost, 'rod', 'kids buy Kelmets'"}
+{"id": "s2-W8-0368", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0369", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0370", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "leading um -> 'But'"}
+{"id": "s2-W8-0371", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sighed, and said' lost; quote unattributed"}
+{"id": "s2-W8-0372", "decision": "fix_clean", "clean": "So sorry, my boss is keeping me late again. Can you start dinner without me? Be there by 7:30.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'I'll' absent from raw"}
+{"id": "s2-W8-0373", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W8-0374", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0375", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0376", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0377", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um -> 'on' ('this month on autumn colors'); also scarves -> scars"}
+{"id": "s2-W8-0378", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0379", "decision": "fix_clean", "clean": "We camped here for two nights with the kids and it was perfect. The sites are big and shady, the bathrooms were clean, and there is a creek right behind the tents where the kids caught poles all afternoon. The only downside is that the nearest store is 20 minutes away, so bring everything you need. We will definitely be back next summer.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'poles'"}
+{"id": "s2-W8-0380", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0381", "decision": "fix_clean", "clean": "Well, dear, that's Grandma again. I figured out the picture thing, so I sent you a photo of the roses but I think it came out upside down, sorry about that. The roses are doing wonderfully this year, the pink ones especially. Come see them when you visit, and bring that nice boy you were telling me about.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Well, dear. That's'"}
+{"id": "s2-W8-0382", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'now or wait' -> 'Now we'll wait' changes the question"}
+{"id": "s2-W8-0383", "decision": "fix_clean", "clean": "I never thought I would be the kind of person who gets up at 5 in the morning to run. In fact, for most of my life I avoided exercise like it was homework, but last winter my doctor told me my blood pressure was too high, and something in me just decided enough. So I bought a cheap pair of running shoes and went out the next morning in the dark. I made it exactly two blocks before I had to stop and hold onto a lamp post, but I went back the next day, and the next. Now, 10 months later, I can run 5 kilometers without stopping, and more importantly I actually look forward to it, the quiet streets, the sunrise, the feeling that the day belongs to me.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'kilometers'; 'Wow.' treated as interjection residue"}
+{"id": "s2-W8-0384", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh -> 'No?' twice, reads as correction cue; 'Owen'"}
+{"id": "s2-W8-0385", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'my treat' -> 'might be', 'No everything', Carl, 'take you out though'"}
+{"id": "s2-W8-0386", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Mirror/Mere, 'weather systems had turned right', 'Oh,' etc."}
+{"id": "s2-W8-0387", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0388", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Is it sake he takes past the date'"}
+{"id": "s2-W8-0389", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0390", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0391", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0392", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the wife? I'm boxed'"}
+{"id": "s2-W8-0393", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0394", "decision": "fix_clean", "clean": "And an anniversary present for the in-laws.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R2"], "note": "'Get' heard as 'And'"}
+{"id": "s2-W8-0395", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh -> 'Well'"}
+{"id": "s2-W8-0396", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0397", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0398", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0399", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0400", "decision": "drop", "reason": "hallucination", "note": "trailing 'but' never said; 'young' -> 'yun'"}

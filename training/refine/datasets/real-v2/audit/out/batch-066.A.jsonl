@@ -1,0 +1,50 @@
+{"id": "s2-W7-0251", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Okay.' never spoken; 'colon' also lost"}
+{"id": "s2-W7-0252", "decision": "fix_clean", "clean": "This commit removes the unused feature flag and the code path behind it. Nothing should change for users.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R11"], "note": "raw has singular 'code path'; raw is already clean"}
+{"id": "s2-W7-0253", "decision": "drop", "reason": "unrecoverable_meaning", "note": "subject line garbled ('Fixed race and cash and validation'), 'commits' -> 'commit'"}
+{"id": "s2-W7-0254", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0255", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'standup' lost (became 'And'), 'test'->'task', 'suite'->'sweep'"}
+{"id": "s2-W7-0256", "decision": "fix_clean", "clean": "Hey Tomas, did you see the failing deploy? The Terraform apply is stuck on a state lock. I think the previous run crashed. Can you release it, or tell me how?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary: raw 'Tomas'; raw has 'the previous run'"}
+{"id": "s2-W7-0257", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I bumped' lost; raw reads 'FYI bump' (imperative), 'rerun' -> 'rear on'"}
+{"id": "s2-W7-0258", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'They'll', 'Thing me of pride is on fire' garbled"}
+{"id": "s2-W7-0259", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0260", "decision": "fix_clean", "clean": "Okay, so Fathom is our analytics service, and I want to rework how it ingests events. Right now every event is written straight to Postgres, which is fine at low volume, but we are about to onboard a customer that sends maybe 10,000 events a second. So I want to put a Kafka topic in front. The HTTP handler just validates the payload and publishes to the topic and returns 202. Then a separate consumer batches events and writes them to Postgres in chunks of 1,000. The consumer needs to be idempotent because Kafka can deliver twice, so use the event ID as a unique key and do an upsert. Add metrics for the consumer lag and the batch size, and write the Docker Compose changes so I can run Kafka locally. Please start by telling me the plan and the files you intend to touch.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken/raw 'validates the payload and publishes to the topic and returns'; clean dropped a said 'and'"}
+{"id": "s2-W7-0261", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'No' before 'we set cache control'; also 'there's' lost"}
+{"id": "s2-W7-0262", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped large spans (unhandled errors, race conditions, tests sentence)"}
+{"id": "s2-W7-0263", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'big job', 'license methods', 'componentable receipt props', 'create group', 'feeling tests'"}
+{"id": "s2-W7-0264", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw ends 'field, but' (ending lost) plus undictated heading/line structure and garbled title"}
+{"id": "s2-W7-0265", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'auth rewrite' -> 'author a right', 'flows are done' lost"}
+{"id": "s2-W7-0266", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never spoken; also 'We'->'You'"}
+{"id": "s2-W7-0267", "decision": "drop", "reason": "hallucination", "note": "raw ends with unspoken trailing 'but' and inserts an extra 'but'"}
+{"id": "s2-W7-0268", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can't scroll' became 'can scroll' (negation lost)"}
+{"id": "s2-W7-0269", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'polar query at', 'next run it', 'skip lock' etc.; too many places"}
+{"id": "s2-W7-0270", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled ('egg two box to X bar gate', 'hit in health', 'plant up with')"}
+{"id": "s2-W7-0271", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'default to off' became 'default to Awesome'"}
+{"id": "s2-W7-0272", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Espola query', 'And you were right it' for 'can you rewrite it'"}
+{"id": "s2-W7-0273", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'at a', 'If Alt Off', 'Fledge Service', 'R the new route' garbled"}
+{"id": "s2-W7-0274", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'shared container' became 'sharer'"}
+{"id": "s2-W7-0275", "decision": "fix_clean", "clean": "I need a TypeScript function that takes a list of orders and groups them by customer, then by month, returns a nested map. Handle the case where the date string is invalid by putting it in an unknown bucket. And write it so it's easy to unit test: no global state, no Date.now calls.", "reason": "guide_violation", "rules": ["R10"], "note": "clean added an unsaid 'and' and dropped the said 'and' before 'write'"}
+{"id": "s2-W7-0276", "decision": "drop", "reason": "unrecoverable_meaning", "note": "path /api/v1/users lost ('for I see'), 'inverse' for ingress"}
+{"id": "s2-W7-0277", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0278", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'wrap' -> 'Route', 'main' -> 'Ming'"}
+{"id": "s2-W7-0279", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0280", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0281", "decision": "fix_clean", "clean": "Change the button color to the primary token, not the hex value, and the hover state should use primary-dark. Also make sure it still passes the contrast check in Storybook.", "reason": "guide_violation", "rules": ["R10"], "note": "clean dropped the said 'and' before the hover clause"}
+{"id": "s2-W7-0282", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'use sed or awk' became 'You said or or'"}
+{"id": "s2-W7-0283", "decision": "fix_clean", "clean": "The WebSocket server sends the full state on every update, which is wasteful. Switch it to send diffs. Use JSON Patch, and keep a version number so the client can detect a missed update.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'and ask for a full resync' absent from raw"}
+{"id": "s2-W7-0284", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0285", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'regex' -> 'reject', 'build metadata' -> 'build my deck'"}
+{"id": "s2-W7-0286", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0287", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'invoice service line' lost from the stack trace location"}
+{"id": "s2-W7-0288", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'This function assumes' -> 'dysfunction as soon', 'must' -> 'my', deduplication -> duplication"}
+{"id": "s2-W7-0289", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'docstring' -> 'Duck string', 'Returns' -> 'Return'"}
+{"id": "s2-W7-0290", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0291", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0292", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'from Marcus' -> 'for Marcus', 'crash log' -> 'crash off', 'downscale' -> 'get on the scale'"}
+{"id": "s2-W7-0293", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0294", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'build' lost ('del'), 'Trivy' -> 'private'"}
+{"id": "s2-W7-0295", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Lua script' -> 'Louis spurps', 'Venimus'"}
+{"id": "s2-W7-0296", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'No' before 'just add'; also JSONB -> JSON"}
+{"id": "s2-W7-0297", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0298", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'but skip' became 'Let's keep' (opposite meaning)"}
+{"id": "s2-W7-0299", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became 'them' ('and them we want')"}
+{"id": "s2-W7-0300", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the pagination' lost ('in them')"}

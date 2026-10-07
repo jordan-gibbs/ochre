@@ -1,0 +1,50 @@
+{"id": "s4-W35-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0052", "decision": "fix_clean", "clean": "Recital is June 6th at 7 p.m., tickets are $15.", "reason": "dropped_by_recognizer", "note": "doors at 6:30 lost"}
+{"id": "s4-W35-0053", "decision": "fix_clean", "clean": "My email is isych_m@outlook.com.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W35-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0056", "decision": "fix_clean", "clean": "Ella said that's one for the books.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W35-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0062", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W35-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0064", "decision": "fix_clean", "clean": "I'm a hundred percent behind you on the gray tiles, they look bright.", "reason": "unrecoverable_word", "note": "gray from raw; great->bright"}
+{"id": "s4-W35-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0066", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s4-W35-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0072", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W35-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W35-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W35-0076", "decision": "drop", "reason": "unrecoverable_meaning", "note": "3rd lost: Marched"}
+{"id": "s4-W35-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W35-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W35-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W35-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0088", "decision": "fix_clean", "clean": "The build number is 41276, which is the one that went out at 3:15 this afternoon. I checked and it's version 5.2.0, not 5.1.9 like the release notes say, so someone should fix the changelog.", "reason": "number_value", "note": ""}
+{"id": "s4-W35-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W35-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W35-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s4-W35-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0096", "decision": "fix_clean", "clean": "Hi Sean, thanks for coming in yesterday. As discussed, your plan is the annual one at $999 which comes out to about $83 a month, and includes the pool, the classes and two guest passes a month. Your locker is number 231 and the code is 4479, please change it after your first visit. The front desk number is 555-0198 if you have any questions and we're open from 5 p.m. to 11 p.m. every day.", "reason": "number_value", "note": "raw says 5 pm"}
+{"id": "s4-W35-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0098", "decision": "fix_clean", "clean": "Here's where we are on the bathroom, Bama finished on the 2nd, the plumber's coming on the 6th between 8 and 10 and the tile guys start on the 12th. We've spent $6,400 out of a $9,000 budget which has 71%, and we're about a week behind mostly because the vanity is back ordered until the 22nd. The order number is 881462 if you want to check with the supplier and their number is 555-0133.", "reason": "unrecoverable_word", "note": "demo->Bama"}
+{"id": "s4-W35-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}

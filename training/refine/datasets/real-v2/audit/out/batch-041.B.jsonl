@@ -1,0 +1,50 @@
+{"id": "s2-W5-0001", "decision": "fix_clean", "clean": "Yeah, on it.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0002", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0003", "decision": "fix_clean", "clean": "Huh. No way.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0004", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0006", "decision": "fix_clean", "clean": "And we pushed Anna to 10:30.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0007", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0008", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0009", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0010", "decision": "fix_clean", "clean": "Thanks, Priya, they fixed it.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0011", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0012", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0016", "decision": "fix_clean", "clean": "Hey Thomas, do you have a sec?", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0017", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0018", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0019", "decision": "drop", "reason": "hallucination"}
+{"id": "s2-W5-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0022", "decision": "drop", "reason": "hesitation_misheard_as_word"}
+{"id": "s2-W5-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0024", "decision": "fix_clean", "clean": "They'll be there in 5, just grabbing coffee.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0025", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0027", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0028", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0029", "decision": "fix_clean", "clean": "Yes so my sister is coming over on Saturday, so we can do Sunday instead.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0030", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0031", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0032", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0034", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0035", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0036", "decision": "fix_clean", "clean": "Oh nice, congrats, Sophia.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0037", "decision": "fix_clean", "clean": "Even at the gate, it's so crowded.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0038", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0040", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0042", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0045", "decision": "fix_clean", "clean": "Okay.", "reason": "unrecoverable_word"}
+{"id": "s2-W5-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0047", "decision": "fix_clean", "clean": "Wanna grab tacos after the gym?", "reason": "spelling_from_raw"}
+{"id": "s2-W5-0048", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0049", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W5-0050", "decision": "drop", "reason": "unrecoverable_meaning"}

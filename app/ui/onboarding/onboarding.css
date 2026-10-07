@@ -1,0 +1,31 @@
+/* Onboarding layout only; every visual value comes from theme/tokens.css. */
+html, body { height: 100%; overflow: hidden; }
+.ob { display: grid; grid-template-rows: auto 1fr auto; height: 100%; }
+.ob-dots { justify-self: center; margin-top: var(--space-6); }
+.ob-step { overflow-y: auto; padding: var(--space-4) var(--space-8) var(--space-2); }
+.ob-step > .page { padding: 0; max-width: 600px; }
+.ob-foot { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); padding: var(--space-4) var(--space-6) var(--space-5); }
+.kicker { font-size: var(--text-xs); font-weight: var(--weight-semibold); letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--accent-ink); margin-bottom: var(--space-2); }
+
+.welcome { text-align: center; padding-top: var(--space-6); }
+.welcome-lockup { --lk-h: 56px; display: flex; width: max-content; margin: 0 auto var(--space-6); }
+.welcome .page-title { font-size: var(--text-3xl); max-width: 16ch; margin: 0 auto; }
+.welcome .page-lede { margin: var(--space-3) auto 0; }
+/* the real HUD pill, as an illustration */
+.welcome-hud { position: relative; height: 96px; margin-top: var(--space-4); pointer-events: none; }
+
+.try-box { width: 100%; height: auto; min-height: 150px; resize: none; padding: var(--space-4); line-height: var(--leading-normal); font-size: var(--text-md); }
+.try-result { display: flex; align-items: center; gap: var(--space-2); margin-top: var(--space-3); }
+/* success: the box keeps what Ochre typed, gets a quiet green edge, and a check draws itself */
+.try-box { transition: box-shadow var(--dur-3) var(--ease); }
+.try-box.is-done:not(:focus) { box-shadow: inset 0 0 0 1px var(--success); }
+.try-result .status:has(.try-check)::before { display: none; }
+.try-check { display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; background: var(--success-soft); color: var(--success); }
+.try-check svg { width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.try-check path { stroke-dasharray: 20; stroke-dashoffset: 20; animation: try-draw var(--dur-5) var(--ease) 80ms forwards; }
+@keyframes try-draw { to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) { .try-check path { animation: none; stroke-dashoffset: 0; } }
+
+/* Voice key step: the four gesture scenes in one row, as in Settings › General */
+.ob .gestures { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.ob .gx { height: 96px; }

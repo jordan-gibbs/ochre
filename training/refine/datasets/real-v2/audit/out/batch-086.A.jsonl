@@ -1,0 +1,50 @@
+{"id": "s2-W10-0051", "decision": "accept", "reason": "ok", "note": "cue 'no wait' heard as 'no way'; both parts present"}
+{"id": "s2-W10-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected time 2:30 lost; 'Ball', 'mark outs'"}
+{"id": "s2-W10-0054", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0055", "decision": "fix_clean", "clean": "I have a Python script that reads a CSV and it's really slow, it takes 10 minutes for 100,000 rows, so what are some ways to speed it up, and shouldn't I be using pandas?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'shouldn't'"}
+{"id": "s2-W10-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0059", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'rejects' and 'legacy for life' not recoverable"}
+{"id": "s2-W10-0061", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled spans (form of three, upgrade requirement, book)"}
+{"id": "s2-W10-0062", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0063", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0064", "decision": "fix_clean", "clean": "Hi Jordan, I really appreciate the feedback on the draft, and I've already incorporated most of it, I'll send a new version over by Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'appreciate' and 'a new version'"}
+{"id": "s2-W10-0065", "decision": "fix_clean", "clean": "I'm building a dashboard for my team and I need some help. Can you suggest a layout that kind of puts the most important metrics at the top, and keeps the details below? And don't write any code yet, just describe it.", "reason": "guide_violation", "rules": ["R6"], "note": "question lacked '?'"}
+{"id": "s2-W10-0066", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'budget for next year' lost, 'can' heard as 'didn't'"}
+{"id": "s2-W10-0067", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "filler 'like' heard as 'Why', reads as content"}
+{"id": "s2-W10-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dimmer' for demo, 'Heads of', 'if you have'"}
+{"id": "s2-W10-0071", "decision": "fix_clean", "clean": "Hi Marcus, I wanted to follow up on our conversation from Tuesday, the one about the renewals, and let you know that we can offer a 10% discount if you sign by the end of the month.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'renewals'"}
+{"id": "s2-W10-0072", "decision": "accept", "reason": "ok", "note": "'And you send' read as 'Can you send'"}
+{"id": "s2-W10-0073", "decision": "accept", "reason": "ok", "note": "'role. And a fintech' read as 'at'"}
+{"id": "s2-W10-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'starts' lost ('Sorry it's Monday'), 'org' dropped"}
+{"id": "s2-W10-0075", "decision": "accept", "reason": "ok", "note": "'Scoo all query' near form of SQL"}
+{"id": "s2-W10-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0077", "decision": "drop", "reason": "non_english", "note": "trailing 'Hör.' foreign token; 'rewrite' also lost"}
+{"id": "s2-W10-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a fair', 'rows to', 'expend', 'Ford'"}
+{"id": "s2-W10-0079", "decision": "fix_clean", "clean": "Hi Pria, thanks for the intro. I'd love to chat with Marcus next week.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw 'Hypria'"}
+{"id": "s2-W10-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'wait'/if, 'have to'/after, 'part'/parked"}
+{"id": "s2-W10-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Not a million', 'postcards', 'like mongo' lost"}
+{"id": "s2-W10-0082", "decision": "fix_clean", "clean": "When you lose connection while it's open, it shows a blank screen instead of the offline banner, and the banner works if you start offline, so it's kind of only the transition that's broken.", "reason": "guide_violation", "rules": ["R10"], "note": "'the app' came from retracted part; said 'while it's open'"}
+{"id": "s2-W10-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ending 'need a book, Buddy' lost 'by the end of the month'"}
+{"id": "s2-W10-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'vendor C' heard as 'vendor seat'"}
+{"id": "s2-W10-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'an int not a' heard as 'in our'"}
+{"id": "s2-W10-0088", "decision": "fix_clean", "clean": "Can I get a quick review on this? It's a one line change, it's actually two lines, it just bumps the timeout from 30 to 60 seconds, and it fixes the upload failures that the support team has been seeing.", "reason": "guide_violation", "rules": ["R6"], "note": "question lacked '?'"}
+{"id": "s2-W10-0089", "decision": "fix_clean", "clean": "The permissions model is kind of confusing at first, so here's the short version, an admin can do everything, the editor can change content but not settings, and a viewer can only read, and if you need something in between you can create a custom role.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'The editor'"}
+{"id": "s2-W10-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'workaround for the safari bug' lost; 'What's the U.S.?'"}
+{"id": "s2-W10-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'async' heard as 'to Sink'"}
+{"id": "s2-W10-0092", "decision": "fix_clean", "clean": "The order of these checks matters, because the first one short circuits, and if you swap them you'll get the null pointer.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the'"}
+{"id": "s2-W10-0093", "decision": "fix_clean", "clean": "Thanks sir, I'll review the contract tonight and get back to you by the end of the day tomorrow.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Sarah' heard as 'sir'; raw 'the end of the day'"}
+{"id": "s2-W10-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Meet at' heard as 'We got'"}
+{"id": "s2-W10-0095", "decision": "accept", "reason": "ok", "note": "'pipe point'/'In chest' inferable in ETL docs context"}
+{"id": "s2-W10-0096", "decision": "fix_clean", "clean": "Search results are out of order when you sort by relevance and then filter.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lacks 'the'"}
+{"id": "s2-W10-0097", "decision": "accept", "reason": "ok", "note": "cue heard as 'They'll wait'; both values in order"}
+{"id": "s2-W10-0098", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W10-0099", "decision": "fix_clean", "clean": "Notes from the product sync. First, the signups are at about 2,000, which is kind of higher than we expected. Second, the onboarding drop off is still a problem, it's 40% at step 2. Third, we agreed to prioritize the fix for that before adding new features.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'beta' lost ('the bait the sign ups')"}
+{"id": "s2-W10-0100", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}

@@ -1,0 +1,50 @@
+{"id": "s4-W19-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0002", "decision": "fix_clean", "clean": "I mean it when I say the Senate hike is off this weekend.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Senate' for summit"}
+{"id": "s4-W19-0003", "decision": "fix_clean", "clean": "Hi Matteo, the proofs from Saturday are uploaded to the gallery now.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw 'Matteo'"}
+{"id": "s4-W19-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0006", "decision": "fix_clean", "clean": "She doesn't know what I mean when I say that error.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'that error' for dead air"}
+{"id": "s4-W19-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0008", "decision": "accept", "reason": "ok", "note": "'date at center' split of data center"}
+{"id": "s4-W19-0009", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s4-W19-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0011", "decision": "accept", "reason": "ok", "note": "'propping' judged inferable as dropping in fantasy context"}
+{"id": "s4-W19-0012", "decision": "accept", "reason": "ok", "note": "'No take back' idiom"}
+{"id": "s4-W19-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Any second shoes needs' garbled"}
+{"id": "s4-W19-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'back of lintens. Peter, don't come'"}
+{"id": "s4-W19-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'new news blocked that move' garbled"}
+{"id": "s4-W19-0018", "decision": "fix_clean", "clean": "You know the producer who does the new news block, right? He left a voicemail.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'new' for noon"}
+{"id": "s4-W19-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Pay Sha Mina' for patient Mina"}
+{"id": "s4-W19-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0023", "decision": "accept", "reason": "ok", "note": "'So write' read as filler right"}
+{"id": "s4-W19-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0025", "decision": "fix_clean", "clean": "Dear Maeve, thanks for leaving the bridge loop on Saturday. It was the best hike of the season.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'leaving', 'Bridge'"}
+{"id": "s4-W19-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0027", "decision": "fix_clean", "clean": "Sophia, the gallery link expired, so I sent a new one.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw 'Sophia'"}
+{"id": "s4-W19-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'N Waves number' for invoice number, plus name"}
+{"id": "s4-W19-0029", "decision": "accept", "reason": "ok", "note": "'podcast fee' read as feed"}
+{"id": "s4-W19-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0033", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; 'Here, here' for dear vera"}
+{"id": "s4-W19-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0038", "decision": "fix_clean", "clean": "At the fork the group split, left for the creek, right for the ridge.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'split' not 'splits'"}
+{"id": "s4-W19-0039", "decision": "fix_clean", "clean": "Hi Dinah, the invoice is attached and the deposit was already paid.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw 'Dinah'"}
+{"id": "s4-W19-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0044", "decision": "accept", "reason": "ok", "note": "'page your' split of pager"}
+{"id": "s4-W19-0045", "decision": "fix_clean", "clean": "Mateo, the frame shipment is late, again.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'frame'"}
+{"id": "s4-W19-0046", "decision": "fix_clean", "clean": "Mateo, you know the supplier's number, right? The frame shipment is late again.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'frame'"}
+{"id": "s4-W19-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W19-0049", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W19-0050", "decision": "fix_clean", "clean": "That's right, Ryan Saturday, so we're pushing the hike.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Ryan' for rain"}

@@ -1,0 +1,5 @@
+{"id": "s4-W41-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: Quectel->kubectl and dash in->-n both guesses in a terminal command; not recoverable"}
+{"id": "s4-W41-0024", "decision": "fix_clean", "clean": "Okay, I'll be there.", "reason": "dropped_by_recognizer", "note": "A: final at lost, raw ends complete, so no ellipsis"}
+{"id": "s4-W41-0033", "decision": "fix_clean", "clean": "I have a budget spreadsheet with red, groceries and car payments, and I want you to help me figure out how much I could...", "reason": "unrecoverable_word", "note": "A: rent heard as red, not inferable; keep raw word"}
+{"id": "s4-W41-0041", "decision": "fix_clean", "clean": "I think the crash is in the card screen when you swipe to delete an item and then...", "reason": "unrecoverable_word", "note": "A: cart heard as card, card screen plausible; keep raw word"}
+{"id": "s4-W41-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: left code playgrounds / version not a sensible query"}

@@ -1,0 +1,50 @@
+{"id": "s2-W6-0301", "decision": "accept", "reason": "ok", "note": "leading So yeah treated as meaningless opener"}
+{"id": "s2-W6-0302", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0303", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0304", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting lost and question became \"I hadn't even had a chance\""}
+{"id": "s2-W6-0305", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0306", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\" never said; \"A lot\" also decoded from uh"}
+{"id": "s2-W6-0307", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0308", "decision": "accept", "reason": "ok", "note": "\"U M\" residue is non-word"}
+{"id": "s2-W6-0309", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0310", "decision": "fix_clean", "clean": "I meant to say the budget is 20,000, not 12,000. Sorry for the typo.", "reason": "guide_violation", "rules": ["R10"], "note": "dollars never said; removed added $"}
+{"id": "s2-W6-0311", "decision": "fix_clean", "clean": "Hi Dr. Park, I hope you are well. I am a final-year student at the University of Auckland, and I am writing to ask whether you would be willing to write a reference letter for my application to the master's program at Oxford. The deadline is the 15th of January, but I know that is a while away. I took your machine learning course last year and got an A+, and I also did my thesis with Professor Chen, so you may remember me. I would be very grateful, and I can send my CV and personal statement.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'program'"}
+{"id": "s2-W6-0312", "decision": "fix_clean", "clean": "To request a refund, the customer must contact support within 30 days of purchase. Support checks the order status in the N panel, and if the order was delivered, the customer must return the item. Funds under $50 are approved automatically. Refunds above that need manager approval, and the refund is issued to the original payment method within five to seven business days.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'N panel' and 'Funds'"}
+{"id": "s2-W6-0313", "decision": "fix_clean", "clean": "I think I found why big emails are not sending. The queue worker keeps crashing with an out of memory error. I checked the logs, and it happens every time a batch has more than 500 recipients. I have restarted it twice, but it dies again after about 10 minutes. We probably need to either increase the memory or split the batches. I can do the splitting, but I need someone to approve the change.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'big emails'"}
+{"id": "s2-W6-0314", "decision": "fix_clean", "clean": "Dear tenants, this is to let you know that the water will be shut off on Tuesday the 10th of November between 9 AM and 1 PM because we are replacing the main valve. Please fill containers beforehand and avoid using the toilets and showers during that time. We apologize for the inconvenience. Sincerely, the management.", "reason": "guide_violation", "rules": ["R8", "R10"], "note": "undictated line breaks removed; raw has 'apologize'"}
+{"id": "s2-W6-0315", "decision": "accept", "reason": "ok", "note": "\"on\" residue before number one is not content; among inferable from \"amount of\""}
+{"id": "s2-W6-0316", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"Doc,\" where uh was said; phone number also lost a 5"}
+{"id": "s2-W6-0317", "decision": "fix_clean", "clean": "Today is my last day at the company after seven years. I was part of the structure. It is hard to say goodbye to a team I love, but I am proud of what we built, including the loyalty platform that now serves two million members. If you know of any roles in customer experience or product operations, I would love to hear about them.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'structure'"}
+{"id": "s2-W6-0318", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"Enough.\" and \"No,\" from uh; also names, a new paragraph and \"for the slides\" lost"}
+{"id": "s2-W6-0319", "decision": "accept", "reason": "ok", "note": "currency established by earlier dollars"}
+{"id": "s2-W6-0320", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many phrases lost/garbled, name wrong, trailing Yeah"}
+{"id": "s2-W6-0321", "decision": "accept", "reason": "ok", "note": "\"Oh\" is pure interjection residue"}
+{"id": "s2-W6-0322", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0323", "decision": "accept", "reason": "ok", "note": "\"time though\" read as times out"}
+{"id": "s2-W6-0324", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0325", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\" never said"}
+{"id": "s2-W6-0326", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"long customers\" from um; also \"then\""}
+{"id": "s2-W6-0327", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"She called it\", \"vet return\", \"the seven\""}
+{"id": "s2-W6-0328", "decision": "drop", "reason": "unrecoverable_meaning", "note": "second half garbled into \"I'm gonna go to the ho\"; sent heard as said"}
+{"id": "s2-W6-0329", "decision": "accept", "reason": "ok", "note": "\"click say\" read as save"}
+{"id": "s2-W6-0330", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0331", "decision": "drop", "reason": "unrecoverable_meaning", "note": "reduce/renewal clause and request lost"}
+{"id": "s2-W6-0332", "decision": "drop", "reason": "hallucination", "note": "trailing \"Sure.\" never said; \"revenue is up\" also lost"}
+{"id": "s2-W6-0333", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"Long\", \"Lung\", \"Lori\" from um; name heard as General"}
+{"id": "s2-W6-0334", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"unexpected\" vs expected, \"users page\" step lost"}
+{"id": "s2-W6-0335", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0336", "decision": "drop", "reason": "unrecoverable_meaning", "note": "vendor names and Acme clause garbled"}
+{"id": "s2-W6-0337", "decision": "fix_clean", "clean": "Hi Thaw, just a reminder that the office will be closed on Monday for the public holiday, so if you need anything urgent, please send it today. And the cleaners are coming on Tuesday morning, so please clear your desks.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'thaw' for all"}
+{"id": "s2-W6-0338", "decision": "drop", "reason": "unrecoverable_meaning", "note": "names, \"would cost\", \"make an offer\" garbled in many places"}
+{"id": "s2-W6-0339", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0340", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"well\", \"Well,\" from uh; \"hour or two\" added"}
+{"id": "s2-W6-0341", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Bitown or paperclip\""}
+{"id": "s2-W6-0342", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0343", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"needs it. Rewrite.\" a+um heard as it"}
+{"id": "s2-W6-0344", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\" never said"}
+{"id": "s2-W6-0345", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\" never said"}
+{"id": "s2-W6-0346", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first half lost"}
+{"id": "s2-W6-0347", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0348", "decision": "accept", "reason": "ok", "note": "\"in\" read as and"}
+{"id": "s2-W6-0349", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0350", "decision": "accept", "reason": "ok"}

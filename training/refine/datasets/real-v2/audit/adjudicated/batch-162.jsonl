@@ -1,0 +1,10 @@
+{"id": "s4-W48-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: corrected value 'async' became 'a thing'"}
+{"id": "s4-W48-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: wife/'I never'/redries: too many slips for a 15-word row"}
+{"id": "s4-W48-0075", "decision": "accept", "reason": "ok", "note": "A: 'bash these inserts' and 'extra coat' are near slips, certain in code context"}
+{"id": "s4-W48-0078", "decision": "fix_clean", "clean": "Thanks for splitting this up, it's way easier to follow now. My only concern is the naming, handleData and processData don't tell me anything, then we call them parseManifest and applyPatches instead.", "reason": "unrecoverable_word", "note": "B: 'Then we' kept from raw; minimal edit keeps the author's commas"}
+{"id": "s4-W48-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Write a SQL' heard as 'Why the S will'"}
+{"id": "s4-W48-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: quoted commit message garbled"}
+{"id": "s4-W48-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: lock/retro/collar: 3 places in a short comment"}
+{"id": "s4-W48-0091", "decision": "fix_clean", "clean": "The thing I'm worried about here is that we compare the two timestamps as strings, and it works fine until somebody changes the format, and then it breaks silently. So I'd parse them first and compare the actual date objects. Also we should probably add a test that covers the daylight saving transition, because last year that was...", "reason": "unrecoverable_word", "note": "A: raw has 'it works', not 'that works'"}
+{"id": "s4-W48-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: many slips; B also silently rewrote 'this stricter of out'"}
+{"id": "s4-W48-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: the reported typo is lost ('connection with one end')"}

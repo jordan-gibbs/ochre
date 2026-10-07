@@ -1,0 +1,37 @@
+{"id": "s2-W5-0301", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' decoded as real word 'on'", "'on' where um was said"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0302", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0303", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'dentist appointment...ninth' became 'disappointment...night'", "dentist, ninth lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0304", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'wifi' became 'why? My', plus added 'it's'", "wifi lost as 'why? My'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0305", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "empty raw"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0306", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'the corner first' lost", "'the corner first' lost"], "auditors": ["A", "B"], "clean": "Thinking about switching to a standing desk, need to measure."}
+{"id": "s2-W5-0307", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0308", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'torn' lost", "'torn' lost"], "auditors": ["A", "B"], "clean": "Tell the coach that Ayo is out for the next 2 games, ligament maybe."}
+{"id": "s2-W5-0309", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0310", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0311", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has singular 'lure'", "raw has singular 'lure'"], "auditors": ["A", "B"], "clean": "Fishing spot: the pier past the lighthouse, best at dawn, bring the red lure."}
+{"id": "s2-W5-0312", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'call back' became 'Paul Bath'", "'Call back' heard as 'Paul Bath'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0313", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0314", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'all' heard as name 'Ulf'", "'all' heard as a name Ulf"], "auditors": ["A", "B"], "clean": "Dear Ulf, please find the minutes attached."}
+{"id": "s2-W5-0315", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0316", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0317", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0318", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0320", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0322", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw 'O'Gaffer'", "name spelling from raw"], "auditors": ["A", "B"], "clean": "Hi Dr. O'Gaffer, I would like to reschedule my appointment from the 11th to the 18th, if possible."}
+{"id": "s2-W5-0323", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0324", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; 'for the short' also lost", "trailing 'Yeah.' plus Reyes/short/a lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0325", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0326", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0327", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0328", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0330", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0331", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'if' lost", "'If' lost"], "auditors": ["A", "B"], "clean": "You are free around... never mind, I will just message you tomorrow."}
+{"id": "s2-W5-0332", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Okay'", "raw has 'Okay'"], "auditors": ["A", "B"], "clean": "Okay, that is it for me, have a good weekend all."}
+{"id": "s2-W5-0333", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0334", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Nkechi' became 'and Catch High'", "name Nkechi lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0335", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["most of the dictation lost", "most of the sentence lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0337", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; 'love' lost", "trailing 'Yeah.' and garbled 'by map'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0338", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0339", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends with a full stop; trailing off not visible", "raw ends complete, trailing off not visible"], "auditors": ["A", "B"], "clean": "We could try that new ramen place."}
+{"id": "s2-W5-0340", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0341", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

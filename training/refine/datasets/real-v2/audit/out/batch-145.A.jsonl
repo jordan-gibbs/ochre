@@ -1,0 +1,50 @@
+{"id": "s4-W40-0001", "decision": "drop", "reason": "unrecoverable_meaning", "rules": ["RECOVER"], "note": "Yara heard as 'your'; 'ask your if' is not a sensible dictation"}
+{"id": "s4-W40-0002", "decision": "drop", "reason": "unrecoverable_meaning", "rules": ["RECOVER"], "note": "'when the' heard as 'one that'"}
+{"id": "s4-W40-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0005", "decision": "fix_clean", "clean": "The shipping label that's wrong for the...", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'that's' for 'is'"}
+{"id": "s4-W40-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0008", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W40-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Stock screen, but did it vote that' garbled"}
+{"id": "s4-W40-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0012", "decision": "fix_clean", "clean": "Did Riz send the invoice?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Reza not in dictionary; raw has Riz"}
+{"id": "s4-W40-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0014", "decision": "fix_clean", "clean": "We could move the tailbeak to Saturday or...", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "tailgate not inferable from 'tailbeak'"}
+{"id": "s4-W40-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Refining order for job' garbled"}
+{"id": "s4-W40-0016", "decision": "fix_clean", "clean": "I was going to say that.", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "trailing 'the' lost; raw ends complete"}
+{"id": "s4-W40-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'But Felix And back on the back of schedule' garbled"}
+{"id": "s4-W40-0018", "decision": "fix_clean", "clean": "The sound tech takes about 45 minutes and then...", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'sound tech' is a plausible different word"}
+{"id": "s4-W40-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0022", "decision": "fix_clean", "clean": "I'm heading to the station.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'now' dropped"}
+{"id": "s4-W40-0023", "decision": "fix_clean", "clean": "Tamar said that the least...", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "lease heard as least, not inferable"}
+{"id": "s4-W40-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0025", "decision": "fix_clean", "clean": "How to export orders from Shopify to a spreadsheet.", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "trailing 'and' lost"}
+{"id": "s4-W40-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated after 'tight end'; 9 target words lost"}
+{"id": "s4-W40-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Then you walk through', 'V Seta' garbled"}
+{"id": "s4-W40-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'late' lost, abandoned fragment no longer resolvable"}
+{"id": "s4-W40-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated after 'but the'; most of the message lost"}
+{"id": "s4-W40-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0033", "decision": "fix_clean", "clean": "Can we push the sponsor call to Wednesday afternoon, because our Jun is travelling until then?", "reason": "unrecoverable_word", "rules": ["R13", "R10", "RECOVER"], "note": "Arjun not in dictionary (raw 'our Jun'); raw has 'travelling'"}
+{"id": "s4-W40-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'head her gear' and 'new logbooks' not inferable"}
+{"id": "s4-W40-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Thanks the crucial live' garbled"}
+{"id": "s4-W40-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Inventory C', 'further', dropped 'the': too many places"}
+{"id": "s4-W40-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0043", "decision": "fix_clean", "clean": "When the center comes in tomorrow, we're going to start with the ballad, and then we're going to do the uptempo stuff after lunch.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "singer heard as 'center'; ballot->ballad inferable from context"}
+{"id": "s4-W40-0044", "decision": "fix_clean", "clean": "The earnings call was after the bell on Tuesday, and I'm not sure I want to hold through it. The premiums are crazy right now.", "reason": "unrecoverable_word", "rules": ["R10", "RECOVER"], "note": "raw has 'was'"}
+{"id": "s4-W40-0045", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and you', 'the tear' for caterer: too many places"}
+{"id": "s4-W40-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "fungal/Lee/And: three unrecoverable places"}
+{"id": "s4-W40-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'when V two' garbled"}
+{"id": "s4-W40-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the thing' for venue, 'bo speaker dinner'"}

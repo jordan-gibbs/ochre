@@ -1,0 +1,7 @@
+{"id": "s2-W5-0003", "decision": "fix_clean", "clean": "Huh. No way.", "reason": "unrecoverable_word", "note": "'haha' heard as 'Huh'; raw is already a clean target, so clean equals raw (R11)"}
+{"id": "s2-W5-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can we push standup' heard as 'and we pushed Anna': question lost and fix needs more than 2 places"}
+{"id": "s2-W5-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lol' heard as 'Lo'; 'lol' cannot be inferred and 'Lo I forgot...' is not a natural target; torn, so drop"}
+{"id": "s2-W5-0017", "decision": "fix_clean", "clean": "Dinner is at 7 at that tight place on Fifth.", "reason": "unrecoverable_word", "note": "raw has 'tight' for 'Thai'; not a homophone, so use raw's word (still reads as casual slang)"}
+{"id": "s2-W5-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'flight' heard as 'flank'; 'my flank got moved' is not a sensible dictation"}
+{"id": "s2-W5-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dude' heard as 'do'; 'dude' not inferable and 'Happy birthday, do' is not sensible"}
+{"id": "s2-W5-0032", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can' heard as 'And'; 'Can' would be invented and the raw-faithful target loses the request"}

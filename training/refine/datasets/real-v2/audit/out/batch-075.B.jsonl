@@ -1,0 +1,50 @@
+{"id": "s2-W8-0201", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0203", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Now' for uh"}
+{"id": "s2-W8-0204", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'But' for uh; also he'll tax"}
+{"id": "s2-W8-0205", "decision": "fix_clean", "clean": "I buy this phone case two week ago and the quality is very good, the color is same like in picture and it fit perfectly. Only the delivery was a little slow, but seller was very helpful and he answered my message fast. I give five star and I will buy again.", "reason": "unrecoverable_word", "note": "raw has 'a little' and 'answered'"}
+{"id": "s2-W8-0206", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'No to sell' for note to self; ma for amp"}
+{"id": "s2-W8-0207", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Buffalo's/week in/wands"}
+{"id": "s2-W8-0208", "decision": "drop", "reason": "unrecoverable_meaning", "note": "whole sentence dropped by recognizer"}
+{"id": "s2-W8-0209", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many changes by recognizer"}
+{"id": "s2-W8-0210", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.'"}
+{"id": "s2-W8-0211", "decision": "drop", "reason": "unrecoverable_meaning", "note": "wave/sometimes lost, garbled"}
+{"id": "s2-W8-0212", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0213", "decision": "fix_clean", "clean": "Where are you? The front gate.", "reason": "dropped_by_recognizer"}
+{"id": "s2-W8-0214", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Bring for Ring"}
+{"id": "s2-W8-0215", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0216", "decision": "fix_clean", "clean": "No way, that's so funny.", "reason": "dropped_by_recognizer", "note": "haha lost"}
+{"id": "s2-W8-0217", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Sheep for cheap"}
+{"id": "s2-W8-0218", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0219", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0220", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0221", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0222", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Dumb' for um; now lost"}
+{"id": "s2-W8-0223", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0224", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0225", "decision": "fix_clean", "clean": "The new girl at work she was very kind, she bring me a coffee every morning, I want to buy her a small gift for the Christmas.", "reason": "unrecoverable_word", "note": "raw has 'was'"}
+{"id": "s2-W8-0226", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'But' for uh"}
+{"id": "s2-W8-0227", "decision": "fix_clean", "clean": "Can you believe it? I got the apartment, they just call me. I'm literally shaking right now.", "reason": "unrecoverable_word", "note": "raw has 'call'"}
+{"id": "s2-W8-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0229", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0230", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0231", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0232", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'own'/'No' residues for uh"}
+{"id": "s2-W8-0233", "decision": "fix_clean", "clean": "Hi son, it's Dad. Your mother wants to know if you are coming for Thanksgiving. She is already planning the menu, so let us know by Friday. The good cranberry sauce from that store you like. Call us when you can, love you.", "reason": "dropped_by_recognizer", "note": "'and bring' lost"}
+{"id": "s2-W8-0234", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0235", "decision": "fix_clean", "clean": "Hot water tank at the Munions' is leaking from the bottom, so probably needs replacing. It's a 40 gallon, about 12 years old. I quoted them $800 for the unit and install, they want to think about it, so call them Friday and see. If they say yes, order the tank Monday.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s2-W8-0236", "decision": "fix_clean", "clean": "Need to remember to take my pills at 8 in the morning and again at 8 at night, the blue one with food, the white one without. And not to forget the appointment with Dr. Petelbon on the 13th. Ask about the knee.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s2-W8-0237", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No,' for uh"}
+{"id": "s2-W8-0238", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0239", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0240", "decision": "fix_clean", "clean": "Hello sir, good evening. I am writing to inform you that the goods have been dispatched today only, you will receive them by tomorrow evening. Please check the quantity once you receive and tell me if anything is missing. I will send the bill tomorrow morning only because the system is down, so kindly do not worry. And if you want any changes in next floor please inform me before Sunday, so that I can arrange accordingly. Thanking you for your continued support.", "reason": "unrecoverable_word", "note": "raw has floor, continued"}
+{"id": "s2-W8-0241", "decision": "fix_clean", "clean": "Bast knitting patterns for beginners scarves", "reason": "unrecoverable_word", "note": "raw has Bast"}
+{"id": "s2-W8-0242", "decision": "fix_clean", "clean": "Happy birthday, hope that's a great one.", "reason": "unrecoverable_word", "note": "raw has that's"}
+{"id": "s2-W8-0243", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0244", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0245", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0246", "decision": "drop", "reason": "unrecoverable_meaning", "note": "eight heard as eat"}
+{"id": "s2-W8-0247", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0248", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled"}
+{"id": "s2-W8-0249", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0250", "decision": "drop", "reason": "unrecoverable_meaning", "note": "fence lying"}

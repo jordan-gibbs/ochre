@@ -1,0 +1,4 @@
+{"id": "s2-W4-0054", "decision": "fix_clean", "clean": "We got a first round of feedback in. The second round is next week.", "reason": "unrecoverable_word", "note": "'and uh' heard as 'in'; raw reads naturally as 'feedback in', so keep raw's word rather than inferring 'and'"}
+{"id": "s2-W4-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'rid the logs before desin': 'read' and 'guessing' not inferable; 'desin' is a non-word, so the item is not a sensible dictation"}
+{"id": "s2-W4-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Jamal's PR\" dropped and 'boop flights' is nonsense; the resulting list is not a sensible dictation"}
+{"id": "s2-W4-0100", "decision": "fix_clean", "clean": "Lal, what? No way.", "reason": "unrecoverable_word", "note": "raw 'Lal' is a real name, not a near form of 'lol'; strict recoverability keeps raw's word"}

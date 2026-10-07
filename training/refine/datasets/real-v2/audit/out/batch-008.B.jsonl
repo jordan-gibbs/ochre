@@ -1,0 +1,50 @@
+{"id": "s2-W1-0351", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw: Next Emily did that package arrive; garbled"}
+{"id": "s2-W1-0352", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0353", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0354", "decision": "fix_clean", "clean": "What's the address again, the one on Elms Tree?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Elm Street not inferable from 'Elms. Tree'"}
+{"id": "s2-W1-0355", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0356", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0357", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0358", "decision": "fix_clean", "clean": "Summarise the last hour of this channel for me, I was in a meeting.", "reason": "spelling_from_raw", "rules": ["R10"]}
+{"id": "s2-W1-0359", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0360", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0361", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0362", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0363", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0364", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0365", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0366", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'forget the last thing' lost in raw"}
+{"id": "s2-W1-0367", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0368", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0369", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0370", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0371", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0372", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0373", "decision": "fix_clean", "clean": "I'll make this sentence sound more formal.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'How to' misheard as I'll"}
+{"id": "s2-W1-0374", "decision": "fix_clean", "clean": "Summarise the plot of Hamlet.", "reason": "spelling_from_raw", "rules": ["R10"]}
+{"id": "s2-W1-0375", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'should or Do it' residue; 'And you help' lost Can"}
+{"id": "s2-W1-0376", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles: Sit, hubber, girl, huck"}
+{"id": "s2-W1-0377", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Or I will wait' from er"}
+{"id": "s2-W1-0378", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0379", "decision": "drop", "reason": "unrecoverable_meaning", "note": "used/just say/On the scene"}
+{"id": "s2-W1-0380", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0381", "decision": "drop", "reason": "unrecoverable_meaning", "note": "setting or / Ret garbles"}
+{"id": "s2-W1-0382", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'On the evaluation' from um"}
+{"id": "s2-W1-0383", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0384", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0385", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0386", "decision": "drop", "reason": "unrecoverable_meaning", "note": "is done / Dumb. Sa garble"}
+{"id": "s2-W1-0387", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'and not' from uh; 'so' lost"}
+{"id": "s2-W1-0388", "decision": "fix_clean", "clean": "So the thing I want is for this to read like a press release, not like an internal memo. So a catchy headline, a strong first paragraph with a what, when, where, why, a quote from the CEO, and a boilerplate at the end. Use the facts from a memo only, don't invent a quote, leave a placeholder.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'who' lost; 'a memo' per raw"}
+{"id": "s2-W1-0389", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'them a blood test' from um a"}
+{"id": "s2-W1-0390", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0391", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0392", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0393", "decision": "drop", "reason": "unrecoverable_meaning", "note": "assistant->effective, so far, I shorten"}
+{"id": "s2-W1-0394", "decision": "fix_clean", "clean": "Please act as a negotiation coach. I'm buying a used car from a private seller. The listing price is 11,500, and I think a fair price is around 10,000. Give me an opening line, three arguments I can use, and what I should say if he refuses to budge.", "reason": "guide_violation", "rules": ["R10"], "note": "currency symbol never dictated"}
+{"id": "s2-W1-0395", "decision": "fix_clean", "clean": "Okay, so for the incident channel, can someone please summarise what happened in the last two hours in plain English, like no jargon, because the CEO just joined and he wants to know if customers were affected and how long it will take to fix?", "reason": "spelling_from_raw", "rules": ["R10"]}
+{"id": "s2-W1-0396", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0397", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0398", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0399", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0400", "decision": "accept", "reason": "ok"}

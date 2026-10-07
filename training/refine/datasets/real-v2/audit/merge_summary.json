@@ -1,0 +1,3103 @@
+{
+ "total": {
+  "rows": 10811,
+  "agreed": 8731,
+  "conflicts": 2080
+ },
+ "batches": [
+  {
+   "batch": "batch-001",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.88,
+   "kappa": 0.785,
+   "agreed_decisions": {
+    "accept": 27,
+    "drop": 15,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-002",
+   "rows": 50,
+   "agreed": 47,
+   "conflicts": 3,
+   "decision_agreement": 0.94,
+   "kappa": 0.892,
+   "agreed_decisions": {
+    "accept": 28,
+    "drop": 14,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-003",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.713,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 13,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-004",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.86,
+   "kappa": 0.758,
+   "agreed_decisions": {
+    "accept": 24,
+    "drop": 15,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-005",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.92,
+   "kappa": 0.872,
+   "agreed_decisions": {
+    "accept": 18,
+    "drop": 21,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-006",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.8,
+   "kappa": 0.654,
+   "agreed_decisions": {
+    "accept": 19,
+    "drop": 20,
+    "fix_clean": 1
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-007",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.86,
+   "kappa": 0.769,
+   "agreed_decisions": {
+    "accept": 18,
+    "drop": 21,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-008",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.689,
+   "agreed_decisions": {
+    "accept": 25,
+    "drop": 12,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-009",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.8,
+   "kappa": 0.658,
+   "agreed_decisions": {
+    "accept": 15,
+    "drop": 22,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-010",
+   "rows": 50,
+   "agreed": 48,
+   "conflicts": 2,
+   "decision_agreement": 0.96,
+   "kappa": 0.929,
+   "agreed_decisions": {
+    "accept": 23,
+    "drop": 22,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-011",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.86,
+   "kappa": 0.743,
+   "agreed_decisions": {
+    "accept": 29,
+    "drop": 9,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-012",
+   "rows": 50,
+   "agreed": 36,
+   "conflicts": 14,
+   "decision_agreement": 0.76,
+   "kappa": 0.619,
+   "agreed_decisions": {
+    "accept": 20,
+    "drop": 9,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-013",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.78,
+   "kappa": 0.658,
+   "agreed_decisions": {
+    "accept": 19,
+    "drop": 14,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-014",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.84,
+   "kappa": 0.746,
+   "agreed_decisions": {
+    "accept": 23,
+    "drop": 11,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-015",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.82,
+   "kappa": 0.729,
+   "agreed_decisions": {
+    "accept": 17,
+    "drop": 15,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-016",
+   "rows": 50,
+   "agreed": 36,
+   "conflicts": 14,
+   "decision_agreement": 0.74,
+   "kappa": 0.562,
+   "agreed_decisions": {
+    "accept": 11,
+    "drop": 24,
+    "fix_clean": 1
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-017",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.84,
+   "kappa": 0.701,
+   "agreed_decisions": {
+    "accept": 7,
+    "drop": 29,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-018",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.8,
+   "kappa": 0.469,
+   "agreed_decisions": {
+    "accept": 3,
+    "drop": 34,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-019",
+   "rows": 50,
+   "agreed": 37,
+   "conflicts": 13,
+   "decision_agreement": 0.74,
+   "kappa": 0.523,
+   "agreed_decisions": {
+    "accept": 9,
+    "drop": 26,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-020",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.82,
+   "kappa": 0.713,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 13,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-021",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.84,
+   "kappa": 0.716,
+   "agreed_decisions": {
+    "accept": 17,
+    "drop": 23,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-022",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.8,
+   "kappa": 0.659,
+   "agreed_decisions": {
+    "accept": 24,
+    "drop": 9,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-023",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.8,
+   "kappa": 0.677,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 13,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-024",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.88,
+   "kappa": 0.801,
+   "agreed_decisions": {
+    "accept": 24,
+    "drop": 16,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-025",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.84,
+   "kappa": 0.746,
+   "agreed_decisions": {
+    "accept": 22,
+    "drop": 13,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-026",
+   "rows": 50,
+   "agreed": 37,
+   "conflicts": 13,
+   "decision_agreement": 0.76,
+   "kappa": 0.605,
+   "agreed_decisions": {
+    "accept": 19,
+    "drop": 16,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-027",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.88,
+   "kappa": 0.812,
+   "agreed_decisions": {
+    "accept": 20,
+    "drop": 17,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-028",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.78,
+   "kappa": 0.645,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 15,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-029",
+   "rows": 50,
+   "agreed": 36,
+   "conflicts": 14,
+   "decision_agreement": 0.72,
+   "kappa": 0.569,
+   "agreed_decisions": {
+    "accept": 13,
+    "drop": 19,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-030",
+   "rows": 50,
+   "agreed": 32,
+   "conflicts": 18,
+   "decision_agreement": 0.64,
+   "kappa": 0.333,
+   "agreed_decisions": {
+    "accept": 26,
+    "drop": 5,
+    "fix_clean": 1
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-031",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.9,
+   "kappa": 0.835,
+   "agreed_decisions": {
+    "accept": 23,
+    "drop": 16,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-032",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.92,
+   "kappa": 0.838,
+   "agreed_decisions": {
+    "accept": 33,
+    "drop": 5,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-033",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.92,
+   "kappa": 0.85,
+   "agreed_decisions": {
+    "accept": 31,
+    "drop": 8,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-034",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.92,
+   "kappa": 0.864,
+   "agreed_decisions": {
+    "accept": 24,
+    "drop": 18,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-035",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.695,
+   "agreed_decisions": {
+    "accept": 22,
+    "drop": 16,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-036",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.84,
+   "kappa": 0.742,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 16,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-037",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.86,
+   "kappa": 0.779,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 14,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-038",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.78,
+   "kappa": 0.572,
+   "agreed_decisions": {
+    "accept": 30,
+    "drop": 6,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-039",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.76,
+   "kappa": 0.586,
+   "agreed_decisions": {
+    "accept": 23,
+    "drop": 10,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-040",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.88,
+   "kappa": 0.733,
+   "agreed_decisions": {
+    "accept": 10,
+    "drop": 33,
+    "fix_clean": 1
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-041",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.88,
+   "kappa": 0.81,
+   "agreed_decisions": {
+    "accept": 22,
+    "drop": 12,
+    "fix_clean": 9
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-042",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.716,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 13,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-043",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.8,
+   "kappa": 0.658,
+   "agreed_decisions": {
+    "accept": 25,
+    "drop": 8,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-044",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.86,
+   "kappa": 0.75,
+   "agreed_decisions": {
+    "accept": 28,
+    "drop": 10,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-045",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.88,
+   "kappa": 0.803,
+   "agreed_decisions": {
+    "accept": 20,
+    "drop": 19,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-046",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.88,
+   "kappa": 0.799,
+   "agreed_decisions": {
+    "accept": 15,
+    "drop": 25,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-047",
+   "rows": 50,
+   "agreed": 37,
+   "conflicts": 13,
+   "decision_agreement": 0.76,
+   "kappa": 0.628,
+   "agreed_decisions": {
+    "accept": 19,
+    "drop": 10,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-048",
+   "rows": 50,
+   "agreed": 48,
+   "conflicts": 2,
+   "decision_agreement": 0.98,
+   "kappa": 0.969,
+   "agreed_decisions": {
+    "accept": 20,
+    "drop": 20,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-049",
+   "rows": 50,
+   "agreed": 32,
+   "conflicts": 18,
+   "decision_agreement": 0.64,
+   "kappa": 0.475,
+   "agreed_decisions": {
+    "accept": 10,
+    "drop": 15,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-050",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.9,
+   "kappa": 0.77,
+   "agreed_decisions": {
+    "accept": 34,
+    "drop": 7,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-051",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.82,
+   "kappa": 0.71,
+   "agreed_decisions": {
+    "accept": 19,
+    "drop": 19,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-052",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.718,
+   "agreed_decisions": {
+    "accept": 18,
+    "drop": 17,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-053",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.9,
+   "kappa": 0.841,
+   "agreed_decisions": {
+    "accept": 19,
+    "drop": 19,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-054",
+   "rows": 50,
+   "agreed": 36,
+   "conflicts": 14,
+   "decision_agreement": 0.76,
+   "kappa": 0.636,
+   "agreed_decisions": {
+    "accept": 17,
+    "drop": 14,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-055",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.8,
+   "kappa": 0.702,
+   "agreed_decisions": {
+    "accept": 18,
+    "drop": 14,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-056",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.84,
+   "kappa": 0.747,
+   "agreed_decisions": {
+    "accept": 13,
+    "drop": 21,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-057",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.9,
+   "kappa": 0.837,
+   "agreed_decisions": {
+    "accept": 22,
+    "drop": 18,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-058",
+   "rows": 50,
+   "agreed": 33,
+   "conflicts": 17,
+   "decision_agreement": 0.68,
+   "kappa": 0.522,
+   "agreed_decisions": {
+    "accept": 15,
+    "drop": 14,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-059",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.82,
+   "kappa": 0.717,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 14,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-060",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.8,
+   "kappa": 0.699,
+   "agreed_decisions": {
+    "accept": 15,
+    "drop": 17,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-061",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.624,
+   "agreed_decisions": {
+    "accept": 30,
+    "drop": 11,
+    "fix_clean": 0
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-062",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.84,
+   "kappa": 0.732,
+   "agreed_decisions": {
+    "accept": 24,
+    "drop": 13,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-063",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.78,
+   "kappa": 0.637,
+   "agreed_decisions": {
+    "accept": 22,
+    "drop": 10,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-064",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.84,
+   "kappa": 0.73,
+   "agreed_decisions": {
+    "accept": 24,
+    "drop": 14,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-065",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.714,
+   "agreed_decisions": {
+    "accept": 19,
+    "drop": 16,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-066",
+   "rows": 50,
+   "agreed": 33,
+   "conflicts": 17,
+   "decision_agreement": 0.66,
+   "kappa": 0.463,
+   "agreed_decisions": {
+    "accept": 11,
+    "drop": 19,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-067",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.64,
+   "agreed_decisions": {
+    "accept": 15,
+    "drop": 26,
+    "fix_clean": 0
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-068",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.88,
+   "kappa": 0.764,
+   "agreed_decisions": {
+    "accept": 12,
+    "drop": 29,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-069",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.675,
+   "agreed_decisions": {
+    "accept": 13,
+    "drop": 26,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-070",
+   "rows": 50,
+   "agreed": 34,
+   "conflicts": 16,
+   "decision_agreement": 0.7,
+   "kappa": 0.544,
+   "agreed_decisions": {
+    "accept": 14,
+    "drop": 15,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-071",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.84,
+   "kappa": 0.73,
+   "agreed_decisions": {
+    "accept": 25,
+    "drop": 11,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-072",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.88,
+   "kappa": 0.777,
+   "agreed_decisions": {
+    "accept": 31,
+    "drop": 6,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-073",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.86,
+   "kappa": 0.765,
+   "agreed_decisions": {
+    "accept": 25,
+    "drop": 12,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-074",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.88,
+   "kappa": 0.814,
+   "agreed_decisions": {
+    "accept": 20,
+    "drop": 16,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-075",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.716,
+   "agreed_decisions": {
+    "accept": 19,
+    "drop": 17,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-076",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.9,
+   "kappa": 0.834,
+   "agreed_decisions": {
+    "accept": 26,
+    "drop": 11,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-077",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.94,
+   "kappa": 0.899,
+   "agreed_decisions": {
+    "accept": 25,
+    "drop": 16,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-078",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.84,
+   "kappa": 0.751,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 14,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-079",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.78,
+   "kappa": 0.624,
+   "agreed_decisions": {
+    "accept": 26,
+    "drop": 11,
+    "fix_clean": 1
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-080",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.8,
+   "kappa": 0.685,
+   "agreed_decisions": {
+    "accept": 18,
+    "drop": 18,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-081",
+   "rows": 50,
+   "agreed": 49,
+   "conflicts": 1,
+   "decision_agreement": 0.98,
+   "kappa": 0.961,
+   "agreed_decisions": {
+    "accept": 33,
+    "drop": 8,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-082",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.9,
+   "kappa": 0.816,
+   "agreed_decisions": {
+    "accept": 30,
+    "drop": 7,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-083",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.86,
+   "kappa": 0.675,
+   "agreed_decisions": {
+    "accept": 34,
+    "drop": 8,
+    "fix_clean": 1
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-084",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.84,
+   "kappa": 0.718,
+   "agreed_decisions": {
+    "accept": 26,
+    "drop": 12,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-085",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.86,
+   "kappa": 0.756,
+   "agreed_decisions": {
+    "accept": 27,
+    "drop": 11,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-086",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.88,
+   "kappa": 0.819,
+   "agreed_decisions": {
+    "accept": 18,
+    "drop": 15,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-087",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.88,
+   "kappa": 0.696,
+   "agreed_decisions": {
+    "accept": 36,
+    "drop": 5,
+    "fix_clean": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-088",
+   "rows": 50,
+   "agreed": 47,
+   "conflicts": 3,
+   "decision_agreement": 0.96,
+   "kappa": 0.886,
+   "agreed_decisions": {
+    "accept": 39,
+    "drop": 7,
+    "fix_clean": 1
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-089",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.9,
+   "kappa": 0.82,
+   "agreed_decisions": {
+    "accept": 29,
+    "drop": 11,
+    "fix_clean": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-090",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.94,
+   "kappa": 0.897,
+   "agreed_decisions": {
+    "accept": 27,
+    "drop": 9,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-091",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.84,
+   "kappa": 0.752,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 13,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-092",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.76,
+   "kappa": 0.625,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 10,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-093",
+   "rows": 50,
+   "agreed": 47,
+   "conflicts": 3,
+   "decision_agreement": 0.98,
+   "kappa": 0.96,
+   "agreed_decisions": {
+    "accept": 33,
+    "drop": 8,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-094",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.84,
+   "kappa": 0.754,
+   "agreed_decisions": {
+    "fix_clean": 7,
+    "accept": 20,
+    "drop": 13
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-095",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.9,
+   "kappa": 0.834,
+   "agreed_decisions": {
+    "fix_clean": 10,
+    "drop": 10,
+    "accept": 25
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-096",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.82,
+   "kappa": 0.706,
+   "agreed_decisions": {
+    "drop": 7,
+    "accept": 24,
+    "fix_clean": 9
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-097",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.94,
+   "kappa": 0.874,
+   "agreed_decisions": {
+    "fix_clean": 9,
+    "drop": 4,
+    "accept": 33
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-098",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.92,
+   "kappa": 0.842,
+   "agreed_decisions": {
+    "drop": 12,
+    "accept": 31,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-099",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.86,
+   "kappa": 0.701,
+   "agreed_decisions": {
+    "accept": 33,
+    "drop": 4,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-100",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.88,
+   "kappa": 0.803,
+   "agreed_decisions": {
+    "accept": 24,
+    "drop": 8,
+    "fix_clean": 9
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-101",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.92,
+   "kappa": 0.836,
+   "agreed_decisions": {
+    "fix_clean": 5,
+    "accept": 33,
+    "drop": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-102",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.88,
+   "kappa": 0.815,
+   "agreed_decisions": {
+    "fix_clean": 7,
+    "accept": 20,
+    "drop": 14
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-103",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.88,
+   "kappa": 0.776,
+   "agreed_decisions": {
+    "accept": 30,
+    "drop": 6,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-104",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.9,
+   "kappa": 0.839,
+   "agreed_decisions": {
+    "fix_clean": 9,
+    "accept": 24,
+    "drop": 10
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-105",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.94,
+   "kappa": 0.893,
+   "agreed_decisions": {
+    "accept": 28,
+    "fix_clean": 13,
+    "drop": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-106",
+   "rows": 50,
+   "agreed": 50,
+   "conflicts": 0,
+   "decision_agreement": 1.0,
+   "kappa": 1.0,
+   "agreed_decisions": {
+    "fix_clean": 5,
+    "accept": 33,
+    "drop": 12
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-107",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.9,
+   "kappa": 0.819,
+   "agreed_decisions": {
+    "fix_clean": 10,
+    "drop": 5,
+    "accept": 29
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-108",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.92,
+   "kappa": 0.863,
+   "agreed_decisions": {
+    "fix_clean": 6,
+    "drop": 13,
+    "accept": 27
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-109",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.82,
+   "kappa": 0.687,
+   "agreed_decisions": {
+    "fix_clean": 7,
+    "accept": 27,
+    "drop": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-110",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.86,
+   "kappa": 0.762,
+   "agreed_decisions": {
+    "drop": 8,
+    "fix_clean": 7,
+    "accept": 27
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-111",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.86,
+   "kappa": 0.769,
+   "agreed_decisions": {
+    "accept": 23,
+    "fix_clean": 13,
+    "drop": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-112",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.727,
+   "agreed_decisions": {
+    "accept": 18,
+    "fix_clean": 11,
+    "drop": 12
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-113",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.92,
+   "kappa": 0.839,
+   "agreed_decisions": {
+    "drop": 5,
+    "accept": 33,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-114",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.84,
+   "kappa": 0.744,
+   "agreed_decisions": {
+    "drop": 11,
+    "fix_clean": 5,
+    "accept": 23
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-115",
+   "rows": 50,
+   "agreed": 27,
+   "conflicts": 23,
+   "decision_agreement": 0.7,
+   "kappa": 0.518,
+   "agreed_decisions": {
+    "accept": 5,
+    "fix_clean": 10,
+    "drop": 12
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-116",
+   "rows": 50,
+   "agreed": 32,
+   "conflicts": 18,
+   "decision_agreement": 0.74,
+   "kappa": 0.584,
+   "agreed_decisions": {
+    "fix_clean": 6,
+    "drop": 19,
+    "accept": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-117",
+   "rows": 50,
+   "agreed": 26,
+   "conflicts": 24,
+   "decision_agreement": 0.7,
+   "kappa": 0.511,
+   "agreed_decisions": {
+    "fix_clean": 11,
+    "accept": 7,
+    "drop": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-118",
+   "rows": 50,
+   "agreed": 29,
+   "conflicts": 21,
+   "decision_agreement": 0.76,
+   "kappa": 0.643,
+   "agreed_decisions": {
+    "accept": 14,
+    "drop": 10,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-119",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.86,
+   "kappa": 0.784,
+   "agreed_decisions": {
+    "fix_clean": 8,
+    "accept": 15,
+    "drop": 19
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-120",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.86,
+   "kappa": 0.754,
+   "agreed_decisions": {
+    "fix_clean": 6,
+    "accept": 5,
+    "drop": 27
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-121",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.92,
+   "kappa": 0.871,
+   "agreed_decisions": {
+    "accept": 10,
+    "drop": 13,
+    "fix_clean": 22
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-122",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.8,
+   "kappa": 0.631,
+   "agreed_decisions": {
+    "drop": 14,
+    "fix_clean": 22,
+    "accept": 2
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-123",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.86,
+   "kappa": 0.787,
+   "agreed_decisions": {
+    "accept": 16,
+    "drop": 18,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-124",
+   "rows": 50,
+   "agreed": 37,
+   "conflicts": 13,
+   "decision_agreement": 0.8,
+   "kappa": 0.663,
+   "agreed_decisions": {
+    "drop": 23,
+    "fix_clean": 7,
+    "accept": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-125",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.84,
+   "kappa": 0.743,
+   "agreed_decisions": {
+    "accept": 21,
+    "drop": 15,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-126",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.82,
+   "kappa": 0.715,
+   "agreed_decisions": {
+    "fix_clean": 3,
+    "accept": 23,
+    "drop": 13
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-127",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.88,
+   "kappa": 0.759,
+   "agreed_decisions": {
+    "accept": 32,
+    "fix_clean": 6,
+    "drop": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-128",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.9,
+   "kappa": 0.845,
+   "agreed_decisions": {
+    "accept": 22,
+    "fix_clean": 7,
+    "drop": 9
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-129",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.92,
+   "kappa": 0.873,
+   "agreed_decisions": {
+    "accept": 24,
+    "fix_clean": 9,
+    "drop": 12
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-130",
+   "rows": 50,
+   "agreed": 33,
+   "conflicts": 17,
+   "decision_agreement": 0.72,
+   "kappa": 0.576,
+   "agreed_decisions": {
+    "accept": 13,
+    "drop": 5,
+    "fix_clean": 15
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-131",
+   "rows": 50,
+   "agreed": 47,
+   "conflicts": 3,
+   "decision_agreement": 0.94,
+   "kappa": 0.857,
+   "agreed_decisions": {
+    "fix_clean": 5,
+    "drop": 6,
+    "accept": 36
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-132",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.78,
+   "kappa": 0.643,
+   "agreed_decisions": {
+    "fix_clean": 5,
+    "accept": 22,
+    "drop": 11
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-133",
+   "rows": 50,
+   "agreed": 47,
+   "conflicts": 3,
+   "decision_agreement": 0.94,
+   "kappa": 0.856,
+   "agreed_decisions": {
+    "fix_clean": 4,
+    "drop": 7,
+    "accept": 36
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-134",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.84,
+   "kappa": 0.725,
+   "agreed_decisions": {
+    "drop": 8,
+    "accept": 27,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-135",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.92,
+   "kappa": 0.836,
+   "agreed_decisions": {
+    "accept": 32,
+    "fix_clean": 3,
+    "drop": 11
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-136",
+   "rows": 50,
+   "agreed": 47,
+   "conflicts": 3,
+   "decision_agreement": 0.96,
+   "kappa": 0.929,
+   "agreed_decisions": {
+    "fix_clean": 6,
+    "drop": 13,
+    "accept": 28
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-137",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.86,
+   "kappa": 0.724,
+   "agreed_decisions": {
+    "accept": 31,
+    "fix_clean": 4,
+    "drop": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-138",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.86,
+   "kappa": 0.769,
+   "agreed_decisions": {
+    "fix_clean": 6,
+    "drop": 12,
+    "accept": 25
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-139",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.88,
+   "kappa": 0.801,
+   "agreed_decisions": {
+    "drop": 5,
+    "accept": 24,
+    "fix_clean": 14
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-140",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.84,
+   "kappa": 0.715,
+   "agreed_decisions": {
+    "accept": 28,
+    "fix_clean": 8,
+    "drop": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-141",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.84,
+   "kappa": 0.707,
+   "agreed_decisions": {
+    "accept": 29,
+    "fix_clean": 5,
+    "drop": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-142",
+   "rows": 50,
+   "agreed": 32,
+   "conflicts": 18,
+   "decision_agreement": 0.64,
+   "kappa": 0.485,
+   "agreed_decisions": {
+    "accept": 16,
+    "fix_clean": 9,
+    "drop": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-143",
+   "rows": 50,
+   "agreed": 47,
+   "conflicts": 3,
+   "decision_agreement": 0.96,
+   "kappa": 0.93,
+   "agreed_decisions": {
+    "fix_clean": 10,
+    "drop": 9,
+    "accept": 28
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-144",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.92,
+   "kappa": 0.875,
+   "agreed_decisions": {
+    "accept": 21,
+    "fix_clean": 7,
+    "drop": 14
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-145",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.78,
+   "kappa": 0.669,
+   "agreed_decisions": {
+    "fix_clean": 9,
+    "drop": 8,
+    "accept": 21
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-146",
+   "rows": 50,
+   "agreed": 34,
+   "conflicts": 16,
+   "decision_agreement": 0.7,
+   "kappa": 0.559,
+   "agreed_decisions": {
+    "fix_clean": 10,
+    "accept": 16,
+    "drop": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-147",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.92,
+   "kappa": 0.848,
+   "agreed_decisions": {
+    "fix_clean": 10,
+    "accept": 30,
+    "drop": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-148",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.84,
+   "kappa": 0.758,
+   "agreed_decisions": {
+    "fix_clean": 12,
+    "accept": 19,
+    "drop": 11
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-149",
+   "rows": 50,
+   "agreed": 48,
+   "conflicts": 2,
+   "decision_agreement": 0.96,
+   "kappa": 0.927,
+   "agreed_decisions": {
+    "accept": 30,
+    "drop": 11,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-150",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.92,
+   "kappa": 0.844,
+   "agreed_decisions": {
+    "drop": 6,
+    "accept": 31,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-151",
+   "rows": 50,
+   "agreed": 47,
+   "conflicts": 3,
+   "decision_agreement": 0.94,
+   "kappa": 0.848,
+   "agreed_decisions": {
+    "fix_clean": 6,
+    "drop": 4,
+    "accept": 37
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-152",
+   "rows": 50,
+   "agreed": 37,
+   "conflicts": 13,
+   "decision_agreement": 0.82,
+   "kappa": 0.691,
+   "agreed_decisions": {
+    "drop": 6,
+    "fix_clean": 7,
+    "accept": 24
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-153",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.86,
+   "kappa": 0.705,
+   "agreed_decisions": {
+    "accept": 33,
+    "drop": 4,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-154",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.9,
+   "kappa": 0.84,
+   "agreed_decisions": {
+    "fix_clean": 8,
+    "drop": 12,
+    "accept": 23
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-155",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.9,
+   "kappa": 0.833,
+   "agreed_decisions": {
+    "fix_clean": 6,
+    "accept": 26,
+    "drop": 12
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-156",
+   "rows": 50,
+   "agreed": 37,
+   "conflicts": 13,
+   "decision_agreement": 0.8,
+   "kappa": 0.706,
+   "agreed_decisions": {
+    "drop": 10,
+    "fix_clean": 10,
+    "accept": 17
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-157",
+   "rows": 50,
+   "agreed": 48,
+   "conflicts": 2,
+   "decision_agreement": 0.96,
+   "kappa": 0.934,
+   "agreed_decisions": {
+    "fix_clean": 16,
+    "accept": 24,
+    "drop": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-158",
+   "rows": 50,
+   "agreed": 37,
+   "conflicts": 13,
+   "decision_agreement": 0.8,
+   "kappa": 0.691,
+   "agreed_decisions": {
+    "fix_clean": 6,
+    "drop": 9,
+    "accept": 22
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-159",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.86,
+   "kappa": 0.758,
+   "agreed_decisions": {
+    "accept": 28,
+    "fix_clean": 8,
+    "drop": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-160",
+   "rows": 50,
+   "agreed": 37,
+   "conflicts": 13,
+   "decision_agreement": 0.8,
+   "kappa": 0.701,
+   "agreed_decisions": {
+    "fix_clean": 9,
+    "accept": 18,
+    "drop": 10
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-161",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.84,
+   "kappa": 0.643,
+   "agreed_decisions": {
+    "accept": 32,
+    "drop": 8,
+    "fix_clean": 1
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-162",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.82,
+   "kappa": 0.718,
+   "agreed_decisions": {
+    "drop": 15,
+    "fix_clean": 5,
+    "accept": 20
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-163",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.84,
+   "kappa": 0.712,
+   "agreed_decisions": {
+    "drop": 24,
+    "fix_clean": 3,
+    "accept": 15
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-164",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.84,
+   "kappa": 0.739,
+   "agreed_decisions": {
+    "drop": 11,
+    "accept": 24,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-165",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.92,
+   "kappa": 0.849,
+   "agreed_decisions": {
+    "drop": 4,
+    "fix_clean": 10,
+    "accept": 31
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-166",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.84,
+   "kappa": 0.733,
+   "agreed_decisions": {
+    "fix_clean": 17,
+    "accept": 18,
+    "drop": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-167",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.92,
+   "kappa": 0.861,
+   "agreed_decisions": {
+    "fix_clean": 10,
+    "drop": 8,
+    "accept": 28
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-168",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.9,
+   "kappa": 0.833,
+   "agreed_decisions": {
+    "fix_clean": 8,
+    "accept": 27,
+    "drop": 9
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-169",
+   "rows": 50,
+   "agreed": 29,
+   "conflicts": 21,
+   "decision_agreement": 0.72,
+   "kappa": 0.554,
+   "agreed_decisions": {
+    "drop": 13,
+    "fix_clean": 11,
+    "accept": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-170",
+   "rows": 50,
+   "agreed": 27,
+   "conflicts": 23,
+   "decision_agreement": 0.64,
+   "kappa": 0.466,
+   "agreed_decisions": {
+    "fix_clean": 10,
+    "accept": 10,
+    "drop": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-171",
+   "rows": 50,
+   "agreed": 32,
+   "conflicts": 18,
+   "decision_agreement": 0.7,
+   "kappa": 0.55,
+   "agreed_decisions": {
+    "drop": 17,
+    "accept": 10,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-172",
+   "rows": 50,
+   "agreed": 24,
+   "conflicts": 26,
+   "decision_agreement": 0.54,
+   "kappa": 0.355,
+   "agreed_decisions": {
+    "fix_clean": 5,
+    "accept": 11,
+    "drop": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-173",
+   "rows": 50,
+   "agreed": 26,
+   "conflicts": 24,
+   "decision_agreement": 0.62,
+   "kappa": 0.449,
+   "agreed_decisions": {
+    "accept": 13,
+    "drop": 8,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-174",
+   "rows": 50,
+   "agreed": 25,
+   "conflicts": 25,
+   "decision_agreement": 0.7,
+   "kappa": 0.502,
+   "agreed_decisions": {
+    "accept": 8,
+    "fix_clean": 12,
+    "drop": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-175",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.8,
+   "kappa": 0.65,
+   "agreed_decisions": {
+    "drop": 6,
+    "fix_clean": 6,
+    "accept": 27
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-176",
+   "rows": 50,
+   "agreed": 35,
+   "conflicts": 15,
+   "decision_agreement": 0.72,
+   "kappa": 0.564,
+   "agreed_decisions": {
+    "fix_clean": 3,
+    "accept": 20,
+    "drop": 12
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-177",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.9,
+   "kappa": 0.834,
+   "agreed_decisions": {
+    "accept": 26,
+    "drop": 8,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-178",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.9,
+   "kappa": 0.851,
+   "agreed_decisions": {
+    "fix_clean": 12,
+    "accept": 17,
+    "drop": 14
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-179",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.86,
+   "kappa": 0.783,
+   "agreed_decisions": {
+    "drop": 10,
+    "accept": 22,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-180",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.82,
+   "kappa": 0.724,
+   "agreed_decisions": {
+    "drop": 10,
+    "accept": 19,
+    "fix_clean": 11
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-181",
+   "rows": 50,
+   "agreed": 33,
+   "conflicts": 17,
+   "decision_agreement": 0.74,
+   "kappa": 0.588,
+   "agreed_decisions": {
+    "accept": 5,
+    "drop": 16,
+    "fix_clean": 12
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-182",
+   "rows": 50,
+   "agreed": 31,
+   "conflicts": 19,
+   "decision_agreement": 0.66,
+   "kappa": 0.5,
+   "agreed_decisions": {
+    "accept": 10,
+    "fix_clean": 6,
+    "drop": 15
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-183",
+   "rows": 50,
+   "agreed": 23,
+   "conflicts": 27,
+   "decision_agreement": 0.6,
+   "kappa": 0.39,
+   "agreed_decisions": {
+    "drop": 5,
+    "accept": 12,
+    "fix_clean": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-184",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.86,
+   "kappa": 0.767,
+   "agreed_decisions": {
+    "fix_clean": 10,
+    "accept": 26,
+    "drop": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-185",
+   "rows": 50,
+   "agreed": 35,
+   "conflicts": 15,
+   "decision_agreement": 0.7,
+   "kappa": 0.56,
+   "agreed_decisions": {
+    "drop": 9,
+    "fix_clean": 10,
+    "accept": 16
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-186",
+   "rows": 50,
+   "agreed": 37,
+   "conflicts": 13,
+   "decision_agreement": 0.78,
+   "kappa": 0.669,
+   "agreed_decisions": {
+    "drop": 10,
+    "accept": 13,
+    "fix_clean": 14
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-187",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.88,
+   "kappa": 0.814,
+   "agreed_decisions": {
+    "drop": 9,
+    "fix_clean": 16,
+    "accept": 15
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-188",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.9,
+   "kappa": 0.842,
+   "agreed_decisions": {
+    "accept": 13,
+    "fix_clean": 18,
+    "drop": 10
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-189",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.82,
+   "kappa": 0.719,
+   "agreed_decisions": {
+    "drop": 7,
+    "fix_clean": 12,
+    "accept": 20
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-190",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.76,
+   "kappa": 0.61,
+   "agreed_decisions": {
+    "drop": 5,
+    "accept": 25,
+    "fix_clean": 8
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-191",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.84,
+   "kappa": 0.707,
+   "agreed_decisions": {
+    "fix_clean": 4,
+    "drop": 8,
+    "accept": 29
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-192",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.82,
+   "kappa": 0.619,
+   "agreed_decisions": {
+    "accept": 33,
+    "fix_clean": 2,
+    "drop": 4
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-193",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.9,
+   "kappa": 0.82,
+   "agreed_decisions": {
+    "accept": 30,
+    "drop": 6,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-194",
+   "rows": 50,
+   "agreed": 39,
+   "conflicts": 11,
+   "decision_agreement": 0.84,
+   "kappa": 0.735,
+   "agreed_decisions": {
+    "accept": 26,
+    "fix_clean": 7,
+    "drop": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-195",
+   "rows": 50,
+   "agreed": 38,
+   "conflicts": 12,
+   "decision_agreement": 0.88,
+   "kappa": 0.812,
+   "agreed_decisions": {
+    "accept": 23,
+    "fix_clean": 4,
+    "drop": 11
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-196",
+   "rows": 50,
+   "agreed": 34,
+   "conflicts": 16,
+   "decision_agreement": 0.7,
+   "kappa": 0.552,
+   "agreed_decisions": {
+    "fix_clean": 8,
+    "drop": 16,
+    "accept": 10
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-197",
+   "rows": 10,
+   "agreed": 8,
+   "conflicts": 2,
+   "decision_agreement": 0.8,
+   "kappa": 0.649,
+   "agreed_decisions": {
+    "drop": 3,
+    "accept": 5,
+    "fix_clean": 0
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-001",
+   "rows": 50,
+   "agreed": 40,
+   "conflicts": 10,
+   "decision_agreement": 0.86,
+   "kappa": 0.738,
+   "agreed_decisions": {
+    "fix_clean": 5,
+    "accept": 28,
+    "drop": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-002",
+   "rows": 50,
+   "agreed": 42,
+   "conflicts": 8,
+   "decision_agreement": 0.9,
+   "kappa": 0.828,
+   "agreed_decisions": {
+    "accept": 27,
+    "fix_clean": 8,
+    "drop": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-003",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.88,
+   "kappa": 0.815,
+   "agreed_decisions": {
+    "drop": 13,
+    "accept": 21,
+    "fix_clean": 9
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-004",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.92,
+   "kappa": 0.851,
+   "agreed_decisions": {
+    "accept": 31,
+    "fix_clean": 8,
+    "drop": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-005",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.696,
+   "agreed_decisions": {
+    "fix_clean": 7,
+    "accept": 27,
+    "drop": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-006",
+   "rows": 50,
+   "agreed": 46,
+   "conflicts": 4,
+   "decision_agreement": 0.92,
+   "kappa": 0.87,
+   "agreed_decisions": {
+    "fix_clean": 9,
+    "drop": 13,
+    "accept": 24
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-007",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.88,
+   "kappa": 0.777,
+   "agreed_decisions": {
+    "drop": 10,
+    "accept": 29,
+    "fix_clean": 5
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-008",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.86,
+   "kappa": 0.78,
+   "agreed_decisions": {
+    "accept": 19,
+    "fix_clean": 7,
+    "drop": 17
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-009",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.9,
+   "kappa": 0.81,
+   "agreed_decisions": {
+    "drop": 30,
+    "accept": 10,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-010",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.82,
+   "kappa": 0.718,
+   "agreed_decisions": {
+    "fix_clean": 7,
+    "accept": 20,
+    "drop": 14
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-011",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.84,
+   "kappa": 0.742,
+   "agreed_decisions": {
+    "fix_clean": 6,
+    "accept": 23,
+    "drop": 12
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-012",
+   "rows": 50,
+   "agreed": 43,
+   "conflicts": 7,
+   "decision_agreement": 0.88,
+   "kappa": 0.789,
+   "agreed_decisions": {
+    "fix_clean": 8,
+    "accept": 28,
+    "drop": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-013",
+   "rows": 50,
+   "agreed": 45,
+   "conflicts": 5,
+   "decision_agreement": 0.9,
+   "kappa": 0.836,
+   "agreed_decisions": {
+    "accept": 24,
+    "fix_clean": 7,
+    "drop": 14
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-014",
+   "rows": 50,
+   "agreed": 37,
+   "conflicts": 13,
+   "decision_agreement": 0.74,
+   "kappa": 0.604,
+   "agreed_decisions": {
+    "accept": 18,
+    "fix_clean": 7,
+    "drop": 12
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-015",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.86,
+   "kappa": 0.784,
+   "agreed_decisions": {
+    "drop": 15,
+    "accept": 19,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-016",
+   "rows": 10,
+   "agreed": 8,
+   "conflicts": 2,
+   "decision_agreement": 0.8,
+   "kappa": 0.583,
+   "agreed_decisions": {
+    "fix_clean": 0,
+    "accept": 2,
+    "drop": 6
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-rx-001",
+   "rows": 24,
+   "agreed": 8,
+   "conflicts": 16,
+   "decision_agreement": 0.542,
+   "kappa": 0.185,
+   "agreed_decisions": {
+    "fix_clean": 5,
+    "accept": 0,
+    "drop": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e-rx-002",
+   "rows": 23,
+   "agreed": 13,
+   "conflicts": 10,
+   "decision_agreement": 0.739,
+   "kappa": 0.465,
+   "agreed_decisions": {
+    "accept": 0,
+    "drop": 12,
+    "fix_clean": 1
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e14-001",
+   "rows": 25,
+   "agreed": 17,
+   "conflicts": 8,
+   "decision_agreement": 0.84,
+   "kappa": 0.745,
+   "agreed_decisions": {
+    "fix_clean": 3,
+    "accept": 4,
+    "drop": 10
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-e14-002",
+   "rows": 25,
+   "agreed": 8,
+   "conflicts": 17,
+   "decision_agreement": 0.56,
+   "kappa": 0.274,
+   "agreed_decisions": {
+    "drop": 4,
+    "accept": 1,
+    "fix_clean": 3
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-r2-001",
+   "rows": 50,
+   "agreed": 41,
+   "conflicts": 9,
+   "decision_agreement": 0.86,
+   "kappa": 0.785,
+   "agreed_decisions": {
+    "accept": 20,
+    "drop": 14,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-r2-002",
+   "rows": 33,
+   "agreed": 22,
+   "conflicts": 11,
+   "decision_agreement": 0.758,
+   "kappa": 0.596,
+   "agreed_decisions": {
+    "accept": 15,
+    "drop": 6,
+    "fix_clean": 1
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-rx-001",
+   "rows": 50,
+   "agreed": 44,
+   "conflicts": 6,
+   "decision_agreement": 0.9,
+   "kappa": 0.807,
+   "agreed_decisions": {
+    "accept": 31,
+    "drop": 6,
+    "fix_clean": 7
+   },
+   "errors": []
+  },
+  {
+   "batch": "batch-rx-002",
+   "rows": 11,
+   "agreed": 7,
+   "conflicts": 4,
+   "decision_agreement": 0.818,
+   "kappa": 0.667,
+   "agreed_decisions": {
+    "accept": 5,
+    "drop": 0,
+    "fix_clean": 2
+   },
+   "errors": []
+  }
+ ]
+}

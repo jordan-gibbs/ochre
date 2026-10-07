@@ -1,0 +1,41 @@
+{"id": "s2-W5-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0054", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'dentist appointment at one' became 'dentist. Pointman have one.'", "'Pointman have one' garbles appointment at one"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0055", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Aliah/John/light/missing 'Are': too many changes, 'selling the light' nonsensical", "names and bike all lost; too many fixes"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0060", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'the vendor said the' absent from raw", "vendor said the lost"], "auditors": ["A", "B"], "clean": "Quick update, shipment is delayed until the 3rd, so we will have to reschedule the install."}
+{"id": "s2-W5-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0062", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary uses raw spelling; raw has 'the module'", "name and 'the' from raw"], "auditors": ["A", "B"], "clean": "I think we could just ask Diedo to take a look since he wrote the module."}
+{"id": "s2-W5-0063", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0064", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'for three' became 'a 43'; value not recoverable", "'a 43' for 'for three'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0065", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Okay'", "raw has Okay"], "auditors": ["A", "B"], "clean": "Okay, I am leaving the house now, should be there by like quarter to 6."}
+{"id": "s2-W5-0066", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I was in a workshop' became 'Like shop'", "workshop lost as 'Like shop'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0073", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'wiped' heard as 'white'", "wiped heard as white"], "auditors": ["A", "B"], "clean": "Hey so I do not think I can make it tonight, I am feeling really white. Sorry."}
+{"id": "s2-W5-0074", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0076", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' not spoken", "trailing Yeah. not spoken"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0078", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw is only 'Oh. What day is it?'", "most of utterance lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0080", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw heavily garbled", "garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0081", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0082", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Okay'", "raw has Okay"], "auditors": ["A", "B"], "clean": "Okay so the thing is that I do not actually have access to that folder."}
+{"id": "s2-W5-0085", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw garbled", "garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0086", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["clean rewrote the corrected clause; spoken was 'wednesday is better for me'", "clean dropped 'is better for me'"], "auditors": ["A", "B"], "clean": "Wednesday is better for me, I have the kids on Tuesday."}
+{"id": "s2-W5-0087", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hi Hannah' became 'I have not.'", "greeting lost as 'I have not.', get lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0088", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' became 'numb'", "'numb' for um"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0091", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends at 'He did the'", "raw ends on 'the'"], "auditors": ["A", "B"], "clean": "Yeah, I'm not sure. I would ask Ravi, he did the..."}
+{"id": "s2-W5-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0093", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0095", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' not spoken; start garbled", "trailing Yeah.; start garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0096", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'wanted to let you know' became 'want it'", "tail lost: 'want it'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0097", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0099", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0100", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'a trip this' became 'a well practice'", "'well practice' for uh trip"], "auditors": ["A", "B"]}

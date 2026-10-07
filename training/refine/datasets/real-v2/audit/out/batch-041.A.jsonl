@@ -1,0 +1,50 @@
+{"id": "s2-W5-0001", "decision": "fix_clean", "clean": "Yeah, on it.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R11"], "note": "raw has 'Yeah' for 'yep'"}
+{"id": "s2-W5-0002", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0003", "decision": "fix_clean", "clean": "Huh, no way.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'haha' heard as 'Huh'"}
+{"id": "s2-W5-0004", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can we push standup' heard as 'and we pushed Anna'"}
+{"id": "s2-W5-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lol' heard as 'Lo'; target not inferable"}
+{"id": "s2-W5-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'who has the login' garbled to 'Has to the modern'"}
+{"id": "s2-W5-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'leaving now' heard as 'We didn't know'"}
+{"id": "s2-W5-0010", "decision": "fix_clean", "clean": "Thanks, Priya, they fixed it.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'they' for 'that'"}
+{"id": "s2-W5-0011", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0012", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0016", "decision": "fix_clean", "clean": "Hey Thomas, do you have a sec?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spells 'Thomas'"}
+{"id": "s2-W5-0017", "decision": "fix_clean", "clean": "Dinner is at 7 at that tight place on Fifth.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'tight' for 'Thai'"}
+{"id": "s2-W5-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'deploy' and 'ago' garbled ('The boy', 'a bill')"}
+{"id": "s2-W5-0019", "decision": "drop", "reason": "hallucination", "note": "Whisper appended 'Thank you.'"}
+{"id": "s2-W5-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'flight' heard as 'flank'"}
+{"id": "s2-W5-0022", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'Some'"}
+{"id": "s2-W5-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dude' heard as 'do'"}
+{"id": "s2-W5-0024", "decision": "fix_clean", "clean": "They'll be there in 5, just grabbing coffee.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'They'll' for 'I'll'"}
+{"id": "s2-W5-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and uh eggs' heard as 'can Thanks'"}
+{"id": "s2-W5-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0027", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is 'But it's'"}
+{"id": "s2-W5-0029", "decision": "fix_clean", "clean": "Yes so my sister is coming over on Saturday, so we can do Sunday instead.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Yes' for 'yeah'"}
+{"id": "s2-W5-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'call' heard as 'pole', 'I'll' as 'null', 'I'm' as 'You're'"}
+{"id": "s2-W5-0031", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0032", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can' heard as 'And'; request not recoverable"}
+{"id": "s2-W5-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0034", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0035", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0036", "decision": "fix_clean", "clean": "Oh nice, congrats, Sophia.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spells 'Sophia'"}
+{"id": "s2-W5-0037", "decision": "fix_clean", "clean": "Even at the gate, it's so crowded.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Even' for 'I'm'"}
+{"id": "s2-W5-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'heads up the wifi' garbled"}
+{"id": "s2-W5-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0040", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hahaha' heard as 'High'"}
+{"id": "s2-W5-0042", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0045", "decision": "fix_clean", "clean": "Okay.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R11"], "note": "raw has 'Okay' for 'k'"}
+{"id": "s2-W5-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0047", "decision": "fix_clean", "clean": "Wanna grab tacos after the gym?", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Wanna'; keep register"}
+{"id": "s2-W5-0048", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'will text when uh' garbled to 'with Textwell. No,'"}
+{"id": "s2-W5-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hey Mei um' heard as 'In May'; 'that' heard as 'but'"}

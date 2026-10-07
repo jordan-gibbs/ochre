@@ -1,0 +1,50 @@
+{"id": "s2-W5-0451", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name Wei heard as 'why'"}
+{"id": "s2-W5-0452", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0453", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0454", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0455", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0456", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0457", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0458", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0459", "decision": "drop", "reason": "unrecoverable_meaning", "note": "message garbled"}
+{"id": "s2-W5-0460", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0461", "decision": "fix_clean", "clean": "Okay, let us think after the all hands.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "sync heard as think"}
+{"id": "s2-W5-0462", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0463", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0464", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0465", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0466", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0467", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0468", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lol lost, garbled"}
+{"id": "s2-W5-0469", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0470", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0471", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0472", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0473", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0474", "decision": "fix_clean", "clean": "No, I already ate.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "nah heard as No"}
+{"id": "s2-W5-0475", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0477", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0478", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled"}
+{"id": "s2-W5-0479", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0480", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0481", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0482", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0483", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0484", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0485", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0486", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0487", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0488", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0489", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0490", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled plus Okay hallucination"}
+{"id": "s2-W5-0491", "decision": "fix_clean", "clean": "Donus recital is on the 11th at 4.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name from raw"}
+{"id": "s2-W5-0492", "decision": "drop", "reason": "unrecoverable_meaning", "note": "under lost"}
+{"id": "s2-W5-0493", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0494", "decision": "fix_clean", "clean": "Email the school about the field trip form.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "due Wednesday lost"}
+{"id": "s2-W5-0495", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of content lost"}
+{"id": "s2-W5-0496", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0497", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0498", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0499", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0500", "decision": "accept", "reason": "ok"}

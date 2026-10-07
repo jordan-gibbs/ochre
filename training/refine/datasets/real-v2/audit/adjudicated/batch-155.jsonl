@@ -1,0 +1,6 @@
+{"id": "s4-W45-0003", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: lol heard as Wall"}
+{"id": "s4-W45-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: I mean it -> I mean an"}
+{"id": "s4-W45-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Layla plus Lal for lol; result not sensible"}
+{"id": "s4-W45-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Tariq heard as Tar it"}
+{"id": "s4-W45-0048", "decision": "fix_clean", "clean": "Right, so the plan is we meet at the bar at 8, and we walk over together.", "reason": "unrecoverable_word", "note": "A: and from raw; minimal edit keeps author comma"}
+{"id": "s4-W45-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Dude you merged into Deju"}

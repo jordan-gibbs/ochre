@@ -1,0 +1,50 @@
+{"id": "s2-W8-0451", "decision": "fix_clean", "clean": "Dentists had no sugar for two days.", "reason": "unrecoverable_word", "note": "said/had"}
+{"id": "s2-W8-0452", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0453", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Long for uh"}
+{"id": "s2-W8-0454", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0455", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0456", "decision": "fix_clean", "clean": "Eh, Auntie, thank you for the lovely car and the money, I am going to use it for my school books.", "reason": "unrecoverable_word", "note": "hey/card"}
+{"id": "s2-W8-0457", "decision": "fix_clean", "clean": "Work was okay today, I mean nothing special, but my manager said you liked how I handled the angry customer, so that's something.", "reason": "unrecoverable_word"}
+{"id": "s2-W8-0458", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0459", "decision": "fix_clean", "clean": "This is Dell, the guy from the bakery, your cake is ready whenever you want to pick it up, we close at 6.", "reason": "dropped_by_recognizer", "note": "Hi lost"}
+{"id": "s2-W8-0460", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0461", "decision": "fix_clean", "clean": "Friday is the last day of school, so we need to buy the teacher gifts, one for Mrs. Adams and one for Mr. Oquoro.", "reason": "unrecoverable_word"}
+{"id": "s2-W8-0462", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0463", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0464", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "No/He/Thumb/Them"}
+{"id": "s2-W8-0465", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0466", "decision": "fix_clean", "clean": "Got this cast iron skillet for my wedding anniversary and y'all, I have not stopped cooking since. It sears a steak like nobody's business. It is heavy as a boat anchor so be ready for that. Season it twice with flaxseed oil like the video said and nothing sticks. Only wish it came with a lid, five stars anyhow.", "reason": "unrecoverable_word"}
+{"id": "s2-W8-0467", "decision": "fix_clean", "clean": "Service call at the Nelsons. The unit is about 15 years old and the compressor is making that grinding noise. I told them it might be cheaper to replace than repair, they are thinking about it. The quote for a new system is around $6,500, installed, with a 10 year warranty. Follow up on Monday, and don't forget to bring the filters they asked for.", "reason": "guide_violation"}
+{"id": "s2-W8-0468", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "What and someone checked"}
+{"id": "s2-W8-0469", "decision": "fix_clean", "clean": "We are happy to announce that starting next month the bakery will be open on Sundays. We know many of you have asked for this, and we finally have enough staff to make it happen. Sunday hours will be 8 to 2, and we will have a special cinnamon bun that is only available on Sundays. Thank you for supporting this small family business.", "reason": "unrecoverable_word"}
+{"id": "s2-W8-0470", "decision": "drop", "reason": "unrecoverable_meaning", "note": "drug names garbled"}
+{"id": "s2-W8-0471", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W8-0472", "decision": "drop", "reason": "unrecoverable_meaning", "note": "update/Upnate/Up eight etc"}
+{"id": "s2-W8-0473", "decision": "fix_clean", "clean": "Dear Emily, happy birthday, sweetheart. I cannot believe you are 16 already, it feels like yesterday that you were learning to ride your bike in our driveway and refusing to wear a helmet. Your grandfather and I are so proud of the young woman you are becoming. I hope this card finds you well, we are sending a small cheque, please do not spend it all in one place. Actually, spend it however you like, you only turn 16 once. We will call on Sunday to hear all about the party. Give your mom and dad a big hug from us. All our love, Grandma and Grandpa.", "reason": "spelling_from_raw"}
+{"id": "s2-W8-0474", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W8-0475", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0477", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0478", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0479", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0480", "decision": "drop", "reason": "hallucination", "note": "raw unrelated"}
+{"id": "s2-W8-0481", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0482", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W8-0483", "decision": "drop", "reason": "unrecoverable_meaning", "note": "New Year lost"}
+{"id": "s2-W8-0484", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0485", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W8-0486", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0487", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0488", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Alone"}
+{"id": "s2-W8-0489", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W8-0490", "decision": "fix_clean", "clean": "Yeah. I can make some pasta, or we could order something, whatever you feel like.", "reason": "dropped_by_recognizer"}
+{"id": "s2-W8-0491", "decision": "fix_clean", "clean": "How many grams of protein should a woman over six be eating every day?", "reason": "number_value"}
+{"id": "s2-W8-0492", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0493", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0494", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah; salad/toquitas"}
+{"id": "s2-W8-0495", "decision": "fix_clean", "clean": "Hi my friend, I am so sorry for not answering before, this week was very busy with the work and the children. Tomorrow I am free after lunch, we can talk by video. I have many news to tell you, I got a new job, is in a hospital near my house, I start in two weeks. I am very nervous but also very happy.", "reason": "unrecoverable_word"}
+{"id": "s2-W8-0496", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W8-0497", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0498", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W8-0499", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W8-0500", "decision": "drop", "reason": "unrecoverable_meaning"}

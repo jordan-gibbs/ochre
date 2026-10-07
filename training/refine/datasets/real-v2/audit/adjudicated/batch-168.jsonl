@@ -1,0 +1,6 @@
+{"id": "s4-W51-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Elif' heard as 'a lift'; unwritable"}
+{"id": "s4-W51-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'carpal meeting', 'update the Rhoda' unwritable"}
+{"id": "s4-W51-0070", "decision": "accept", "reason": "ok", "note": "A: 'bring the council' -> ring inferable (next clause 'call the dentist')"}
+{"id": "s4-W51-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Months from the call', 'they may ask', 'Olift'"}
+{"id": "s4-W51-0084", "decision": "fix_clean", "clean": "Hi Jima, I hope your week is going better than mine. The printer is broken again, the landlord still hasn't answered about the heating, and I spent most of Tuesday on hold to the water company only to be told I have run the wrong number. Anyway, I wanted to check whether you're still free to look at the accounts on Friday afternoon, because if not I'll ask Luca instead and he won't mind.", "reason": "unrecoverable_word", "note": "A: Jima, 'have run' from raw; keeps author's 'Anyway' placement (minimal edit)"}
+{"id": "s4-W51-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'The carpal steam operates' unwritable"}

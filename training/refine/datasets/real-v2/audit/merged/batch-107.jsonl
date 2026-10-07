@@ -1,0 +1,44 @@
+{"id": "s4-W19-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0002", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Senate' for summit"], "auditors": ["A", "B"], "clean": "I mean it when I say the Senate hike is off this weekend."}
+{"id": "s4-W19-0003", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["name not in dictionary; raw 'Matteo'"], "auditors": ["A", "B"], "clean": "Hi Matteo, the proofs from Saturday are uploaded to the gallery now."}
+{"id": "s4-W19-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0006", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'that error' for dead air"], "auditors": ["A", "B"], "clean": "She doesn't know what I mean when I say that error."}
+{"id": "s4-W19-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'date at center' split of data center"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0009", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never said", "trailing 'Yeah.' plus salutation garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0016", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'back of lintens. Peter, don't come'", "back of lintens / Peter"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0017", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'new news blocked that move' garbled", "noon news block got moved garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0018", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'new' for noon"], "auditors": ["A", "B"], "clean": "You know the producer who does the new news block, right? He left a voicemail."}
+{"id": "s4-W19-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'So write' read as filler right"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0027", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["name not in dictionary; raw 'Sophia'"], "auditors": ["A", "B"], "clean": "Sophia, the gallery link expired, so I sent a new one."}
+{"id": "s4-W19-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'podcast fee' read as feed"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0033", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["trailing 'Yeah.' never said; 'Here, here' for dear vera", "greeting lost, date value changed, trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0038", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw 'split' not 'splits'"], "auditors": ["A", "B"], "clean": "At the fork the group split, left for the creek, right for the ridge."}
+{"id": "s4-W19-0039", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["name not in dictionary; raw 'Dinah'"], "auditors": ["A", "B"], "clean": "Hi Dinah, the invoice is attached and the deposit was already paid."}
+{"id": "s4-W19-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'page your' split of pager"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0045", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw 'frame'"], "auditors": ["A", "B"], "clean": "Mateo, the frame shipment is late, again."}
+{"id": "s4-W19-0046", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw 'frame'"], "auditors": ["A", "B"], "clean": "Mateo, you know the supplier's number, right? The frame shipment is late again."}
+{"id": "s4-W19-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W19-0049", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s4-W19-0050", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Ryan' for rain"], "auditors": ["A", "B"], "clean": "That's right, Ryan Saturday, so we're pushing the hike."}

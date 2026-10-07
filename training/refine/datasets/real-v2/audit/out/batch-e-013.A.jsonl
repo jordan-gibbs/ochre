@@ -1,0 +1,50 @@
+{"id": "e4-E10-0051", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0052", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting, check-in, Saturday date and juniors-pay-half all garbled in raw"}
+{"id": "e4-E10-0054", "decision": "fix_clean", "clean": "The centering cycle has three stages. The ramp goes up at 10 degrees a minute for 900, then holds for two hours, and the final stage climbs to 1,530 and holds for another two hours. Total cycle time is about 490 minutes, so anything loaded after 2 PM won't be out until the next morning.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'centering'; 'to' heard as 'for'"}
+{"id": "e4-E10-0055", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'we have now reached' dropped and 'work' heard as 'one'; meaning broken"}
+{"id": "e4-E10-0057", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0058", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'not' -> 'About', tracking digits lost, email 'lab' -> 'them', 'if' dropped"}
+{"id": "e4-E10-0060", "decision": "fix_clean", "clean": "Standings after round 5: Ingrid is on 4.5 points, Casimir and Mateo both have 4, and there's a three-way tie at 3.5. Tiebreaks use Buchholz, so the pairings for round 6 might look a bit odd.", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name not in dictionary; raw 'Mateo'"}
+{"id": "e4-E10-0061", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never spoken"}
+{"id": "e4-E10-0062", "decision": "fix_clean", "clean": "Fenella wants the deposit by the 20th. It's $375 because she had the second room. Can you Venmo her your half and I'll cover the rest?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'had' for 'added'"}
+{"id": "e4-E10-0063", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never spoken"}
+{"id": "e4-E10-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Thunder is a recap', 'were it', 'to four expenses'"}
+{"id": "e4-E10-0065", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0066", "decision": "accept", "reason": "ok"}
+{"id": "e4-E10-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'docents called in sick' -> 'doses called inset', 'a shift' -> 'us'"}
+{"id": "e4-E10-0068", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'we'll' -> 'I will', boards '30' -> 'three', 'arbiters' -> 'orbiters'"}
+{"id": "e4-E10-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "40 -> fourteen, 'live' -> 'that', slash lost"}
+{"id": "e4-E10-0070", "decision": "fix_clean", "clean": "Exhibit timeline: the loan agreements were signed on May 2nd, 2026, the crates arrived between January 5th and January 12th, 2027, installation takes about three weeks, and the press preview is on February 4th at 6 PM. The show then runs for 14 weeks and closes on May 16th. The climate spec for all three galleries is 21 degrees Celsius plus or minus 1, with relative humidity at 50% plus or minus 5.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'arrived'"}
+{"id": "e4-E11-0001", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0002", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0003", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0004", "decision": "fix_clean", "clean": "Brianni, did you merge the fix for the rental return date bug?", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name not in dictionary; raw 'Brianni'"}
+{"id": "e4-E11-0005", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0006", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0007", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.'; rack 4/null also garbled"}
+{"id": "e4-E11-0008", "decision": "fix_clean", "clean": "Run npm install, and copy .env.example to .env before starting the dev server.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'and' where 'then' was said"}
+{"id": "e4-E11-0009", "decision": "fix_clean", "clean": "Latchan, the route optimizer is returning a 429 from the maps API.", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name not in dictionary; raw 'Latchan'"}
+{"id": "e4-E11-0010", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0011", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0012", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0013", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hack' -> 'Act', 'sensor' -> 'sense of'"}
+{"id": "e4-E11-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "dependabot sentence dropped; latest/sandbox/payment form garbled"}
+{"id": "e4-E11-0015", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0016", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0017", "decision": "fix_clean", "clean": "Rename this to is_checked_out.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'nit' absent from raw"}
+{"id": "e4-E11-0018", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0019", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'write a SQL' -> 'Right, yes, you are'"}
+{"id": "e4-E11-0021", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0023", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0024", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.'; name and force/slash garbled"}
+{"id": "e4-E11-0025", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0026", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0027", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0028", "decision": "fix_clean", "clean": "The app reads three environment variables: STRIPE_SECRET_KEY, WEBHOOK_SECRET, and DONATION_GOAL_CENTS. DONATION_GOAL_CENTS is missing, the progress bar on the homepage defaults to a goal of $5,000, which is probably not what the church wants.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'if' absent from raw"}
+{"id": "e4-E11-0029", "decision": "drop", "reason": "hallucination", "note": "raw ends 'Hi. Yeah.' never spoken; CLI lost"}
+{"id": "e4-E11-0030", "decision": "accept", "reason": "ok"}

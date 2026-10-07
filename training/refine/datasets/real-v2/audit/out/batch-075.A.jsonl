@@ -1,0 +1,50 @@
+{"id": "s2-W8-0201", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0203", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "raw 'Now' where 'uh' was said, at the start"}
+{"id": "s2-W8-0204", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "raw 'But' at 'uh'; also 'he'll tax' for 'I'll text'"}
+{"id": "s2-W8-0205", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "raw 'Thumb' where 'um' was said"}
+{"id": "s2-W8-0206", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'No to sell', 'a hundred ma', dropped 'it'"}
+{"id": "s2-W8-0207", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Buffalo's', 'week in rush', 'card read an', 'wands'"}
+{"id": "s2-W8-0208", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped a whole clause (garden/Harold woodworking); fix exceeds 5 words"}
+{"id": "s2-W8-0209", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'say the low' for 'say hello' plus many word changes (their, the old, smiled, teachers, men)"}
+{"id": "s2-W8-0210", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Okay.' never said"}
+{"id": "s2-W8-0211", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'But' at 'uh'; 'wave' and 'and sometimes' lost"}
+{"id": "s2-W8-0212", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0213", "decision": "fix_clean", "clean": "Where are you? The front gate.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'I am at the' lost"}
+{"id": "s2-W8-0214", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Ring' heard as 'Bring'; raw reading is not sensible"}
+{"id": "s2-W8-0215", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0216", "decision": "fix_clean", "clean": "No way, that's so funny.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'haha' lost"}
+{"id": "s2-W8-0217", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cheap' heard as 'Sheep'"}
+{"id": "s2-W8-0218", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0219", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0220", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0221", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0222", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "raw 'Dumb' where 'um' was said; 'now' heard as 'No.'"}
+{"id": "s2-W8-0223", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0224", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0225", "decision": "fix_clean", "clean": "The new girl at work she was very kind, she bring me a coffee every morning, I want to buy her a small gift for the Christmas.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'was' for 'is'"}
+{"id": "s2-W8-0226", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "raw 'But' at the opening 'uh'"}
+{"id": "s2-W8-0227", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0229", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0230", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0231", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0232", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'own'/'No' and 'No.' where 'uh' was said"}
+{"id": "s2-W8-0233", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and bring the' lost, 'Yeah.' in its place; request verb gone"}
+{"id": "s2-W8-0234", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'They come', 'said', 'her replacement', 'we'm' across many places"}
+{"id": "s2-W8-0235", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'well' twice at 'uh' positions; name 'Munions' also misheard"}
+{"id": "s2-W8-0236", "decision": "fix_clean", "clean": "Need to remember to take my pills at 8 in the morning and again at 8 at night, the blue one with food, the white one without. And not to forget the appointment with Dr. Petelbon on the 13th. Ask about the knee.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling 'Petelbon'"}
+{"id": "s2-W8-0237", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "raw 'No, bring a jumper' where 'uh' was said"}
+{"id": "s2-W8-0238", "decision": "fix_clean", "clean": "So this weekend was kind of a mess honestly. On Saturday I was supposed to go to the lake with my friends but the car wouldn't start, so my dad spent the whole morning under the hood and I just sat there on the porch. And then around noon he got it running, but by then everyone had already left, so I was like, whatever, and I stayed home and played video games, which was fine I guess. Then on Sunday my grandma came over with lasagna and she told me all these stories about when she was my age, how she used to ride a bike 20 miles to school, which I doubt, but it's a good story, and we watched an old movie together and she fell asleep halfway through, I just let her sleep. I think Sunday was better than Saturday, even though nothing really happened.", "reason": "guide_violation", "rules": ["R10"], "note": "clean dropped the spoken 'and' before 'we watched'"}
+{"id": "s2-W8-0239", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "raw 'thought' where 'uh' was said"}
+{"id": "s2-W8-0240", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'next order' heard as 'next floor'; 'continued' for 'continuous'"}
+{"id": "s2-W8-0241", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'best' heard as 'Bast'"}
+{"id": "s2-W8-0242", "decision": "fix_clean", "clean": "Happy birthday, hope that's a great one.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'that's' for 'it's'"}
+{"id": "s2-W8-0243", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0244", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0245", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0246", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'eight' heard as 'eat'; time value lost"}
+{"id": "s2-W8-0247", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0248", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Exange do' for 'oil change due'"}
+{"id": "s2-W8-0249", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0250", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'line' heard as 'lying'; raw also has 'neighbor'"}

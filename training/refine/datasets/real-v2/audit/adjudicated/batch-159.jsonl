@@ -1,0 +1,7 @@
+{"id": "s4-W47-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'As regards' cannot become 'Best regards'"}
+{"id": "s4-W47-0013", "decision": "fix_clean", "clean": "Okay, thanks. I'll take a look this afternoon.", "reason": "guide_violation", "note": "neither: raw is already a perfect cleanup, R11 requires clean == raw"}
+{"id": "s4-W47-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Com's Pine' and extra 'it' unrecoverable"}
+{"id": "s4-W47-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'instead for the four' loses A4"}
+{"id": "s4-W47-0037", "decision": "accept", "reason": "ok", "note": "A: 'said'->'sent' near slip, stray 'if' is a pause artefact; B's target not sensible"}
+{"id": "s4-W47-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'low-baker' for 'logo bigger' unrecoverable"}
+{"id": "s4-W47-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'When you' for 'Rhea' unrecoverable"}

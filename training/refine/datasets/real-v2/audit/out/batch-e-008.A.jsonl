@@ -1,0 +1,50 @@
+{"id": "e4-E6-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Oaxaca->Oksaka, Itzel->Itsol, got moved->move, annex->annexed: too many places"}
+{"id": "e4-E6-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Ifeoma'->'I've full machine', Leocadia->Likiti, anytime->in a time"}
+{"id": "e4-E6-0013", "decision": "drop", "reason": "non_english", "note": "raw has French 'c'est' for 'call Calloway'"}
+{"id": "e4-E6-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Tchoupitoulas->'two buttons'; result not sensible"}
+{"id": "e4-E6-0016", "decision": "fix_clean", "clean": "Seraphina finished scanning the glass plate negatives from the Dunmore expedition. There's about 400 of them, and Odette wants to know if we should host them on the public portal or keep them on the reading room terminals until we sort out the rights. I lean toward the reading room for now because a few of the plates show people from villages near Kathmandu and we never got consent from their family, but I'm open to other ideas if someone has talked to legal about it.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'their family'"}
+{"id": "e4-E6-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pallets, insulin, again, Ghent, Mechelen, through/in Liege all garbled"}
+{"id": "e4-E6-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bike rental' lost ('by Grendel')"}
+{"id": "e4-E6-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to Szczecin' -> 'just shuts and'"}
+{"id": "e4-E6-0020", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0021", "decision": "drop", "reason": "hallucination", "note": "trailing 'Thanks.' never said"}
+{"id": "e4-E6-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0023", "decision": "drop", "reason": "hallucination", "note": "'Yeah.' at end, 'redo them' lost"}
+{"id": "e4-E6-0024", "decision": "fix_clean", "clean": "Researchers must cite a collection by its accession number, and photography is permitted except for items marked fragile.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a collection'"}
+{"id": "e4-E6-0025", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "fill time, dropped 'was', site vs side: 3 places"}
+{"id": "e4-E6-0027", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0029", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "e4-E6-0030", "decision": "fix_clean", "clean": "He wants to peddle the old frames online, but I told him to keep the paddles. We can sell those separately.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'paddles' for pedals"}
+{"id": "e4-E6-0031", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "e4-E6-0032", "decision": "fix_clean", "clean": "Dear Professor Quen, the reading room will be closed for the holiday, so the earliest we can host your seminar is the week of January 12th. We can also arrange for the original manuscripts to be on display in the gallery, which seats about 30. Please let me know which shape suits your class and whether you'll need the projector.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Kwan->Quen (not in dictionary), date->shape"}
+{"id": "e4-E6-0033", "decision": "fix_clean", "clean": "While a customer complimented the salsa and said it was the perfect complement to the elote.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'lol' heard as 'while'"}
+{"id": "e4-E6-0034", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0035", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0036", "decision": "fix_clean", "clean": "The customer wants to swap his Campagnolo groupset for Shimano Ultegra. Does anyone know if the freehub body is compatible, or do we need a whole new wheel? He's riding the Gran Fondo in China next month, so I'd rather not order the wrong part and lose a week.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Girona->China"}
+{"id": "e4-E6-0037", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0039", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0040", "decision": "fix_clean", "clean": "Hi Bashia, we received your submission through FilmFreeway, but for the festival screening we'll need a DCP, not a ProRes file, and the deadline for delivery is October 24th.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Bashir not in dictionary; raw 'Bashia'"}
+{"id": "e4-E6-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "gochujang->gotcha gen, tteokbokki->DDR party"}
+{"id": "e4-E6-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "PID->pig, 'keep it under'->'Sheep here in', 'use the'->'you see'"}
+{"id": "e4-E6-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the sentence lost"}
+{"id": "e4-E6-0044", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Rohloff hub service'->'Rollof observation', not->non"}
+{"id": "e4-E6-0045", "decision": "fix_clean", "clean": "Processing plan for the Vance papers. The collection arrived in 14 record cartons with no original order, so we're going to arrange it in three series covering correspondence, financial records and photographs. The photographs include cyanotypes and some albumen prints that need interleaving with buffered tissue before they go into the cold vault. Anything with active mold gets quarantined and logged in ArchivesSpace as a condition note. He'll also deaccession the duplicate newsletters after checking with the donor, and the finding aid should be ready for review by the end of March. If that slips, I'll let Rosalind know.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'He'll' for 'we'll'"}
+{"id": "e4-E6-0046", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0047", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also flat pup, Or parked"}
+{"id": "e4-E6-0048", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0049", "decision": "fix_clean", "clean": "Hi N Goze, the 340B audit is scheduled for the week of November 3rd. Can you pull the dispensing records for the contract pharmacies in Dagon and Akron before then, and flag anything that looks like a duplicate claim?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Ngozi not in dictionary; Dayton->Dagon"}
+{"id": "e4-E6-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'has a cracked hinge clamp' -> 'is a cracked hinged clam'"}
+{"id": "e4-E6-0051", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0052", "decision": "fix_clean", "clean": "Won the gold medal in the metal fabrication category, still can't believe it.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'We' dropped"}
+{"id": "e4-E6-0053", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0054", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0055", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0056", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0057", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0058", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pour->For, 'than fourteen days' lost"}
+{"id": "e4-E6-0059", "decision": "accept", "reason": "ok"}
+{"id": "e4-E6-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "faze->fee, not inferable; result not sensible"}

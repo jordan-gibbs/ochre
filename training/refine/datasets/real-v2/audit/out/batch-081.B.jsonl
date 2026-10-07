@@ -1,0 +1,50 @@
+{"id": "s2-W9-0001", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W9-0002", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0003", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0004", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0005", "decision": "fix_clean", "clean": "Turn right, then it's on the left.", "reason": "dropped_by_recognizer", "note": "'at the light' lost"}
+{"id": "s2-W9-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled"}
+{"id": "s2-W9-0007", "decision": "fix_clean", "clean": "No, I like the blue one.", "reason": "unrecoverable_word", "note": "raw 'No'"}
+{"id": "s2-W9-0008", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "dude lost, raw garbled"}
+{"id": "s2-W9-0011", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0012", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0013", "decision": "fix_clean", "clean": "What do you like on your burritos?", "reason": "spelling_from_raw"}
+{"id": "s2-W9-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "time lost"}
+{"id": "s2-W9-0016", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0017", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0018", "decision": "fix_clean", "clean": "Something like 300 users.", "reason": "dropped_by_recognizer", "note": "'It's' lost"}
+{"id": "s2-W9-0019", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0021", "decision": "fix_clean", "clean": "Oh, you're right, it's not that far.", "reason": "unrecoverable_word", "note": "raw 'Oh'"}
+{"id": "s2-W9-0022", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0024", "decision": "fix_clean", "clean": "Well, no.", "reason": "unrecoverable_word", "note": "lol heard as Well"}
+{"id": "s2-W9-0025", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0027", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0028", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0030", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W9-0031", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W9-0032", "decision": "fix_clean", "clean": "We're so right about that.", "reason": "unrecoverable_word"}
+{"id": "s2-W9-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0034", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'You n' garbled"}
+{"id": "s2-W9-0036", "decision": "fix_clean", "clean": "No, I don't like spicy food.", "reason": "unrecoverable_word", "note": "raw 'No'"}
+{"id": "s2-W9-0037", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W9-0038", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0040", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0041", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0042", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0045", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled"}
+{"id": "s2-W9-0047", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0048", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0049", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0050", "decision": "accept", "reason": "ok"}

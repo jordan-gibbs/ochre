@@ -1,0 +1,41 @@
+{"id": "s2-W7-0201", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0202", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0203", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'nginx' lost from raw", "nginx lost"], "auditors": ["A", "B"], "clean": "ls -la /etc"}
+{"id": "s2-W7-0204", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Airpackage.j saw' - command unrecoverable", "cat misheard as Air"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0205", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Biris' for pytest not inferable", "pytest lost"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0206", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hardle run dash dashkin' - cargo/--bin unrecoverable", "cargo and --bin lost"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0207", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0209", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'todo colon' heard as 'They do'", "TODO heard as They do"], "auditors": ["A", "B"], "clean": "They do add input validation."}
+{"id": "s2-W7-0210", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0211", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["stock/copy/entry/not a test/spot link: too many places", "many words garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0212", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["LEOs, built gateway, 'a start to the Real load on site', mutic", "many words garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0213", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' heard as 'Some'", "Some for um"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0215", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0216", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0217", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0218", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw garbled and truncated (Slack clause lost)", "garbled and truncated"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0219", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Cobalt cloud, J Song, 'it's developed', 'a C there'", "garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0220", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'twice' missing from raw in first sentence", "twice lost"], "auditors": ["A", "B"], "clean": "There's a bug where the discount is applied when the user refreshes the cart page. I think the calculation is in the getter and also in the reducer. Find where it's done twice and keep only one, preferably the reducer."}
+{"id": "s2-W7-0221", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Esse' for Mosaic, service/surface, 'the storybook' - 3 places", "Mosaic lost, surface heard as service, the dropped"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0222", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'is generated', not 'was'", "raw has 'is generated'"], "auditors": ["A", "B"], "clean": "Look at the failing job in the GitHub Actions run. I think it's the Node version. We pin 20 in the workflow, but the lock file is generated with 22. Fix whichever one is wrong."}
+{"id": "s2-W7-0223", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["final clause lost from raw", "last clause lost"], "auditors": ["A", "B"], "clean": "Add a Kubernetes CronJob that runs the cleanup script at 3 a.m. every day. Set the concurrency policy to Forbid."}
+{"id": "s2-W7-0225", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0226", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0227", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0230", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Pylon lost, Rust vs REST, 'gain plus one'", "Pylon lost, REST heard as Rust, garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0232", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["ESLint and whole Prettier clause dropped", "ESLint and Prettier clauses lost"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0233", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0234", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0236", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0237", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0238", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0239", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'on line twelve' became 'Online Well'; number lost", "line number lost, 'Online Well'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0240", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0241", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Okay.' never said; also throw->grow", "trailing 'Okay.'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0242", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Fixed' and 'the token'", "raw has Fixed and 'the token'"], "auditors": ["A", "B"], "clean": "PR title: Orbit: fixed token expiry check\n\nDescription: The expiry check compared seconds to milliseconds, so tokens were valid a thousand times longer than intended. This changes the comparison to use milliseconds on both sides and adds a regression test with the token that expired one second ago."}
+{"id": "s2-W7-0243", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0244", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'shared decorator' merged into 'sharator'", "'sharator' merges shared decorator"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0245", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0246", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0247", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'dash m wip' became 'dash and with'", "-m wip garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0249", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

@@ -1,0 +1,39 @@
+{"id": "s2-W4-0352", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'ideas' heard as 'I to use'; also article changes (the compost bin, the small pond)", "ideas lost ('I to use'), several article swaps"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0353", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0354", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0355", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'renders'; 're' prefix lost", "raw has 'renders'"], "auditors": ["A", "B"], "clean": "This component has a few known limitations:\n- It does not support right-to-left languages\n- It renders on every keystroke\n- The tooltip position breaks inside scrollable containers"}
+{"id": "s2-W4-0356", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0358", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0359", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'has not approved' heard as 'has ought to prove'", "'has ought to prove' not inferable as 'has not approved'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0360", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'passed'", "raw 'passed'"], "auditors": ["A", "B"], "clean": "The definition of done is:\n1. All tests passed\n2. Docs are updated\n3. The change is behind a feature flag\n4. Product has signed off"}
+{"id": "s2-W4-0361", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost 'the' and 'if', changed 'a list' to 'the list'; 3 places", "here's/the, a->the, 'if' lost: 3 places"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0362", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0363", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has singular 'ingredient'", "raw 'ingredient'"], "auditors": ["A", "B"], "clean": "Recipe ingredient:\n- 2 cups of flour\n- 1 teaspoon of salt\n- 3 eggs\n- A cup of milk"}
+{"id": "s2-W4-0364", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0365", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0366", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0367", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0371", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0372", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0373", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0374", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0375", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0376", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0377", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0380", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0381", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0382", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0384", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0385", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0386", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0387", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'bro that' heard as 'broke a'; 'points down' as 'point stamp'", "'broke a game', 'point stamp' not inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0388", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0389", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["several 'uh' became 'no' ('Basically no', 'and now. No.', 'because no', 'But no.')", "uh heard as 'no' x4, readable as correction cues"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0393", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0394", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0395", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0396", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0397", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'fine' lost ('is I'), 'uh' as 'Well', 'token' as 'Tobin', 'web' as 'WED'", "Tobin, WED, 'is I' garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0398", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0399", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0400", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

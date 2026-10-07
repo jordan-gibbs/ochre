@@ -1,0 +1,50 @@
+{"id": "s2-W3-0401", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bump, acme, /health lost"}
+{"id": "s2-W3-0402", "decision": "drop", "reason": "unrecoverable_meaning", "note": "street name, price, email garbled"}
+{"id": "s2-W3-0403", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0404", "decision": "drop", "reason": "unrecoverable_meaning", "note": "stale read -> stay"}
+{"id": "s2-W3-0405", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0406", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ending garbled, opening lost"}
+{"id": "s2-W3-0407", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0408", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0409", "decision": "fix_clean", "clean": "Users report that push notifications arrived about 10 minutes late on Android. This started on the 2nd of October. The notification service logs show messages leaving our servers within 2 seconds, so the delay is probably on the Firebase side or caused by battery optimization on the...", "reason": "trailing_off", "note": "device lost; arrived from raw"}
+{"id": "s2-W3-0410", "decision": "fix_clean", "clean": "What happened on July 4th, 1776?", "reason": "guide_violation", "note": "casing and ?"}
+{"id": "s2-W3-0411", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0412", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0413", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah"}
+{"id": "s2-W3-0414", "decision": "drop", "reason": "hallucination", "note": "What? appended; drive lost"}
+{"id": "s2-W3-0415", "decision": "fix_clean", "clean": "Sourdough recipe. You will need 500 grams of bread flour, 350 grams of water, 100 grams of active starter and 10 grams of salt. Then do four sets of stretch and folds every 30 minutes. Let it rise for about 6 hours at room temperature until it has grown by 50%. Shape it, put it in the fridge overnight, and bake in a Dutch oven at 450 degrees for 20 minutes covered and 25 uncovered.", "reason": "dropped_by_recognizer", "note": "mix/rest sentence lost"}
+{"id": "s2-W3-0416", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0417", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0418", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0419", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Design car, hex values garbled"}
+{"id": "s2-W3-0420", "decision": "drop", "reason": "unrecoverable_meaning", "note": "connection string lost"}
+{"id": "s2-W3-0421", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0422", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Did / No residues"}
+{"id": "s2-W3-0423", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0424", "decision": "fix_clean", "clean": "Update on the survey. The average score is 8 out of 10, but a handful of people said the onboarding was confusing. I will put together a summary by the end of the week.", "reason": "dropped_by_recognizer", "note": "responses sentence lost"}
+{"id": "s2-W3-0425", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bench press, squats lost"}
+{"id": "s2-W3-0426", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Roth IRA garbled, I am lost"}
+{"id": "s2-W3-0427", "decision": "fix_clean", "clean": "This email confirms your booking at the Lakeside Hotel from the 12th to the 15th of June. The room is a deluxe king with the lake view at a rate of $210 per night. Check-in is at 3 PM and check-out is at 11 AM. Free cancellation is available until 48 hours before arrival.", "reason": "unrecoverable_word", "note": "the room / the lake view from raw"}
+{"id": "s2-W3-0428", "decision": "fix_clean", "clean": "I think we should consider dropping support for Internet Explorer. It accounts for less than half a percent of our traffic, which is around 200 visits a month, and it costs us about three days of work every release. If we remove it, we can also drop two polyfills and cut the bundle size by roughly 4 kilobytes.", "reason": "number_value", "note": "raw says four"}
+{"id": "s2-W3-0429", "decision": "fix_clean", "clean": "How many days until Christmas?", "reason": "guide_violation", "note": "casing and ?"}
+{"id": "s2-W3-0430", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled"}
+{"id": "s2-W3-0431", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0432", "decision": "fix_clean", "clean": "Her total is $36.40.", "reason": "unrecoverable_word", "note": "raw Her"}
+{"id": "s2-W3-0433", "decision": "fix_clean", "clean": "Hi all, this is the status report for the infrastructure team for the week ending the 3rd of October. We completed the Terraform refactor, and all environments now use the shared modules. Priya finished the Kubernetes upgrade on a staging cluster from 1.27 to 1.29, and there were no issues. Nguyen is about 80% done with the cost report. He found that we are overspending by roughly $11,000 a month on idle instances. Next week we plan to upgrade production on Tuesday night starting at 10 PM. Expected downtime is zero, but we will have a rollback ready. Please let me know if you have concerns about the tiny.", "reason": "unrecoverable_word", "note": "a staging; tiny from raw"}
+{"id": "s2-W3-0434", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Well/But residues, needed, clarifytions"}
+{"id": "s2-W3-0435", "decision": "fix_clean", "clean": "I was in a house that I did not recognize but somehow knew. There were about 20 rooms and every door led to the same hallway. I kept hearing my grandmother's voice calling me, but I could not find her. I should probably stop drinking coffee after 4.", "reason": "dropped_by_recognizer", "note": "heading and woke-up sentence lost"}
+{"id": "s2-W3-0436", "decision": "fix_clean", "clean": "I manage a team of seven and I want to set up a system for tracking one-on-one meetings in Notion. Each person should have a page with a day, topics discuss, action items and a mood rating from 1 to 5. I also want a dashboard view that shows who I have not met with in the last 30 days. Can you walk me through setting this up step by step?", "reason": "unrecoverable_word", "note": "day/discuss from raw"}
+{"id": "s2-W3-0437", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Low residue; instead of a direct get lost"}
+{"id": "s2-W3-0438", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0439", "decision": "fix_clean", "clean": "Resource limits: every container must declare CPU and memory requests and limits. The platform default is 250 millicores and 512 megabytes. Pods that exceed their memory limit are killed with an out-of-memory error. Pods that exceed their CPU limit are throttled, not killed. Namespaces have a quota of 40 CPUs and 80 GB in total. Ask the platform team if you need more.", "reason": "unrecoverable_word", "note": "raw says megabytes"}
+{"id": "s2-W3-0440", "decision": "drop", "reason": "unrecoverable_meaning", "note": "grab it and come back -> pump back"}
+{"id": "s2-W3-0441", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0442", "decision": "fix_clean", "clean": "I'm doing a coffee run. Who wants what? I am getting a flat white and a quasa. The line is like 15 people, so it will take a while. Last call in five minutes.", "reason": "unrecoverable_word", "note": "croissant misheard"}
+{"id": "s2-W3-0443", "decision": "fix_clean", "clean": "I am pleased to confirm your enrollment in the advanced statistics course beginning on the 8th of January. Classes meet on Tuesdays and Thursdays from 6 to 8:30 PM in room 214. Tuition is $1,800 and is due by the 20th of December. Syllabus will be sent to you two weeks before the start date.", "reason": "dropped_by_recognizer", "note": "A dropped"}
+{"id": "s2-W3-0444", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Call with Mom, 8:10 garbled"}
+{"id": "s2-W3-0445", "decision": "drop", "reason": "unrecoverable_meaning", "note": "TCP lost as he"}
+{"id": "s2-W3-0446", "decision": "drop", "reason": "unrecoverable_meaning", "note": "multiple garbles, ending lost"}
+{"id": "s2-W3-0447", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0448", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled"}
+{"id": "s2-W3-0449", "decision": "fix_clean", "clean": "Well, it took me three tries, but I got it.", "reason": "unrecoverable_word", "note": "lol heard as Well"}
+{"id": "s2-W3-0450", "decision": "fix_clean", "clean": "Meet me at gate P7 or 11:20.", "reason": "unrecoverable_word", "note": "P and or from raw"}

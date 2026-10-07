@@ -1,0 +1,50 @@
+{"id": "s4-W48-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'todo' -> 'The Duke', 'endpoint' -> 'and wink'"}
+{"id": "s4-W48-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0004", "decision": "fix_clean", "clean": "Nit, this should be a cause.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'const' heard as 'cause', not confidently inferable"}
+{"id": "s4-W48-0005", "decision": "drop", "reason": "hallucination", "note": "trailing 'Mm-hmm.' never said; 'mimilying' also garbled"}
+{"id": "s4-W48-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Fix this breaks only beers.'"}
+{"id": "s4-W48-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0014", "decision": "fix_clean", "clean": "Bump the time up to 30 seconds.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'time up to' reads as sensible text; 'timeout' not certain"}
+{"id": "s4-W48-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'And PM Rundell.' for 'npm run build'"}
+{"id": "s4-W48-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0029", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' never said; 'Pi Info twelve' also lost PR 412"}
+{"id": "s4-W48-0030", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; 'Have pressure' for 'App crashes'"}
+{"id": "s4-W48-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'of Dash Geek' for 'up -d'"}
+{"id": "s4-W48-0034", "decision": "fix_clean", "clean": "Write a Python called parseLapTime that takes a string of minutes and seconds and returns the total seconds as a float.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'function' dropped by recognizer"}
+{"id": "s4-W48-0035", "decision": "fix_clean", "clean": "This is a workaround for a bug in the payment SDK. We move it when we upgrade past version 4.2.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'We move it' is a sensible reading; 'Remove' not certain"}
+{"id": "s4-W48-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'401' heard as 'core over'"}
+{"id": "s4-W48-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Jorge lost ('Or hey'), 'hot bits', 'product'"}
+{"id": "s4-W48-0044", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Digital dash B feature C dash map.'"}
+{"id": "s4-W48-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0050", "decision": "fix_clean", "clean": "Rename this to hasValid.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R2"], "note": "'token' dropped by recognizer"}

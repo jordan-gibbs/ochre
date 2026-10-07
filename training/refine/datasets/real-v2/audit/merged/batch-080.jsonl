@@ -1,0 +1,39 @@
+{"id": "s2-W8-0452", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0453", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' heard as 'Long'", "Long for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0454", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0455", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0456", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Eh' for hey and 'car' for card", "hey/card"], "auditors": ["A", "B"], "clean": "Eh, Auntie, thank you for the lovely car and the money, I am going to use it for my school books."}
+{"id": "s2-W8-0457", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'you' for 'she'"], "auditors": ["A", "B"], "clean": "Work was okay today, I mean nothing special, but my manager said you liked how I handled the angry customer, so that's something."}
+{"id": "s2-W8-0458", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0460", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0462", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0463", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0464", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["um/uh heard as 'Thumb', 'Them', 'No'; 'today' as 'the day'", "No/He/Thumb/Them"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0465", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0468", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh can someone check' heard as 'What and someone checked'", "What and someone checked"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0470", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["drug names garbled throughout", "drug names garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0471", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'you got a plate', 'I look thin', 'er' garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0472", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Padlet, update/Upnate/Up eight, Oli, 'All there'", "update/Upnate/Up eight etc"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0473", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'cheque'"], "auditors": ["A", "B"], "clean": "Dear Emily, happy birthday, sweetheart. I cannot believe you are 16 already, it feels like yesterday that you were learning to ride your bike in our driveway and refusing to wear a helmet. Your grandfather and I are so proud of the young woman you are becoming. I hope this card finds you well, we are sending a small cheque, please do not spend it all in one place. Actually, spend it however you like, you only turn 16 once. We will call on Sunday to hear all about the party. Give your mom and dad a big hug from us. All our love, Grandma and Grandpa."}
+{"id": "s2-W8-0474", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'her flea' heard as 'or a fleet'; 'er' as 'For'"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0475", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0476", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0477", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0478", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0479", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0480", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw 'You're not wrong.' unrelated to spoken", "raw unrelated"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0481", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0482", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W8-0483", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'New Year' dropped by recognizer", "New Year lost"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0484", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0485", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'what are some quiet indoor' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0486", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0487", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0488", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' heard as 'Alone'", "Alone"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0489", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.'; 'Tide Plays' for Thai place", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W8-0494", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.'; salad/toquitas", "trailing Yeah; salad/toquitas"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0496", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["opening heavily garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0497", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0498", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["six C, 'that I am learning', Grandma, 'this secret': too many places"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0499", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'uh' heard as 'Allah'; Moms/There is me/M fines"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0500", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Bonum Street, parts, came up, in number, neighbors: too many places"], "auditors": ["A", "B"]}

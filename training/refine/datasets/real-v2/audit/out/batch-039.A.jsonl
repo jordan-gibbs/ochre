@@ -1,0 +1,50 @@
+{"id": "s2-W4-0401", "decision": "fix_clean", "clean": "We retry only on timeouts, connection resets, not on 400s, since those will never succeed. But there is one exception where the server returns a 429, and in that case we should...", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'and' between timeouts and connection resets is missing from raw"}
+{"id": "s2-W4-0402", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0403", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0404", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0405", "decision": "fix_clean", "clean": "I want you to act as a travel agent and help me plan a week in Japan. I like food in quiet places, but I do not like crowds, and I have a budget of about $3,000, so can you start by...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'food in quiet places', a sensible reading; 'and' not inferable"}
+{"id": "s2-W4-0406", "decision": "fix_clean", "clean": "Thoughts after the retro. I think the biggest problem is not the tools, it is that nobody feels responsible for the whole picture, and everyone owns their own piece, but when something falls between two pieces, nobody picks it up. We talked about creating a rotating owner for each release, which sounds good in theory, but I worry that it will just become another chore that people try to avoid, unless we make it clear that the owner has the authority too.", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends 'authority too.' (complete sentence, trailing off not visible); raw adds plausible 'and' before everyone"}
+{"id": "s2-W4-0407", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0408", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0409", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0410", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0411", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0412", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'spare' heard as 'fair'; 'a fair charger' is not a sensible dictation and spare is not inferable"}
+{"id": "s2-W4-0413", "decision": "fix_clean", "clean": "cd ~/project/blog\ngit pull\nnpm install\nnpm run build", "reason": "unrecoverable_word", "rules": ["RECOVER", "R12"], "note": "raw has 'project' singular"}
+{"id": "s2-W4-0414", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0415", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost the whole source line and most of the commands"}
+{"id": "s2-W4-0416", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W4-0417", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0418", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is only 'Time plus thirty desolate.'"}
+{"id": "s2-W4-0419", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is unrelated text; command entirely lost"}
+{"id": "s2-W4-0420", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dash' dropped by recognizer; without it the command is 'openssl rand hex 32', broken"}
+{"id": "s2-W4-0421", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0422", "decision": "drop", "reason": "unrecoverable_meaning", "note": "author 'maria' heard as 'for you'; not inferable"}
+{"id": "s2-W4-0423", "decision": "fix_clean", "clean": "curl -s https://api.example.com/help | jq .status", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'helppipe': path 'help', not 'health'"}
+{"id": "s2-W4-0424", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0425", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0426", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Kavita->Kabir, 'signed forms'->'sign for', sign-off name Tim lost: 3 places"}
+{"id": "s2-W4-0427", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0428", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' decoded as the real word 'Thumb'"}
+{"id": "s2-W4-0429", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a quiet morning'->'Of Quiet Morning', 'with Max'->'of Max'; raw-faithful target is not a sensible note"}
+{"id": "s2-W4-0430", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the' and 'but it' dropped, 'narrower than'->'narrow with': 3 places"}
+{"id": "s2-W4-0431", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0432", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0433", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0434", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' decoded as 'Thumb'; also 'Thanks soon' for 'thanks all'"}
+{"id": "s2-W4-0435", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' decoded as 'Zambia'; extra 'and' after please"}
+{"id": "s2-W4-0436", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'It' dropped, 'and'->'in', 'end'->'in', 'a'->'the': more than 2 places"}
+{"id": "s2-W4-0437", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0438", "decision": "fix_clean", "clean": "echo\necho world", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R12"], "note": "'hello' missing from raw"}
+{"id": "s2-W4-0439", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0440", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'prorated'->'paraded', 'billing period' lost, 'is stored'->'restored', er->'Or', uh->'Well'"}
+{"id": "s2-W4-0441", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0442", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Thanks again'->'Than', 'move'->'mo'; not inferable"}
+{"id": "s2-W4-0443", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0444", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0445", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'blur'->'four', 'submit'->'submission'; raw-faithful target not sensible"}
+{"id": "s2-W4-0446", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0447", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0448", "decision": "fix_clean", "clean": "The service is available in three regions, and traffic is routed to the closest.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'one automatically' missing from raw"}
+{"id": "s2-W4-0449", "decision": "fix_clean", "clean": "Which vitamins should I take if I did not eat meat?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'did not', a sensible reading"}
+{"id": "s2-W4-0450", "decision": "accept", "reason": "ok"}

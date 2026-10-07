@@ -1,0 +1,22 @@
+{"id": "s2-W1-0345-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0350-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0375-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0382-r2", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw has SUMMY, 'make this short', 'past criterion', 'cases'; more than 2 places differ", "SUMMY, 'short', 'past', 'cases' all misheard"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0385-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0386-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0387-r2", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'backoff' heard as 'the cost', plus 'and you' and 'the warning'; not traceable", "'exponential the cost' for backoff, plus warning/and-you changes"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0406-r2", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'none of them' heard as 'now then', plus caught/from and contractions; too many places", "'none of them', 'cut', 'for me' garbled in 3 places"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0410-r2", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost 'that I can't tell if it's any good', 'and why' -> 'in Y', 'rewrite' -> 'but write'", "large span lost plus many mishearings"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0417-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0446-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0465-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0474-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0494-r2", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'pork' -> 'poor', 'skill' -> 'scale', 'Hi' -> 'I', contractions differ; too many places", "Hi, skill, pork, and an oven garbled in 4 places"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0011-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0028-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0040-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0060-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0116-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0125-r2", "decision": "fix_clean", "reasons": ["trailing_off", "dropped_by_recognizer"], "notes": ["raw lost 'for premium accounts'", "'for premium accounts' lost"], "auditors": ["A", "B"], "clean": "The maximum upload size is 20 MB."}
+{"id": "s2-W2-0138-r2", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0177-r2", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "raw empty"], "auditors": ["A", "B"]}

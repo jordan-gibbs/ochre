@@ -1,0 +1,50 @@
+{"id": "s2-W6-0001", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "find/signed lost", "auditor": "B"}
+{"id": "s2-W6-0003", "decision": "drop", "reason": "unrecoverable_meaning", "note": "As to regards; Best lost", "auditor": "B"}
+{"id": "s2-W6-0004", "decision": "fix_clean", "clean": "Dear Mr. Okafa,\n\nI am writing to confirm our call on Tuesday, October 6th.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name spelling from raw; 'at 10 AM' lost", "auditor": "B"}
+{"id": "s2-W6-0005", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah; 'the equation' for uh", "auditor": "B"}
+{"id": "s2-W6-0006", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0007", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0008", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'I want it, too' / 'Emma'", "auditor": "B"}
+{"id": "s2-W6-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pre ascends; third item marker lost", "auditor": "B"}
+{"id": "s2-W6-0010", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0011", "decision": "fix_clean", "clean": "Hi Danny Ella,\n\nThank you for sending over the proposal. We reviewed it with the team this morning and the pricing looks fine. The only thing we would like to change is the timeline. Can we start on November 2nd instead of October 19th?\n\nThanks,\nKen G.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "names from raw", "auditor": "B"}
+{"id": "s2-W6-0012", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Noe, and Noe residue for uh and uh", "auditor": "B"}
+{"id": "s2-W6-0013", "decision": "drop", "reason": "unrecoverable_meaning", "note": "claim number and greeting lost", "auditor": "B"}
+{"id": "s2-W6-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "math/Thumb/dedicating", "auditor": "B"}
+{"id": "s2-W6-0015", "decision": "fix_clean", "clean": "Hey Priya, can you check whether the vendor invoice for the printing job came through? I think it was around $840. I need to approve it before the end of that.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw ends 'end of that'", "auditor": "B"}
+{"id": "s2-W6-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "item 3 and export/CSV lost", "auditor": "B"}
+{"id": "s2-W6-0017", "decision": "fix_clean", "clean": "Dear Mr. Hadad,\n\nThe heating in my apartment, number 12B, has not worked since last Monday. I have called the maintenance line twice, on the 9th and the 14th, and nobody has come. Please arrange a repair this week.\n\nYours sincerely,\nAlina Rossi", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "names from raw", "auditor": "B"}
+{"id": "s2-W6-0018", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0019", "decision": "fix_clean", "clean": "Project update for the warehouse migration. Status is amber. We completed the data transfer for the northern region on the 22nd of September. Two days later than planned because the vendor delivered the scanners late. The southern region is now scheduled for the 6th of October, and we are holding the budget at about £480,000, which is roughly 3% under forecast. The main risk is staffing. We are still short two forklift operators, and I do not think we can hit the date without them. So I am asking the steering group to approve temporary hires. Decision needed by Friday, please.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'which was' lost; kept fragment as raw", "auditor": "B"}
+{"id": "s2-W6-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "flight no, date, baggage, rand garbled", "auditor": "B"}
+{"id": "s2-W6-0021", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0022", "decision": "drop", "reason": "garbage", "note": "raw empty", "auditor": "B"}
+{"id": "s2-W6-0023", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0024", "decision": "fix_clean", "clean": "Sorry for the delay. The signed contract is attached, and the first payment of $5,000 goes out on Monday.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "greeting lost as 'I come off'", "auditor": "B"}
+{"id": "s2-W6-0025", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'But' for 'Could'", "auditor": "B"}
+{"id": "s2-W6-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Fields/air/we said garbled", "auditor": "B"}
+{"id": "s2-W6-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "reschedule/to lost", "auditor": "B"}
+{"id": "s2-W6-0029", "decision": "fix_clean", "clean": "Dear Mrs. Jensen,\n\nMy son will be absent on Friday because of a dentist appointment.\n\nThank you,\nBaron Walsh", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name from raw", "auditor": "B"}
+{"id": "s2-W6-0030", "decision": "fix_clean", "clean": "Excited to share that I have joined Northland Logistics as head of operations.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "company from raw", "auditor": "B"}
+{"id": "s2-W6-0031", "decision": "fix_clean", "clean": "Hi, I am following up on purchase order 4417. We ordered 200 units of the standard bracket on the 2nd of September and they have not arrived. Your confirmation said delivery within 15 business days, which has now passed. Could you give me an updated delivery date? If the order is lost, let me know so we can reorder.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Or' lost", "auditor": "B"}
+{"id": "s2-W6-0032", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Brightpath, Nadia, Best garbled", "auditor": "B"}
+{"id": "s2-W6-0034", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0035", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'up there' for uh; H03 882", "auditor": "B"}
+{"id": "s2-W6-0036", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0037", "decision": "fix_clean", "clean": "My account was charged twice for the Pro plan on the 1st of October. I see two charges of $29 on my card ending in 4812, both say your company name. I only have one subscription. Can you refund one of them, please? My account email is jlee@fastmail.com.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken 'both say'", "auditor": "B"}
+{"id": "s2-W6-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hi, tier, deals, Port Authority, sign-off garbled", "auditor": "B"}
+{"id": "s2-W6-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Paul, rope, name, new paragraph garbled", "auditor": "B"}
+{"id": "s2-W6-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "attendee names lost", "auditor": "B"}
+{"id": "s2-W6-0041", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0042", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0043", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0044", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0045", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name, new, Kind lost", "auditor": "B"}
+{"id": "s2-W6-0047", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0048", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0049", "decision": "accept", "reason": "ok", "auditor": "B"}
+{"id": "s2-W6-0050", "decision": "accept", "reason": "ok", "auditor": "B"}

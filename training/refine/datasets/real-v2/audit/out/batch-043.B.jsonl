@@ -1,0 +1,50 @@
+{"id": "s2-W5-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0102", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0104", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0105", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'not' for uh"}
+{"id": "s2-W5-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0107", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'some' for um"}
+{"id": "s2-W5-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0110", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0111", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'her' for er; Indian->handy"}
+{"id": "s2-W5-0112", "decision": "drop", "reason": "unrecoverable_meaning", "note": "EOD lost, it/but"}
+{"id": "s2-W5-0113", "decision": "fix_clean", "clean": "Oh, Gee, did you hear about Maya and Daniel?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "OMG not inferable"}
+{"id": "s2-W5-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0116", "decision": "fix_clean", "clean": "I'll pay you when it's ready.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "ping heard as pay"}
+{"id": "s2-W5-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0118", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0122", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0123", "decision": "fix_clean", "clean": "Hey, can you tell Grandma that I will call her Sunday? You keep forgetting.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw says You"}
+{"id": "s2-W5-0124", "decision": "fix_clean", "clean": "Okay so I talked to Asha and she said we can move the launch to the 8th if design signs off by Monday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name from raw"}
+{"id": "s2-W5-0125", "decision": "drop", "reason": "unrecoverable_meaning", "note": "won't start lost"}
+{"id": "s2-W5-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0128", "decision": "fix_clean", "clean": "Yep, I can pick that up. Send me the details and I'll get started after the call.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw Yep"}
+{"id": "s2-W5-0129", "decision": "fix_clean", "clean": "Have you free later? I was thinking we could walk the dogs or something.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Hey heard as Have"}
+{"id": "s2-W5-0130", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dust, then, child, em"}
+{"id": "s2-W5-0131", "decision": "fix_clean", "clean": "Okay so the plan is we meet at the station at... wait, is it 8 or 8:30?", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw Okay"}
+{"id": "s2-W5-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0133", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0134", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0136", "decision": "drop", "reason": "unrecoverable_meaning", "note": "He sent / denotes"}
+{"id": "s2-W5-0137", "decision": "fix_clean", "clean": "It's Yuki, my new number, save it please.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "Hey lost"}
+{"id": "s2-W5-0138", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0140", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0141", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'thought' for uh"}
+{"id": "s2-W5-0142", "decision": "fix_clean", "clean": "The build is red again, I think somebody pushed him in without running the tests.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "to main lost"}
+{"id": "s2-W5-0143", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most content lost"}
+{"id": "s2-W5-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0146", "decision": "drop", "reason": "unrecoverable_meaning", "note": "meeting/then to five garbled"}
+{"id": "s2-W5-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0148", "decision": "drop", "reason": "unrecoverable_meaning", "note": "vet, to, him: too many places"}
+{"id": "s2-W5-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0150", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,50 @@
+{"id": "s4-W45-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lunch' lost; raw 'were you grabbing when you were what' garbled"}
+{"id": "s4-W45-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'Do the mortgage rates thinks.' lost most of the message"}
+{"id": "s4-W45-0003", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lol' heard as 'Wall'; not inferable and keeping it is not sensible"}
+{"id": "s4-W45-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'No, on but on tacos' garbled"}
+{"id": "s4-W45-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0008", "decision": "fix_clean", "clean": "That was kind of a mess, honestly.", "reason": "dropped_by_recognizer", "note": "'Ha' absent from raw"}
+{"id": "s4-W45-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0010", "decision": "fix_clean", "clean": "Park, you know the guy from the hardware store, right?", "reason": "unrecoverable_word", "note": "Tariq heard as 'Park', not in dictionary"}
+{"id": "s4-W45-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I mean it' became 'I mean an'; meaning not recoverable"}
+{"id": "s4-W45-0013", "decision": "fix_clean", "clean": "Gonna grab coffee, Earbie.", "reason": "unrecoverable_word", "note": "'brb' heard as 'Earbie'; not inferable"}
+{"id": "s4-W45-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected name lost ('no one has has')"}
+{"id": "s4-W45-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0016", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W45-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Layla, 'slam', 'Lal' for lol: too many unrecoverable places"}
+{"id": "s4-W45-0019", "decision": "fix_clean", "clean": "You know what, I'm gonna skip the happy hour. I'm kind of wiped from the taxis and stuff.", "reason": "unrecoverable_word", "note": "'tax season' heard as 'taxis and'"}
+{"id": "s4-W45-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0024", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Ugh' -> 'Of', 'fried' -> 'far eyed', the -> a"}
+{"id": "s4-W45-0025", "decision": "fix_clean", "clean": "No, I haven't tried the new sandwich place yet. Is it actually good or just hype?", "reason": "unrecoverable_word", "note": "raw has 'hype' not 'hyped'"}
+{"id": "s4-W45-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0032", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W45-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'or the broker's gonna' heard as 'of the brokers can'"}
+{"id": "s4-W45-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Tariq heard as 'Tar it', not in dictionary; not sensible"}
+{"id": "s4-W45-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'it's for tomorrow' became 'in the fridge. Tomorrow.'"}
+{"id": "s4-W45-0040", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W45-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated after 'postgrews'"}
+{"id": "s4-W45-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0045", "decision": "fix_clean", "clean": "Mai, I mean, yes, I can cover your shift but you owe me big time.", "reason": "unrecoverable_word", "note": "raw has 'yes' for 'yeah'"}
+{"id": "s4-W45-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0048", "decision": "fix_clean", "clean": "Right, so the plan is we meet at the bar at 8, and we walk over together.", "reason": "unrecoverable_word", "note": "raw has 'and' for 'then'"}
+{"id": "s4-W45-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Laila, the line at the urgent' heard as 'La Line that the urging'"}
+{"id": "s4-W45-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dude, you' merged into 'Deju'; plus 'sort' vs 'sorted'"}

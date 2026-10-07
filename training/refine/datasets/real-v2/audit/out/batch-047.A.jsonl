@@ -1,0 +1,50 @@
+{"id": "s2-W5-0301", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' decoded as real word 'on'"}
+{"id": "s2-W5-0302", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0303", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dentist appointment...ninth' became 'disappointment...night'"}
+{"id": "s2-W5-0304", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'wifi' became 'why? My', plus added 'it's'"}
+{"id": "s2-W5-0305", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W5-0306", "decision": "fix_clean", "clean": "Thinking about switching to a standing desk, need to measure.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'the corner first' lost"}
+{"id": "s2-W5-0307", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0308", "decision": "fix_clean", "clean": "Tell the coach that Ayo is out for the next 2 games, ligament maybe.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'torn' lost"}
+{"id": "s2-W5-0309", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0310", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0311", "decision": "fix_clean", "clean": "Fishing spot: the pier past the lighthouse, best at dawn, bring the red lure.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has singular 'lure'"}
+{"id": "s2-W5-0312", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'call back' became 'Paul Bath'"}
+{"id": "s2-W5-0313", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0314", "decision": "fix_clean", "clean": "Dear Ulf, please find the minutes attached.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'all' heard as name 'Ulf'"}
+{"id": "s2-W5-0315", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0316", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0317", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0318", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0319", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'um could' became 'Did', request turned into factual question"}
+{"id": "s2-W5-0320", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0321", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' decoded as name 'Inga'"}
+{"id": "s2-W5-0322", "decision": "fix_clean", "clean": "Hi Dr. O'Gaffer, I would like to reschedule my appointment from the 11th to the 18th, if possible.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw 'O'Gaffer'"}
+{"id": "s2-W5-0323", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0324", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; 'for the short' also lost"}
+{"id": "s2-W5-0325", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0326", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0327", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0328", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0329", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ugh' became 'Oh go'"}
+{"id": "s2-W5-0330", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0331", "decision": "fix_clean", "clean": "You are free around... never mind, I will just message you tomorrow.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'if' lost"}
+{"id": "s2-W5-0332", "decision": "fix_clean", "clean": "Okay, that is it for me, have a good weekend all.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s2-W5-0333", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0334", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Nkechi' became 'and Catch High'"}
+{"id": "s2-W5-0335", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the dictation lost"}
+{"id": "s2-W5-0336", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'who who' became 'Ugu', question became statement"}
+{"id": "s2-W5-0337", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; 'love' lost"}
+{"id": "s2-W5-0338", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W5-0339", "decision": "fix_clean", "clean": "We could try that new ramen place.", "reason": "trailing_off", "rules": ["R4"], "note": "raw ends with a full stop; trailing off not visible"}
+{"id": "s2-W5-0340", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0341", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0342", "decision": "fix_clean", "clean": "I love the way you handle that, honestly.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'handle'"}
+{"id": "s2-W5-0343", "decision": "fix_clean", "clean": "No, no, I have not seen.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'nope' heard as 'No', 'it' lost"}
+{"id": "s2-W5-0344", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0345", "decision": "fix_clean", "clean": "Okay, bet.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s2-W5-0346", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' decoded as 'but'; 'hey' also lost"}
+{"id": "s2-W5-0347", "decision": "fix_clean", "clean": "So the patient intake form is still showing the old insurance field. I really will push a fix after lunch.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "repeat decoded as plausible content word 'really'"}
+{"id": "s2-W5-0348", "decision": "fix_clean", "clean": "I am gonna be honest, I do not think that the vendor is going to deliver before the holidays.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "false-start 'the' decoded as content word 'that'"}
+{"id": "s2-W5-0349", "decision": "fix_clean", "clean": "John, can you cover the front desk from noon to 2? I have a delivery coming that I have to sign for.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw 'John'"}
+{"id": "s2-W5-0350", "decision": "accept", "reason": "ok"}

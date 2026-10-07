@@ -1,0 +1,50 @@
+{"id": "s2-W2-0201", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0202", "decision": "accept", "reason": "ok", "note": "'Oh' is an interjection residue of uh"}
+{"id": "s2-W2-0203", "decision": "drop", "reason": "unrecoverable_meaning", "note": "the 2am->4am correction is lost entirely and cutover became 'shootover'"}
+{"id": "s2-W2-0204", "decision": "fix_clean", "clean": "Hi Bria, thanks for sending over the draft agreement. I read it last night and overall it looks good. Well, I have a couple of questions about the payment terms. Specifically, the net 45 clause seems different from what we discussed on the call. Could we hop on a quick call tomorrow to sort it out?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary: raw 'Bria'; 'but' became 'Well'"}
+{"id": "s2-W2-0205", "decision": "drop", "reason": "unrecoverable_meaning", "note": "notes lost, team->king, pricing->price and, 'are in next sync'->'are annexed same'"}
+{"id": "s2-W2-0206", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to use Flask for the backend' and 'walk me through' garbled beyond recovery"}
+{"id": "s2-W2-0207", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value nine became 'now'; drop off -> chop off"}
+{"id": "s2-W2-0208", "decision": "accept", "reason": "ok", "note": "PTF->PDF and 'apprecies'->app freezes inferable in context"}
+{"id": "s2-W2-0209", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0210", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to the dead letter queue do not change these numbers without talking' lost"}
+{"id": "s2-W2-0211", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said; also 'buttons' for uh"}
+{"id": "s2-W2-0212", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in the morning' became 'that more. Warning'"}
+{"id": "s2-W2-0213", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0214", "decision": "accept", "reason": "ok", "note": "restart merged acceptably; 'it's it's a work' -> it to work"}
+{"id": "s2-W2-0215", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'with a story about the first customer' lost"}
+{"id": "s2-W2-0216", "decision": "accept", "reason": "ok", "note": "ER/UM M residue in raw are non-word blips"}
+{"id": "s2-W2-0217", "decision": "fix_clean", "clean": "I wanted to say thanks for covering my shift yesterday. I mean it, you really saved me. I actually would have missed my daughter's recital otherwise. Let me know when I can return the favor.", "reason": "guide_violation", "rules": ["R6"], "note": "missing apostrophe in daughter's"}
+{"id": "s2-W2-0218", "decision": "fix_clean", "clean": "Sorry for the delay in getting back to you. I was out of the office all week. I actually read your proposal on the plane and I think it is a strong start. Can we talk on Monday about next steps?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hi Lena' became 'I'; name not recoverable"}
+{"id": "s2-W2-0219", "decision": "drop", "reason": "script_defect", "note": "target invents 'cd project &&' command form never spoken; raw also garbled ('stage in the')"}
+{"id": "s2-W2-0220", "decision": "drop", "reason": "unrecoverable_meaning", "note": "accented->'acts of the', 'with an accent'->'with an X of'"}
+{"id": "s2-W2-0221", "decision": "drop", "reason": "unrecoverable_meaning", "note": "budget amount and rest of sentence lost; 'Wow.' residue"}
+{"id": "s2-W2-0222", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'talked to the client about the scope' garbled"}
+{"id": "s2-W2-0223", "decision": "drop", "reason": "unrecoverable_meaning", "note": "correction cue merged into 'Nob'; corrected code AB747 not reliably recoverable"}
+{"id": "s2-W2-0224", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value almonds became 'owns'"}
+{"id": "s2-W2-0225", "decision": "accept", "reason": "ok", "note": "'Bill Dust' inferable as build, test from the stage names later in raw"}
+{"id": "s2-W2-0226", "decision": "drop", "reason": "unrecoverable_meaning", "note": "render->'everyone with', log->walk"}
+{"id": "s2-W2-0227", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Summary/round/'out of'->add and dropped article: 3+ speculative places"}
+{"id": "s2-W2-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0229", "decision": "fix_clean", "clean": "Dear Dr. Patel, thank you for taking the time to meet with me last week. As discussed, I have attached my updated resume and a list of references. Please let me know if you need anything else. I look...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends on 'I look'"}
+{"id": "s2-W2-0230", "decision": "fix_clean", "clean": "Feature request, add a dark mode toggle to the settings page. Many users have asked for it in the feedback form. The toggle should remember the choice across sessions and respect the system setting by default. They think this is a medium effort ticket, maybe five points.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'feedback form' and 'they think'"}
+{"id": "s2-W2-0231", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0232", "decision": "fix_clean", "clean": "The customer is asking why their invoice shows two charges. Looking at the system, it seems like the retry logic charged them twice. I will refund the duplicate today and file the bug. The amount is $49.99.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'file the bug'"}
+{"id": "s2-W2-0233", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi all' became 'I ball' plus missing apostrophe and undigitized times: fix exceeds 2 places"}
+{"id": "s2-W2-0234", "decision": "fix_clean", "clean": "Step one, open the terminal. Step two, navigate to the project directory. Step three, run the install command with the --force flag to overwrite old files.", "reason": "guide_violation", "rules": ["R2"], "note": "'step four sorry step three' restarts step three; first version is superseded"}
+{"id": "s2-W2-0235", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I mean' cue became 'and in', board->budget correction no longer readable"}
+{"id": "s2-W2-0236", "decision": "accept", "reason": "ok", "note": "Dest/Baggage Plain inferable in airport context"}
+{"id": "s2-W2-0237", "decision": "drop", "reason": "unrecoverable_meaning", "note": "eleven am and 'to the parking lot when' lost"}
+{"id": "s2-W2-0238", "decision": "drop", "reason": "unrecoverable_meaning", "note": "batch->bash/dash, errors->airs, more than 2 places"}
+{"id": "s2-W2-0239", "decision": "accept", "reason": "ok", "note": "write/right homophone, zero four->for; amendment kept by author"}
+{"id": "s2-W2-0240", "decision": "fix_clean", "clean": "Average cost of a kitchen remodel in the Midwest for a full kitchen under 200 square feet", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'full kitchen'"}
+{"id": "s2-W2-0241", "decision": "accept", "reason": "ok", "note": "'All with the vendor' read as Call in notes context"}
+{"id": "s2-W2-0242", "decision": "fix_clean", "clean": "I would like to return the blender I bought last month. It stopped working after just two uses. I have the receipt and the original box. Please tell me how to start the return or the exchange, whichever is faster.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'hello' absent from raw"}
+{"id": "s2-W2-0243", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0244", "decision": "fix_clean", "clean": "Hi team, I wanted to follow up on yesterday's discussion. I am proposing that we hold the review on the 6th to give everyone more time to prep. Please reply by end of day if that does not work. Thanks.", "reason": "guide_violation", "rules": ["R6"], "note": "missing apostrophe in yesterday's"}
+{"id": "s2-W2-0245", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0246", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated and garbled after the first clause"}
+{"id": "s2-W2-0247", "decision": "fix_clean", "clean": "Gym plan. Monday chest and triceps. Tuesday back and biceps. Wednesday rest day, and legs on Thursday. Friday shoulders and abs.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'and' where 'then' was said"}
+{"id": "s2-W2-0248", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0249", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value six lost ('No. Snake. Should be.')"}
+{"id": "s2-W2-0250", "decision": "accept", "reason": "ok", "note": "'Nigh' residue not read as content; extra 'and's are artefacts"}

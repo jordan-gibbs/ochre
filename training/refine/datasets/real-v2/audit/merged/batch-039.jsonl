@@ -1,0 +1,38 @@
+{"id": "s2-W4-0402", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0403", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0404", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0407", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0408", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0409", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0411", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0413", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'project' singular", "raw 'project'"], "auditors": ["A", "B"], "clean": "cd ~/project/blog\ngit pull\nnpm install\nnpm run build"}
+{"id": "s2-W4-0414", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0415", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost the whole source line and most of the commands", "raw lost source/activate lines"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0416", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0418", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw is only 'Time plus thirty desolate.'", "garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0419", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["raw is unrelated text; command entirely lost", "raw unrelated"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0421", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0422", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["author 'maria' heard as 'for you'; not inferable", "name maria lost"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0423", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'helppipe': path 'help', not 'health'", "raw 'helppipe'"], "auditors": ["A", "B"], "clean": "curl -s https://api.example.com/help | jq .status"}
+{"id": "s2-W4-0424", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0425", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0426", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Kavita->Kabir, 'signed forms'->'sign for', sign-off name Tim lost: 3 places", "name, time, forms garbled; Tim lost"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0427", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0429", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'a quiet morning'->'Of Quiet Morning', 'with Max'->'of Max'; raw-faithful target is not a sensible note", "'of Max', 'Of Quiet' not inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0430", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the' and 'but it' dropped, 'narrower than'->'narrow with': 3 places", "lost 'narrower than', 'the', 'but it'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0431", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0432", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0433", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0437", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0438", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'hello' missing from raw", "'hello' lost"], "auditors": ["A", "B"], "clean": "echo\necho world"}
+{"id": "s2-W4-0439", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0440", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'prorated'->'paraded', 'billing period' lost, 'is stored'->'restored', er->'Or', uh->'Well'", "lost 'billing period', 'is stored' garbled, 'Well'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0441", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0443", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0444", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0445", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'blur'->'four', 'submit'->'submission'; raw-faithful target not sensible", "'blur' lost, 'on four'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0446", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0447", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0448", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'one automatically' missing from raw", "'one automatically' lost"], "auditors": ["A", "B"], "clean": "The service is available in three regions, and traffic is routed to the closest."}
+{"id": "s2-W4-0449", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'did not', a sensible reading", "raw 'did'"], "auditors": ["A", "B"], "clean": "Which vitamins should I take if I did not eat meat?"}
+{"id": "s2-W4-0450", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

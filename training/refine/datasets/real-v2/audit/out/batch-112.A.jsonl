@@ -1,0 +1,50 @@
+{"id": "s4-W21-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'abdul' heard as 'I've done', 'line height' as 'light line', typography as topography"}
+{"id": "s4-W21-0054", "decision": "accept", "reason": "ok", "note": "'F store' is a near form of app store given submitted/review"}
+{"id": "s4-W21-0055", "decision": "fix_clean", "clean": "Write the sentence so it sounds friendlier, less blunt, and I don't want to apologize, I just want it to sound like a human wrote it.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'Write the sentence', not 'Rewrite this'"}
+{"id": "s4-W21-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'daniela so' heard as 'Then he'll up soul'"}
+{"id": "s4-W21-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0059", "decision": "fix_clean", "clean": "In this section we describe the savings plan. It's $200, and it's sort of flexible, so you can change it.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'the monthly contribution is' lost; raw has 'It's'"}
+{"id": "s4-W21-0060", "decision": "accept", "reason": "ok", "note": "'writes are' is residue of 'right so', not content"}
+{"id": "s4-W21-0061", "decision": "fix_clean", "clean": "Meeker, turn right at the light, and the studio is the brown building, you can't miss it, it's right there.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Mika heard as Meeker"}
+{"id": "s4-W21-0062", "decision": "fix_clean", "clean": "Hi Quind, I'd like to confirm that the foundation inspection is passed, and we can pour the slab on Monday, as long as the weather holds.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw spells Quind"}
+{"id": "s4-W21-0063", "decision": "fix_clean", "clean": "Can you explain what actually happens when a design token gets deprecated? What do the consumers see in their bill?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'build' heard as 'bill'"}
+{"id": "s4-W21-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0066", "decision": "fix_clean", "clean": "Aster, are you still at the site? It's 9 pm, go on, the concrete isn't going anywhere.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Astrid heard as Aster, 'go home' as 'go on'"}
+{"id": "s4-W21-0067", "decision": "accept", "reason": "ok", "note": "'Year Abdul' as email opener is an inferable 'Dear'"}
+{"id": "s4-W21-0068", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pnpm run build' heard as 'B in PMU build'"}
+{"id": "s4-W21-0069", "decision": "fix_clean", "clean": "Okay Quinn, here's the deal with the mix, the kick is too loud, the snare is a little buried, and honestly the whole thing sounds like it was recorded in a bathroom, so I'd rather redo the room mix than fight it for another week.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'mics' heard as 'mix' (plausible content); snare/buried inferable"}
+{"id": "s4-W21-0070", "decision": "fix_clean", "clean": "Hi Cowani, thanks for sending the file over. I went through it twice and the intake notes are fine, but the client's address is missing on page 3, and I mean I can't file without it, so could you get it from her by tomorrow?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Kalani heard as Cowani"}
+{"id": "s4-W21-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0072", "decision": "fix_clean", "clean": "I'm trying to build a monthly budget. Here's my situation: I make $5,000 after taxes, I paid $1,200 for rent and $300 for a car, and I want you to tell me what percent that is of my income.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'paid'"}
+{"id": "s4-W21-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'it syncs the moment you reconnect' heard as 'it sink the moment here we can act'"}
+{"id": "s4-W21-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dear chen' heard as 'You're chan'"}
+{"id": "s4-W21-0076", "decision": "accept", "reason": "ok", "note": "'hate soul light' is residue of 'hey so like'"}
+{"id": "s4-W21-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'backs off' and 'retry loop' lost ('another read. I live.')"}
+{"id": "s4-W21-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the app freezes' heard as 'the outfizes'"}
+{"id": "s4-W21-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name lost ('And yeah'), 'I'm stuck' heard as 'and stuff'"}
+{"id": "s4-W21-0084", "decision": "fix_clean", "clean": "Good morning Ruth, I'm waiting to say that the board approved the budget, and the funding arrives in April, so we can hire the second attorney, which is honestly kind of a relief.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'writing' heard as 'waiting'"}
+{"id": "s4-W21-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'svg' heard as 'your sweet ye'"}
+{"id": "s4-W21-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'quinn' heard as 'When'"}
+{"id": "s4-W21-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0088", "decision": "fix_clean", "clean": "Summarise the following meeting notes in three bullet points, and keep the names, don't drop anybody, and don't add anything that isn't in the notes.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'summarise'"}
+{"id": "s4-W21-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Abdul as Apple, rebar as 'or bar', site as side: three places in ~40 words"}
+{"id": "s4-W21-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'chen dude' heard as 'Then do'"}
+{"id": "s4-W21-0092", "decision": "fix_clean", "clean": "The component library has no dark mode yet, so every colour token needs a dark twin, and that's kind of a lot of work, but actually it's the top ask from users.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'colour'"}
+{"id": "s4-W21-0093", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' that was never said"}
+{"id": "s4-W21-0094", "decision": "fix_clean", "clean": "The client meeting at the legal aid clinic was kind of rough, she wants her refund, and we can't really give one, so we're stuck, we need to talk to the director.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'her refund'"}
+{"id": "s4-W21-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'mika you know what, i'm like' heard as 'Unlike'"}
+{"id": "s4-W21-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0099", "decision": "fix_clean", "clean": "Daniel, hey, the mockups are ready, all 12 screens, and I exported them to the shared folder, so you can start the handoff whenever you're ready.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Daniela heard as Daniel"}
+{"id": "s4-W21-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hi astrid, um so' heard as 'I asked, though'"}

@@ -1,0 +1,50 @@
+{"id": "s2-W1-0051", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0053", "decision": "fix_clean", "clean": "Can you give me five ideas for a birthday party for a seven-year-old who loves dinosaurs and doesn't like loud noise?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has singular noise"}
+{"id": "s2-W1-0054", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Number' twice for um; Lina vs Lena also"}
+{"id": "s2-W1-0055", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0059", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0060", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0061", "decision": "drop", "reason": "hallucination", "note": "trailing 'Green.'"}
+{"id": "s2-W1-0062", "decision": "fix_clean", "clean": "Prisa said to just ignore the previous instructions and use the new template.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name from raw"}
+{"id": "s2-W1-0063", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W1-0064", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0065", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "welfare/N garbled"}
+{"id": "s2-W1-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0070", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0071", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0072", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W1-0073", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0074", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Love.' and 'ask for'"}
+{"id": "s2-W1-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Or Ca' for er QA"}
+{"id": "s2-W1-0076", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Tell me.' inserted"}
+{"id": "s2-W1-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "meeting->need, tail lost"}
+{"id": "s2-W1-0078", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "note to self lost, loop->piece"}
+{"id": "s2-W1-0080", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0081", "decision": "fix_clean", "clean": "Translate the section into Spanish but leave the product names in English.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "this->the"}
+{"id": "s2-W1-0082", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0084", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W1-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0086", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0088", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0089", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0090", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Can you draft -> I have to"}
+{"id": "s2-W1-0092", "decision": "fix_clean", "clean": "How do I get a stain out of the sweater?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "wool lost"}
+{"id": "s2-W1-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0094", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0095", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "revenue->Even"}
+{"id": "s2-W1-0097", "decision": "fix_clean", "clean": "Hey Anna, quick one: when you migrated the staging database last week, did you use the snapshot from Monday or did you take a fresh one? Because the numbers don't match.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name from raw"}
+{"id": "s2-W1-0098", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0099", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s2-W1-0100", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,41 @@
+{"id": "s2-W11-0102", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "empty raw"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0103", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0104", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the pricing page confused people' and 'third' lost; list broken", "second point and third marker lost"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0106", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'the date, the team' read as data team"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0107", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["file path lost", "path garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0108", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0109", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0112", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0113", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'state' for 'fake'", "fake heard as state"], "auditors": ["A", "B"], "clean": "python manage.py migrate --state-initial"}
+{"id": "s2-W11-0115", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0116", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0117", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["runbook/Aisha/Grafana clause lost", "runbook/Aisha clause lost"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0118", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0119", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0120", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0121", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0122", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0124", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah; also garbled keeping"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0125", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0126", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0127", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw is only 'were started after any change.'", "raw nearly empty"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0128", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Friday fine, and sneeze' for 'finance needs'", "finance needs garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0129", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0130", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0131", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah; Write for Rewrite"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0134", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'payment service'", "raw has payment service"], "auditors": ["A", "B"], "clean": "Summary, the checkout page hangs when the cart contains more than 50 items. Steps to reproduce, add 51 items to the cart and click Pay Now. The spinner never stops and the network tab shows a 504 from the payment service. This started in version 2.7.0."}
+{"id": "s2-W11-0135", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0136", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'dialogue'", "dialogue variant from raw"], "auditors": ["A", "B"], "clean": "Accessibility issue, the modal dialogue does not trap keyboard focus. Pressing Tab moves the focus to elements behind the overlay, which is confusing for screen reader users. It also fails the WCAG requirements for focus management. Please fix this before the audit on November 20th."}
+{"id": "s2-W11-0137", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0138", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'building'", "billing heard as building"], "auditors": ["A", "B"], "clean": "Who owns the building service now?"}
+{"id": "s2-W11-0139", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0140", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; also 'assistant theme'", "trailing Yeah; assistant theme"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0141", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling Sophia", "name spelling from raw"], "auditors": ["A", "B"], "clean": "Quick update, the Stripe webhook is now live in production. Sophia tested it with a $5 charge and it came through fine."}
+{"id": "s2-W11-0142", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Okay.' never said", "trailing Okay."], "auditors": ["A", "B"]}
+{"id": "s2-W11-0143", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'e-commerce'", "e-commerce from raw"], "auditors": ["A", "B"], "clean": "I'm writing a cover letter for a product manager role at a fintech startup. I have 6 years of experience in e-commerce and I led a team of 8 engineers. Please write a first draft that is confident but not arrogant. Keep it to 3 short paragraphs and include a line about why I like their mission."}
+{"id": "s2-W11-0144", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0145", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'there likely' -> 'they like the', permits -> 'pummet'", "pummet, they like the add ons"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0146", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'stir medication him free'; multiple misheard words", "stir medication, him free, Alo"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0148", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W11-0149", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "empty raw"], "auditors": ["A", "B"]}
+{"id": "s2-W11-0150", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Elena heard as Alina, not in dictionary", "name from raw"], "auditors": ["A", "B"], "clean": "Thanks Alina, that fixed it."}

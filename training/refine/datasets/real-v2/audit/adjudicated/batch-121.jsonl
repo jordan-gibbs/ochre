@@ -1,0 +1,5 @@
+{"id": "s4-W28-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "neither: 'A Solina said' has no sensible target; A deleted a raw word, B kept nonsense"}
+{"id": "s4-W28-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: Nidou + stray 'in' + 'manay' exceed 2 places in 13 words"}
+{"id": "s4-W28-0033", "decision": "fix_clean", "clean": "Member is Mr. Haji True, account ending in 419.", "reason": "number_value", "note": "A: number value 419 and name from raw; still sensible"}
+{"id": "s4-W28-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'called five' for Thuy is not sensible"}
+{"id": "s4-W28-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Why is covering' is not sensible"}

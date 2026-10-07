@@ -1,0 +1,7 @@
+{"id": "s2-W9-0051", "decision": "fix_clean", "clean": "Now, I think we should go with the cheaper one, it looks like it does the same thing.", "reason": "unrecoverable_word", "note": "raw 'Now' for 'nah'; minimal edit keeps the author's comma (sided with A); self-correction still resolvable"}
+{"id": "s2-W9-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lol' heard as 'Well'; applying 'no wait seven' leaves a preamble-only fragment with no point and ambiguous '?'; torn fix vs drop -> drop"}
+{"id": "s2-W9-0072", "decision": "drop", "reason": "hallucination", "note": "raw ends with unspoken trailing 'but'; target would teach deleting a real word (sided with A)"}
+{"id": "s2-W9-0082", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh so' heard as content word 'Though' (sided with B)"}
+{"id": "s2-W9-0086", "decision": "fix_clean", "clean": "Hey, can you take a look at the failing test? It's the login one.", "reason": "guide_violation", "note": "'?' belongs on the request clause; 'it's the login one' is a statement (sided with B)"}
+{"id": "s2-W9-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bug' heard as 'book'; following raw gives a nonsensical dictation (sided with A)"}
+{"id": "s2-W9-0095", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh so' heard as content word 'though' (sided with B)"}

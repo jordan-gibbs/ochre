@@ -1,0 +1,40 @@
+{"id": "s2-W6-0202", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0203", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0204", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0205", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'works in chrome' missing from raw", "'works in chrome' absent from raw"], "auditors": ["A", "B"], "clean": "The cancel button on the billing page does nothing in Safari 15."}
+{"id": "s2-W6-0206", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0207", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0208", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0209", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Why printer paper stance' - buy/stamps lost", "'Why printer paper stance' garbles buy/stamps"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0210", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has real place name 'Waterdown'"], "auditors": ["A", "B"], "clean": "Just to confirm, the shipment left Waterdown on the 6th and should arrive in Durban around the 24th."}
+{"id": "s2-W6-0211", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Meridian Health -> 'Mary and Hell', 'if' dropped changes meaning", "company name, 'sweet', dropped 'if'"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0212", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["roles->walls/rules, editors->actors, viewers->users; too many errors", "roles heard as rules/actors/walls in many places"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0213", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0216", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "guide_violation"], "notes": ["'Hello' became 'Oh.'; raw spells 'neighbors'", "'Hello' not in raw; neighbors spelling from raw"], "auditors": ["A", "B"], "clean": "My parcel tracking number is JD01465829. It was supposed to be delivered on the 1st. It shows as delivered, but I never received it. I checked with my neighbors and nobody has it. The photo you sent shows a door that is not mine. Please investigate and either find the parcel or refund the order, which was worth €240."}
+{"id": "s2-W6-0218", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Silva/new paragraph merged, clauses lost, multiple errors", "Silva, dropped sentence, many losses"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0219", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["attendee names and several words garbled", "attendee names garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0221", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0222", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'call the bank' lost", "call the bank lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0225", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0226", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0227", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah' never said", "trailing 'Yeah.' and 'No,' from noise"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0228", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["undictated paragraph break; raw has 'inquire'", "undictated line break; inquire per raw"], "auditors": ["A", "B"], "clean": "Dear Sir or Madam, I am writing to inquire about the availability of your conference room for the 12th of December."}
+{"id": "s2-W6-0229", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0230", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["final clause missing from raw"], "auditors": ["A", "B"], "clean": "We are looking at roughly 40 to 50% growth next year."}
+{"id": "s2-W6-0232", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'if the card is declined' missing from raw", "'if the card is declined' lost"], "auditors": ["A", "B"], "clean": "Error handling for the payment form. We show a message saying the card was declined and suggest trying another card. If the network drops during payment, we show a retry button, and we do not charge the card twice. This is important. We need idempotency keys on every payment request. If the postcode does not match, we allow the payment but flag it for review."}
+{"id": "s2-W6-0233", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0234", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["salutation, invoice, amount, could, sent all garbled", "Dear, invoice, sent, could you all garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0235", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["budget clause and retracted value lost", "budget sentence and retracted value lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0237", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["item two lost and item three garbled", "list item two lost, 'routine' for 'your team'"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0239", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Ola->over, HR->our, Your->Our, AM lost; too many", "Ola, HR, team, Your/Our, AM lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0240", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["pothole->autal, invoice->inways, AVID; too many", "pothole, invoice, David garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0241", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0242", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0243", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw is only 'Machine.'", "raw is only 'Machine.'"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0244", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0245", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "guide_violation"], "notes": ["'hey' lost; raw 'A sha'", "'Hey' not in raw"], "auditors": ["A", "B"], "clean": "Asha, can you share the slides before tomorrow's standup, the ones from the vendor demo?"}
+{"id": "s2-W6-0246", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0247", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0248", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0249", "decision": "fix_clean", "reasons": ["guide_violation", "dropped_by_recognizer"], "notes": ["'version' was said and is in raw", "'version' dropped from clean"], "auditors": ["A", "B"], "clean": "Email notifications are being sent twice for every comment, starting from release version 5.8."}
+{"id": "s2-W6-0250", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["names, lake view, check-in clause, signature lost", "hotel name, check in, AM, sender name lost"], "auditors": ["A", "B"]}

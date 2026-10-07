@@ -1,0 +1,50 @@
+{"id": "s2-W2-0051", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0052", "decision": "accept", "reason": "ok", "note": "repeated 'three dot' reads as a stutter; 3.12 inferable"}
+{"id": "s2-W2-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'mom' lost ('no way tomorrow')"}
+{"id": "s2-W2-0054", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0055", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W2-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'contract' heard as 'contrary'; target not inferable"}
+{"id": "s2-W2-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0059", "decision": "fix_clean", "clean": "Maybe too late.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R3"], "note": "'it is' absent from raw"}
+{"id": "s2-W2-0060", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um is dep-' became real words 'This step'"}
+{"id": "s2-W2-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0062", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0063", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0064", "decision": "fix_clean", "clean": "Hey, can you move the retro to Thursday at 3?", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R6"], "note": "'so that Dave can join' absent from raw"}
+{"id": "s2-W2-0065", "decision": "fix_clean", "clean": "Hey, I'm almost there. Actually, I am stuck behind the truck, so give me 10 minutes.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has I'm and 'the truck'"}
+{"id": "s2-W2-0066", "decision": "fix_clean", "clean": "Write a short product description for stainless steel water bottles that keeps drinks cold for 24 hours.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw dropped 'a' and has 'bottles'"}
+{"id": "s2-W2-0067", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W2-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled in many places (Bucker, net P, to P, colons lost)"}
+{"id": "s2-W2-0070", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0071", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'QA' heard as 'cop', 'um then' as 'Ben'"}
+{"id": "s2-W2-0072", "decision": "fix_clean", "clean": "I think I am going skip the party tonight. I am just too tired.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'to' absent from raw"}
+{"id": "s2-W2-0073", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0074", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0075", "decision": "fix_clean", "clean": "Meeting with the landlord on the 13th at 9:00.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'am' absent from raw"}
+{"id": "s2-W2-0076", "decision": "fix_clean", "clean": "We cache the result for 60 seconds, not 30, to reduce load on the database.", "reason": "guide_violation", "rules": ["R10"], "note": "'not thirty' is contrastive content, not a correction"}
+{"id": "s2-W2-0077", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W2-0078", "decision": "fix_clean", "clean": "Can you ping Lena about the contract? She has the latest version.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Lena' twice; 'Lina' not inferable"}
+{"id": "s2-W2-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0080", "decision": "fix_clean", "clean": "I need a recipe for lasagna that serves eight people that does not use meat.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'that' for 'and'"}
+{"id": "s2-W2-0081", "decision": "fix_clean", "clean": "Let me know if you have any concerns before the 30th.", "reason": "guide_violation", "rules": ["R2"], "note": "'or rather' is a correction cue; keep only the corrected 'any concerns'"}
+{"id": "s2-W2-0082", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0084", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0086", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0087", "decision": "fix_clean", "clean": "I actually think the new design is better than the old one. This spacing is cleaner.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'this spacing'"}
+{"id": "s2-W2-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in' heard as 'And', 'soon' lost / heard as 'in'"}
+{"id": "s2-W2-0089", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'CI' heard as 'sign' and 'you merge' lost"}
+{"id": "s2-W2-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is just 'Right.'"}
+{"id": "s2-W2-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0094", "decision": "fix_clean", "clean": "Hi team, just a quick update: the launch is on track, actually slightly ahead of schedule.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'and' absent from raw"}
+{"id": "s2-W2-0095", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0096", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' transcribed as real word 'up'"}
+{"id": "s2-W2-0097", "decision": "fix_clean", "clean": "I will send the notes before lunch because I have a call.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'at one' absent from raw"}
+{"id": "s2-W2-0098", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0099", "decision": "fix_clean", "clean": "Book club next month: the book is Puranissi and we meet at Lina's place.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "names not in dictionary; use raw spellings"}
+{"id": "s2-W2-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "request garbled; California and 'who ordered in' lost"}

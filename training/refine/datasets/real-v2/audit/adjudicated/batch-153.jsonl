@@ -1,0 +1,7 @@
+{"id": "s4-W44-0020", "decision": "accept", "reason": "ok", "note": "A: Bill Wright -> Bilal, right via dictionary name and homophone"}
+{"id": "s4-W44-0031", "decision": "fix_clean", "clean": "I'll be there at 7. The shift ends. It's 6:30.", "reason": "dropped_by_recognizer", "note": "B: at heard as It's; keep raw reading"}
+{"id": "s4-W44-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: Ben practice not a sensible dictation; short row, drop"}
+{"id": "s4-W44-0034", "decision": "fix_clean", "clean": "The editor wants the story by noon and I haven't even started law.", "reason": "unrecoverable_word", "note": "A: lol heard as law; keep raw word"}
+{"id": "s4-W44-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Once says dinner not sensible"}
+{"id": "s4-W44-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: three Bilals collapsed to D'il"}
+{"id": "s4-W44-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: but inserted and upside; not sensible"}

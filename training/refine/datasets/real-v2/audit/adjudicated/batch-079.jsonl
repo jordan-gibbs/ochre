@@ -1,0 +1,12 @@
+{"id": "s2-W8-0401", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Well' between 'The dog.' and 'the parents'; reads as a correction cue, deleting it removes a content word"}
+{"id": "s2-W8-0403", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I'm' became 'And' and 'have' became 'had'; B's fix keeps uninferable 'I'm', a raw-faithful target ('And gonna be real...') is not sensible"}
+{"id": "s2-W8-0413", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'football' became 'foot'; 'talked about foot' is not a sensible dictation and football is not inferable"}
+{"id": "s2-W8-0421", "decision": "fix_clean", "clean": "You are the best, thank you so much.", "reason": "unrecoverable_word", "note": "raw has 'You are'; contracting it changes register (R10) and is not inferable"}
+{"id": "s2-W8-0433", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can I call you' became 'And I call you'; question lost, raw-faithful target is ungrammatical"}
+{"id": "s2-W8-0441", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'But' before 'please tell me'; also raw has 'She's' vs clean 'she is'"}
+{"id": "s2-W8-0442", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'He is the' dropped (sentence starts 'kind of guy') plus 'uh' became 'Well,' before 'but'; two problem places"}
+{"id": "s2-W8-0443", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the Pattersons' became 'The better sense'; B deletes raw words; also 'uh' became 'Well,' in 'Mr. Well, Mr. Dawson'"}
+{"id": "s2-W8-0444", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'No.' before 'I am your customer'; also 'madam' became 'Matt'"}
+{"id": "s2-W8-0446", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'um mum' became 'Bum'; Mum not inferable and 'Bum says dinner is ready' is not a sensible target"}
+{"id": "s2-W8-0449", "decision": "fix_clean", "clean": "Ask Nanna for her lasagna recipe.", "reason": "unrecoverable_word", "note": "Nonna not in dictionary nor inferable from 'Nan Na'; merge the split word to 'Nanna'"}
+{"id": "s2-W8-0450", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'what's' became 'was'; question not recoverable, raw-faithful target is nonsense"}

@@ -1,0 +1,314 @@
+[
+ {
+  "file": "W53",
+  "cat": "misrecognition_context",
+  "rows": 100,
+  "names": [
+   "Hassan",
+   "Amir",
+   "Rania",
+   "Nora",
+   "Leila",
+   "Malik",
+   "Alana",
+   "Chen",
+   "Colin"
+  ],
+  "topics": [
+   "a mortgage broker",
+   "a dance school",
+   "a landscaping business",
+   "a newspaper",
+   "a summer camp",
+   "a DevOps on-call rotation"
+  ],
+  "focus": "food, home, family and errands",
+  "wave": 2
+ },
+ {
+  "file": "W54",
+  "cat": "misrecognition_context",
+  "rows": 100,
+  "names": [
+   "Alana",
+   "Sara",
+   "Lucia",
+   "Mia",
+   "Ada",
+   "Fiona",
+   "Annika",
+   "Colin",
+   "Dana"
+  ],
+  "topics": [
+   "a pet adoption shelter",
+   "a farm co-op",
+   "a summer camp",
+   "a garden allotment",
+   "a photography business",
+   "an urgent care clinic"
+  ],
+  "focus": "hobbies, sports, travel and shopping",
+  "wave": 2
+ },
+ {
+  "file": "W55",
+  "cat": "misrecognition_context",
+  "rows": 100,
+  "names": [
+   "Pedro",
+   "Marco",
+   "Caleb",
+   "Alana",
+   "Yuki",
+   "Lina",
+   "Babajide",
+   "Tariq",
+   "Lukas"
+  ],
+  "topics": [
+   "a travel agency",
+   "a law firm",
+   "a real estate office",
+   "a cooking class",
+   "a credit union",
+   "a marketing agency"
+  ],
+  "focus": "workplaces outside tech (clinics, shops, trades, schools)",
+  "wave": 2
+ },
+ {
+  "file": "W56",
+  "cat": "self_correction_long",
+  "rows": 70,
+  "names": [
+   "Rhea",
+   "Rosa",
+   "Dario",
+   "Ines",
+   "Babajide",
+   "Julia",
+   "Diego",
+   "Marta",
+   "Sofia"
+  ],
+  "topics": [
+   "a theater ticket office",
+   "an ML research group",
+   "a municipal water utility",
+   "a scout troop",
+   "a TV production",
+   "a dermatology clinic"
+  ],
+  "focus": "emails and work recaps",
+  "wave": 2
+ },
+ {
+  "file": "W57",
+  "cat": "self_correction_long",
+  "rows": 70,
+  "names": [
+   "Abdul",
+   "Elif",
+   "Rosa",
+   "Nora",
+   "Mohammed",
+   "Carmen",
+   "Dana",
+   "Caleb",
+   "Deepa"
+  ],
+  "topics": [
+   "a carpool",
+   "a cooking class",
+   "a summer camp",
+   "a scout troop",
+   "a family group chat",
+   "a holiday trip"
+  ],
+  "focus": "personal stories and messages",
+  "wave": 2
+ },
+ {
+  "file": "W58",
+  "cat": "self_correction_long",
+  "rows": 70,
+  "names": [
+   "Elias",
+   "Shira",
+   "Sven",
+   "Mateo",
+   "Antonio",
+   "Sean",
+   "Dana",
+   "Enzo",
+   "Chloe"
+  ],
+  "topics": [
+   "a plumbing company",
+   "a farm co-op",
+   "a restaurant kitchen",
+   "a nonprofit",
+   "a scout troop",
+   "a crypto hobbyist"
+  ],
+  "focus": "AI prompts with context and constraints",
+  "wave": 2
+ },
+ {
+  "file": "W59",
+  "cat": "casual_multiclause",
+  "rows": 100,
+  "names": [
+   "Gabriel",
+   "Rohan",
+   "Lucia",
+   "Rosa",
+   "Elias",
+   "Arjun",
+   "Chidi",
+   "Alessia",
+   "Yusuf"
+  ],
+  "topics": [
+   "a DevOps on-call rotation",
+   "a legal aid clinic",
+   "a game studio",
+   "a bookstore",
+   "a mobile app team",
+   "a bank branch"
+  ],
+  "focus": "texting friends and family",
+  "wave": 2
+ },
+ {
+  "file": "W60",
+  "cat": "casual_multiclause",
+  "rows": 100,
+  "names": [
+   "Camille",
+   "Reza",
+   "Clara",
+   "Bilal",
+   "Yara",
+   "Lina",
+   "Petra",
+   "Abdul",
+   "Chloe"
+  ],
+  "topics": [
+   "a hiking group",
+   "a parent group",
+   "a bank branch",
+   "a dance school",
+   "a recording studio",
+   "a crypto hobbyist"
+  ],
+  "focus": "casual Slack with coworkers",
+  "wave": 2
+ },
+ {
+  "file": "W61",
+  "cat": "trailing_off",
+  "rows": 100,
+  "names": [
+   "Chloe",
+   "Clara",
+   "Ayesha",
+   "Giorgio",
+   "Julia",
+   "Emil",
+   "Laura",
+   "Grace",
+   "Dominik"
+  ],
+  "topics": [
+   "a courthouse",
+   "a car dealership",
+   "an electric co-op",
+   "an urgent care clinic",
+   "a game studio",
+   "a book club"
+  ],
+  "focus": "dictations that end mid-thought or abandon a fragment and restart, mixed lengths 5-80 words",
+  "wave": 2
+ },
+ {
+  "file": "W62",
+  "cat": "numbers",
+  "rows": 100,
+  "names": [
+   "Babajide",
+   "Dominik",
+   "Felix",
+   "Sean",
+   "Kai",
+   "Jorge",
+   "Lars",
+   "Laura",
+   "Jada"
+  ],
+  "topics": [
+   "a QA team",
+   "a cybersecurity team",
+   "a wedding guest (not planner)",
+   "a mobile app team",
+   "a game studio",
+   "a carpool"
+  ],
+  "focus": "numbers with units and conditions: measurements, money, percentages, dates, times, ranges, versions",
+  "wave": 2
+ },
+ {
+  "file": "W63",
+  "cat": "minimal_edit",
+  "rows": 100,
+  "names": [
+   "Nora",
+   "Fatima",
+   "Amara",
+   "Kai",
+   "Diego",
+   "Jamal",
+   "Hana",
+   "Laura",
+   "Maya"
+  ],
+  "topics": [
+   "a wedding guest (not planner)",
+   "a university lab",
+   "a recruiting firm",
+   "a personal finance plan",
+   "a telecom support team",
+   "a DevOps on-call rotation"
+  ],
+  "focus": "fluent but unusual phrasing that must not be reworded: idioms, regionalisms, deliberate repetition, sentence fragments on purpose",
+  "wave": 2
+ },
+ {
+  "file": "W64",
+  "cat": "work_detailed",
+  "rows": 100,
+  "names": [
+   "Tess",
+   "Vera",
+   "Nora",
+   "Hassan",
+   "Bodhi",
+   "Quinn",
+   "Anders",
+   "Mina",
+   "Emil"
+  ],
+  "topics": [
+   "a bookstore",
+   "an HR department",
+   "an airline crew",
+   "a game studio",
+   "a soccer fan club",
+   "a book club"
+  ],
+  "focus": "work emails and notes dense with details and conditions",
+  "wave": 2
+ }
+]

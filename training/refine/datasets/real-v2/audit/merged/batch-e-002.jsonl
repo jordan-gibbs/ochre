@@ -1,0 +1,42 @@
+{"id": "e4-E1-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E1-0052", "decision": "drop", "reasons": ["unrecoverable_meaning", "hallucination"], "notes": ["'lol' came out as 'long. Yeah.'; not recoverable, extra 'Yeah' never said", "raw 'long. Yeah.' for 'lol'; trailing Yeah not said"], "auditors": ["A", "B"]}
+{"id": "e4-E1-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E1-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E1-0055", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary -> raw 'Rin's'; raw has 'under' not 'on'", "Rin's, under"], "auditors": ["A", "B"], "clean": "You will not believe what happened at rehearsal tonight. We're doing the big ballroom scene and Rin's dress gets caught under the staircase railing and the whole skirt rips off, the entire thing, and she just keeps singing. She didn't even miss a note, and the director is crying laughing in the front row. Anyway, I'm gonna need you to come opening night because I cannot promise it won't happen again."}
+{"id": "e4-E1-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E1-0057", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'aww' heard as 'Oh, a'; keep raw's 'Oh'", "raw Oh, not Aww"], "auditors": ["A", "B"], "clean": "Oh, Kofi, that's so sweet. Tell your mom thank you."}
+{"id": "e4-E1-0058", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'grain birth', 'white pavement' for 'crane at berth', 'like cavemen'", "grain/white pavement"], "auditors": ["A", "B"]}
+{"id": "e4-E1-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E1-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0002", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "empty raw"], "auditors": ["A", "B"]}
+{"id": "e4-E2-0003", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um is' became 'There's'; question not recoverable", "um is -> There's"], "auditors": ["A", "B"]}
+{"id": "e4-E2-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0007", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Yusra not in dictionary; raw 'User'"], "auditors": ["A", "B"], "clean": "User to send revised setback measurements by Friday."}
+{"id": "e4-E2-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0015", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'All the way soon. Can you tape the front?'"], "auditors": ["A", "B"]}
+{"id": "e4-E2-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0017", "decision": "fix_clean", "reasons": ["number_value", "number_value"], "notes": ["raw says fifty"], "auditors": ["A", "B"], "clean": "Running about 50 minutes behind. Start without me."}
+{"id": "e4-E2-0018", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'paddle' not inferable from 'Powell'"], "auditors": ["A", "B"], "clean": "Thanks so much for covering the Saturday Powell."}
+{"id": "e4-E2-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0022", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Mireille not in dictionary; raw 'Myrel'"], "auditors": ["A", "B"], "clean": "Action items from the board meeting: Leopold is handling the dock permit, Myrel is updating the waiver forms, and I'm ordering six new paddles."}
+{"id": "e4-E2-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0027", "decision": "fix_clean", "reasons": ["spelling_from_raw", "guide_violation"], "notes": ["raw has 'going to', not 'gonna'", "gonna vs raw going to"], "auditors": ["A", "B"], "clean": "The zoning board isn't going to approve a four-story building on that lot. It's two blocks from the historic district."}
+{"id": "e4-E2-0028", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Or follow me' for Bartholomew; 'entoral'", "name lost"], "auditors": ["A", "B"]}
+{"id": "e4-E2-0029", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'flooding' for flagging, 'You, sir' for Yusra, 'Tan in'", "flooding/You, sir"], "auditors": ["A", "B"]}
+{"id": "e4-E2-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0033", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw has 'C' not 'CE'", "CE -> C"], "auditors": ["A", "B"], "clean": "For next week, order more alginate, call the lab about the twisted wire retainers, and remind Matteo about his C credits."}
+{"id": "e4-E2-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E2-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

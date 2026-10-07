@@ -1,0 +1,50 @@
+{"id": "s4-W38-0051", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salutation garbled: 'Dear Council Cola'"}
+{"id": "s4-W38-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "hike->'High', meet->'Me'"}
+{"id": "s4-W38-0053", "decision": "fix_clean", "clean": "Did anyone see the email? I can't find it anywhere.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'from the vet' lost"}
+{"id": "s4-W38-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0055", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Love the polymon'"}
+{"id": "s4-W38-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "comma->'comment' (real word) and 'approval' lost"}
+{"id": "s4-W38-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"mark it's small\" -> 'Market small'"}
+{"id": "s4-W38-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0063", "decision": "fix_clean", "clean": "Can you use it instead of a dash in a title?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'colon' heard as 'it'; raw has 'a title'"}
+{"id": "s4-W38-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0066", "decision": "fix_clean", "clean": "Tomas keeps sending every message with a question mark even when he's not asking anything.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'sending'"}
+{"id": "s4-W38-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Ask and ease why'; Ines lost"}
+{"id": "s4-W38-0068", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Ines' merged to 'Hyenese'"}
+{"id": "s4-W38-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0071", "decision": "drop", "reason": "unrecoverable_meaning", "note": "colon heard as 'call in'; keeping it is not sensible"}
+{"id": "s4-W38-0072", "decision": "fix_clean", "clean": "Okay, quick update on the adoption weekend: we had 42 visitors, 11 applications, and 6 dogs went home! The caps were slower. Elias is sending the full numbers tomorrow.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "cats->'caps' not inferable"}
+{"id": "s4-W38-0073", "decision": "fix_clean", "clean": "I need you to rewrite this paragraph for a general audience. Keep the technical terms, but add a short definition the first time each one appears. Don't change the meaning. The paragraph is: the model overfits when the learning rate...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends at 'learning rate'"}
+{"id": "s4-W38-0074", "decision": "fix_clean", "clean": "The problem with the export is that every comma in the address field breaks the CSV columns. Yasmin thinks we should wrap the field in quotes, but I think we should just replace the comma with the semi. Either way, it's a quick fix.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'With the semi'"}
+{"id": "s4-W38-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Chiara->'Chia', comma->'Come.', 'a.m.'->'A.'"}
+{"id": "s4-W38-0076", "decision": "fix_clean", "clean": "Call volume was up 15% this month, mostly noise complaints. The new triage script is working, according to Yusef. Next review is in June.", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "name not in dictionary; raw 'Yusef'"}
+{"id": "s4-W38-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first half of dictation lost"}
+{"id": "s4-W38-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "comma heard as real word 'Commodore'"}
+{"id": "s4-W38-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Ana->'on a', 'come out in a whole thermos of TP are'"}
+{"id": "s4-W38-0080", "decision": "fix_clean", "clean": "Hi Nikil, I read your note about the model card. One question: why does the table list the evaluation period as 12 weeks? I thought we had agreed on 8. If there's a reason, I'd love to hear.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary ('Nikil'); 'it' dropped"}
+{"id": "s4-W38-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0082", "decision": "fix_clean", "clean": "Here's the plan for Saturday, Colin: we meet at the trailhead at 8, split into two groups, and the slow group takes the lower loop. Yasmin leads the fast group, and I'll sweep. If anyone is going to be late, please text me before 7:30.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'colon' heard as name 'Colin'"}
+{"id": "s4-W38-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'come at test', 'lets we're write it'"}
+{"id": "s4-W38-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Paul Law', 'Ellen Street', 'Officer Honor'"}
+{"id": "s4-W38-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Yo' heard as \"You're\""}
+{"id": "s4-W38-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0088", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W38-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "last sentence lost/garbled"}
+{"id": "s4-W38-0090", "decision": "fix_clean", "clean": "Update: the intake form is live. Link is in the channel, please test it before noon. If you hit an error, screenshot and post it here!", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' after screenshot lost"}
+{"id": "s4-W38-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Yusuf' -> 'High use of'"}
+{"id": "s4-W38-0093", "decision": "fix_clean", "clean": "Hi everyone, I wanted to share the notes from Tuesday's meeting. First, the budget was approved at $12,500. Second, we agreed that Nick Hill will lead the data cleaning and Yasmin will handle the evaluation scripts. Third, the next group meeting is on the 22nd, not the 15th, because of the holiday. One more thing: please update your calendars. I don't want anybody showing up on the wrong day. Thanks for your patience and have a great week!", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Nikhil not in dictionary; raw 'Nick Hill'"}
+{"id": "s4-W38-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Ana->'on a'; separator/tool garbled"}
+{"id": "s4-W38-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled spans"}
+{"id": "s4-W38-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Chiara->'TR', cheered->'shared', went->'what'"}
+{"id": "s4-W38-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'common not', Ines->'and ease'"}
+{"id": "s4-W38-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "colon heard as 'Colin' after 'Dear Volunteers'; not sensible kept"}

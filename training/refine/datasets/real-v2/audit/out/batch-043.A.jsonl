@@ -1,0 +1,50 @@
+{"id": "s2-W5-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0102", "decision": "fix_clean", "clean": "What is the code for the gate that you're building?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'at your' heard as 'that you're'; not inferable"}
+{"id": "s2-W5-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0104", "decision": "fix_clean", "clean": "Okay, just got home, going to shower and then call you.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'I' absent from raw"}
+{"id": "s2-W5-0105", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "both 'uh' became 'not', reversing meaning"}
+{"id": "s2-W5-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0110", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0111", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'her'; also 'Indian' heard as 'handy'"}
+{"id": "s2-W5-0112", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'by EOD' lost ('but'); 'it. Thing' garbled"}
+{"id": "s2-W5-0113", "decision": "fix_clean", "clean": "Oh gee, did you hear about Maya and Daniel?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "OMG heard as 'Oh, Gee'"}
+{"id": "s2-W5-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0116", "decision": "fix_clean", "clean": "It'll pay you when it's ready.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'ping' heard as 'pay'; nothing in raw points to I'll/ping"}
+{"id": "s2-W5-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0118", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0122", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0123", "decision": "fix_clean", "clean": "Hey, can you tell Grandma that I will call her Sunday? You keep forgetting.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'You keep forgetting'"}
+{"id": "s2-W5-0124", "decision": "fix_clean", "clean": "Okay so I talked to Asha and she said we can move the launch to the 8th if design signs off by Monday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling Asha"}
+{"id": "s2-W5-0125", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ugh my car wont start' garbled to 'On my car once, don't'"}
+{"id": "s2-W5-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0128", "decision": "fix_clean", "clean": "Yep, I can pick that up. Send me the details and I'll get started after the call.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'Yep'"}
+{"id": "s2-W5-0129", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0130", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'uh that' -> 'then', 'cron job' -> 'cron, child'"}
+{"id": "s2-W5-0131", "decision": "fix_clean", "clean": "Okay so the plan is we meet at the station at... wait, is it 8 or 8:30?", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s2-W5-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0133", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0134", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0136", "decision": "fix_clean", "clean": "He sent me the notes from yesterday. I missed the last 10 minutes.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'can you send' heard as 'He sent'"}
+{"id": "s2-W5-0137", "decision": "fix_clean", "clean": "It's Yuki, my new number, save it please.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'hey' absent from raw"}
+{"id": "s2-W5-0138", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0140", "decision": "fix_clean", "clean": "Heads up, gonna be offline from like 2 to 4, picking up my daughter from the airport.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'I'm' absent from raw"}
+{"id": "s2-W5-0141", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'thought' ('I thought might')"}
+{"id": "s2-W5-0142", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pushed to main' heard as 'pushed him in'"}
+{"id": "s2-W5-0143", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw keeps only 'Thanks, Pro.'; 'i owe you one' lost"}
+{"id": "s2-W5-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0146", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'meeting' -> 'meaning', 'then to five' -> 'Then defy'"}
+{"id": "s2-W5-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0148", "decision": "fix_clean", "clean": "Hey, so I wanted to let you know I talked to Vivette and she said that Bruno is going to be fine. He just ate something he should not have, but they want keep them overnight to be safe. So I will pick him up tomorrow morning around 9. I will keep you posted.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'the vet' -> 'Vivette'; 'to keep him' -> 'keep them'"}
+{"id": "s2-W5-0149", "decision": "fix_clean", "clean": "OK so here's where I am on the onboarding project. I finished the welcome email and the checklist, the video is still waiting on legal, and I think we are on track to launch by the end of the month unless something weird comes up. I'll post another update on Thursday.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'OK'"}
+{"id": "s2-W5-0150", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'week' cut to 'we' and 'to' dropped; ending of phrase not inferable"}

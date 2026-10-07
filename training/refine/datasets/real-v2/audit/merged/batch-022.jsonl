@@ -1,0 +1,38 @@
+{"id": "s2-W3-0051", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'slash signup' became 'to sign up'; URL path lost", "slash signup lost, replaced by 'to sign up'; code casing unknown"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0054", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the endpoint slash v two slash users' became 'Poignant B2 users'", "'Poignant B2' for 'endpoint /v2/'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0055", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'fifteen' absent from raw", "fifteen lost"], "auditors": ["A", "B"], "clean": "iPhone Pro Max case under $20"}
+{"id": "s2-W3-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0061", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'it' absent from raw", "'It' lost before 'started'"], "auditors": ["A", "B"], "clean": "The nightly backup job is failing with an out of memory error. Started on October 3rd. The job runs at 1 AM and normally finishes in about 20 minutes, but the last 3 runs were killed after 60 minutes. I think the dump is bigger than the container limit of 2 GB. The PostgreSQL database is now around 5 GB, so we either need to raise the limit or stream the dump."}
+{"id": "s2-W3-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0073", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'png or svg' became 'the AD road is D' and 1080 became 1008", "png/svg garbled, 1008 vs 1080"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0074", "decision": "drop", "reasons": ["unrecoverable_meaning", "hallucination"], "notes": ["Zoom URL lost; raw has 'Zoom. Yeah.'", "URL lost; trailing 'Yeah.' invented"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0078", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'png and pdf' became 'The N T N P D F'", "PNG garbled in raw"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0081", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["candor->'can boy', rubric->'room', Okafor->O'Peffort: too many unrecoverable words", "candor, rubric, by garbled in more than 2 places"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0082", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["customs sentence and 'or find a backup supplier, thoughts' lost", "middle and end of message lost or garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0083", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'went' for run and no 'the' before 'First ten'", "'went' not 'run'; 'The' lost"], "auditors": ["A", "B"], "clean": "Thoughts after the marathon training went. I did 18 miles today, which is the longest so far. First 10 felt easy, and then around mile 14 my left knee started to hurt. I should probably get new shoes because these have about 500 miles on them. Race day is November 9th, and I have six weeks left, so I need to taper in the last two."}
+{"id": "s2-W3-0084", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0085", "decision": "fix_clean", "reasons": ["guide_violation", "number_value"], "notes": ["speaker and raw both say four oh two", "spoken and raw say four oh two, not 502"], "auditors": ["A", "B"], "clean": "Observed behavior: after upgrading Nginx to 1.25, the server returns a 402 Bad Gateway for any request that takes longer than 60 seconds. Expected behavior is that the proxy read timeout of 300 seconds is respected. I checked the config and the directive is set correctly in the location block, so I suspect the upstream keepalive setting is overriding it."}
+{"id": "s2-W3-0086", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with trailing 'Oh' never spoken", "trailing 'Oh' not said"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0088", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0089", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["AWS->OS, VPC->'V P. See', /16 lost, CIDR block->'center blah', 'er'->'Or'", "OS/VPC/CIDR/subnets garbled in many places"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0091", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0096", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0098", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["name not in dictionary; raw spelling 'revera'", "name spelling from raw"], "auditors": ["A", "B"], "clean": "My new address is m.revera@studio-8.com."}
+{"id": "s2-W3-0099", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

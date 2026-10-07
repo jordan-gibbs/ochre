@@ -1,0 +1,41 @@
+{"id": "s2-W4-0201", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0202", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0203", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0204", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'tilted Vatboar C' cannot be read as ~/.bashrc", "bashrc/slash dot garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0205", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0206", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0208", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'dash and then dot then' loses -m venv .venv", "venv lost"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0209", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Doctor except Ash by T' needs too many reconstructions", "docker exec garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0210", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0212", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0213", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'dash i colon' lost; lsof -i :3000 not recoverable from 'Well soft, three thousand'", "lsof -i lost"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0214", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0215", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0216", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0217", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0218", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0219", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0220", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0221", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W4-0222", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Okay.' never said", "trailing Okay."], "auditors": ["A", "B"]}
+{"id": "s2-W4-0223", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "empty raw"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0224", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'the file handle'", "raw has 'the' not 'a'"], "auditors": ["A", "B"], "clean": "FIXME: this leaks the file handle on the error path"}
+{"id": "s2-W4-0225", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0226", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0227", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0228", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0232", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' heard as 'A drug.'", "'A drug. Mark' for er mark"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0233", "decision": "fix_clean", "reasons": ["trailing_off", "dropped_by_recognizer"], "notes": ["raw ends before the Expected section", "Expected section lost"], "auditors": ["A", "B"], "clean": "Summary\nExport button does nothing on the reports page.\n\nSteps\nOpen reports, click export, nothing happens."}
+{"id": "s2-W4-0235", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'um app' heard as 'At'; 'app' lost, plus 'or' from er", "garbled mobile app/it covers"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0237", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'um' heard as 'on' ('own the on first one'), 'uh' as 'well'", "worst offenders misheard, several places"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0238", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Anna' and 'the review'; 'or and' read as stutter", "Anna from raw; 'the review'"], "auditors": ["A", "B"], "clean": "Hi Tom,\n\nThanks for taking the time to meet with us yesterday. We were impressed with the demo and especially with how quickly your team handled our questions.\n\nI have shared your proposal with our finance group. They will review it over the next week, and I will follow up as soon as I have their feedback.\n\nIn the meantime, please send over the security documentation we discussed. Our legal team would like to start the review early.\n\nBest regards,\nAnna"}
+{"id": "s2-W4-0240", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'uh' heard as 'but'; also 'this blocks the' garbled", "many garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0241", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'tom sam' heard as 'Found some'", "attendees lost"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0242", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["opening 'To install the package, run' lost", "start of sentence lost"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0243", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0244", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0246", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0247", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0248", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many garbles: 'higher a team', 'new aircraft', 'warehouse late', 'Lincoln. Push.'", "many garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0249", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' heard as 'with' and 'law'", "'law' residue plus several errors"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0250", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Dargan', 'break it. The white I', 'it' lost and more", "many garbles"], "auditors": ["A", "B"]}

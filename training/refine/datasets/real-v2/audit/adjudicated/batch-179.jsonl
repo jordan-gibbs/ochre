@@ -1,0 +1,10 @@
+{"id": "s4-W55-0001", "decision": "fix_clean", "clean": "The cruise passengers have to board by 4:30, and the tender leaves for Pier 6.", "reason": "unrecoverable_word", "note": "crew's/cruise homophone; raw \"for\"; A fix"}
+{"id": "s4-W55-0002", "decision": "fix_clean", "clean": "Please tell Mr. Boucafer that his visa was approved and his itinerary has a layover in Reykjavik.", "reason": "unrecoverable_word", "note": "Boucafer from raw; Reichvik near Reykjavik; A fix"}
+{"id": "s4-W55-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Leave\" and \"crude\"; A drop"}
+{"id": "s4-W55-0023", "decision": "fix_clean", "clean": "Turik wants the brand guidelines to say the logo needs clear space equal to the height of the letter O.", "reason": "unrecoverable_word", "note": "Turik from raw; local->logo inferable in brand context; A fix"}
+{"id": "s4-W55-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"bus from the shadow\"; A drop"}
+{"id": "s4-W55-0032", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"scenes\"/\"whole\"; A drop"}
+{"id": "s4-W55-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Help says\" for Caleb; A drop"}
+{"id": "s4-W55-0044", "decision": "fix_clean", "clean": "Drafting an email to the landlord explaining that the tenant is withholding rent because the heating hasn't worked since November.", "reason": "unrecoverable_word", "note": "raw \"Drafting\" is a real word; keep raw; B fix"}
+{"id": "s4-W55-0046", "decision": "accept", "reason": "ok", "note": "Lion->Lyon near form of known city; A accept"}
+{"id": "s4-W55-0050", "decision": "fix_clean", "clean": "Hello Calib, attached is the waiver the client needs to sign and the affidavit that the notary witnessed on Monday. Please file both with the clerk's office before the deadline, which is 5 o'clock on Friday, and let me know once the receipt comes back.", "reason": "unrecoverable_word", "note": "\"A low\" -> Hello split; Calib from raw; A fix"}

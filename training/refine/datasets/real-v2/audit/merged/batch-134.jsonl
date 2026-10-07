@@ -1,0 +1,41 @@
+{"id": "s4-W34-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0054", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw garbled throughout"], "auditors": ["A", "B"]}
+{"id": "s4-W34-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0062", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary (raw 'Paulo'); raw 'Would' not 'Could'"], "auditors": ["A", "B"], "clean": "Hi Paulo, thanks for sending the itinerary. The total for the family of four comes to $6,340 including flights, but the hotel in Lisbon is listed at 210 euros a night and I thought we agreed on 180. Would you double check that before we pay the deposit, which is 20%?"}
+{"id": "s4-W34-0063", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0064", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Dear members' lost, approval/deal/hour/involved, $1.20 lost"], "auditors": ["A", "B"]}
+{"id": "s4-W34-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0072", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Naomi's notes from the board call' -> 'Nail meet call'"], "auditors": ["A", "B"]}
+{"id": "s4-W34-0074", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw 'Adebio'"], "auditors": ["A", "B"], "clean": "Adebio flagged that the new macro is inserting the wrong refund window. It says 30 days but policy changed to 45 days last month. Can you fix that before the afternoon shift starts at 1?"}
+{"id": "s4-W34-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0080", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Paolo' -> 'How will', 'platform' -> 'half on'"], "auditors": ["A", "B"]}
+{"id": "s4-W34-0081", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0082", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Coyote', Kyoto not inferable"], "auditors": ["A", "B"], "clean": "Hi Paolo, thanks again for putting the trip together. I went through the quote this morning and a few things jumped out. First, the flights are $480 each, which is about 15% more than what we saw on the website last week. Second, the hotel in Coyote is listed for six nights but we only need five. And third, the airport transfer is $90 each way and honestly that seems high. Can you check whether a shared shuttle would be cheaper? We leave on September 23rd, so there's still a bit of time, but I'd like to confirm everything by the end of next week."}
+{"id": "s4-W34-0084", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'the co op' -> 'Poav', 'your' -> 'her'"], "auditors": ["A", "B"], "clean": "Dear Adebayo, thank you for contacting Poav about your December bill. I reviewed her account and found that the meter was read at 14,206 kilowatt hours on the 1st and 15,110 on the 31st, so the usage is 904 kilowatt hours. At 14 cents per kilowatt hour that comes to $126.56, plus the $12 service charge, for a total of $138.56, which matches your statement. However, I did notice you qualify for the senior discount of 5%, so I've applied a credit of $6.93 to your next bill."}
+{"id": "s4-W34-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0086", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'canceled'; 'reef'/'cashier fund' judged recoverable"], "auditors": ["A", "B"], "clean": "I want you to draft a reply to a customer who is asking for a refund on a nonrefundable fare. The booking reference is 47921, the fare was $380, they canceled 21 days before departure, and our policy allows a travel credit of 80% in that case. So be polite and explain the credit, but don't promise a cash refund, and keep it to three short paragraphs."}
+{"id": "s4-W34-0087", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Summarise'"], "auditors": ["A", "B"], "clean": "Summarise the following but keep every number exactly as written. The budget was $12,000, spending to date is $8,750, and we have about 45% of the year left. The board meets in 9 days to review it."}
+{"id": "s4-W34-0088", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0089", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Juror/Jurors lost, 7:30 lost, last sentence garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W34-0090", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["August->Audis, 'worth flagging'->'were flying', 'chat queue'->'Jack Hugh'"], "auditors": ["A", "B"]}
+{"id": "s4-W34-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0093", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0096", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["fifth->fair, 'each so bring' -> 'sober in'"], "auditors": ["A", "B"]}
+{"id": "s4-W34-0097", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0099", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W34-0100", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["raw adds 'that's not a good thing. Why.'"], "auditors": ["A", "B"]}

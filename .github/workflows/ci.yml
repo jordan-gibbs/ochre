@@ -1,0 +1,139 @@
+# Required status checks (branch protection / ruleset, scripts/github-protect.sh) reference these
+# job names verbatim: "fmt", "check (ubuntu-latest)", "check (windows-latest)",
+# "check (macos-latest)", "ui tests". Rename a job only together with the ruleset.
+#
+# Cost: macOS and Windows runners bill at a multiple of Linux, so on pull requests they run only
+# when the change can affect that OS (its platform code, the Tauri app, dependencies, CI itself)
+# or the PR has the `full-ci` label. A skipped job satisfies its required check. Pushes to main
+# run Linux only; the full matrix runs weekly and on demand (Actions → CI → Run workflow).
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+env:
+  # Pinned so a new stable clippy lint can't turn the required checks red overnight. Bump it in
+  # a PR (and fix the new lints there) when you upgrade locally.
+  RUST_TOOLCHAIN: "1.95.0"
+  CARGO_TERM_COLOR: always
+  CARGO_INCREMENTAL: 0
+  RUST_BACKTRACE: short
+
+jobs:
+  # Which non-Linux jobs this run needs. Cheap: one Ubuntu runner for a few seconds.
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      windows: ${{ steps.decide.outputs.windows }}
+      macos: ${{ steps.decide.outputs.macos }}
+    steps:
+      - uses: dorny/paths-filter@v4
+        id: paths
+        if: github.event_name == 'pull_request'
+        with:
+          filters: |
+            shared: &shared
+              - 'Cargo.toml'
+              - 'Cargo.lock'
+              - '**/Cargo.toml'
+              - 'app/src-tauri/**'
+              - '.github/workflows/ci.yml'
+              - '.github/actions/**'
+            windows:
+              - *shared
+              - '**/windows/**'
+              - '**/*windows*'
+              - '**/win_*.rs'
+            macos:
+              - *shared
+              - '**/macos/**'
+              - '**/*macos*'
+              - '**/*_mac.rs'
+              - '**/mac_*.rs'
+      - id: decide
+        env:
+          EVENT: ${{ github.event_name }}
+          FULL_LABEL: ${{ contains(github.event.pull_request.labels.*.name, 'full-ci') }}
+          WIN_PATHS: ${{ steps.paths.outputs.windows }}
+          MAC_PATHS: ${{ steps.paths.outputs.macos }}
+        run: |
+          full=false
+          if [ "$EVENT" = schedule ] || [ "$EVENT" = workflow_dispatch ] || [ "$FULL_LABEL" = true ]; then full=true; fi
+          win=false; mac=false
+          if [ "$full" = true ] || [ "$WIN_PATHS" = true ]; then win=true; fi
+          if [ "$full" = true ] || [ "$MAC_PATHS" = true ]; then mac=true; fi
+          echo "windows=$win" >> "$GITHUB_OUTPUT"
+          echo "macos=$mac" >> "$GITHUB_OUTPUT"
+          echo "windows=$win macos=$mac (event=$EVENT, full-ci label=$FULL_LABEL)"
+
+  fmt:
+    name: fmt
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+          components: rustfmt
+      - run: cargo fmt --all -- --check
+
+  check-linux:
+    name: check (ubuntu-latest)
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/rust-check
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+
+  check-windows:
+    name: check (windows-latest)
+    needs: plan
+    if: needs.plan.outputs.windows == 'true'
+    runs-on: windows-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/rust-check
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+
+  check-macos:
+    name: check (macos-latest)
+    needs: plan
+    if: needs.plan.outputs.macos == 'true'
+    runs-on: macos-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/rust-check
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+
+  ui:
+    name: ui tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - run: node --test app/test/ui.test.mjs

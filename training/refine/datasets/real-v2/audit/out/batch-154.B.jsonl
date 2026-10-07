@@ -1,0 +1,50 @@
+{"id": "s4-W44-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0052", "decision": "fix_clean", "clean": "Alana, honestly the band sounded so much better to me, way better than last week.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W44-0053", "decision": "fix_clean", "clean": "I'm gonna need you to cover my shift on Tuesday.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W44-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0056", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0058", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0060", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0066", "decision": "fix_clean", "clean": "Bill's coming now I think, or maybe he said tomorrow, I'm not sure.", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0067", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0069", "decision": "fix_clean", "clean": "Nah, I'll pass on the pub, I've got to water the plants at the allotment.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W44-0070", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0071", "decision": "fix_clean", "clean": "You're not gonna believe what happened at the paper today. The printer broke in the middle of the run and we had to wait 3 hours, and Dominic was sprinting around trying to find a technician, and in the end it was the cleaner who fixed it, which is kind of hilarious, honestly.", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0073", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0074", "decision": "fix_clean", "clean": "I was thinking for the party we do balloons and a cake, and we'll just let the band play, they offered. Then you could do the decorations, and also out the food.", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0078", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0080", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0081", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W44-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0085", "decision": "fix_clean", "clean": "Bro, I'm not even joking, the keeper just threw it into his own net and the whole stand was silent, and then some guy behind me started laughing so hard he knocked his pie over, and I think that's the funniest thing I've seen all season.", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0086", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0087", "decision": "fix_clean", "clean": "The new singer sounds like a cat being stepped on but in a good way, it's like a punk thing, and the crowd loves it, I love it, and my mom came to the last show and she stayed till the end, which is a first, so what do I know?", "reason": "spelling_from_raw"}
+{"id": "s4-W44-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0089", "decision": "fix_clean", "clean": "Go, Kenji here. We've got the rehearsal room until 10 tonight but the landlord said we can't be loud after 9, so we'll do acoustic stuff at a last hour, and that's probably better for working out the harmonies anyway, so don't bring the electric kit.", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0092", "decision": "fix_clean", "clean": "Listen, I'm not saying the drummer is bad, I'm just saying that maybe, maybe, we could try mentoring them, because last night the chorus was twice as fast as the verse and the bass player looked like he was running for a bus.", "reason": "unrecoverable_word"}
+{"id": "s4-W44-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0094", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W44-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0096", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0098", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W44-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0100", "decision": "fix_clean", "clean": "Guys, the fan club meeting last night was pretty productive, here's the summary. We agreed to print new scarves for next season, which is gonna cost about 800 quid, so we need to raise it. The plan is a quiz night in November and a raffle at the Christmas match. Victor is in charge of the quiz, Hector is doing the raffle prizes, and Annika is going to design the scarf, which she's super excited about. Oh, and we're getting the banner for the way in that says something like United Forever, it's kind of cheesy but I like it. And the next meeting is on the 9th of November at 7.", "reason": "unrecoverable_word"}

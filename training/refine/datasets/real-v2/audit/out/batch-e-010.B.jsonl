@@ -1,0 +1,50 @@
+{"id": "e4-E8-0001", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0002", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0003", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0004", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0005", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0006", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0007", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0008", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'food' for uh; 'gear' for period"}
+{"id": "e4-E8-0009", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0010", "decision": "fix_clean", "clean": "Happy birthday, Himish!! Hope the gig goes well tonight.", "reason": "unrecoverable_word"}
+{"id": "e4-E8-0011", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0012", "decision": "fix_clean", "clean": "Renai went through the quote for the Henderson job, and there are three issues:\n1. The inverter is undersized for 12 panels.\n2. The racking quote is from last year.\n3. We never priced the trenching from the panel to the house, which could add a couple thousand.", "reason": "unrecoverable_word"}
+{"id": "e4-E8-0013", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0015", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0016", "decision": "fix_clean", "clean": "The new paragraph about liability in the installer contract is way too big. Can you ask legal to tighten it up?", "reason": "unrecoverable_word"}
+{"id": "e4-E8-0017", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0018", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "e4-E8-0019", "decision": "fix_clean", "clean": "Thanks, Dashiel!", "reason": "unrecoverable_word"}
+{"id": "e4-E8-0020", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0021", "decision": "fix_clean", "clean": "Steps to reproduce:\n1. Cool the fridge to base temperature.\n2. Run the Rabbi sweep.\n3. Watch the readout drift after about an hour.", "reason": "unrecoverable_word"}
+{"id": "e4-E8-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0023", "decision": "fix_clean", "clean": "We're launching the new line of gluten-free pastries in March.", "reason": "unrecoverable_word"}
+{"id": "e4-E8-0024", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0025", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0026", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0027", "decision": "fix_clean", "clean": "Things to ask the vet about Biscuit:\n- The rash on her bell\n- Whether the new clippers are too loud for her\n- The dosage for her anxiety meds\n- Whether she's due for her bordetella booster", "reason": "unrecoverable_word"}
+{"id": "e4-E8-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0029", "decision": "fix_clean", "clean": "Dashiel, the van's booked solid until Friday. Sorry!", "reason": "unrecoverable_word"}
+{"id": "e4-E8-0030", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0031", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0032", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0033", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0034", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0035", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0036", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0037", "decision": "fix_clean", "clean": "Installation checklist for residential jobs:\n\nBefore arriving on site, confirm the permit is approved and the customer knows we're coming.\n\nOn site, the steps are:\n1. Walk the roof and check for soft spots\n2. Mark the rafters and snap\n3. Install the flashing and mounts\n4. Run conduit to the inverter location\n5. Set the panels and torque everything to spec\n\nBefore leaving, take photos of every junction box and upload them to the job folder.", "reason": "dropped_by_recognizer"}
+{"id": "e4-E8-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0039", "decision": "fix_clean", "clean": "The booking form lets two grooming appointments overlap for the same groomer.\n\nExpected: the second booking should be rejected.\n\nActual: both get confirmed, and rent ends up double-booked.\n\nThis happened three times last week.", "reason": "unrecoverable_word"}
+{"id": "e4-E8-0040", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0041", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0042", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0043", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0044", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0045", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0046", "decision": "accept", "reason": "ok"}
+{"id": "e4-E8-0047", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E8-0048", "decision": "fix_clean", "clean": "I'm writing a policy for my grooming salon about matted dogs.\n\nHere's the gist: if a dog is severely matted, we shave it short instead of brushing it out because brushing hurts the dog, and we charge a $20 demanding fee. Owners have to sign off before we start.\n\nCan you rewrite that so it sounds friendly but firm?", "reason": "unrecoverable_word"}
+{"id": "e4-E8-0049", "decision": "fix_clean", "clean": "Tell Imogen to end the menu caption with a question mark.", "reason": "dropped_by_recognizer"}
+{"id": "e4-E8-0050", "decision": "drop", "reason": "script_defect", "note": "dictionary term corrupted (mojibake)"}

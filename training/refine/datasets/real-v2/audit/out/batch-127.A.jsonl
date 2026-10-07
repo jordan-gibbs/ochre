@@ -1,0 +1,50 @@
+{"id": "s4-W31-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0006", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s4-W31-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0014", "decision": "fix_clean", "clean": "The cinnamon will complement the light.", "reason": "unrecoverable_word", "note": "'latte' heard as 'light', not inferable"}
+{"id": "s4-W31-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'have paid' heard as 'half bait'"}
+{"id": "s4-W31-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'forty minutes' heard as 'Puddieman'"}
+{"id": "s4-W31-0028", "decision": "fix_clean", "clean": "Nigo, can you accept the calendar invite for Friday? I can't make here except for the last hour.", "reason": "unrecoverable_word", "note": "name not in dictionary; 'it' heard as 'here'"}
+{"id": "s4-W31-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'peak' as 'Pete', 'cold' as 'coal', added trailing 'and'"}
+{"id": "s4-W31-0032", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cite/sight all collapsed to 'site'"}
+{"id": "s4-W31-0033", "decision": "fix_clean", "clean": "Ayasha, the shoot is at the old mill site on Tuesday, and the sound crew can't get there except through the back lane.", "reason": "unrecoverable_word", "note": "name not in dictionary"}
+{"id": "s4-W31-0034", "decision": "fix_clean", "clean": "Dear Mr. O'Caffer, thank you for your offer. We are happy to accept it, except for the closing date.", "reason": "unrecoverable_word", "note": "name not in dictionary; 'Here' as salutation inferable as 'Dear'"}
+{"id": "s4-W31-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0036", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W31-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0038", "decision": "fix_clean", "clean": "Team 12 needs a better establishing shot of the lake, maybe from the peak behind the cabin.", "reason": "unrecoverable_word", "note": "'scene' heard as 'Team'"}
+{"id": "s4-W31-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'left' heard as 'up'"}
+{"id": "s4-W31-0040", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W31-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0042", "decision": "fix_clean", "clean": "No, I haven't sighed anything yet. I was gonna do it after dinner.", "reason": "unrecoverable_word", "note": "'cited' heard as 'sighed', not inferable (signed?)"}
+{"id": "s4-W31-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W31-0047", "decision": "fix_clean", "clean": "The peak of the hike was incredible, but you could see the whole valley.", "reason": "unrecoverable_word", "note": "recognizer added plausible word 'but'"}
+{"id": "s4-W31-0048", "decision": "fix_clean", "clean": "We'll accept all submissions except those received after the deadline.", "reason": "dropped_by_recognizer", "note": "'The principal investigator will' became 'We'll'"}
+{"id": "s4-W31-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sight' heard as 'site'; question collapses"}
+{"id": "s4-W31-0050", "decision": "accept", "reason": "ok"}

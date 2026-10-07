@@ -1,0 +1,50 @@
+{"id":"s4-W19-0051","decision":"fix_clean","clean":"Hi Maim, the headshots from Monday look great and I'll send the edited set by Thursday.","reason":"unrecoverable_word","rules":["RECOVER"]}
+{"id":"s4-W19-0052","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0053","decision":"fix_clean","clean":"The intern already did a sound check.","reason":"spelling_from_raw","rules":["R10"]}
+{"id":"s4-W19-0054","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0055","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0056","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0057","decision":"drop","reason":"hallucination","note":"trailing 'Oh.'"}
+{"id":"s4-W19-0058","decision":"drop","reason":"hallucination","note":"trailing 'Yeah.'"}
+{"id":"s4-W19-0059","decision":"fix_clean","clean":"Bath order is set by last year's standings.","reason":"unrecoverable_word","rules":["R13"]}
+{"id":"s4-W19-0060","decision":"fix_clean","clean":"Draft order is set by last year's standings, that's right, with the champion he king wise.","reason":"unrecoverable_word","rules":["R13"]}
+{"id":"s4-W19-0061","decision":"drop","reason":"hallucination","note":"trailing 'Yeah.'"}
+{"id":"s4-W19-0062","decision":"drop","reason":"unrecoverable_meaning","note":"late Luke permit, lost 'do'"}
+{"id":"s4-W19-0063","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0064","decision":"fix_clean","clean":"Can you resize the bear so that the right edge fits, 1,200 pixels wide?","reason":"unrecoverable_word","rules":["R13"]}
+{"id":"s4-W19-0065","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0066","decision":"drop","reason":"unrecoverable_meaning","note":"end garbled to 'we're studious'"}
+{"id":"s4-W19-0067","decision":"drop","reason":"unrecoverable_meaning","note":"'blocked' heard as 'glad', start garbled, trailing Yeah"}
+{"id":"s4-W19-0068","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0069","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0070","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0071","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0072","decision":"drop","reason":"hallucination","note":"trailing 'Yeah.'"}
+{"id":"s4-W19-0073","decision":"drop","reason":"unrecoverable_meaning","note":"Aye/trail A/logs"}
+{"id":"s4-W19-0074","decision":"drop","reason":"unrecoverable_meaning","note":"key and lock heard for gate and lot, name spelling"}
+{"id":"s4-W19-0075","decision":"fix_clean","clean":"Shut list, first the portraits and then the group photo.","reason":"unrecoverable_word","rules":["R13"]}
+{"id":"s4-W19-0076","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0077","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0078","decision":"drop","reason":"unrecoverable_meaning","note":"question and lets lost"}
+{"id":"s4-W19-0079","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0080","decision":"drop","reason":"unrecoverable_meaning","note":"recognizer lost the 'if you mean the Saturday shift' clause"}
+{"id":"s4-W19-0081","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0082","decision":"fix_clean","clean":"Hi Dana, you know Sam, right? He's covering the radio test Friday and he's right about the schedule.","reason":"unrecoverable_word","rules":["R13"]}
+{"id":"s4-W19-0083","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0084","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0085","decision":"drop","reason":"hallucination","note":"trailing 'Yeah.', greeting lost"}
+{"id":"s4-W19-0086","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0087","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0088","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0089","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0090","decision":"fix_clean","clean":"Action items, Deeper sends the contract by Friday, and Maeve books the room for the second week, and Anders checks the speakers before the show on the 14th.","reason":"spelling_from_raw","rules":["RECOVER"]}
+{"id":"s4-W19-0091","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0092","decision":"drop","reason":"hallucination","note":"trailing 'but'"}
+{"id":"s4-W19-0093","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0094","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0095","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0096","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0097","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0098","decision":"accept","reason":"ok"}
+{"id":"s4-W19-0099","decision":"fix_clean","clean":"Hype notes, we leave at 6 sharp, and the right trail is the north one.","reason":"unrecoverable_word","rules":["R13"]}
+{"id":"s4-W19-0100","decision":"accept","reason":"ok"}

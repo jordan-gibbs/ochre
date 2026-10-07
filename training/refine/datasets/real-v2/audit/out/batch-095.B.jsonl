@@ -1,0 +1,50 @@
+{"id": "s4-W13-0001", "decision": "fix_clean", "clean": "Bing Helena about the audit.", "reason": "unrecoverable_word"}
+{"id": "s4-W13-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0004", "decision": "fix_clean", "clean": "Route to tier three.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W13-0005", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W13-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0009", "decision": "fix_clean", "clean": "I mean it, Nigo owned the dashboard.", "reason": "unrecoverable_word"}
+{"id": "s4-W13-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0012", "decision": "fix_clean", "clean": "No, I haven't tried the Zenis export.", "reason": "unrecoverable_word"}
+{"id": "s4-W13-0013", "decision": "fix_clean", "clean": "Mara's ticket.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W13-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0016", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W13-0017", "decision": "fix_clean", "clean": "Summarise the last email.", "reason": "spelling_from_raw"}
+{"id": "s4-W13-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0019", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W13-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0021", "decision": "fix_clean", "clean": "Baba Joyde has the keys.", "reason": "unrecoverable_word"}
+{"id": "s4-W13-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0023", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W13-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0026", "decision": "fix_clean", "clean": "Hi Margo, thanks for sending the budget to the audit team. I'll review it tonight.", "reason": "unrecoverable_word"}
+{"id": "s4-W13-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0028", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W13-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0031", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W13-0032", "decision": "fix_clean", "clean": "We actually shipped a fix yesterday, Miko can confirm.", "reason": "unrecoverable_word"}
+{"id": "s4-W13-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0034", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W13-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0038", "decision": "fix_clean", "clean": "I mean it when I say Byomka did great work on the tax filing.", "reason": "unrecoverable_word"}
+{"id": "s4-W13-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0042", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W13-0043", "decision": "fix_clean", "clean": "Marta sent the dashboard link to Tamara, and it still doesn't open.", "reason": "unrecoverable_word"}
+{"id": "s4-W13-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0048", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W13-0049", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W13-0050", "decision": "fix_clean", "clean": "Hi Babage, the phone you asked about is the Pixel, and it's available now.", "reason": "unrecoverable_word"}

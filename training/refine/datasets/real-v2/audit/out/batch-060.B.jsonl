@@ -1,0 +1,50 @@
+{"id": "s2-W6-0451", "decision": "fix_clean", "clean": "Hi, I just wanted to say thank you for the flowers and the card. It really meant a lot to me and the whole team. The last few weeks have been tough, but knowing that our customers care makes it easier. We are looking forward to working with you again in the new year. All the best, Fatima.", "reason": "guide_violation", "rules": ["R8"], "note": "undictated paragraph/line breaks removed"}
+{"id": "s2-W6-0452", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Tom.' for um; 'Olympic' for Oleg; '3M'"}
+{"id": "s2-W6-0453", "decision": "fix_clean", "clean": "I just spotted a mistake on the invoice I sent you yesterday, number 1088. I charged you for 40 hours, but the correct number is 36, so the total should be $5,400, not $6,000. I have attached a corrected invoice. Please disregard the old one. Sorry for the confusion.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hi Sandra' lost ('I send her'); greeting removed"}
+{"id": "s2-W6-0454", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Love,' in place of uh"}
+{"id": "s2-W6-0455", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0456", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; also heavily garbled"}
+{"id": "s2-W6-0457", "decision": "drop", "reason": "unrecoverable_meaning", "note": "email address garbled, sentence lost, several places"}
+{"id": "s2-W6-0458", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0459", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salutation lost, name garbled, sign-off garbled"}
+{"id": "s2-W6-0460", "decision": "fix_clean", "clean": "Offsite planning. Date is the 5th to the 7th of March. Location is probably the lodge near Lake Naivasha. I need quotes from at least two other venues. Budget is about $30,000 for 40 people, and that includes transport and meals. Agenda ideas: strategy on day one, team building on day two, and an open space session on day three. I have to check with HR about the dietary requirements and whether anyone needs accessible rooms. Also need to book the facilitator. Nadia suggested someone she worked with in Nairobi, so I will ask for her contact.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "last sentence (deadline) missing from raw"}
+{"id": "s2-W6-0461", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw only 'For our discussion.'"}
+{"id": "s2-W6-0462", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0463", "decision": "fix_clean", "clean": "Hi Anne, attaching the draft minutes from Tuesday. Please let me know of any corrections by Thursday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s2-W6-0464", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0465", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0466", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0467", "decision": "fix_clean", "clean": "The new release breaks the barcode scanner on the older Android handsets. Test it on Android 9.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Test it on'"}
+{"id": "s2-W6-0468", "decision": "drop", "reason": "hallucination", "note": "trailing 'said'"}
+{"id": "s2-W6-0469", "decision": "fix_clean", "clean": "Unfortunately, we are unable to offer a refund after three days, but we can offer store credit.", "reason": "number_value", "rules": ["RECOVER"], "note": "raw says three days"}
+{"id": "s2-W6-0470", "decision": "fix_clean", "clean": "The target is to reduce emissions by 35% by 23.", "reason": "number_value", "rules": ["RECOVER"], "note": "raw has 'twenty three'"}
+{"id": "s2-W6-0471", "decision": "fix_clean", "clean": "Hi Priscilla, it was great meeting you at the trade fair in Frankfurt last week. As promised, I am sending over our brochure and the price list for Europe. Our standard lead time is three weeks, and for orders above €10,000 we offer a 5% discount. If you would like samples, just tell me which products and the address, and I will ship them free of charge.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "closing sentence missing from raw"}
+{"id": "s2-W6-0472", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0473", "decision": "fix_clean", "clean": "Dear Mrs. Adyinka, I am writing to ask about the status of my visa application. The reference number is VA7304. I applied on the 2nd of September and was told it would take six to eight weeks. It has now been four and a half weeks, so I know it might be too early, but I need to travel for a family wedding on the 20th of November, and I am worried. Could you tell me whether there is any way to check the progress, or to speed things up? Thank you very much for your help. Sincerely, Ibrahim Sasse", "reason": "unrecoverable_word", "rules": ["RECOVER", "R8"], "note": "names from raw; undictated breaks removed"}
+{"id": "s2-W6-0474", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No.' x3 in place of uh"}
+{"id": "s2-W6-0475", "decision": "fix_clean", "clean": "Dear board members, I am writing as a resident of Building C in the Willow Creek community to ask that the board look into the parking situation. Over the last two months, there have been at least four occasions when visitors have parked in resident spaces and our cars were blocked in. I would like to propose a visitor permit system, with a limit of two permits per apartment. I would be happy to help draft the rules. Thank you for your time. Best regards, Linda Cho", "reason": "guide_violation", "rules": ["R8"], "note": "undictated line breaks removed"}
+{"id": "s2-W6-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0477", "decision": "drop", "reason": "unrecoverable_meaning", "note": "request sentence lost, name garbled, 'No.' residues"}
+{"id": "s2-W6-0478", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Into the report', men/who have, bed rail lost"}
+{"id": "s2-W6-0479", "decision": "fix_clean", "clean": "Dear Mr. and Mr. Espitel,\n\nThank you for inviting me to quote for the kitchen renovation. After visiting the property on the 6th of October, here is my estimate. The total comes to £26,500, which includes removing the old units, new cabinets, worktops, tiling, plumbing and electrical work, but not appliances.\n\nThe work would take around five weeks, and I could start on the 2nd of November if you confirm by the 20th of October. A deposit of 20% is required to secure the date, with the balance due on completion.\n\nThis quote is valid for 30 days. Please let me know if you have any questions.\n\nKind regards, Graham Ellis, Ellis and Sons Building", "reason": "unrecoverable_word", "rules": ["RECOVER", "R8"], "note": "name/title from raw; undictated sign-off break removed"}
+{"id": "s2-W6-0480", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled phrases"}
+{"id": "s2-W6-0481", "decision": "fix_clean", "clean": "Chase the printer.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'again' lost"}
+{"id": "s2-W6-0482", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0483", "decision": "drop", "reason": "unrecoverable_meaning", "note": "second clause garbled"}
+{"id": "s2-W6-0484", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0485", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0486", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0487", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0488", "decision": "fix_clean", "clean": "Let us meet at the cafe on Queen Street at 8.", "reason": "number_value", "rules": ["RECOVER"], "note": "'thirty' lost"}
+{"id": "s2-W6-0489", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0490", "decision": "fix_clean", "clean": "I have copied our finance lead, Alina, who can help with the invoice questions.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name from raw"}
+{"id": "s2-W6-0491", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting garbled, meeting->needing, several places"}
+{"id": "s2-W6-0492", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0493", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0494", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salutation, scholarship, volunteer clause, name lost"}
+{"id": "s2-W6-0495", "decision": "fix_clean", "clean": "This is just a note to say that I will be bringing a friend to look at the flat on Saturday at 11, the one I mentioned who may take over the lease when I leave. I have told her about the notice period and the deposit. Please let me know if the landlord needs to approve her before the viewing.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hi' lost ('I'); greeting removed"}
+{"id": "s2-W6-0496", "decision": "fix_clean", "clean": "Ideas for the quarterly review deck. Start with the headline numbers, revenue up 8% and churn down. Then the three biggest wins: the enterprise launch, the new onboarding, and the partner program. Then the delayed mobile release and the hiring gap in support. Then next quarter's priorities, and I think I should also add a slide on...", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R10"], "note": "'the misses' lost ('assist'); raw spelling 'program'"}
+{"id": "s2-W6-0497", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; also talk/Lisbon/name garbled"}
+{"id": "s2-W6-0498", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'for it. Oh.' and 'Well,' in place of uh; 'four M'"}
+{"id": "s2-W6-0499", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sign sentence lost, name garbled, No/Lam residues"}
+{"id": "s2-W6-0500", "decision": "accept", "reason": "ok"}

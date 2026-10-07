@@ -1,0 +1,50 @@
+{"id": "e4-E3-0031", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "e4-E3-0032", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled in many places"}
+{"id": "e4-E3-0033", "decision": "fix_clean", "clean": "Forget everything I said before and start over.", "reason": "trailing_off", "rules": ["RECOVER"], "note": "recognizer lost final question"}
+{"id": "e4-E3-0034", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0035", "decision": "fix_clean", "clean": "Could you come up with a limerick who keeps knocking pots off the drying shelf?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'about a cat' lost"}
+{"id": "e4-E3-0036", "decision": "fix_clean", "clean": "Polish this for the parent newsletter but keep it short: Hey guys, the October meeting got moved because the gym is booked. It's gonna be in the cafeteria now, same time, and Marguerite's bringing coffee.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'because' not 'cuz'"}
+{"id": "e4-E3-0037", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0039", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0040", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0041", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'with or' lost; flips meaning"}
+{"id": "e4-E3-0043", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0044", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0045", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0046", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0048", "decision": "drop", "reason": "unrecoverable_meaning", "note": "forest/D G/table/but"}
+{"id": "e4-E3-0049", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0050", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0051", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0052", "decision": "fix_clean", "clean": "For the child, mind it to never give medical advice and to keep answers under 50 words.", "reason": "unrecoverable_word", "rules": ["R13"], "note": ""}
+{"id": "e4-E3-0053", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0054", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0055", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0056", "decision": "fix_clean", "clean": "Can you help me outline a short speech for the zoning hearing on Thursday? I'm opposing the gas station they want to put on Elm Street, mostly because of traffic near the elementary school and the leaking tanks at the last one.", "reason": "trailing_off", "rules": ["RECOVER"], "note": "final request lost"}
+{"id": "e4-E3-0057", "decision": "fix_clean", "clean": "Why is the sky dark at night if there are so many stars?", "reason": "trailing_off", "rules": ["RECOVER"], "note": "final request lost"}
+{"id": "e4-E3-0058", "decision": "accept", "reason": "ok"}
+{"id": "e4-E3-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'never' lost"}
+{"id": "e4-E3-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many misheard dishes"}
+{"id": "e4-E4-0001", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0002", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0003", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0004", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0005", "decision": "fix_clean", "clean": "Laura's cat needs the distemper booster next Tuesday.", "reason": "unrecoverable_word", "rules": ["R13"], "note": ""}
+{"id": "e4-E4-0006", "decision": "fix_clean", "clean": "Write a short intro for episode 33 of our podcast, the one where we interviewed Taylor about field recording. Keep it under 100 words and mention that the episode is sponsored by a local coffee roaster.", "reason": "unrecoverable_word", "rules": ["R13"], "note": ""}
+{"id": "e4-E4-0007", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0008", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0009", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0010", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0011", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0012", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0013", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0015", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0016", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0017", "decision": "fix_clean", "clean": "Can someone call Mrs. Okafor back about her dog's ultrasound results? The X-rays were last week. She's called twice already and she sounds pretty worried, so if Dr. Rays is free, he should be the one to call.", "reason": "unrecoverable_word", "rules": ["R13"], "note": ""}
+{"id": "e4-E4-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "take/once"}
+{"id": "e4-E4-0019", "decision": "fix_clean", "clean": "Teodor is bringing the projector. Solveg has the extension cords.", "reason": "unrecoverable_word", "rules": ["R13"], "note": ""}
+{"id": "e4-E4-0020", "decision": "fix_clean", "clean": "Let's make that a priority for the next TAR meeting.", "reason": "unrecoverable_word", "rules": ["R13"], "note": ""}

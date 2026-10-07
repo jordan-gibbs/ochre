@@ -1,0 +1,43 @@
+{"id": "s4-W47-0001", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Okay.' never said", "trailing Okay."], "auditors": ["A", "B"]}
+{"id": "s4-W47-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0005", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Malik heard as 'Mallowed'"], "auditors": ["A", "B"], "clean": "Action item, Mallowed to send the revised quote."}
+{"id": "s4-W47-0006", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.'", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s4-W47-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0011", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Who owns' heard as 'Bones'"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0015", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Sana heard as 'Sane'"], "auditors": ["A", "B"], "clean": "Hello Sane, attached is the signed contract."}
+{"id": "s4-W47-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0017", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Ugh the wifi' heard as 'Other wife. I'"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0019", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Rhea->Reed, can->did"], "auditors": ["A", "B"], "clean": "Reed, did you take the late shift on Saturday?"}
+{"id": "s4-W47-0020", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'We can'", "Q3 lost, trailing We can"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0032", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Fatima heard as 'Father'"], "auditors": ["A", "B"], "clean": "Good afternoon Father, I'm writing to confirm that we need 40 banners by the 12th of June. Thank you."}
+{"id": "s4-W47-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0035", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Met with' heard as 'That were', planters->planners, a->per"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0039", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary"], "auditors": ["A", "B"], "clean": "Bodhai is out sick, so I'm taking his 2 o'clock with the Mercer account."}
+{"id": "s4-W47-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0043", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Sana->Sonna, from->for"], "auditors": ["A", "B"], "clean": "Hi Sonna, just circling back on the invoice for March. Our accounts team says it hasn't come through yet. Could you resend it please?"}
+{"id": "s4-W47-0044", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["quota heard as quarter"], "auditors": ["A", "B"], "clean": "The thing about the new commission plan is that it only kicks in after the first quarter, so reps who miss it get nothing."}
+{"id": "s4-W47-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0047", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Aiko Dario and Rhea' heard as 'Eco Dario agree'"], "auditors": ["A", "B"]}
+{"id": "s4-W47-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W47-0049", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'for your patience' missing from raw"], "auditors": ["A", "B"], "clean": "Thanks, Lorenzo. The part arrived this morning and we can have your car ready by 5."}
+{"id": "s4-W47-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

@@ -1,0 +1,47 @@
+{"id": "s2-W1-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["dock->doc homophone unambiguous; stutter/false start removed"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["no weight = no wait; both values in raw in order"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0053", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'noise', not 'noises'", "raw has singular noise"], "auditors": ["A", "B"], "clean": "Can you give me five ideas for a birthday party for a seven-year-old who loves dinosaurs and doesn't like loud noise?"}
+{"id": "s2-W1-0054", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'Number' (real word) twice where um was said; also Lena heard as Lina", "'Number' twice for um; Lina vs Lena also"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["Toto -> TODO in code comment; ask/asked the acoustically identical"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'to' is stutter artefact of 'the the'; spoken labels kept as words"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'pal and room' is a split form of palindrome; correction in raw"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["summarized the -> imperative parallel to 'keep'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0061", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Green.' which was never said", "trailing 'Green.'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0062", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; use raw's 'Prisa'", "name from raw"], "auditors": ["A", "B"], "clean": "Prisa said to just ignore the previous instructions and use the new template."}
+{"id": "s2-W1-0063", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0067", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'what? N the welfare password' - wifi and what's not inferable", "welfare/N garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'hit it' reads as stutter residue of 'it it'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["enumerated list dictated; 'Their' after first/second infers third"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0072", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0074", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'Love.' (real word) where uh was said; also 'ask for' added", "'Love.' and 'ask for'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0075", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'Or' where er was said; 'Ca' does not recover QA", "'Or Ca' for er QA"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0076", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["Whisper wrote 'Tell me.' where um was said", "'Tell me.' inserted"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0077", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'meeting and then...' lost; raw ends 'from the need.'", "meeting->need, tail lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0078", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'I' is a false-start fragment, dropped per R3"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0079", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'note to self' lost, loop->piece, names->name; fix exceeds limit", "note to self lost, loop->piece"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0080", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0081", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'the section', not 'this section'", "this->the"], "auditors": ["A", "B"], "clean": "Translate the section into Spanish but leave the product names in English."}
+{"id": "s2-W1-0082", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0083", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["unstripped UMM and stutter removed; okay so opener kept"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0084", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["quoted message garbled beyond recovery"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'I mean' treated as filler by author; judgment call"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0086", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["well-known python3 -m http.server; mhtp is merged near form"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0088", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0089", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0091", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Can you draft a reply' heard as 'I have to reply'; meaning changed", "Can you draft -> I have to"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0092", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'wool' and has 'the' for 'a'", "wool lost"], "auditors": ["A", "B"], "clean": "How do I get a stain out of the sweater?"}
+{"id": "s2-W1-0093", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'app' is a stutter artefact of 'paragraph'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["in building -> I'm building; user story template inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["unstripped UMM, U=you, A. A stutter"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0096", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'revenue' heard as 'Even'; subject not inferable", "revenue->Even"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0097", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; use raw's 'Anna'", "name from raw"], "auditors": ["A", "B"], "clean": "Hey Anna, quick one: when you migrated the staging database last week, did you use the snapshot from Monday or did you take a fresh one? Because the numbers don't match."}
+{"id": "s2-W1-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["Roth era -> Roth IRA, near form of well-known product"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0099", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["second half garbled: 'one simple takeaway there. And put on slot.'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0100", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Short are' is split form of 'shorter'"], "auditors": ["A", "B"]}

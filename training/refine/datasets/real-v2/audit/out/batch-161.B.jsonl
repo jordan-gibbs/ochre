@@ -1,0 +1,50 @@
+{"id": "s4-W48-0001", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0009", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0019", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0023", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0024", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0029", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W48-0030", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0033", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0034", "decision": "fix_clean", "clean": "Write a Python called parseLapTime that takes a string of minutes and seconds and returns the total seconds as a float.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W48-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0042", "decision": "fix_clean", "clean": "The WebSocket reconnects in a loop if the server returns a core over.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0043", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0044", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W48-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0047", "decision": "fix_clean", "clean": "The leaderboard sorts by name instead of score when two players tie. You should fall back to the join date.", "reason": "unrecoverable_word"}
+{"id": "s4-W48-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0050", "decision": "fix_clean", "clean": "Rename this to has valid.", "reason": "dropped_by_recognizer"}

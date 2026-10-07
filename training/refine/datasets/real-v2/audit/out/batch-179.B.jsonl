@@ -1,0 +1,50 @@
+{"id": "s4-W55-0001", "decision": "fix_clean", "clean": "The crew's passengers have to board by 4:30, and the tender leaves for Pier 6.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0002", "decision": "fix_clean", "clean": "Please tell Mr. Boucafer that his visa was approved and his itinerary has a layover in Reichvik.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0008", "decision": "fix_clean", "clean": "Leave the dough for 10 minutes, then let it crude for an hour.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0011", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W55-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0013", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W55-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0015", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W55-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0018", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W55-0019", "decision": "fix_clean", "clean": "Lina, the flight lands at gate B12, not D.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W55-0020", "decision": "fix_clean", "clean": "The roux should be the colour of peanut butter before you whisk in the broth.", "reason": "spelling_from_raw"}
+{"id": "s4-W55-0021", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W55-0022", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W55-0023", "decision": "fix_clean", "clean": "Turik wants the brand guidelines to say the local needs clear space equal to the height of the letter O.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0024", "decision": "fix_clean", "clean": "Lucas, the cheese is in the walk-in next to the leeks, not the leaks in the ceiling lol.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0026", "decision": "fix_clean", "clean": "The wedding party wants a bus from the shadow to the vineyard and back by midnight.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0030", "decision": "fix_clean", "clean": "Alaner, I'm gonna be late. The ferry to the island got cancelled.", "reason": "spelling_from_raw"}
+{"id": "s4-W55-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0032", "decision": "fix_clean", "clean": "We received the wire at 10:15, and the teller posted it to your scenes, but it won't be available until the whole clears on Thursday.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0033", "decision": "fix_clean", "clean": "Marco, can you grab the reeds of cardstock and the staple remover for the print shop?", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0036", "decision": "fix_clean", "clean": "Help says the home has a brand new boiler and the flue was inspected in June.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0037", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W55-0038", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W55-0039", "decision": "fix_clean", "clean": "Lena, could you send the draft press release to the client by Friday so that they can sign off before the launch?", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0040", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W55-0041", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W55-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0043", "decision": "fix_clean", "clean": "Lucas, I'm outside the cooking school. The door's locked. Can you buzz me in?", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0044", "decision": "fix_clean", "clean": "Drafting an email to the landlord explaining that the tenant is withholding rent because the heating hasn't worked since November.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0046", "decision": "fix_clean", "clean": "The agenda covers the quarterly campaign review, the new rebrand for the dentist, and who is covering the trade show in Lion.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0047", "decision": "fix_clean", "clean": "Dear Mr. Abenasi, the sellers have accepted your counteroffer of $412,000, and the closing is set for the 20th.", "reason": "unrecoverable_word"}
+{"id": "s4-W55-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W55-0050", "decision": "drop", "reason": "unrecoverable_meaning"}

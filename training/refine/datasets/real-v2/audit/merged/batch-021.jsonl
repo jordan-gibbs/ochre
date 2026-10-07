@@ -1,0 +1,42 @@
+{"id": "s2-W3-0001", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'finance team' heard as 'fine Anstein'; 'uh it' became 'Well'", "finance team lost; hesitation became Well, it dropped"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0002", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["date and place garbled: 'Marche Dine at the Gav?'", "date and cafe garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0003", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; 'honestly' became 'Possibly'", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W3-0004", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["bug->buds, Post Rest full, time error, idle time: too many places", "many garbled words"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0005", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["email address lost: 'jobsneth athme.eu'", "email and phone lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0006", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'D V I reference slides at Doc.acme dot com', /api lost", "url garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0007", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["whole sentence about hitting 1,000 dropped; beta/Priya/design garbled", "sentence lost, bay/this sign"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0009", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'a CSV file with about ten thousand rows' lost", "csv clause lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0010", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hey'->'And', Nguyen->'new. And', eighty->eight", "name lost, eight vs eighty"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0015", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I have'->'I'd have', 'off by like'->'off. I like'", "off by like lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0016", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'it' before 'raises'", "raw dropped \"it\""], "auditors": ["A", "B"], "clean": "This function retries the request up to three times with an exponential backoff starting at 200 milliseconds. If all retries fail, raises a timeout error. Note that the maximum wait is capped at 5 seconds."}
+{"id": "s2-W3-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0018", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost most of the journal entry", "most content lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0019", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'um two' became 'An arm to'; Redis heard as 'Release'", "An arm, postgrad school, Release"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0020", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'could you help' became 'But you helped'; 'here is what I' garbled", "several garbled phrases"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0021", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'looks off, just ping me' became 'looks soft, just pain me'", "soft/pain misheard, Okay dropped"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0022", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["CLI, Node, environment, timeout flag, home, config path all garbled", "many garbled words"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0024", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W3-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0030", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost the TODO and Python 3.8 clause", "start of sentence lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0031", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'No, no, no.' never said", "trailing No, no, no."], "auditors": ["A", "B"]}
+{"id": "s2-W3-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0034", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W3-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0037", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Sales wants to include a ten' lost; product sync/colors garbled", "sales clause lost, garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0041", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'2 AM UTC' heard as 'two M E T. C.'", "AM UTC garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0042", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["percent->present, works->worked, broke in->broken, characters->character", "percent->present, plural lost, several places"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0046", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'it'->'That' and 'at the'->'to hit the'", "That will ship / to hit the garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0048", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'the drop', not 'a drop'", "raw has \"the drop\""], "auditors": ["A", "B"], "clean": "This query is slow because it does a sequential scan on the orders table, which has about 2 million rows. We should add a composite index on customer_id and created_at. The benchmark on PostgreSQL 16 shows the drop from 800 milliseconds to about 12."}
+{"id": "s2-W3-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

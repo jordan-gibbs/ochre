@@ -1,0 +1,43 @@
+# LoRA SFT of Qwen3.5-2B (Quill 2B's base) for dictation cleanup.
+# Usage: .venv-train-refine/Scripts/python train.py configs/qwen35-2b-lora.yaml [--set key=value ...]
+
+run_name: qwen35-2b-lora
+output_dir: output/{run_name}            # relative to training/refine/ (gitignored)
+
+# Base: HF Qwen/Qwen3.5-2B (post-trained/instruct; the -Base repo is the raw pretrain). Pinned revision.
+base_model: data/base/Qwen3.5-2B
+base_repo: Qwen/Qwen3.5-2B
+base_revision: 15852e8c16360a2fea060d615a32b45270f8a8fc
+
+# Data: JSONL in the README/GUIDE format. Globs allowed. Rows marked drop by the audit are skipped.
+train_files:
+  - datasets/synth-v1/train.jsonl
+eval_files: []                           # if empty, eval_split of train_files is held out for eval loss
+eval_split: 0.1
+forbid_files:                            # held-out test sets: abort if any training row overlaps
+  - datasets/synth-v1/eval.jsonl
+check_rust: true                         # byte-compare every prompt with owf_refine::local::build_prompt
+max_len: 1536                            # tokens (prompt ~400 + completion); longer rows are skipped, never truncated
+
+# LoRA. Qwen3.5 is hybrid: 18 Gated DeltaNet (linear_attn) + 6 full-attention (self_attn) layers.
+# Targets cover both mixers and every MLP; train.py asserts all 24 layers got adapters.
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+target_modules: [q_proj, k_proj, v_proj, o_proj, in_proj_qkv, in_proj_z, out_proj, gate_proj, up_proj, down_proj]
+
+# Optimization
+seed: 20261004
+epochs: 2
+learning_rate: 2.0e-4
+lr_scheduler: cosine
+warmup_ratio: 0.05
+weight_decay: 0.0
+max_grad_norm: 1.0
+micro_batch_size: 4
+grad_accum: 4                            # effective batch 16
+gradient_checkpointing: true
+group_by_length: true
+full_determinism: false                  # true = torch deterministic algorithms (slower; may error on some ops)
+logging_steps: 5
+save_total_limit: 3

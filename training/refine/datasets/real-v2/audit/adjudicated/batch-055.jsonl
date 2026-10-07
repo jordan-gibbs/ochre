@@ -1,0 +1,10 @@
+{"id": "s2-W6-0201", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'page' heard as 'H'; 'Q4 targets are on H two' is not a sensible dictation"}
+{"id": "s2-W6-0214", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can uh we discuss' became 'Anne. We discussed': the closing request turned into a statement with a stray real word; plus Dev->Bev"}
+{"id": "s2-W6-0215", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um/uh decoded as 'Well' twice; also liked->like and prioritise->prioritize would need fixing"}
+{"id": "s2-W6-0217", "decision": "drop", "reason": "hallucination", "note": "raw ends with a trailing 'but' that was never said"}
+{"id": "s2-W6-0220", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A38->F38 (correction target), Qureshi->Kureshi, grey->Gray, undictated letter line breaks: more than 2 places"}
+{"id": "s2-W6-0223", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'get my email question mark' became 'give my email question, Mark?': verb and command both garbled"}
+{"id": "s2-W6-0224", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Thanks' heard as 'And'; 'And Sam.' is not a sensible dictation"}
+{"id": "s2-W6-0231", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'three days late' became 'three days in', which changes the meaning of the sentence"}
+{"id": "s2-W6-0236", "decision": "drop", "reason": "unrecoverable_meaning", "note": "signature name lost, Kano->Cano, centre->center, undictated letter line breaks: more than 2 places"}
+{"id": "s2-W6-0238", "decision": "drop", "reason": "unrecoverable_meaning", "note": "millimetre->millimeter, Katarina->Katerina, 'we agreed'->'We agree', undictated sign-off line break: more than 2 places"}

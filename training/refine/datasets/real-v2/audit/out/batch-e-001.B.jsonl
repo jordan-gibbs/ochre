@@ -1,0 +1,50 @@
+{"id": "e4-E1-0001", "decision": "fix_clean", "clean": "Lev, are you still coming to the IV inspection Saturday? I need somebody to hold the smoker while I pull the frames.", "reason": "unrecoverable_word"}
+{"id": "e4-E1-0002", "decision": "fix_clean", "clean": "I just got stunten on the eyelid, lol.", "reason": "unrecoverable_word"}
+{"id": "e4-E1-0003", "decision": "fix_clean", "clean": "A Ren, want to split a pizza tonight?", "reason": "unrecoverable_word"}
+{"id": "e4-E1-0004", "decision": "fix_clean", "clean": "No, the vessel's not even in port till Thursday, so there's no point driving down to the yard before then, honestly.", "reason": "unrecoverable_word"}
+{"id": "e4-E1-0005", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0006", "decision": "fix_clean", "clean": "My retainer cracked again, so I'm gonna be 20 minutes. Light.", "reason": "dropped_by_recognizer"}
+{"id": "e4-E1-0007", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0008", "decision": "fix_clean", "clean": "Lol, Dashield, that's so on brand for you.", "reason": "spelling_from_raw"}
+{"id": "e4-E1-0009", "decision": "fix_clean", "clean": "Is the venue tour still on or did it get rained out?", "reason": "unrecoverable_word"}
+{"id": "e4-E1-0010", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0011", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0012", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0013", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0015", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E1-0016", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E1-0017", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0018", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0019", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0020", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0021", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0022", "decision": "drop", "reason": "hallucination"}
+{"id": "e4-E1-0023", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0024", "decision": "fix_clean", "clean": "The bees swarmed into my neighbor's head and he's not thrilled.", "reason": "unrecoverable_word"}
+{"id": "e4-E1-0025", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0026", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0027", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0029", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0030", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0031", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0032", "decision": "fix_clean", "clean": "Well, no way. Did Ren actually eat the habanero?", "reason": "unrecoverable_word"}
+{"id": "e4-E1-0033", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0034", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0035", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0036", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0037", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0039", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0040", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E1-0042", "decision": "drop", "reason": "hallucination"}
+{"id": "e4-E1-0043", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0044", "decision": "fix_clean", "clean": "I think we should just order Thai. Nobody wants to cook after the game and the place on Maine does delivery to 11.", "reason": "unrecoverable_word"}
+{"id": "e4-E1-0045", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E1-0046", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0047", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E1-0048", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0049", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0050", "decision": "accept", "reason": "ok"}

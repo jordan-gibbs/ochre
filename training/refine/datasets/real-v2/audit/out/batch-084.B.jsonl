@@ -1,0 +1,50 @@
+{"id": "s2-W9-0151", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'like' heard as 'Bike'; real word in raw"}
+{"id": "s2-W9-0152", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0153", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0155", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0157", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0158", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0159", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0160", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0161", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'120 to 9' garbled, 'a night' lost, hey->Okay"}
+{"id": "s2-W9-0162", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0163", "decision": "fix_clean", "clean": "I went through the customer feedback from last week, and it looks like most people were asking for the same thing, the dark mode, it's something like 60% of the requests, so I think we should prioritize it.", "reason": "unrecoverable_word", "note": "raw has 'were' and 'the dark mode'"}
+{"id": "s2-W9-0164", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled"}
+{"id": "s2-W9-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0166", "decision": "fix_clean", "clean": "Hey, I looked at her PR and overall it's great, really clean, but there are a couple of things, the variable names are kind of confusing, and I think we should add a test so that we don't break it later.", "reason": "unrecoverable_word", "note": "raw has 'her'"}
+{"id": "s2-W9-0167", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled"}
+{"id": "s2-W9-0168", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0170", "decision": "fix_clean", "clean": "The database maintenance is tonight at 11, and it's gonna take about, maybe 2 hours, so if you're on call, you might see some alerts, but it's expected, so don't panic.", "reason": "dropped_by_recognizer", "note": "'Heads up that' lost"}
+{"id": "s2-W9-0171", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0172", "decision": "drop", "reason": "non_english", "note": "Cyrillic in raw"}
+{"id": "s2-W9-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0174", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0175", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'on Saturday' -> 'one. Not a day'"}
+{"id": "s2-W9-0176", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0177", "decision": "fix_clean", "clean": "Hey Mike, thanks for the update, I really appreciate it, and it looks like we're on track, so the only thing I'd add is that we should loop in legal before we send anything now, so that nothing slips.", "reason": "unrecoverable_word", "note": "raw has 'now' not 'out'"}
+{"id": "s2-W9-0178", "decision": "fix_clean", "clean": "Hi everyone, just a quick reminder that the potluck is this Friday, and please sign up on this sheet so we don't end up with 10 desserts, and if you can bring something like a salad that would be great.", "reason": "dropped_by_recognizer", "note": "'at noon' lost; raw 'this sheet'"}
+{"id": "s2-W9-0179", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name Jen lost, 'Agent'/'Mike' garble"}
+{"id": "s2-W9-0180", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0183", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0187", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0188", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'took it out on you' garbled, 'I'll' -> 'Oh'"}
+{"id": "s2-W9-0189", "decision": "drop", "reason": "unrecoverable_meaning", "note": "number/miles lost, lake lost"}
+{"id": "s2-W9-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0191", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0192", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ten lost as 'than'"}
+{"id": "s2-W9-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0194", "decision": "drop", "reason": "unrecoverable_meaning", "note": "job/jump, 2 a m, limit garbled"}
+{"id": "s2-W9-0195", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.', 'C items', roadmap garbled"}
+{"id": "s2-W9-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0199", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0200", "decision": "accept", "reason": "ok"}

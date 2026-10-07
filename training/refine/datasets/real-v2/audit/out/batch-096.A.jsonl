@@ -1,0 +1,50 @@
+{"id": "s4-W13-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Act' heard as 'I'; request no longer readable"}
+{"id": "s4-W13-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0058", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'it' lost so 'I mean Alina' reads as a correction"}
+{"id": "s4-W13-0059", "decision": "fix_clean", "clean": "Helena will share the review panel next week.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'chair' heard as 'share'"}
+{"id": "s4-W13-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bottle/sample/'And you' misheard"}
+{"id": "s4-W13-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0062", "decision": "fix_clean", "clean": "I actually don't mind if Marita takes the lead on the renewal.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "name not in dictionary"}
+{"id": "s4-W13-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0074", "decision": "fix_clean", "clean": "I'm putting together onboarding materials for the new HR hires. Can you draft a welcome message for Iesha, who's joining the benefits team, and keep it under 100 words, warm but professional?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw spells the name Iesha"}
+{"id": "s4-W13-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0076", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled throughout"}
+{"id": "s4-W13-0077", "decision": "fix_clean", "clean": "Summarize the following customer email in two sentences. I bought the modem last week and it keeps dropping the connection every few hours.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'hi' lost (raw 'I I')"}
+{"id": "s4-W13-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0079", "decision": "fix_clean", "clean": "Dear I Asher, thank you for your application to the accounting associate role. We were impressed by your background, and we'd like to invite you to interview at our Bristol office on the 12th of March at 10:30. Please let us know if that works.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "name not in dictionary"}
+{"id": "s4-W13-0080", "decision": "fix_clean", "clean": "Heads up, the telecom outage in the north region is actually the fiber cut near Hull, not Leeds, and the engineers from Marta's team are on site, ETA is about two hours.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken 'not leeds' missing from clean"}
+{"id": "s4-W13-0081", "decision": "fix_clean", "clean": "Act like a sceptical statistician reviewing my notebook and tell me where the model could be overfitting, then suggest three checks I could run.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'sceptical'"}
+{"id": "s4-W13-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0083", "decision": "fix_clean", "clean": "This section describes how the HR team handles leave requests. Employees submit the form in BambooHR, and their manager has two business days to respond. If there's no response, the request goes to HR for review. Julia or her delegate makes the final call.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'and' before Julia absent from raw"}
+{"id": "s4-W13-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Babage I did most of the work' changes who did the work"}
+{"id": "s4-W13-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0086", "decision": "fix_clean", "clean": "Hello Mar, I hope the move went smoothly. I'm writing because the hotel in Gent called to say our rooms are ready from 2 PM, and the parking is around the corner on the quay. Also, the restaurant you suggested, Lac Terrace, has a table for six on Saturday. Let me know if you want me to confirm.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Mar, Gent, Lac Terrace from raw"}
+{"id": "s4-W13-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'HR' heard as 'the our'; Heleno"}
+{"id": "s4-W13-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled (boat trips, Moham, more and high morning)"}
+{"id": "s4-W13-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can you help' heard as 'And you helped'"}
+{"id": "s4-W13-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0091", "decision": "fix_clean", "clean": "Hi everyone, quick recap of the support desk review. We looked at the first response times for the month, and the average came down from 19 hours to 9 hours, which is a big improvement. Hannah's team handled most of the weekend shifts, and Martyr rolled out the new macros in Freshdesk, so agents can reply faster. The one open issue is the call backlog in the core queue, which still has about 40 tickets. Julia will own that this week, and will check again on Monday.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Martyr, core, will from raw"}
+{"id": "s4-W13-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "jargon->Java, Ayesha->'I extra'"}
+{"id": "s4-W13-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "clause 'or her backup, opens a file in the practice management system' lost"}
+{"id": "s4-W13-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Setophy, tow, all change: too many slips"}
+{"id": "s4-W13-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I've asked the tier two lead' lost, several slips"}
+{"id": "s4-W13-0096", "decision": "fix_clean", "clean": "I have a long email thread with a vendor about a late shipment and I want you to draft her reply that thanks them for their patience and asks for a revised delivery date. Keep the tone polite and do not promise a discount, and mention that Mara approved the purchase order on the 19th.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'her reply'"}
+{"id": "s4-W13-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W13-0098", "decision": "fix_clean", "clean": "Say Marit, about the data science sync tomorrow, I know we said it's in the atrium, but facilities double booked it, so we're going to be in room 402 instead, that's the one next to the kitchen. Also, Nico wants to demo the new feature store, Tecton, and Hannah's going to present the churn results. Can you add both to the agenda and let me know if you need anything from me before then?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'Hey Mara' heard as 'Say Marit'"}
+{"id": "s4-W13-0099", "decision": "fix_clean", "clean": "Hanging on to the old badge until Helena confirms the new one.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'hanging'"}
+{"id": "s4-W13-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'remind babajide to cc me' heard as 'remain bad maje'"}

@@ -1,0 +1,43 @@
+{"id": "e4-E6-0011", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Oaxaca->Oksaka, Itzel->Itsol, got moved->move, annex->annexed: too many places", "names, tense and annex garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0012", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hi Ifeoma'->'I've full machine', Leocadia->Likiti, anytime->in a time", "greeting, names, many slips"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0013", "decision": "drop", "reasons": ["non_english", "unrecoverable_meaning"], "notes": ["raw has French 'c'est' for 'call Calloway'", "call/Ngozi garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0017", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["pallets, insulin, again, Ghent, Mechelen, through/in Liege all garbled", "many slips"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0018", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["'bike rental' lost ('by Grendel')"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0019", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'to Szczecin' -> 'just shuts and'", "Szczecin lost"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0021", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Thanks.' never said", "Thanks."], "auditors": ["A", "B"]}
+{"id": "e4-E6-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0023", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["'Yeah.' at end, 'redo them' lost", "Yeah. and redo lost"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0024", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'a collection'"], "auditors": ["A", "B"], "clean": "Researchers must cite a collection by its accession number, and photography is permitted except for items marked fragile."}
+{"id": "e4-E6-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0029", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "e4-E6-0031", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "e4-E6-0032", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Kwan->Quen (not in dictionary), date->shape"], "auditors": ["A", "B"], "clean": "Dear Professor Quen, the reading room will be closed for the holiday, so the earliest we can host your seminar is the week of January 12th. We can also arrange for the original manuscripts to be on display in the gallery, which seats about 30. Please let me know which shape suits your class and whether you'll need the projector."}
+{"id": "e4-E6-0033", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'lol' heard as 'while'", "lol heard as while"], "auditors": ["A", "B"], "clean": "While a customer complimented the salsa and said it was the perfect complement to the elote."}
+{"id": "e4-E6-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0036", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Girona->China"], "auditors": ["A", "B"], "clean": "The customer wants to swap his Campagnolo groupset for Shimano Ultegra. Does anyone know if the freehub body is compatible, or do we need a whole new wheel? He's riding the Gran Fondo in China next month, so I'd rather not order the wrong part and lose a week."}
+{"id": "e4-E6-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0040", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Bashir not in dictionary; raw 'Bashia'"], "auditors": ["A", "B"], "clean": "Hi Bashia, we received your submission through FilmFreeway, but for the festival screening we'll need a DCP, not a ProRes file, and the deadline for delivery is October 24th."}
+{"id": "e4-E6-0041", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["gochujang->gotcha gen, tteokbokki->DDR party"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0042", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["PID->pig, 'keep it under'->'Sheep here in', 'use the'->'you see'"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0043", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["most of the sentence lost"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0044", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Rohloff hub service'->'Rollof observation', not->non"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0047", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; also flat pup, Or parked", "trailing Yeah., garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0049", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Ngozi not in dictionary; Dayton->Dagon"], "auditors": ["A", "B"], "clean": "Hi N Goze, the 340B audit is scheduled for the week of November 3rd. Can you pull the dispensing records for the contract pharmacies in Dagon and Akron before then, and flag anything that looks like a duplicate claim?"}
+{"id": "e4-E6-0050", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'has a cracked hinge clamp' -> 'is a cracked hinged clam'"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0052", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'We' dropped"], "auditors": ["A", "B"], "clean": "Won the gold medal in the metal fabrication category, still can't believe it."}
+{"id": "e4-E6-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E6-0058", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["pour->For, 'than fourteen days' lost"], "auditors": ["A", "B"]}
+{"id": "e4-E6-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

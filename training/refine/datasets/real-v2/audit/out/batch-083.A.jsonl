@@ -1,0 +1,50 @@
+{"id": "s2-W9-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0102", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0103", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'restart the server' heard as 'We start the servo'"}
+{"id": "s2-W9-0104", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0105", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0106", "decision": "drop", "reason": "unrecoverable_meaning", "note": "intern->mentor, fixed->fakes; meaning changed"}
+{"id": "s2-W9-0107", "decision": "drop", "reason": "hallucination", "note": "raw adds 'or two' never said, changes duration"}
+{"id": "s2-W9-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0110", "decision": "fix_clean", "clean": "Honestly, I like the first draft there, it sounds more like us.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'there' for 'better'"}
+{"id": "s2-W9-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0113", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'yeah the invoice' heard as 'we have the input'"}
+{"id": "s2-W9-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0118", "decision": "fix_clean", "clean": "Yeah, I can do Tuesday, Wednesday works better though, so let's do Wednesday.", "reason": "guide_violation", "rules": ["R2", "R10"], "note": "'I mean' is not a correction here; clean rewrote Tuesday and added 'it'"}
+{"id": "s2-W9-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0122", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0124", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0128", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0129", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'potluck' heard as 'part leg'"}
+{"id": "s2-W9-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0131", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw ends 'all we'; 'week' lost, plus 'A' for 'Hey'"}
+{"id": "s2-W9-0132", "decision": "fix_clean", "clean": "Hey Carlos, you're right, I should have sent that over earlier, so my bad.", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "raw has 'should have'"}
+{"id": "s2-W9-0133", "decision": "fix_clean", "clean": "Hi, just a quick note that I've moved our call to 2:30 tomorrow.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'I've moved'"}
+{"id": "s2-W9-0134", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W9-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0136", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0138", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'on the late reply' heard as 'and late quiet'"}
+{"id": "s2-W9-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0140", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0141", "decision": "fix_clean", "clean": "Hey Alex, what kind of time works for you? I'm pretty open next week.", "reason": "guide_violation", "rules": ["R6"], "note": "question needs '?'"}
+{"id": "s2-W9-0142", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0144", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W9-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0146", "decision": "drop", "reason": "unrecoverable_meaning", "note": "DM fee, 'mine' for 'line', final clause lost"}
+{"id": "s2-W9-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W9-0150", "decision": "fix_clean", "clean": "Hey, just checking in, how are you doing? I know it's been a rough week, and I just wanted you to know I'm here if you want to talk, no pressure.", "reason": "guide_violation", "rules": ["R6", "R10"], "note": "missing '?'; raw has 'want to'"}

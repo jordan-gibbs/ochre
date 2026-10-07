@@ -1,0 +1,50 @@
+{"id": "s2-W3-0301", "decision": "fix_clean", "clean": "Okay, we are on the third floor, room V12.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Room V twelve'; 312 not inferable"}
+{"id": "s2-W3-0302", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0303", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'You in' for Nguyen, 'And we' for 'Can we', 'May be renamed' for 'maybe rename it to': too many places"}
+{"id": "s2-W3-0304", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0305", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0306", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'should it small' cannot be recovered to 'Ship It Small'; raw word gives nonsense title"}
+{"id": "s2-W3-0307", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0308", "decision": "fix_clean", "clean": "The PDF export cuts off the last column when the table has more than 8 columns. The page margin is set to 1 inch and the page width is 8.5 by 11. I think the table width is not being scaled. As a workaround you can switch to landscape, but it should handle this automatically.", "reason": "guide_violation", "rules": ["R10", "RECOVER"], "note": "spoken/raw say 'page width', not 'page size'; raw has 'The page margin'"}
+{"id": "s2-W3-0309", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'list and points returned', 'the next person... the person parameter', 'My next cursor': too garbled"}
+{"id": "s2-W3-0310", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0311", "decision": "fix_clean", "clean": "Just confirming that the delivery is scheduled for Tuesday between 1 and 3 PM. The total with delivery is $599.95, and we accept Visa, Mastercard or bank transfer. Please reply to confirm.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hi' absent from raw"}
+{"id": "s2-W3-0312", "decision": "fix_clean", "clean": "For the record, we have been going back and forth on this for a week. And we just pick one. I vote for option 2. It's cheaper, and honestly the difference in quality is like 5%.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'And we just pick one.'; 'Can' not inferable"}
+{"id": "s2-W3-0313", "decision": "fix_clean", "clean": "The sample rate is 44.1 kHz, and the buffer holds one second of audio.", "reason": "guide_violation", "rules": ["R11", "R10"], "note": "raw is already a correct cleanup"}
+{"id": "s2-W3-0314", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0315", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0316", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0317", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0318", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0319", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0320", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0321", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0322", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'note sixty n' loses Node 16 and 'ends'"}
+{"id": "s2-W3-0323", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said; also lost the cache invalidation sentence"}
+{"id": "s2-W3-0324", "decision": "drop", "reason": "hallucination", "note": "Whisper appended 'Thank you.'"}
+{"id": "s2-W3-0325", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0326", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'Nine.', 'um' -> 'Some scope'; also 'includes' dropped and 'colour' variant"}
+{"id": "s2-W3-0327", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' -> 'But the rollback'; also 'I'll write teen' for 'Alright team'"}
+{"id": "s2-W3-0328", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0329", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0330", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' -> 'First, add the column'; also 'noble'/'Backle'"}
+{"id": "s2-W3-0331", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0332", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'No.' reads as a correction cue"}
+{"id": "s2-W3-0333", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' -> 'There's', 'um' -> 'Dumb'"}
+{"id": "s2-W3-0334", "decision": "fix_clean", "clean": "Thank you for your patience. We have reviewed your claim and determined that the damage is covered under your policy. The payout will be $2,650 minus your deductible of $500, which means you will receive $2,150. The funds should arrive within 7 to 10 business days. If you have any questions for the...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends 'questions for the'"}
+{"id": "s2-W3-0335", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'typo power', 'help.acri.com search' lose tolerance, acme and slash"}
+{"id": "s2-W3-0336", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said; also 'poll' for 'call'"}
+{"id": "s2-W3-0337", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0338", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'Call it an example dot kind of thought.' has nothing of the command"}
+{"id": "s2-W3-0339", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0340", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'A.' for Hey, 'the middle tier', 'And we talk' for 'Can we talk': more than 2 places"}
+{"id": "s2-W3-0341", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'Wow.' in a formal email"}
+{"id": "s2-W3-0342", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er it meets twice a week' -> 'Yeah.'; 'would help' also lost"}
+{"id": "s2-W3-0343", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the up level', 'rejects', 'of the time, the module'"}
+{"id": "s2-W3-0344", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0345", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is mostly lost and invents text"}
+{"id": "s2-W3-0346", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'All idle connections'; also 'accepts' -> 'does'"}
+{"id": "s2-W3-0347", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Mike', 'there's a float', 'pre': more than 2 places"}
+{"id": "s2-W3-0348", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'she wants' -> 'Do you want...?' changes the meaning"}
+{"id": "s2-W3-0349", "decision": "fix_clean", "clean": "Just got off a call with legal, and the short version is we can't use the photo. They said, \"The license only covers print,\" so we need to either buy the web license for about $300 or find another image. I say we find another one. Deadline is end of day tomorrow.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the photo'"}
+{"id": "s2-W3-0350", "decision": "fix_clean", "clean": "Car-buying notes. The sedan is $28,500 with an estimated 30 miles per gallon. The SUV is $33,000 and gets 26. If I drive about 12,000 miles a year and gas is $3.50 a gallon, the difference in fuel is only around $300 a year, so the extra $4,500 up front would take 15 years to pay back. Sedan wins.", "reason": "number_value", "rules": ["RECOVER"], "note": "raw says thirty mpg"}

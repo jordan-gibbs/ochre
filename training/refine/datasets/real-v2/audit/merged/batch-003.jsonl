@@ -1,0 +1,41 @@
+{"id": "s2-W1-0101", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'Are' is absent from raw", "'Are' lost"], "auditors": ["A", "B"], "clean": "Hey, it's me. We still on for dinner at 7 or did you want to move it? Because I might be stuck at work until, like, 7:30."}
+{"id": "s2-W1-0102", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'core' for 'call'", "call heard as core"], "auditors": ["A", "B"], "clean": "From the core: Ravi told us to ignore the old pricing sheet and translate the new one into German and French before the launch on the 12th."}
+{"id": "s2-W1-0103", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'two, click' became 'Do but' and 'to' lost; step 2 cannot be reconstructed", "step 2 click and 'to' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0105", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0106", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0107", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0108", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0112", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0113", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' became 'her' ('send to her')", "'her' for er"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0114", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0115", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'or do we still need a review' became 'for Jill. We still need your review.'", "tail garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0117", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0118", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'text jordan back' became 'Patch your artifact' and 'can't' became 'can'", "opening garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0119", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0120", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0123", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0124", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0125", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'just say hi' became 'Dust say I'", "'say hi' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0126", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'chatbot' became 'chocolate'", "chatbot heard as chocolate"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0127", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'damage deposit, pets, subletting' became 'Image deposit best sublating'", "list garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0128", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has 'Lynn'; 'Would' dropped by recognizer", "name spelling and Would lost"], "auditors": ["A", "B"], "clean": "Hello Professor Lynn, here is the abstract I wrote. You mind telling me whether the first sentence is too long and if the methods are described clearly enough? And please don't rewrite it, just point out the problems."}
+{"id": "s2-W1-0130", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0131", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0132", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0133", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0134", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has 'Mag'", "name truncated in raw"], "auditors": ["A", "B"], "clean": "Hi Mag, I was wondering if you could rewrite the second paragraph of my proposal so it sounds less like a sales pitch. I feel like it comes off too pushy and the client is pretty conservative."}
+{"id": "s2-W1-0135", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0136", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'on' is absent from raw; night->knight is a homophone", "'on' lost"], "auditors": ["A", "B"], "clean": "From now, answer every question as if you were a medieval knight."}
+{"id": "s2-W1-0138", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw has 'Write', not 'Rewrite'", "'Re' lost"], "auditors": ["A", "B"], "clean": "Write the conclusion so it ties back to the opening story and..."}
+{"id": "s2-W1-0139", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0140", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er the' became 'her, but'", "'her, but' for er the"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0141", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'todo' lost, 'ChatGPT' became 'Chat', 'for' became 'war'", "TODO, ChatGPT, for lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0142", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0143", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0144", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0145", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Dr Patel' became 'DRP'", "Patel lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0146", "decision": "drop", "reasons": ["non_english", "non_english"], "notes": ["raw is Spanish", "raw is not the dictation"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0147", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0148", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["the corrected value 'sentence case' is lost", "correction garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0149", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'Nice' twice", "'Nice.' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0150", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'Are' is absent from raw", "'Are' lost"], "auditors": ["A", "B"], "clean": "You coming to the thing on Saturday?"}

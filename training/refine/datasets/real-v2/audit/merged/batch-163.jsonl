@@ -1,0 +1,42 @@
+{"id": "s4-W49-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0003", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'shutupuntu' hides -it ubuntu"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0004", "decision": "drop", "reasons": ["garbage", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0005", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0006", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Bash and', 'Crew' for -n, coop"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0008", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Keep installed dash all' for pip install -r"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0010", "decision": "drop", "reasons": ["garbage", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0011", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0014", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'api dash zero' lost as 'fero'"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0015", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw has 'Project'"], "auditors": ["A", "B"], "clean": "cd ~/project/credit-union-portal"}
+{"id": "s4-W49-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0020", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0021", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'dash and', 'round and induce'"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0022", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["empty raw"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0023", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0025", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["git stash pop lost"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0027", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'dash that launched' for -it launch"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0029", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0031", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["empty raw"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0032", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["python -m lost"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0033", "decision": "drop", "reasons": ["garbage", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0034", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0035", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'does' for dues"], "auditors": ["A", "B"], "clean": "git branch -D old-does-fix"}
+{"id": "s4-W49-0037", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0038", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0039", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0040", "decision": "drop", "reasons": ["script_defect", "script_defect"], "notes": ["clean omits the whole spoken first sentence"], "auditors": ["A", "B"]}
+{"id": "s4-W49-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0047", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw 'the sleep'"], "auditors": ["A", "B"], "clean": "Don't remove the sleep, I mean it. The upstream API rate limits us and we get banned without it."}
+{"id": "s4-W49-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W49-0050", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Nope to salt', 'mo sold', 'dough'"], "auditors": ["A", "B"]}

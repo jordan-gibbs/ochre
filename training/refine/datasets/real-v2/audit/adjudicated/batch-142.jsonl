@@ -1,0 +1,18 @@
+{"id": "s4-W38-0051", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"Dear Council Cola\": salutation garbled"}
+{"id": "s4-W38-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: High/Me: not sensible"}
+{"id": "s4-W38-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"approval\" lost; sentence broken"}
+{"id": "s4-W38-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"Market small\" for \"mark it's small\" not inferable"}
+{"id": "s4-W38-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: Ines heard as \"and ease\""}
+{"id": "s4-W38-0068", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"Hyenese\" not recoverable"}
+{"id": "s4-W38-0071", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: colon heard as \"call in\"; not sensible"}
+{"id": "s4-W38-0072", "decision": "fix_clean", "clean": "Okay, quick update on the adoption weekend: we had 42 visitors, 11 applications, and 6 dogs went home! The caps were slower. Elias is sending the full numbers tomorrow.", "reason": "unrecoverable_word", "note": "sided with A: caps for cats not inferable; keep raw"}
+{"id": "s4-W38-0075", "decision": "fix_clean", "clean": "Dear Chia: thank you for your message regarding the adoption application. We have reviewed your references, and they were excellent. The home visit is scheduled for the 9th of May at 10 a.m. Please let us know if that time does not work for you.", "reason": "unrecoverable_word", "note": "sided with B: only the name needs raw spelling Chia; Come/A. are inferable comma command/a.m."}
+{"id": "s4-W38-0078", "decision": "accept", "reason": "ok", "note": "sided with B: \"Commodore\" is a misheard comma command; accept"}
+{"id": "s4-W38-0082", "decision": "fix_clean", "clean": "Here's the plan for Saturday, Colin: we meet at the trailhead at 8, split into two groups, and the slow group takes the lower loop. Yasmin leads the fast group, and I'll sweep. If anyone is going to be late, please text me before 7:30.", "reason": "unrecoverable_word", "note": "sided with A: \"Colin\" plausible addressee in slack; keep"}
+{"id": "s4-W38-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: come at test / lets we're write: too garbled"}
+{"id": "s4-W38-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"Yo\" heard as \"You're\": not sensible"}
+{"id": "s4-W38-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"High use of\" for Hi Yusuf"}
+{"id": "s4-W38-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: Ana heard as \"on a\": not sensible"}
+{"id": "s4-W38-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: TR/what/shared: not sensible"}
+{"id": "s4-W38-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: Ines heard as \"and ease\""}
+{"id": "s4-W38-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: Colin/Commer could be names; deleting 3 words not inferable"}

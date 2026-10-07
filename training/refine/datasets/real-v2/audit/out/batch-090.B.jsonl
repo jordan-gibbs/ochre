@@ -1,0 +1,50 @@
+{"id": "s2-W11-0051", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0052", "decision": "fix_clean", "clean": "Packing list for the camping trip. Ten sleeping bags, the camp stove, and enough fuel for 3 days. Water filter, headlamps, and a first aid kit. Check the weather on Thursday night and decide whether to bring the heavier jackets. We leave at 6 on Friday morning.", "reason": "unrecoverable_word", "note": "tent heard as ten"}
+{"id": "s2-W11-0053", "decision": "fix_clean", "clean": "The nightly export job is failing with an out of memory error. It processes about 2 million rows into a single CSV in memory. We should stream the rows in batches of 10,000 instead. Rough estimate.", "reason": "dropped_by_recognizer", "note": "tail lost"}
+{"id": "s2-W11-0054", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0055", "decision": "fix_clean", "clean": "The Figma file is updated and Tomas left comments on the onboarding flow.", "reason": "dropped_by_recognizer", "note": "last sentence lost"}
+{"id": "s2-W11-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "middle sentence lost, fragments"}
+{"id": "s2-W11-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "hey->eight, pancakes->paint takes"}
+{"id": "s2-W11-0060", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0062", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ran->we're at, at/a lost, Alena"}
+{"id": "s2-W11-0063", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0064", "decision": "fix_clean", "clean": "Compare the iPhone and the Pixel 8 for someone that mostly takes photos of their kids. I care about low light performance and battery life. Budget is around $800. Give me a clear recommendation at the end, not just a list of specs.", "reason": "dropped_by_recognizer", "note": "15 lost; who->that"}
+{"id": "s2-W11-0065", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0066", "decision": "fix_clean", "clean": "Roadmap for the second half. In Q3 we focus on stability and performance, including the database migration. In Q4 we launched the new mobile app and the partner program. Hiring needs are two backend engineers and one designer. Budget approval is expected by the end of August.", "reason": "unrecoverable_word", "note": "launched in raw"}
+{"id": "s2-W11-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "passed, outdated, Kwame all garbled"}
+{"id": "s2-W11-0070", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0071", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0072", "decision": "fix_clean", "clean": "Call Dr. O'Kaffa on Monday morning.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s2-W11-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "my place, Zadie Smith, tense"}
+{"id": "s2-W11-0074", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0075", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0077", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0078", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0080", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cabinets->countenance, name, garbled"}
+{"id": "s2-W11-0082", "decision": "fix_clean", "clean": "Dear Mr. Lindfist, I'm writing to confirm our appointment on Wednesday, October 14th at 3:30 p.m. Please let me know if you need to reschedule.", "reason": "unrecoverable_word", "note": "name from raw; double period"}
+{"id": "s2-W11-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0084", "decision": "fix_clean", "clean": "Hey Meyer, I found your sunglasses in my car. I can drop them off at your office tomorrow if you're around. Otherwise I'll leave them with the front desk at the gym. Just tell me which one works better for you.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s2-W11-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0086", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "a.m., Postgres, I'll all garbled"}
+{"id": "s2-W11-0088", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0089", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0090", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "invoice number value and words garbled"}
+{"id": "s2-W11-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0094", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0095", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0096", "decision": "fix_clean", "clean": "We intentionally ignore the return value of this call. The cleanup is best effort, and if it fails the next run will pick up the stale files anyway. Logging an error here just creates noise in the dashboards. If you change this, talk to Rabbi first.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s2-W11-0097", "decision": "fix_clean", "clean": "You'll be there in 20 minutes.", "reason": "unrecoverable_word", "note": "I'll heard as You'll"}
+{"id": "s2-W11-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "API key, status code, retry header garbled"}
+{"id": "s2-W11-0099", "decision": "fix_clean", "clean": "Idea for the podcast, interview a local baker about how sourdough prices change. Pitched to Chan on Monday and aim to record by the end of the month.", "reason": "unrecoverable_word", "note": "change/it/Chan from raw"}
+{"id": "s2-W11-0100", "decision": "accept", "reason": "ok"}

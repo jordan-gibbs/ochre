@@ -1,0 +1,50 @@
+{"id": "s2-W6-0401", "decision": "drop", "reason": "hallucination", "note": "raw appends trailing 'of' never said ('For details of')"}
+{"id": "s2-W6-0402", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0403", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is 'Well though.'; content lost"}
+{"id": "s2-W6-0404", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0405", "decision": "accept", "reason": "ok", "note": "'value. It's' phrase cut; 'is' inferable"}
+{"id": "s2-W6-0406", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Gift for the retiring' became 'Giftiring'; plus 'Yeah.' residue"}
+{"id": "s2-W6-0407", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0408", "decision": "fix_clean", "clean": "Memory usage climbs steadily to about 4 gigabytes after six hours then the process gets killed.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'then' for 'and'"}
+{"id": "s2-W6-0409", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0410", "decision": "fix_clean", "clean": "Hey Joe, just a heads up that the vendor wants to move the demo to Friday at 2. Are you free?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling Joe"}
+{"id": "s2-W6-0411", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Some kind regards' from um; also 'Hamilton's' and undictated letter line breaks"}
+{"id": "s2-W6-0412", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'team on call' and last sentence lost, replaced by 'Yeah.'"}
+{"id": "s2-W6-0413", "decision": "accept", "reason": "ok", "note": "'new four number' -> floor inferable in office-move context"}
+{"id": "s2-W6-0414", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No' twice where uh was said; iPhone 12/14 numbers lost"}
+{"id": "s2-W6-0415", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'thank you for paying on time' -> 'Time.', 'Kind regards, Helen' -> 'I regards. Alan.'"}
+{"id": "s2-W6-0416", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'And I met' from um; also 'They're the new joiners', raw 'program' variant: >2 places"}
+{"id": "s2-W6-0417", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salutation, 'adding a second crew', signature garbled"}
+{"id": "s2-W6-0418", "decision": "drop", "reason": "unrecoverable_meaning", "note": "whole sentences lost (operators training, discussed on site, plant manager Ewa)"}
+{"id": "s2-W6-0419", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name Norhausen, 'and' lost, plus undictated letter line breaks: >2 places"}
+{"id": "s2-W6-0420", "decision": "fix_clean", "clean": "Call with the school office this morning, the lady was called Rosa. The next parent evening is the 3rd of December from 4 to 7. Appointments can be booked online from the 24th of November. The school trip to the science museum is on the 4th of February and costs £18 per child. Payment is through the school app by the 20th of January. The winter concert is the 17th of December at 6:30 PM, and tickets are free, but we need to reserve. I should do that this week, and also ask whether the after-school club has space on Tuesdays.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'on' lost (raw 'is UMM the seventeenth')"}
+{"id": "s2-W6-0421", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0422", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0423", "decision": "fix_clean", "clean": "Hi Farrah, the invoice is overdue by 12 days. Could you let me know when it will be paid?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling Farrah"}
+{"id": "s2-W6-0424", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0425", "decision": "accept", "reason": "ok", "note": "Ring->Bring, sign->signed inferable from context"}
+{"id": "s2-W6-0426", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0427", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0428", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected name Mia lost (raw 'Sorry. Yeah.')"}
+{"id": "s2-W6-0429", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0430", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Saddam', 'but Lom', 'Some' where um was said"}
+{"id": "s2-W6-0431", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'not at a desk, so mobile speed matters a lot' lost"}
+{"id": "s2-W6-0432", "decision": "fix_clean", "clean": "Dear Site Manager, I live opposite your construction site on Harper Street, and I want to raise concerns about the noise. Work starts before 7 AM most days, which is not allowed under your permit. On Thursday it started at 6:15, and on Saturday there was drilling after 6 PM. I work night shifts and cannot sleep. Please make sure the working hours are respected. I have the dates and times written down and can share them. Regards, Tom Brennan", "reason": "guide_violation", "rules": ["R8", "R10"], "note": "undictated letter line breaks removed"}
+{"id": "s2-W6-0433", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0434", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Ibrahan, 'ship take', 'than' lost, 'set', plus line breaks: >2 places"}
+{"id": "s2-W6-0435", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0436", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dr. Oak's, 'where' for 'or', 'if' lost: >2 places"}
+{"id": "s2-W6-0437", "decision": "drop", "reason": "unrecoverable_meaning", "note": "names Priya/Kwabena/Anna/Ines garbled, 'shared channel today' lost"}
+{"id": "s2-W6-0438", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'spam folder' lost, phone number lost 555"}
+{"id": "s2-W6-0439", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ending in' -> 'NA', 'one' lost, phone 555 -> 'five five', Morno"}
+{"id": "s2-W6-0440", "decision": "drop", "reason": "hallucination", "note": "invented 'No, I'm not going to be able to'; large spans lost"}
+{"id": "s2-W6-0441", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0442", "decision": "accept", "reason": "ok", "note": "'bang' -> bank inferable"}
+{"id": "s2-W6-0443", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi both' heard as 'I well'"}
+{"id": "s2-W6-0444", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0445", "decision": "accept", "reason": "ok", "note": "'flaws' -> floors inferable"}
+{"id": "s2-W6-0446", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0447", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0448", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0449", "decision": "fix_clean", "clean": "Thanks for covering for me on Monday. I owe you one. I will return the favor next month.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'favor'"}
+{"id": "s2-W6-0450", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'payment' dropped; sentence breaks"}

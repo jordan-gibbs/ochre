@@ -1,0 +1,50 @@
+{"id": "s2-W3-0251", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never spoken"}
+{"id": "s2-W3-0252", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0253", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I teen' for 'hi team' and 'ships' for 'shifts' both unrecoverable"}
+{"id": "s2-W3-0254", "decision": "accept", "reason": "ok", "note": "'in quote' recoverable as end quote"}
+{"id": "s2-W3-0255", "decision": "fix_clean", "clean": "Be careful when changing this value. The batch size of 500 was chosen after testing the sizes from 50 to 5,000. Anything above 1,000 causes the database to time out under load, and anything below 200 makes the job take more than an hour. If the schema changes, you will need to retune this.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the' not 'with'"}
+{"id": "s2-W3-0256", "decision": "fix_clean", "clean": "Ew, so the sale ends tonight at midnight and it's 50% off everything. I ordered the standing desk, which was normally $600 and now is $300. Also there is free shipping if you spend over $100, so you could get a monitor arm too.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Ew' for yo and dropped 'it' before 'is'"}
+{"id": "s2-W3-0257", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'not 21 like people say' and the ending; fix too large"}
+{"id": "s2-W3-0258", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the mini or the ta' for 'the meaning or the tone'"}
+{"id": "s2-W3-0259", "decision": "fix_clean", "clean": "This is to confirm that your subscription will renew on the 1st of next month for $99. If you do not wish to renew, please cancel at least seven days in advance by logging into account.northwind.com.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'into'"}
+{"id": "s2-W3-0260", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.'; also 'Sir,' from er"}
+{"id": "s2-W3-0261", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0262", "decision": "drop", "reason": "garbage", "note": "raw 'Oh far.'"}
+{"id": "s2-W3-0263", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0264", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0265", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost the Okafor concern clause"}
+{"id": "s2-W3-0266", "decision": "drop", "reason": "hallucination", "note": "raw invented 'it was a little bit more than I' for 'i th-'"}
+{"id": "s2-W3-0267", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No' where uh was said before Thursday"}
+{"id": "s2-W3-0268", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Or introduce' from er; also 'sour note', 'loyalty part'"}
+{"id": "s2-W3-0269", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Thumb' where um was said"}
+{"id": "s2-W3-0270", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0271", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'creed' for grade and 'but' dropped"}
+{"id": "s2-W3-0272", "decision": "drop", "reason": "unrecoverable_meaning", "note": "payment plan clause lost; 'Number.' residue"}
+{"id": "s2-W3-0273", "decision": "accept", "reason": "ok", "note": "readies -> Redis via dictionary"}
+{"id": "s2-W3-0274", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw heavily garbled"}
+{"id": "s2-W3-0275", "decision": "accept", "reason": "ok", "note": "list dictated with first/second/third"}
+{"id": "s2-W3-0276", "decision": "drop", "reason": "unrecoverable_meaning", "note": "email 'a state dot indoor' unrecoverable"}
+{"id": "s2-W3-0277", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0278", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'No.' residues, 5.4 vs 5.0, garbled versions"}
+{"id": "s2-W3-0279", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0280", "decision": "accept", "reason": "ok", "note": "terminal context makes sudo systemctl nginx recoverable"}
+{"id": "s2-W3-0281", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0282", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0283", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0284", "decision": "accept", "reason": "ok", "note": "subject line dictated; 'I all'/'two I' inferable"}
+{"id": "s2-W3-0285", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Where so' from er so; 'that over' for vent over"}
+{"id": "s2-W3-0286", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw heavily garbled"}
+{"id": "s2-W3-0287", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Move.' and 'Mirth.' where um/er were said"}
+{"id": "s2-W3-0288", "decision": "drop", "reason": "unrecoverable_meaning", "note": "list items garbled ('sign up for At', 'a BTF'); undictated heading"}
+{"id": "s2-W3-0289", "decision": "drop", "reason": "garbage", "note": "repetition loop in account number 774444421"}
+{"id": "s2-W3-0290", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0291", "decision": "fix_clean", "clean": "Okay, I am literally sitting in the parking lot and I can't find you. By the blue sign near entrance C, the one with the big tree, and my phone is at 10%, so please text instead of calling.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'I am'"}
+{"id": "s2-W3-0292", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'reach right', 'little errors', 'we too reach Ion' garbled in several places"}
+{"id": "s2-W3-0293", "decision": "accept", "reason": "ok", "note": "'But' for 'that' inferable from structure"}
+{"id": "s2-W3-0294", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Or what is the plan' from er"}
+{"id": "s2-W3-0295", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0296", "decision": "fix_clean", "clean": "We regret to inform you that flight 217 to Denver has been canceled due to weather. You have been automatically rebooked on the next available flight, which departs at 6:40 PM tomorrow. If this does not work for you, please call us at 888-555-0112.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has US 'canceled'"}
+{"id": "s2-W3-0297", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0298", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0299", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0300", "decision": "accept", "reason": "ok"}

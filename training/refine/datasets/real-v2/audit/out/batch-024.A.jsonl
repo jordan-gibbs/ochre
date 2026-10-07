@@ -1,0 +1,50 @@
+{"id": "s2-W3-0151", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'i will venmo you' became 'Oh then you'"}
+{"id": "s2-W3-0152", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'uncalled', 'inside' (in CI), 'KinMeri' (canary): 3+ unrecoverable places"}
+{"id": "s2-W3-0153", "decision": "fix_clean", "clean": "Weekly review. This week I finished the draft of the report, which came to about 12 pages. I went to the gym three times, which is one less than I planned. I finally called the bank about the mortgage rate. They said it is currently 6.25% for a 30-year fixed. I should compare that with at least two other lenders before next Friday. I need to book flights for the wedding, which is on the 7th of December.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'the other thing is' lost (raw has only stray 'is')"}
+{"id": "s2-W3-0154", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; also correction to 98k lost and 'Dear Ms. Patel' missing"}
+{"id": "s2-W3-0155", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hey team' -> 'eighteen', 'customer account', 'Or so', 'double'"}
+{"id": "s2-W3-0156", "decision": "accept", "reason": "ok", "note": "'resigned' -> redesigned inferable from UX case-study context"}
+{"id": "s2-W3-0157", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Back up in Messore', 'three M', command and 'post REST' garbled"}
+{"id": "s2-W3-0158", "decision": "accept", "reason": "ok", "note": "'Lam' treated as non-word residue of um"}
+{"id": "s2-W3-0159", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0160", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the middle lost"}
+{"id": "s2-W3-0161", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0162", "decision": "fix_clean", "clean": "Just a quick brain dump on the offsite. The venue holds up to 8 people and costs about $4,000 for the day. Catering is another $50 a head, so if we invite 60 people, that's around $7,000 total. We could also do it on the 15th or the 22nd, and I think the 22nd works better.", "reason": "number_value", "rules": ["R7", "RECOVER"], "note": "raw has 'eight people' not eighty"}
+{"id": "s2-W3-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0164", "decision": "accept", "reason": "ok", "note": "'riding' -> writing homophone"}
+{"id": "s2-W3-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0166", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'Not.'; also raw truncated 'the b' and 'centre'"}
+{"id": "s2-W3-0167", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'fifty minutes' -> 'fifth', value lost"}
+{"id": "s2-W3-0168", "decision": "drop", "reason": "unrecoverable_meaning", "note": "URL garbled: 'internet dot acmeed.com sheets'"}
+{"id": "s2-W3-0169", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; 'at noon' lost"}
+{"id": "s2-W3-0170", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0171", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw kept only one clause"}
+{"id": "s2-W3-0172", "decision": "accept", "reason": "ok", "note": "'HTTP Top Server' is canonical python -m http.server"}
+{"id": "s2-W3-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0174", "decision": "fix_clean", "clean": "Honestly, it was 6 out of 10. The food was fine, but the service was slow.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lacks 'a'"}
+{"id": "s2-W3-0175", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0176", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0177", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the thing' (Figma), 'NP state', 'has', 'and we' (can we): too many places"}
+{"id": "s2-W3-0178", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Callsby', 'invite he was speak', closing sentence lost"}
+{"id": "s2-W3-0179", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0180", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'actually means' for 'needs' is not sensible with raw's word"}
+{"id": "s2-W3-0181", "decision": "fix_clean", "clean": "Steps to reproduce: open the app on a tablet in landscape mode, tap the menu icon in the top left, and observe that the menu overlaps the status bar. The expected behavior is that the menu starts below the status bar. This happens on Android 12 and 13 but not on 14. The screen is 2560 by 1600.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'resolution' missing from raw"}
+{"id": "s2-W3-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0183", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Gash strategy', 'Right to validate' not recoverable"}
+{"id": "s2-W3-0184", "decision": "fix_clean", "clean": "There is a problem with the reservation. They said they're only open at 9 instead of 7, so I figure we eat before and then just go for drinks. It's about a 20-minute drive, so we should leave by 6:45.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Hey' heard as 'A'; not recoverable"}
+{"id": "s2-W3-0185", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'use the v2 endpoint instead' lost; 'which supports' dangles"}
+{"id": "s2-W3-0186", "decision": "accept", "reason": "ok", "note": "'helped steady' -> held steady unambiguous"}
+{"id": "s2-W3-0187", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cabinets' -> 'Avenues'"}
+{"id": "s2-W3-0188", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'but'; also 'a maze' for arrays"}
+{"id": "s2-W3-0189", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'Some'; ticket number repetition loop"}
+{"id": "s2-W3-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0191", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0192", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0194", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0195", "decision": "fix_clean", "clean": "I am at day 12, boarding starts at 4:40.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'gate' heard as 'day'"}
+{"id": "s2-W3-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0198", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W3-0199", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0200", "decision": "accept", "reason": "ok"}

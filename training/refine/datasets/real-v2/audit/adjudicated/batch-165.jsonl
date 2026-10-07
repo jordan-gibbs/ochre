@@ -1,0 +1,5 @@
+{"id": "s4-W50-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Mehmet' heard as 'May it.'; B's fix keeps a phrase nobody would write"}
+{"id": "s4-W50-0009", "decision": "fix_clean", "clean": "Call the framer before Nin.", "reason": "unrecoverable_word", "note": "A: noon->Nin from raw; common noun 'framer' stays lowercase (minimal edit)"}
+{"id": "s4-W50-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Retry' heard as 'We've had'; fixed comment not sensible"}
+{"id": "s4-W50-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'gone' heard as 'got'; 'We was only got a few minutes' not writable"}
+{"id": "s4-W50-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'toggle' heard as 'How about'; repro step not sensible"}

@@ -1,0 +1,38 @@
+{"id": "s4-W33-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Begin in' read as clipped 'beginning in'"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0054", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0055", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'in about a And then as' for 'in nevada and then it's'"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0056", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Right from Stay is' for 'retro stays'"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0062", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'The day the Pulk' for 'the data pull'"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0063", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Elif not in dictionary; raw 'Lif'"], "auditors": ["A", "B"], "clean": "Lif, the retirement party is on the 14th at 4, please let me know by the 10th."}
+{"id": "s4-W33-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0069", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'payroll' not inferable from 'Peril'"], "auditors": ["A", "B"], "clean": "This is the third time this month that Peril has run late."}
+{"id": "s4-W33-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0074", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0075", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'you a higher orientation, His' for 'new hire orientation is'"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0076", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Do it' for 'dude' and 'Which means.' for 'wish me luck'"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0077", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'eight am' lost from raw"], "auditors": ["A", "B"], "clean": "I need you to write a short announcement for the support desk. Hours will change starting January 6th. We'll be open to 8 PM Monday through Friday, and 10 to 4 on Saturdays, closed on Sundays. Keep the tone friendly."}
+{"id": "s4-W33-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0080", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hassan, Elif and Giorgio attended, we agreed' dropped by recognizer"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0081", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0082", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0083", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0084", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'writing' heard as 'ready'; 'kind regards' dropped"], "auditors": ["A", "B"], "clean": "Dear Valentina, I'm ready to confirm that your contract runs from the 1st of February 2025 until the 31st of January 2026, with a review at the six month mark. Luca"}
+{"id": "s4-W33-0086", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0091", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'kids that this appointment' for kids' dentist appointment"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0092", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'censor was all fine. Between two and Nine' for 'offline between june ninth'"], "auditors": ["A", "B"]}
+{"id": "s4-W33-0093", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'nudge' heard as 'note'"], "auditors": ["A", "B"], "clean": "Hi Hassan, I wanted to walk you through the timeline for the year end close so there are no surprises. We start on Monday the 2nd with the bank reconciliations, which usually take about two days. Then the accruals and depreciation get posted by the 5th, the review with Giorgio is on the 8th at 10:30, and I'm hoping to send the draft statements to the client by the 12th. That leaves us a buffer of about a week before the filing deadline on the 19th, but if the client is slow to send their receipts it could slip, so please note them this week. Thanks."}
+{"id": "s4-W33-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0097", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W33-0099", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Okay.' never said; 'days' lost"], "auditors": ["A", "B"]}

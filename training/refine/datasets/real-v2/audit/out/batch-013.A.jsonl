@@ -1,0 +1,50 @@
+{"id": "s2-W2-0101", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Wiz,' reads as a vocative and 'on cold' replaces 'on call'; two uncertain inferences"}
+{"id": "s2-W2-0102", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0103", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Let me up at the airport': 'pick' not inferable (pick/meet), raw word not sensible"}
+{"id": "s2-W2-0104", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0105", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0108", "decision": "fix_clean", "clean": "Summarize the following meeting transcript in two sentences, not three.", "reason": "guide_violation", "rules": ["R2", "R10"], "note": "'not three' is a contrast, not a correction cue; it was said and is in raw"}
+{"id": "s2-W2-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0110", "decision": "fix_clean", "clean": "What time does the Target on Oak Street close on Sundays?", "reason": "guide_violation", "rules": ["R6"], "note": "question missing '?'"}
+{"id": "s2-W2-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0113", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'toggle' heard as 'pal'; not inferable and raw word not sensible"}
+{"id": "s2-W2-0114", "decision": "drop", "reason": "garbage", "note": "raw mostly unintelligible; corrected IP lost"}
+{"id": "s2-W2-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0116", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'the uh' became 'here', a content word a reader would keep"}
+{"id": "s2-W2-0117", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'morning' lost as 'More more and Mm-hmm'"}
+{"id": "s2-W2-0118", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0120", "decision": "drop", "reason": "garbage", "note": "raw is mostly unintelligible"}
+{"id": "s2-W2-0121", "decision": "fix_clean", "clean": "We have four open tickets.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'for the billing service'"}
+{"id": "s2-W2-0122", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Call the plumber' heard as 'Ball. The bomber.'"}
+{"id": "s2-W2-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0124", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0125", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'Arm', a real word"}
+{"id": "s2-W2-0126", "decision": "fix_clean", "clean": "Anyone have a spare USB-C charger, not the old kind?", "reason": "guide_violation", "rules": ["R10"], "note": "'not the old kind' was said and is in raw"}
+{"id": "s2-W2-0127", "decision": "fix_clean", "clean": "I think the launch should be on the 20th because legal still has the sign off on the terms.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'has the sign off', a sensible reading; 'to' not inferable"}
+{"id": "s2-W2-0128", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected email garbled ('pre dot narrated'); 'nair' not inferable"}
+{"id": "s2-W2-0129", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bring' heard as 'Spring' and 'can' lost; fix needs two uncertain places"}
+{"id": "s2-W2-0130", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated to 'Let me rephrase I want.'"}
+{"id": "s2-W2-0131", "decision": "fix_clean", "clean": "Two options for the logo: the blue one, the green one. We pick the green one because it prints better.", "reason": "unrecoverable_word", "rules": ["R10", "RECOVER"], "note": "'and' was never said; raw has 'pick' (present tense)"}
+{"id": "s2-W2-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0133", "decision": "drop", "reason": "unrecoverable_meaning", "note": "subject garbled to 'There's a', ending lost, and clean dropped spoken 'not null'"}
+{"id": "s2-W2-0134", "decision": "fix_clean", "clean": "Authentication uses OAuth 2 with PKCE.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'and tokens expire after one hour'"}
+{"id": "s2-W2-0135", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Sarcee' for src and garbled command; target not inferable from raw"}
+{"id": "s2-W2-0136", "decision": "fix_clean", "clean": "Who won the World Cup in 2022?", "reason": "guide_violation", "rules": ["R6"], "note": "question missing '?'"}
+{"id": "s2-W2-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0138", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'off' ('sign it off')"}
+{"id": "s2-W2-0139", "decision": "drop", "reason": "hallucination", "note": "Whisper appended 'Thank you.'"}
+{"id": "s2-W2-0140", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' that was never said"}
+{"id": "s2-W2-0141", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0142", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'share sheet' heard as 'She or She'"}
+{"id": "s2-W2-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0144", "decision": "fix_clean", "clean": "I will bring just wine because Lena is bringing cheese.", "reason": "guide_violation", "rules": ["R2", "R10"], "note": "corrected version is 'just wine'; 'just' was dropped"}
+{"id": "s2-W2-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0146", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost most of the sentence"}
+{"id": "s2-W2-0147", "decision": "drop", "reason": "hallucination", "note": "trailing 'Oh' from noise; also 'um' heard as 'Thumb'"}
+{"id": "s2-W2-0148", "decision": "fix_clean", "clean": "Please schedule the interview for Tuesday at 11:00 with the panel in conference room B.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "AM heard as 'I'm'/'in'; AM not recoverable"}
+{"id": "s2-W2-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0150", "decision": "fix_clean", "clean": "Okay, so I talk to Mom and she says Saturday is better.", "reason": "unrecoverable_word", "rules": ["R10", "RECOVER"], "note": "raw has present tense 'talk'"}

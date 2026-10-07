@@ -1,0 +1,43 @@
+{"id": "s4-W62-0091", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W62-0095", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'errand ... toll for the week in That's leak six' garbled", "airbnb sentence garbled (errand/toll/week/leak six) plus saga"], "auditors": ["A", "B"]}
+{"id": "s4-W62-0096", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Their range'"], "auditors": ["A", "B"], "clean": "The matchmaking system groups players into lobbies of eight, and it waits up to 30 seconds to fill a lobby before it starts with bots. Skill rating ranges from 0 to 3,000, and a lobby can span at most 400 points between the highest and lowest player. If a player has waited more than 20 seconds, their range widens by 50 points every 5 seconds, up to a maximum of 800. Players on mobile are only matched with other mobile players unless the queue time passes 60 seconds, in which case cross-platform matching kicks in. All of these numbers are tunable in the config and default to the values here."}
+{"id": "s4-W62-0097", "decision": "fix_clean", "reasons": ["number_value", "number_value"], "notes": ["raw has 5%, not 50%"], "auditors": ["A", "B"], "clean": "I need you to write a test plan for a checkout flow. It should cover credit card payments from $1 up to $10,000, discount codes that take between 5 and 5% off, and shipping to at least three countries. Include edge cases like a cart with zero items and a cart with 101 items, because our limit is 100. Keep it to about two pages because there are a lot of cases. Use plain language, and don't write any code."}
+{"id": "s4-W62-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W62-0099", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W62-0100", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'release think', 'next Senghas', 'would duplicate', 'count as' etc.", "sync/and/were/is/sync is garbled in several places"], "auditors": ["A", "B"]}
+{"id": "s4-W63-0001", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'the ducks' for 'that tux'"], "auditors": ["A", "B"], "clean": "Ain't no way I'm wearing the ducks again."}
+{"id": "s4-W63-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0005", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'painter' for 'pager'"], "auditors": ["A", "B"], "clean": "The painter went off again, again."}
+{"id": "s4-W63-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0015", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Mom'"], "auditors": ["A", "B"], "clean": "Mom says hi."}
+{"id": "s4-W63-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0017", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw 'He's easy.'", "raw He's easy.; nearly all words lost"], "auditors": ["A", "B"]}
+{"id": "s4-W63-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0019", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw kept only 'Then fun.'", "raw Then fun.; most of the content lost"], "auditors": ["A", "B"]}
+{"id": "s4-W63-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0026", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'a lot' for 'alive'"], "auditors": ["A", "B"], "clean": "We're driving up Saturday morning, early doors, so the traffic doesn't eat us a lot."}
+{"id": "s4-W63-0027", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'on' and the repeated 'nine sharp'"], "auditors": ["A", "B"], "clean": "The call handoff is at 9 sharp, not a minute after, so please be online."}
+{"id": "s4-W63-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0032", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s4-W63-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W63-0040", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'and amara's got the ice' -> 'I'm always got the us'", "Amara and ice lost"], "auditors": ["A", "B"]}

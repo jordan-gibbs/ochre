@@ -1,0 +1,50 @@
+{"id": "s4-W32-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0002", "decision": "fix_clean", "clean": "Haram got diagnosed with vertigo.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Haram' for Karim, not in dictionary"}
+{"id": "s4-W32-0003", "decision": "fix_clean", "clean": "The amortisation schedule is attached.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'amortisation'"}
+{"id": "s4-W32-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0006", "decision": "fix_clean", "clean": "Petro needs an echocardiogram.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Petro' for Petra; echocardiopram is a near spelling"}
+{"id": "s4-W32-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hana lost, amoxicillin garbled to 'amic is silent'"}
+{"id": "s4-W32-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Punishment is not apply' - garnishment not inferable, result not sensible"}
+{"id": "s4-W32-0013", "decision": "fix_clean", "clean": "The plaintiff filed the motion in limine.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the motion'"}
+{"id": "s4-W32-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Maybe it is out with Brentis'"}
+{"id": "s4-W32-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Side be profits safe with acetamine of it'"}
+{"id": "s4-W32-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Flashlight appreciation error'"}
+{"id": "s4-W32-0017", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W32-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Timon Tider came back well' - name and value lost"}
+{"id": "s4-W32-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0022", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'So the thought report is that'"}
+{"id": "s4-W32-0023", "decision": "fix_clean", "clean": "Haring's cortisone shot hurt like crazy.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Haring's' for Karim's"}
+{"id": "s4-W32-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0025", "decision": "fix_clean", "clean": "I need the quarterly cool numbers.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "accrual heard as 'cool'"}
+{"id": "s4-W32-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Petra from Peril said to Fika, withholding this off' - too many places"}
+{"id": "s4-W32-0027", "decision": "fix_clean", "clean": "The arbitration clause and section 12 needs a second look before we sign.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hi Alessia' lost; raw has 'and section'"}
+{"id": "s4-W32-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Mehmet heard as 'Maybe it'; subject unrecoverable"}
+{"id": "s4-W32-0029", "decision": "fix_clean", "clean": "Can you check whether the per diem for the camp counsellors is taxable or if it counts as a nontaxable reimbursement?", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'counsellors'"}
+{"id": "s4-W32-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Roth hero ... Like I'm fired'"}
+{"id": "s4-W32-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hana/said/epinephrine/pens all garbled"}
+{"id": "s4-W32-0036", "decision": "fix_clean", "clean": "Dear Mr. Carin, please find enclosed the affidavit and the notarized power of attorney.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Carin' for Karim; 'find and close' = enclosed"}
+{"id": "s4-W32-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0042", "decision": "fix_clean", "clean": "Alasha, I've attached it to our claim form, and the statute of limitations is two years from the date of injury.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Alasha'; 'the tort' heard as 'it to our'"}
+{"id": "s4-W32-0043", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W32-0044", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Theo/take/metformin lost, garbled"}
+{"id": "s4-W32-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Mehmet' heard as 'I name it.'"}
+{"id": "s4-W32-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W32-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'T of V cruise ... claim that denied'"}

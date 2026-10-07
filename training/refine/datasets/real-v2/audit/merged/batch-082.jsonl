@@ -1,0 +1,43 @@
+{"id": "s2-W9-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0057", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw has 'should call', not 'should've called'", "raw 'should call'"], "auditors": ["A", "B"], "clean": "Yeah, you're right, I should call first, I just wasn't thinking."}
+{"id": "s2-W9-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0060", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'out of the oat milk' -> 'up at the', 'kind' -> 'time'", "out of the oat milk lost, kind->time"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0062", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.' never said; 'haha' -> 'I'll hell'", "trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0063", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.' never said", "trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0070", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["'hey' heard as 'A'; not inferable", "Hey lost, raw has A"], "auditors": ["A", "B"], "clean": "My phone is dying, I'll call you when I get home, okay?"}
+{"id": "s2-W9-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0074", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'He's' for 'it's'", "raw He's"], "auditors": ["A", "B"], "clean": "Yeah, no, I like it a lot, he's so cute."}
+{"id": "s2-W9-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0076", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Do' for 'dude'", "Dude heard as Do"], "auditors": ["A", "B"], "clean": "Do turn right at the one after that."}
+{"id": "s2-W9-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0078", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0080", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0081", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'No' for 'nah'", "nah heard as No"], "auditors": ["A", "B"], "clean": "No man, I'm really not feeling it tonight, I'm so tired."}
+{"id": "s2-W9-0083", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0084", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0085", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["'again' heard as 'in'; raw ends on 'in'", "again heard as in"], "auditors": ["A", "B"], "clean": "Dude, you won't believe what happened, I locked my keys in the car in..."}
+{"id": "s2-W9-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0089", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'did you get' -> 'did she, and'", "did she, and a chance"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0091", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0093", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0094", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends unspoken 'huh?'", "trailing huh"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0096", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0097", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'all so' -> 'also a' and 'at' dropped before 'like five'", "all/at lost"], "auditors": ["A", "B"]}
+{"id": "s2-W9-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0099", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W9-0100", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'out thursday' and 'can you cover standup' garbled", "garbled"], "auditors": ["A", "B"]}

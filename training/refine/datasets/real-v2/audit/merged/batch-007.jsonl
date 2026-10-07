@@ -1,0 +1,43 @@
+{"id": "s2-W1-0301", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["refactor/async await/callbacks all garbled ('the factor', 'a sink for weight', 'fallbacks')", "async/await lost; garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0302", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0303", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0304", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hey Claude' dropped, loops->looped, filter->Filbert, clever->Clipper plus 'you' from uh: more than 2 places", "greeting dropped, clever->Clipper, loops->looped: 3 places"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0305", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["hesitations decoded as 'Love.', 'No.' (reads as a correction cue) and 'Thumb.'", "Love/Thumb/No replace um/er; No reads as a correction"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0306", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0307", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["pairs->Paris, ChatGPT->Chet, 'rewrite the handout at' garbled", "ChatGPT->Chet, rewrite/handout garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0308", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'for a general' dropped; 'too technical audience' no longer sensible", "for a general lost, breaks meaning"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0309", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0311", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hi Ahmed, could you tell' -> 'I on that. But you told'; extension->exemption", "greeting and name lost, garbled opening"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0312", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["bio->file, I'm->in, meetups->lead up, boring->foreign: too many places", "bio, meetups, boring misheard"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0313", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0315", "decision": "fix_clean", "reasons": ["spelling_from_raw", "guide_violation"], "notes": ["raw has plural possessive kids'; singular kid's is not inferable", "raw/spoken kids' not kid's"], "auditors": ["A", "B"], "clean": "Can you write a limerick about Monday mornings, and make it clean because it's for my kids' class?"}
+{"id": "s2-W1-0316", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'copy me, and mark it as high importance' lost; 'to our' -> 'The park'", "second half lost, to our->The park"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0317", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["uh decoded as the name 'Billy' mid-question", "Billy replaces uh"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0318", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0319", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0320", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um the' decoded as 'Community' ('Community school' reads as content)", "Community replaces um the"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0321", "decision": "drop", "reasons": ["garbage", "unrecoverable_meaning"], "notes": ["raw is unintelligible ('Oh, there is Cid Am the factory city. Ni en iphone.')", "garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0322", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0323", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["uh decoded as 'her' ('talking points for her?'); also 'avoid saying' -> 'should have would say', HR -> air", "avoid saying lost, several garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0325", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'hi everyone' -> 'Bamba', 'I missed' and 'to present a topic let me know how many minutes you need' lost", "several clauses lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0326", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["ignore->nor twice, 'one line fix' -> 'one wine sex'", "one-line fix garbled, nor/ignore"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0327", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["redirect->rex, why->what, 'might' added, 'Up' from uh, many garbled places", "many garbles: redirect, why, but I get lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0328", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'stronger first line' -> 'spawn reverse line', favor->savor, weekend->week and; many places", "stronger first line, weekend, I think lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0329", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["SVG/PNG correction garbled ('A C P and No just as P'), 'today and the agency keeps asking' garbled", "SVG, today, agency lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0331", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0333", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0334", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0335", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is unrelated to the spoken command"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0337", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw is empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0338", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'pip' dropped and '-r' -> 'dash bar'; command not recoverable", "pip lost, -r heard as dash bar"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0339", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0340", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0341", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'todo' decoded as 'Could you'; raw is already a clean sentence", "todo heard as Could you; not inferable"], "auditors": ["A", "B"], "clean": "Could you ask the team to rewrite this comment? It makes no sense."}
+{"id": "s2-W1-0342", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw dropped 'before the release'", "before the release lost"], "auditors": ["A", "B"], "clean": "Note: please translate the error strings into Spanish."}
+{"id": "s2-W1-0343", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0344", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Summarise'", "raw has Summarise"], "auditors": ["A", "B"], "clean": "Summarise the root cause in one sentence and link the postmortem."}
+{"id": "s2-W1-0345", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["er decoded as 'Our' ('Our reporter says'); phrase -> 'Praise it'", "Our replaces er"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0346", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0347", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0348", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0349", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

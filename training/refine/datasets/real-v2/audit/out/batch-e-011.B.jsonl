@@ -1,0 +1,50 @@
+{"id": "e4-E9-0001", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0002", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E9-0003", "decision": "drop", "reason": "hallucination"}
+{"id": "e4-E9-0004", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0005", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0006", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E9-0007", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0008", "decision": "fix_clean", "clean": "The proofing room should stay at 78 degrees overnight. The humidity drops below... Someone has to check the sensor at 5 a.m. and log the reading on the clipboard by the door.", "reason": "dropped_by_recognizer"}
+{"id": "e4-E9-0009", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0010", "decision": "fix_clean", "clean": "The readout calibration script fails whenever the fridge temperature goes above 20 millikelvin. It doesn't throw an error, it just writes empty files, and I think it's because the threshold is hard-coded in there.", "reason": "trailing_off"}
+{"id": "e4-E9-0011", "decision": "fix_clean", "clean": "Ask Myril about the invoice for the...", "reason": "unrecoverable_word"}
+{"id": "e4-E9-0012", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0013", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0014", "decision": "fix_clean", "clean": "Tis clock delay versus increment, which is better for...", "reason": "unrecoverable_word"}
+{"id": "e4-E9-0015", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0016", "decision": "fix_clean", "clean": "Nassio, the new laser for the ion trap is going to... The vendor call about the laser moved to Thursday at 2.", "reason": "unrecoverable_word"}
+{"id": "e4-E9-0017", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0018", "decision": "fix_clean", "clean": "You should end up booking the...", "reason": "unrecoverable_word"}
+{"id": "e4-E9-0019", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0020", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E9-0021", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0022", "decision": "fix_clean", "clean": "Hi Anouk, thanks for the order. We can do the three-tier lemon cake for the 12th. The raspberry filling is no problem, and we can deliver to the venue in the morning, but the Fawnette flowers would add another two days, so we'd have to...", "reason": "unrecoverable_word"}
+{"id": "e4-E9-0023", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E9-0024", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0025", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E9-0026", "decision": "fix_clean", "clean": "MyRill is out today, so if the patient's family calls about the bridge, don't promise them a date, because the shade tab they sent was the wrong one and we had to request another photo. Just tell them the lab is still waiting on...", "reason": "unrecoverable_word"}
+{"id": "e4-E9-0027", "decision": "drop", "reason": "hallucination"}
+{"id": "e4-E9-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0029", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0030", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0031", "decision": "fix_clean", "clean": "The scanner in the back room keeps losing calibration. The replacement part arrives Friday, and Zofia will install it before the afternoon cases.", "reason": "dropped_by_recognizer"}
+{"id": "e4-E9-0032", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E9-0033", "decision": "drop", "reason": "garbage"}
+{"id": "e4-E9-0034", "decision": "fix_clean", "clean": "You sweet, can you check whether the cryostat finished cooling down?", "reason": "unrecoverable_word"}
+{"id": "e4-E9-0035", "decision": "fix_clean", "clean": "Dog rumors near me open on Sunday to do...", "reason": "unrecoverable_word"}
+{"id": "e4-E9-0036", "decision": "fix_clean", "clean": "Give me five name ideas for mobile dog grooming van that sound friendly but not too...", "reason": "dropped_by_recognizer"}
+{"id": "e4-E9-0037", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E9-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0039", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E9-0040", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0041", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0042", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0043", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0044", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E9-0045", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0046", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0048", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0049", "decision": "accept", "reason": "ok"}
+{"id": "e4-E9-0050", "decision": "accept", "reason": "ok"}

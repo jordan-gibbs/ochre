@@ -1,0 +1,50 @@
+{"id": "s4-W46-0051", "decision": "fix_clean", "clean": "Heads up, the elevator at the branch is out of service until Tuesday, so please send customers to the side entrance.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw Tuesday for Thursday"}
+{"id": "s4-W46-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0055", "decision": "fix_clean", "clean": "Do we have a backup plan if the flight to Osaka gets canceled, or are we just gonna wing it?", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw 'canceled'"}
+{"id": "s4-W46-0056", "decision": "fix_clean", "clean": "Poland, the customer called twice this morning about the same refund, and I told them they would be processed within five business days.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Colin->Poland, it->they"}
+{"id": "s4-W46-0057", "decision": "fix_clean", "clean": "The new hire starts Monday. Can someone set up a badge and a laptop?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'a badge and a laptop'"}
+{"id": "s4-W46-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0065", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W46-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0068", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'That's keep a weekly think of ten'"}
+{"id": "s4-W46-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'uh javier it's' became 'I'll be yes'"}
+{"id": "s4-W46-0071", "decision": "fix_clean", "clean": "The cookbook display for the front window is mostly done. I cleaned the shelves and restocked the whole bottom row with the new Italian titles, but the lighting is still off because the one spotlight burnt out and we don't have a spare. Can someone pick up a bulb on their way in tomorrow? I think it's the small round pie.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'kind' heard as 'pie'; bulb inferable from spotlight"}
+{"id": "s4-W46-0072", "decision": "fix_clean", "clean": "Notes from the sales sync. We closed free deals last week, which puts us at 92% of quota. The big one is the logistics account that Lina has been chasing since March. Javier's pipeline looks thin for next month, so we're gonna pair him with Y on Upbound. The next review is on the 21st.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "three->free, Wei->Y, outbound->Upbound"}
+{"id": "s4-W46-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Rania->Rainy, Colin->Callin, 'that week' lost ('that we')"}
+{"id": "s4-W46-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'channel' dropped; 'a shared for launches' breaks meaning"}
+{"id": "s4-W46-0078", "decision": "drop", "reason": "hallucination", "note": "trailing 'Thank you.'"}
+{"id": "s4-W46-0079", "decision": "fix_clean", "clean": "And everyone please review the itinerary doc before Friday. I've put the train times on page two and the restaurant reservations on page three. If something looks wrong, just leave a comment on it, and I'll fix it tonight.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'can' heard as 'And'"}
+{"id": "s4-W46-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0081", "decision": "fix_clean", "clean": "We need to talk about the return policy. Right now a customer can bring back a book within 30 days of a receipt, but nobody is sure what to do about gift purchases. I think we should offer a store credit for those. What do you think?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "Ada dropped; raw 'of a receipt', 'a store credit'"}
+{"id": "s4-W46-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "date/data, liked/like, Qtover: too many places"}
+{"id": "s4-W46-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled"}
+{"id": "s4-W46-0084", "decision": "fix_clean", "clean": "Bank wants us to retrain all tellers on the new fraud checklist by the end of the month, so I scheduled two sessions, one on the 5th and one on the 12th. I'd like everyone to attend at least one. There'll be coffee, and I think someone's bringing donuts.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'The' dropped"}
+{"id": "s4-W46-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I call it' for 'hi colin', heard that/back, walk/lock"}
+{"id": "s4-W46-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Lina lost ('lean out'), 'Fe It's' for finance"}
+{"id": "s4-W46-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Wei->Why, 'Fit a', sum->send, I->they"}
+{"id": "s4-W46-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Yuki->UK, Wei will->'why? We'll', Lena, Benedict: too many and not sensible"}
+{"id": "s4-W46-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0096", "decision": "fix_clean", "clean": "I've been going through the options for the trip, and I think we should go with the second plan, the one where we fly into Lisbon and take the train out to Porto. It's a little more expensive than the first one, around 200 more per person, but we save a day of driving, and the train goes along the river, which apparently is beautiful. The other thing is the hotel in Porto. It has free cancellation until the 1st of March, so there's no risk if we change our minds. I'd say let's book the flights tonight if you two agree. A, Colin, let me know.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "up->out, Ada->A"}
+{"id": "s4-W46-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'per se cris', Leah, routes, offer: garbled"}
+{"id": "s4-W46-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sign-off 'thanks ada' became 'things. Eat up.'"}
+{"id": "s4-W46-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Wei->'why' makes closing sentence unreadable"}
+{"id": "s4-W46-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sigma, 'our charges', Lena, forecasts"}

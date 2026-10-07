@@ -1,0 +1,50 @@
+{"id": "s2-W3-0051", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'slash signup' became 'to sign up'; URL path lost"}
+{"id": "s2-W3-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0053", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the endpoint slash v two slash users' became 'Poignant B2 users'"}
+{"id": "s2-W3-0055", "decision": "fix_clean", "clean": "iPhone Pro Max case under $20", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'fifteen' absent from raw"}
+{"id": "s2-W3-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0057", "decision": "fix_clean", "clean": "Hi all, here is the weekly engineering update. We finished the migration of the payment service to Kubernetes on Wednesday, and traffic has been stable at around 4,000 requests per second since then. The p99 latency dropped from 320 milliseconds to 180, which is a pretty big win. Nguyen is now working on the rollback plan, and he expects to finish by next Friday. We also had one incident on Thursday night that lasted about 40 minutes. The root cause was an expired certificate, and we have added an alert that fires 14 days before expiry.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'payment service'"}
+{"id": "s2-W3-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0059", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0060", "decision": "fix_clean", "clean": "I want you to act like a senior code reviewer. I am going to paste a function. I want you to look for bugs, performance problems and anything that would break on Python 3.9. Please give me your feedback as a numbered list with the most serious issue first and keep the whole thing under 300 words.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'and' absent from raw"}
+{"id": "s2-W3-0061", "decision": "fix_clean", "clean": "The nightly backup job is failing with an out of memory error. Started on October 3rd. The job runs at 1 AM and normally finishes in about 20 minutes, but the last 3 runs were killed after 60 minutes. I think the dump is bigger than the container limit of 2 GB. The PostgreSQL database is now around 5 GB, so we either need to raise the limit or stream the dump.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' absent from raw"}
+{"id": "s2-W3-0062", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can we cut' became 'Kin, we caught'"}
+{"id": "s2-W3-0063", "decision": "fix_clean", "clean": "Rate limit: the free plan allows 100 requests per minute, the Pro plan allows 1,000 per minute, and the Enterprise plan is unlimited. If you exceed the limit, the API returns a 429 status code with a Retry-After header.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has singular 'Rate limit'"}
+{"id": "s2-W3-0064", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0065", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0070", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0071", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0072", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'png or svg' became 'the AD road is D' and 1080 became 1008"}
+{"id": "s2-W3-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Zoom URL lost; raw has 'Zoom. Yeah.'"}
+{"id": "s2-W3-0075", "decision": "fix_clean", "clean": "OK, at 7. I will bring two bottles of wine.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'see you' absent from raw"}
+{"id": "s2-W3-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0077", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'png and pdf' became 'The N T N P D F'"}
+{"id": "s2-W3-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0080", "decision": "fix_clean", "clean": "Design doc for the new notifications service. The goal is to replace the current polling approach with push. Right now the mobile app polls every 30 seconds, which means about 4 million requests a day, most of them returning nothing. The proposal is to use a GraphQL subscription over WebSockets and fall back to polling every 5 minutes if the connection drops. We'll track delivery latency in Datadog, and the target is under 500 milliseconds for 95% of messages. The rollout would be in two phases, starting with 10% of users.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has contraction We'll"}
+{"id": "s2-W3-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "candor->'can boy', rubric->'room', Okafor->O'Peffort: too many unrecoverable words"}
+{"id": "s2-W3-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "customs sentence and 'or find a backup supplier, thoughts' lost"}
+{"id": "s2-W3-0083", "decision": "fix_clean", "clean": "Thoughts after the marathon training went. I did 18 miles today, which is the longest so far. First 10 felt easy, and then around mile 14 my left knee started to hurt. I should probably get new shoes because these have about 500 miles on them. Race day is November 9th, and I have six weeks left, so I need to taper in the last two.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'went' for run and no 'the' before 'First ten'"}
+{"id": "s2-W3-0084", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0085", "decision": "fix_clean", "clean": "Observed behavior: after upgrading Nginx to 1.25, the server returns a 402 Bad Gateway for any request that takes longer than 60 seconds. Expected behavior is that the proxy read timeout of 300 seconds is respected. I checked the config and the directive is set correctly in the location block, so I suspect the upstream keepalive setting is overriding it.", "reason": "guide_violation", "rules": ["R10"], "note": "speaker and raw both say four oh two"}
+{"id": "s2-W3-0086", "decision": "drop", "reason": "hallucination", "note": "raw ends with trailing 'Oh' never spoken"}
+{"id": "s2-W3-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0088", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "AWS->OS, VPC->'V P. See', /16 lost, CIDR block->'center blah', 'er'->'Or'"}
+{"id": "s2-W3-0090", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0091", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0092", "decision": "fix_clean", "clean": "Just a heads up that the VPN is going to be down for maintenance tonight from 10 PM to midnight. If you are on call, please plan around that. And the runbook is in the wiki under network/vpn.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken and raw 'and' was dropped from clean"}
+{"id": "s2-W3-0093", "decision": "fix_clean", "clean": "Write a short story about a lakehouse keeper who finds a message in a bottle. It should be around 500 words, written in the first person, and the ending should be bittersweet.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Lakehouse'"}
+{"id": "s2-W3-0094", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0095", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0096", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0097", "decision": "fix_clean", "clean": "Can you grab milk on the way home, like 2%, not skimmed?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R6"], "note": "raw has 'skimmed'; question needs ?"}
+{"id": "s2-W3-0098", "decision": "fix_clean", "clean": "My new address is m.revera@studio-8.com.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling 'revera'"}
+{"id": "s2-W3-0099", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first clause about 60,000-mile service lost"}

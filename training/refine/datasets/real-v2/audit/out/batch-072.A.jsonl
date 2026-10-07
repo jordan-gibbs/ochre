@@ -1,0 +1,50 @@
+{"id": "s2-W8-0051", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Hi love, uh' became 'I love it'; greeting unrecoverable"}
+{"id": "s2-W8-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0053", "decision": "fix_clean", "clean": "Quote from Mrs. Patel: replaced the kitchen sink, about $350 for parts, plus labor. Call it $500 total.", "reason": "unrecoverable_word", "note": "raw has 'from' and 'replaced'"}
+{"id": "s2-W8-0054", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0055", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'u up' heard as 'You are'"}
+{"id": "s2-W8-0060", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0062", "decision": "fix_clean", "clean": "Spoke to the boys about the wedding speech. I think he'll keep it short, tell the story about the broken canoe, and then...", "reason": "unrecoverable_word", "note": "raw has 'he'll'; 'a toast' lost in 'Umast'"}
+{"id": "s2-W8-0063", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0064", "decision": "fix_clean", "clean": "Grandma's pie crust: 2 1/2 cups flour, 1 cup cold butter, 1 teaspoon salt, 6 tablespoons ice water.", "reason": "dropped_by_recognizer", "note": "'don't overwork it' absent from raw"}
+{"id": "s2-W8-0065", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw changed She'd/This/complained; 3 places"}
+{"id": "s2-W8-0068", "decision": "fix_clean", "clean": "My son he is playing football very good, today he scored two goals.", "reason": "unrecoverable_word", "note": "raw has 'scored two goals'"}
+{"id": "s2-W8-0069", "decision": "fix_clean", "clean": "Oh, are you coming or what? We're all waiting.", "reason": "unrecoverable_word", "note": "raw has 'Oh' for 'Oi'"}
+{"id": "s2-W8-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lend Dave' became 'land the'"}
+{"id": "s2-W8-0071", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0072", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled middle and last clause lost"}
+{"id": "s2-W8-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "5:30 became 53"}
+{"id": "s2-W8-0075", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0077", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0078", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0079", "decision": "fix_clean", "clean": "My sister is literally the worst. She took my charger again and acts like it was never there.", "reason": "dropped_by_recognizer", "note": "'Ugh' stripped as hesitation; clean equals raw"}
+{"id": "s2-W8-0080", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0081", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W8-0082", "decision": "fix_clean", "clean": "Bloody hell, the van won't start again, third time this month.", "reason": "trailing_off", "note": "raw lost the final sentence"}
+{"id": "s2-W8-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0084", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0086", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first sentence lost; 'it'll' for I'll"}
+{"id": "s2-W8-0088", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Log' (reads as brand)"}
+{"id": "s2-W8-0089", "decision": "fix_clean", "clean": "Today I learned that octopuses have three hearts of blue blood, which is honestly the coolest thing I've heard all week.", "reason": "unrecoverable_word", "note": "raw has 'of' for 'and'"}
+{"id": "s2-W8-0090", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Call me' became 'Only'"}
+{"id": "s2-W8-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0094", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0095", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0096", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0097", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pick up' became 'They kept'"}
+{"id": "s2-W8-0099", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0100", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,50 @@
+{"id": "s4-W20-0001", "decision": "fix_clean", "clean": "The draft is on Sunday at 7 and Anna is picking first.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'Anna'; Ana not in dictionary"}
+{"id": "s4-W20-0002", "decision": "fix_clean", "clean": "Anna basically wrote the whole league constitution herself.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'Anna'"}
+{"id": "s4-W20-0003", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'So yet, but' garbles 'so yeah'; no sensible target"}
+{"id": "s4-W20-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0005", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W20-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'eat the vocal ticks' for 'need the vocal takes'"}
+{"id": "s4-W20-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Passes sort of the blue' garbled"}
+{"id": "s4-W20-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Ship the returge' garbled"}
+{"id": "s4-W20-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'returge', 'like' for live, 'does work' flips meaning"}
+{"id": "s4-W20-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated to 5 words"}
+{"id": "s4-W20-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0020", "decision": "fix_clean", "clean": "Give me this sort of trade offer a rival would actually accept.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'this' not 'the'"}
+{"id": "s4-W20-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'uh ana' became 'On a'"}
+{"id": "s4-W20-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0023", "decision": "fix_clean", "clean": "The rule is never put more than 10% in one stop.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'stop'; 'stock' not inferable in isolation"}
+{"id": "s4-W20-0024", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'not a law' became 'No.'"}
+{"id": "s4-W20-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0031", "decision": "fix_clean", "clean": "Just summarise this week's scores for Nikhil.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'summarise'"}
+{"id": "s4-W20-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ines' became 'And he's'"}
+{"id": "s4-W20-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0039", "decision": "fix_clean", "clean": "Yes, we need the holiday banner by Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'tess um' became 'Yes'"}
+{"id": "s4-W20-0040", "decision": "fix_clean", "clean": "The holiday banner is basically done, Des just needs to export it.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'des'; Tess not in dictionary"}
+{"id": "s4-W20-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0047", "decision": "fix_clean", "clean": "This page covers...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends after \"covers basically\""}
+{"id": "s4-W20-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W20-0050", "decision": "accept", "reason": "ok"}

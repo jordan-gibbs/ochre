@@ -1,0 +1,50 @@
+{"id": "s2-W10-0151", "decision": "fix_clean", "clean": "Bah for later, we could maybe use the same component for both pages, and then the styles are just props.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "thought misheard as Bah"}
+{"id": "s2-W10-0152", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0153", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0155", "decision": "drop", "reason": "unrecoverable_meaning", "note": "a PR, get, on call all garbled; 3 places"}
+{"id": "s2-W10-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0157", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0158", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0159", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Priya heard as prayer"}
+{"id": "s2-W10-0160", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0161", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0162", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0164", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0166", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0167", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0168", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Python lost (IN), no wait->no way, paid->pay"}
+{"id": "s2-W10-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0170", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0171", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0172", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0174", "decision": "fix_clean", "clean": "I'd like to introduce our new head of design, Alina, who joins us from a large retail company.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s2-W10-0175", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0176", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0177", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0178", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cliche heard as 'clear Share'"}
+{"id": "s2-W10-0179", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to do' heard as 'Did you', turns into a question"}
+{"id": "s2-W10-0180", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0183", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0186", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' not spoken"}
+{"id": "s2-W10-0187", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0188", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0189", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0191", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0192", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0193", "decision": "fix_clean", "clean": "The offsite survey results are, and people kind of like the idea of a two day format, but they hate the idea of traveling on a weekend, so I think we should do Wednesday and Thursday, and keep it within driving distance.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R10"], "note": "'in' lost; traveling spelling from raw"}
+{"id": "s2-W10-0194", "decision": "drop", "reason": "script_defect", "note": "clean drops 'pushed to main by accident, sorry, I meant to push to my branch', misreading it as a correction; also CI heard as sigh"}
+{"id": "s2-W10-0195", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0199", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0200", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,40 @@
+{"id": "s2-W8-0351", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'five stars' absent from raw; 'rye' inferable as rice from rice cooker", "five stars lost in raw"], "auditors": ["A", "B"], "clean": "I bought this rice cooker for my mother and she is very happy. The rice come out soft and not sticky, and it have many function, like for soup and for porridge. The instruction in English is little bit hard to understand, but my daughter help us. Price is reasonable."}
+{"id": "s2-W8-0352", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Jam, Allen T, 'the Wadlatch', tat, want, lies: too many garbled places", "many garbled words"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0353", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'arvo' lost, 'shovel you all', 'You absolutely cooked it'", "arvo lost, last sentence garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0354", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'still feel sad though' and 'I think tomorrow I'll ask her' became 'No.'", "two sentences lost"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0355", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'budgets are tight' -> 'budget's forty', 'before' lost, 'Oh.'", "budget tight garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0356", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["adobo -> 'no', thighs -> 'A thoughts', 'become thick' -> 'be convicted'", "adobo, thighs, thick garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0357", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["opening greeting/name/number and closing sentence dropped by recognizer; >5 words", "greeting and ending lost"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0359", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0360", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0361", "decision": "drop", "reasons": ["non_english", "non_english"], "notes": ["raw is Dutch-like garble"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0362", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0363", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0364", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0365", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0366", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw has 'Gran's' and no 'a'"], "auditors": ["A", "B"], "clean": "New idea, cookbook of Gran's recipes."}
+{"id": "s2-W8-0367", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'today' lost, 'rod', 'kids buy Kelmets'"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0368", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0369", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0372", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'I'll' absent from raw"], "auditors": ["A", "B"], "clean": "So sorry, my boss is keeping me late again. Can you start dinner without me? Be there by 7:30."}
+{"id": "s2-W8-0373", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0374", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0375", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0376", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0378", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0379", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'poles'"], "auditors": ["A", "B"], "clean": "We camped here for two nights with the kids and it was perfect. The sites are big and shady, the bathrooms were clean, and there is a creek right behind the tents where the kids caught poles all afternoon. The only downside is that the nearest store is 20 minutes away, so bring everything you need. We will definitely be back next summer."}
+{"id": "s2-W8-0380", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0383", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'kilometers'; 'Wow.' treated as interjection residue"], "auditors": ["A", "B"], "clean": "I never thought I would be the kind of person who gets up at 5 in the morning to run. In fact, for most of my life I avoided exercise like it was homework, but last winter my doctor told me my blood pressure was too high, and something in me just decided enough. So I bought a cheap pair of running shoes and went out the next morning in the dark. I made it exactly two blocks before I had to stop and hold onto a lamp post, but I went back the next day, and the next. Now, 10 months later, I can run 5 kilometers without stopping, and more importantly I actually look forward to it, the quiet streets, the sunrise, the feeling that the day belongs to me."}
+{"id": "s2-W8-0385", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'my treat' -> 'might be', 'No everything', Carl, 'take you out though'"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0386", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Mirror/Mere, 'weather systems had turned right', 'Oh,' etc."], "auditors": ["A", "B"]}
+{"id": "s2-W8-0387", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0388", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Is it sake he takes past the date'"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0389", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0390", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0391", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0392", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the wife? I'm boxed'"], "auditors": ["A", "B"]}
+{"id": "s2-W8-0393", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0396", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0397", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0398", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W8-0399", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

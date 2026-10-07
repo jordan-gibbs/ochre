@@ -1,0 +1,50 @@
+{"id": "s2-W4-0001", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "leading 'um' heard as 'and', a real word read as content"}
+{"id": "s2-W4-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'shopping list' and 'oat milk' lost, spinach->Spanish"}
+{"id": "s2-W4-0003", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W4-0004", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0006", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0007", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0008", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'no.', reads as a correction cue"}
+{"id": "s2-W4-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0010", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0011", "decision": "fix_clean", "clean": "Release checklist:\n1. Bundle the version\n2. Update the changelog\n3. Tag the build\n4. Notify support", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'bundle' for 'bump'"}
+{"id": "s2-W4-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the dictation lost"}
+{"id": "s2-W4-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'CSV' heard as 'C E' and 'IDs' as 'ID'; not inferable"}
+{"id": "s2-W4-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'QA' heard as 'could'"}
+{"id": "s2-W4-0016", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0017", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'Then'"}
+{"id": "s2-W4-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "last bullet item lost; raw ends on 'bullet point'"}
+{"id": "s2-W4-0019", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W4-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0022", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0023", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'Thus'"}
+{"id": "s2-W4-0024", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'love'"}
+{"id": "s2-W4-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'blog' heard as 'blob'; target not inferable, raw reading not sensible"}
+{"id": "s2-W4-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0027", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0028", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0030", "decision": "fix_clean", "clean": "What's the pros and cons of remote work?\n1. Flexibility\n2. No commute\n3. Isolation\n4. Time zone headaches", "reason": "unrecoverable_word", "rules": ["RECOVER", "R6"], "note": "raw has 'What's' for 'list'"}
+{"id": "s2-W4-0031", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No.' plus 'is at'->'Is that'"}
+{"id": "s2-W4-0032", "decision": "fix_clean", "clean": "The onboarding flow is:\n1. Create an account\n2. Verify your email\n3. Connect your calendar", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "fourth item lost by recognizer"}
+{"id": "s2-W4-0033", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W4-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'packing' and 'jacket' lost, 'Yeah' inserted"}
+{"id": "s2-W4-0035", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um add' heard as 'on a'"}
+{"id": "s2-W4-0036", "decision": "fix_clean", "clean": "Here are the three candidates:\n1. Priya Pattel\n2. Tom Becker\n3. Sam Akafer", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "names not in dictionary; use raw spellings"}
+{"id": "s2-W4-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bump' and 'rerun CI' garbled"}
+{"id": "s2-W4-0038", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0040", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'on' ('short on writing sample')"}
+{"id": "s2-W4-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "blockers/sent/API/data all misheard"}
+{"id": "s2-W4-0042", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0043", "decision": "fix_clean", "clean": "Hi everyone, thanks for coming to the planning session. I wanted to send a quick recap of what we decided and what happens next:\n1. We agreed to freeze the feature set on October 10th\n2. Marcus will own the migration plan and he will share a draft by the following Wednesday\n3. The design team will deliver the final mockups by October 15th\n4. We will hold a go/no-go review on October 20th with a full leadership group\nPlease let me know if I missed anything, and also, if you cannot make the review, tell me as soon as possible so we can find another time. Thanks.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a full' for 'the full'"}
+{"id": "s2-W4-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0045", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'stop the worker' heard as 'soc but work or'"}
+{"id": "s2-W4-0047", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0048", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0049", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0050", "decision": "fix_clean", "clean": "The process has four stages:\n1. Intake\n2. Trigger\n3. Resolution\n4. Follow-up", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'trigger' for 'triage'"}

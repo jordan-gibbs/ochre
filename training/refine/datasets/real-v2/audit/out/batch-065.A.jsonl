@@ -1,0 +1,50 @@
+{"id": "s2-W7-0201", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W7-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0203", "decision": "fix_clean", "clean": "ls -la /etc", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'nginx' lost from raw"}
+{"id": "s2-W7-0204", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Airpackage.j saw' - command unrecoverable"}
+{"id": "s2-W7-0205", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Biris' for pytest not inferable"}
+{"id": "s2-W7-0206", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hardle run dash dashkin' - cargo/--bin unrecoverable"}
+{"id": "s2-W7-0207", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0208", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0209", "decision": "fix_clean", "clean": "They do add input validation.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'todo colon' heard as 'They do'"}
+{"id": "s2-W7-0210", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0211", "decision": "drop", "reason": "unrecoverable_meaning", "note": "stock/copy/entry/not a test/spot link: too many places"}
+{"id": "s2-W7-0212", "decision": "drop", "reason": "unrecoverable_meaning", "note": "LEOs, built gateway, 'a start to the Real load on site', mutic"}
+{"id": "s2-W7-0213", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'Some'"}
+{"id": "s2-W7-0214", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'same to fall' for defaults, DynamoDB added, several places"}
+{"id": "s2-W7-0215", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0216", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0217", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0218", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled and truncated (Slack clause lost)"}
+{"id": "s2-W7-0219", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Cobalt cloud, J Song, 'it's developed', 'a C there'"}
+{"id": "s2-W7-0220", "decision": "fix_clean", "clean": "There's a bug where the discount is applied when the user refreshes the cart page. I think the calculation is in the getter and also in the reducer. Find where it's done twice and keep only one, preferably the reducer.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'twice' missing from raw in first sentence"}
+{"id": "s2-W7-0221", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Esse' for Mosaic, service/surface, 'the storybook' - 3 places"}
+{"id": "s2-W7-0222", "decision": "fix_clean", "clean": "Look at the failing job in the GitHub Actions run. I think it's the Node version. We pin 20 in the workflow, but the lock file is generated with 22. Fix whichever one is wrong.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'is generated', not 'was'"}
+{"id": "s2-W7-0223", "decision": "fix_clean", "clean": "Add a Kubernetes CronJob that runs the cleanup script at 3 a.m. every day. Set the concurrency policy to Forbid.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "final clause lost from raw"}
+{"id": "s2-W7-0224", "decision": "drop", "reason": "unrecoverable_meaning", "note": "re drives/they, the vs a, 'add' lost: 3 places"}
+{"id": "s2-W7-0225", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0226", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0227", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0228", "decision": "fix_clean", "clean": "Use the dependency injection container we already have. Don't instantiate the mailer directly to the handler. Register it as a singleton and inject it through the constructor.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'directly to the handler'"}
+{"id": "s2-W7-0229", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'UIP tests', question restructured into 'even start to check'"}
+{"id": "s2-W7-0230", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Pylon lost, Rust vs REST, 'gain plus one'"}
+{"id": "s2-W7-0231", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'um dont' became 'Top', negation lost"}
+{"id": "s2-W7-0232", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ESLint and whole Prettier clause dropped"}
+{"id": "s2-W7-0233", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0234", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0235", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pay/collar/'A D either inline'/BEPPIN"}
+{"id": "s2-W7-0236", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0237", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0238", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0239", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'on line twelve' became 'Online Well'; number lost"}
+{"id": "s2-W7-0240", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0241", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' never said; also throw->grow"}
+{"id": "s2-W7-0242", "decision": "fix_clean", "clean": "PR title: Orbit: fixed token expiry check\n\nDescription: The expiry check compared seconds to milliseconds, so tokens were valid a thousand times longer than intended. This changes the comparison to use milliseconds on both sides and adds a regression test with the token that expired one second ago.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Fixed' and 'the token'"}
+{"id": "s2-W7-0243", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0244", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'shared decorator' merged into 'sharator'"}
+{"id": "s2-W7-0245", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0246", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0247", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dash m wip' became 'dash and with'"}
+{"id": "s2-W7-0248", "decision": "fix_clean", "clean": "Fix flaky website reconnect test", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'website', not WebSocket"}
+{"id": "s2-W7-0249", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0250", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Feed/dart/setting - 3 places"}

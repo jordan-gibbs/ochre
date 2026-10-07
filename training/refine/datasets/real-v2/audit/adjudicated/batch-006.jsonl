@@ -1,0 +1,10 @@
+{"id": "s2-W1-0254", "decision": "accept", "reason": "ok", "note": "'into limiters' is a split near-form of 'delimiters', inferable from technical context and 'everything between them'; sided with A"}
+{"id": "s2-W1-0260", "decision": "fix_clean", "clean": "I'm trying to learn SQL. I keep getting confused by joins. Can you explain the difference between an inner join and a left join using a really simple example, like customers and orders, with just three rows in each table, and show me what the result looks like?", "reason": "dropped_by_recognizer", "note": "'and' after SQL absent from raw; sided with A"}
+{"id": "s2-W1-0264", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Stove' replaces 'um dont'; the negation 'don't' cannot be inferred; sided with A"}
+{"id": "s2-W1-0267", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "real word 'love' where 'uh' was said; in doubt, drop; sided with A"}
+{"id": "s2-W1-0273", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'writing her' reads as content where 'er' was said; sided with A"}
+{"id": "s2-W1-0274", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Or to me' for 'er to me', plus I'm lost and a/the changed; sided with A"}
+{"id": "s2-W1-0276", "decision": "fix_clean", "clean": "And you ask your dad if he still has that ladder. We need it for Saturday. And if he says yes, ask if we can come get it Friday night.", "reason": "unrecoverable_word", "note": "'Can' heard as 'And'; question form not inferable from raw; sided with A"}
+{"id": "s2-W1-0277", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated, plus 'a' dropped, 'that'->'it', 'or' for 'er'; too many places to fix; sided with A"}
+{"id": "s2-W1-0280", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pray it', 'quit score', 'top it', 'light a split' and 'Bum' make grade/quick/topic unrecoverable; sided with A"}
+{"id": "s2-W1-0284", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Some installation' for 'um installation'; in doubt, drop; sided with A"}

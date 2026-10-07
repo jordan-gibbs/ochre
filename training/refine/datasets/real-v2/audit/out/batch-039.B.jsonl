@@ -1,0 +1,50 @@
+{"id": "s2-W4-0401", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0402", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0403", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0404", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0405", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0406", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0407", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0408", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0409", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0410", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'olden port' for 'old import' not inferable"}
+{"id": "s2-W4-0411", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0412", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0413", "decision": "fix_clean", "clean": "cd ~/project/blog\ngit pull\nnpm install\nnpm run build", "reason": "unrecoverable_word", "note": "raw 'project'"}
+{"id": "s2-W4-0414", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0415", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost source/activate lines"}
+{"id": "s2-W4-0416", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W4-0417", "decision": "drop", "reason": "unrecoverable_meaning", "note": "kubectl heard as Quebecal"}
+{"id": "s2-W4-0418", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled"}
+{"id": "s2-W4-0419", "decision": "drop", "reason": "garbage", "note": "raw unrelated"}
+{"id": "s2-W4-0420", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0421", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0422", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name maria lost"}
+{"id": "s2-W4-0423", "decision": "fix_clean", "clean": "curl -s https://api.example.com/help | jq .status", "reason": "unrecoverable_word", "note": "raw 'helppipe'"}
+{"id": "s2-W4-0424", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0425", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0426", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name, time, forms garbled; Tim lost"}
+{"id": "s2-W4-0427", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0428", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0429", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'of Max', 'Of Quiet' not inferable"}
+{"id": "s2-W4-0430", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lost 'narrower than', 'the', 'but it'"}
+{"id": "s2-W4-0431", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0432", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0433", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0434", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0435", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0436", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0437", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0438", "decision": "fix_clean", "clean": "echo\necho world", "reason": "dropped_by_recognizer", "note": "'hello' lost"}
+{"id": "s2-W4-0439", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0440", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lost 'billing period', 'is stored' garbled, 'Well'"}
+{"id": "s2-W4-0441", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0442", "decision": "fix_clean", "clean": "Thanks for your help with the move. We are almost unpacked, and the kids love their new rooms.", "reason": "dropped_by_recognizer", "note": "'again' lost"}
+{"id": "s2-W4-0443", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0444", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0445", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'blur' lost, 'on four'"}
+{"id": "s2-W4-0446", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0447", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0448", "decision": "fix_clean", "clean": "The service is available in three regions, and traffic is routed to the closest.", "reason": "dropped_by_recognizer", "note": "'one automatically' lost"}
+{"id": "s2-W4-0449", "decision": "fix_clean", "clean": "Which vitamins should I take if I did not eat meat?", "reason": "unrecoverable_word", "note": "raw 'did'"}
+{"id": "s2-W4-0450", "decision": "accept", "reason": "ok"}

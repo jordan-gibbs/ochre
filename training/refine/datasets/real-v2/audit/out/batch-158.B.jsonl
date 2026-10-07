@@ -1,0 +1,50 @@
+{"id": "s4-W46-0051", "decision": "fix_clean", "clean": "Heads up, the elevator at the branch is out of service until Tuesday, so please send customers to the side entrance.", "reason": "number_value"}
+{"id": "s4-W46-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0055", "decision": "fix_clean", "clean": "Do we have a backup plan if the flight to Osaka gets canceled, or are we just gonna wing it?", "reason": "spelling_from_raw"}
+{"id": "s4-W46-0056", "decision": "fix_clean", "clean": "Poland, the customer called twice this morning about the same refund, and I told them they would be processed within five business days.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0057", "decision": "fix_clean", "clean": "The new hire starts Monday. Can someone set up a badge and a laptop?", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0061", "decision": "fix_clean", "clean": "It's the passport office open on Saturday, because we need to renew mine before the trip?", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0065", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W46-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0068", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0070", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0071", "decision": "fix_clean", "clean": "The cookbook display for the front window is mostly done. I cleaned the shelves and restocked the whole bottom row with the new Italian titles, but the lighting is still off because the one spotlight burnt out and we don't have a spare. Can someone pick up a bowl on their way in tomorrow? I think it's the small round pie.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0072", "decision": "fix_clean", "clean": "Notes from the sales sync. We closed three deals last week, which puts us at 92% of quota. The big one is the logistics account that Lina has been chasing since March. Javier's pipeline looks thin for next month, so we're gonna pair him with Y on Upbound. The next review is on the 21st.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0073", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0075", "decision": "fix_clean", "clean": "Javier, I have a question about the order for the walnut slabs. Did we order the kiln-dried ones or the air-dried ones? The envoys just says walnut, and the two prices are really different. I don't want to get charged for the wrong thing.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0077", "decision": "fix_clean", "clean": "Retro notes. What went well was the handoff between support and engineering. What didn't was the release communication. Nobody told sales about the pricing change until Tuesday. And for next time, Sven suggested a shared for launches. We all liked that.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W46-0078", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W46-0079", "decision": "fix_clean", "clean": "And everyone please review the itinerary doc before Friday. I've put the train times on page two and the restaurant reservations on page three. If something looks wrong, just leave a comment on it, and I'll fix it tonight.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0081", "decision": "fix_clean", "clean": "We need to talk about the return policy. Right now a customer can bring back a book within 30 days of a receipt, but nobody is sure what to do about gift purchases. I think we should offer store credit for those. What do you think?", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0083", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0084", "decision": "fix_clean", "clean": "Bank wants us to retrain all tellers on the new fraud checklist by the end of the month, so I scheduled two sessions, one on the 5th and one on the 12th. I'd like everyone to attend at least one. There'll be coffee, and I think someone's bringing donuts.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W46-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0088", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0089", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0092", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0094", "decision": "fix_clean", "clean": "Recap of the standup. Sven said the payment integration is finished and just waiting on sandbox credentials. UK is blocked on the contract template because legal hasn't responded, and I told her to ping them again today. Lena wanted to know if we're still doing the customer webinar on the 14th, and the answer is yes, but we might move it an hour earlier. Why? We'll send the invite once we confirm. And finally, Benedict reminded everyone that the office is closed on Friday, so please log your hours by Thursday night.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W46-0096", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W46-0097", "decision": "fix_clean", "clean": "Notes from the vendor call with the sales platform people. They're raising our price by 8% starting in February, which is better than the 12 they quoted last year. We negotiated a lock on the per se cris for two years if we commit to 150 seats. I'm not sure we need that many, so I'm gonna check with Leah how many routes we'll have by the summer. They also offer a free onboarding session for the new hires, which we should probably take. And the renewal date is the 9th of June, so we have time to decide.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0098", "decision": "fix_clean", "clean": "Hi, Benedict. I wanted to give you a quick update before the weekend. The cooking class series is going well. We have 42 students enrolled across the three sessions, and the feedback so far has been great. The main issue is the equipment. We only have eight induction burners, and some sessions have 12 people, so people have to share, which is okay for the beginners but not for the advanced class. I'd like to request budget for four more burners. They're about $90 each. I can send you the link. Also, Yuki has offered to teach a bread session in December if there's interest. Let me know what you think things. Eat up.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0099", "decision": "fix_clean", "clean": "Funny story from the branch this morning. A customer comes in and asks to close his account, and I'm like, sure, no problem. And then he says he wants all of it in coins. I thought he was joking, but he wasn't, so we had to call the armored car company to see if they could even do that. It turned out the answer was kind of yes, but only up to $500, and they'd need two days' notice. So we convinced him to take a cashier's check. He left happy, I think. Anyway, why you were right about the policy gap. We should document this.", "reason": "unrecoverable_word"}
+{"id": "s4-W46-0100", "decision": "fix_clean", "clean": "For the record, the quarterly review went like this. Revenue was $3.4 million, which is up 9% from last quarter. The new enterprise sigma contributed about 800,000 of that. Churn dropped from 5% to 3.5%, and the main risk is that two of our top 10 accounts are up for renewal in the next 60 days. Sven is building a retention plan for both, and Lena will present the updated forecast at the board meeting on the 2nd of December. We also agreed to hire two more account executives before the end of the year.", "reason": "unrecoverable_word"}

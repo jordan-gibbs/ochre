@@ -1,0 +1,9 @@
+{"id": "s2-W7-0208", "decision": "fix_clean", "clean": "Temporary workaround removed after the migration.", "reason": "unrecoverable_word", "note": "raw has real word 'removed' for 'remove'; not inferable, result still reads as a sensible comment (sided with B)"}
+{"id": "s2-W7-0214", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'same to fall' for defaults, 'and a shared module' for 'in', clean adds 'DynamoDB' for spoken 'dynamo': too many places (sided with A)"}
+{"id": "s2-W7-0224", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'re drives they' for 'retries there', 'the' for 'a', 'appens', 'add' lost: more than 2 places (sided with A)"}
+{"id": "s2-W7-0228", "decision": "fix_clean", "clean": "Use the dependency injection container we already have. Don't instantiate the mailer directly to the handler. Register it as a singleton and inject it through the constructor.", "reason": "unrecoverable_word", "note": "raw has 'directly to the handler'; 'in' not inferable (sided with A)"}
+{"id": "s2-W7-0229", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'UIP tests' not recoverable as unit tests and the question merged into 'even start to check...' (sided with A)"}
+{"id": "s2-W7-0231", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'um dont' became 'Top'; the negation is not in raw, keeping don't reads the speaker's mind (sided with A)"}
+{"id": "s2-W7-0235", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'collar', 'A D either inline', 'BEPPIN' for backend: too many places (sided with A)"}
+{"id": "s2-W7-0248", "decision": "fix_clean", "clean": "Fix flaky website reconnect test", "reason": "unrecoverable_word", "note": "raw has real word 'website'; WebSocket not inferable (sided with A)"}
+{"id": "s2-W7-0250", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Feed/dart/setting misheard and clean drops spoken 'issue': more than 2 places (sided with A)"}

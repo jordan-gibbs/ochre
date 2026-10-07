@@ -1,0 +1,9 @@
+{"id": "s2-W2-0010", "decision": "fix_clean", "clean": "I'm writing to follow up on invoice 42.", "reason": "spelling_from_raw", "note": "sided with A: raw has the contraction 'I'm'; expanding it to 'I am' isn't inferable from raw and changes register (R10)"}
+{"id": "s2-W2-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for' was dropped by the recognizer; re-inserting it breaks the recoverability rule, and 'Sorry the delay.' isn't a sensible target; in doubt, drop"}
+{"id": "s2-W2-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'DMV' truncated to 'D' plus the 'Bur' residue; the remaining 'at the...' is too degraded to train on"}
+{"id": "s2-W2-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'$' adds a currency that was never said, and raw's 'It's' doesn't support 'is'; fixing it needs two edits to a degraded row, so drop"}
+{"id": "s2-W2-0027", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "sided with B: 'um to' decoded as 'The', which turns 'deploy to staging' into 'deploy the staging'; the target also dropped 'not production'"}
+{"id": "s2-W2-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: path slashes and the retracted '/var/log' are lost; '/etc' isn't recoverable from 'C D S No Wait etc.'"}
+{"id": "s2-W2-0040", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "sided with A: 'er it' decoded as 'the way', real words that change the meaning"}
+{"id": "s2-W2-0045", "decision": "fix_clean", "clean": "\"No Weight\" is a good name for a song.", "reason": "unrecoverable_word", "note": "sided with A: raw has 'weight' and 'No Weight' is a plausible name; minimal edit keeps the author's quotes"}
+{"id": "s2-W2-0048", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'is intentional'; 'Actually, this...' is a two-word fragment with no content, so drop rather than fix"}

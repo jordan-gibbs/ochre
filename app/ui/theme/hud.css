@@ -1,0 +1,720 @@
+/* ==========================================================================================
+   Ochre HUD: the ink-glass pill, its live text line, and the transcript bubble
+   (the bubble is kept for the theme previews; the app HUD shows live text in the pill).
+   Requires tokens.css. Markup contract: docs/design.md, "HUD markup".
+
+   One pill that morphs between states, not a stack of chips. The state lives in one attribute,
+   .hud[data-state], and everything else derives from it:
+
+   Orange is the only colour, so states differ by glyph, motion and orange INTENSITY:
+     loading       progress ring + hairline bar + numbers          orange line, quiet
+     idle          hidden; with [data-armed] a small pip, breathing orange dot
+     recording     the brand "o", growing with your voice           orange, medium
+     locked        the whole pill turns solid vermilion, white o    orange, loudest
+     handsfree     orange OUTLINE breathing around the pill + o     orange, outlined
+     transcribing  neutral three-dot wave + a grey light sweeping   no orange at all
+     refining      twinkling orange sparkle + orange light sweeping the label
+     inserting     blinking orange text caret
+     inserted      green check that draws itself, then the HUD fades
+     error         red alert orb, red hairline, Retry + ×
+     notice        neutral info orb, message, ×
+
+   Performance: loops animate transform / opacity only. The o meter (hud-kit.js) writes
+   `transform` on the o once per frame while the level moves, and nothing at all once it has
+   settled; the CSS fallback reads --lvl. No layout, ever.
+
+   Transitions between states are one continuous morph: the pill glides to its new width and
+   colour (--dur-4, --ease), the orb's glyph cross-fades with a small scale + blur, and the old
+   label leaves as a ghost (lift + blur, ease-in) while the new one rises in. Presence springs in
+   with a hint of blur. The hero shadow (--shadow-hero) warms up while listening.
+   ========================================================================================== */
+
+/* ------------------------------------------------------------------------------ stage */
+.hud {
+  --lvl: 0;                       /* 0..1, smoothed mic level (fallback path) */
+  --progress: 0;                  /* 0..1 download progress (loading) */
+  --orb: 32px;
+  --pill-h: 44px;
+  --pill-inset: calc((var(--pill-h) - var(--orb)) / 2);   /* 6px: orb and close are concentric */
+
+  position: absolute;
+  inset: auto 0 30px 0;           /* = HUD PAD in hud.rs: room for the (hero) shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-sans);
+  color: var(--hud-ink);
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: default;
+}
+.hud :where(button) { pointer-events: auto; }
+.hud [hidden] { display: none !important; }
+
+/* presence: the whole stack rises in on a spring, and leaves faster than it came */
+.hud-pill,
+.hud-bubble,
+.hud-pip {
+  transition:
+    opacity var(--dur-2) var(--ease-in),
+    transform var(--dur-2) var(--ease-in),
+    translate var(--dur-2) var(--ease-in),
+    filter var(--dur-2) var(--ease-in);
+}
+.hud:not([data-shown]) .hud-pill,
+.hud:not([data-shown]) .hud-bubble,
+.hud:not([data-shown]) .hud-pip {
+  opacity: 0;
+  transform: translateY(calc(10px * var(--motion-distance))) scale(0.94);
+  filter: blur(calc(3px * var(--motion-distance)));
+}
+.hud[data-shown] .hud-pill,
+.hud[data-shown] .hud-bubble,
+.hud[data-shown] .hud-pip {
+  transition:
+    opacity var(--dur-3) var(--ease),
+    transform var(--dur-4) var(--spring),
+    filter var(--dur-3) var(--ease),
+    width var(--dur-4) var(--ease),
+    background-color var(--dur-4) var(--ease),
+    box-shadow var(--dur-4) var(--ease);
+}
+
+/* ------------------------------------------------------------------------------- pill */
+.hud-pill {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  height: var(--pill-h);
+  min-width: var(--pill-h);
+  max-width: 560px;
+  padding: 0 var(--pill-inset);
+  border-radius: var(--radius-full);
+  background-color: var(--hud-bg);
+  box-shadow:
+    inset 0 1px 0 var(--hud-top-light),
+    inset 0 0 0 1px var(--hud-edge),
+    0 0 0 1px var(--hud-outline),
+    var(--hud-shadow),
+    var(--shadow-hero);
+  overflow: hidden;
+  transform-origin: 50% 100%;
+  white-space: nowrap;
+  contain: layout paint;
+}
+/* reserved layers (formerly the refining ring); hidden, kept so the structure is stable */
+.hud-pill::before,
+.hud-pill::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--dur-3) var(--ease);
+}
+.hud-pill::before {
+  left: 50%;
+  top: 50%;
+  width: 640px;
+  height: 640px;
+  margin: -320px 0 0 -320px;
+  background: none;
+}
+.hud-pill::after {
+  inset: 1.5px;
+  border-radius: inherit;
+  background-color: var(--hud-bg-2);
+}
+.hud-pill > * { position: relative; z-index: 1; }
+
+/* text */
+.hud-text {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+  padding-right: 4px;
+}
+.hud-pill:not(:has(.hud-close:not([hidden]), .hud-action:not([hidden]))) .hud-text { padding-right: 12px; }
+.hud-label {
+  font-size: var(--text-md);
+  font-weight: var(--weight-semibold);
+  letter-spacing: -0.003em;
+  line-height: 1.35;              /* room for descenders (g, j, p, q, y): overflow clips the box */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hud-hint {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--hud-ink-2);
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hud-hint:empty, .hud-meta:empty { display: none; }
+.hud-meta {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--hud-ink-2);
+  font-variant-numeric: tabular-nums;
+  padding-right: 4px;
+}
+.hud kbd {
+  display: inline-block;
+  padding: 2px 6px 3px;
+  margin: 0 1px;
+  border-radius: 5px;
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  line-height: 1;
+  color: var(--hud-ink);
+  background: var(--hud-ink-4);
+  box-shadow: inset 0 -1px 0 var(--hud-ink-4);
+  vertical-align: 1px;
+}
+/* content swap (hud-kit morph): the new label / live line rises in while the old one leaves as
+   an absolutely positioned ghost. Small elements, transform + opacity + a 2px blur: cheap. */
+.hud-text.is-swapping,
+.hud-live.is-swapping { animation: hud-text-in var(--dur-3) var(--ease) 40ms both; }
+@keyframes hud-text-in {
+  from {
+    opacity: 0;
+    transform: translateY(calc(4px * var(--motion-distance))) scale(calc(1 - 0.02 * var(--motion-distance)));
+    filter: blur(calc(2px * var(--motion-distance)));
+  }
+}
+.hud-pill > .hud-ghost {
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  display: flex !important;
+  align-items: center;
+  margin: 0;
+  pointer-events: none;
+  transform-origin: 0 50%;
+  animation: hud-text-out var(--dur-2) var(--ease-in) both;
+}
+@keyframes hud-text-out {
+  to {
+    opacity: 0;
+    transform: translateY(calc(-4px * var(--motion-distance))) scale(calc(1 - 0.02 * var(--motion-distance)));
+    filter: blur(calc(2px * var(--motion-distance)));
+  }
+}
+
+/* buttons */
+.hud-close,
+.hud-action {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  height: var(--orb);
+  border: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: var(--radius-full);
+  color: var(--hud-ink-2);
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+  transition: background-color var(--dur-2) var(--ease), color var(--dur-2) var(--ease), transform var(--dur-1) var(--ease);
+}
+.hud-close { width: var(--orb); margin-left: auto; }
+.hud-close svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+.hud-action {
+  padding: 0 14px;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--hud-ink);
+  background: var(--hud-ink-4);
+}
+.hud-action + .hud-close { margin-left: -4px; }
+.hud-close:hover, .hud-action:hover { background: var(--hud-hover); color: var(--hud-ink); }
+.hud-action:hover { background: var(--hud-press); }
+.hud-close:active, .hud-action:active { background: var(--hud-press); transform: scale(0.94); }
+.hud-close:focus-visible, .hud-action:focus-visible { outline: 2px solid var(--hud-accent); outline-offset: 1px; }
+
+/* hairline progress along the pill's bottom edge (loading) */
+.hud-progress {
+  position: absolute !important;
+  left: 22px;
+  right: 22px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--hud-ink-4);
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity var(--dur-3) var(--ease);
+}
+.hud-progress > i {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--hud-accent);
+  transform-origin: 0 50%;
+  transform: scaleX(var(--progress));
+  transition: transform var(--dur-4) var(--ease);
+}
+
+/* -------------------------------------------------------------------------- the orb */
+.hud-glyph {
+  flex: none;
+  position: relative;
+  display: block;
+  width: var(--orb);
+  height: var(--orb);
+  border-radius: 50%;
+  background: var(--orb-bg, var(--hud-ink-4));
+  transition: background-color var(--dur-3) var(--ease);
+}
+.hud-glyph > * {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  opacity: 0;
+  transform: scale(0.6);
+  filter: blur(calc(2px * var(--motion-distance)));
+  /* leaving: quick, ease-in */
+  transition:
+    opacity var(--dur-2) var(--ease-in),
+    transform var(--dur-2) var(--ease-in),
+    filter var(--dur-2) var(--ease-in);
+}
+/* which glyph shows in which state */
+.hud:is([data-state="recording"], [data-state="locked"], [data-state="handsfree"]) .hud-o,
+.hud:is([data-state="recording"], [data-state="locked"], [data-state="handsfree"]) .hud-bars,
+.hud[data-state="loading"] .hud-ring,
+.hud[data-state="transcribing"] .hud-dots,
+.hud[data-state="refining"] .hud-spark,
+.hud[data-state="inserting"] .hud-caret,
+.hud[data-state="inserted"] .hud-check,
+.hud[data-state="error"] .hud-alert,
+.hud[data-state="notice"] .hud-info {
+  opacity: 1;
+  transform: none;
+  filter: none;
+  /* arriving: after the old glyph has mostly gone, settling on the spring */
+  transition:
+    opacity var(--dur-3) var(--ease) 60ms,
+    transform var(--dur-4) var(--spring) 60ms,
+    filter var(--dur-3) var(--ease) 60ms;
+}
+
+/* the speaking o: the brand glyph (app/icons/src/ochre-glyph-small.svg), scaled smoothly with
+   your voice (hud-kit oMeter): 1.0 in silence, up to 1.3 when you speak up. No rings, no loop.
+   Vermilion on the light pill, white on the locked pill. */
+.hud-o {
+  width: var(--orb);
+  height: var(--orb);
+  color: var(--o-color, var(--hud-accent));
+}
+.hud-o-glyph {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  fill: currentColor;
+  transform: scale(calc(1 + var(--lvl) * 0.3));   /* CSS fallback; hud-kit writes transform */
+  will-change: transform;
+}
+
+/* legacy level bars (old markup only; the app uses .hud-o): five capsules, scaled on Y only */
+.hud-bars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5px;
+  width: 22px;
+  height: 18px;
+}
+.hud-bars > i {
+  display: block;
+  width: 2.6px;
+  height: 18px;
+  border-radius: 2px;
+  background: var(--bar, var(--hud-accent));
+  transform: scaleY(clamp(0.17, calc(0.17 + var(--lvl) * var(--w, 1)), 1));
+  will-change: transform;
+}
+.hud-bars > i:nth-child(1) { --w: 0.55; }
+.hud-bars > i:nth-child(2) { --w: 0.9; }
+.hud-bars > i:nth-child(3) { --w: 1.15; }
+.hud-bars > i:nth-child(4) { --w: 0.8; }
+.hud-bars > i:nth-child(5) { --w: 0.5; }
+
+/* loading ring (determinate via --progress; .is-indeterminate spins an arc) */
+.hud-ring { width: 22px; height: 22px; overflow: visible; }
+.hud-ring circle { fill: none; stroke-width: 2.4; }
+.hud-ring .track { stroke: var(--hud-ink-4); }
+.hud-ring .fill {
+  stroke: var(--hud-accent);
+  stroke-linecap: round;
+  stroke-dasharray: 100;
+  stroke-dashoffset: calc(100 - var(--progress) * 100);
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dashoffset var(--dur-4) var(--ease);
+}
+.hud[data-state="loading"].is-indeterminate .hud-ring .fill {
+  stroke-dashoffset: 72;
+  animation: hud-spin var(--loop-fast) linear infinite;
+}
+@keyframes hud-spin { to { transform: rotate(270deg); } }
+
+/* transcribing: a three-dot wave */
+.hud-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5px;
+  width: 22px;
+  height: 22px;
+}
+.hud-dots > i {
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  background: var(--hud-ink);
+  animation: hud-wave var(--loop-fast) var(--ease-in-out) infinite;
+}
+.hud-dots > i:nth-child(2) { animation-delay: 120ms; }
+.hud-dots > i:nth-child(3) { animation-delay: 240ms; }
+@keyframes hud-wave {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.45; }
+  30% { transform: translateY(-4px); opacity: 1; }
+}
+
+/* refining: a four-point sparkle that twinkles */
+.hud-spark { width: 20px; height: 20px; color: var(--hud-ink); }
+.hud-spark svg { width: 100%; height: 100%; display: block; fill: currentColor; }
+.hud[data-state="refining"] .hud-spark svg { animation: hud-twinkle var(--loop) var(--ease-in-out) infinite; }
+@keyframes hud-twinkle {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(0.8); opacity: 0.75; }
+}
+
+/* icons: check / alert / info / caret */
+.hud-check, .hud-alert, .hud-info { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.hud-check { color: var(--hud-success); stroke-width: 2.3; }
+.hud-check path { stroke-dasharray: 20; stroke-dashoffset: 20; }
+.hud[data-state="inserted"] .hud-check path { animation: hud-draw var(--dur-5) var(--ease) 60ms forwards; }
+@keyframes hud-draw { to { stroke-dashoffset: 0; } }
+.hud-alert { color: var(--hud-danger); }
+.hud-info { color: var(--hud-ink); }
+.hud-caret {
+  width: 2.5px;
+  height: 16px;
+  border-radius: 2px;
+  background: var(--hud-accent);
+}
+.hud[data-state="inserting"] .hud-caret { animation: hud-blink 900ms steps(1, end) infinite; }
+@keyframes hud-blink { 50% { opacity: 0.15; } }
+
+/* lock badge, on the orb's shoulder */
+.hud-glyph > .hud-badge {
+  inset: auto -3px -3px auto;
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  color: var(--hud-locked);
+  box-shadow: 0 0 0 2px var(--hud-locked);
+  opacity: 0;
+  transform: scale(0.4);
+  transition: opacity var(--dur-2) var(--ease), transform var(--dur-3) var(--spring);
+}
+.hud-badge svg { width: 9px; height: 9px; fill: currentColor; }
+.hud[data-state="locked"] .hud-glyph > .hud-badge { opacity: 1; transform: none; filter: none; }
+
+/* ----------------------------------------------------------------------- per state */
+
+/* recording / hands-free: the hero shadow warms up while the HUD listens */
+.hud[data-state="recording"] { --orb-bg: var(--hud-accent-soft); }
+.hud:is([data-state="recording"], [data-state="handsfree"]) .hud-pill {
+  box-shadow:
+    inset 0 1px 0 var(--hud-top-light),
+    inset 0 0 0 1px var(--hud-edge),
+    0 0 0 1px var(--hud-outline),
+    var(--hud-shadow),
+    var(--shadow-hero-active);
+}
+
+/* locked: the pill itself becomes solid vermilion (the loudest state) */
+.hud[data-state="locked"] {
+  --orb-bg: rgba(255, 255, 255, 0.18);
+  --bar: #ffffff;
+  --o-color: #ffffff;
+}
+.hud[data-state="locked"] .hud-pill {
+  background-color: var(--hud-locked);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    inset 0 0 0 1px transparent,
+    0 0 0 1px rgba(120, 30, 0, 0.18),
+    var(--hud-shadow),
+    var(--shadow-hero-active);
+}
+.hud[data-state="locked"] .hud-label { color: var(--hud-on-locked); }
+.hud[data-state="locked"] .hud-hint { color: var(--hud-on-locked-2); font-weight: var(--weight-regular); }
+.hud[data-state="locked"] kbd { color: #fff; background: rgba(255, 255, 255, 0.2); box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15); }
+.hud[data-state="locked"] .hud-close { color: rgba(255, 255, 255, 0.86); }
+.hud[data-state="locked"] .hud-close:hover { background: rgba(255, 255, 255, 0.16); color: #fff; }
+
+/* hands-free: an orange outline that breathes; no fill */
+.hud[data-state="handsfree"] {
+  --orb-bg: var(--hud-accent-soft);
+  --bar: var(--hud-companion);
+}
+.hud[data-state="handsfree"] .hud-pill {
+  box-shadow:
+    inset 0 0 0 0 transparent,
+    inset 0 0 0 1.5px var(--hud-accent),
+    0 0 0 1px var(--hud-outline),
+    var(--hud-shadow),
+    var(--shadow-hero-active);
+}
+.hud[data-state="handsfree"] .hud-pill > .hud-halo { opacity: 1; animation: hud-breathe var(--loop-slow) var(--ease-in-out) infinite; }
+.hud-halo {
+  position: absolute !important;
+  inset: 0;
+  z-index: 0 !important;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 4px var(--hud-accent-soft);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--dur-3) var(--ease);
+}
+@keyframes hud-breathe { 50% { opacity: 0.25; } }
+
+/* loading */
+.hud[data-state="loading"] .hud-progress { opacity: 1; }
+.hud[data-state="loading"].is-indeterminate .hud-progress > i {
+  transform: scaleX(0.3);
+  animation: hud-scan var(--loop) var(--ease-in-out) infinite;
+}
+@keyframes hud-scan {
+  from { translate: -100% 0; }
+  to { translate: 340% 0; }
+}
+
+/* transcribing: a light sweeps across the label */
+.hud[data-state="transcribing"] .hud-label {
+  color: transparent;
+  background: linear-gradient(100deg, var(--hud-ink-3) 0%, var(--hud-ink-3) 38%, var(--hud-ink) 50%, var(--hud-ink-3) 62%, var(--hud-ink-3) 100%);
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: hud-shimmer var(--loop) linear infinite;
+}
+@keyframes hud-shimmer {
+  from { background-position: 100% 0; }
+  to { background-position: -150% 0; }
+}
+
+/* refining: a twinkling orange sparkle, and an orange light sweeping the ink label
+   (transcribing sweeps grey; refining sweeps orange, slower) */
+.hud[data-state="refining"] { --orb-bg: var(--hud-accent-soft); }
+.hud[data-state="refining"] .hud-label {
+  color: transparent;
+  background: linear-gradient(100deg, var(--hud-ink) 0%, var(--hud-ink) 36%, var(--hud-accent) 50%, var(--hud-ink) 64%, var(--hud-ink) 100%);
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: hud-shimmer calc(var(--loop) * 1.25) var(--ease-in-out) infinite;
+}
+.hud[data-state="refining"] .hud-spark { color: var(--hud-accent); }
+@keyframes hud-rotate { to { transform: rotate(360deg); } }
+
+/* inserting / inserted */
+.hud[data-state="inserting"] { --orb-bg: var(--hud-accent-soft); }
+.hud[data-state="inserted"] { --orb-bg: var(--hud-success-soft); }
+
+/* error */
+.hud[data-state="error"] { --orb-bg: var(--hud-danger-soft); }
+.hud[data-state="error"] .hud-pill {
+  box-shadow:
+    inset 0 1px 0 var(--hud-top-light),
+    inset 0 0 0 1px color-mix(in srgb, var(--hud-danger) 40%, transparent),
+    0 0 0 1px var(--hud-outline),
+    var(--hud-shadow),
+    0 0 0 0 transparent, 0 0 0 0 transparent;   /* no hero warmth on an error */
+}
+.hud[data-state="error"][data-shown] .hud-pill { animation: hud-nudge 420ms var(--ease) 1; }
+@keyframes hud-nudge {
+  20% { translate: calc(-4px * var(--motion-distance)) 0; }
+  45% { translate: calc(3px * var(--motion-distance)) 0; }
+  70% { translate: calc(-1.5px * var(--motion-distance)) 0; }
+}
+.hud:is([data-state="error"], [data-state="notice"]) .hud-label {
+  font-weight: var(--weight-medium);
+  max-width: 380px;
+}
+
+/* ------------------------------------------------------------------------------ pip */
+/* idle with hands-free armed: a small quiet capsule (the pill is hidden) */
+.hud-pip {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  height: 28px;
+  padding: 0 12px 0 10px;
+  border-radius: var(--radius-full);
+  background: var(--hud-bg);
+  box-shadow: inset 0 1px 0 var(--hud-top-light), inset 0 0 0 1px var(--hud-edge), 0 0 0 1px var(--hud-outline), var(--hud-shadow), var(--shadow-hero);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-medium);
+  color: var(--hud-ink-2);
+}
+.hud-pip::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--hud-accent);
+  box-shadow: 0 0 0 3px var(--hud-accent-soft);
+  animation: hud-breathe var(--loop-slow) var(--ease-in-out) infinite;
+}
+.hud[data-state="idle"] .hud-pill { display: none; }
+.hud[data-state="idle"][data-armed] .hud-pip { display: inline-flex; }
+
+/* --------------------------------------------------------------------------- bubble */
+.hud-bubble {
+  --lines: 3;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 540px;
+  padding: 10px 16px 11px;
+  border-radius: 18px;
+  background-color: var(--hud-bg);
+  box-shadow: inset 0 1px 0 var(--hud-top-light), inset 0 0 0 1px var(--hud-edge), 0 0 0 1px var(--hud-outline), var(--hud-shadow);
+  font-size: var(--text-md);
+  font-weight: var(--weight-regular);
+  line-height: 1.45;
+  letter-spacing: 0.002em;
+  color: var(--hud-ink);
+  white-space: normal;
+  overflow-wrap: anywhere;
+  transform-origin: 50% 100%;
+}
+.hud-bubble[hidden] { display: none; }
+/* only the newest --lines lines show; older ones slide up under a soft fade */
+.hud-bubble-scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-height: calc(var(--lines) * 1.45em);
+  overflow: hidden;
+}
+.hud-bubble.is-overflowing .hud-bubble-scroll {
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 1.1em);
+  mask-image: linear-gradient(180deg, transparent 0, #000 1.1em);
+}
+.hud-pending { color: var(--hud-ink-3); transition: color var(--dur-3) var(--ease); }
+.hud-final { color: var(--hud-ink); transition: color var(--dur-3) var(--ease); }
+.hud-bubble-caret {
+  display: inline-block;
+  width: 2px;
+  height: 1.05em;
+  margin-left: 2px;
+  border-radius: 1px;
+  background: var(--hud-accent);
+  vertical-align: -0.17em;
+  animation: hud-blink 1s steps(1, end) infinite;
+}
+.hud:is([data-state="handsfree"]) .hud-bubble-caret { background: var(--hud-companion); }
+.hud:not(:is([data-state="recording"], [data-state="locked"], [data-state="handsfree"])) .hud-bubble-caret { display: none; }
+
+/* ------------------------------------------------------------------------ live text */
+/* While the user talks, the label + hint give way to one line of their words. The line has a
+   fixed width (one width glide when it first appears, then never again), keeps the newest words
+   at the right edge, and fades the oldest out on the left. New words fade in; confirmed words
+   are ink, words that may still change are ink-3. Only opacity / colour animate: no layout. */
+@property --live-fade {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 0px;
+}
+.hud-live { display: none; }
+.hud[data-live] .hud-text { display: none; }
+.hud[data-live] .hud-live {
+  --live-fade: 0px;
+  display: flex;
+  align-items: center;
+  flex: none;
+  width: var(--live-w, 340px);
+  height: 100%;
+  margin-right: 2px;
+  overflow: hidden;
+  font-size: var(--text-md);
+  font-weight: var(--weight-regular);
+  letter-spacing: 0.002em;
+  line-height: 1.2;
+  color: var(--hud-ink);
+  white-space: nowrap;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 var(--live-fade));
+  mask-image: linear-gradient(90deg, transparent 0, #000 var(--live-fade));
+  transition: --live-fade var(--dur-3) var(--ease);
+}
+.hud[data-live] .hud-live.is-overflowing {
+  --live-fade: 40px;
+  justify-content: flex-end;
+}
+.hud-live-text { flex: none; }
+.hud-w { animation: hud-word-in var(--dur-3) var(--ease) both; transition: color var(--dur-3) var(--ease); }
+.hud-w.is-pending { color: var(--hud-ink-3); }
+@keyframes hud-word-in { from { opacity: 0; } }
+.hud-live-caret {
+  flex: none;
+  width: 2px;
+  height: 1.05em;
+  margin-left: 2px;
+  border-radius: 1px;
+  background: var(--hud-accent);
+  animation: hud-blink 1s steps(1, end) infinite;
+}
+.hud[data-state="handsfree"] .hud-live-caret { background: var(--hud-companion); }
+.hud:not(:is([data-state="recording"], [data-state="locked"], [data-state="handsfree"])) .hud-live-caret { display: none; }
+/* locked: white on vermilion */
+.hud[data-state="locked"] .hud-live { color: var(--hud-on-locked); }
+.hud[data-state="locked"] .hud-w.is-pending { color: rgba(255, 255, 255, 0.72); }
+.hud[data-state="locked"] .hud-live-caret { background: #fff; }
+/* transcribing: the words stay while the last phrase lands, a step quieter */
+.hud[data-state="transcribing"] .hud-live { color: var(--hud-ink-2); }
+
+/* -------------------------------------------------------------------- reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .hud-dots > i,
+  .hud-spark svg,
+  .hud-pip::before,
+  .hud-pill > .hud-halo,
+  .hud-bubble-caret,
+  .hud-live-caret,
+  .hud-w,
+  .hud-caret { animation: none !important; }
+  .hud[data-live] .hud-live { transition: none; }
+  .hud-glyph > *, .hud:not([data-shown]) :is(.hud-pill, .hud-bubble, .hud-pip) { filter: none; }
+  .hud-pill > .hud-ghost { animation-name: hud-fade-out; }
+  .hud-text.is-swapping, .hud-live.is-swapping { animation-name: hud-fade-in; }
+  .hud-dots > i { opacity: 0.8; }
+  .hud[data-state="transcribing"] .hud-label { animation: none; color: var(--hud-ink); background: none; }
+  .hud[data-state="refining"] .hud-label { animation: none; color: var(--hud-accent-2); background: none; }
+  .hud[data-state="loading"].is-indeterminate .hud-progress > i { animation: none; transform: scaleX(1); opacity: 0.5; }
+  .hud[data-state="loading"].is-indeterminate .hud-ring .fill { animation: none; }
+  .hud[data-state="error"][data-shown] .hud-pill { animation: none; }
+  .hud-check path { stroke-dashoffset: 0 !important; animation: none !important; }
+}
+@keyframes hud-fade-in { from { opacity: 0; } }
+@keyframes hud-fade-out { to { opacity: 0; } }

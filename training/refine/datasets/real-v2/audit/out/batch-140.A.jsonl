@@ -1,0 +1,50 @@
+{"id": "s4-W37-0051", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'not the staffing' heard as 'Up seven.'"}
+{"id": "s4-W37-0052", "decision": "fix_clean", "clean": "The rollout order is first the elementary school, then the middle schools, and the high school last.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'school' (singular) and 'And' for 'then'"}
+{"id": "s4-W37-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0057", "decision": "fix_clean", "clean": "Sophia, the checklist for the pop-up is:\n1. Tables and chairs\n2. The projector\n3. Sign-up sheets\n4. The snacks, which I'll handle", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary: raw 'Sophia'"}
+{"id": "s4-W37-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'minus call' for Mina's call; 'pharmacy' for pharmacist"}
+{"id": "s4-W37-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0063", "decision": "fix_clean", "clean": "No, I can't tonight. The number one thing on my plate is the lab report, and then laundry law.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'No' for 'nah', 'law' for 'lol'"}
+{"id": "s4-W37-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0065", "decision": "drop", "reason": "hallucination", "note": "raw ends with an extra 'and' never said"}
+{"id": "s4-W37-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I mate', 'Chackane', 'They think': too many places"}
+{"id": "s4-W37-0068", "decision": "accept", "reason": "ok", "note": "leading 'scratch that' has nothing to retract"}
+{"id": "s4-W37-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0073", "decision": "fix_clean", "clean": "Hi Anders, for Friday's pick wave please confirm:\n1. The carrier pickup is at 2\n2. The pallets for the East Coast order are wrapped\n3. The labels match the packing slip\n4. The driver has the gate code\n\nThanks.", "reason": "guide_violation", "rules": ["R6"], "note": "East Coast is a proper noun"}
+{"id": "s4-W37-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0077", "decision": "fix_clean", "clean": "How to reset the student password\n\n1. Open the admin console\n2. Search for the student by ID\n3. Click reset and choose a temporary password\n4. Tell the student to change it at first login", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'the' for 'a'"}
+{"id": "s4-W37-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hell yeah', 'Mona', 'why' for hey/Mina/like"}
+{"id": "s4-W37-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0080", "decision": "fix_clean", "clean": "Hi Milans, I'd like to propose the following agenda for Thursday:\n1. A review of last month's ticket volume\n2. A look at the laptop refresh budget\n3. The summer maintenance window\n4. Open questions\n\nIf there's something you want added, tell me and I will fold it in before Wednesday. Thanks.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary: raw 'Milans'"}
+{"id": "s4-W37-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'visit' lost, sign-off 'Mateo' heard as 'at hale', 'Deepakama'"}
+{"id": "s4-W37-0086", "decision": "fix_clean", "clean": "Language exchange recapped\nThe turnout was good, about 32 people\nThe best conversations were at the tables with the top cards\nNext time we need more chairs and a quieter playlist", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'recapped', 'top cards'"}
+{"id": "s4-W37-0087", "decision": "fix_clean", "clean": "Okay, the fall schedule for the troop looks like this:\n- September, we do the river cleanup\n- October, the overnight the state park\n- November, the food drive\n- December is the holiday parade, which I guess is basically optional", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'at'"}
+{"id": "s4-W37-0088", "decision": "fix_clean", "clean": "Bug report: when a student switches networks mid-session the single sign-on token expires and the page shows a blank screen.\nSteps:\n1. Log in on the classroom Wi-Fi\n2. Walk to the hallway so the laptop runs\n3. Refresh the dashboard\n\nI've seen it on seven laptops so far.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'runs' for 'roams'"}
+{"id": "s4-W37-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0091", "decision": "fix_clean", "clean": "Hi Sophia, thanks for sending the summary. I have a few small notes on the intake process before we go live on Monday.\n1. The consent form still has the old clinic address on page 2\n2. We should tell patients to arrive 15 minutes early so the front desk is not slammed\n3. The paper version of the skin history questionnaire is missing the question about sunscreen\n\nNone of these are blockers but I would like them fixed before the first patient's arrival, so can you confirm that the new scanner is hooked up to the right folder?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Sophia'; 'patient's arrival, so' for 'patients arrive. also'"}
+{"id": "s4-W37-0092", "decision": "fix_clean", "clean": "Vera, quick recap of the receiving audit:\n- 42 pallets were checked\n- Three had the wrong school on the label\n- One was crushed on the left corner\n- The rest were clean\n\nI'll send the photos after launch.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'school' for SKU, 'launch' for lunch"}
+{"id": "s4-W37-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lock the walk-in' heard as 'I'm walking'"}
+{"id": "s4-W37-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'scalp troop' and 'maybe sifty' (value not recoverable)"}
+{"id": "s4-W37-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0096", "decision": "fix_clean", "clean": "Mina, thanks for covering. Here's where I left things: the first cart is restored, the second cart still needs sutures, and the third cart is locked in the supply room.\n\nThe key is under the blue binder.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'restored' for 'restocked'"}
+{"id": "s4-W37-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'with the fixed', 'ran out of time', 'host scan double book'"}
+{"id": "s4-W37-0099", "decision": "fix_clean", "clean": "Hey Deepah, I'm writing up the pallet damage incident and I want to get the order right.\n1. The truck arrived 40 minutes late\n2. The driver stacked the pallets without strapping them\n3. One of the stacks tipped when the fork turned\n4. We lost about $200 of product\n\nI'll attach the photos and a signed receipt, but can you check my numbers?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Deepah', 'fork', 'a signed receipt'"}
+{"id": "s4-W37-0100", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,8 @@
+{"id": "s4-W20-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"Usa\" for Yusuf and \"They were\" for \"the order\"; raw-form target is garbled"}
+{"id": "s4-W20-0055", "decision": "fix_clean", "clean": "The shift's schedule is rotated every two weeks.", "reason": "unrecoverable_word", "note": "B: raw has \"shift's\", a real word form; keep it"}
+{"id": "s4-W20-0056", "decision": "fix_clean", "clean": "The shift schedule was kinda fixed, but swaps are allowed.", "reason": "spelling_from_raw", "note": "B: raw has \"was\" and the variant \"kinda\"; keep both"}
+{"id": "s4-W20-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"date\" heard as \"dig\"; \"name it with the dig first\" is not sensible"}
+{"id": "s4-W20-0086", "decision": "fix_clean", "clean": "The trade deadline is tonight at 11, so we need to decide, and I mean it's no more stalling.", "reason": "unrecoverable_word", "note": "B: raw has \"it's\"; \"it\" not traceable"}
+{"id": "s4-W20-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: the trailing filler \"you know\" became the real word \"No.\"; a reader would take it as content"}
+{"id": "s4-W20-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"Tess\" became \"Test\", so the address reads as a verb; not a sensible dictation"}
+{"id": "s4-W20-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"for Ines\" became \"for a knee\""}

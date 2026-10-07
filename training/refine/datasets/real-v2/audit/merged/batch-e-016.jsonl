@@ -1,0 +1,8 @@
+{"id": "e4-E13-0031", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw has only the first third of the command, garbled (Doctor run T, GorePad); rest lost"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0032", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["kubectl/rollout/names garbled beyond recovery; correction unresolvable"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'o day' -> 'of day' recoverable"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0035", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["sites->light, bashir->bash your, web->webs: 3+ places to rewrite"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E13-0037", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hell no, break dash yeah, call' for 'helm upgrade --install'; many garbled places"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0039", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["birth dates->'Unable perfect', emigrated->'then the great into', need add-ons->'meet any at all'"], "auditors": ["A", "B"]}
+{"id": "e4-E13-0040", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["rsync half of command is gibberish; correction unresolvable"], "auditors": ["A", "B"]}

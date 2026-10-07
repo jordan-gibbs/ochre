@@ -1,0 +1,37 @@
+{"id": "e4-E11-0031", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has 'Augustine'"], "auditors": ["A", "B"], "clean": "Augustine, the moving quote calculator rounds 49.5 miles down to 49 instead of up."}
+{"id": "e4-E11-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0037", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'redis' heard as 'Miguel's', plus 'for lookup'/'result' changes"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0038", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'mock fetch in jest' became 'mark French and dress'"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0039", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["trailing 'Okay.' never said; also name and 'receipt PDF' garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0040", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["path 'deploy/values-prod.yaml' garbled to 'deploy values dish product.yam'"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0041", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'.update with the new price id' dropped by recognizer"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0042", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'deprecated', 'v2', 'instead' lost"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0044", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["opening clause lost and 'backfill last week's readings in influx' garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0048", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["pandas/rack/Lachlan heavily garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0002", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["both names lost ('So they', 'Toad or')"], "auditors": ["A", "B"]}
+{"id": "e4-E12-0003", "decision": "fix_clean", "reasons": ["spelling_from_raw", "unrecoverable_word"], "notes": ["raw has 'organizing'"], "auditors": ["A", "B"], "clean": "Dear Ambrose, thank you for organizing the crew at such short notice. The move went smoothly and nothing was damaged. We are very grateful."}
+{"id": "e4-E12-0005", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'ain't' dropped, meaning inverted; name garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E12-0006", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has 'Henreich'"], "auditors": ["A", "B"], "clean": "The parish register lists Henreich as born in 1862, which contradicts the census by about four years."}
+{"id": "e4-E12-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0013", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'autumn' heard as 'Orum'"], "auditors": ["A", "B"], "clean": "The registration form for the Orum season rejects any birth date before 2015, even though our oldest players were born in 2013."}
+{"id": "e4-E12-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0016", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has 'Theodor'"], "auditors": ["A", "B"], "clean": "Theodor, are you able to cover the walk-in clients on Saturday, or should I close the books for the day?"}
+{"id": "e4-E12-0017", "decision": "fix_clean", "reasons": ["spelling_from_raw", "unrecoverable_word"], "notes": ["raw has 'labeled'"], "auditors": ["A", "B"], "clean": "Good afternoon, we have scheduled your move for Friday the 12th of September. Our crew of three will arrive between 8 and 9 in the morning and we expect the job to take most of the day. Please make sure the lift has been reserved with your building manager and that any fragile items are clearly labeled."}
+{"id": "e4-E12-0018", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Ask you it about the sale number'"], "auditors": ["A", "B"]}
+{"id": "e4-E12-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0023", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Henreich' and 'organized'"], "auditors": ["A", "B"], "clean": "Hello Henreich, thank you for sending the scans of the baptism records. I've matched three of the names to my family tree, and the fourth looks like a cousin I hadn't traced before. I'll send you my notes once I've organized them."}
+{"id": "e4-E12-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E12-0028", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["most of the second half garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E12-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

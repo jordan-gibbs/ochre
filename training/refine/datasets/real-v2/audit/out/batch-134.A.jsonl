@@ -1,0 +1,50 @@
+{"id": "s4-W34-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled throughout"}
+{"id": "s4-W34-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0058", "decision": "fix_clean", "clean": "Cancelation policy, free up to 48 hours before departure, 50% refund between 48 and 24 hours, and nothing after that.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'CANCELATION'"}
+{"id": "s4-W34-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0061", "decision": "drop", "reason": "hallucination", "note": "'are' -> 'I' and trailing 'that' never said"}
+{"id": "s4-W34-0062", "decision": "fix_clean", "clean": "Hi Paulo, thanks for sending the itinerary. The total for the family of four comes to $6,340 including flights, but the hotel in Lisbon is listed at 210 euros a night and I thought we agreed on 180. Would you double check that before we pay the deposit, which is 20%?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary (raw 'Paulo'); raw 'Would' not 'Could'"}
+{"id": "s4-W34-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dear members' lost, approval/deal/hour/involved, $1.20 lost"}
+{"id": "s4-W34-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'at about' -> 'What about ...?'"}
+{"id": "s4-W34-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0072", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Naomi's notes from the board call' -> 'Nail meet call'"}
+{"id": "s4-W34-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Kiara->Diara, Airbnb->air, ending 'not bad' -> 'not that'"}
+{"id": "s4-W34-0074", "decision": "fix_clean", "clean": "Adebio flagged that the new macro is inserting the wrong refund window. It says 30 days but policy changed to 45 days last month. Can you fix that before the afternoon shift starts at 1?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw 'Adebio'"}
+{"id": "s4-W34-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0078", "decision": "fix_clean", "clean": "Thank you for your gift of $250. Your donation will cover above 80 meals, and your receipt for tax purposes is attached. We were founded in 1998 and since we have served more than 1 million meals.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R13"], "note": "raw 'above' not 'about'; 'then' dropped"}
+{"id": "s4-W34-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Paolo' -> 'How will', 'platform' -> 'half on'"}
+{"id": "s4-W34-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0082", "decision": "fix_clean", "clean": "Hi Paolo, thanks again for putting the trip together. I went through the quote this morning and a few things jumped out. First, the flights are $480 each, which is about 15% more than what we saw on the website last week. Second, the hotel in Coyote is listed for six nights but we only need five. And third, the airport transfer is $90 each way and honestly that seems high. Can you check whether a shared shuttle would be cheaper? We leave on September 23rd, so there's still a bit of time, but I'd like to confirm everything by the end of next week.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Coyote', Kyoto not inferable"}
+{"id": "s4-W34-0083", "decision": "fix_clean", "clean": "Quick recap of the weekend. Joe won the time trial in 51 minutes and 4 seconds, which beat his old record by almost 2 minutes. The team finished second overall in the standings with 612 points, behind the leaders on 630. Sami crashed on the descent but he's fine, just some scrape. The bike is a different story, the frame cracked and a replacement is going to run about $2,800, and the next race is in 11 days so we need to sort that fast.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Joao not in dictionary (raw 'Joe'); raw 'scrape'"}
+{"id": "s4-W34-0084", "decision": "fix_clean", "clean": "Dear Adebayo, thank you for contacting Poav about your December bill. I reviewed her account and found that the meter was read at 14,206 kilowatt hours on the 1st and 15,110 on the 31st, so the usage is 904 kilowatt hours. At 14 cents per kilowatt hour that comes to $126.56, plus the $12 service charge, for a total of $138.56, which matches your statement. However, I did notice you qualify for the senior discount of 5%, so I've applied a credit of $6.93 to your next bill.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'the co op' -> 'Poav', 'your' -> 'her'"}
+{"id": "s4-W34-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0086", "decision": "fix_clean", "clean": "I want you to draft a reply to a customer who is asking for a refund on a nonrefundable fare. The booking reference is 47921, the fare was $380, they canceled 21 days before departure, and our policy allows a travel credit of 80% in that case. So be polite and explain the credit, but don't promise a cash refund, and keep it to three short paragraphs.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'canceled'; 'reef'/'cashier fund' judged recoverable"}
+{"id": "s4-W34-0087", "decision": "fix_clean", "clean": "Summarise the following but keep every number exactly as written. The budget was $12,000, spending to date is $8,750, and we have about 45% of the year left. The board meets in 9 days to review it.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Summarise'"}
+{"id": "s4-W34-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Juror/Jurors lost, 7:30 lost, last sentence garbled"}
+{"id": "s4-W34-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "August->Audis, 'worth flagging'->'were flying', 'chat queue'->'Jack Hugh'"}
+{"id": "s4-W34-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hinazer, shuttle->shell, crept->kept"}
+{"id": "s4-W34-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Esther' dropped and 'need' -> 'be'"}
+{"id": "s4-W34-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Marta, the' -> 'Mart of the'"}
+{"id": "s4-W34-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "fifth->fair, 'each so bring' -> 'sober in'"}
+{"id": "s4-W34-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W34-0100", "decision": "drop", "reason": "hallucination", "note": "raw adds 'that's not a good thing. Why.'"}

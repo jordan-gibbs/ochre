@@ -1,0 +1,8 @@
+{"id": "s4-W15-0003", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: corrected value Porto heard as 'portion'"}
+{"id": "s4-W15-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Elif heard as 'I left'; not sensible"}
+{"id": "s4-W15-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: cue 'no' heard as 'of'; 'gym of the pool' reads as content, correction unresolvable"}
+{"id": "s4-W15-0023", "decision": "fix_clean", "clean": "Tell Mahamed the code is ready.", "reason": "unrecoverable_word", "note": "A: name from raw; 'Dell' -> 'Tell' inferable slip"}
+{"id": "s4-W15-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Elif's heard as 'a lift's'; not sensible"}
+{"id": "s4-W15-0037", "decision": "accept", "reason": "ok", "note": "A: target correct; B's output is misaligned (belongs to 0036)"}
+{"id": "s4-W15-0038", "decision": "fix_clean", "clean": "Please put three seats on the morning train to Florence.", "reason": "unrecoverable_word", "note": "A: raw has 'put' not 'book'"}
+{"id": "s4-W15-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'no sorry' merged into 'Nosari', reads as a surname; B's output misaligned"}

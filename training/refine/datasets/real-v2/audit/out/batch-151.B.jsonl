@@ -1,0 +1,50 @@
+{"id": "s4-W43-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0003", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W43-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0006", "decision": "fix_clean", "clean": "Summarise this in one sentence.", "reason": "spelling_from_raw"}
+{"id": "s4-W43-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0011", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W43-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0013", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W43-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0017", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W43-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0022", "decision": "fix_clean", "clean": "What does Einpot mean?", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0026", "decision": "fix_clean", "clean": "Here's the text. We will be closing a water main on Elm Street on Tuesday from 9 to noon. Please make this shorter.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0032", "decision": "fix_clean", "clean": "Hey, Sundina asked me to have you rewrite this paragraph so it sounds more professional. The lab results came back kind of weird, and we're not sure why.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0035", "decision": "fix_clean", "clean": "Make this email shorter. I give real thanks for sending the files over. I looked at them yesterday and everything seems fine.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0037", "decision": "fix_clean", "clean": "Translate this to Portuguese. Thanks for staying with us. The Coke is at 11.", "reason": "unrecoverable_word"}
+{"id": "s4-W43-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0044", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W43-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0046", "decision": "fix_clean", "clean": "How do I centre a div both vertically and horizontally using flexbox?", "reason": "spelling_from_raw"}
+{"id": "s4-W43-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W43-0050", "decision": "accept", "reason": "ok"}

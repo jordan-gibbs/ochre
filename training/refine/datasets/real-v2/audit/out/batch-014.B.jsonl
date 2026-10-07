@@ -1,0 +1,50 @@
+{"id": "s2-W2-0151", "decision": "fix_clean", "clean": "Call back Mr. Alvarez about the quote. It was 4,800.", "reason": "guide_violation", "rules": ["R10", "R7"], "note": "$ never spoken"}
+{"id": "s2-W2-0152", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0153", "decision": "fix_clean", "clean": "Cheap flights to Tokyo in March, not April, with free cancellation", "reason": "guide_violation", "rules": ["R10"], "note": "'not April' is content, not a correction"}
+{"id": "s2-W2-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0155", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0157", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0158", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' not said"}
+{"id": "s2-W2-0159", "decision": "fix_clean", "clean": "We retry timeouts but not on 404 errors.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'on' lost"}
+{"id": "s2-W2-0160", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Amy and data pipeline lost"}
+{"id": "s2-W2-0161", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0162", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0163", "decision": "fix_clean", "clean": "Thank you for applying. We will contact by the end of next week.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'you' lost"}
+{"id": "s2-W2-0164", "decision": "fix_clean", "clean": "I had too much to drink.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "first sentence lost"}
+{"id": "s2-W2-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0166", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0167", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening garbled"}
+{"id": "s2-W2-0168", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0170", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0171", "decision": "fix_clean", "clean": "The restaurant is called Nobo and the reservation is at 8.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name from raw"}
+{"id": "s2-W2-0172", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0173", "decision": "fix_clean", "clean": "How long should I wait to swim after eating?", "reason": "guide_violation", "rules": ["R6"]}
+{"id": "s2-W2-0174", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0175", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0176", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0177", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Down' in place of um"}
+{"id": "s2-W2-0178", "decision": "fix_clean", "clean": "No, no, no, do not send that message. I have not finished writing.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' lost"}
+{"id": "s2-W2-0179", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0180", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'aliased' heard as 'helias'"}
+{"id": "s2-W2-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0183", "decision": "drop", "reason": "unrecoverable_meaning", "note": "write a regex that garbled"}
+{"id": "s2-W2-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0187", "decision": "fix_clean", "clean": "Let's stick with MySQL since the team already knows it.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken 'lets', not 'let us'"}
+{"id": "s2-W2-0188", "decision": "fix_clean", "clean": "This function is called from three places if you count it.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'the tests' lost"}
+{"id": "s2-W2-0189", "decision": "drop", "reason": "unrecoverable_meaning", "note": "backup/data lost"}
+{"id": "s2-W2-0190", "decision": "drop", "reason": "unrecoverable_meaning", "note": "agenda garbled, roadmap lost"}
+{"id": "s2-W2-0191", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0192", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0194", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Lung' and 'No' replace um/uh"}
+{"id": "s2-W2-0195", "decision": "fix_clean", "clean": "The thing is that the vendor has not responded.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'in a week' lost"}
+{"id": "s2-W2-0196", "decision": "fix_clean", "clean": "This endpoint accepts a POST request with a JSON body. A 201 response on success.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'returns' lost"}
+{"id": "s2-W2-0197", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W2-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0199", "decision": "drop", "reason": "unrecoverable_meaning", "note": "kidding/movie lost"}
+{"id": "s2-W2-0200", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,50 @@
+{"id": "s4-W61-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0042", "decision": "fix_clean", "clean": "Write this paragraph so it sounds friendlier, and also...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0046", "decision": "fix_clean", "clean": "On the nurse says it might be a sprain, but they want to do an X-ray first and then...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0047", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W61-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0050", "decision": "fix_clean", "clean": "Hi Dominic, I read the book club picks, and honestly I'd love to suggest...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0051", "decision": "fix_clean", "clean": "Here's where we are on the courthouse e-filing project. The vendor delivered the first build on Monday. It passes about 80% of the test cases. The remaining failures are all in the document upload flow, and Chloe thinks the problem is the file size limit, but I'm not sure because they...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0053", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W61-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0055", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W61-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0057", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W61-0058", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W61-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0062", "decision": "fix_clean", "clean": "Hello Maesha, following up on your voicemail. I checked with billing, and the copay for yesterday's visit was $40, but I'm still waiting to hear back about...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0063", "decision": "fix_clean", "clean": "And you take a car back to the dealership after...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0068", "decision": "fix_clean", "clean": "Call notes with the dealership finance manager. He said the interest rate is 5.9% for 60 months with nothing down, but if we put down $2,000 it drops to 5.4%. He also mentioned a doc fee of $400 that day.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W61-0069", "decision": "fix_clean", "clean": "Dear members, due to the storm damage, the co-op office will be closed tomorrow. If you need to report an outage, please call the emergency lineup.", "reason": "trailing_off"}
+{"id": "s4-W61-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0075", "decision": "fix_clean", "clean": "Thanks, Dominic, that's really kind of you. I'll...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0076", "decision": "fix_clean", "clean": "When a member tries to pay their bill through the portal with a saved card, the page shows a spinner for about 30 seconds and then times out, but the payment actually goes through, so members pay twice. I think the problem is in the world.", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0077", "decision": "fix_clean", "clean": "Ay, Julia, but you send me the docket number for the Smith hearing and the name of the...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0082", "decision": "fix_clean", "clean": "Emma's gonna kill me, but I accidentally pushed to main and the...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0083", "decision": "fix_clean", "clean": "Hi Clove, thanks while we sorted this out. The board met last night and voted to approve the capital credits refund for all members who joined before 2010. The checks will go out in the first week of March, and we're also looking at whether we can extend the same policy to members who joined between 2010 and 2015, but...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0084", "decision": "fix_clean", "clean": "What to say when I...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0085", "decision": "fix_clean", "clean": "Grace, you're the best. I owe you.", "reason": "trailing_off"}
+{"id": "s4-W61-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0089", "decision": "fix_clean", "clean": "We should probably tell Dominic that the jury room is double booked on the 14th and...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0090", "decision": "drop", "reason": "unrecoverable_meaning"}

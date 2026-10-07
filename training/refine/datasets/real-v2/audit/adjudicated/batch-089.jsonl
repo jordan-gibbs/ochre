@@ -1,0 +1,6 @@
+{"id": "s2-W11-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hey' lost to 'AM', and raw 'they'll call' changes who calls; B's fix keeps 'Hey, I'm' which is not in raw"}
+{"id": "s2-W11-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "slash and 'it' dropped, 'mop clock', 'billin'; the sentence boundary at 'worker ran green' needs guessing"}
+{"id": "s2-W11-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "the point (lowercase smith vs Smith) is lost in raw and 'in names' became 'and names'; B's fix reads as nonsense"}
+{"id": "s2-W11-0028", "decision": "drop", "reason": "script_defect", "note": "'$' never said, 'of' dropped, Catherine vs Katherine, 'p.m..': 4 places, over the limit"}
+{"id": "s2-W11-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'but can skip the regression suite', which changes the meaning"}
+{"id": "s2-W11-0039", "decision": "fix_clean", "clean": "Dear Miss Aukhafer, thank you for attending our webinar on cloud security yesterday. As promised, I've attached the slides and a link to the recording. If you have any questions about Zero Trust or our SOC 2 report, just reply to this email. We would love to set up a short demo.", "reason": "unrecoverable_word", "note": "side with B: name and title 'Miss' from raw, as spoken"}

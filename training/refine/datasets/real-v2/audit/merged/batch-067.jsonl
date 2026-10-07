@@ -1,0 +1,41 @@
+{"id": "s2-W7-0302", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0303", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'go through the integration tests and delete' became 'Believe'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0304", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'For Atlas' lost and 'a UUID' became 'avoid'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0305", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'accent, the slug' became 'acts of the blood'; NFKV, question lost"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0306", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0307", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0308", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0311", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0312", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0313", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'why the'->'what a', 'old' lost, 'drop'->'draw'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0314", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'kubectl get' became 'Hub Del it'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0315", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["command garbled beyond recovery"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0316", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many misrecognitions (release client, told in, ship down, three D's)"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0317", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["large spans of the review lost by the recognizer"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0318", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0319", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0321", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'docstring', 'calls', 'idempotent' lost/garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0322", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["etcd, node, note, up to one TTL, two, drift all misheard"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0323", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0324", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'bulk' and 'right now you have to open each item to' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0325", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; also 'idle' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0328", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Go service, SIGTERM, exit, context, cancel, etc. garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0330", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0332", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["first line garbled; 'closes' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0333", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["gRPC, proxy, Envoy, can, proto files garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0334", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["channel list and several verbs garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0335", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'CLI tool'->'client', 'use clap'->'Please clap', BLAKE3 garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0336", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["recognizer dropped a whole sentence (>5 words to change)"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0337", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'column'->'call' and 'retry'->'reproduce'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0338", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0339", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'/dashboard/settings' and 'validate' lost; 'field' garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0340", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'No.', which reads as a correction cue"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0341", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'/var/run' became 'it', 'crashing'->'created'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0342", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0343", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Make all' became 'Let me call', ISO/OpenAPI garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0344", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0345", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'image registry mirror, um the garbage' garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0346", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Define', 'CSS', ':root', 'data-theme' garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0347", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0348", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0349", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["most of the dictation garbled"], "auditors": ["A", "B"]}

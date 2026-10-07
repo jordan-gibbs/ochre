@@ -1,0 +1,50 @@
+{"id": "s4-W37-0001", "decision": "fix_clean", "clean": "- Apes\n- Milk\n- Rice", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'apes' for 'eggs'"}
+{"id": "s4-W37-0002", "decision": "fix_clean", "clean": "The bullet point in slide 4 is wrong.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'in' for 'on'"}
+{"id": "s4-W37-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0006", "decision": "accept", "reason": "ok", "note": "'all the carrier' read as 'call'"}
+{"id": "s4-W37-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0009", "decision": "fix_clean", "clean": "We ranked it number one with our survey.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'with our' for 'in the parent'"}
+{"id": "s4-W37-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0011", "decision": "fix_clean", "clean": "Second thoughts about the new PIC schedule.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'PIC'; 'pick' not inferable"}
+{"id": "s4-W37-0012", "decision": "fix_clean", "clean": "1. Reheat the oven\n2. Oil the tray", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'reheat'"}
+{"id": "s4-W37-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0015", "decision": "fix_clean", "clean": "1. Check the origin sheet\n2. Label the trace", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'origin', 'trace'"}
+{"id": "s4-W37-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped 'was already done'"}
+{"id": "s4-W37-0017", "decision": "fix_clean", "clean": "Three things:\n1. The invoice\n2. The power count\n3. The dark schedule", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'power', 'dark'"}
+{"id": "s4-W37-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ship/chart/tag/door is: too many unrecoverable places"}
+{"id": "s4-W37-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name Mina heard as 'Mean it'"}
+{"id": "s4-W37-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "shallots/aioli garbled ('chill lots', 'make me the alley')"}
+{"id": "s4-W37-0022", "decision": "fix_clean", "clean": "The troop needs to bring:\n- A sleeping bag\n- A water bottle\n- Two pairs of socks\n- The flashlight", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'the flashlight'"}
+{"id": "s4-W37-0023", "decision": "fix_clean", "clean": "1. Open the gradebook\n2. Click export\n3. Watch it hang at 90%", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'steps to reproduce' missing from raw"}
+{"id": "s4-W37-0024", "decision": "fix_clean", "clean": "Okay, grocery run for the potluck:\n- Chips\n- Cells\n- Those little cups\n- Ice", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'cells' for 'salsa'"}
+{"id": "s4-W37-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Nate for Maeve plus two article changes: 3 places in 33 words"}
+{"id": "s4-W37-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0028", "decision": "fix_clean", "clean": "Meeting notes\n- Vera will send the revised schedule\n- We agree to move the audit to Thursday\n- Nobody has the key to the cage", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'agree'"}
+{"id": "s4-W37-0029", "decision": "fix_clean", "clean": "Write me a short welcome message for new language partners that covers:\n- Where we need\n- What to bring\n- How pairing works", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'need' for 'meet'"}
+{"id": "s4-W37-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw cut off after 'third the'; floor plan, sign-off lost"}
+{"id": "s4-W37-0032", "decision": "accept", "reason": "ok", "note": "'hang on' treated as a self-directed hold"}
+{"id": "s4-W37-0033", "decision": "fix_clean", "clean": "Okay, here's what I found on the returns shell:\n- Three damaged cartons\n- One pallet with no label\n- A stack of invoices that don't match anything", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'shell' for 'shelf'"}
+{"id": "s4-W37-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0035", "decision": "fix_clean", "clean": "Lal Deep, you owe me three things:\n- A coffee\n- The charger you borrowed\n- An apology for the karaoke thing", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Lal Deep' for 'lol deepa'"}
+{"id": "s4-W37-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0038", "decision": "fix_clean", "clean": "Hi Melan, a quick summary of what we changed:\n1. We replaced the two access points in the library\n2. We updated the firmware on the switches\n3. We turned off the old guest network\n\nLet me know if anything looks off.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary: raw 'Melan'"}
+{"id": "s4-W37-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0041", "decision": "fix_clean", "clean": "I want you to summarize the support ticket and then give me the next steps as a numbered list.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'the' for 'this'"}
+{"id": "s4-W37-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0045", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lead-in lost; 'ought', 'myself' for audit/my cell"}
+{"id": "s4-W37-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected item 'fold the tarps' heard as 'pole for tarps'"}
+{"id": "s4-W37-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W37-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'we are our price' for 'out of rice'; Nate for Maeve"}
+{"id": "s4-W37-0050", "decision": "accept", "reason": "ok"}

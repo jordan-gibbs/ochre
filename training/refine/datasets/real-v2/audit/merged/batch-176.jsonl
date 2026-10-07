@@ -1,0 +1,35 @@
+{"id": "s4-W53-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0056", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0062", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0064", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Malic Oped... There's two hundred words over'; 3 places"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0065", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Layla / castle / load"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0071", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with a trailing 'and' never said; also 'Raineus'"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0073", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'tell amir' heard as 'the line here'"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0074", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0077", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raised beds / drip line / budget all garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0078", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'tell the late O Basque' for layout desk"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0080", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Layla' for Leila"], "auditors": ["A", "B"], "clean": "Layla, the studio floor needs to be mopped before the evening classes, and someone has to refill the rosin box. Oh, and the sound system is cutting out, so don't use the blue speaker."}
+{"id": "s4-W53-0081", "decision": "fix_clean", "reasons": ["number_value", "number_value"], "notes": ["raw 'fifty' for fifteen"], "auditors": ["A", "B"], "clean": "The rotation is weekly, handoff is Monday at 10, the outgoing engineer posts a summary in the on-call channel, and any open incidents must be acknowledged by the incoming engineer within 50 minutes."}
+{"id": "s4-W53-0082", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Here mister Chen, and close is'"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0083", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'and making', 'don't had', 'eightquin'"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0084", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0086", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0088", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0089", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'prime' for prod"], "auditors": ["A", "B"], "clean": "Can somebody with prime access check the cache hit ratio? It dropped from 95 to 60% right after the deploy, and I want to know if the TTL got changed."}
+{"id": "s4-W53-0090", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'The rant, but' for 'tell grandpa'"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0096", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many garbled names/words"], "auditors": ["A", "B"]}
+{"id": "s4-W53-0097", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W53-0100", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Okay.' never said"], "auditors": ["A", "B"]}

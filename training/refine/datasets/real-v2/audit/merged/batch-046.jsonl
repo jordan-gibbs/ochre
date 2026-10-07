@@ -1,0 +1,42 @@
+{"id": "s2-W5-0251", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became real word 'Look' mid-sentence", "'Look.' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0252", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0253", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'Yeah', 'or No', 'It' from hesitations; 'all' lost", "Yeah/or No/It as hesitations"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0254", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'on your. And' -> 'on your end' is a near-homophone in an idiom"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0255", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'Yeah, no' replaces 'er not um yet know'", "many garbled spots"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0256", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Umora', 'I'd eat', 'photograph' and lost 'tomorrow'", "many errors"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0257", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'a Well contractor', 'the Low mobile app'", "Well/Low"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0258", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'Though', 'Well' from hesitations", "Though/Well"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0259", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Bur the Lion', 'For I could', 'see Miss'", "garbled ending"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0260", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'appt', lost 'a', 'or Ideal', 'Than', lost 'but', Nakamira", "4 separate fixes needed"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0263", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0264", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0265", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'poll request' homophone; 'look' read as past in context"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0266", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'fifty a month' became 'fifty eight. Month'", "price value garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0267", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'And everyone make it' -> 'Can everyone make it?' inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0268", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0269", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' became 'Dumb'", "Dumb for um"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0270", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'at four' became 'for that'; 'Can' became 'And'", "can/at 4 lost, spelling"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0272", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' became 'Thumb' twice", "Thumb x2"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0273", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'call me' lost", "Call me lost"], "auditors": ["A", "B"], "clean": "Guess what, we got the house. They accepted our offer, closing is on the 18th of next month. I am literally shaking right now."}
+{"id": "s2-W5-0274", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; also 'Fatch', 'first day', 'night'", "trailing Yeah; also garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0276", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'quick thing' -> 'Put the thing', 'billing bug' -> 'building, Bob'", "billing bug lost, quick lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0277", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0278", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'all the time' from 'hey all um'; 'power' for car", "car->power etc"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0279", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'in' dropped; 'HR' heard as 'Anarch'", "HR heard as Anarch; 'in' dropped"], "auditors": ["A", "B"], "clean": "Dear Mrs. Alvarez, thank you for coming on Friday. It was a pleasure to meet you. I wanted to let you know that we have decided to move forward with your application. Someone from Anarch will reach out this week to discuss the next steps."}
+{"id": "s2-W5-0281", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["opening 'just a heads up that I will be in' lost", "first part of sentence lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0283", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["whole clause about pricing model lost", "large span lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0284", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0285", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0287", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'A Ben. On time no talk' -> 'Hey Ben, long time no talk' inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0288", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' became 'It' ('It am a bit nervous')", "It am"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0289", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0291", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' became 'her'; also 'dogs', 'a Magosi'", "her for er"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0292", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' became 'or'; 'dinner' became 'there'", "to or me; there for dinner"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0293", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["blog section clause lost", "large span lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0294", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["tea ceremony/bamboo forest lost; 'Coyote'", "large span lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0295", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'full policy is in the handbook' lost; 'Wheels'", "garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0296", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'sew', 'Pomenta', 'piece', 'ro round'", "garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0297", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0298", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0299", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0300", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Ask me about ... and hi. The job.'", "name and jack lost"], "auditors": ["A", "B"]}

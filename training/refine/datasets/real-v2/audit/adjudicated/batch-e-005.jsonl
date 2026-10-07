@@ -1,0 +1,9 @@
+{"id": "e4-E4-0027", "decision": "accept", "reason": "ok", "note": "A: \"K quarter\" is a re-split of \"cake order\" with bakery context; B's text not sensible"}
+{"id": "e4-E4-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: vet heard as bed; not inferable, raw text not sensible"}
+{"id": "e4-E4-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"bloods\" not inferable and correction cue became \"Ending\"; B keeps a nonsense sentence"}
+{"id": "e4-E4-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"the venue\" heard as \"But then you\""}
+{"id": "e4-E4-0034", "decision": "accept", "reason": "ok", "note": "A: \"Me there\"/\"Prophic's\" are inferable slips; correction intact"}
+{"id": "e4-E4-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Motown heard as \"motel and\"; not inferable"}
+{"id": "e4-E4-0055", "decision": "fix_clean", "clean": "Florist notes: the bride wants peonies in the bouquets, but they are out of season in October, so we're looking at garden roses instead. The centerpieces are low arrangements, no candles because the venue doesn't allow open flame, and the ceremony arch gets eucalyptus and white ranunculus. Budget is about $2,500 total.", "reason": "unrecoverable_word", "note": "neither: bootcase->bouquets inferable (as A) but raw has \"they are\", not \"they're\""}
+{"id": "e4-E4-0058", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Emeka heard as \"an ecot\"; not sensible"}
+{"id": "e4-E4-0062", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: AC dropped and broken->Okay reverses meaning"}

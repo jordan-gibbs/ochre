@@ -1,0 +1,50 @@
+{"id": "s2-W3-0401", "decision": "drop", "reason": "unrecoverable_meaning", "note": "step two, tag, acme and /health lost or garbled"}
+{"id": "s2-W3-0402", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Fifth, sign, price value, cat, email all garbled"}
+{"id": "s2-W3-0403", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0404", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a stale read' became 'stay'; sentence no longer inferable"}
+{"id": "s2-W3-0405", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0406", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heading lost and ending 'though we wouldn't hook maybe' garbled"}
+{"id": "s2-W3-0407", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ten to two' became 'tend to do'"}
+{"id": "s2-W3-0408", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0409", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'device' became 'Yeah.', plus 'lost show', 'arrived'"}
+{"id": "s2-W3-0410", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0411", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0412", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0413", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W3-0414", "decision": "drop", "reason": "hallucination", "note": "trailing 'What?' never said"}
+{"id": "s2-W3-0415", "decision": "drop", "reason": "unrecoverable_meaning", "note": "mix/rest sentence dropped by recognizer (>5 words)"}
+{"id": "s2-W3-0416", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0417", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0418", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0419", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Design QA' became 'Design car'; hex values guessed"}
+{"id": "s2-W3-0420", "decision": "drop", "reason": "unrecoverable_meaning", "note": "connection string lost"}
+{"id": "s2-W3-0421", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0422", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'Did', 'uh' -> 'No.'"}
+{"id": "s2-W3-0423", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0424", "decision": "drop", "reason": "unrecoverable_meaning", "note": "responses sentence dropped"}
+{"id": "s2-W3-0425", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bench, squats lost; Random mile"}
+{"id": "s2-W3-0426", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Roth IRA' became 'rah'; 'M twenty eight'"}
+{"id": "s2-W3-0427", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Your->The, a->the, Free->Pre"}
+{"id": "s2-W3-0428", "decision": "fix_clean", "clean": "I think we should consider dropping support for Internet Explorer. It accounts for less than half a percent of our traffic, which is around 200 visits a month, and it costs us about three days of work every release. If we remove it, we can also drop two polyfills and cut the bundle size by roughly 4 kilobytes.", "reason": "number_value", "rules": ["R7", "RECOVER"], "note": "raw says four kilobytes"}
+{"id": "s2-W3-0429", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0430", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Grab to R to do dot Sar C' not recoverable to the command"}
+{"id": "s2-W3-0431", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0432", "decision": "fix_clean", "clean": "Her total is $36.40.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Her'"}
+{"id": "s2-W3-0433", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'timing' became 'tiny', plus in/and, a/the"}
+{"id": "s2-W3-0434", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'Well', 'er' -> 'But'; 'interviewed' lost"}
+{"id": "s2-W3-0435", "decision": "drop", "reason": "unrecoverable_meaning", "note": "dream journal and wake-up sentence dropped"}
+{"id": "s2-W3-0436", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the date' became 'a day'"}
+{"id": "s2-W3-0437", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'Low'; 'instead of a direct get' dropped"}
+{"id": "s2-W3-0438", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'Gum.', 'er' -> 'Lord,'"}
+{"id": "s2-W3-0439", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Resource' became 'Ray Soros'; mebibytes became megabytes"}
+{"id": "s2-W3-0440", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'grab it and come back' became 'and pump back'"}
+{"id": "s2-W3-0441", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0442", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0443", "decision": "fix_clean", "clean": "I am pleased to confirm your enrollment in the advanced statistics course beginning on the 8th of January. Classes meet on Tuesdays and Thursdays from 6 to 8:30 PM in room 214. Tuition is $1,800 and is due by the 20th of December. Syllabus will be sent to you two weeks before the start date.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'A'"}
+{"id": "s2-W3-0444", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Call with Mom, train time lost"}
+{"id": "s2-W3-0445", "decision": "drop", "reason": "unrecoverable_meaning", "note": "TCP lost"}
+{"id": "s2-W3-0446", "decision": "drop", "reason": "unrecoverable_meaning", "note": "checkout button, tapped, error text lost"}
+{"id": "s2-W3-0447", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0448", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled"}
+{"id": "s2-W3-0449", "decision": "fix_clean", "clean": "Well, it took me three tries, but I got it.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Well' for 'lol'"}
+{"id": "s2-W3-0450", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'B7 at' became 'P seven or'"}

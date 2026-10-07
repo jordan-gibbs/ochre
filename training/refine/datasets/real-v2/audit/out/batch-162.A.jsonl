@@ -1,0 +1,50 @@
+{"id": "s4-W48-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Flask/get/pace/JSON heard as 'floss cap', 'kit', 'paste', 'J song'"}
+{"id": "s4-W48-0054", "decision": "fix_clean", "clean": "I don't think we need this lock, the queue is already single consumer, so I just deleted.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'So I just deleted.' for 'so i'd just delete it'"}
+{"id": "s4-W48-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'async' heard as 'a thing'; corrected value lost"}
+{"id": "s4-W48-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0061", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I mean it' -> 'and Minette', 'rollback' -> 'roll the X'"}
+{"id": "s4-W48-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Rapdown, our dash and to do so, see components.'"}
+{"id": "s4-W48-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'CI runs in UTC' -> 'side because Sy runs and you teach e'"}
+{"id": "s4-W48-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0071", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'docker run --rm' -> 'DACARAN-RM'"}
+{"id": "s4-W48-0072", "decision": "fix_clean", "clean": "The cache key includes a user ID and the locale, but not the currency, which is probably why finance is seeing dollar amounts on the euro page.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a user ID', not 'the'"}
+{"id": "s4-W48-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "CSV -> 'the C', CORS -> 'course'"}
+{"id": "s4-W48-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Gustavo lost; 'wrote against delta time' -> 'row if again stelted time'"}
+{"id": "s4-W48-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0078", "decision": "fix_clean", "clean": "Thanks for splitting this up, it's way easier to follow now. My only concern is the naming, handleData and processData don't tell me anything. Then we call them parseManifest and applyPatches instead.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'could we' heard as 'Then we'; no longer a question"}
+{"id": "s4-W48-0079", "decision": "fix_clean", "clean": "Harmon, I looked at the crash dump and it's an access violation in the audio mixer, specifically when two sound effects finish on the same frame, so I think we're freeing the buffer twice.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "name not in dictionary; raw 'Harmon'"}
+{"id": "s4-W48-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Write a SQL' -> 'Why the S will'"}
+{"id": "s4-W48-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pace' -> 'base' twice, 'runner's' -> 'one as'"}
+{"id": "s4-W48-0083", "decision": "fix_clean", "clean": "Chitty, did you see the alert at 3:15 this morning? The primary database ran out of connections. I bumped the pool from 20 to 50 but we should figure out who is leaking them.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "name not in dictionary; raw 'Chitty'"}
+{"id": "s4-W48-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the visited set' -> 'That is it, it said', 'so reset' -> 'source at'"}
+{"id": "s4-W48-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "quoted commit message garbled: 'fix bob where users.'"}
+{"id": "s4-W48-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "log/rethrow/caller -> 'lock', 'retro', 'collar'"}
+{"id": "s4-W48-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'smart clock... failing to unlock it', 'bick and fake file', 'lol' -> 'while'"}
+{"id": "s4-W48-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'unclicked', 'funly block', 'hidden potential keys'"}
+{"id": "s4-W48-0090", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W48-0091", "decision": "fix_clean", "clean": "The thing I'm worried about here is that we compare the two timestamps as strings, and it works fine until somebody changes the format, and then it breaks silently. So I'd parse them first and compare the actual date objects. Also we should probably add a test that covers the daylight saving transition, because last year that was...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'And it works fine', not 'that'"}
+{"id": "s4-W48-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'worked fine for', 'scan', 'this stricter of out contrast' among many slips"}
+{"id": "s4-W48-0093", "decision": "fix_clean", "clean": "Okay, I need you to act as a code reviewer for the following pull requests, focus on error handling and naming, not formatting, we use Prettier for that. Give me a numbered list of the three most important issues, and for each one say which file and which line it's in, and don't suggest any new libraries because the credit union security team has to approve every dependency.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has plural 'pull requests'"}
+{"id": "s4-W48-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W48-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Bug' -> 'A', 'chore list' -> 'shore, lest', 'safe', 'emerge', 'never tab'"}
+{"id": "s4-W48-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "the reported typo is lost: raw 'connection with one end'"}
+{"id": "s4-W48-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bill', 'papes', 'every out like', 'type chap', Amir -> 'And Mary'"}
+{"id": "s4-W48-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'C E', 'ships', '.csv' lost, 'eggs it', 'Maxo', 'canoe only'"}

@@ -1,0 +1,50 @@
+{"id": "s2-W7-0301", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Redis' heard as 'Read these'; not inferable, fixed text not sensible"}
+{"id": "s2-W7-0302", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0303", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'go through the integration tests and delete' became 'Believe'"}
+{"id": "s2-W7-0304", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'For Atlas' lost and 'a UUID' became 'avoid'"}
+{"id": "s2-W7-0305", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'accent, the slug' became 'acts of the blood'; NFKV, question lost"}
+{"id": "s2-W7-0306", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0307", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0308", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0309", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'So' ('and So it it works')"}
+{"id": "s2-W7-0310", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'validating' became 'invalidating' and 'Can we' became 'And we'"}
+{"id": "s2-W7-0311", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0312", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0313", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'why the'->'what a', 'old' lost, 'drop'->'draw'"}
+{"id": "s2-W7-0314", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'kubectl get' became 'Hub Del it'"}
+{"id": "s2-W7-0315", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled beyond recovery"}
+{"id": "s2-W7-0316", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many misrecognitions (release client, told in, ship down, three D's)"}
+{"id": "s2-W7-0317", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large spans of the review lost by the recognizer"}
+{"id": "s2-W7-0318", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0319", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0320", "decision": "fix_clean", "clean": "Okay, so the Sprocket mobile app needs offline support. The main flows are viewing the task list, editing a task, and creating a task. When offline, the changes should be saved locally in SQLite and queued, and when the connection comes back we replay the queue in order against the API. Conflicts are resolved with last write wins, using the updated timestamp from the server. Show a small banner when the app is offline and a spinner badge on tasks that have pending changes. Please don't build everything at once. Start with the local database layer and the queue, write tests for them, and stop so I can review.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'at' of updated_at lost; raw says 'updated timestamp'"}
+{"id": "s2-W7-0321", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'docstring', 'calls', 'idempotent' lost/garbled"}
+{"id": "s2-W7-0322", "decision": "drop", "reason": "unrecoverable_meaning", "note": "etcd, node, note, up to one TTL, two, drift all misheard"}
+{"id": "s2-W7-0323", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0324", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bulk' and 'right now you have to open each item to' lost"}
+{"id": "s2-W7-0325", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also 'idle' lost"}
+{"id": "s2-W7-0326", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became 'Gum', 'uh' became 'Now'"}
+{"id": "s2-W7-0327", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'I' ('I use Pydantic'); also 'command' lost"}
+{"id": "s2-W7-0328", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Go service, SIGTERM, exit, context, cancel, etc. garbled"}
+{"id": "s2-W7-0329", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'follow ups' became 'Farlu Eps'; 'um' became 'some'"}
+{"id": "s2-W7-0330", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0331", "decision": "drop", "reason": "unrecoverable_meaning", "note": "self->itself, dot->dive, std mem->SDB N, I'm->in"}
+{"id": "s2-W7-0332", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first line garbled; 'closes' lost"}
+{"id": "s2-W7-0333", "decision": "drop", "reason": "unrecoverable_meaning", "note": "gRPC, proxy, Envoy, can, proto files garbled"}
+{"id": "s2-W7-0334", "decision": "drop", "reason": "unrecoverable_meaning", "note": "channel list and several verbs garbled"}
+{"id": "s2-W7-0335", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'CLI tool'->'client', 'use clap'->'Please clap', BLAKE3 garbled"}
+{"id": "s2-W7-0336", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped a whole sentence (>5 words to change)"}
+{"id": "s2-W7-0337", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'column'->'call' and 'retry'->'reproduce'"}
+{"id": "s2-W7-0338", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0339", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'/dashboard/settings' and 'validate' lost; 'field' garbled"}
+{"id": "s2-W7-0340", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'No.', which reads as a correction cue"}
+{"id": "s2-W7-0341", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'/var/run' became 'it', 'crashing'->'created'"}
+{"id": "s2-W7-0342", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0343", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Make all' became 'Let me call', ISO/OpenAPI garbled"}
+{"id": "s2-W7-0344", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0345", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'image registry mirror, um the garbage' garbled"}
+{"id": "s2-W7-0346", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Define', 'CSS', ':root', 'data-theme' garbled"}
+{"id": "s2-W7-0347", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0348", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0349", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the dictation garbled"}
+{"id": "s2-W7-0350", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'GitHub API'->'get of MPI', 'webhooks'->'Webox', 'the/from'->'a/in'"}

@@ -1,0 +1,50 @@
+{"id": "s2-W3-0251", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' not spoken"}
+{"id": "s2-W3-0252", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0253", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0254", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0255", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0256", "decision": "fix_clean", "clean": "Ew, so the sale ends tonight at midnight and it's 50% off everything. I ordered the standing desk, which was normally $600 and now it's $300. Also there is free shipping if you spend over $100, so you could get a monitor arm too.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Ew' for 'Yo' not inferable"}
+{"id": "s2-W3-0257", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'not 21 like people say', 'though' and the ending"}
+{"id": "s2-W3-0258", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'mini or the ta' garbles meaning/tone"}
+{"id": "s2-W3-0259", "decision": "fix_clean", "clean": "This is to confirm that your subscription will renew on the 1st of next month for $99. If you do not wish to renew, please cancel at least seven days in advance by logging into account.northwind.com.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'at' lost; raw has 'into'"}
+{"id": "s2-W3-0260", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' and 'Sir' for er"}
+{"id": "s2-W3-0261", "decision": "fix_clean", "clean": "Is it safe to eat chicken cooked three days ago?", "reason": "guide_violation", "rules": ["R6", "R11"], "note": "question mark and casing"}
+{"id": "s2-W3-0262", "decision": "drop", "reason": "garbage", "note": "raw 'Oh far.'"}
+{"id": "s2-W3-0263", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0264", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0265", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Okafor concern sentence lost; remainder dangling"}
+{"id": "s2-W3-0266", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0267", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No' for uh reads as correction cue"}
+{"id": "s2-W3-0268", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sour note/loyalty part/Or; several losses"}
+{"id": "s2-W3-0269", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0270", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0271", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0272", "decision": "fix_clean", "clean": "Okay, so I just talked to the vet and she says the surgery will cost about $1,100. The procedure is on the 14th and he can't eat after midnight the night before. I am so nervous.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "payment plan clause lost"}
+{"id": "s2-W3-0273", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0274", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening heavily garbled"}
+{"id": "s2-W3-0275", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0276", "decision": "drop", "reason": "unrecoverable_meaning", "note": "email address lost (a state dot indoor)"}
+{"id": "s2-W3-0277", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0278", "decision": "drop", "reason": "unrecoverable_meaning", "note": "versions and several words garbled"}
+{"id": "s2-W3-0279", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0280", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0281", "decision": "fix_clean", "clean": "What time does the sun set in Seattle in December?", "reason": "guide_violation", "rules": ["R6", "R11"], "note": "question mark and casing"}
+{"id": "s2-W3-0282", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0283", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0284", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0285", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Where' for er plus CI/node garbles"}
+{"id": "s2-W3-0286", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening and demo/churn sentence garbled"}
+{"id": "s2-W3-0287", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0288", "decision": "drop", "reason": "unrecoverable_meaning", "note": "BTF for A/B test, 'sign up for At' garbled"}
+{"id": "s2-W3-0289", "decision": "fix_clean", "clean": "I would like to cancel my membership effective immediately. My account number is 774444421. I was charged $49 on the 2nd even though I emailed last month to cancel. Please refund that charge and confirm by email once it is done.", "reason": "number_value", "rules": ["RECOVER"], "note": "account number value from raw; 'Hi' lost"}
+{"id": "s2-W3-0290", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0291", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0292", "decision": "drop", "reason": "unrecoverable_meaning", "note": "retry/level/'we do retry' garbled"}
+{"id": "s2-W3-0293", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0294", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Or' for er"}
+{"id": "s2-W3-0295", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0296", "decision": "fix_clean", "clean": "We regret to inform you that flight 217 to Denver has been canceled due to weather. You have been automatically rebooked on the next available flight, which departs at 6:40 PM tomorrow. If this does not work for you, please call us at 888-555-0112.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'canceled'"}
+{"id": "s2-W3-0297", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0298", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0299", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0300", "decision": "fix_clean", "clean": "Population of Canada in 2024", "reason": "guide_violation", "rules": ["R6"], "note": "sentence-initial casing"}

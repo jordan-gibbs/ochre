@@ -1,0 +1,8 @@
+{"id": "s4-W38-0003", "decision": "fix_clean", "clean": "Dear Elias Colin:", "reason": "unrecoverable_word", "note": "sided with A: \"Colin\" is a plausible name; keep it"}
+{"id": "s4-W38-0011", "decision": "accept", "reason": "ok", "note": "sided with A: \"question Marquis\" is a merge of \"question mark key\"; inferable"}
+{"id": "s4-W38-0013", "decision": "fix_clean", "clean": "Yes, come. I'll bring the forms.", "reason": "unrecoverable_word", "note": "sided with A: \"Yes, come.\" is sensible content; keep come"}
+{"id": "s4-W38-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: Gasman Tama not near dictionary Yasmin"}
+{"id": "s4-W38-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"They had the new model finished training\" not sensible"}
+{"id": "s4-W38-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: colon/semicolon lost; not sensible"}
+{"id": "s4-W38-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: toggle heard as Table; not sensible"}
+{"id": "s4-W38-0046", "decision": "accept", "reason": "ok", "note": "sided with B: \"column\" is a misheard punctuation command in a punctuation-dictated prompt; comma ok"}

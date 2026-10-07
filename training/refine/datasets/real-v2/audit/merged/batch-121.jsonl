@@ -1,0 +1,45 @@
+{"id": "s4-W28-0001", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'eva'; Aoife not in dictionary"], "auditors": ["A", "B"], "clean": "Is Eva coming to standup, or is she still on the train from Galway?"}
+{"id": "s4-W28-0002", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name spelling from raw"], "auditors": ["A", "B"], "clean": "Tell Niam I said thanks for covering my shift on Saturday and that I owe her a coffee."}
+{"id": "s4-W28-0003", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0004", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["name from raw; 'at' merged into the name and not re-inserted"], "auditors": ["A", "B"], "clean": "Call with Mr. Okonkword 10."}
+{"id": "s4-W28-0005", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["surname spelling from raw"], "auditors": ["A", "B"], "clean": "Dear Ms. Papadopulos, thank you for getting back to us so quickly about the membership application."}
+{"id": "s4-W28-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W28-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["Siobhan in dictionary; Chivon is its phonetic form"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0008", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Tymansky family tree Poland records before 1900 and where to find parish archives online"}
+{"id": "s4-W28-0009", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Thanks, Tadus, that fixed it, and I can finally log into the member portal again."}
+{"id": "s4-W28-0010", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said (also Vin/hold misheard)"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0011", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Assign this to Ziamara and set the priority to high, because the checkout page is throwing errors again."}
+{"id": "s4-W28-0012", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["dictionary name, split near form 'Chuck, Umecker'"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0014", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Mom says hi to Casuo and wants to know when you two are coming to visit again."}
+{"id": "s4-W28-0015", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Best regards, Fairrock"}
+{"id": "s4-W28-0016", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Morag->'More ideas', Monday->'one day', Wei->'Y'"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0017", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I must want me lap hours' garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0018", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Did Gun Hill approve it, or are we still waiting on her sign-off before we push to production?"}
+{"id": "s4-W28-0019", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Sophia lands at 6, so someone needs to grab the car from the garage before then."}
+{"id": "s4-W28-0020", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'reef on Cube', 'Sheridan box' for refund queue / shared inbox"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0021", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "How do you pronounce Kiva?"}
+{"id": "s4-W28-0022", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw garbled, self-correction lost"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W28-0024", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Caloni joined the channel and asked where the shared spreadsheet lives, so can someone send the link?"}
+{"id": "s4-W28-0025", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W28-0027", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Grandma wants to know if Wad Seitch and his wife are coming to the baptism on Saturday."}
+{"id": "s4-W28-0028", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'wrap ... to Mrs. 8' for route / Achebe"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0029", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Sven is rewriting the pathfinding for the boss fight, and Yuki is on the shader buttons."}
+{"id": "s4-W28-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W28-0032", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Lena is handling the cashier drawer reconciliation today."}
+{"id": "s4-W28-0034", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Thank you for your patience, Ms. Shaimansky. We have escalated the dispute and expect an answer within five business days."}
+{"id": "s4-W28-0035", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Can someone tell Thomas that the Perforce stream is locked until the Unreal build finishes?"}
+{"id": "s4-W28-0036", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'And Taiwee', 'Ma Chai', 'Law' for Aunt Ayumi / mochi / lol"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0037", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": [], "auditors": ["A", "B"], "clean": "Gwendolyn ran half in 1:52, which is a new personal best."}
+{"id": "s4-W28-0039", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["no dictionary in this row"], "auditors": ["A", "B"], "clean": "Write a short toast for my friend Chivon's 30th birthday."}
+{"id": "s4-W28-0040", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'cut saucer names', 'Ben Caturan Sub Romanian'"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0042", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "I ran into Ada's cousin Lastlow at the pharmacy, and he says hi."}
+{"id": "s4-W28-0043", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Hi->I, Benedict, for->from, Oil Aaron: too many places"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W28-0045", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "The board chair, Dagmar Linkfist, presented the annual report, and the treasurer, Murali Aya, answered questions about the fee schedule and the proposed changes to overdraft limits, which led to a long discussion with the members who attended in person."}
+{"id": "s4-W28-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["Soojin in dictionary"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'move' -> 'moved' treated as inferable slip"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0048", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["Ravenmoor in dictionary"], "auditors": ["A", "B"]}
+{"id": "s4-W28-0050", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'reef and from mister Calkes have gone'"], "auditors": ["A", "B"]}

@@ -1,0 +1,2 @@
+{"id": "sim4-s4-W63-0058-0", "decision": "fix_clean", "note": "A: 'tone' plausible (phone line), keep; A matches raw exactly", "clean": "It looks like the line is down again, but the tone is fine."}
+{"id": "sim4-d4-C025-0071-2", "decision": "drop", "note": "A: 'the rose arrive' - number and tense not recoverable"}

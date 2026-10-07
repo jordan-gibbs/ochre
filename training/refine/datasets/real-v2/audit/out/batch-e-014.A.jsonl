@@ -1,0 +1,50 @@
+{"id": "e4-E11-0031", "decision": "fix_clean", "clean": "Augustine, the moving quote calculator rounds 49.5 miles down to 49 instead of up.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw has 'Augustine'"}
+{"id": "e4-E11-0032", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0033", "decision": "fix_clean", "clean": "Write this function to use async/await instead of .then chains.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'write' not 'rewrite'; async/await and .then inferable in context"}
+{"id": "e4-E11-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'endpoint at slash live' became 'and point it to the live'; path lost"}
+{"id": "e4-E11-0035", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0036", "decision": "fix_clean", "clean": "The export to CSV button on the ticket sales report produces an empty file in Firefox. Chrome works fine. I check the network tab and the response has the right content type, so I think it's the blob download code.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'check' (present tense)"}
+{"id": "e4-E11-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'redis' heard as 'Miguel's', plus 'for lookup'/'result' changes"}
+{"id": "e4-E11-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'mock fetch in jest' became 'mark French and dress'"}
+{"id": "e4-E11-0039", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' never said; also name and 'receipt PDF' garbled"}
+{"id": "e4-E11-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "path 'deploy/values-prod.yaml' garbled to 'deploy values dish product.yam'"}
+{"id": "e4-E11-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'.update with the new price id' dropped by recognizer"}
+{"id": "e4-E11-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'deprecated', 'v2', 'instead' lost"}
+{"id": "e4-E11-0043", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0044", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening clause lost and 'backfill last week's readings in influx' garbled"}
+{"id": "e4-E11-0045", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pass' heard as 'As'; command sentence no longer sensible"}
+{"id": "e4-E11-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0048", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pandas/rack/Lachlan heavily garbled"}
+{"id": "e4-E11-0049", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0050", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0001", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "both names lost ('So they', 'Toad or')"}
+{"id": "e4-E12-0003", "decision": "fix_clean", "clean": "Dear Ambrose, thank you for organizing the crew at such short notice. The move went smoothly and nothing was damaged. We are very grateful.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'organizing'"}
+{"id": "e4-E12-0004", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0005", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ain't' dropped, meaning inverted; name garbled"}
+{"id": "e4-E12-0006", "decision": "fix_clean", "clean": "The parish register lists Henreich as born in 1862, which contradicts the census by about four years.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw has 'Henreich'"}
+{"id": "e4-E12-0007", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0008", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dinghy' -> 'Thingy' and 'Ewan' -> 'UN'; result not sensible"}
+{"id": "e4-E12-0010", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting/name became 'High pre income'"}
+{"id": "e4-E12-0012", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0013", "decision": "fix_clean", "clean": "The registration form for the Orum season rejects any birth date before 2015, even though our oldest players were born in 2013.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'autumn' heard as 'Orum'"}
+{"id": "e4-E12-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'trailer's got a flat' became 'trailer started flat'"}
+{"id": "e4-E12-0016", "decision": "fix_clean", "clean": "Theodor, are you able to cover the walk-in clients on Saturday, or should I close the books for the day?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name not in dictionary; raw has 'Theodor'"}
+{"id": "e4-E12-0017", "decision": "fix_clean", "clean": "Good afternoon, we have scheduled your move for Friday the 12th of September. Our crew of three will arrive between 8 and 9 in the morning and we expect the job to take most of the day. Please make sure the lift has been reserved with your building manager and that any fragile items are clearly labeled.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'labeled'"}
+{"id": "e4-E12-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Ask you it about the sale number'"}
+{"id": "e4-E12-0019", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Nah' heard as 'Not'; keeping raw word reads wrong"}
+{"id": "e4-E12-0021", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0023", "decision": "fix_clean", "clean": "Hello Henreich, thank you for sending the scans of the baptism records. I've matched three of the names to my family tree, and the fourth looks like a cousin I hadn't traced before. I'll send you my notes once I've organized them.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13", "R10"], "note": "raw has 'Henreich' and 'organized'"}
+{"id": "e4-E12-0024", "decision": "fix_clean", "clean": "The boat needs a new halyard before the regatta and I'd rather not wait for the chandelier to restock.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'chandlery' heard as real word 'chandelier'"}
+{"id": "e4-E12-0025", "decision": "fix_clean", "clean": "Booking calendar shows the studio as open on bank holidays, which is wrong. We are closed.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'we are'"}
+{"id": "e4-E12-0026", "decision": "drop", "reason": "hallucination", "note": "trailing 'but' never said; 'adjust' heard as 'It just'"}
+{"id": "e4-E12-0027", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the second half garbled"}
+{"id": "e4-E12-0029", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Could' heard as 'But'"}

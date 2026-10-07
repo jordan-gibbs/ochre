@@ -1,0 +1,50 @@
+{"id": "s2-W4-0201", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0203", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0204", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'tilted Vatboar C' cannot be read as ~/.bashrc"}
+{"id": "s2-W4-0205", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0206", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0207", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0208", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dash and then dot then' loses -m venv .venv"}
+{"id": "s2-W4-0209", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Doctor except Ash by T' needs too many reconstructions"}
+{"id": "s2-W4-0210", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0211", "decision": "fix_clean", "clean": "ps aux | grep note", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "grep pattern 'node' heard as 'note'; arbitrary pattern not inferable"}
+{"id": "s2-W4-0212", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0213", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dash i colon' lost; lsof -i :3000 not recoverable from 'Well soft, three thousand'"}
+{"id": "s2-W4-0214", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0215", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0216", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0217", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0218", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0219", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0220", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0221", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W4-0222", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' never said"}
+{"id": "s2-W4-0223", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W4-0224", "decision": "fix_clean", "clean": "FIXME: this leaks the file handle on the error path", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the file handle'"}
+{"id": "s2-W4-0225", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0226", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0227", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0229", "decision": "fix_clean", "clean": "Dear Ellen,\n\nThank you for the opportunity to interview last week. I enjoyed learning more about the team and the direction of the product.\n\nPlease let me know if you need anything else from me. I look forward to hearing from you.\n\nSincerely,\nMarcus Gray", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "names not in dictionary: raw has Ellen and Gray"}
+{"id": "s2-W4-0230", "decision": "drop", "reason": "unrecoverable_meaning", "note": "final sentence (7 words) lost by recognizer"}
+{"id": "s2-W4-0231", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0232", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'A drug.'"}
+{"id": "s2-W4-0233", "decision": "fix_clean", "clean": "Summary\nExport button does nothing on the reports page.\n\nSteps\nOpen reports, click export, nothing happens.", "reason": "trailing_off", "rules": ["RECOVER"], "note": "raw ends before the Expected section"}
+{"id": "s2-W4-0234", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'and er' heard as 'an or', reads as 'or raises'"}
+{"id": "s2-W4-0235", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'um app' heard as 'At'; 'app' lost, plus 'or' from er"}
+{"id": "s2-W4-0236", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw keeps only 'Running late.'; most content lost"}
+{"id": "s2-W4-0237", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'on' ('own the on first one'), 'uh' as 'well'"}
+{"id": "s2-W4-0238", "decision": "fix_clean", "clean": "Hi Tom,\n\nThanks for taking the time to meet with us yesterday. We were impressed with the demo and especially with how quickly your team handled our questions.\n\nI have shared your proposal with our finance group. They will review it over the next week, and I will follow up as soon as I have their feedback.\n\nIn the meantime, please send over the security documentation we discussed. Our legal team would like to start the review early.\n\nBest regards,\nAnna", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Anna' and 'the review'; 'or and' read as stutter"}
+{"id": "s2-W4-0239", "decision": "drop", "reason": "unrecoverable_meaning", "note": "final clause 'with no commentary before or after it' lost"}
+{"id": "s2-W4-0240", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'but'; also 'this blocks the' garbled"}
+{"id": "s2-W4-0241", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'tom sam' heard as 'Found some'"}
+{"id": "s2-W4-0242", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening 'To install the package, run' lost"}
+{"id": "s2-W4-0243", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0244", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0245", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er by you' heard as 'I do'"}
+{"id": "s2-W4-0246", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0247", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0248", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles: 'higher a team', 'new aircraft', 'warehouse late', 'Lincoln. Push.'"}
+{"id": "s2-W4-0249", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'with' and 'law'"}
+{"id": "s2-W4-0250", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dargan', 'break it. The white I', 'it' lost and more"}

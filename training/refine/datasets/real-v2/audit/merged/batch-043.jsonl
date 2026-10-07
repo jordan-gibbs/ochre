@@ -1,0 +1,38 @@
+{"id": "s2-W5-0101", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0103", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0105", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["both 'uh' became 'not', reversing meaning", "'not' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0106", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0108", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0109", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0110", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0111", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' became 'her'; also 'Indian' heard as 'handy'", "'her' for er; Indian->handy"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0112", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'by EOD' lost ('but'); 'it. Thing' garbled", "EOD lost, it/but"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0114", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0115", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0117", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0118", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0119", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0120", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0121", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0122", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0123", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'You keep forgetting'", "raw says You"], "auditors": ["A", "B"], "clean": "Hey, can you tell Grandma that I will call her Sunday? You keep forgetting."}
+{"id": "s2-W5-0124", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling Asha", "name from raw"], "auditors": ["A", "B"], "clean": "Okay so I talked to Asha and she said we can move the launch to the 8th if design signs off by Monday."}
+{"id": "s2-W5-0125", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'ugh my car wont start' garbled to 'On my car once, don't'", "won't start lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0126", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0127", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0128", "decision": "fix_clean", "reasons": ["unrecoverable_word", "spelling_from_raw"], "notes": ["raw has 'Yep'", "raw Yep"], "auditors": ["A", "B"], "clean": "Yep, I can pick that up. Send me the details and I'll get started after the call."}
+{"id": "s2-W5-0130", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'uh that' -> 'then', 'cron job' -> 'cron, child'", "Dust, then, child, em"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0131", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Okay'", "raw Okay"], "auditors": ["A", "B"], "clean": "Okay so the plan is we meet at the station at... wait, is it 8 or 8:30?"}
+{"id": "s2-W5-0132", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0133", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0134", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0135", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0137", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'hey' absent from raw", "Hey lost"], "auditors": ["A", "B"], "clean": "It's Yuki, my new number, save it please."}
+{"id": "s2-W5-0138", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0139", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0141", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'thought' ('I thought might')", "'thought' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0143", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw keeps only 'Thanks, Pro.'; 'i owe you one' lost", "most content lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0144", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0145", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0146", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'meeting' -> 'meaning', 'then to five' -> 'Then defy'", "meeting/then to five garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0147", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

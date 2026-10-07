@@ -1,0 +1,3 @@
+{"id": "s2-W10-0151", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'thought' misheard as 'Bah'; 'Bah for later' is not a sensible dictation and 'Thought' cannot be inferred from raw"}
+{"id": "s2-W10-0162", "decision": "drop", "reason": "unrecoverable_meaning", "note": "own call: 'can' misheard as 'And'; keeping 'can you' reads past raw, and the raw-faithful fix ('and you tell me why') is an awkward non-request; torn fix vs drop -> drop"}
+{"id": "s2-W10-0193", "decision": "drop", "reason": "unrecoverable_meaning", "note": "own call: recognizer dropped 'in' from 'results are in'; removing it leaves 'results are, and' which breaks the sentence (rubric: drop when a lost word breaks meaning)"}

@@ -1,0 +1,50 @@
+{"id": "s2-W8-0001", "decision": "drop", "reason": "garbage", "note": "raw MIP!"}
+{"id": "s2-W8-0002", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W8-0003", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0004", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0005", "decision": "drop", "reason": "hallucination", "note": "raw Yeah. only"}
+{"id": "s2-W8-0006", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0007", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0008", "decision": "fix_clean", "clean": "Hey Mom, just ringing to say I got the job, can't believe it.", "reason": "spelling_from_raw", "note": "raw has mom"}
+{"id": "s2-W8-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0010", "decision": "drop", "reason": "hallucination", "note": "trailing Huh."}
+{"id": "s2-W8-0011", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0012", "decision": "fix_clean", "clean": "Yesterday I go to the market and I buy many vegetable, tomato and onion and a spinach.", "reason": "dropped_by_recognizer", "note": "lost 'was very cheap'; raw 'a'"}
+{"id": "s2-W8-0013", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled"}
+{"id": "s2-W8-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0016", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0017", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0018", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0019", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0020", "decision": "fix_clean", "clean": "Dear diary, I finally told Dad about the college thing and he didn't yell, he just nodded, and I don't know what to think.", "reason": "dropped_by_recognizer", "note": "today lost"}
+{"id": "s2-W8-0021", "decision": "fix_clean", "clean": "My stamps.", "reason": "unrecoverable_word", "note": "buy heard as My"}
+{"id": "s2-W8-0022", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0024", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0025", "decision": "fix_clean", "clean": "Mom, it's me. My phone died, I'm at Jalen's. Can you pick me up around 9?", "reason": "unrecoverable_word", "note": "name spelling from raw"}
+{"id": "s2-W8-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0027", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0028", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0030", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0031", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0032", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W8-0033", "decision": "fix_clean", "clean": "I'm outside, come down.", "reason": "dropped_by_recognizer", "note": "Aye lost"}
+{"id": "s2-W8-0034", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "to date, so / just"}
+{"id": "s2-W8-0036", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0037", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "spring day for ring Dave"}
+{"id": "s2-W8-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0040", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0041", "decision": "fix_clean", "clean": "Patient in bed 4, COPD, oxygen sats 91% on room air, repeat of 2.", "reason": "dropped_by_recognizer", "note": "obs at lost"}
+{"id": "s2-W8-0042", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0045", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W8-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "multiple lost places"}
+{"id": "s2-W8-0048", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W8-0049", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0050", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}

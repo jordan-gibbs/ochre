@@ -1,0 +1,50 @@
+{"id": "s4-W60-0041", "decision": "fix_clean", "clean": "Camille, I don't know if it's the cold or the altitude but I'm kind of white, so I might set out the last climb, you guys go ahead.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0042", "decision": "fix_clean", "clean": "Risasso, the client wants the revisions by new, which is insane, because they sent the notes at 11:30, so I'm just gonna say we'll do our best.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0044", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W60-0045", "decision": "fix_clean", "clean": "Below, my wallet is basically empty after that mint. I got the token, but now I can't pay gas to do anything with it, which is hilarious.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0046", "decision": "fix_clean", "clean": "Alright, you know that feeling when you finish the whole routine and then realize the music was off the entire time? That was me today.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0047", "decision": "fix_clean", "clean": "Leah, the playground is closed for repairs so the parking meetup is moved to the library lawn, and bring a blanket because the grass is soaked.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0048", "decision": "fix_clean", "clean": "I swear the drive-through line at the branch is longer than the one inside, people just sit there with their engines running for half an hour.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W60-0049", "decision": "fix_clean", "clean": "Ab, listen, I like the demo but the bridge feels kind of rushed. Can we add four bars before the last chorus? And then I think we're done.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0050", "decision": "fix_clean", "clean": "Chloe, it turns out the group booked the wrong cap. We have the one for six and there are nine of us, so someone is sleeping in the car.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0051", "decision": "fix_clean", "clean": "Oh, the hike leader just texted that the bridge is out, so we're doing the lower trail and it adds an hour, plus it's gonna rain around 2.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0052", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W60-0053", "decision": "fix_clean", "clean": "Razov finally replied about the tracking pixel thing and he says it's fine, but I'm not convinced. It fires before consent, which is basically the whole problem.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0054", "decision": "fix_clean", "clean": "Hey, it's me. The dance recital is at 6 on Friday, not 5, and you need to bring the flowers for her because I'll be backstage.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W60-0055", "decision": "fix_clean", "clean": "Below, the airdrop is a total rug. You can see the dev wallet moved everything an hour ago, so I'd stay away.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0056", "decision": "fix_clean", "clean": "Tell me when you're done in the studio. I have a bunch of stuff to move in and the piano guy is coming at 4, and it's kind of tight in there.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W60-0057", "decision": "fix_clean", "clean": "Lena, the bake sale made $312, which is way more than last year, and the principal wants us to do it again in the spring.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0058", "decision": "drop", "reason": "hesitation_misheard_as_word"}
+{"id": "s4-W60-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0062", "decision": "fix_clean", "clean": "Rizah, who owns the shared drive folder for the dance school photos? Because it's totally full and I can't upload the new ones.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0063", "decision": "fix_clean", "clean": "They don't forget the parent-teacher meeting is at 4:15 tomorrow. I put it on the calendar, and wear the nice jacket, not the hoodie.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0064", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W60-0065", "decision": "fix_clean", "clean": "Billow, I'm gonna say this once, the exchange froze my account for three days and it was literally the worst weekend, I'm moving everything to cold storage.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0066", "decision": "fix_clean", "clean": "Gara, the new girl in the advanced class is amazing, she nailed the pirouette sequence on her first try, and the teacher didn't even say anything, not it.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0067", "decision": "fix_clean", "clean": "Lena, I can't do the carpool tomorrow, the car's at the shop, so can you take the twins? And I'll cover Wednesday and Thursday to make up for it.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0071", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W60-0072", "decision": "fix_clean", "clean": "Honestly, Camille, I think we're overthinking the rope. It's basically a straight walk with a big view at the end, and the kids will love the waterfall.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0073", "decision": "fix_clean", "clean": "Where is I the wallet app updated and now it's asking for my seed phrase again, which is super sketchy, so I'm not touching it until someone confirms it's real.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0076", "decision": "fix_clean", "clean": "Bill, I'll trade you my last ticket to the meetup for that hardware wallet you never use. Deal, or is that a bad trade? You tell me.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0078", "decision": "fix_clean", "clean": "Lina, I was thinking, if the parents each chip in $10 we can get the teacher a decent gift card instead of another mode.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0079", "decision": "fix_clean", "clean": "Petro, the vault door is stuck again, and the locksmith won't be here until late 2, so if anyone needs anything from the vault, just wait, sorry.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0082", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W60-0083", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W60-0084", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W60-0085", "decision": "fix_clean", "clean": "Claire, this studio manager approved the extra hours, but only for two weeks, which is enough to finish the album if we don't mess around.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0086", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W60-0087", "decision": "fix_clean", "clean": "Alright, I'll do the warm-up, you do the combination, and then we'll switch for the cool-down, and whoever finishes first gets to pick the playoffs.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0088", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W60-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0090", "decision": "fix_clean", "clean": "After the drum room smells like wet dogs. I'm not kidding. I think the foam is moldy, so let's ask for a different room before we record anything.", "reason": "unrecoverable_word"}

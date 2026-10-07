@@ -1,0 +1,38 @@
+name: rust-check
+description: Toolchain, cache, clippy and tests for the whole workspace (the body of every "check (<os>)" job).
+inputs:
+  toolchain:
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: Install Linux dependencies (same set as scripts/install.sh)
+      if: runner.os == 'Linux'
+      shell: bash
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y --no-install-recommends build-essential pkg-config libssl-dev \
+          libasound2-dev libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev \
+          libxdo-dev libxi-dev xdotool
+
+    - uses: dtolnay/rust-toolchain@master
+      with:
+        toolchain: ${{ inputs.toolchain }}
+        components: clippy
+
+    - uses: Swatinem/rust-cache@v2
+      with:
+        shared-key: check
+        save-if: ${{ github.ref == 'refs/heads/main' }}
+
+    # The whole workspace, including the Tauri app (app/src-tauri). Optional GPU / whisper.cpp
+    # features are not enabled here. Tests that need the network, an API key or a downloaded
+    # model are #[ignore]d and do not run. Clippy covers lib + bin targets; examples and tests
+    # still have lints to clean up before --all-targets can be required.
+    - name: clippy
+      shell: bash
+      run: cargo clippy --workspace --locked -- -D warnings
+
+    - name: test
+      shell: bash
+      run: cargo test --workspace --locked

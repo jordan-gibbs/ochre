@@ -1,0 +1,14 @@
+{"id": "s2-W3-0407", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ten to two on Saturdays' became 'tend to do on Saturdays'; 10 to 2 not inferable and raw's wording is not a sensible dictation"}
+{"id": "s2-W3-0409", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'device' became 'Yeah.' (not a visible trailing off), plus logs->lost, side->site, arrive->arrived; more than 2 places"}
+{"id": "s2-W3-0410", "decision": "fix_clean", "clean": "What happened on July 4th, 1776?", "reason": "guide_violation", "note": "R6: a full question needs capital and '?'; consistent with prior search-row adjudications"}
+{"id": "s2-W3-0415", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer dropped the whole 'mix everything together and let it rest for 30 minutes' step (10 words); prefer drop over a large removal"}
+{"id": "s2-W3-0424", "decision": "drop", "reason": "unrecoverable_meaning", "note": "the ~15-word responses sentence was dropped by the recognizer; exceeds the 5-word fix limit"}
+{"id": "s2-W3-0427", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Your->The, a->the and Free->Pre: three separate places; 'Free' is not in raw"}
+{"id": "s2-W3-0429", "decision": "fix_clean", "clean": "How many days until Christmas?", "reason": "guide_violation", "note": "R11/R6: raw is already a perfect cleanup and must be returned unchanged"}
+{"id": "s2-W3-0433", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'timing' became 'tiny' (raw's ending is nonsense), plus a/the staging and in/and; more than 2 places"}
+{"id": "s2-W3-0435", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dream journal' heading and the 3:40 wake-up sentence lost; two places and well over 5 words"}
+{"id": "s2-W3-0436", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the date' became 'a day' (not inferable) and 'discussed' became 'discuss'; following raw gives a broken sentence"}
+{"id": "s2-W3-0438", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became 'Gum.' and 'er' became 'Lord,': real words a reader of raw could take as content"}
+{"id": "s2-W3-0439", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Resource' became 'Ray Soros' (not a near form) and mebibytes became megabytes; fixing to raw leaves a nonsense heading"}
+{"id": "s2-W3-0442", "decision": "accept", "reason": "ok", "note": "'quasa' is a non-word near form of croissant, unambiguous next to 'flat white' in a coffee run; writing 'quasa' would train nonsense"}
+{"id": "s2-W3-0450", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'gate B7 at' became 'gate P seven or'; following raw gives 'P7 or 11:20', not a sensible message"}

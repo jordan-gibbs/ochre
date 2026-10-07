@@ -1,0 +1,8 @@
+{"id": "s2-W4-0313", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'app' heard as 'air' (not inferable) and 'on' as 'and'; raw-faithful target is not a sensible dictation"}
+{"id": "s2-W4-0315", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' before dinner decoded as the real word 'the'; omitting it deletes apparent content"}
+{"id": "s2-W4-0326", "decision": "fix_clean", "clean": "Call the pharmacy before noon because they close early on Saturdays.", "reason": "guide_violation", "note": "R11: raw is already a perfect cleanup; the comma before 'because' is optional, so clean must equal raw"}
+{"id": "s2-W4-0327", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'API' and 'JSON' heard as 'FPI' and 'JOM'; not near forms, and a raw-faithful target is nonsense"}
+{"id": "s2-W4-0333", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'error' lost and 'CI' heard as 'size'; B's fix yields 'the size server', not a sensible dictation"}
+{"id": "s2-W4-0337", "decision": "fix_clean", "clean": "Honestly, I think we are overcomplicating this. The customer asked for a simple export button, and we are talking about a whole new reporting framework. Let us ship the button this week and see whether anyone asked for more.", "reason": "unrecoverable_word", "note": "raw has 'asked' not 'asks'; 'chip' to 'ship' is inferable (s/sh slip, shipping context); sided with A"}
+{"id": "s2-W4-0341", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' decoded as the real word 'Summed'"}
+{"id": "s2-W4-0349", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'timesheet' heard as 'time. She'; B's fix keeps 'timesheet', which is not in raw"}

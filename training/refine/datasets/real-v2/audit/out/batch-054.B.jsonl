@@ -1,0 +1,50 @@
+{"id": "s2-W6-0151", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0152", "decision": "fix_clean", "clean": "Feedback for Quame. Strengths. He is calm under pressure and everyone trusts him in an incident. He wrote the runbook that cut our average recovery time from 40 minutes to 25. Areas to grow. He can be quiet in cross-team meetings, and he sometimes keeps problems to himself for too long. I would encourage him to ask for help earlier.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name Quame from raw"}
+{"id": "s2-W6-0153", "decision": "fix_clean", "clean": "Tax meeting with the accountant on Tuesday. Things to bring: last year's return, the receipts for the van, the invoice from the roofing job, which was $14,000, and the bank statements for June through August. Also ask whether we should register for JSD.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "GST not inferable from 'J S D'"}
+{"id": "s2-W6-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0155", "decision": "drop", "reason": "unrecoverable_meaning", "note": "total amount lost: 'So the total dollars'"}
+{"id": "s2-W6-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0157", "decision": "drop", "reason": "unrecoverable_meaning", "note": "asthma and 'in' lost; sentence ends 'has been'"}
+{"id": "s2-W6-0158", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0159", "decision": "drop", "reason": "unrecoverable_meaning", "note": "/v2/invoices, API key lost"}
+{"id": "s2-W6-0160", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many words garbled"}
+{"id": "s2-W6-0161", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Long' for um"}
+{"id": "s2-W6-0162", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0164", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name and sign-off lost; trailing 'How'"}
+{"id": "s2-W6-0165", "decision": "fix_clean", "clean": "I have reviewed the draft and I think section 3 needs a clear summary of the risks.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'clear' not 'clearer'"}
+{"id": "s2-W6-0166", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0167", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0168", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0170", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0171", "decision": "fix_clean", "clean": "Hi everyone,\n\nA quick reminder that the all-hands meeting is tomorrow at 11 in the main conference room. We will cover the Q3 results, the new office layout, and the holiday schedule.\n\nIf you cannot attend in person, the link is in the calendar invite.\n\nThanks, Same", "reason": "unrecoverable_word", "rules": ["RECOVER", "R8"], "note": "name not inferable; sign-off newline not dictated"}
+{"id": "s2-W6-0172", "decision": "fix_clean", "clean": "The agreement runs for 24 months starting on the 1st of January. Either party can terminate with 90 days' written notice. Fees are payable monthly in advance, and there is an annual increase kept at 4%. The supplier is liable for damages up to a maximum of €200,000, and intellectual property created during the project belongs to the client.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'capped' heard as 'kept'"}
+{"id": "s2-W6-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0174", "decision": "drop", "reason": "unrecoverable_meaning", "note": "confirmation email, missing, Dear lost"}
+{"id": "s2-W6-0175", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0176", "decision": "fix_clean", "clean": "Hello, I would like to book a follow-up appointment with Dr. Newman, preferably in the morning, any date next week except Wednesday. My number is 617-555, and my insurance has not changed since the last visit.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name Newman, 'date', phone digits lost"}
+{"id": "s2-W6-0177", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'as' and 'Some' for um"}
+{"id": "s2-W6-0178", "decision": "fix_clean", "clean": "Dear Mrs. Fontaine, I want to apologize for the problems with your order. I have looked into it and the delay was caused by a mistake in our warehouse. Your sofa was sent to the wrong address, in Lyon instead of Lille. We have now recovered it, and it will be delivered to you on Friday the 16th between 9 AM and 1 PM. I have also refunded the delivery fee of €75, and as a gesture of goodwill I am sending you a voucher for 10% off your next order. Once again, I am very sorry for the inconvenience. Please do not hesitate to contact me directly on my mobile, 06 12 34 56 78. Kind regards, Thierry", "reason": "spelling_from_raw", "rules": ["R8", "R10"], "note": "apologize from raw; undictated line breaks removed"}
+{"id": "s2-W6-0179", "decision": "fix_clean", "clean": "Risk register update for the data center move. Overall rating is amber, and I will review again at the next steering meeting. There are three open risks:\n1. The new power supply has not been tested. Owner is Chen, due the 8th of December\n2. We do not have confirmation from the telecom provider about the circuit install date. Owner is Batama\n3. Two of the older servers may not survive the move, and we might need replacements, which would cost around £12,000", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "Batama from raw; center spelling from raw"}
+{"id": "s2-W6-0180", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'But' for uh; also Powalski"}
+{"id": "s2-W6-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0182", "decision": "fix_clean", "clean": "Owner is Nadia.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "due next Friday lost"}
+{"id": "s2-W6-0183", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W6-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0187", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0188", "decision": "drop", "reason": "hallucination", "note": "trailing 'you'; email garbled"}
+{"id": "s2-W6-0189", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0191", "decision": "fix_clean", "clean": "Hi all, I need to move the project kickoff. It was meant to be on Monday the 9th, but the client's CFO cannot make it. So I am proposing either Wednesday the 11th at 2 PM or Thursday the 12th at 10. Please reply with your preference by end of day tomorrow, and I will send the invite. Sorry for the shuffle.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "AM lost ('10 hour')"}
+{"id": "s2-W6-0192", "decision": "fix_clean", "clean": "Retro notes. What went well. The team shipped the checkout redesign two days early, and the new on-call rotation works smoothly. What did not go well. The staging environment was down for most of Tuesday, and we've lost about a day of testing. Action items. Thomas will look into making staging more stable, and Priya will schedule a post-mortem for next week.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Thomas, works, we've from raw"}
+{"id": "s2-W6-0193", "decision": "drop", "reason": "unrecoverable_meaning", "note": "8% lost, names garbled"}
+{"id": "s2-W6-0194", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0195", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0196", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening, Could, name garbled"}
+{"id": "s2-W6-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0198", "decision": "fix_clean", "clean": "Hi Fatima,\n\nI wanted to let you know that I am expecting a baby. The due date is the 3rd of March, and I would like to talk about my maternity leave. I plan to start leave on the 24th of February, so about a week before, and I am hoping to take six months in total.\n\nCould you send me the leave policy and the forms I need to fill in? I would also like to understand how my pay and benefits work while I am away.\n\nI have not told the wider team yet, so please keep this between us for now.\n\nThank you, Grace", "reason": "guide_violation", "rules": ["R8"], "note": "sign-off newline not dictated"}
+{"id": "s2-W6-0199", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'fair' lost: 'The Autumn raised'"}
+{"id": "s2-W6-0200", "decision": "fix_clean", "clean": "To the store manager, I bought a washing machine from your Sydney branch on the 11th of August. It cost $1,199, and the receipt number is R-60442. The machine stopped draining after six weeks. I reported it on the 2nd of October, and your technician came on the 9th, but he said the part is on back order and might take up to a month. I do not accept that. Under Australian Consumer Law, the machine should be repaired or replaced within a reasonable time. I have no washing machine and a family of five, so I am asking for a replacement or a full refund. I would like a reply within seven days. Regards, Bruce McAllister", "reason": "guide_violation", "rules": ["R8"], "note": "undictated line breaks removed"}

@@ -1,0 +1,43 @@
+{"id": "s2-W3-0301", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Room V twelve'; 312 not inferable", "raw has 'V twelve'"], "auditors": ["A", "B"], "clean": "Okay, we are on the third floor, room V12."}
+{"id": "s2-W3-0302", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0303", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'You in' for Nguyen, 'And we' for 'Can we', 'May be renamed' for 'maybe rename it to': too many places", "tmp2/pending_orders/can garbled, Nguyen as 'You in'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0304", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0305", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0307", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0309", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'list and points returned', 'the next person... the person parameter', 'My next cursor': too garbled", "next cursor/cursor parameter garbled in several places"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0310", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0311", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'Hi' absent from raw", "'Hi' heard as 'Uh', not in raw"], "auditors": ["A", "B"], "clean": "Just confirming that the delivery is scheduled for Tuesday between 1 and 3 PM. The total with delivery is $599.95, and we accept Visa, Mastercard or bank transfer. Please reply to confirm."}
+{"id": "s2-W3-0313", "decision": "fix_clean", "reasons": ["guide_violation", "spelling_from_raw"], "notes": ["raw is already a correct cleanup", "raw already clean"], "auditors": ["A", "B"], "clean": "The sample rate is 44.1 kHz, and the buffer holds one second of audio."}
+{"id": "s2-W3-0314", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0315", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0316", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0317", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0318", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0319", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0320", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0321", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0322", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'note sixty n' loses Node 16 and 'ends'", "'note sixty n' for 'Node sixteen ends'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0323", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["raw ends with 'Yeah.' never said; also lost the cache invalidation sentence", "lost invalidation sentence, Postgres call, read pat, Br."], "auditors": ["A", "B"]}
+{"id": "s2-W3-0324", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["Whisper appended 'Thank you.'", "trailing 'Thank you.' not spoken"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0325", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0326", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' -> 'Nine.', 'um' -> 'Some scope'; also 'includes' dropped and 'colour' variant", "'Nine.' and 'Some scope' for uh/um; also 'includes' lost, colour variant"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0327", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'er' -> 'But the rollback'; also 'I'll write teen' for 'Alright team'", "opening 'I'll write teen' for 'Alright team', plus other slips"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0328", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0329", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0330", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' -> 'First, add the column'; also 'noble'/'Backle'", "'First,' stands for 'er'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0331", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0332", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' -> 'No.' reads as a correction cue", "'No.' stands for 'uh'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0333", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' -> 'There's', 'um' -> 'Dumb'", "'There's' and 'Dumb' stand for er/um"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0334", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends 'questions for the'", "raw ends 'questions for the'"], "auditors": ["A", "B"], "clean": "Thank you for your patience. We have reviewed your claim and determined that the damage is covered under your policy. The payout will be $2,650 minus your deductible of $500, which means you will receive $2,150. The funds should arrive within 7 to 10 business days. If you have any questions for the..."}
+{"id": "s2-W3-0336", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never said; also 'poll' for 'call'", "trailing 'Yeah.' not spoken"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0337", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0338", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["raw 'Call it an example dot kind of thought.' has nothing of the command"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0339", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0342", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'er it meets twice a week' -> 'Yeah.'; 'would help' also lost", "'it meets twice a week' and 'would help' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0343", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the up level', 'rejects', 'of the time, the module'", "date/time/log level and timeit garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0344", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0345", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["raw is mostly lost and invents text"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0346", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' -> 'All idle connections'; also 'accepts' -> 'does'", "'All idle connections' where 'um' was said"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0347", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Mike', 'there's a float', 'pre': more than 2 places", "'and sends', 'Mike', 'pre' garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0349", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'the photo'", "raw 'the photo'"], "auditors": ["A", "B"], "clean": "Just got off a call with legal, and the short version is we can't use the photo. They said, \"The license only covers print,\" so we need to either buy the web license for about $300 or find another image. I say we find another one. Deadline is end of day tomorrow."}
+{"id": "s2-W3-0350", "decision": "fix_clean", "reasons": ["number_value", "number_value"], "notes": ["raw says thirty mpg", "raw says thirty mpg"], "auditors": ["A", "B"], "clean": "Car-buying notes. The sedan is $28,500 with an estimated 30 miles per gallon. The SUV is $33,000 and gets 26. If I drive about 12,000 miles a year and gas is $3.50 a gallon, the difference in fuel is only around $300 a year, so the extra $4,500 up front would take 15 years to pay back. Sedan wins."}

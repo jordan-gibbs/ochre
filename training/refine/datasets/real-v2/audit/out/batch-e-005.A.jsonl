@@ -1,0 +1,50 @@
+{"id": "e4-E4-0021", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0022", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'Thursday' lost; raw ends 'Wednesday. Sorry.'"}
+{"id": "e4-E4-0023", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0024", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never spoken"}
+{"id": "e4-E4-0025", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0026", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0027", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0028", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0029", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'vet' heard as 'bed'; not inferable and 'no wait at the bed' is not sensible"}
+{"id": "e4-E4-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'i mean' -> 'Ending', 'gloves' -> 'bloods', 'setup' -> 'set of'; too many places"}
+{"id": "e4-E4-0032", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "e4-E4-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the venue' -> 'But then you' twice; subject lost"}
+{"id": "e4-E4-0034", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0035", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Motown' heard as 'motel and'; not inferable, result not sensible"}
+{"id": "e4-E4-0037", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0039", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0040", "decision": "fix_clean", "clean": "Pull out every spot or mention from the attached transcript with its timestamp.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'sponsor' heard as 'spot or'"}
+{"id": "e4-E4-0041", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0042", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0043", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0044", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0045", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Teodor clause dropped by recognizer (7 words) plus Glasgow->Alasco"}
+{"id": "e4-E4-0046", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0048", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0049", "decision": "fix_clean", "clean": "Please send the volunteer forms to Mr. Adami. He's taking over as secretary. The forms are due back on the 21st, and anyone who hasn't turned one in can't chaperone the field trip. Thanks for your patience with all the paperwork this year.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "name not in dictionary; raw 'Adami'"}
+{"id": "e4-E4-0050", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0051", "decision": "fix_clean", "clean": "Solid's birthday is March 13th. Put it on the shared calendar.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'Solveig' heard as 'Solid'"}
+{"id": "e4-E4-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'ten' lost (became 'And')"}
+{"id": "e4-E4-0053", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0054", "decision": "fix_clean", "clean": "Running late, tell Nor I'll be there by 6:45.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Noor not in dictionary; raw 'Nor'"}
+{"id": "e4-E4-0055", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0056", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0057", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0058", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Emeka' heard as 'an ecot'; not sensible"}
+{"id": "e4-E4-0059", "decision": "fix_clean", "clean": "Dear Mrs. Lingfist, your cat Pepper is due for her annual vaccines on October 22nd. Please call us to confirm a time.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'Lingfist'"}
+{"id": "e4-E4-0060", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0061", "decision": "fix_clean", "clean": "I'm writing a toast for my sister's wedding. She's marrying a guy named Honeston who she met at a climbing gym. Can you give me five openings that are funny but not embarrassing, and keep each under two sentences?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'Honeston' for Augustin"}
+{"id": "e4-E4-0062", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'AC' dropped and 'broken' became 'Okay', reversing meaning"}
+{"id": "e4-E4-0063", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0064", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0065", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0066", "decision": "fix_clean", "clean": "Service call notes for the Hendrix house: the customer said the upstairs is always hot in the afternoon. I checked the filter and it was filthy, so I swapped it. The return vent in the master bedroom was blocked by a dresser, and the attic ductwork has a disconnected run going to the second bedroom. I reattached it and sealed it with mastic. Recommended a zoning damper, quoted $375 for that. Customer wants to think about it and will call back by Friday.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'Hendrix'"}
+{"id": "e4-E4-0067", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0068", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'reading corner'->'meeting coin', Noor->'Nor', 'it'->'air': 3 places"}
+{"id": "e4-E4-0069", "decision": "accept", "reason": "ok"}
+{"id": "e4-E4-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'nine'->'night', 'cedar'->'seated', 'Emeka'->'Matty'"}

@@ -1,0 +1,50 @@
+{"id": "s4-W17-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Enzo' heard as 'and Zo' (not in dictionary); raw's form gives 'Hey and Zo', not a sensible greeting"}
+{"id": "s4-W17-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cover' heard as 'cut her' and the corrected 'grill station' is lost"}
+{"id": "s4-W17-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled: 'Git should it be features. Little No sorry features buccals.'"}
+{"id": "s4-W17-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0006", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never spoken"}
+{"id": "s4-W17-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0008", "decision": "fix_clean", "clean": "I actually think the new rotor works better than the old one.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'rotor'; 'rota' not inferable"}
+{"id": "s4-W17-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0017", "decision": "fix_clean", "clean": "Sorry, I can't make the trip meeting on Thursday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'trip'; 'troop' not inferable"}
+{"id": "s4-W17-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0023", "decision": "fix_clean", "clean": "Hey Lars, can we move the inventory audit to Wednesday morning?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw greeting is 'Hey'"}
+{"id": "s4-W17-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0026", "decision": "fix_clean", "clean": "Write a short note to the true parents about the canoe trip on Saturday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'true'; 'troop' not inferable"}
+{"id": "s4-W17-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0029", "decision": "fix_clean", "clean": "Ella moved the cold packs to freezer 3.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary: raw spelling 'Ella'"}
+{"id": "s4-W17-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dear' heard as 'You're', cue as 'Ain't on', 'fast' dropped"}
+{"id": "s4-W17-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0032", "decision": "fix_clean", "clean": "I said the dosage chart says 0.5 milligrams.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'Isaac' heard as 'I said'"}
+{"id": "s4-W17-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'romaine' heard as 'raw'; 'cases of raw' not sensible"}
+{"id": "s4-W17-0034", "decision": "fix_clean", "clean": "Hi Sean, can you confirm the room for the tutoring session on the night?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'ninth' heard as 'night'"}
+{"id": "s4-W17-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Antwerp' as 'Amt Work' and 'arrives' as 'Ride'"}
+{"id": "s4-W17-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0043", "decision": "fix_clean", "clean": "Scouts must bring a sleeping bag, headlamp and two water bottles.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "article 'a' before headlamp missing in raw"}
+{"id": "s4-W17-0044", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'fifty thousand' lost; raw ends 'No wait.'"}
+{"id": "s4-W17-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0046", "decision": "fix_clean", "clean": "Version 2.4 fixes the login button.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'button'"}
+{"id": "s4-W17-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Rohan' as 'Bro, and', correction 'nurse Alvarez' as 'her salverized'"}
+{"id": "s4-W17-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W17-0050", "decision": "accept", "reason": "ok"}

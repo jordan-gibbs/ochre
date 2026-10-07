@@ -1,0 +1,50 @@
+{"id": "s2-W3-0451", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0452", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0453", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0454", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0455", "decision": "fix_clean", "clean": "Audit blob entries are missing for deleted users. When an admin deletes a user, the event is written to the log, but if the user was created for version 3.0, the entry has a null actor ID, which makes the export fail with a 500. There are roughly 400 affected records. A migration to backfill the actor ID with a system user should fix it.", "reason": "unrecoverable_word", "note": "raw 'blob' and 'for' (before) not inferable"}
+{"id": "s2-W3-0456", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0457", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first sentence garbled, API/endpoint lost"}
+{"id": "s2-W3-0458", "decision": "fix_clean", "clean": "Hey, the plumber just left and he said it was the bell. It costs 180 for the part and labor. He also said the water heater is about 12 years old and might need replacing. I will send you the invoice later.", "reason": "unrecoverable_word", "note": "valve->bell, 'soon' lost"}
+{"id": "s2-W3-0459", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0460", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0461", "decision": "fix_clean", "clean": "The quarterly report is attached. Highlights include revenue of $3.4 million, which is up 12% year over year, and net income of $950,000. We ended the quarter with 118 employees, up from 104, and we signed 14 new enterprise customers.", "reason": "dropped_by_recognizer", "note": "operating expenses lost"}
+{"id": "s2-W3-0462", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0463", "decision": "fix_clean", "clean": "Act as a negotiation coach. I am about to ask for a raise of 10%. My manager has been supportive, but the company just had leaves. I have been here for three years and my last review was \"exceeds expectations.\" Give me a script for opening the conversation and three possible responses with advice on how to reply.", "reason": "unrecoverable_word", "note": "layoffs->leaves; 'I might hear' lost"}
+{"id": "s2-W3-0464", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0465", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0466", "decision": "fix_clean", "clean": "My phone number is 415-555-188, call anytime after 6.", "reason": "number_value", "note": "zero lost in raw"}
+{"id": "s2-W3-0467", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0468", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0469", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0470", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0471", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0472", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0473", "decision": "fix_clean", "clean": "Hi Okafor, following up on our conversation about the database upgrade. I spoke with the team, and we agree that moving from PostgreSQL 13 to 16 is worth doing this quarter. The plan is to test on a copy of production first, which should take about a week, then schedule the real upgrade for a Saturday when traffic is lowest, probably the 15th. We expect around 45 minutes of downtime. The Kubernetes jobs that depend on the database will be paused beforehand, and we will notify customers three days ahead. Can you review the runbook and send me comments by Wednesday?", "reason": "dropped_by_recognizer", "note": "'night' lost"}
+{"id": "s2-W3-0474", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0475", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0477", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled words"}
+{"id": "s2-W3-0478", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0479", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0480", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0481", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0482", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0483", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0484", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0485", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0486", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0487", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0488", "decision": "fix_clean", "clean": "House-hunting notes. The first place is three bedrooms at $425,000 with a small yard. The second is two bedrooms at $375,000 but close to the. The third is the fixer-upper at $290,000 with a huge lot. We can afford up to $450,000 with the down payment we have, which is about $90,000, but the monthly payment on the first one would be around $2,400.", "reason": "dropped_by_recognizer", "note": "'train' lost"}
+{"id": "s2-W3-0489", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0490", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0491", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ISO, invalid input, renumber garbled"}
+{"id": "s2-W3-0492", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0493", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0494", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0495", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0496", "decision": "drop", "reason": "unrecoverable_meaning", "note": "health endpoint returns 200 garbled"}
+{"id": "s2-W3-0497", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cert expired / job garbled"}
+{"id": "s2-W3-0498", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0499", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0500", "decision": "accept", "reason": "ok"}

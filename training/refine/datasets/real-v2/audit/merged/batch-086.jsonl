@@ -1,0 +1,41 @@
+{"id": "s2-W10-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["cue 'no wait' heard as 'no way'; both parts present"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0053", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected time 2:30 lost; 'Ball', 'mark outs'", "corrected time 2:30 and Call/mockups lost"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0055", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'shouldn't'", "raw has shouldn't"], "auditors": ["A", "B"], "clean": "I have a Python script that reads a CSV and it's really slow, it takes 10 minutes for 100,000 rows, so what are some ways to speed it up, and shouldn't I be using pandas?"}
+{"id": "s2-W10-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0061", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many garbled spans (form of three, upgrade requirement, book)", "several garbled words"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0062", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0063", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0064", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'appreciate' and 'a new version'", "raw appreciate / a new"], "auditors": ["A", "B"], "clean": "Hi Jordan, I really appreciate the feedback on the draft, and I've already incorporated most of it, I'll send a new version over by Friday."}
+{"id": "s2-W10-0066", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'budget for next year' lost, 'can' heard as 'didn't'", "budget clause garbled, didn't share, hint count"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0070", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'dimmer' for demo, 'Heads of', 'if you have'", "heads up/demo/moved garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0071", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'renewals'", "raw renewals"], "auditors": ["A", "B"], "clean": "Hi Marcus, I wanted to follow up on our conversation from Tuesday, the one about the renewals, and let you know that we can offer a 10% discount if you sign by the end of the month."}
+{"id": "s2-W10-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'And you send' read as 'Can you send'"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'role. And a fintech' read as 'at'"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0074", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'starts' lost ('Sorry it's Monday'), 'org' dropped", "starts and org lost, Sorry it's Monday ambiguous"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Scoo all query' near form of SQL"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0077", "decision": "drop", "reasons": ["non_english", "non_english"], "notes": ["trailing 'Hör.' foreign token; 'rewrite' also lost", "trailing 'Hör.' artifact"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0078", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'a fair', 'rows to', 'expend', 'Ford'", "unfair, most of, for misheard"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0079", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw 'Hypria'", "name spelling from raw"], "auditors": ["A", "B"], "clean": "Hi Pria, thanks for the intro. I'd love to chat with Marcus next week."}
+{"id": "s2-W10-0080", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'wait'/if, 'have to'/after, 'part'/parked", "if/after/parked misheard"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0081", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Not a million', 'postcards', 'like mongo' lost", "about, Postgres, Mongo lost"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0082", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["'the app' came from retracted part; said 'while it's open'", "'the app' not said"], "auditors": ["A", "B"], "clean": "When you lose connection while it's open, it shows a blank screen instead of the offline banner, and the banner works if you start offline, so it's kind of only the transition that's broken."}
+{"id": "s2-W10-0083", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0084", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["ending 'need a book, Buddy' lost 'by the end of the month'", "end of sentence garbled 'a book, Buddy'"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W10-0087", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'an int not a' heard as 'in our'", "an int not a lost"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0089", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'The editor'", "raw the editor"], "auditors": ["A", "B"], "clean": "The permissions model is kind of confusing at first, so here's the short version, an admin can do everything, the editor can change content but not settings, and a viewer can only read, and if you need something in between you can create a custom role."}
+{"id": "s2-W10-0090", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'workaround for the safari bug' lost; 'What's the U.S.?'", "workaround/Safari lost"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0091", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'async' heard as 'to Sink'", "corrected value async not recoverable"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0092", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'the'", "raw the"], "auditors": ["A", "B"], "clean": "The order of these checks matters, because the first one short circuits, and if you swap them you'll get the null pointer."}
+{"id": "s2-W10-0096", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lacks 'the'", "'the' not in raw"], "auditors": ["A", "B"], "clean": "Search results are out of order when you sort by relevance and then filter."}
+{"id": "s2-W10-0097", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["cue heard as 'They'll wait'; both values in order"], "auditors": ["A", "B"]}
+{"id": "s2-W10-0098", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W10-0100", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}

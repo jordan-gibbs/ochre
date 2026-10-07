@@ -1,0 +1,36 @@
+{"id": "s2-W2-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["repeated 'three dot' reads as a stutter; 3.12 inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0053", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected value 'mom' lost ('no way tomorrow')", "correction target 'Mom' lost; raw says no way tomorrow"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0055", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0056", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'contract' heard as 'contrary'; target not inferable", "'sign contrary' not recoverable to signed contract"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0059", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'it is' absent from raw", "'it is' lost in raw"], "auditors": ["A", "B"], "clean": "Maybe too late."}
+{"id": "s2-W2-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0062", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0063", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0064", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'so that Dave can join' absent from raw", "'so that Dave can join' lost"], "auditors": ["A", "B"], "clean": "Hey, can you move the retro to Thursday at 3?"}
+{"id": "s2-W2-0066", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw dropped 'a' and has 'bottles'", "raw has 'for stainless steel water bottles'"], "auditors": ["A", "B"], "clean": "Write a short product description for stainless steel water bottles that keeps drinks cold for 24 hours."}
+{"id": "s2-W2-0067", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never said", "trailing 'Yeah.' not spoken"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0069", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["command garbled in many places (Bucker, net P, to P, colons lost)", "docker/flags garbled in raw"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0071", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'QA' heard as 'cop', 'um then' as 'Ben'", "QA heard as cop, 'then' as Ben"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0074", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0077", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0078", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Lena' twice; 'Lina' not inferable", "raw has Lena both times"], "auditors": ["A", "B"], "clean": "Can you ping Lena about the contract? She has the latest version."}
+{"id": "s2-W2-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0080", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'that' for 'and'", "raw has 'that' not 'and'"], "auditors": ["A", "B"], "clean": "I need a recipe for lasagna that serves eight people that does not use meat."}
+{"id": "s2-W2-0082", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0086", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0089", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0091", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw is just 'Right.'", "raw is just 'Right.'"], "auditors": ["A", "B"]}
+{"id": "s2-W2-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0093", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0097", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'at one' absent from raw", "'at one' lost"], "auditors": ["A", "B"], "clean": "I will send the notes before lunch because I have a call."}
+{"id": "s2-W2-0098", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0099", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["names not in dictionary; use raw spellings", "names follow raw"], "auditors": ["A", "B"], "clean": "Book club next month: the book is Puranissi and we meet at Lina's place."}
+{"id": "s2-W2-0100", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["request garbled; California and 'who ordered in' lost", "SQL, California, who ordered lost"], "auditors": ["A", "B"]}

@@ -1,0 +1,50 @@
+{"id": "s4-W35-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name lost"}
+{"id": "s4-W35-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "slash pricing lost"}
+{"id": "s4-W35-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0010", "decision": "drop", "reason": "hallucination", "note": "trailing 'that'"}
+{"id": "s4-W35-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0012", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.'"}
+{"id": "s4-W35-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "value lost"}
+{"id": "s4-W35-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0019", "decision": "drop", "reason": "hallucination", "note": "'Yeah.' for 'm'"}
+{"id": "s4-W35-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "version tail lost"}
+{"id": "s4-W35-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command lost"}
+{"id": "s4-W35-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0026", "decision": "fix_clean", "clean": "The ticket is Q-4412 and it's blocking release candidate 2.1.", "reason": "dropped_by_recognizer", "note": "A lost"}
+{"id": "s4-W35-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "domain lost"}
+{"id": "s4-W35-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0034", "decision": "fix_clean", "clean": "You're Sean, I've booked you on flight United 903 leaving Newark on March 12th.", "reason": "unrecoverable_word", "note": ""}
+{"id": "s4-W35-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "email garbled"}
+{"id": "s4-W35-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0043", "decision": "fix_clean", "clean": "Check is after 3 p.m. and check out is by 11, room 931.", "reason": "dropped_by_recognizer", "note": "'in' lost"}
+{"id": "s4-W35-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0047", "decision": "fix_clean", "clean": "Waiver's at ironworks.gym/waiver-2026.", "reason": "dropped_by_recognizer", "note": "'the' lost"}
+{"id": "s4-W35-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W35-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "phone garbled"}
+{"id": "s4-W35-0050", "decision": "accept", "reason": "ok"}

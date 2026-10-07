@@ -1,0 +1,26 @@
+html, body { margin: 0; height: 100%; overflow: hidden; }
+body { display: grid; grid-template-columns: 1fr 1fr; }
+.desk { position: relative; overflow: hidden; }
+.desk.light { background: #f7f5f1; }
+.desk.dark { background: #1f1e21; }
+.app { position: absolute; inset: 0 0 48px 0; padding: 14px 0; display: flex; flex-direction: column; gap: 17px; }
+.app i { display: block; height: 10px; border-radius: 0 5px 5px 0; }
+.app i.short { width: 82%; }
+.light .app i { background: #e4e1db; }
+.dark .app i { background: #29282b; }
+.taskbar {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 48px;
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+}
+.light .taskbar { background: #ece9e4; box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.06); }
+.dark .taskbar { background: #141316; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05); }
+.taskbar span { width: 26px; height: 26px; border-radius: 7px; }
+.light .taskbar span { background: #dcd8d2; }
+.dark .taskbar span { background: #2b2a2e; }
+.taskbar span.on { position: relative; }
+.taskbar span.on::after { content: ""; position: absolute; left: 9px; right: 9px; bottom: -6px; height: 3px; border-radius: 2px; background: #8a847c; }
+/* the HUD window: 760 x 320, its bottom (BOTTOM_GAP 36 - PAD 30) px above the taskbar, exactly as hud.rs places it */
+iframe.hud {
+  position: absolute; left: 50%; bottom: calc(48px + 6px); width: 760px; height: 320px;
+  margin-left: -380px; border: 0; background: transparent;
+}

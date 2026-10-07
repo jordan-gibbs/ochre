@@ -1,0 +1,31 @@
+[package]
+name = "ochre-audio"
+version = "0.1.0"
+edition = "2024"
+description = "Microphone capture (always-warm ring buffer), phrase segmenter, Silero VAD and earcons for Ochre"
+
+[dependencies]
+ochre-core = { path = "../ochre-core" }
+ochre-models = { path = "../ochre-models" }
+cpal = "0.16"
+rtrb = "0.4"
+rubato = "5"
+audioadapter-buffers = "5"
+ort = { version = "=2.0.0-rc.13", default-features = false, features = ["std", "download-binaries", "copy-dylibs", "api-24", "tls-rustls", "tracing"] }
+tracing = "0.1"
+num_cpus = "1.17.0"
+
+[dev-dependencies]
+hound = "3.5"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_System_Threading"] }
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6.4"
+block2 = "0.6"
+objc2-foundation = "0.3.2"
+objc2-avf-audio = { version = "0.3.2", default-features = false, features = ["std", "block2", "AVAudioEngine", "AVAudioNode", "AVAudioIONode", "AVAudioFormat", "AVAudioBuffer", "AVAudioTime", "AVAudioTypes", "AVAudioChannelLayout"] }

@@ -1,0 +1,50 @@
+{"id": "s2-W2-0301", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cabin/exit/door key garbled (Cadden, as a, torquitoes)"}
+{"id": "s2-W2-0302", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'hey um' -> 'A on'; last clause also lost"}
+{"id": "s2-W2-0303", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W2-0304", "decision": "fix_clean", "clean": "Hi Jenna, I am writing to ask whether you have time for short call about the vendor contract. We are trying to wrap up negotiations before the end of the month. And I would value your opinion on the liability clause, since you have seen similar deals before. Any time that works for you is fine with me.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "article 'a' before 'short call' missing from raw"}
+{"id": "s2-W2-0305", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0306", "decision": "drop", "reason": "unrecoverable_meaning", "note": "volunteer work / three years clause and 'to cut' lost"}
+{"id": "s2-W2-0307", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Priya sentence and 'we still need' lost"}
+{"id": "s2-W2-0308", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W2-0309", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' -> 'or' plus dropped 'the' before cleanup"}
+{"id": "s2-W2-0310", "decision": "fix_clean", "clean": "Dear Mr. Rodriguez, I am pleased to inform you that your application has been accepted. Orientation will be held on Tuesday the 4th at 9:00 AM in the student center. Please bring a photo ID and your signed enrollment form. We look forward to welcoming you.", "reason": "guide_violation", "rules": ["R6"], "note": "ID casing"}
+{"id": "s2-W2-0311", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'on', 'when er' -> 'way in'"}
+{"id": "s2-W2-0312", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0313", "decision": "fix_clean", "clean": "I will check the email and text you back in a minute. Just do not leave without me.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "trailing 'okay' missing from raw"}
+{"id": "s2-W2-0314", "decision": "fix_clean", "clean": "Good morning everyone, quick note about parking this week. The north lot is closed for repaving until Friday, so please use the garage on Elm Street. The garage charges $12 a day, but we will reimburse you if you submit the receipt. Thank you for your patience.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'a' before 'quick note' missing from raw"}
+{"id": "s2-W2-0315", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W2-0316", "decision": "fix_clean", "clean": "Write a short job description for customer support lead. The role reports to the head of operations and manages a team of six. They should have at least three years of experience in a similar role, preferably in software. The salary range is $70,000 to $90,000, depending on experience.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'a' before 'customer support lead' missing from raw"}
+{"id": "s2-W2-0317", "decision": "drop", "reason": "unrecoverable_meaning", "note": "created app/at, and/when, scan/scanned: 3 places"}
+{"id": "s2-W2-0318", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in' lost from 'move in', That->It, Ok->Okay: 3 places"}
+{"id": "s2-W2-0319", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0320", "decision": "drop", "reason": "unrecoverable_meaning", "note": "email address and correction garbled"}
+{"id": "s2-W2-0321", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled beyond recovery"}
+{"id": "s2-W2-0322", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pack/handover garbled (Burner, Buff, key an of removers)"}
+{"id": "s2-W2-0323", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W2-0324", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'Zone' twice, readable as a name"}
+{"id": "s2-W2-0325", "decision": "fix_clean", "clean": "The SDK exposes a single client class. Create an instance with your API key and optionally a base URL. All methods return promises, and errors are thrown as typed exceptions. Do not commit your API key to source control.", "reason": "guide_violation", "rules": ["R6"], "note": "SDK casing"}
+{"id": "s2-W2-0326", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.'; 'behind a flag' also garbled"}
+{"id": "s2-W2-0327", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um it' -> 'Amit'"}
+{"id": "s2-W2-0328", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0329", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0330", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'four' misplaced as 'for'; 'can' -> 'And'"}
+{"id": "s2-W2-0331", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dear->Here, Alex->Alix, model->Maw"}
+{"id": "s2-W2-0332", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W2-0333", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recap/short piece garbled (Eric or, short keys)"}
+{"id": "s2-W2-0334", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0335", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'want to', 'what finance', 'churn' garbled"}
+{"id": "s2-W2-0336", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'and ask'"}
+{"id": "s2-W2-0337", "decision": "fix_clean", "clean": "To run the tests locally, install the dependencies first. Then start the test database with Docker, and run the test command. The suite takes about three minutes on a modern laptop. If a test fails, rerun it alone with the verbose flag.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'to see the full output' missing from raw"}
+{"id": "s2-W2-0338", "decision": "fix_clean", "clean": "Hi Tom, sorry for the confusion on the invoice. I double checked, and the correct amount is $850, not $815. I have attached the corrected version. Let me know.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'if you have any other questions' missing from raw"}
+{"id": "s2-W2-0339", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'Love' repeatedly; Priya -> 'brilliant'"}
+{"id": "s2-W2-0340", "decision": "drop", "reason": "unrecoverable_meaning", "note": "correction Anna->Hannah unresolvable, raw has Anna twice"}
+{"id": "s2-W2-0341", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'But I'm dead.'"}
+{"id": "s2-W2-0342", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0343", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hello dana' -> 'A low banana'"}
+{"id": "s2-W2-0344", "decision": "drop", "reason": "unrecoverable_meaning", "note": "drops/backfill/data garbled"}
+{"id": "s2-W2-0345", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'could we' -> 'so you', 'uh' -> 'Well', cue -> 'Now right'"}
+{"id": "s2-W2-0346", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0347", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'May' lost"}
+{"id": "s2-W2-0348", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I locked my keys' lost"}
+{"id": "s2-W2-0349", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um but uh' -> 'Lumb, but low', 'uh' -> 'Love'"}
+{"id": "s2-W2-0350", "decision": "fix_clean", "clean": "I need a volunteer for the on call rotation next week. It is only two nights, and you get a count day afterwards. I was going to ask Dave but he is on vacation. Any takers? Otherwise I will just pick someone at random.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'count', comp not inferable"}

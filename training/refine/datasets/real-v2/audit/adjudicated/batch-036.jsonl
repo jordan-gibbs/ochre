@@ -1,0 +1,8 @@
+{"id": "s2-W4-0251", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "side with A: 'if er none' became 'of PR. None' (PR is a real token in place of the hesitation, 'if' lost); raw also carries UMM/NAR residues in several places"}
+{"id": "s2-W4-0254", "decision": "drop", "reason": "unrecoverable_meaning", "note": "side with A: 'launching a new line' heard as 'enlarging a new mine'; raw-faithful target is not a sensible dictation"}
+{"id": "s2-W4-0258", "decision": "drop", "reason": "unrecoverable_meaning", "note": "side with B: 'Please add' heard as 'Plead a'; restoring 'add' reads the speaker's mind, raw-faithful text is nonsense"}
+{"id": "s2-W4-0265", "decision": "drop", "reason": "unrecoverable_meaning", "note": "side with A: 'Dear John' heard as 'Here, John'; greeting not inferable and 'comma' heard as 'comment'"}
+{"id": "s2-W4-0272", "decision": "drop", "reason": "unrecoverable_meaning", "note": "side with A: 'hack' heard as 'hap' and 'works' as 'worked'; raw-faithful target is not sensible"}
+{"id": "s2-W4-0278", "decision": "drop", "reason": "unrecoverable_meaning", "note": "side with A: sign-off name 'Ben' heard as 'bed'; 'Thanks, Bed' is not a sensible sign-off"}
+{"id": "s2-W4-0284", "decision": "drop", "reason": "unrecoverable_meaning", "note": "side with A: 'Jess' heard as 'just' ('Dinner with just') and 'Gym' as 'Jim'; two unrecoverable places"}
+{"id": "s2-W4-0300", "decision": "drop", "reason": "unrecoverable_meaning", "note": "side with A: raw truncated after 'profile schema.'; over half the dictation lost and the remainder ends on a dangling conditional"}

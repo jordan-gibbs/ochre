@@ -1,0 +1,50 @@
+{"id": "s2-W4-0101", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W4-0102", "decision": "fix_clean", "clean": "No, I think we should wait.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Nah heard as No"}
+{"id": "s2-W4-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0104", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0105", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0108", "decision": "drop", "reason": "unrecoverable_meaning", "note": "happening on lost"}
+{"id": "s2-W4-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0110", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0113", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0115", "decision": "fix_clean", "clean": "The thing is, the vendor is like...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "late lost; raw ends on like"}
+{"id": "s2-W4-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0118", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0119", "decision": "fix_clean", "clean": "This guide explains how to set up the local environment. First you need to install Docker and make sure it is running; the desktop app is fine for this. Then clone the repository and copy the example env file to a new file called .env. You will need to fill in the database password, but the other values can stay as they are. After that, run the start script and wait for the containers. It should only take about 2 minutes if everything goes well, and if it fails, check the logs before asking for help.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "to come up lost"}
+{"id": "s2-W4-0120", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many misrecognitions"}
+{"id": "s2-W4-0121", "decision": "fix_clean", "clean": "Write me a story about a dragon who is afraid of it.", "reason": "trailing_off", "rules": ["R4"], "note": "raw ends complete-looking"}
+{"id": "s2-W4-0122", "decision": "fix_clean", "clean": "Need to remember to call the plumber and also they...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R4"], "note": ""}
+{"id": "s2-W4-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0124", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0128", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0129", "decision": "fix_clean", "clean": "Maybe the answer is something like that.", "reason": "trailing_off", "rules": ["R4"], "note": ""}
+{"id": "s2-W4-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0131", "decision": "drop", "reason": "hallucination", "note": "invented 'I'm not sure'"}
+{"id": "s2-W4-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0133", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0134", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0136", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W4-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0138", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0140", "decision": "fix_clean", "clean": "Dear Dr. Akifer, thank you for meeting with me last week. I have been thinking about our conversation regarding the research proposal, and I believe the strongest direction would be to focus on the longitudinal data, although I am still uncertain about whether the funding would cover the extra year of...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary"}
+{"id": "s2-W4-0141", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening and fee/product garbled"}
+{"id": "s2-W4-0142", "decision": "drop", "reason": "hallucination", "note": "invented trailing phrase"}
+{"id": "s2-W4-0143", "decision": "fix_clean", "clean": "Unfortunately, we will not be able to do it.", "reason": "trailing_off", "rules": ["R4"], "note": ""}
+{"id": "s2-W4-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0145", "decision": "drop", "reason": "unrecoverable_meaning", "note": "year/color for here/caller"}
+{"id": "s2-W4-0146", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0149", "decision": "fix_clean", "clean": "Idea keynote with the story about the...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R4"], "note": "for the / open lost"}
+{"id": "s2-W4-0150", "decision": "drop", "reason": "garbage", "note": "raw empty"}

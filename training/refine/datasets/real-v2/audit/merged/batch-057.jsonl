@@ -1,0 +1,44 @@
+{"id": "s2-W6-0301", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["leading So yeah treated as meaningless opener"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0302", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0303", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0305", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0306", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing \"Yeah.\" never said; \"A lot\" also decoded from uh", "trailing Yeah; A lot for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0307", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0308", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["\"U M\" residue is non-word"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0309", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0310", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["dollars never said; removed added $", "currency never said"], "auditors": ["A", "B"], "clean": "I meant to say the budget is 20,000, not 12,000. Sorry for the typo."}
+{"id": "s2-W6-0311", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'program'", "raw has program"], "auditors": ["A", "B"], "clean": "Hi Dr. Park, I hope you are well. I am a final-year student at the University of Auckland, and I am writing to ask whether you would be willing to write a reference letter for my application to the master's program at Oxford. The deadline is the 15th of January, but I know that is a while away. I took your machine learning course last year and got an A+, and I also did my thesis with Professor Chen, so you may remember me. I would be very grateful, and I can send my CV and personal statement."}
+{"id": "s2-W6-0313", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'big emails'", "raw has big emails"], "auditors": ["A", "B"], "clean": "I think I found why big emails are not sending. The queue worker keeps crashing with an out of memory error. I checked the logs, and it happens every time a batch has more than 500 recipients. I have restarted it twice, but it dies again after about 10 minutes. We probably need to either increase the memory or split the batches. I can do the splitting, but I need someone to approve the change."}
+{"id": "s2-W6-0315", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["\"on\" residue before number one is not content; among inferable from \"amount of\""], "auditors": ["A", "B"]}
+{"id": "s2-W6-0317", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'structure'", "restructuring -> structure"], "auditors": ["A", "B"], "clean": "Today is my last day at the company after seven years. I was part of the structure. It is hard to say goodbye to a team I love, but I am proud of what we built, including the loyalty platform that now serves two million members. If you know of any roles in customer experience or product operations, I would love to hear about them."}
+{"id": "s2-W6-0318", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["\"Enough.\" and \"No,\" from uh; also names, a new paragraph and \"for the slides\" lost", "names Alina/Rodie, slides sentence lost, Enough/No residues"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0319", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["currency established by earlier dollars"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0320", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["many phrases lost/garbled, name wrong, trailing Yeah", "many lost clauses, names garbled, trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0321", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["\"Oh\" is pure interjection residue"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0322", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0323", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["\"time though\" read as times out"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0324", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0325", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing \"Yeah.\" never said", "trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0326", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["\"long customers\" from um; also \"then\"", "long for um"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0327", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["\"She called it\", \"vet return\", \"the seven\"", "She called it for to call the"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0328", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["second half garbled into \"I'm gonna go to the ho\"; sent heard as said", "tail replaced by invented I'm gonna go to the ho"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0329", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["\"click say\" read as save"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0330", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0331", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["reduce/renewal clause and request lost", "middle of dictation lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0332", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing \"Sure.\" never said; \"revenue is up\" also lost", "trailing Sure; revenue is up lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0333", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["\"Long\", \"Lung\", \"Lori\" from um; name heard as General", "Lung/Lori/Long for um; Jenny -> General"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0334", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["\"unexpected\" vs expected, \"users page\" step lost", "unexpected, in it, users page lost, several places"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0335", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0336", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["vendor names and Acme clause garbled", "vendor names garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0338", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["names, \"would cost\", \"make an offer\" garbled in many places", "Deepak/Sophia names, make it all, several places"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0339", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0341", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["\"Bitown or paperclip\"", "raw is Bitown or paperclip"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0342", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0343", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["\"needs it. Rewrite.\" a+um heard as it", "it for a um"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0344", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing \"Yeah.\" never said", "trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0345", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing \"Yeah.\" never said", "trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0346", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["first half lost", "most of first sentence lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0347", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0348", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["\"in\" read as and"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0349", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0350", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

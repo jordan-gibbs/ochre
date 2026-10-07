@@ -1,0 +1,33 @@
+/* Shared by the brand asset sources (rendered to ../assets/ by ../render.py). Fonts are the
+   app's self-hosted OFL files. Flat: paper / ink and one hero colour. */
+@font-face { font-family: "Funnel Display"; font-weight: 700; src: url("../../../app/ui/theme/fonts/FunnelDisplay-700.woff2") format("woff2"); }
+@font-face { font-family: "Funnel Display"; font-weight: 800; src: url("../../../app/ui/theme/fonts/FunnelDisplay-800.woff2") format("woff2"); }
+@font-face { font-family: "Instrument Sans"; font-weight: 400 700; src: url("../../../app/ui/theme/fonts/instrument-sans-latin-wght-normal.woff2") format("woff2-variations"); }
+@font-face { font-family: "Geist Mono"; font-weight: 100 900; src: url("../../../app/ui/theme/fonts/geist-mono-latin-wght-normal.woff2") format("woff2-variations"); }
+:root { --paper: #F7F5F1; --ink: #1A1714; --hero: #F04E16; --porcelain: #FFFEFC; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { position: relative; overflow: hidden; font-family: "Instrument Sans", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+.paper { background: var(--paper); color: var(--ink); }
+.ink { background: var(--ink); color: var(--paper); }
+.display { font-family: "Funnel Display", "Instrument Sans", sans-serif; font-weight: 700; letter-spacing: -0.04em; line-height: 1.02; }
+.mono { font-family: "Geist Mono", ui-monospace, monospace; }
+/* the horizontal lockup SVG carries its own clear space (1/4 of the icon height) on every side:
+   icon height h -> lockup h * 1272/840 tall, h * 4478/840 wide, icon starts h/4 in */
+.lockup { position: absolute; display: block; }
+
+/* HUD pill sample: light, live text, the speaking "o" */
+.pill { position: absolute; display: flex; align-items: center; gap: 10px; height: 44px; padding: 0 6px;
+  border-radius: 999px; background: rgba(255,254,252,.97); white-space: nowrap;
+  box-shadow: inset 0 1px 0 #fff, 0 0 0 1px rgba(30,22,14,.09), 0 1px 2px rgba(20,16,12,.08),
+    0 10px 28px -8px rgba(20,16,12,.20), 0 14px 40px -6px rgba(240,78,22,.16); }
+.orb { position: relative; flex: none; width: 32px; height: 32px; border-radius: 50%; background: rgba(240,78,22,.12); display: grid; place-items: center; }
+.orb svg { width: 18px; height: 18px; position: relative; z-index: 1; }
+.orb i { position: absolute; inset: 0; margin: auto; width: 18px; height: 18px; border-radius: 50%; border: 1.5px solid var(--hero); }
+.orb i:nth-of-type(1) { transform: scale(1.35); opacity: .38; }
+.orb i:nth-of-type(2) { transform: scale(1.7); opacity: .16; }
+.live { font-size: 15px; color: var(--ink); width: 300px; overflow: hidden; display: flex; align-items: center; }
+.live .p { color: #7a736b; }
+.caret { display: inline-block; width: 2px; height: 18px; margin-left: 2px; border-radius: 1px; background: var(--hero); }
+.x { flex: none; width: 32px; height: 32px; display: grid; place-items: center; color: #5a544d; }
+.x svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }

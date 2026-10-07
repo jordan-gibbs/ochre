@@ -1,0 +1,50 @@
+{"id": "s4-W30-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0002", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0003", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W30-0004", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0006", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W30-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0011", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0014", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0016", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W30-0017", "decision": "fix_clean", "clean": "Shitty, did the Jenkins build pass?", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0018", "decision": "fix_clean", "clean": "Retro with exponential book off using tenacity.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0019", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W30-0020", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W30-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0022", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0023", "decision": "fix_clean", "clean": "Write a Dockerfile for a Flask after.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0024", "decision": "fix_clean", "clean": "How to configure CORS Express", "reason": "dropped_by_recognizer"}
+{"id": "s4-W30-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0026", "decision": "fix_clean", "clean": "Jamal, the harvest tracker is syncing to Airtable, but the Webbo keeps timing out.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0027", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0030", "decision": "fix_clean", "clean": "Herman, can you set up a Google Workspace group for mosque volunteers?", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0031", "decision": "fix_clean", "clean": "Gustavo, the Zapier's app that pushes new listings to HubSpot stopped firing this morning.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0033", "decision": "fix_clean", "clean": "This memoises the selector with Reselect so we don't recompute on every Redux update.", "reason": "spelling_from_raw"}
+{"id": "s4-W30-0034", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W30-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0040", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W30-0041", "decision": "fix_clean", "clean": "Safari ignores the WebP fault when the CDN serves it with the wrong content type.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0044", "decision": "fix_clean", "clean": "Lucas, the Elasticsearch cluster went yellow after the reindex, and Kibana is lagging.", "reason": "unrecoverable_word"}
+{"id": "s4-W30-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W30-0046", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0047", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W30-0048", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W30-0049", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W30-0050", "decision": "fix_clean", "clean": "The RSVP list lies in Ocean, and the donation tracker is a Google Sheet that Carmen syncs with QuickBooks.", "reason": "unrecoverable_word"}

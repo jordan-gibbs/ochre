@@ -1,0 +1,50 @@
+{"id": "s2-W6-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0102", "decision": "fix_clean", "clean": "Mixed review in January.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'next' misheard as 'Mixed'; not inferable"}
+{"id": "s2-W6-0103", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No' (changes meaning) plus trailing 'are'"}
+{"id": "s2-W6-0104", "decision": "fix_clean", "clean": "Dear Mr. Nakamura, thank you for your swift reply and for sending the revised drawings. Best, Elise.", "reason": "guide_violation", "rules": ["R8", "R10"], "note": "letter line breaks never dictated"}
+{"id": "s2-W6-0105", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W6-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0107", "decision": "fix_clean", "clean": "Hi Dimitri, attached is the invoice for September. The total is $4,210, net 30.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spells Dimitri"}
+{"id": "s2-W6-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0109", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never said"}
+{"id": "s2-W6-0110", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'the year'; also name Okoye -> Akoi"}
+{"id": "s2-W6-0111", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "final 'um' heard as 'And I'm'"}
+{"id": "s2-W6-0112", "decision": "drop", "reason": "unrecoverable_meaning", "note": "monolith->model, goals->bowls, 'a month' lost, 'head' inserted"}
+{"id": "s2-W6-0113", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0114", "decision": "fix_clean", "clean": "Hello, I would like to add my newborn son to my health insurance plan. He was born on the 8th of September. My policy number is BT77291, and I have attached a copy of the birth certificate. Please let me know if you need anything else to complete the enrollment, and what the new monthly premium will be.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'enrollment'"}
+{"id": "s2-W6-0115", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'five' lost; raw says seven days"}
+{"id": "s2-W6-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0117", "decision": "fix_clean", "clean": "Ten years ago today, I walked into my first job as a junior nurse, terrified. I did not know where the supply room was. Today I lead a team of 42 nurses at a hospital in Manchester. If you are starting out and feeling lost, gets better.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' dropped by recognizer"}
+{"id": "s2-W6-0118", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles: headman, 'And someone', phone number 'one AD', 'export statistics V'"}
+{"id": "s2-W6-0119", "decision": "drop", "reason": "unrecoverable_meaning", "note": "fish/manded/'Grace Barley' and more; too many fixes"}
+{"id": "s2-W6-0120", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hi ahmed' became 'I'm a'; greeting name lost"}
+{"id": "s2-W6-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0122", "decision": "drop", "reason": "hallucination", "note": "raw appends 'said' never spoken"}
+{"id": "s2-W6-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0124", "decision": "fix_clean", "clean": "Dear Dr. Kim, I am waiting to confirm my appointment on the 7th of November at 2:45 PM.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R8"], "note": "raw 'waiting' not inferable as 'writing'; undictated line break removed"}
+{"id": "s2-W6-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0127", "decision": "drop", "reason": "unrecoverable_meaning", "note": "correction reads 'No sari fifteen'; 9:15 not reliably resolvable"}
+{"id": "s2-W6-0128", "decision": "fix_clean", "clean": "Ideas for the newsletter, story from the bakery in Porto, a short guide to invoicing, and a poll about pricing.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'customer' dropped by recognizer"}
+{"id": "s2-W6-0129", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0131", "decision": "drop", "reason": "non_english", "note": "raw ends in French 'Jean, tu dis aise.' plus garbles"}
+{"id": "s2-W6-0132", "decision": "drop", "reason": "unrecoverable_meaning", "note": "CFO sentence lost entirely; 'ten minutes', 'quarter', trailing 'Yeah.'"}
+{"id": "s2-W6-0133", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'not a' before grade; 'Zone' residue"}
+{"id": "s2-W6-0134", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'The'/'the' twice; clean also adds undictated letter layout"}
+{"id": "s2-W6-0135", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'codes loaded'->'coded', 'FAQ'->'the fact'; items no longer sensible"}
+{"id": "s2-W6-0136", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0137", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "every 'um' decoded as 'Some' ('Some link in the comments')"}
+{"id": "s2-W6-0138", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in the last six weeks' sentence lost, Tariq->Taric, Dubai->Jibai"}
+{"id": "s2-W6-0139", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the aim of' and 'of' dropped, pumps->pots: 3 places"}
+{"id": "s2-W6-0140", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dear' lost, names garbled, account number missing a digit"}
+{"id": "s2-W6-0141", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0142", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0146", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0147", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as real word 'up'"}
+{"id": "s2-W6-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0150", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'But', readable as content"}

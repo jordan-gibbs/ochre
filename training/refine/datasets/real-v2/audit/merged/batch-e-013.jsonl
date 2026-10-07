@@ -1,0 +1,45 @@
+{"id": "e4-E10-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E10-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E10-0053", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["greeting, check-in, Saturday date and juniors-pay-half all garbled in raw"], "auditors": ["A", "B"]}
+{"id": "e4-E10-0054", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'centering'; 'to' heard as 'for'", "sintering->centering; 'to'->'for' from raw"], "auditors": ["A", "B"], "clean": "The centering cycle has three stages. The ramp goes up at 10 degrees a minute for 900, then holds for two hours, and the final stage climbs to 1,530 and holds for another two hours. Total cycle time is about 490 minutes, so anything loaded after 2 PM won't be out until the next morning."}
+{"id": "e4-E10-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E10-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E10-0059", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'not' -> 'About', tracking digits lost, email 'lab' -> 'them', 'if' dropped"], "auditors": ["A", "B"]}
+{"id": "e4-E10-0060", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["name not in dictionary; raw 'Mateo'", "Mateo not in dictionary"], "auditors": ["A", "B"], "clean": "Standings after round 5: Ingrid is on 4.5 points, Casimir and Mateo both have 4, and there's a three-way tie at 3.5. Tiebreaks use Buchholz, so the pairings for round 6 might look a bit odd."}
+{"id": "e4-E10-0061", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never spoken"], "auditors": ["A", "B"]}
+{"id": "e4-E10-0062", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'had' for 'added'", "added->had"], "auditors": ["A", "B"], "clean": "Fenella wants the deposit by the 20th. It's $375 because she had the second room. Can you Venmo her your half and I'll cover the rest?"}
+{"id": "e4-E10-0063", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.' never spoken"], "auditors": ["A", "B"]}
+{"id": "e4-E10-0064", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Thunder is a recap', 'were it', 'to four expenses'"], "auditors": ["A", "B"]}
+{"id": "e4-E10-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E10-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E10-0067", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'docents called in sick' -> 'doses called inset', 'a shift' -> 'us'"], "auditors": ["A", "B"]}
+{"id": "e4-E10-0068", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'we'll' -> 'I will', boards '30' -> 'three', 'arbiters' -> 'orbiters'"], "auditors": ["A", "B"]}
+{"id": "e4-E10-0069", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["40 -> fourteen, 'live' -> 'that', slash lost"], "auditors": ["A", "B"]}
+{"id": "e4-E10-0070", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'arrived'", "arrived from raw"], "auditors": ["A", "B"], "clean": "Exhibit timeline: the loan agreements were signed on May 2nd, 2026, the crates arrived between January 5th and January 12th, 2027, installation takes about three weeks, and the press preview is on February 4th at 6 PM. The show then runs for 14 weeks and closes on May 16th. The climate spec for all three galleries is 21 degrees Celsius plus or minus 1, with relative humidity at 50% plus or minus 5."}
+{"id": "e4-E11-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0004", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["name not in dictionary; raw 'Brianni'"], "auditors": ["A", "B"], "clean": "Brianni, did you merge the fix for the rental return date bug?"}
+{"id": "e4-E11-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0007", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends with 'Yeah.'; rack 4/null also garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0009", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["name not in dictionary; raw 'Latchan'"], "auditors": ["A", "B"], "clean": "Latchan, the route optimizer is returning a 429 from the maps API."}
+{"id": "e4-E11-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0013", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'hack' -> 'Act', 'sensor' -> 'sense of'"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0014", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["dependabot sentence dropped; latest/sandbox/payment form garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0016", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0017", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'nit' absent from raw", "'Nit' lost"], "auditors": ["A", "B"], "clean": "Rename this to is_checked_out."}
+{"id": "e4-E11-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0020", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'write a SQL' -> 'Right, yes, you are'"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0024", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["raw ends with 'Yeah.'; name and force/slash garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E11-0029", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw ends 'Hi. Yeah.' never spoken; CLI lost"], "auditors": ["A", "B"]}
+{"id": "e4-E11-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

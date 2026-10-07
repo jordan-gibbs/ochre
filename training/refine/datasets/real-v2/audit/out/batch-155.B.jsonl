@@ -1,0 +1,50 @@
+{"id": "s4-W45-0001", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0002", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0003", "decision": "fix_clean", "clean": "Wall, Rafael, did you see the band's new poster?", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0004", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0008", "decision": "fix_clean", "clean": "That was kind of a mess, honestly.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W45-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0010", "decision": "fix_clean", "clean": "Park, you know the guy from the hardware store, right?", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0013", "decision": "fix_clean", "clean": "Gonna grab coffee, Earbie.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0014", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0016", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W45-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0018", "decision": "fix_clean", "clean": "Layla said the urgent care is slammed today, so don't come in unless you're actually bleeding Lal.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0019", "decision": "fix_clean", "clean": "You know what, I'm gonna skip the happy hour. I'm kind of wiped from the taxis and stuff.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W45-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0024", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0025", "decision": "fix_clean", "clean": "No, I haven't tried the new sandwich place yet. Is it actually good or just hype?", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0032", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W45-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0034", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0036", "decision": "fix_clean", "clean": "Ok, Tar it owes me $30 for the pizza and the cookies.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0039", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0040", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W45-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0042", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0045", "decision": "fix_clean", "clean": "Mai, I mean, yes, I can cover your shift but you owe me big time.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0048", "decision": "fix_clean", "clean": "Right, so the plan is we meet at the bar at 8 and we walk over together.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0049", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0050", "decision": "accept", "reason": "ok"}

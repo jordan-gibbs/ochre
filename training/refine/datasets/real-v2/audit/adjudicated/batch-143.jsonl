@@ -1,0 +1,3 @@
+{"id": "s4-W39-0007", "decision": "fix_clean", "clean": "I wanted to tell Abdul that they were...", "reason": "unrecoverable_word", "note": "sided with A: raw \"that they were\" visibly mid-thought; keep words, add ..."}
+{"id": "s4-W39-0035", "decision": "fix_clean", "clean": "This function retries the upload, but only if the status code is above 500 and...", "reason": "dropped_by_recognizer", "note": "sided with A: raw lost final \"the\"; end on \"and...\""}
+{"id": "s4-W39-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: final \"the\" heard as \"day\": not sensible"}

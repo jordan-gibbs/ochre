@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- macOS only: merged into Ochre.app/Contents/Info.plist by `cargo tauri build`. -->
+<plist version="1.0">
+<dict>
+	<!-- Without this, macOS kills the app the first time it opens the microphone. -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Ochre listens while you hold the Voice key (or after you say the wake word) and turns your speech into text. Audio stays on this Mac unless you choose a cloud provider.</string>
+	<!-- A menu bar app: no Dock icon, even before the activation policy is set at startup. -->
+	<key>LSUIElement</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,50 @@
+{"id": "s4-W14-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0052", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W14-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'NPM Psi' does not make 'npm ci' inferable"}
+{"id": "s4-W14-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "second half garbled (feel the grad dear after the)"}
+{"id": "s4-W14-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0060", "decision": "fix_clean", "clean": "The section explains how members can dispute your charge.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'The' and 'your'"}
+{"id": "s4-W14-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Elmea. Thelhan' lost 'tell Hana'"}
+{"id": "s4-W14-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Laura/book/hostel all misheard"}
+{"id": "s4-W14-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0072", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W14-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0074", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W14-0075", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s4-W14-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled throughout"}
+{"id": "s4-W14-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'C D fire quad' for cd /var/log"}
+{"id": "s4-W14-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'never mind' lost; raw reads 'I was gonna say thank you.' as content"}
+{"id": "s4-W14-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Karim' heard as 'carried'; sentence no longer sensible"}
+{"id": "s4-W14-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0094", "decision": "fix_clean", "clean": "My notes from the call. First, the co-op agreed to freeze rates until March. Then Petra will send the revised schedule to all members by the end of next week. And finally, we need two volunteers for the community meeting on the 12th.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken/raw 'and finally'; 'And' was dropped"}
+{"id": "s4-W14-0095", "decision": "fix_clean", "clean": "I checked with the travel desk and the flight to Athens is booked for Saturday, and the hotel is two nights away at the one near the port, and Theo said he'd handle the transfer. Now we'll send the itinerary to everyone tomorrow.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw adds 'away'; 'Mia will send' became 'Now we'll send'"}
+{"id": "s4-W14-0096", "decision": "fix_clean", "clean": "Hi Hannah, thanks for sending the paperwork over. Unfortunately the court needs the original, not a copy, so can you drop it by the clerk's window on the second floor before 4 on Thursday? Thanks so much. Best, Laura", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Hannah' for Hana"}
+{"id": "s4-W14-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0098", "decision": "fix_clean", "clean": "I actually like the old route better, lol.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has present 'like'; stray 'at' dropped"}
+{"id": "s4-W14-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0100", "decision": "drop", "reason": "hallucination", "note": "raw lost the first clause and adds 'Yeah.'"}

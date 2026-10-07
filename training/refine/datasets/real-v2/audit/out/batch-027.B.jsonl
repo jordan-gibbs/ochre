@@ -1,0 +1,50 @@
+{"id": "s2-W3-0301", "decision": "fix_clean", "clean": "Okay, we are on the third floor, room V12.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'V twelve'"}
+{"id": "s2-W3-0302", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0303", "decision": "drop", "reason": "unrecoverable_meaning", "note": "tmp2/pending_orders/can garbled, Nguyen as 'You in'"}
+{"id": "s2-W3-0304", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0305", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0306", "decision": "fix_clean", "clean": "Ideas for talk title. One is something like \"Should It Small.\" Two is \"Why We Stopped Planning for Six Months.\" Three is \"Lessons from a Failed Launch.\" The talk is 20 minutes plus 5 for questions, and the slot is at 10:45 on the second day. I want to use no more than 15 slides.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'should it small'"}
+{"id": "s2-W3-0307", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0308", "decision": "fix_clean", "clean": "The PDF export cuts off the last column when the table has more than 8 columns. Page margin is set to 1 inch and the page width is 8.5 by 11. I think the table width is not being scaled. As a workaround you can switch to landscape, but it should handle this automatically.", "reason": "guide_violation", "rules": ["R10"], "note": "spoken 'page width' not 'size'"}
+{"id": "s2-W3-0309", "decision": "drop", "reason": "unrecoverable_meaning", "note": "next cursor/cursor parameter garbled in several places"}
+{"id": "s2-W3-0310", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0311", "decision": "fix_clean", "clean": "Just confirming that the delivery is scheduled for Tuesday between 1 and 3 PM. The total with delivery is $599.95, and we accept Visa, Mastercard or bank transfer. Please reply to confirm.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hi' heard as 'Uh', not in raw"}
+{"id": "s2-W3-0312", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0313", "decision": "fix_clean", "clean": "The sample rate is 44.1 kHz, and the buffer holds one second of audio.", "reason": "spelling_from_raw", "rules": ["R11"], "note": "raw already clean"}
+{"id": "s2-W3-0314", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0315", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0316", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0317", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0318", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0319", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0320", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0321", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0322", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'note sixty n' for 'Node sixteen ends'"}
+{"id": "s2-W3-0323", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lost invalidation sentence, Postgres call, read pat, Br."}
+{"id": "s2-W3-0324", "decision": "drop", "reason": "hallucination", "note": "trailing 'Thank you.' not spoken"}
+{"id": "s2-W3-0325", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0326", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Nine.' and 'Some scope' for uh/um; also 'includes' lost, colour variant"}
+{"id": "s2-W3-0327", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening 'I'll write teen' for 'Alright team', plus other slips"}
+{"id": "s2-W3-0328", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0329", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0330", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'First,' stands for 'er'"}
+{"id": "s2-W3-0331", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0332", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No.' stands for 'uh'"}
+{"id": "s2-W3-0333", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'There's' and 'Dumb' stand for er/um"}
+{"id": "s2-W3-0334", "decision": "fix_clean", "clean": "Thank you for your patience. We have reviewed your claim and determined that the damage is covered under your policy. The payout will be $2,650 minus your deductible of $500, which means you will receive $2,150. The funds should arrive within 7 to 10 business days. If you have any questions for the...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends 'questions for the'"}
+{"id": "s2-W3-0335", "decision": "fix_clean", "clean": "For anyone who missed the demo, here are the highlights. The new search is about three times faster, it supports typo power, and it now indexes attachments up to 20 megabytes. We are rolling it out to 10% of customers on Monday and everyone by the end of the month. Docs are help.acri.com search.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "tolerance/acme/slash/at lost"}
+{"id": "s2-W3-0336", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' not spoken"}
+{"id": "s2-W3-0337", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0338", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W3-0339", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0340", "decision": "fix_clean", "clean": "So I was thinking about the pricing again, and I think we are leaving money on the table. Right now the Pro plan is $29 and the Team plan is $79, but when I looked at usage, the people on Pro are using like three times the features. So I think we should add the middle tier at $49, or maybe we should just raise Pro to $39. I don't know. I would love to run an experiment on it for a month. Can we talk about it at the next sync?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Hey' lost ('A.'); raw 'the middle tier'"}
+{"id": "s2-W3-0341", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0342", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'it meets twice a week' and 'would help' lost"}
+{"id": "s2-W3-0343", "decision": "drop", "reason": "unrecoverable_meaning", "note": "date/time/log level and timeit garbled"}
+{"id": "s2-W3-0344", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0345", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W3-0346", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'All idle connections' where 'um' was said"}
+{"id": "s2-W3-0347", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and sends', 'Mike', 'pre' garbled"}
+{"id": "s2-W3-0348", "decision": "fix_clean", "clean": "So the doctor called back and said everything looks normal. The blood test was fine and the scan was clear. Do you want a follow-up in six months? I am so relieved. I have been stressing about this for like two weeks.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Do you want'"}
+{"id": "s2-W3-0349", "decision": "fix_clean", "clean": "Just got off a call with legal, and the short version is we can't use the photo. They said, \"The license only covers print,\" so we need to either buy the web license for about $300 or find another image. I say we find another one. Deadline is end of day tomorrow.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'the photo'"}
+{"id": "s2-W3-0350", "decision": "fix_clean", "clean": "Car-buying notes. The sedan is $28,500 with an estimated 30 miles per gallon. The SUV is $33,000 and gets 26. If I drive about 12,000 miles a year and gas is $3.50 a gallon, the difference in fuel is only around $300 a year, so the extra $4,500 up front would take 15 years to pay back. Sedan wins.", "reason": "number_value", "rules": ["RECOVER"], "note": "raw says thirty mpg"}

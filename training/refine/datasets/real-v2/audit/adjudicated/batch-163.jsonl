@@ -1,0 +1,8 @@
+{"id": "s4-W49-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Dashley' does not reliably yield -la"}
+{"id": "s4-W49-0012", "decision": "accept", "reason": "ok", "note": "A: git/origin/lease are near spellings of a known command and flag"}
+{"id": "s4-W49-0016", "decision": "accept", "reason": "ok", "note": "A: git log --oneline -n are near spellings of known flags"}
+{"id": "s4-W49-0024", "decision": "fix_clean", "clean": "ssh -i ~/.ssh/coop_he.pem ec2-user@farm-gateway.example.com", "reason": "unrecoverable_word", "note": "A: only the filename word is lost; keep raw 'he'"}
+{"id": "s4-W49-0026", "decision": "fix_clean", "clean": "curl -s -o /dev/null -w %{http_code} https://status.example.com/help", "reason": "unrecoverable_word", "note": "A: raw path 'help' kept"}
+{"id": "s4-W49-0036", "decision": "accept", "reason": "ok", "note": "A: Hail->tail and engine x->nginx inferable in terminal context"}
+{"id": "s4-W49-0043", "decision": "accept", "reason": "ok", "note": "A: Retry/backoff/no wait inferable; correction resolvable"}
+{"id": "s4-W49-0044", "decision": "accept", "reason": "ok", "note": "A: 'but So' reads as a false start before the restart"}

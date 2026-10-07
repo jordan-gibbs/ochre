@@ -1,0 +1,3 @@
+{"id": "s4-W34-0013", "decision": "fix_clean", "clean": "The cyclists averaged 38 kilometers per hour over the first lake but then dropped to about 32.", "reason": "unrecoverable_word", "note": "B: 'lake' is a real word, leg not inferable; keep raw word"}
+{"id": "s4-W34-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'And you check if the output' - Can/upload not inferable, opening not sensible"}
+{"id": "s4-W34-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: 'ran ten, hey' - 10K not inferable"}

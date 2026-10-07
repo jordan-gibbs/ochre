@@ -1,0 +1,50 @@
+{"id": "s2-W3-0151", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I will Venmo you' garbled to 'Oh then you'"}
+{"id": "s2-W3-0152", "decision": "drop", "reason": "unrecoverable_meaning", "note": "canary->KinMeri, CI->inside, on-call->uncalled"}
+{"id": "s2-W3-0153", "decision": "fix_clean", "clean": "Weekly review. This week I finished the draft of the report, which came to about 12 pages. I went to the gym three times, which is one less than I planned. I finally called the bank about the mortgage rate. They said it is currently 6.25% for a 30-year fixed. I should compare that with at least two other lenders before next Friday. I need to book flights for the wedding, which is on the 7th of December.", "reason": "dropped_by_recognizer", "note": "'the other thing' lost"}
+{"id": "s2-W3-0154", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected salary value lost; garbled benefits sentence"}
+{"id": "s2-W3-0155", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'eighteen.' for 'hey team', 'Or so' for 'er so', several garbles"}
+{"id": "s2-W3-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0157", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heading, time, filename/date garbled in many places"}
+{"id": "s2-W3-0158", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0159", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0160", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the middle lost"}
+{"id": "s2-W3-0161", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0162", "decision": "fix_clean", "clean": "Just a quick brain dump on the offsite. The venue holds up to 8 people and costs about $4,000 for the day. Catering is another $50 a head, so if we invite 60 people, that's around $7,000 total. We could also do it on the 15th or the 22nd, and I think the 22nd works better.", "reason": "number_value", "note": "raw says eight people"}
+{"id": "s2-W3-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0164", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0166", "decision": "fix_clean", "clean": "Cost estimates: the staging environment costs about $450 a month, production costs roughly $3,000, and we expect that to grow by about 15% per quarter. Terraform tags every resource with a cost centre so finance can split the...", "reason": "trailing_off", "note": "raw cuts off at 'the b'; centre spelling from raw"}
+{"id": "s2-W3-0167", "decision": "fix_clean", "clean": "Thinking about whether to take the job. The pay is about 20% more, but the commute would be 50 each way instead of 15, and I would lose two days of remote work. On the other hand, the team seems great and the equity could be worth something. I need to decide by the end of next week.", "reason": "dropped_by_recognizer", "note": "'minutes' lost"}
+{"id": "s2-W3-0168", "decision": "drop", "reason": "unrecoverable_meaning", "note": "URL garbled"}
+{"id": "s2-W3-0169", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' and 'at noon' lost"}
+{"id": "s2-W3-0170", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0171", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the sentence lost"}
+{"id": "s2-W3-0172", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0174", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0175", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0176", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0177", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Figma mockups, empty state, can we garbled"}
+{"id": "s2-W3-0178", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name, 'you to', closing sentence lost"}
+{"id": "s2-W3-0179", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0180", "decision": "fix_clean", "clean": "My Kubernetes pod keeps getting killed with exit code 137. I think it is an out-of-memory kill. The container has a limit of 512 megabytes and the app is a Java service. Can you explain what the exit code means and how I can figure out how much memory the app actually means? Also, should I set the heap size explicitly?", "reason": "unrecoverable_word", "note": "raw says 'means'"}
+{"id": "s2-W3-0181", "decision": "fix_clean", "clean": "Steps to reproduce: open the app on a tablet in landscape mode, tap the menu icon in the top left, and observe that the menu overlaps the status bar. The expected behavior is that the menu starts below the status bar. This happens on Android 12 and 13 but not on 14. The screen is 2560 by 1600.", "reason": "dropped_by_recognizer", "note": "'resolution' lost"}
+{"id": "s2-W3-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0183", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Gash strategy, Right to validate garbled"}
+{"id": "s2-W3-0184", "decision": "fix_clean", "clean": "There is a problem with the reservation. They said they're only open at 9 instead of 7, so I figure we eat before and then just go for drinks. It's about a 20-minute drive, so we should leave by 6:45.", "reason": "dropped_by_recognizer", "note": "'hey' lost"}
+{"id": "s2-W3-0185", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Use the v2 endpoint instead' lost; sentence breaks"}
+{"id": "s2-W3-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0187", "decision": "fix_clean", "clean": "The plan for the kitchen renovation. Demolition starts on the 3rd of March and should take about a week. Then the plumber comes on the 11th, avenues are scheduled for the 20th, and countertops come a few weeks after that. The whole thing should be done by the middle of April. The budget is $35,000, and so far we are at 28.", "reason": "unrecoverable_word", "note": "cabinets heard as Avenues"}
+{"id": "s2-W3-0188", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'but' for uh; 'a maze' for arrays"}
+{"id": "s2-W3-0189", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ticket number garbled; 'Some' for um"}
+{"id": "s2-W3-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0191", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0192", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0194", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0195", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0198", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W3-0199", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0200", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,50 @@
+{"id": "s4-W58-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W58-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W58-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'Thursday' heard as 'there's day'; plus 'cocker', 'Garcie. My job'"}
+{"id": "s4-W58-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I will know', 'Ani, and pepflowers', 'cash box' lost, 'viewer', trailing 'Yeah.'"}
+{"id": "s4-W58-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Praemed in Lion', 'Round eggy words' not inferable"}
+{"id": "s4-W58-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W58-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W58-0068", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Dean, update on a co-op spring seed order. I placed it yesterday with the usual supplier. We got the tomatoes and the peppers, but the beans are out of stock until April, so I swapped them for a different variety, which Shira approved. The total came to $960, and it should ship by the end of next week. I'll post the tracking number here as soon as I have it, and if anyone wants to add something, tell me by Friday.", "rules": ["RECOVER", "R13"], "note": "raw 'Dean.' for 'team'; 'a co-op' for 'the co-op's'"}
+{"id": "s4-W58-0069", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "Please wait for me to finish before you start. I'm going to describe the problem in a few parts. Our nonprofit's volunteer sign-up sheet keeps getting duplicate entries. The sheet is shared with about 40 people, and the entries come from a web form. I think the duplicates happen when people click submit twice, or maybe three times. I'm not sure, so what are the most likely causes and what's the simplest fix? Assume I can't change the form software.", "rules": ["RECOVER"], "note": "'only the sheet itself' missing from raw"}
+{"id": "s4-W58-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I clone', 'K Rank order', 'using home', 'get it to prove'"}
+{"id": "s4-W59-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'vault ought'; ending 'don't start dinner without me' became 'and start to'"}
+{"id": "s4-W59-0002", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W59-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0004", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hey Argen, the build is sort of green again. iOS passes but Android is still flaky, so we can't ship until it's fixed.", "rules": ["RECOVER", "R13"], "note": "name not in dictionary"}
+{"id": "s4-W59-0005", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Chitty, I'm at the legal aid clinic till 7. Can you grab the kids? And please don't let them have soda, they get wild.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'lol alessia' -> 'Ballisha' and final 'a funeral' lost: 3 places in 22 words"}
+{"id": "s4-W59-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'on-call' -> 'arm cough' not inferable"}
+{"id": "s4-W59-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Rohan dude' -> 'Ro, had dude'"}
+{"id": "s4-W59-0010", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Lu Shahe, it's me. My phone's about to die, so if I don't answer it's not because I'm ignoring you. I'll charge it at the bookstore.", "rules": ["RECOVER", "R13"], "note": "'Lucia hey' heard as 'Lu Shahe'"}
+{"id": "s4-W59-0011", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "The deploy failed because somebody pushed a config change without telling anyone, and now Rose's team is rolling it back. I'll keep you posted.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0013", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Lucha, I just realized the on-call handoff doc still lists the old pager number. Sorry, I should've updated it. I'll do it after lunch.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0014", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Yusuf, we gotta talk about Sarre. The game studio thing got moved, so I can't do the movie, but Sunday works, if you're free.", "rules": ["RECOVER", "R13"], "note": "'Saturday' heard as 'Sarre'; 'moomie' -> movie inferable"}
+{"id": "s4-W59-0015", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "DAPA legal aid clinic is doing a free workshop on tenant rights next Thursday, and I thought of you since you've been fighting with your landlord, so maybe come.", "rules": ["RECOVER", "R13"], "note": "'dad the' heard as 'DAPA'"}
+{"id": "s4-W59-0016", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W59-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the one with the dragons' -> 'Bo with a dragon'"}
+{"id": "s4-W59-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'eggs' lost, 'books for coffee', name lost"}
+{"id": "s4-W59-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Rosa guess what the' -> 'Bosa Gas, with a'"}
+{"id": "s4-W59-0021", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hi Gabriel, it's Anne Carol. Your phone keeps going to voicemail and I'm worried. Call me when you can, it's probably nothing.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0022", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Bro, man, I think we should skip the retro. Nobody has anything to say and the sprint was boring, but if you disagree I'm open.", "rules": ["RECOVER", "R13"], "note": "'rohan' heard as 'Bro, man'"}
+{"id": "s4-W59-0023", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hey sis, the game studio holiday party is on the 20th, so mark your calendar, and yes, you can bring the plus one, but not that guy from last year.", "rules": ["RECOVER"], "note": "raw 'the plus one'"}
+{"id": "s4-W59-0024", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Elias, is the bookstore open Sunday? Because I need to grab the atlas, and if not I'll go Saturday. Actually, no, I have the thing Saturday, so it has to be Sunday.", "rules": ["RECOVER"], "note": "raw 'the Atlas'"}
+{"id": "s4-W59-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Yusuf' heard as 'Use'"}
+{"id": "s4-W59-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to me until R is the all clear'"}
+{"id": "s4-W59-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dude chidi' -> 'Do chitty'"}
+{"id": "s4-W59-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0034", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W59-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Unless you', 'And we', 'cookie show'"}
+{"id": "s4-W59-0036", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "Aid clinic wants to move their intake form to a new system, and honestly I think that's a great idea, but we need to check with the lawyers about privacy first.", "rules": ["RECOVER"], "note": "'elias the legal' cut from start of raw"}
+{"id": "s4-W59-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Art and', 'my says pride'"}
+{"id": "s4-W59-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Chidi' heard as 'Shitty'"}

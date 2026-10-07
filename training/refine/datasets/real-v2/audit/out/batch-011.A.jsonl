@@ -1,0 +1,50 @@
+{"id": "s2-W2-0001", "decision": "accept", "reason": "ok", "note": "'no wait for' -> four is an unambiguous homophone of the correction"}
+{"id": "s2-W2-0002", "decision": "drop", "reason": "non_english", "note": "Whisper output Japanese/Korean script"}
+{"id": "s2-W2-0003", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W2-0004", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0005", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'snow' lost ('it's no'); 'write' became 'Right'"}
+{"id": "s2-W2-0006", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'call' misheard as 'Cool'; target verb not inferable from raw"}
+{"id": "s2-W2-0008", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0010", "decision": "fix_clean", "clean": "I'm writing to follow up on invoice 42.", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "raw has the contraction 'I'm'; target must not expand it"}
+{"id": "s2-W2-0011", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' decoded as 'Lark', readable as a name being addressed"}
+{"id": "s2-W2-0012", "decision": "accept", "reason": "ok", "note": "'Oh' is a pure interjection residue"}
+{"id": "s2-W2-0013", "decision": "accept", "reason": "ok", "note": "'Yum' is an interjection residue; restart correction resolvable"}
+{"id": "s2-W2-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0016", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0017", "decision": "fix_clean", "clean": "Sorry the delay.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'for' absent from raw"}
+{"id": "s2-W2-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'DMV' truncated to 'D'; not inferable"}
+{"id": "s2-W2-0019", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0022", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0024", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is garbled; neither 'loops' nor 'orders' recoverable"}
+{"id": "s2-W2-0025", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0026", "decision": "fix_clean", "clean": "The budget is 6,000.", "reason": "guide_violation", "rules": ["R10", "RECOVER"], "note": "no currency was said or in raw; '$' adds a fact"}
+{"id": "s2-W2-0027", "decision": "fix_clean", "clean": "Deploy to staging, not production.", "reason": "guide_violation", "rules": ["R10"], "note": "'not production' was said and is in raw, not a self-correction; target dropped it"}
+{"id": "s2-W2-0028", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' decoded as 'Well', readable as content"}
+{"id": "s2-W2-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0030", "decision": "accept", "reason": "ok", "note": "'and' is the residue of the 'en-' stutter"}
+{"id": "s2-W2-0031", "decision": "fix_clean", "clean": "My email is sam.ly@gmail.com.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R7"], "note": "raw has 'Sam.ly'; 'lee' not inferable"}
+{"id": "s2-W2-0032", "decision": "accept", "reason": "ok", "note": "garbled false start 'I was Kenna' dropped before restart"}
+{"id": "s2-W2-0033", "decision": "accept", "reason": "ok", "note": "'that' and 'this' are artefacts of the 'the the' / 'is is' repeats"}
+{"id": "s2-W2-0034", "decision": "drop", "reason": "garbage", "note": "raw is unintelligible"}
+{"id": "s2-W2-0035", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0036", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "path lost; raw 'C D S No Wait etc.'"}
+{"id": "s2-W2-0038", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0040", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er it' decoded as 'the way'; changes meaning"}
+{"id": "s2-W2-0041", "decision": "fix_clean", "clean": "Scratch that itch.", "reason": "trailing_off", "rules": ["RECOVER", "R4"], "note": "recognizer lost 'with a new project'"}
+{"id": "s2-W2-0042", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0045", "decision": "fix_clean", "clean": "\"No Weight\" is a good name for a song.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'weight'; a title 'No Weight' is plausible, so 'Wait' is not inferable"}
+{"id": "s2-W2-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0047", "decision": "fix_clean", "clean": "Not now.", "reason": "trailing_off", "rules": ["RECOVER"], "note": "recognizer lost 'maybe later'"}
+{"id": "s2-W2-0048", "decision": "fix_clean", "clean": "Actually, this...", "reason": "trailing_off", "rules": ["RECOVER", "R4"], "note": "raw ends on 'this'; 'is intentional' lost"}
+{"id": "s2-W2-0049", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0050", "decision": "drop", "reason": "hallucination", "note": "Whisper appended a lone trailing 'you'; opening also garbled"}

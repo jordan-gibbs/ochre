@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ochre HUD</title>
+  <link rel="stylesheet" href="../theme/tokens.css">
+  <link rel="stylesheet" href="../theme/hud.css">
+  <style>
+    /* the window itself: transparent, nothing but the HUD stack (visuals live in theme/hud.css) */
+    html, body { margin: 0; height: 100%; background: transparent; overflow: hidden; }
+  </style>
+  <script src="../theme/hud-kit.js"></script>
+  <script type="module" src="hud.js"></script>
+</head>
+<body>
+  <!-- HUD markup contract: docs/design.md §7 (copied from theme/hud-preview.html) -->
+  <div class="hud" data-state="idle" aria-live="polite">
+    <div class="hud-pip">Say “transcribe”</div>
+    <div class="hud-pill" role="status">
+      <span class="hud-halo" aria-hidden="true"></span>
+      <span class="hud-glyph" aria-hidden="true">
+        <span class="hud-o"><svg class="hud-o-glyph" viewBox="0 0 100 100"><path d="M50.1 81.2Q40.2 81.2 32.8 77.35Q25.4 73.5 21.35 66.45Q17.3 59.4 17.3 49.9Q17.3 40.4 21.35 33.4Q25.4 26.4 32.8 22.6Q40.2 18.8 50.2 18.8Q60.2 18.8 67.45 22.6Q74.7 26.4 78.7 33.4Q82.7 40.4 82.7 50Q82.7 59.5 78.7 66.55Q74.7 73.6 67.4 77.4Q60.1 81.2 50.1 81.2ZM50.1 65.2Q57 65.2 60.65 61.05Q64.3 56.9 64.3 49.9Q64.3 42.9 60.65 38.85Q57 34.8 50.1 34.8Q43.1 34.8 39.4 38.85Q35.7 42.9 35.7 49.9Q35.7 56.9 39.4 61.05Q43.1 65.2 50.1 65.2Z"/></svg></span>
+        <svg class="hud-ring" viewBox="0 0 22 22"><circle class="track" cx="11" cy="11" r="9"/><circle class="fill" cx="11" cy="11" r="9" pathLength="100"/></svg>
+        <span class="hud-dots"><i></i><i></i><i></i></span>
+        <span class="hud-spark"><svg viewBox="0 0 16 16"><path d="M7 1.5C7.45 5.2 8.8 6.55 12.5 7 8.8 7.45 7.45 8.8 7 12.5 6.55 8.8 5.2 7.45 1.5 7 5.2 6.55 6.55 5.2 7 1.5Z"/><path d="M12.6 10.4c.2 1.4.75 1.95 2.15 2.15-1.4.2-1.95.75-2.15 2.15-.2-1.4-.75-1.95-2.15-2.15 1.4-.2 1.95-.75 2.15-2.15Z"/></svg></span>
+        <span class="hud-caret"></span>
+        <svg class="hud-check" viewBox="0 0 16 16"><path d="M3.4 8.6l3.1 3 6.1-6.6" pathLength="20"/></svg>
+        <svg class="hud-alert" viewBox="0 0 16 16"><path d="M8 4.2v4.9M8 11.8v.1"/></svg>
+        <svg class="hud-info" viewBox="0 0 16 16"><path d="M8 7.3v4.5M8 4.4v.1"/></svg>
+        <span class="hud-badge"><svg viewBox="0 0 10 10"><path d="M3.2 4.3V3.2a1.8 1.8 0 0 1 3.6 0v1.1" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="4.2" width="6" height="4.6" rx="1.3"/></svg></span>
+      </span>
+      <span class="hud-text"><span class="hud-label"></span><span class="hud-hint"></span></span>
+      <!-- live text while talking (display only); hud.js fills .hud-live-text with word spans -->
+      <span class="hud-live" aria-hidden="true"><span class="hud-live-text"></span><span class="hud-live-caret"></span></span>
+      <span class="hud-meta"></span>
+      <button class="hud-action" type="button" tabindex="-1" hidden>Retry</button>
+      <button class="hud-close" type="button" tabindex="-1" aria-label="Cancel" title="Cancel (Esc)"><svg viewBox="0 0 16 16"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7"/></svg></button>
+      <span class="hud-progress" aria-hidden="true"><i></i></span>
+    </div>
+  </div>
+</body>
+</html>

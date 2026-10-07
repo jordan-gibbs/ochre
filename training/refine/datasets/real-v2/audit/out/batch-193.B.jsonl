@@ -1,0 +1,50 @@
+{"id": "s4-W62-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0092", "decision": "fix_clean", "clean": "We want to ship the onboarding redesign at cold start time from 3.2 seconds to under 2 seconds, and get the crash rate under 1%.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W62-0093", "decision": "fix_clean", "clean": "Hi Laura, thanks for sending over the test plan. I went through it this morning, and I have a few notes. The performance section assumes about 500 concurrent users, but the last release hit closer to 1,800 at peak, so I mount the number up. The regression window is listed as four days because staging is only free from the 10th to the 14th. The browser matrix should also include Safari 17 and the latest two versions of Chrome. The whole thing needs to wrap by Friday the 18th so we can sign off before the code freeze. Let me know if you want to walk through it, I'm free after 2:30.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W62-0094", "decision": "fix_clean", "clean": "Quick recap of the phishing drill. We sent out 412 emails, and 31 people quit, which is about 7.5%, down from 11% last quarter. Of those 31, I actually entered their credentials, and the rest bailed at the login page. The fastest report to the security mailbox came in at 90 seconds, which is great, and the median was around 11 minutes. Lars wants to run the next one in November, probably the second week, with a harder template, and I'm thinking we should also add a short training video, maybe five minutes, for anyone who clicks.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W62-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "airbnb sentence garbled (errand/toll/week/leak six) plus saga"}
+{"id": "s4-W62-0096", "decision": "fix_clean", "clean": "The matchmaking system groups players into lobbies of eight, and it waits up to 30 seconds to fill a lobby before it starts with bots. Skill rating ranges from 0 to 3,000, and a lobby can span at most 400 points between the highest and lowest player. If a player has waited more than 20 seconds, their range widens by 50 points every 5 seconds, up to a maximum of 800. Players on mobile are only matched with other mobile players unless the queue time passes 60 seconds, in which case cross-platform matching kicks in. All of these numbers are tunable in the config and default to the values here.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W62-0097", "decision": "fix_clean", "clean": "I need you to write a test plan for a checkout flow. It should cover credit card payments from $1 up to $10,000, discount codes that take between 5 and 5% off, and shipping to at least three countries. Include edge cases like a cart with zero items and a cart with 101 items, because our limit is 100. Keep it to about two pages because there are a lot of cases. Use plain language, and don't write any code.", "reason": "number_value", "rules": ["RECOVER"]}
+{"id": "s4-W62-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sync/and/were/is/sync is garbled in several places"}
+{"id": "s4-W63-0001", "decision": "fix_clean", "clean": "Ain't no way I'm wearing the ducks again.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0005", "decision": "fix_clean", "clean": "The painter went off again, again.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0008", "decision": "fix_clean", "clean": "Color me surprised.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0015", "decision": "fix_clean", "clean": "Mom says hi.", "reason": "spelling_from_raw", "rules": ["R10"]}
+{"id": "s4-W63-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw He's easy.; nearly all words lost"}
+{"id": "s4-W63-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw Then fun.; most of the content lost"}
+{"id": "s4-W63-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0026", "decision": "fix_clean", "clean": "We're driving up Saturday morning, early doors, so the traffic doesn't eat us a lot.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0027", "decision": "fix_clean", "clean": "The call handoff is at 9 sharp, not a minute after, so please be online.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s4-W63-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0029", "decision": "fix_clean", "clean": "Nora's brother is getting the toast and Lord help us all, he's got no filter.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W63-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0032", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s4-W63-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0038", "decision": "fix_clean", "clean": "Kai says the router firmware sorted but I'll believe it when I see it.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s4-W63-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W63-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Amara and ice lost"}

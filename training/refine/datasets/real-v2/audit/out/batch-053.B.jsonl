@@ -1,0 +1,50 @@
+{"id": "s2-W6-0101", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0102", "decision": "fix_clean", "clean": "Mixed review in January.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Next' heard as 'Mixed'"}
+{"id": "s2-W6-0103", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No' and trailing 'are' from uh/noise"}
+{"id": "s2-W6-0104", "decision": "fix_clean", "clean": "Dear Mr. Nakamura, thank you for your swift reply and for sending the revised drawings. Best, Elise", "reason": "guide_violation", "rules": ["R8"], "note": "undictated line breaks"}
+{"id": "s2-W6-0105", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W6-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0107", "decision": "fix_clean", "clean": "Hi Dimitri, attached is the invoice for September. The total is $4,210, net 30.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s2-W6-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0109", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W6-0110", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'the year' for 'uh the'; also Akoi"}
+{"id": "s2-W6-0111", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'And I'm' before name heard for um"}
+{"id": "s2-W6-0112", "decision": "drop", "reason": "unrecoverable_meaning", "note": "model/bowls/head/month lost"}
+{"id": "s2-W6-0113", "decision": "fix_clean", "clean": "Quick heads up. I have a dentist appointment tomorrow at 10 and I might be 15 minutes late to the sync. I will make up the time in the evening, and if anything urgent comes up, just call me on my mobile.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hi' became 'I'"}
+{"id": "s2-W6-0114", "decision": "fix_clean", "clean": "Hello, I would like to add my newborn son to my health insurance plan. He was born on the 8th of September. My policy number is BT77291, and I have attached a copy of the birth certificate. Please let me know if you need anything else to complete the enrollment, and what the new monthly premium will be.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "enrollment"}
+{"id": "s2-W6-0115", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value five lost"}
+{"id": "s2-W6-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0117", "decision": "fix_clean", "clean": "Ten years ago today, I walked into my first job as a junior nurse, terrified. I did not know where the supply room was. Today I lead a team of 42 nurses at a hospital in Manchester. If you are starting out and feeling lost, gets better.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it' dropped"}
+{"id": "s2-W6-0118", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting, admin, phone number, csv lost"}
+{"id": "s2-W6-0119", "decision": "drop", "reason": "unrecoverable_meaning", "note": "finished, mentored, risk early lost"}
+{"id": "s2-W6-0120", "decision": "fix_clean", "clean": "Following our workshop on the 6th, I have put together a short proposal for the next phase. It covers three things: user research for 15 participants, a prototype of the new dashboard, and a usability test.\n\nThe estimated cost is $28,000, and the work would take about eight weeks, starting as soon as you approve.\n\nThe full document is attached. If you have any questions, I am happy to jump on a call.\n\nBest,\nOlivia", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hi Ahmed' lost; 'for' not 'with'"}
+{"id": "s2-W6-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0122", "decision": "drop", "reason": "hallucination", "note": "trailing 'said'"}
+{"id": "s2-W6-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0124", "decision": "fix_clean", "clean": "Dear Dr. Kim, I am waiting to confirm my appointment on the 7th of November at 2:45 PM.", "reason": "guide_violation", "rules": ["R8", "RECOVER"], "note": "undictated breaks; 'waiting' from raw"}
+{"id": "s2-W6-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0128", "decision": "fix_clean", "clean": "Ideas for the newsletter, story from the bakery in Porto, a short guide to invoicing, and a poll about pricing.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'customer' lost"}
+{"id": "s2-W6-0129", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0131", "decision": "drop", "reason": "non_english", "note": "garbled/French residue in sign-off, hospital lost"}
+{"id": "s2-W6-0132", "decision": "drop", "reason": "unrecoverable_meaning", "note": "CFO sentence and quorum/AM lost; trailing Yeah"}
+{"id": "s2-W6-0133", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'not a' and 'three on four' for uh/304"}
+{"id": "s2-W6-0134", "decision": "fix_clean", "clean": "Dear Mr. Forsyth, I wanted to raise a concern about noise. The tenants in flat six have been playing loud music after midnight on at least five nights in the last two weeks. The most recent was last Saturday at about 1:30 AM. I have spoken to them once but nothing changed. Could you please remind them of the quiet hours in the lease? Kind regards, Iris", "reason": "guide_violation", "rules": ["R8"], "note": "undictated line breaks"}
+{"id": "s2-W6-0135", "decision": "drop", "reason": "unrecoverable_meaning", "note": "codes loaded, 9 AM, FAQ lost"}
+{"id": "s2-W6-0136", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0137", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Some' for um; clinic/clinics"}
+{"id": "s2-W6-0138", "decision": "drop", "reason": "unrecoverable_meaning", "note": "six-weeks sentence lost, Jibai, Taric"}
+{"id": "s2-W6-0139", "decision": "drop", "reason": "unrecoverable_meaning", "note": "aim of, pots, water worn, of which"}
+{"id": "s2-W6-0140", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting, name, account number, rand garbled"}
+{"id": "s2-W6-0141", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0142", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0143", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0145", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0146", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0149", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0150", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'But' for uh"}

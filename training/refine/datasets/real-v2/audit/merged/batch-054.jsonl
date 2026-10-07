@@ -1,0 +1,36 @@
+{"id": "s2-W6-0152", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has Quame", "name Quame from raw"], "auditors": ["A", "B"], "clean": "Feedback for Quame. Strengths. He is calm under pressure and everyone trusts him in an incident. He wrote the runbook that cut our average recovery time from 40 minutes to 25. Areas to grow. He can be quiet in cross-team meetings, and he sometimes keeps problems to himself for too long. I would encourage him to ask for help earlier."}
+{"id": "s2-W6-0153", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'J S D'; GST not inferable", "GST not inferable from 'J S D'"], "auditors": ["A", "B"], "clean": "Tax meeting with the accountant on Tuesday. Things to bring: last year's return, the receipts for the van, the invoice from the roofing job, which was $14,000, and the bank statements for June through August. Also ask whether we should register for JSD."}
+{"id": "s2-W6-0154", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0155", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["total $1,800 lost: 'So the total dollars.'", "total amount lost: 'So the total dollars'"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0156", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0157", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["asthma lost ('has been'), Via->by, mold variant, undictated line breaks", "asthma and 'in' lost; sentence ends 'has been'"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0158", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0159", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'/v2/invoices' -> 'the two Timbus's', 'API key' -> 'FIP'", "/v2/invoices, API key lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0160", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Brightwick, 'software and junior', Go lost, 'Anal Weber', undictated structure", "many words garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0161", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'Long' where um was said", "'Long' for um"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0162", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0163", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0164", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["name Brixay, sign-off 'best regards, Paolo' lost", "name and sign-off lost; trailing 'How'"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0165", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'clear'", "raw has 'clear' not 'clearer'"], "auditors": ["A", "B"], "clean": "I have reviewed the draft and I think section 3 needs a clear summary of the risks."}
+{"id": "s2-W6-0166", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0167", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0168", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0169", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0170", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0173", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0174", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'a confirmation email' and 'missing' lost, Dear->Your, undictated structure", "confirmation email, missing, Dear lost"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0177", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'as' and 'Some' where um was said", "'as' and 'Some' for um"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0179", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'center' variant and name 'Batama'", "Batama from raw; center spelling from raw"], "auditors": ["A", "B"], "clean": "Risk register update for the data center move. Overall rating is amber, and I will review again at the next steering meeting. There are three open risks:\n1. The new power supply has not been tested. Owner is Chen, due the 8th of December\n2. We do not have confirmation from the telecom provider about the circuit install date. Owner is Batama\n3. Two of the older servers may not survive the move, and we might need replacements, which would cost around £12,000"}
+{"id": "s2-W6-0180", "decision": "drop", "reasons": ["unrecoverable_meaning", "hesitation_misheard_as_word"], "notes": ["Powalski, 'every I have learned', undictated letter structure; too many fixes", "'But' for uh; also Powalski"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0181", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0182", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'due next Friday' lost", "due next Friday lost"], "auditors": ["A", "B"], "clean": "Owner is Nadia."}
+{"id": "s2-W6-0183", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "raw empty"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0184", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0186", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0187", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0188", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["Whisper trailing 'you'; email garbled", "trailing 'you'; email garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0189", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0193", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["salutation, 8%, Nguyen family lost", "8% lost, names garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0194", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0196", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Hello->El, Could->If, Mendes->Menz", "opening, Could, name garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0199", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'fair' lost ('The Autumn raised') breaks meaning; favor variant", "'fair' lost: 'The Autumn raised'"], "auditors": ["A", "B"]}

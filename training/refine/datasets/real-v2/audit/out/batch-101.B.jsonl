@@ -1,0 +1,50 @@
+{"id": "s4-W16-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0002", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W16-0003", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W16-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0006", "decision": "fix_clean", "clean": "The hinge on door 4.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W16-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0013", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W16-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0015", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W16-0016", "decision": "fix_clean", "clean": "Joel, can you take dot 3?", "reason": "unrecoverable_word"}
+{"id": "s4-W16-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0018", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W16-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0020", "decision": "fix_clean", "clean": "Wake for me at the loading dock.", "reason": "unrecoverable_word"}
+{"id": "s4-W16-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0025", "decision": "fix_clean", "clean": "I actually need the band back by noon.", "reason": "unrecoverable_word"}
+{"id": "s4-W16-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0027", "decision": "fix_clean", "clean": "Hey Naomi, I wanted to confirm the retreat is the third weekend of May, and that we have 22 people signed up.", "reason": "unrecoverable_word"}
+{"id": "s4-W16-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0030", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W16-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0032", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W16-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0034", "decision": "fix_clean", "clean": "Write the following paragraph so it sounds friendlier.", "reason": "unrecoverable_word"}
+{"id": "s4-W16-0035", "decision": "fix_clean", "clean": "Can you ask Joel to check the forklift battery? Bruno's off today.", "reason": "unrecoverable_word"}
+{"id": "s4-W16-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0040", "decision": "fix_clean", "clean": "Hi Bruno, thanks for walking me through the bathroom lay book yesterday, I'll send my notes tomorrow.", "reason": "unrecoverable_word"}
+{"id": "s4-W16-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0043", "decision": "fix_clean", "clean": "Haha okay, I'll bring the P top, you already have the hummus.", "reason": "unrecoverable_word"}
+{"id": "s4-W16-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W16-0050", "decision": "fix_clean", "clean": "The forest can only deliver after 11.", "reason": "unrecoverable_word"}

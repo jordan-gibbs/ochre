@@ -1,0 +1,40 @@
+{"id": "s2-W1-0251", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0252", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost 'slash dot dot'; cd .. vs cd ../.. changes meaning", "raw lost 'slash dot dot'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0253", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'blend num' for 'and um'; also babe->B unrecoverable", "'blend', 'you know' for hesitations; babe lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0255", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw 'I do want to start Fight' flips don't->do and lost 'a'", "raw says 'I do want to start Fight'; negation lost"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0256", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'Hi' heard as 'I' (stutter-like); 'your' heard as 'their'", "'Hi' lost; raw 'their'"], "auditors": ["A", "B"], "clean": "I am trying to find out whether their office is open on public holidays, and if it is, whether I would need an appointment. I am visiting from out of town and I can only come on the Monday that is the bank holiday."}
+{"id": "s2-W1-0257", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0258", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0259", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0261", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0262", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'because last time it did' became 'It didn't'; runbook as 'run work'", "'Because last time it did' lost/inverted"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0263", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'So on the', 'some', 'Some' are real words where um was said", "'So on the' for um"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0265", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0266", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0268", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0269", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0270", "decision": "drop", "reasons": ["non_english", "non_english"], "notes": ["raw starts 'la oh este', most of the prompt lost", "raw has non-English garble and lost first half"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0271", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0272", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0275", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0278", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0279", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0281", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'Bum', 'But' for um/uh; could->But; many errors", "Valvarez, 'But you read', 'our', lost 'if'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0282", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'Some', 'No', 'You know' where hesitations were said; 'Hey all' lost", "'Hey all' lost, several garbles, 'You know' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0283", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'on a month' for 'um a month'; 'I knee the follow up' garbled", "last sentences garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0285", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'In planning that', 'hasband knee', 'Stark', 'in a saca', 'What a path'", "many garbles (Osaka, bad knees, pack)"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0286", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'then where' for 'and er'; subject line lost as 'Some cheek'", "'Some cheek' for Subject plus other garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0287", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; also several garbles", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0288", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'where' for 'er'; treats->traces, ten->then", "undictated structure plus several misheard words"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0289", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'do you?' where 'uh' was said", "'do you?' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0290", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0291", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0292", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0293", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Ha' never said", "trailing 'Ha'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0294", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'Well' where 'uh' was said", "'Well' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0295", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0296", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'uh wait wait' became 'Rightway'; 'Wait' not inferable", "'Rightway' for wait wait"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0297", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0298", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'What is it?' where 'uh' was said", "'it' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0299", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Que don't' is not a near form of kubectl", "kubectl lost as 'Que don't'"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0300", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; 'on' for um", "trailing 'Yeah.'"], "auditors": ["A", "B"]}

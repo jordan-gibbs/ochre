@@ -1,0 +1,8 @@
+{"id": "e4-E2-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"trend you\" is not a near form of Thandiwe and \"Rutina\" loses retainer; nothing sensible remains"}
+{"id": "e4-E2-0010", "decision": "fix_clean", "clean": "I have attached the tasting notes for the 2022 reserve.", "reason": "dropped_by_recognizer", "note": "A: greeting lost; raw says \"I have\", not \"I've\""}
+{"id": "e4-E2-0011", "decision": "fix_clean", "clean": "Mateo said that the bracket order ships Monday.", "reason": "unrecoverable_word", "note": "A: raw \"Mateo\"; \"that\" is a plausible content word, keep it"}
+{"id": "e4-E2-0026", "decision": "fix_clean", "clean": "Can you pull the merlot samples from barrel 14 and drop them at the labs?", "reason": "unrecoverable_word", "note": "A: raw has \"labs\""}
+{"id": "e4-E2-0034", "decision": "fix_clean", "clean": "Honestly, the new punk mill is a game changer. We recycled 40 pounds of scrap yesterday.", "reason": "unrecoverable_word", "note": "B: \"pug mill\" not inferable from \"punk mill\" without a ceramics cue; keep raw word"}
+{"id": "e4-E2-0035", "decision": "fix_clean", "clean": "Hi Myrel, could you send me the minutes from the September zoning meeting? I can't find them on the portal.", "reason": "unrecoverable_word", "note": "A: name from raw; \"O'd you\" is a non-word slip for \"could you\""}
+{"id": "e4-E2-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"Tech with Dr. Allu Way\" needs two uncertain inferences in a short note"}
+{"id": "e4-E2-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"sell it in\" for celadon not inferable; B's text is not sensible"}

@@ -1,0 +1,50 @@
+{"id": "s4-W21-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a tin can' heard as 'it didn't can' plus added 'which'; not inferable"}
+{"id": "s4-W21-0002", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'No.' that was never said"}
+{"id": "s4-W21-0003", "decision": "fix_clean", "clean": "Okay, I'm outside the construction site and it looks like a ghost town. Nobody is here. Did they change the start time to 7 or what?", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s4-W21-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0005", "decision": "fix_clean", "clean": "I need you to review my design system tokens, and I mean all of them, not just the colours, because the spacing scale looks off and I think it's a rounding thing.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'colours'"}
+{"id": "s4-W21-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0007", "decision": "fix_clean", "clean": "Dude, I think Chin is kind of mad at me. He didn't reply to my text for two days. Maybe he's busy but it's weird.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Chen heard as Chin"}
+{"id": "s4-W21-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'early' dropped ('set up like an hour') and Mika heard as Meeker; meaning broken"}
+{"id": "s4-W21-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0010", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh jin' heard as 'Again', a real word; name lost"}
+{"id": "s4-W21-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0012", "decision": "fix_clean", "clean": "Omg Daniella, I finally paid off the credit card, the whole thing, and honestly I feel kind of lighter, like my chest isn't tight anymore.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw spells Daniella"}
+{"id": "s4-W21-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0015", "decision": "fix_clean", "clean": "Meeting notes. We agreed the studio rate stays the same for now, and Apple will send the revised quote on Friday, so no change until then.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Abdul heard as Apple"}
+{"id": "s4-W21-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0023", "decision": "fix_clean", "clean": "Okay Chen, the plumber is coming at 10, and he's been late every time, so I'm bracing myself.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s4-W21-0024", "decision": "fix_clean", "clean": "The legal aid clinic saw 43 clients this week, and that's up from 31, so it's sort of a record for a single...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "'week' lost; raw ends on 'single'"}
+{"id": "s4-W21-0025", "decision": "fix_clean", "clean": "Dear Mica, I'd like to apologize for the delay on the mix. I know it's two weeks late, and I mean it, I'm sorry, it won't happen again.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw spells Mica"}
+{"id": "s4-W21-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'audit it' lost ('we should at this sprint') and Jin heard as Din"}
+{"id": "s4-W21-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0029", "decision": "fix_clean", "clean": "Danielle, are you free Saturday? I'm moving boxes all day and I could really use help, seriously, I'll buy pizza.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw spells Danielle"}
+{"id": "s4-W21-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0031", "decision": "fix_clean", "clean": "Hi Ruth, I hope you're well. I just wanted to follow up on the retainer, could you send the Zion copy, by Friday if possible? It's kind of urgent.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13", "R6"], "note": "'signed' heard as 'Zion'; question needs '?'"}
+{"id": "s4-W21-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0034", "decision": "fix_clean", "clean": "Abdul, I'm totally swamped, so can you just send me the three bullet points? And I'll write the rest myself, I'd really like that.", "reason": "guide_violation", "rules": ["R10", "R6"], "note": "'totally' said and in raw but missing; question needs '?'"}
+{"id": "s4-W21-0035", "decision": "fix_clean", "clean": "Nika, the show last night was honestly kind of amazing, the drummer carried the whole thing, and I mean I'm not kidding.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Mika heard as Nika"}
+{"id": "s4-W21-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'don't mention' heard as 'Joel mentioned'; meaning flipped"}
+{"id": "s4-W21-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0038", "decision": "fix_clean", "clean": "When you tap save twice, the app sends two requests, and the second one overwrites the first, so we lose the edit to race condition.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'it's a' heard as 'to'"}
+{"id": "s4-W21-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0042", "decision": "fix_clean", "clean": "Actions from the design review:\n1. Ruth will fix the focus ring.\n2. Abdul updates the docs.\n3. We meet again on Wednesday.", "reason": "guide_violation", "rules": ["R8"], "note": "dictated one/two/three list must be one item per line"}
+{"id": "s4-W21-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W21-0045", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'chen bro so like' heard as 'Can Professor Light'"}
+{"id": "s4-W21-0046", "decision": "fix_clean", "clean": "Each component in the design system has three states, default, other, and disabled, and the disabled one is sort of grayed out, so it looks like a ghost.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'hover' heard as 'other'"}
+{"id": "s4-W21-0047", "decision": "fix_clean", "clean": "Helliny, the client at the legal aid clinic is asking if we can take her case, and she's got a hearing in March, so it's kind of urgent.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Kalani heard as Helliny"}
+{"id": "s4-W21-0048", "decision": "fix_clean", "clean": "Yo Jin, I hope this finds you well. We're thrilled with the master, and we'd love to move to the final delivery, and we're ready whenever you are.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'Dear' heard as 'Yo'"}
+{"id": "s4-W21-0049", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' that was never said"}
+{"id": "s4-W21-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'kind of a big deal' heard as 'not another big deal'; meaning flipped"}

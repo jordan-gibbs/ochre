@@ -1,0 +1,10 @@
+{"id": "e4-E13-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw has only the first third of the command, garbled (Doctor run T, GorePad); rest lost"}
+{"id": "e4-E13-0032", "decision": "drop", "reason": "unrecoverable_meaning", "note": "kubectl/rollout/names garbled beyond recovery; correction unresolvable"}
+{"id": "e4-E13-0033", "decision": "accept", "reason": "ok", "note": "'o day' -> 'of day' recoverable"}
+{"id": "e4-E13-0034", "decision": "fix_clean", "clean": "git log --since=yesterday --author=andgoze | grep -i customs | wc -l", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name 'ngozi' heard as 'and goze', not in dictionary; use raw's spelling"}
+{"id": "e4-E13-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sites->light, bashir->bash your, web->webs: 3+ places to rewrite"}
+{"id": "e4-E13-0036", "decision": "accept", "reason": "ok"}
+{"id": "e4-E13-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hell no, break dash yeah, call' for 'helm upgrade --install'; many garbled places"}
+{"id": "e4-E13-0038", "decision": "fix_clean", "clean": "aws s3 sync ./photos s3://andgozy-family-archive/photos --exclude \"*.tmp\" --storage-class STANDARD_IA --delete --only-show-errors", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'ngozi' heard as 'and gozy'; aws inferable from 's3 sync', STANDARD_IA from dictionary"}
+{"id": "e4-E13-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "birth dates->'Unable perfect', emigrated->'then the great into', need add-ons->'meet any at all'"}
+{"id": "e4-E13-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "rsync half of command is gibberish; correction unresolvable"}

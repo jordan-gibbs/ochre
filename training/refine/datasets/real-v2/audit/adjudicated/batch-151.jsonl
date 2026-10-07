@@ -1,0 +1,3 @@
+{"id": "s4-W43-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: The Coke for checkout; B text not sensible"}
+{"id": "s4-W43-0040", "decision": "drop", "reason": "hallucination", "note": "A: trailing Oh decoded from noise, never said"}
+{"id": "s4-W43-0044", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: rewrite heard as real words We're right plus Punch Air; not a confident recovery"}

@@ -1,0 +1,5 @@
+# Installed by the Ochre package. Lets the user logged in at the local seat write /dev/uinput, so
+# Ochre can type dictated text on Wayland desktops without a typing protocol (GNOME, KDE)
+# through ydotool / dotool, without root or the "input" group. Steam ships the same rule for its
+# controller support. Remove this file to revoke it.
+KERNEL=="uinput", SUBSYSTEM=="misc", OPTIONS+="static_node=uinput", TAG+="uaccess"

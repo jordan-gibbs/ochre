@@ -1,0 +1,50 @@
+{"id": "s4-W18-0001", "decision": "fix_clean", "clean": "Hey Gray, are you still up for the language exchange tonight?", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0007", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W18-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0010", "decision": "fix_clean", "clean": "I need the signed engagement letter by noon so that I can file...", "reason": "trailing_off"}
+{"id": "s4-W18-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0012", "decision": "fix_clean", "clean": "No, I like the new trail, but the hike starts too early.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0015", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W18-0016", "decision": "fix_clean", "clean": "Dahlia, I'd like to finish the flashcards, so tell me when you're free.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0017", "decision": "fix_clean", "clean": "Samuel, we should probably move the standup.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0021", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W18-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0026", "decision": "fix_clean", "clean": "I think we should run the ablation so that the reviewers can't complain.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0027", "decision": "fix_clean", "clean": "Aliyah, are you gonna bring the snacks?", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0028", "decision": "fix_clean", "clean": "Aliah, I like the snacks you brought last time.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0031", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W18-0032", "decision": "fix_clean", "clean": "Emily was so good last night that I forgot to eat.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0034", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W18-0035", "decision": "fix_clean", "clean": "Lewis, it's fine, whatever you pick.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0036", "decision": "fix_clean", "clean": "Lewis, I mean it when I say whatever you pick is fine.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0041", "decision": "fix_clean", "clean": "I was confused by the second cause.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0043", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W18-0044", "decision": "fix_clean", "clean": "Greece, I forgot the flashcard, so I'm making new ones.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0045", "decision": "fix_clean", "clean": "And in general, the adoption fee is $75.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0046", "decision": "fix_clean", "clean": "The Gendra B adoption fee is $75, so please tell callers.", "reason": "unrecoverable_word"}
+{"id": "s4-W18-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W18-0050", "decision": "fix_clean", "clean": "The result is 0.03, so is significant.", "reason": "dropped_by_recognizer"}

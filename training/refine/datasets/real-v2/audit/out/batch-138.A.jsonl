@@ -1,0 +1,50 @@
+{"id": "s4-W36-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0053", "decision": "fix_clean", "clean": "Steps to reproduce:\n1. Open the schedule page\n2. Click export\n3. Observe the crash\nActual: Page freezes after about 30 seconds and the browser shows an error", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost colon+the: actual page freezes"}
+{"id": "s4-W36-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0055", "decision": "fix_clean", "clean": "Thanks, Dalia. I will review it tomorrow.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "for the update dropped"}
+{"id": "s4-W36-0056", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W36-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0059", "decision": "fix_clean", "clean": "Hi Elegandro,\n\nAttached is the revised floor plan.\nLet me know what you think.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Alejandro not in dictionary; raw Elegandro"}
+{"id": "s4-W36-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "locked heard as not"}
+{"id": "s4-W36-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0063", "decision": "fix_clean", "clean": "Ideas for the fundraiser:\n\nSilent auction\n\nBig sale\n\nRaffle", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "bake sale heard as big sale"}
+{"id": "s4-W36-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "at eight heard as and a"}
+{"id": "s4-W36-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0066", "decision": "drop", "reason": "unrecoverable_meaning", "note": "potluck on Sunday / hall opens at noon garbled"}
+{"id": "s4-W36-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0070", "decision": "fix_clean", "clean": "Paul Grace at 3, then Lewis at 4.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Call->Paul, Luis->Lewis"}
+{"id": "s4-W36-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "haul away -> Allway, Emil -> in all, Clara -> Claire"}
+{"id": "s4-W36-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "called Flow at -> although A"}
+{"id": "s4-W36-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large/CSV/steps/times out garbled"}
+{"id": "s4-W36-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dalia->Daily, Femi->feminine"}
+{"id": "s4-W36-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening clause lost"}
+{"id": "s4-W36-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is only Due period."}
+{"id": "s4-W36-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value tenth lost"}
+{"id": "s4-W36-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "tulips heard as twelve"}
+{"id": "s4-W36-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0088", "decision": "fix_clean", "clean": "Summarise the following email in two sentences:\n\nHi team, the warehouse inventory count is moving to next weekend. Please sign up for shift by Thursday.", "reason": "spelling_from_raw", "rules": ["RECOVER"], "note": "raw Summarise; a dropped before shift"}
+{"id": "s4-W36-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0093", "decision": "fix_clean", "clean": "I told her the new paragraph should start after the quote, but she says should be a new line instead.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "it dropped"}
+{"id": "s4-W36-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W36-0095", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah. never said"}
+{"id": "s4-W36-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "florist/AM/Luis/Dalia misheard"}
+{"id": "s4-W36-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "if you could not make it dropped, plus sheet/reply/sincerely"}
+{"id": "s4-W36-0098", "decision": "fix_clean", "clean": "Meeting recap:\n\nAttendees were Grace and Femi.\n\nDecisions:\n- We are moving the warehouse audit to June\n- The new scanner order is approved, 20 units at $300 each\n- Overtime is capped at 10 hours per week\n\nAction items:\n- Femi sends the vendor list by Friday\n- Lewis updates the schedule", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "Luis dropped from attendees; raw Lewis at end"}
+{"id": "s4-W36-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "dude/wrong day/Thai/weekend garbled"}
+{"id": "s4-W36-0100", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dalia/have/great/if/Luis misheard"}

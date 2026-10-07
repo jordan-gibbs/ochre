@@ -1,0 +1,9 @@
+{"id": "s2-W5-0201", "decision": "fix_clean", "clean": "Let's see, you mean the other repo.", "reason": "unrecoverable_word", "note": "sided with A: 'oh I see' heard as 'Let's see'; minimal edit keeps author's comma"}
+{"id": "s2-W5-0202", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'or should I' heard as 'Where should I?'; the offer is lost"}
+{"id": "s2-W5-0215", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'of' lost; raw reads 'June instead. The one from July', target needs an inserted word"}
+{"id": "s2-W5-0217", "decision": "fix_clean", "clean": "Okay team, tomorrow is a half day, so we close at 1. Please make sure you submit anything urgent before then.", "reason": "spelling_from_raw", "note": "sided with A: raw has 'Okay'; R10 keeps the input's variant"}
+{"id": "s2-W5-0222", "decision": "fix_clean", "clean": "Okay, I finally watched the show everyone keeps talking about and yet I get it now. I stayed up until 3.", "reason": "unrecoverable_word", "note": "sided with A: 'yeah' heard as 'yet'; raw has 'Okay'; no comma after 'and yet'"}
+{"id": "s2-W5-0234", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'up' lost ('Did you end? Getting...'); target not traceable to raw"}
+{"id": "s2-W5-0239", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: 'Can' heard as 'And'; raw-faithful target is not a sensible request"}
+{"id": "s2-W5-0240", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "own call: 'er' heard as real word 'Or' plus 'yeah' heard as 'Yet'; torn between fix and drop, prefer drop"}
+{"id": "s2-W5-0250", "decision": "fix_clean", "clean": "Okay, so what if we just told them we were busy and then went to the beach?", "reason": "spelling_from_raw", "note": "sided with A: raw has 'Okay'; R10 keeps the input's variant"}

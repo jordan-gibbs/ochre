@@ -1,0 +1,50 @@
+{"id": "s4-W12-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0003", "decision": "fix_clean", "clean": "Aldina on the 5th.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0008", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W12-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0011", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0013", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0019", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W12-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0026", "decision": "fix_clean", "clean": "Hey Amir, the camp bus leaves at 8:15, so please tell the counsellors.", "reason": "spelling_from_raw"}
+{"id": "s4-W12-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0028", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W12-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0030", "decision": "fix_clean", "clean": "The fashion show is March 6th, and the thing is the day before.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0033", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0037", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0041", "decision": "fix_clean", "clean": "Hey, it's Chitty. The call time is 6:45 at the loading dock.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0043", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W12-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0046", "decision": "fix_clean", "clean": "And you ask Gamir to bring the generator and the two lights from the truck.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0047", "decision": "fix_clean", "clean": "We ran the numbers and the margin is 14% to the spring line.", "reason": "unrecoverable_word"}
+{"id": "s4-W12-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0049", "decision": "fix_clean", "clean": "Meeting with the accountant on the 10th.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W12-0050", "decision": "fix_clean", "clean": "Dear Jamal, thank you for sending schedule. The first shoot day is the 11th of June.", "reason": "dropped_by_recognizer"}

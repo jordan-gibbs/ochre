@@ -1,0 +1,50 @@
+{"id": "s2-W7-0001", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0002", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0003", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0004", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0006", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Kestrel, 'in the repo', '.env' and 'if the YAML' garbled"}
+{"id": "s2-W7-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'Get to go to be fit to refresh' loses the command"}
+{"id": "s2-W7-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0010", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0011", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W7-0012", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0015", "decision": "fix_clean", "clean": "Yesterday I finished the WebSocket reconnect logic. I'm writing tests for it. No blockers.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'today' lost (raw 'Hit A M')"}
+{"id": "s2-W7-0016", "decision": "fix_clean", "clean": "Standup update: yesterday I was debugging the flaky e2e test at checkout. Found out it's a race with the Stripe mock. Today I'll fix it.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'at checkout'"}
+{"id": "s2-W7-0017", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W7-0018", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0019", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0022", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'user list dot two six' cannot yield UserList.tsx"}
+{"id": "s2-W7-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "localhost:3000 and /api/v2/health path lost"}
+{"id": "s2-W7-0024", "decision": "fix_clean", "clean": "Write the unit test for the parse_duration function. Cover the empty string, negative values, and overflow.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the unit test'"}
+{"id": "s2-W7-0025", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first sentence and ending lost"}
+{"id": "s2-W7-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "hooks/props/names garbled in 3 places"}
+{"id": "s2-W7-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0030", "decision": "fix_clean", "clean": "Write a SQL migration that adds a nullable column called archived to the projects table and backfills it from updated_at where status is archived.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'at' of archived_at lost in raw"}
+{"id": "s2-W7-0031", "decision": "fix_clean", "clean": "Let me think. I want to split the monolith. First, pull billing up into its own service, then notifications, then maybe search. Let's start with billing only, and show me the plan before changing anything.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'pull billing up' and 'Let's start'"}
+{"id": "s2-W7-0032", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0034", "decision": "drop", "reason": "hallucination", "note": "trailing 'No.' never said"}
+{"id": "s2-W7-0035", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0036", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0037", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0038", "decision": "drop", "reason": "hallucination", "note": "Whisper appended 'Thank you.'"}
+{"id": "s2-W7-0039", "decision": "fix_clean", "clean": "OK, now do the same thing for the delete handler.", "reason": "spelling_from_raw", "rules": ["R10", "R11"], "note": "raw has 'OK'"}
+{"id": "s2-W7-0040", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0041", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "files/touch/edit misheard in 3 places"}
+{"id": "s2-W7-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0045", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'allowing Poggin', added 'or', 'dot m' filename"}
+{"id": "s2-W7-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0047", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0048", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0049", "decision": "fix_clean", "clean": "Let's do the Lambda version instead. Skip the container and use the Oz Sand template we already have.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'AWS SAM' not inferable from 'Oz Sand'"}
+{"id": "s2-W7-0050", "decision": "accept", "reason": "ok"}

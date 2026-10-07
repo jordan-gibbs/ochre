@@ -1,0 +1,50 @@
+{"id": "s4-W33-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0054", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W33-0055", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0056", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0062", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0063", "decision": "fix_clean", "clean": "Lif, the retirement party is on the 14th at 4, please let me know by the 10th.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0068", "decision": "fix_clean", "clean": "Jenna and I reviewed the figures from 2015 through 2020 and found a gap of three years.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0069", "decision": "fix_clean", "clean": "This is the third time this month that Peril has run late.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0071", "decision": "fix_clean", "clean": "Aye Giorgio, following up on our call this morning. The client's quarterly estimated payment is due on September 15th, and the extension for the annual return runs through October 15th. I've drafted the work cheap for the first three quarters and I expect to finish the fourth by the end of the day on the 28th. Thanks.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0074", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W33-0075", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0076", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0077", "decision": "fix_clean", "clean": "I need you to write a short announcement for the support desk. Hours will change starting January 6th. We'll be open to 8 PM Monday through Friday, and 10 to 4 on Saturdays, closed on Sundays. Keep the tone friendly.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W33-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0080", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0084", "decision": "fix_clean", "clean": "Dear Valentina, I'm ready to confirm that your contract runs from the 1st of February 2025 until the 31st of January 2026, with a review at the six month mark. Luca", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0085", "decision": "fix_clean", "clean": "To get a history. Customer first contacted us on the 3rd of May, we sent a replacement on the 9th, it arrived on the 16th, and the customer confirmed it works on the 18th.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0088", "decision": "fix_clean", "clean": "Steps to reproduce. Log in before 9, I'm Easton, open the dashboard and select the date range from the 1st to the 15th, then export. The file comes back empty. This started after the release on the 20th.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0089", "decision": "fix_clean", "clean": "Mohammed has when the deadline moved again. It was the 10th, then the 17th, and now it's the 31st, which honestly makes me think nobody actually owns it.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0090", "decision": "fix_clean", "clean": "Hi team, reminder that open enrollment runs from November 1st to November 15th, and that any changes you make will take effect on January 1st. If you have questions, HR is holding off its hours every Tuesday and Thursday from 2 to 4.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0091", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0092", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0093", "decision": "fix_clean", "clean": "Hi Hassan, I wanted to walk you through the timeline for the year end close so there are no surprises. We start on Monday the 2nd with the bank reconciliations, which usually take about two days. Then the accruals and depreciation get posted by the 5th, the review with Giorgio is on the 8th at 10:30, and I'm hoping to send the draft statements to the client by the 12th. That leaves us a buffer of about a week before the filing deadline on the 19th, but if the client is slow to send their receipts it could slip, so please note them this week. Thanks.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0096", "decision": "fix_clean", "clean": "Notes from the model review. We agreed to move retraining from monthly to every two weeks starting on the 4th of next month. The evaluation window is currently 90 days but Lupa wants it extended to 180, and Gemma will test that by the end of the week. The dashboard has been wrong since the 22nd because of a timezone bug. Valentina is fixing it and expects to push the patch by Tuesday morning, and the next meeting is on the 11th at 3 PM.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0099", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W33-0100", "decision": "accept", "reason": "ok"}

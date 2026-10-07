@@ -1,0 +1,9 @@
+{"id": "s2-W4-0207", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with B: 'pip' heard as 'It', '-r' as 'dash or', 'txt' as 'nxd'; command not inferable from raw"}
+{"id": "s2-W4-0211", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with B: 'grep node' heard as 'graph note'; recovering grep from 'graph' plus keeping 'note' is a guess; torn fix vs drop -> drop"}
+{"id": "s2-W4-0229", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with B: names wrong in two places, spoken commands garbled ('Acommon', 'carried', 'calm a'), 'uh period' became real words 'Here in'"}
+{"id": "s2-W4-0230", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: final 7-word sentence lost and 'moved' heard as 'move'; fix exceeds limits"}
+{"id": "s2-W4-0231", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with B: 'scales' heard as 'Skills'; 'a recipe app that skills ingredients' is not a sensible dictation"}
+{"id": "s2-W4-0234", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "sided with A: 'and er' became 'an or'; 'or' is a real word that changes the reading"}
+{"id": "s2-W4-0236", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: raw keeps only 'Running late.'; 7+ words lost"}
+{"id": "s2-W4-0239", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: clause 'with no commentary before or after it' (7 words) lost; exceeds 5-word limit"}
+{"id": "s2-W4-0245", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "sided with A: 'er by you' became 'I do'; real words replace 'by you'"}

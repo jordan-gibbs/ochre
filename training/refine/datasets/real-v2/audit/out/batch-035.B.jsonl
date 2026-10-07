@@ -1,0 +1,50 @@
+{"id": "s2-W4-0201", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0203", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0204", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bashrc/slash dot garbled"}
+{"id": "s2-W4-0205", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0206", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0207", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pip, -r, txt lost"}
+{"id": "s2-W4-0208", "decision": "drop", "reason": "unrecoverable_meaning", "note": "venv lost"}
+{"id": "s2-W4-0209", "decision": "drop", "reason": "unrecoverable_meaning", "note": "docker exec garbled"}
+{"id": "s2-W4-0210", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0211", "decision": "drop", "reason": "unrecoverable_meaning", "note": "grep node misheard"}
+{"id": "s2-W4-0212", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0213", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lsof -i lost"}
+{"id": "s2-W4-0214", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0215", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0216", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0217", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0218", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0219", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0220", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0221", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W4-0222", "decision": "drop", "reason": "hallucination", "note": "trailing Okay."}
+{"id": "s2-W4-0223", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W4-0224", "decision": "fix_clean", "clean": "FIXME: this leaks the file handle on the error path", "reason": "unrecoverable_word", "note": "raw has 'the' not 'a'"}
+{"id": "s2-W4-0225", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0226", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0227", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0229", "decision": "drop", "reason": "unrecoverable_meaning", "note": "names wrong, comma/period misheard, 'Here in' residue"}
+{"id": "s2-W4-0230", "decision": "fix_clean", "clean": "Morning everyone.\n\nA couple of updates before standup. The vendor call moved to Thursday, and the new dashboard goes live on Monday.", "reason": "dropped_by_recognizer", "note": "last paragraph lost"}
+{"id": "s2-W4-0231", "decision": "drop", "reason": "unrecoverable_meaning", "note": "scales heard as Skills"}
+{"id": "s2-W4-0232", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'A drug. Mark' for er mark"}
+{"id": "s2-W4-0233", "decision": "fix_clean", "clean": "Summary\nExport button does nothing on the reports page.\n\nSteps\nOpen reports, click export, nothing happens.", "reason": "dropped_by_recognizer", "note": "Expected section lost"}
+{"id": "s2-W4-0234", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0235", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled mobile app/it covers"}
+{"id": "s2-W4-0236", "decision": "fix_clean", "clean": "Running late.", "reason": "dropped_by_recognizer", "note": "rest lost"}
+{"id": "s2-W4-0237", "decision": "drop", "reason": "unrecoverable_meaning", "note": "worst offenders misheard, several places"}
+{"id": "s2-W4-0238", "decision": "fix_clean", "clean": "Hi Tom,\n\nThanks for taking the time to meet with us yesterday. We were impressed with the demo and especially with how quickly your team handled our questions.\n\nI have shared your proposal with our finance group. They will review it over the next week, and I will follow up as soon as I have their feedback.\n\nIn the meantime, please send over the security documentation we discussed. Our legal team would like to start the review early.\n\nBest regards,\nAnna", "reason": "unrecoverable_word", "note": "Anna from raw; 'the review'"}
+{"id": "s2-W4-0239", "decision": "fix_clean", "clean": "I want you to act as an editor for the following paragraph.\n\nFix grammar and awkward phrasing, but do not change my meaning or add new ideas. Keep my tone casual, and return only the edited paragraph.", "reason": "dropped_by_recognizer", "note": "ending lost"}
+{"id": "s2-W4-0240", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles"}
+{"id": "s2-W4-0241", "decision": "drop", "reason": "unrecoverable_meaning", "note": "attendees lost"}
+{"id": "s2-W4-0242", "decision": "drop", "reason": "unrecoverable_meaning", "note": "start of sentence lost"}
+{"id": "s2-W4-0243", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0244", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0245", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0246", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0247", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0248", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles"}
+{"id": "s2-W4-0249", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'law' residue plus several errors"}
+{"id": "s2-W4-0250", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles"}

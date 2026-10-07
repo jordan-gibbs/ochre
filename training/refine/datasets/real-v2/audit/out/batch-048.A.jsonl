@@ -1,0 +1,50 @@
+{"id": "s2-W5-0351", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0352", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw dropped 'left'; 'Whoever the fish in there' breaks the sentence"}
+{"id": "s2-W5-0353", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0354", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'In fact'; 'Thanks for' garbled to 'Than'"}
+{"id": "s2-W5-0355", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0356", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' and 'oh' became 'No'"}
+{"id": "s2-W5-0357", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0358", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'poll'->'call', 'for'->'to', 'a' dropped: too many places"}
+{"id": "s2-W5-0359", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0360", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0361", "decision": "fix_clean", "clean": "The elevator is broken again, so if you are on the fifth floor, good luck, take the stairs.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'ugh'"}
+{"id": "s2-W5-0362", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0363", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0364", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Well' (reads as We'll)"}
+{"id": "s2-W5-0365", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0366", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0367", "decision": "fix_clean", "clean": "Yep, that was me, sorry, I did not realise the file was locked.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'realise'"}
+{"id": "s2-W5-0368", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0369", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0370", "decision": "fix_clean", "clean": "Babe, the plumber says it is going to be $300 for the part and another $150 for labour.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'labour'"}
+{"id": "s2-W5-0371", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I'm at the trailhead' -> 'in the portray', 'gonna' garbled"}
+{"id": "s2-W5-0372", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0373", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'But'"}
+{"id": "s2-W5-0374", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never said"}
+{"id": "s2-W5-0375", "decision": "fix_clean", "clean": "I told him it was a joke and he took it so seriously, I feel awful.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'haha' heard as 'Uh-huh'; cannot recover Haha"}
+{"id": "s2-W5-0376", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um do' became 'But'; question lost"}
+{"id": "s2-W5-0377", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'what is up' -> 'Wack this out'"}
+{"id": "s2-W5-0378", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0379", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'hey im' -> 'Hell M', 'thoughts' -> 'thought'"}
+{"id": "s2-W5-0380", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for letting' lost, 'UMM' in raw"}
+{"id": "s2-W5-0381", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'And now'"}
+{"id": "s2-W5-0382", "decision": "fix_clean", "clean": "Yeah so my train got canceled, I'm gonna be like an hour late. Tell them to start without me.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'canceled' and 'I'm'"}
+{"id": "s2-W5-0383", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the message lost"}
+{"id": "s2-W5-0384", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'like uh a surprise brunch or' -> 'Surprise brands her'"}
+{"id": "s2-W5-0385", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Tell'->'Bell' and stray trailing 'said'"}
+{"id": "s2-W5-0386", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0387", "decision": "drop", "reason": "unrecoverable_meaning", "note": "rent/first/venmo all garbled"}
+{"id": "s2-W5-0388", "decision": "fix_clean", "clean": "Okay, so I just got off the phone with the supplier and they said the parts will be here on the 12th, which is 2 days later than we planned. So we are gonna have to move the install to the 15th. I will update the schedule and let the crew know.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Okay' for 'hey'"}
+{"id": "s2-W5-0389", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0390", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0391", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'and uh try' became 'And don't try', reversing meaning"}
+{"id": "s2-W5-0392", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0393", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0394", "decision": "fix_clean", "clean": "Okay so tomorrow I have the dentist at 9, then lunch with my sister at noon, and then I need to go to the bank before it closes at 4, so I probably cannot meet before 5. Is that too late for you? So we could do Thursday instead.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'Okay' and 'So we could' (lost 'if', 'can')"}
+{"id": "s2-W5-0395", "decision": "fix_clean", "clean": "Hey, just a reminder that if you were going to be out next week, please add it to the team calendar. I have had a couple of cases where nobody knew someone was away until the day of, and it makes it really hard to plan the sprint.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'were' for 'are'"}
+{"id": "s2-W5-0396", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost the kitchen sentence and the laundry ending"}
+{"id": "s2-W5-0397", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'No'"}
+{"id": "s2-W5-0398", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0399", "decision": "fix_clean", "clean": "Hi Sophia, thanks for sending over the quote. It looks good overall. I just had one question about the shipping cost. It seems higher than what you quoted last time. Is there a reason for that? If it is because of the rush delivery, we can do standard instead. We are not in a hurry.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw has 'Sophia'"}
+{"id": "s2-W5-0400", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can we' -> 'And we' loses the question; 'uh' -> 'Well'"}

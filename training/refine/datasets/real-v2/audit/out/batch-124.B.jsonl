@@ -1,0 +1,50 @@
+{"id": "s4-W29-0051", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0053", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0054", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0056", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0057", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "Is Tokyo Skytree better than Tokyo at night?"}
+{"id": "s4-W29-0058", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0059", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Who ordered the bamboo cutting boards and the Le Creuset pots for the product launch swag?"}
+{"id": "s4-W29-0060", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0061", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "The co-op's heirloom tomatoes come from the San Marzano region near Naples, and we also grow a variety called Poor Debut. The buyers in Milan especially love them roasted with a little olive oil from Puglia and sea salt from Trapani."}
+{"id": "s4-W29-0062", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0064", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Malik and I walked down the Via Dolorosa to the Church of the Holy Sepulchre, and then we grabbed falafel at a tiny place near the Damascus Gate. Afterward we took a cab to the Americel for coffee, and the Nefe at Jaffar Suites was the best thing I ate all week."}
+{"id": "s4-W29-0065", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Lorenzo, I'm standing outside Territoria All and Tecuinia in Florence and the line is two blocks long. You want to wait or try somewhere else?"}
+{"id": "s4-W29-0066", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W29-0067", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Knitting circle notes, we're ordering skeins of Cascade 220 from the Yarn Barn and a few balls of Drops Alpaca from a shop in Reykjavik called Stork You're in. We'll pick them up when we visit in June, and Sana is going to carry the extra needles in her bag."}
+{"id": "s4-W29-0068", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0069", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Our landscaping partner in Kyoto sources moss from the area around Arashiyama and stone lanterns from a workshop on Shijo Dori, so shipping to our yard in Portland takes about six weeks. The nursery in Niagada also offers a discount if we order more than 50 trees."}
+{"id": "s4-W29-0070", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0071", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hi Fatima, thanks again for hosting us at the farmers market in Aix-en-Provence. The cheese from the fromagerie on Rue des Marseille sold out in an hour, and the honey from the Plateau de Valence wasn't far behind. We'd love to come back in August."}
+{"id": "s4-W29-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0073", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Ivan, you know the Korean BBQ place on Olympic Boulevard in Koreatown? I think it's called Jen. We should go there after the product launch."}
+{"id": "s4-W29-0074", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0075", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0076", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0077", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0078", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0079", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0080", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0081", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Next steps for the launch.\n1. Confirm the cafe in the Lanes in Brighton called Plankton.\n2. Send the press kit to the editor at Monocle.\n3. Book the ferry from Newhaven to Deep."}
+{"id": "s4-W29-0082", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0083", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hi Malik, quick update on the farm co-op trip. We landed in Tbilisi on Tuesday and drove up the Georgian Military Road to Kazbegi, where we visited a cooperative that makes khachapuri and churchkhela. The owner, a woman named Nino, is happy to ship samples to us. On the way back we stopped at a roadside place in Gu Dory where they served shashlik and a local wine called Saperavi, and the driver, a guy named Giorgi, told us the best time to visit is early autumn when the harvest is in. I'll send photos tonight."}
+{"id": "s4-W29-0084", "decision": "fix_clean", "reason": "trailing_off", "clean": "For the credit union offsite we have three options: the Radisson Blu in Dubrovnik, the Hotel Sacher in Vienna, or the Pestana in Lisbon. I think the Pestana is the cheapest. Ree can check whether they have a conference room for 40 people or..."}
+{"id": "s4-W29-0085", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "I'm writing a newsletter for our landscaping business and I want to mention that we're now stocking the Stihl MS 180 chainsaw, Felco pruners from Switzerland, and a moss variety from the Kangongs. Make it sound warm but professional. I'd also like a line about free delivery on orders over $200."}
+{"id": "s4-W29-0086", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0087", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Dear Fatima, thank you for your patience. Following our call, I have confirmed that the shipment of dried apricots from Malatya will transit through the Port of Mersin and arrive at our depot in Hamburg on the 22nd of October. I will send the customs paperwork once the broker in Izmir signs off, and I'll copy even so he can arrange the pickup. Finally, please remind Ivan that the invoice from the customs broker in Izmir has to be paid in euros and not in lira, and that the original bills of lading must be couriered to our office on the 15th."}
+{"id": "s4-W29-0088", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0089", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0090", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hi Eiko, I hope the move to Osaka is going well. I wanted to follow up about the yarn order for the knitting circle. We're hoping to get the merino from Hikidashi in the Yumeta district, but if that doesn't work out we can order from a shop in Kyoto called Itoya or even from Ravelry. Also, if you have time, could you ask the shop in Kyoto whether they ship internationally and how much the postage to the United States might be, because Sana is worried about the customs fees?"}
+{"id": "s4-W29-0091", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0092", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0093", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0095", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Barn shops near Rue Saint Menor in Paris open on Sunday"}
+{"id": "s4-W29-0096", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0100", "decision": "drop", "reason": "unrecoverable_meaning"}

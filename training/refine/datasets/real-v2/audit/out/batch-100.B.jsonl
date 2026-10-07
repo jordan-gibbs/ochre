@@ -1,0 +1,50 @@
+{"id": "s4-W15-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0052", "decision": "fix_clean", "clean": "The quote comes to $12,500, including labor.", "reason": "spelling_from_raw"}
+{"id": "s4-W15-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0057", "decision": "fix_clean", "clean": "Demo, the cake is chocolate, and the card is in my bag.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0058", "decision": "fix_clean", "clean": "I booked the class for Tuesday at 7:30. Bell Valentina.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0059", "decision": "fix_clean", "clean": "docker run -p 3000:3000 my app", "reason": "guide_violation"}
+{"id": "s4-W15-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0061", "decision": "fix_clean", "clean": "Hi Gemma, I'm writing about the group booking for the Sicily trip. We have 14 people traveling in late September, and we'd like to keep the same hotel as last year if possible. Thanks so much.", "reason": "spelling_from_raw"}
+{"id": "s4-W15-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0063", "decision": "fix_clean", "clean": "Car Sync notes. The checkout bug is reproducible on Android 13, only when the coupon field is empty. Giorgio thinks the validation layer, I think it's the cache. We'll test both on Monday.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0065", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W15-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0069", "decision": "fix_clean", "clean": "Our table is full. We have nine people now since Lucas's cousin confirmed, and the couple needs the final count by Friday.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0071", "decision": "fix_clean", "clean": "Can everyone arrive by 6:45 for the dress rehearsal? Bring your own shoes. Hassan has the music and Alif has the costumes, and please don't be late.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0073", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W15-0074", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W15-0075", "decision": "fix_clean", "clean": "The build failed on the Windows runner because the test for the date picker hangs, so I'm gonna rerun it and look at the logs afterwards.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W15-0076", "decision": "fix_clean", "clean": "The lesson plan for Friday is the basics, followed by a short social where everyone swaps partners, and I'll bring the speaker.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0077", "decision": "fix_clean", "clean": "High lift, I looked at the quote again and the second option, the one with the walk-in shower, is the better price. We can fit it in the budget if we drop the heated floor, which I'm okay with.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0078", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W15-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0080", "decision": "fix_clean", "clean": "I, Camilleo, thanks for sending over the itinerary. I've gone through it and mostly it looks great. The flights are fine and the hotel in Coyote is perfect, but I think the rail pass should run from the 4th to the 14th, because we're staying until the 15th. The airport pickup on the first day should be at 8:30, not 8, since our flight doesn't land until 8. But you fix both and send the updated version. Also, please confirm the cancellation terms. Thank you.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0081", "decision": "fix_clean", "clean": "Okay team, quick recap of the retest. The payment flow passes on iOS and Android. The refund flow is still broken on Android, specifically when the amount has said. Luca found that the rounding happens twice. I'm sure the second round is in the receipt form I heard. We retest on Thursday because the staging database is being refreshed on Wednesday, and then we sign off before the release on Friday.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W15-0082", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W15-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0089", "decision": "fix_clean", "clean": "Aurora's bike got moved, it's now leaving at 6:14, so we'll get her from terminal two.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0091", "decision": "fix_clean", "clean": "The export button is grayed out on the dashboard page when the filter has more than 500 rows.", "reason": "spelling_from_raw"}
+{"id": "s4-W15-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0093", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W15-0094", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W15-0095", "decision": "fix_clean", "clean": "The bridal shower is at 2, and honestly I'm just gonna go to the gym first, love, so I'll see you there.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0097", "decision": "fix_clean", "clean": "Hi Hassen, I wanted to follow up on our call about the studio expansion. We agreed on knocking down the wall between the two rooms, and the quote for that was $6,500, plus about a week of work. The plan is to start on the 10th of February, since the flooring only arrives that week, and we'll keep the front room open for classes during the work. The only thing I still need from you is the permit number and a copy of the insurance certificate. Thanks and talk soon.", "reason": "unrecoverable_word"}
+{"id": "s4-W15-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W15-0099", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W15-0100", "decision": "accept", "reason": "ok"}

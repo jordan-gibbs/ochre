@@ -1,0 +1,50 @@
+{"id": "s4-W12-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'fitting schedule' -> 'biddle'"}
+{"id": "s4-W12-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Thai place' -> 'tide plays'"}
+{"id": "s4-W12-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0060", "decision": "fix_clean", "clean": "Wait, which cabin is my...", "reason": "trailing_off", "rules": ["RECOVER", "R4"], "note": "raw ends on 'my'"}
+{"id": "s4-W12-0061", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W12-0062", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Am or I need the size of 7 centimeters null inches'"}
+{"id": "s4-W12-0063", "decision": "fix_clean", "clean": "Lucas is shooting scene 14 first thing tomorrow.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary, raw 'Lucas'"}
+{"id": "s4-W12-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw cut after 'The rehearsal.'"}
+{"id": "s4-W12-0071", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting garbled ('I just double thank'), 'child has to be gathered'"}
+{"id": "s4-W12-0072", "decision": "fix_clean", "clean": "Update on the summer camp. Registration closed at 212 kids and we have 14 counsellors, which is one short of what we need. I'm gonna ask Jorge if his nephew can fill in Sunday for the orientation.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'counsellors'"}
+{"id": "s4-W12-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and they said the runway show can start' lost"}
+{"id": "s4-W12-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Jamal->Maul, Lukas->Lucas, 'when', 'been' residues"}
+{"id": "s4-W12-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0077", "decision": "fix_clean", "clean": "Action items from the payroll standup. Carmen will fix the overtime calculation by Tuesday. Chitty will confirm the new tax rate at 7.25%, and I'll send the corrected pay stubs to all 108 employees by Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw 'Chitty' (no dictionary), 'it's' heard as 'at'"}
+{"id": "s4-W12-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0079", "decision": "fix_clean", "clean": "I am here following up on the thing for the fall collection. The model measurements you sent say the bust is 36 inches and the waist is 26 inches. Can you confirm both before we cut the fabric on Friday?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'Hi Amir' -> 'I am here', 'fitting' -> 'thing'"}
+{"id": "s4-W12-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Jorge, pickup is' -> 'Or hey to pick up these'"}
+{"id": "s4-W12-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and sorry' -> 'in Sari'"}
+{"id": "s4-W12-0084", "decision": "fix_clean", "clean": "We should send the tax packet out by the 18th to all clients with a balance over $500.", "reason": "unrecoverable_word", "rules": ["R13"], "note": "raw has singular 'packet'"}
+{"id": "s4-W12-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'tell' -> 'until', pickup sentence garbled"}
+{"id": "s4-W12-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'A low carmine', 'seasoned', 'I depreciate'"}
+{"id": "s4-W12-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Form an estimate', 'were place', Lucas, labour"}
+{"id": "s4-W12-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0090", "decision": "fix_clean", "clean": "I'm sorry Chloe, I know I said I'd be there at 6 but the train's still late so I'll make it by 7. Wait, is that okay with you?", "reason": "unrecoverable_word", "rules": ["R13"], "note": "raw 'still late' for 'delayed'"}
+{"id": "s4-W12-0091", "decision": "fix_clean", "clean": "T of E production wrap party Saturday the 14th at the warehouse on Dock Street. Doors at 8, DJ starts at 9, budget is 3,000.", "reason": "unrecoverable_word", "rules": ["R13"], "note": "'TV' heard as 'T of E', not inferable"}
+{"id": "s4-W12-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Jorge' -> 'Or hey'"}
+{"id": "s4-W12-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'we're capping' -> 'for cap in', 'no' -> 'Mail'"}
+{"id": "s4-W12-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'payroll' -> 'a material', several more garbles"}
+{"id": "s4-W12-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles: collegium, adult, Sir George Cowie"}
+{"id": "s4-W12-0096", "decision": "fix_clean", "clean": "Dear Chitty, I'm writing to follow up on the client files you asked about. The Smith family trust has a filing deadline of October 15th because of the extension we filed earlier, and the total estimated tax owed is $19,400 based on the latest figures. I've attached the worksheet, and I'd like to walk you through it on a call tomorrow at 2 PM or maybe 3 PM, whichever is better for you. Thank you, Jorge", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary, raw 'Chitty'"}
+{"id": "s4-W12-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0098", "decision": "fix_clean", "clean": "Heads up everyone, the schedule changed for the shoot tomorrow. Call time is now 6:30 instead of 7, and we're moving to the second location first, which is the warehouse on Mill Road, not the studio. Luke is confirmed the permit is good until 5 PM, and the catering truck will arrive at 11:30, so lunch is at 12. Please don't be late, the director's already stressed.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary, raw 'Luke is'"}
+{"id": "s4-W12-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W12-0100", "decision": "drop", "reason": "hallucination", "note": "trailing 'Uh-huh.' never said"}

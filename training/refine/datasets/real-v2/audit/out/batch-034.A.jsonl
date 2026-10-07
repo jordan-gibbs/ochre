@@ -1,0 +1,50 @@
+{"id": "s2-W4-0151", "decision": "drop", "reason": "hallucination", "note": "'Mm-hmm.' decoded after trailing off; also 'cavalry' for cover letter"}
+{"id": "s2-W4-0152", "decision": "drop", "reason": "hallucination", "note": "'Yeah.' appended from trailing noise"}
+{"id": "s2-W4-0153", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0155", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0157", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0158", "decision": "fix_clean", "clean": "Do you still have my charger?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Hey' heard as 'K'; not inferable"}
+{"id": "s2-W4-0159", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0160", "decision": "drop", "reason": "hallucination", "note": "'Yeah.' appended from trailing noise"}
+{"id": "s2-W4-0161", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0162", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0163", "decision": "fix_clean", "clean": "The report export fails with the timeout when the date range is longer than 90 days. I tried it with 60 days and it worked, but with 95 it just spins and the logs show nothing, so I am guessing the query is...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the timeout'"}
+{"id": "s2-W4-0164", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0165", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'a dread'"}
+{"id": "s2-W4-0166", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening 'thinking about the pricing page what if' lost"}
+{"id": "s2-W4-0167", "decision": "fix_clean", "clean": "Just a heads up, though.", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends 'heads up, though.'; trailing off not visible"}
+{"id": "s2-W4-0168", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0169", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'It says.' for git status"}
+{"id": "s2-W4-0170", "decision": "fix_clean", "clean": "git commit -m \"fake login bug\"", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'fix' heard as 'fake'"}
+{"id": "s2-W4-0171", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pip' heard as 'That'"}
+{"id": "s2-W4-0172", "decision": "drop", "reason": "hallucination", "note": "'Yeah.' appended"}
+{"id": "s2-W4-0173", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W4-0174", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0175", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0176", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'apt' dropped twice"}
+{"id": "s2-W4-0177", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled"}
+{"id": "s2-W4-0178", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0179", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W4-0180", "decision": "drop", "reason": "hallucination", "note": "'Yeah.' appended; 'dev' heard as 'Dead'"}
+{"id": "s2-W4-0181", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'whole world' and 'out dot fifty'"}
+{"id": "s2-W4-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0183", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0187", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0188", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W4-0189", "decision": "fix_clean", "clean": "git add", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'dot' lost"}
+{"id": "s2-W4-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0191", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled"}
+{"id": "s2-W4-0192", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0194", "decision": "drop", "reason": "unrecoverable_meaning", "note": "URL garbled"}
+{"id": "s2-W4-0195", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled"}
+{"id": "s2-W4-0196", "decision": "drop", "reason": "unrecoverable_meaning", "note": "third command garbled"}
+{"id": "s2-W4-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0199", "decision": "fix_clean", "clean": "Running npm install --force fixes it, but we should not need the flag.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the flag'"}
+{"id": "s2-W4-0200", "decision": "accept", "reason": "ok"}

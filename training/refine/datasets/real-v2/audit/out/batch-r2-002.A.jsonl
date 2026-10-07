@@ -1,0 +1,33 @@
+{"id": "s2-W1-0345-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0350-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0375-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0377-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'quick note' heard as 'No.' and 'liability' as 'my ability'; target not traceable to raw"}
+{"id": "s2-W1-0382-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw has SUMMY, 'make this short', 'past criterion', 'cases'; more than 2 places differ"}
+{"id": "s2-W1-0383-r2", "decision": "fix_clean", "clean": "I want you to help me plan a workout routine. Beginner, I can work out four days a week for about 45 minutes each, and I only have dumbbells and a pull-up bar at home. The goal is to build general strength, not to get huge. Please give me a simple split, tell me how many sets and reps for each exercise, and explain how to progress over the first eight weeks.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'I'm a'; only 'Beginner.' remains"}
+{"id": "s2-W1-0385-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0386-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0387-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'backoff' heard as 'the cost', plus 'and you' and 'the warning'; not traceable"}
+{"id": "s2-W1-0389-r2", "decision": "fix_clean", "clean": "What are the symptoms of little iron and how do I know if I should get a blood test?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'of a little iron' ('a' is the of-of stutter residue); 'low' not in raw"}
+{"id": "s2-W1-0402-r2", "decision": "fix_clean", "clean": "I guess what I want is just a quick sanity check on my pricing. I am charging $50 an hour for freelance design work, I have six years of experience, and mostly work with small businesses. Is that too low, and how should I raise my rates without scaring off my current clients?", "reason": "guide_violation", "rules": ["R10"], "note": "clean added 'I' that was never said"}
+{"id": "s2-W1-0406-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'none of them' heard as 'now then', plus caught/from and contractions; too many places"}
+{"id": "s2-W1-0410-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'that I can't tell if it's any good', 'and why' -> 'in Y', 'rewrite' -> 'but write'"}
+{"id": "s2-W1-0415-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0417-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0446-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0462-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "clean has 'a short list', 'in the', 'a list', 'Can you' where raw has none/And/The/And; >2 places"}
+{"id": "s2-W1-0465-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0474-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0492-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'whether ... has' <- 'what are ... as', 'bus' <- 'boss', 'about' <- 'off'; >2 places"}
+{"id": "s2-W1-0494-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'pork' -> 'poor', 'skill' -> 'scale', 'Hi' -> 'I', contractions differ; too many places"}
+{"id": "s2-W1-0495-r2", "decision": "fix_clean", "clean": "From this point on I want you to behave differently. First, do not apologize. Second, do not start your answers with phrases like \"sure\" or \"certainly\" or \"of course\", just start with the answer. Third, if my question is vague, ask me one clarifying question instead of guessing. Fourth, if you don't know something, say you don't know, do not make up an answer. Fifth, keep your answer short unless I ask for more detail. If you understand these five rules, do not summarize them back to me, just say okay and wait for my first question.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'ever' and has 'answer' (singular); 'Death' as Fifth is inferable from the enumeration"}
+{"id": "s2-W2-0011-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0027-r2", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'not production' heard as 'that production' and clean omits it; 'not' unrecoverable"}
+{"id": "s2-W2-0028-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0040-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0060-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0096-r2", "decision": "fix_clean", "clean": "When I click export, it hangs for like 30 seconds and then fails with the timeout.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the timeout'"}
+{"id": "s2-W2-0116-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0125-r2", "decision": "fix_clean", "clean": "The maximum upload size is 20 MB.", "reason": "trailing_off", "rules": ["RECOVER"], "note": "raw lost 'for premium accounts'"}
+{"id": "s2-W2-0138-r2", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0177-r2", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W2-0194-r2", "decision": "accept", "reason": "ok"}

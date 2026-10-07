@@ -1,0 +1,50 @@
+{"id": "s2-W11-0101", "decision": "fix_clean", "clean": "Now, the doctor said everything looks good. Next checkup is in 6 months.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Mom misheard as Now"}
+{"id": "s2-W11-0102", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W11-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0104", "decision": "drop", "reason": "unrecoverable_meaning", "note": "second point and third marker lost"}
+{"id": "s2-W11-0105", "decision": "fix_clean", "clean": "Reminder that the all hands is at 2 p.m. today in the May auditorium. Ratio will present the new 2025 goals.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "main->May, Rachel->Ratio"}
+{"id": "s2-W11-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0107", "decision": "drop", "reason": "unrecoverable_meaning", "note": "path garbled"}
+{"id": "s2-W11-0108", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0110", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name Mina; \"not\" lost, flips meaning"}
+{"id": "s2-W11-0111", "decision": "fix_clean", "clean": "Please summarize the main arguments in the following essay in no more than 120 words. Keep the author's tone and do not add your own opinions. After the summary, list 3 questions that a reader might ask. You paste the essay below.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "I'll heard as you"}
+{"id": "s2-W11-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0113", "decision": "fix_clean", "clean": "python manage.py migrate --state-initial", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "fake heard as state"}
+{"id": "s2-W11-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0115", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0117", "decision": "drop", "reason": "unrecoverable_meaning", "note": "runbook/Aisha clause lost"}
+{"id": "s2-W11-0118", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0119", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0120", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0121", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0122", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0123", "decision": "fix_clean", "clean": "I'm choosing a hash map here instead of an array because the keys are sparse. The IDs range from 1 to about 9 million but only a few thousand are ever used. An array would waste hundreds of megabytes to look up. It's still constant time, so performance is fine.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "the lookup heard as to look up"}
+{"id": "s2-W11-0124", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah; also garbled keeping"}
+{"id": "s2-W11-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0127", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw nearly empty"}
+{"id": "s2-W11-0128", "decision": "drop", "reason": "unrecoverable_meaning", "note": "finance needs garbled"}
+{"id": "s2-W11-0129", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0131", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah; Write for Rewrite"}
+{"id": "s2-W11-0132", "decision": "fix_clean", "clean": "The Jenkins job from release 2.9 is stuck in the queue. Does anyone know who can restart the age?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "for->from, agent->age, no invented hyphen"}
+{"id": "s2-W11-0133", "decision": "drop", "reason": "unrecoverable_meaning", "note": "rent sentence and pay stub garbled"}
+{"id": "s2-W11-0134", "decision": "fix_clean", "clean": "Summary, the checkout page hangs when the cart contains more than 50 items. Steps to reproduce, add 51 items to the cart and click Pay Now. The spinner never stops and the network tab shows a 504 from the payment service. This started in version 2.7.0.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has payment service"}
+{"id": "s2-W11-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0136", "decision": "fix_clean", "clean": "Accessibility issue, the modal dialogue does not trap keyboard focus. Pressing Tab moves the focus to elements behind the overlay, which is confusing for screen reader users. It also fails the WCAG requirements for focus management. Please fix this before the audit on November 20th.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "dialogue variant from raw"}
+{"id": "s2-W11-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0138", "decision": "fix_clean", "clean": "Who owns the building service now?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "billing heard as building"}
+{"id": "s2-W11-0139", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0140", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah; assistant theme"}
+{"id": "s2-W11-0141", "decision": "fix_clean", "clean": "Quick update, the Stripe webhook is now live in production. Sophia tested it with a $5 charge and it came through fine.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s2-W11-0142", "decision": "drop", "reason": "hallucination", "note": "trailing Okay."}
+{"id": "s2-W11-0143", "decision": "fix_clean", "clean": "I'm writing a cover letter for a product manager role at a fintech startup. I have 6 years of experience in e-commerce and I led a team of 8 engineers. Please write a first draft that is confident but not arrogant. Keep it to 3 short paragraphs and include a line about why I like their mission.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "e-commerce from raw"}
+{"id": "s2-W11-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0145", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pummet, they like the add ons"}
+{"id": "s2-W11-0146", "decision": "drop", "reason": "unrecoverable_meaning", "note": "stir medication, him free, Alo"}
+{"id": "s2-W11-0147", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several garbles"}
+{"id": "s2-W11-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0149", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W11-0150", "decision": "fix_clean", "clean": "Thanks Alina, that fixed it.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name from raw"}

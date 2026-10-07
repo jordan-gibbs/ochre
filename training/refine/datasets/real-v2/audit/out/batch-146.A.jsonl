@@ -1,0 +1,50 @@
+{"id": "s4-W40-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Baby a section' for 'maybe a section' not inferable"}
+{"id": "s4-W40-0061", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'third weekend up.' loses the trailing 'of'; 'dates' vs 'date'"}
+{"id": "s4-W40-0062", "decision": "fix_clean", "clean": "Give me three subject lines for flash sale email, and make them punchy, not salesy.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'a' dropped by recognizer"}
+{"id": "s4-W40-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Argen' and 'And you look' (Can lost)"}
+{"id": "s4-W40-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Watchlist for next week' lost"}
+{"id": "s4-W40-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0066", "decision": "fix_clean", "clean": "Dude, my team is so cooked this week, three starters out and the backup quarterback is...", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'are' dropped"}
+{"id": "s4-W40-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'thank you for your patience' lost plus 'then' for 'and'"}
+{"id": "s4-W40-0068", "decision": "fix_clean", "clean": "If we can get the loading done by noon, then we can start the sound check around 1.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'load in' heard as 'loading'"}
+{"id": "s4-W40-0069", "decision": "accept", "reason": "ok", "note": "Part->Cart and R->are judged inferable from context"}
+{"id": "s4-W40-0070", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W40-0071", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'teen and third', 'clinched', ending 'on a bye' lost"}
+{"id": "s4-W40-0072", "decision": "fix_clean", "clean": "Hi Diara, I've gone through the registration export from Cvent and there are about 40 duplicate entries, mostly people who signed up once with a work address and once with a personal one. I also noticed that the dietary field is blank for almost everyone, so we may need to resend that survey before Friday.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "Yara not in dictionary; raw 'Diara'"}
+{"id": "s4-W40-0073", "decision": "fix_clean", "clean": "The walkthrough this morning went fine except the engine bay floor drain is still backing up. The chief said the plumber was coming Tuesday, and then he said maybe Wednesday, so I plan on the bay being half closed until at least the end of the week.", "reason": "unrecoverable_word", "rules": ["R10", "RECOVER"], "note": "raw has 'I plan', not 'I'd plan'"}
+{"id": "s4-W40-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0075", "decision": "fix_clean", "clean": "Felix, I listen to the rough bounce and the bass is way too hot in the second verse, and I think the snare needs to come up a little too, not a lot but just enough that it cuts through when the guitars come in.", "reason": "unrecoverable_word", "rules": ["R10", "RECOVER"], "note": "raw tense 'listen'"}
+{"id": "s4-W40-0076", "decision": "fix_clean", "clean": "Okay, you're not gonna believe this, but my brother actually won the league last night. He's never won anything, and he spent the whole morning texting everybody about it like it was the Super Bowl.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw spells 'Okay'"}
+{"id": "s4-W40-0077", "decision": "accept", "reason": "ok", "note": "backward->backordered judged inferable"}
+{"id": "s4-W40-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw truncated; 'or if it was just the free coffee' lost"}
+{"id": "s4-W40-0081", "decision": "fix_clean", "clean": "All engine company members are expected to complete the annual hose evolution before the end of June. The schedule is posted in the break room, and if you can't make your assigned slot, please swap with someone on your shift and let the captain know, and then...", "reason": "unrecoverable_word", "rules": ["R13", "R4", "RECOVER"], "note": "raw ends 'And then'"}
+{"id": "s4-W40-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi J look at', 'The full on most phones'"}
+{"id": "s4-W40-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Brazil', 'skip to the opening act' changes meaning"}
+{"id": "s4-W40-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'which two appoints', 'constellation bracket'"}
+{"id": "s4-W40-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Did the dispatch soft or update', 'light', 'lighting'"}
+{"id": "s4-W40-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi camera', 'price chain', 'big weekend'"}
+{"id": "s4-W40-0089", "decision": "fix_clean", "clean": "I need somebody to cover the 10 to 6 on the 3rd, I know it's short notice, I'd do it myself but I'm at my sister's wedding, and everyone I had asked so far is either working or out of town or...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "recognizer added plausible 'had'"}
+{"id": "s4-W40-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'second shape', 'backend vocals', tambourine lost, 'spring park'"}
+{"id": "s4-W40-0091", "decision": "fix_clean", "clean": "I run a small online shop selling hand dyed yarn and I want to write a product description for a new scheme. It's a deep teal color with flecks of gold. Can you write one that sounds warm and a little playful but not over the top?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "skein heard as 'scheme'"}
+{"id": "s4-W40-0092", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'tag', 'clear over', 'fire drill up'"}
+{"id": "s4-W40-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "line description lost, 'stand', 'Arden', 'sides', 'who has that' lost"}
+{"id": "s4-W40-0095", "decision": "fix_clean", "clean": "Recap of the station meeting, the captain wants everyone to finish the medical recertification by the end of the quarter, there are 12 people who haven't started, and he's going to send a reminder on Monday. The new tank arrives in three weeks and we need volunteers for the training sessions, probably two evenings. The budget for next year is still being worked out, and the city council is meeting on the 9th, so we'll know more after that. Last thing, the holiday potluck is on the 20th and sign ups are on the fridge.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'tank' for tanker; podlock->potluck inferable"}
+{"id": "s4-W40-0096", "decision": "fix_clean", "clean": "Hi Oscar, I'm writing about the order that went missing. I checked with the carrier this morning and they say it was delivered on the 6th to a neighbor's address, but I know that's not right because the address on the label was correct, so I don't think they're telling the whole story. What I'd like to do is send you a replacement today at no charge, and then I'll file the claim on our end, which usually takes a week or two, and I'll keep you posted on that. I'm really sorry about the hassle, and if there's anything else going wrong with the account, I'd be happy to look at it while I have it, and also they...", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw 'have it' and trailing 'they'"}
+{"id": "s4-W40-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Uma, Reza, 'ballot and slot or', 'only artwork' lost"}
+{"id": "s4-W40-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Frady Journal', 'Energy F', 'two percent game'"}
+{"id": "s4-W40-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'around, too', 'half way drew', 'lake', 'And you'"}
+{"id": "s4-W40-0100", "decision": "fix_clean", "clean": "Hi Felix, following up on our call from yesterday. As discussed, we'll move the mixing sessions to the week of the 22nd, and I'll send over the revised schedule once the engineer confirms. A couple of other things. The invoice for the tracking days should be coming from accounting by the end of the week, and if you haven't received it by then, let me know, and I'll chase it. Also, I wanted to mention that the studio is going to be closed for maintenance on the 4th, so if you have anything you need to pick up, drags or notes or whatever, please grab it before then. Otherwise I think we're in good shape, and I'm looking forward to hearing the first mixes. Talk soon.", "reason": "number_value", "rules": ["R7", "R13", "RECOVER"], "note": "raw '4T' (value 4, not 14); 'drags' kept"}

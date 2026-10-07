@@ -1,0 +1,50 @@
+{"id": "s4-W60-0091", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W60-0092", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W60-0093", "decision": "fix_clean", "clean": "Inside, the plan is simple. We meet at the lobby at noon, walk to the Tuples place, and then head back by 1:30, because I have a call at 2.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0096", "decision": "fix_clean", "clean": "Bill, I keep getting phishing DMs from fake support accounts, three a day, so I muted the whole server and now I'm kind of out of the loop.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0097", "decision": "fix_clean", "clean": "Alright, tell the little ones to bring their ballet shoes in the tights, not the leotards. The leotards are provided, I mean the ones with the school logo.", "reason": "unrecoverable_word"}
+{"id": "s4-W60-0098", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W60-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0100", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0001", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0002", "decision": "fix_clean", "clean": "A Claire, I was gonna say we should probably move book club to...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0003", "decision": "fix_clean", "clean": "How to transfer a car title in a dealership.", "reason": "trailing_off"}
+{"id": "s4-W61-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0005", "decision": "fix_clean", "clean": "Hi Ayeshu, thanks for sending the urgent care schedule. The only thing I'd flag is that the Saturday shift...", "reason": "dropped_by_recognizer"}
+{"id": "s4-W61-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0007", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W61-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0009", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W61-0010", "decision": "fix_clean", "clean": "Oh man. Gee Lori, you will not believe what the guy at the dealership told me about the...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0012", "decision": "fix_clean", "clean": "We should loop in Dominic before we...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0013", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W61-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0015", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W61-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0017", "decision": "fix_clean", "clean": "And you pick up the book from the library on your way home.", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0018", "decision": "fix_clean", "clean": "Summarize the following meeting notes in three bullet points.", "reason": "trailing_off"}
+{"id": "s4-W61-0019", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W61-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0022", "decision": "fix_clean", "clean": "But the waiting room is packed and the nurse said it'll be at least...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0023", "decision": "fix_clean", "clean": "This function assumes that your reading is always positive, but if the...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0028", "decision": "fix_clean", "clean": "Hi Lura, the car is ready for pickup. The keys are at the front desk in a few...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0029", "decision": "fix_clean", "clean": "Nora, I don't think Chloe's coming tonight. She said she was feeling kind of...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0033", "decision": "fix_clean", "clean": "The save button stays grayed out after you edit the profile.", "reason": "spelling_from_raw"}
+{"id": "s4-W61-0034", "decision": "fix_clean", "clean": "The minute I'm outside the courthouse and I can't find the...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0036", "decision": "fix_clean", "clean": "Thanks, Grace, for the update on the urgent care renovation.", "reason": "trailing_off"}
+{"id": "s4-W61-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W61-0038", "decision": "fix_clean", "clean": "Game studio retro, wins, the launch trailer, losses, though...", "reason": "unrecoverable_word"}
+{"id": "s4-W61-0039", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W61-0040", "decision": "accept", "reason": "ok"}

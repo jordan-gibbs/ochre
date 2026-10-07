@@ -1,0 +1,50 @@
+{"id": "s4-W14-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0052", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W14-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0054", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W14-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0057", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W14-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0060", "decision": "fix_clean", "clean": "The section explains how members can dispute your charge.", "reason": "unrecoverable_word"}
+{"id": "s4-W14-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0063", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W14-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0069", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W14-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0072", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W14-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0074", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W14-0075", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W14-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0077", "decision": "fix_clean", "clean": "As agreed on the call, we will cap the fee of 5%.", "reason": "unrecoverable_word"}
+{"id": "s4-W14-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0079", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W14-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0082", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W14-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0085", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W14-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0091", "decision": "fix_clean", "clean": "The winner was carried by two seconds.", "reason": "unrecoverable_word"}
+{"id": "s4-W14-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0096", "decision": "fix_clean", "clean": "Hi Hannah, thanks for sending the paperwork over. Unfortunately the court needs the original, not a copy, so can you drop it by the clerk's window on the second floor before 4 on Thursday? Thanks so much. Best, Laura", "reason": "unrecoverable_word"}
+{"id": "s4-W14-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0098", "decision": "fix_clean", "clean": "I actually like the old route better, lol.", "reason": "spelling_from_raw"}
+{"id": "s4-W14-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W14-0100", "decision": "drop", "reason": "unrecoverable_meaning"}

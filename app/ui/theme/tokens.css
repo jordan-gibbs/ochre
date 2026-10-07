@@ -1,0 +1,387 @@
+/* ==========================================================================================
+   Ochre design tokens: "Paper & Vermilion"
+   ------------------------------------------------------------------------------------------
+   Warm paper and porcelain surfaces, near-black ink, and ONE hero accent: Vermilion, a
+   red-leaning orange. Flat: no gradients. Shadows are neutral and soft, with one exception:
+   the hero surfaces (the HUD pill, the primary button, the active nav item) sit on a faint,
+   wide, vermilion-tinted diffuse shadow (--shadow-hero*). A tint, never a neon glow.
+   Two strengths of the same orange:
+     --accent       #D4400E  fills that carry white text (buttons, the locked pill)  4.6:1
+     --hud-accent   #F04E16  bright marks with no text on them (level bars, ring, sparkle)
+     --accent-ink   #C23A0C  orange as text / links on paper                          5.3:1
+   Type: Funnel Display 700 at -0.04em (display: titles, the onboarding hero, big numbers),
+   Instrument Sans (UI), Geist Mono (keys, numbers). Brand handoff 2026-10-05.
+
+   Theme resolution (light by default; config `ui.theme` = "light" | "dark" | "system"):
+     default / [data-theme="light"]  light
+     [data-theme="dark"]             dark; works on <html> or on any subtree (previews)
+   "system" is resolved in JS (shared/bridge.js applyTheme), which writes data-theme on <html>
+   and follows the OS while the page is open. There is deliberately no prefers-color-scheme
+   rule here: without a data-theme the app is light.
+   Contrast: every text pair is AA (4.5:1), UI pairs 3:1; see contrast-check.py.
+
+   Names: the short names (--bg, --panel, --ink, --line, --ease, --spring, ...) match the ones
+   app/ui already uses. Variable NAMES are a stable contract; only values change between
+   revisions. --companion* and --hud-companion keep their names but resolve to the accent
+   family (one accent only). Aliases at the end keep the older token names working.
+   ========================================================================================== */
+
+/* ---------------------------------------------------------------------------------- fonts */
+/* Funnel Display (OFL 1.1, Latin subset): the display face. No italic exists; none is used. */
+@font-face { font-family: 'Funnel Display'; font-style: normal; font-weight: 500; font-display: swap; src: url('fonts/FunnelDisplay-500.woff2') format('woff2'); }
+@font-face { font-family: 'Funnel Display'; font-style: normal; font-weight: 600; font-display: swap; src: url('fonts/FunnelDisplay-600.woff2') format('woff2'); }
+@font-face { font-family: 'Funnel Display'; font-style: normal; font-weight: 700; font-display: swap; src: url('fonts/FunnelDisplay-700.woff2') format('woff2'); }
+@font-face { font-family: 'Funnel Display'; font-style: normal; font-weight: 800; font-display: swap; src: url('fonts/FunnelDisplay-800.woff2') format('woff2'); }
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400 700;
+  src: url('fonts/instrument-sans-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400 700;
+  src: url('fonts/instrument-sans-latin-ext-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: italic;
+  font-display: block;
+  font-weight: 400 700;
+  src: url('fonts/instrument-sans-latin-wght-italic.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: italic;
+  font-display: block;
+  font-weight: 400 700;
+  src: url('fonts/instrument-sans-latin-ext-wght-italic.woff2') format('woff2-variations');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Geist Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('fonts/geist-mono-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Geist Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('fonts/geist-mono-latin-ext-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* ------------------------------------------------------------ theme-independent tokens */
+:root {
+  /* type */
+  --font-sans: 'Instrument Sans', 'Segoe UI Variable Text', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-display: 'Funnel Display', 'Instrument Sans', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace;
+
+  --text-2xs: 11px;    /* keycap legends, badges */
+  --text-xs: 12px;     /* captions, meta */
+  --text-sm: 13px;     /* row descriptions, hints */
+  --text-base: 14px;   /* body, controls */
+  --text-md: 15px;     /* HUD label, bubble */
+  --text-lg: 17px;     /* group titles */
+  --text-xl: 22px;     /* display, small */
+  --text-2xl: 30px;    /* page titles (display) */
+  --text-3xl: 42px;    /* onboarding hero (display) */
+
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-normal: 1.5;
+
+  --weight-regular: 420;
+  --weight-medium: 520;
+  --weight-semibold: 600;
+  --weight-bold: 680;
+
+  --tracking-tight: -0.012em;   /* large UI text */
+  --tracking-display: -0.04em;  /* display headlines (Funnel Display) */
+  --tracking-wordmark: -0.045em;/* the outlined wordmark was set at this */
+  --weight-display: 700;
+  --display-weight: var(--weight-display);     /* brand handoff names */
+  --display-tracking: var(--tracking-display);
+  --tracking-normal: 0;
+  --tracking-wide: 0.06em;      /* small caps labels */
+
+  /* radii */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+  --radius-full: 999px;
+  --radius: var(--radius-md);
+
+  /* spacing: 4px base */
+  --space-0: 2px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+
+  /* blur (settings glass only: in the transparent HUD window backdrop-filter has nothing to blur) */
+  --blur-sm: 8px;
+  --blur-md: 20px;
+  --blur-lg: 40px;
+  --glass-saturate: 170%;
+
+  /* motion: "glide". Things arrive fast and settle softly (expo-out), leave quicker than they
+     came (ease-in, shorter), and only presence changes get a hint of overshoot (spring). */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);          /* default: enter, morph, hover */
+  --ease-in: cubic-bezier(0.5, 0, 0.75, 0);       /* exits */
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);  /* loops, position swaps */
+  --spring: cubic-bezier(0.34, 1.32, 0.64, 1);    /* HUD enter, toggle knob, check pop */
+  --ease-linear: linear;                          /* spinners */
+
+  --dur-1: 90ms;    /* press, colour flips */
+  --dur-2: 160ms;   /* hover, small fades, exits */
+  --dur-3: 240ms;   /* default transition, toggles */
+  --dur-4: 380ms;   /* HUD enter, pill width morph */
+  --dur-5: 600ms;   /* check draw, page-level */
+  --loop-fast: 1100ms;   /* spinners, dots wave */
+  --loop: 1800ms;        /* shimmer, refine ring */
+  --loop-slow: 2800ms;   /* breathing (hands-free armed, key capture) */
+  --motion-distance: 1;  /* multiply translate distances; 0 under reduced motion */
+
+  --level-smoothing: 0.22;  /* JS hint: per-frame lerp factor for the level meter (legacy bars) */
+  /* the speaking "o" (HUD level): the brand o scales with your voice, read once by hud-kit.js */
+  --o-attack: 80ms;           /* envelope rise time constant */
+  --o-release: 300ms;         /* envelope fall time constant */
+  --o-grow: 0.3;              /* extra scale at full voice: 1.0 silent -> 1.3 loud */
+
+  /* brand (handoff 2026-10-05) */
+  --brand-icon: #f04e16;      /* icon tile and bright mark; never under text (white on it 3.62:1) */
+  --brand-ink: #1a1714;
+  --brand-paper: #f7f5f1;
+
+  /* z */
+  --z-sticky: 10;
+  --z-popover: 50;
+  --z-toast: 80;
+}
+
+/* ------------------------------------------------------------------------- light (default) */
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+
+  /* surfaces: paper (canvas) and porcelain (cards) */
+  --bg: #f7f5f1;
+  --bg-2: #efebe5;            /* sidebar / nav */
+  --panel: #fffefc;
+  --panel-2: #fbf9f6;
+  --sunk: #f2efea;            /* inputs, segmented track */
+  --chip: #ffffff;            /* segmented thumb */
+  --glass: rgba(255, 254, 252, 0.74);
+  --glass-strong: rgba(255, 254, 252, 0.9);
+  --line: rgba(40, 30, 20, 0.09);
+  --line-2: rgba(40, 30, 20, 0.15);
+  --line-strong: #8f877e;     /* 3:1 control outlines */
+
+  /* text */
+  --ink: #1a1714;
+  --ink-2: #5a544d;
+  --ink-3: #6f6860;
+  --ink-4: rgba(26, 23, 20, 0.14);
+
+  /* the one accent: Vermilion */
+  --accent: #d4400e;
+  --accent-2: #bc380b;        /* hover / pressed */
+  --accent-ink: #c23a0c;      /* orange text and links */
+  --accent-soft: #fcebe2;
+  --accent-line: rgba(212, 64, 14, 0.34);
+  --on-accent: #ffffff;
+  --accent-glow: rgba(212, 64, 14, 0.2);   /* focus halos only, never a bloom */
+
+  /* companion: retired as a colour; aliases the accent so old usages stay on-brand */
+  --companion: var(--accent);
+  --companion-ink: var(--accent-ink);
+  --companion-soft: var(--accent-soft);
+
+  /* semantic, quiet */
+  --success: #2f8f5b;
+  --success-ink: #1f7346;
+  --success-soft: #e7f2ea;
+  --warning: #c98a12;
+  --warning-ink: #875800;
+  --warning-soft: #faf0da;
+  --danger: #c8323f;
+  --danger-ink: #b4283a;
+  --danger-soft: #fbe9ea;
+
+  /* elevation: neutral, soft */
+  --shadow-xs: 0 1px 1px rgba(20, 16, 12, 0.04);
+  --shadow-sm: 0 1px 2px rgba(20, 16, 12, 0.05), 0 2px 8px -2px rgba(20, 16, 12, 0.07);
+  --shadow: 0 2px 4px rgba(20, 16, 12, 0.04), 0 12px 32px -12px rgba(20, 16, 12, 0.18);
+  --shadow-lg: 0 4px 10px rgba(20, 16, 12, 0.05), 0 28px 64px -20px rgba(20, 16, 12, 0.26);
+  --focus: 0 0 0 3px rgba(212, 64, 14, 0.24);
+  --inset-top: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  /* hero: a faint vermilion-tinted diffuse shadow under the hero surfaces. Wide and low, so it
+     reads as warm light, not a glow. -active is the HUD while it listens. */
+  --shadow-hero: 0 6px 22px -6px rgba(240, 78, 22, 0.14), 0 2px 6px -2px rgba(240, 78, 22, 0.06);
+  --shadow-hero-active: 0 8px 28px -6px rgba(240, 78, 22, 0.22), 0 2px 8px -2px rgba(240, 78, 22, 0.1);
+  --shadow-hero-sm: 0 4px 12px -4px rgba(212, 64, 14, 0.32);   /* primary button, active nav */
+
+  /* HUD: frosted porcelain pill, ink text, vermilion the only colour */
+  --hud-bg: rgba(255, 254, 252, 0.96);
+  --hud-bg-2: rgba(250, 248, 244, 0.97);
+  --hud-edge: rgba(40, 30, 20, 0.07);
+  --hud-top-light: rgba(255, 255, 255, 1);
+  --hud-outline: rgba(30, 22, 14, 0.09);
+  --hud-shadow: 0 1px 2px rgba(20, 16, 12, 0.08), 0 10px 28px -8px rgba(20, 16, 12, 0.24);
+  --hud-ink: #1a1714;
+  --hud-ink-2: #5a544d;
+  --hud-ink-3: #7a736b;       /* unconfirmed words, 4.6:1 */
+  --hud-ink-4: rgba(26, 23, 20, 0.08);   /* orb, tracks */
+  --hud-hover: rgba(26, 23, 20, 0.06);
+  --hud-press: rgba(26, 23, 20, 0.11);
+  --hud-accent: #f04e16;      /* bright: bars, ring, sparkle, caret (never under text) */
+  --hud-accent-2: #c23a0c;    /* orange as text */
+  --hud-accent-soft: rgba(240, 78, 22, 0.12);
+  --hud-companion: var(--hud-accent);
+  --hud-success: #2f8f5b;
+  --hud-success-soft: rgba(47, 143, 91, 0.12);
+  --hud-warning: #c98a12;
+  --hud-danger: #c8323f;
+  --hud-danger-soft: rgba(200, 50, 63, 0.10);
+}
+
+/* ------------------------------------------------------------------------------- dark */
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #151412;
+  --bg-2: #1a1917;
+  --panel: #1f1d1a;
+  --panel-2: #25231f;
+  --sunk: #292622;
+  --chip: #34312c;
+  --glass: rgba(31, 29, 26, 0.72);
+  --glass-strong: rgba(37, 35, 31, 0.88);
+  --line: rgba(255, 245, 230, 0.07);
+  --line-2: rgba(255, 245, 230, 0.12);
+  --line-strong: #7a736b;
+  --ink: #f3efe9;
+  --ink-2: #b3aca3;
+  --ink-3: #999189;
+  --ink-4: rgba(243, 239, 233, 0.14);
+  --accent: #d4400e;
+  --accent-2: #bc380b;
+  --accent-ink: #ff8552;
+  --accent-soft: #3a2319;
+  --accent-line: rgba(255, 133, 82, 0.4);
+  --on-accent: #ffffff;
+  --accent-glow: rgba(255, 106, 51, 0.24);
+  --companion: var(--accent);
+  --companion-ink: var(--accent-ink);
+  --companion-soft: var(--accent-soft);
+  --success: #3fa86e;
+  --success-ink: #62c48f;
+  --success-soft: rgba(98, 196, 143, 0.12);
+  --warning: #e3b341;
+  --warning-ink: #e3b341;
+  --warning-soft: rgba(227, 179, 65, 0.12);
+  --danger: #e5555f;
+  --danger-ink: #f2737c;
+  --danger-soft: #3a2224;
+  --shadow-xs: 0 1px 1px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35), 0 2px 8px -2px rgba(0, 0, 0, 0.4);
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 14px 36px -12px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 4px 10px rgba(0, 0, 0, 0.35), 0 30px 70px -20px rgba(0, 0, 0, 0.7);
+  --focus: 0 0 0 3px rgba(255, 106, 51, 0.35);
+  --inset-top: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  /* hero, dark: the same warm light, a touch stronger to read against ink */
+  --shadow-hero: 0 6px 24px -6px rgba(255, 106, 51, 0.12), 0 2px 6px -2px rgba(255, 106, 51, 0.05);
+  --shadow-hero-active: 0 8px 30px -6px rgba(255, 106, 51, 0.26), 0 2px 8px -2px rgba(255, 106, 51, 0.12);
+  --shadow-hero-sm: 0 4px 14px -4px rgba(255, 106, 51, 0.34);
+  --hud-bg: rgba(42, 39, 35, 0.96);
+  --hud-bg-2: rgba(36, 33, 30, 0.97);
+  --hud-edge: rgba(255, 245, 230, 0.09);
+  --hud-top-light: rgba(255, 255, 255, 0.07);
+  --hud-outline: rgba(0, 0, 0, 0.4);
+  --hud-shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 12px 32px -8px rgba(0, 0, 0, 0.6);
+  --hud-ink: #f3efe9;
+  --hud-ink-2: rgba(243, 239, 233, 0.66);
+  --hud-ink-3: rgba(243, 239, 233, 0.55);
+  --hud-ink-4: rgba(243, 239, 233, 0.10);
+  --hud-hover: rgba(255, 255, 255, 0.08);
+  --hud-press: rgba(255, 255, 255, 0.14);
+  --hud-accent: #ff6a33;
+  --hud-accent-2: #ff8552;
+  --hud-accent-soft: rgba(255, 106, 51, 0.16);
+  --hud-companion: var(--hud-accent);
+  --hud-success: #5cc48a;
+  --hud-success-soft: rgba(92, 196, 138, 0.15);
+  --hud-warning: #e3b341;
+  --hud-danger: #f2737c;
+  --hud-danger-soft: rgba(242, 115, 124, 0.15);
+}
+
+/* ------------------------------------------------ HUD constants (same in both themes) */
+:root {
+  --hud-locked: #d4400e;       /* the locked pill is solid vermilion */
+  --hud-locked-2: #d4400e;     /* kept for compatibility; flat, so equal to --hud-locked */
+  --hud-on-locked: #ffffff;
+  --hud-on-locked-2: #ffffff;  /* hint on the locked pill: white, lighter weight */
+  --hud-refine-gradient: none; /* retired: refining is a sparkle + shimmer, not a ring */
+}
+
+/* ------------------------------------------------------------------- reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --spring: var(--ease);
+    --dur-3: 160ms;
+    --dur-4: 200ms;
+    --dur-5: 240ms;
+    --motion-distance: 0;
+    --level-smoothing: 0.5;
+  }
+}
+
+/* -------------------------------------------- base: apply to documents and themed subtrees */
+:root,
+[data-theme] {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-normal);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'ss01' 0, 'cv11' 1;
+  text-rendering: optimizeLegibility;
+}
+
+/* -------------------------------------------- legacy aliases (older token names; migrate off) */
+:root,
+[data-theme] {
+  --orange: var(--accent);
+  --orange-2: var(--accent-2);
+  --orange-ink: var(--accent-ink);
+  --orange-soft: var(--accent-soft);
+  --orange-line: var(--accent-line);
+  --on-orange: var(--on-accent);
+  --green: var(--success);
+  --green-soft: var(--success-soft);
+  --red: var(--danger);
+  --red-soft: var(--danger-soft);
+}

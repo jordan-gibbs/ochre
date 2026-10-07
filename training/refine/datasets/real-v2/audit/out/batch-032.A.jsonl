@@ -1,0 +1,50 @@
+{"id": "s2-W4-0051", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0052", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0053", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0054", "decision": "fix_clean", "clean": "We got a first round of feedback in. The second round is next week.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'in.' where 'and uh' was said; 'and' not inferable"}
+{"id": "s2-W4-0055", "decision": "fix_clean", "clean": "Expected behavior:\n- The mobile closes\n- Focus returns to the button\n\nActual behavior:\n- The mobile stays open\n- Focus is lost", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'mobile' for 'modal' twice"}
+{"id": "s2-W4-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0058", "decision": "fix_clean", "clean": "Gift ideas for Mom:\n- A nice scarf\n- The coop she wanted\n- Tickets to the symphony", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'coop' for 'cookbook'"}
+{"id": "s2-W4-0059", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0060", "decision": "drop", "reason": "hallucination", "note": "Whisper appended trailing 'you'"}
+{"id": "s2-W4-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0062", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0063", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'law is admin', 'for notice burr', 'expected toll': too many garbled places"}
+{"id": "s2-W4-0065", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0066", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'rid the logs before desin': read/guessing not inferable, plus write/right"}
+{"id": "s2-W4-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Jamal's PR\" dropped and 'boop flights'"}
+{"id": "s2-W4-0071", "decision": "fix_clean", "clean": "Write an email to my landlord, and here are the points to include:\n1. The heater is broken\n2. It has been broken for nine days\n3. I would like...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends 'I would like UMM'; 'it fixed this week' lost"}
+{"id": "s2-W4-0072", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0073", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0074", "decision": "fix_clean", "clean": "No, I'm good. Thanks.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R11"], "note": "raw has 'No' and 'I'm' for 'nah i am'"}
+{"id": "s2-W4-0075", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0077", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0078", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never said"}
+{"id": "s2-W4-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0080", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0081", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0082", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0083", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0084", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0085", "decision": "fix_clean", "clean": "Now she's not coming.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R11"], "note": "raw has 'Now she's' for 'nah she is'"}
+{"id": "s2-W4-0086", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0088", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0089", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0090", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never said"}
+{"id": "s2-W4-0091", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0094", "decision": "fix_clean", "clean": "Hi Daniel, I hope you are doing well. I wanted to circle back on the invoice we sent in August, the one for the design work. We have not received a payment yet, and our accounting team is waiting on confirmation before they close the books for the quarter. Could you let me know what we can expect? Thank you so much.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'what we can expect'; 'when' and 'it' lost"}
+{"id": "s2-W4-0095", "decision": "drop", "reason": "unrecoverable_meaning", "note": "object/outage, debug dropped, 'that clear the files were started to service', lodging, number/disusage"}
+{"id": "s2-W4-0096", "decision": "fix_clean", "clean": "The API returns a 404 when the user is not bound.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'not bound' for 'not found'; 'A B I' read as API from 404 context"}
+{"id": "s2-W4-0097", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0098", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0099", "decision": "fix_clean", "clean": "I like the new lake, but I do not like the colours.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw 'lake' for 'layout'; raw spelling 'colours'"}
+{"id": "s2-W4-0100", "decision": "fix_clean", "clean": "Lal, what? No way.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'Lal' for 'lol'"}

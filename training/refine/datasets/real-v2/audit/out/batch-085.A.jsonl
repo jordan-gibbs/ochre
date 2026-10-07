@@ -1,0 +1,50 @@
+{"id": "s2-W10-0001", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never said"}
+{"id": "s2-W10-0002", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0003", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw badly garbled: 'It in figure... object key'"}
+{"id": "s2-W10-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0006", "decision": "drop", "reason": "hallucination", "note": "raw appends 'Yeah.' never said"}
+{"id": "s2-W10-0007", "decision": "fix_clean", "clean": "Hey team, I wanted to give a quick update on the migration. We're about 80% done, and the hard part is behind us. We just need to cut over the replicas and run the final checks on Friday.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'read' missing from raw"}
+{"id": "s2-W10-0008", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0010", "decision": "fix_clean", "clean": "My goals for this quarter are to ship a search feature, mentor the two new hires, and improve the test coverage, which is sort of embarrassing right now, it's under 40%, so I want to get it above 70.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a search feature'"}
+{"id": "s2-W10-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'you know' became 'no no' and object 'it' lost"}
+{"id": "s2-W10-0012", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'it hangs, no' -> 'an act.', 'it' -> 'that'; target not inferable"}
+{"id": "s2-W10-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0016", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0017", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0018", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0019", "decision": "fix_clean", "clean": "The time is 60 seconds by default.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'the time. It is', 'timeout' not inferable"}
+{"id": "s2-W10-0020", "decision": "fix_clean", "clean": "I looked at the PR and the logic is mostly fine, but I think that the retry loop needs a cap, otherwise it'll hammer the service. Can you add a max of five attempts?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has plausible 'I think that the'"}
+{"id": "s2-W10-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0022", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0024", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many misrecognitions: all loads, have, to leave, I want objects"}
+{"id": "s2-W10-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'final' -> 'funnel'; not sensible with raw word"}
+{"id": "s2-W10-0027", "decision": "drop", "reason": "hallucination", "note": "'bug' -> 'but' plus trailing 'Yeah.' never said"}
+{"id": "s2-W10-0028", "decision": "fix_clean", "clean": "Run the make target and wait for the green check.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'to deploy, run the script' lost from raw"}
+{"id": "s2-W10-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value README garbled to 'reini'"}
+{"id": "s2-W10-0030", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0031", "decision": "fix_clean", "clean": "This document describes the onboarding process for new engineers. It covers accounts, laptops, your first week.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "both 'and's missing from raw"}
+{"id": "s2-W10-0032", "decision": "fix_clean", "clean": "Can you check this paragraph for tone? I want it to sound friendly but not too casual.", "reason": "guide_violation", "rules": ["R6"], "note": "question and statement run together under one '?'"}
+{"id": "s2-W10-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0034", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'data'->'day', 'the audit log'->'they thought at a log'"}
+{"id": "s2-W10-0036", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'doesn't guarantee' -> 'does a guarantee' flips meaning; 'It's always'"}
+{"id": "s2-W10-0038", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0039", "decision": "fix_clean", "clean": "Dear hiring committee, I'm writing to apply for the senior analyst position, and I have eight years of experience in financial modelling and forecasting, and I'm particularly drawn to your company's focus on sustainability.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'modelling'"}
+{"id": "s2-W10-0040", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0041", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "names garbled, 'everyone agreed' and 'next' lost"}
+{"id": "s2-W10-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0045", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W10-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Miss Denelka for Ms. Tanaka and 'if' lost: 3 places"}
+{"id": "s2-W10-0048", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'debrief'->'decrie', 'was'->'it's'"}
+{"id": "s2-W10-0049", "decision": "fix_clean", "clean": "Hi Sam, I hope the week is going well, and I just wanted to pick up where we left off, about the integration, and see if your team has had a chance to look at the API docs, because we are sort of hoping to start testing by the end of the month.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'we are', not the contraction"}
+{"id": "s2-W10-0050", "decision": "accept", "reason": "ok"}

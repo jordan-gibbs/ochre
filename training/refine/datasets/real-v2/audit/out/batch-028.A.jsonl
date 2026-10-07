@@ -1,0 +1,50 @@
+{"id": "s2-W3-0351", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'churn' heard as 'term' ('reduced term by 18%') plus added 'in' and 'I'm'; not a sensible target"}
+{"id": "s2-W3-0352", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0353", "decision": "drop", "reason": "hallucination", "note": "Whisper appended trailing 'you'"}
+{"id": "s2-W3-0354", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0355", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0356", "decision": "fix_clean", "clean": "It's 5 o'clock somewhere. But Stu drinks at 6.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'let's do' heard as 'But Stu'; cannot be inferred"}
+{"id": "s2-W3-0357", "decision": "drop", "reason": "unrecoverable_meaning", "note": "URL garbled ('file for BC123'), 'bit of' -> 'beta', amount split; too many places"}
+{"id": "s2-W3-0358", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' -> 'Or I walked'; also 'before Wednesday' dropped"}
+{"id": "s2-W3-0359", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um car payment' -> 'On par pained at', 'um' -> 'On'"}
+{"id": "s2-W3-0360", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0361", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also 'limit' dropped"}
+{"id": "s2-W3-0362", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um run' -> 'You have run' changes the imperative"}
+{"id": "s2-W3-0363", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0364", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'one for parsing' dropped leaves three tests with two listed; 'CI' heard as 'psi'"}
+{"id": "s2-W3-0365", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0366", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'ninety' -> 'nineteen' and 'Can we' -> 'and we' (question lost)"}
+{"id": "s2-W3-0367", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'round trip' -> 'round, Trevor', 'math' -> 'Mah', 'stop' -> 'stock'"}
+{"id": "s2-W3-0368", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0369", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'due net thirty' -> 'Do not. Yeah.'"}
+{"id": "s2-W3-0370", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0371", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0372", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0373", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0374", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0375", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0376", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Nguyen rewrote' -> 'near in Row', 'Okafor' -> 'how Cafe'"}
+{"id": "s2-W3-0377", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'better anyway' dropped; 'whose price is honestly' breaks the sentence"}
+{"id": "s2-W3-0378", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0379", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' -> 'where the speech should be'"}
+{"id": "s2-W3-0380", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening 'The preview deployments on Vercel' dropped; sentence has no subject"}
+{"id": "s2-W3-0381", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0382", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'No.' reads as a correction cue"}
+{"id": "s2-W3-0383", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0384", "decision": "fix_clean", "clean": "This is a bit of a mess, and I'm sorry. The original author left before documenting it. What I could figure out is that the function first loads the config, then merges it with the environment overrides, and finally validates the result against the schema. If validation fails, it raises a ValueError with the list of missing keys. I would like to refactor this, but I did not have time.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'I'm'; do not expand the contraction"}
+{"id": "s2-W3-0385", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'logo' -> 'look', added 'then', 'Can we' -> 'And we' (question lost)"}
+{"id": "s2-W3-0386", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0387", "decision": "drop", "reason": "unrecoverable_meaning", "note": "URL garbled, 'slides' -> 'thirds', 'FAQ' -> 'fact'"}
+{"id": "s2-W3-0388", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'code ownership' -> 'boat ownership', 'monorepo' -> 'Munal Repo'"}
+{"id": "s2-W3-0389", "decision": "fix_clean", "clean": "The CO just said, \"We are doubling the team by June,\" so expect a lot of interviews.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'CO', a real abbreviation; 'CEO' not inferable"}
+{"id": "s2-W3-0390", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bit dot ly slash q four plan' -> 'the botlides Q4 plan'"}
+{"id": "s2-W3-0391", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0392", "decision": "fix_clean", "clean": "cd ~/project/my-app", "reason": "unrecoverable_word", "rules": ["RECOVER", "R12"], "note": "raw has 'project', not 'projects'"}
+{"id": "s2-W3-0393", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Version 1.0 is' -> 'Virgin one point, always', 'bugs' -> 'boats'"}
+{"id": "s2-W3-0394", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0395", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0396", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'better reporting' -> 'bear reporting', 'uh' -> 'of which'"}
+{"id": "s2-W3-0397", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0398", "decision": "fix_clean", "clean": "Okay, I finally figured out the memory leak. It was the event emitter. We were adding a listener on every request and never removing it. After about 10,000 requests, Node started to warn about a possible leak, and by 50,000 the process was using something like 2 GB. One-line fix: I removed the listener on close. Memory is flat now. I will open the PR and...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends 'open the PR and'; 'in a bit' lost"}
+{"id": "s2-W3-0399", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bookstore' -> 'books were', 'love' -> 'Black', 'uh' -> 'Well'"}
+{"id": "s2-W3-0400", "decision": "drop", "reason": "script_defect", "note": "undictated 'User story:/Acceptance criteria:/Out of scope:' labels and paragraph breaks, plus raw 'hours'/'Oh'; fix exceeds limit"}

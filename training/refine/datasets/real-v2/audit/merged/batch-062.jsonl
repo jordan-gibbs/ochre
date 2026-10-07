@@ -1,0 +1,39 @@
+{"id": "s2-W7-0051", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'retry wrapper', 'S3', 'multipart abort' garbled beyond recovery", "retry lost, 'ads are I wrap her'"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0055", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'calling' for 'cloning'"], "auditors": ["A", "B"], "clean": "Why are we calling here? Can we borrow instead?"}
+{"id": "s2-W7-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0062", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0064", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["git/m/chore/colon/to all misheard", "chore lost, Tokyo"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0071", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "empty raw"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0072", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["raw unrelated to the command", "unintelligible raw"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0074", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'--tail' and pod name '7d9' lost", "tail lost, seventy nine vs 7d9"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0075", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'src' and 'ls -la' garbled", "src and ls -la garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0078", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0080", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'psql' lost, flags garbled", "psql, -U, postgres garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0081", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Butter Popket' not inferable as flutter pub get", "flutter pub get unrecognizable"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0082", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0083", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "empty raw"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0084", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty", "empty raw"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0089", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'um check' became 'I'm K'; also 'null shape operator'", "check lost, null shape, controller split"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0091", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["clean added 'The' before 'memory limit'", "added 'The' before memory limit"], "auditors": ["A", "B"], "clean": "The Kubernetes deployment keeps getting OOM killed. Memory limit is 2 gig. Can you check if there's a leak in the worker or if we just need to raise the limit? Look at the heap profile if there is one."}
+{"id": "s2-W7-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0093", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0097", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0098", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Redis lock code' garbled, 'lock' heard as 'lot'", "Redis, lock code, set the expiry garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W7-0099", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W7-0100", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["Whisper appended trailing 'you'", "trailing 'you'; also logging/webhook/payload garbled"], "auditors": ["A", "B"]}

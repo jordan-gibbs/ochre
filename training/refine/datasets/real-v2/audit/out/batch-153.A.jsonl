@@ -1,0 +1,50 @@
+{"id": "s4-W44-0001", "decision": "fix_clean", "clean": "Oh, are you coming tonight?", "reason": "unrecoverable_word", "note": "'Yo' heard as 'Oh'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W44-0002", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'No, I need a draw.' unrelated"}
+{"id": "s4-W44-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0008", "decision": "fix_clean", "clean": "I totally forgot.", "reason": "unrecoverable_word", "note": "'Ha' reduced to non-word 'H'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W44-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0011", "decision": "fix_clean", "clean": "Dude, it's kinda blue, not green.", "reason": "spelling_from_raw", "note": "raw has 'kinda'", "rules": ["R10"]}
+{"id": "s4-W44-0012", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0015", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; omg garbled"}
+{"id": "s4-W44-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": "subject 'Hector's mum' heard as 'Actually'"}
+{"id": "s4-W44-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0027", "decision": "fix_clean", "clean": "Hey Beatrice, I was thinking we could do the party at my place instead of the pub, because it's cheaper.", "reason": "unrecoverable_word", "note": "name not in dictionary; raw 'Beatrice'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W44-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0032", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W44-0033", "decision": "fix_clean", "clean": "Dude, Ben practice is at 9 am and I haven't slept.", "reason": "unrecoverable_word", "note": "'band' heard as 'Ben'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W44-0034", "decision": "fix_clean", "clean": "The editor wants the story by noon and I haven't even started law.", "reason": "unrecoverable_word", "note": "'lol' heard as 'law'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W44-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Mum' heard as 'Once'"}
+{"id": "s4-W44-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "three Bilals collapsed to \"D'il\""}
+{"id": "s4-W44-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0042", "decision": "fix_clean", "clean": "No way, you've actually got tickets?", "reason": "dropped_by_recognizer", "note": "'Haha' lost; raw has 'you've'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W44-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'but' inserted and 'outside' heard as 'upside'"}
+{"id": "s4-W44-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0045", "decision": "fix_clean", "clean": "It looks like rain, so maybe bring the jacket to the match.", "reason": "unrecoverable_word", "note": "raw 'the jacket'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W44-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W44-0050", "decision": "accept", "reason": "ok"}

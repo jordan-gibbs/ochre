@@ -1,0 +1,50 @@
+{"id": "s2-W5-0251", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became real word 'Look' mid-sentence"}
+{"id": "s2-W5-0252", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0253", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Yeah', 'or No', 'It' from hesitations; 'all' lost"}
+{"id": "s2-W5-0254", "decision": "accept", "reason": "ok", "note": "'on your. And' -> 'on your end' is a near-homophone in an idiom"}
+{"id": "s2-W5-0255", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Yeah, no' replaces 'er not um yet know'"}
+{"id": "s2-W5-0256", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Umora', 'I'd eat', 'photograph' and lost 'tomorrow'"}
+{"id": "s2-W5-0257", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'a Well contractor', 'the Low mobile app'"}
+{"id": "s2-W5-0258", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Though', 'Well' from hesitations"}
+{"id": "s2-W5-0259", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Bur the Lion', 'For I could', 'see Miss'"}
+{"id": "s2-W5-0260", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'appt', lost 'a', 'or Ideal', 'Than', lost 'but', Nakamira"}
+{"id": "s2-W5-0261", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name Ines became 'And ease'; '$' also never said"}
+{"id": "s2-W5-0262", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name became 'pre yank', not inferable"}
+{"id": "s2-W5-0263", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0264", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0265", "decision": "accept", "reason": "ok", "note": "'poll request' homophone; 'look' read as past in context"}
+{"id": "s2-W5-0266", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'fifty a month' became 'fifty eight. Month'"}
+{"id": "s2-W5-0267", "decision": "accept", "reason": "ok", "note": "'And everyone make it' -> 'Can everyone make it?' inferable"}
+{"id": "s2-W5-0268", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0269", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became 'Dumb'"}
+{"id": "s2-W5-0270", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'at four' became 'for that'; 'Can' became 'And'"}
+{"id": "s2-W5-0271", "decision": "fix_clean", "clean": "So I'm just thinking about the roadmap and I think we're trying to do too much in Q2. If we cut the reporting feature and push it to Q3, we could actually ship the other two features properly. What do you all think?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'I'm just thinking' and 'we're'"}
+{"id": "s2-W5-0272", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became 'Thumb' twice"}
+{"id": "s2-W5-0273", "decision": "fix_clean", "clean": "Guess what, we got the house. They accepted our offer, closing is on the 18th of next month. I am literally shaking right now.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'call me' lost"}
+{"id": "s2-W5-0274", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also 'Fatch', 'first day', 'night'"}
+{"id": "s2-W5-0275", "decision": "fix_clean", "clean": "Ideas for Dad's birthday: fishing trip is probably too expensive. Maybe a nice dinner at the steakhouse he likes, or we could get him that new reel he was looking at. Mom said he is also into old records lately, so maybe something like that.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'a' before fishing trip lost"}
+{"id": "s2-W5-0276", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'quick thing' -> 'Put the thing', 'billing bug' -> 'building, Bob'"}
+{"id": "s2-W5-0277", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0278", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'all the time' from 'hey all um'; 'power' for car"}
+{"id": "s2-W5-0279", "decision": "fix_clean", "clean": "Dear Mrs. Alvarez, thank you for coming on Friday. It was a pleasure to meet you. I wanted to let you know that we have decided to move forward with your application. Someone from Anarch will reach out this week to discuss the next steps.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'in' dropped; 'HR' heard as 'Anarch'"}
+{"id": "s2-W5-0280", "decision": "fix_clean", "clean": "Okay, so the gym is offering a deal. If we both sign up before the end of the month, it is only $25 each. Do you want to do it? I think it would be good for us to have a routine.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s2-W5-0281", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening 'just a heads up that I will be in' lost"}
+{"id": "s2-W5-0282", "decision": "fix_clean", "clean": "Recipe notes: for the curry, use two cans of coconut milk instead of one, it was too thin last time. Add the chickpeas at the end so they do not go mushy. And cut the chili in half because the kids could not eat it.", "reason": "guide_violation", "rules": ["R7"], "note": "small counts in prose stay words; 'instead of 1' wrong"}
+{"id": "s2-W5-0283", "decision": "drop", "reason": "unrecoverable_meaning", "note": "whole clause about pricing model lost"}
+{"id": "s2-W5-0284", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0285", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0286", "decision": "fix_clean", "clean": "Okay, so we need to decide on the offsite location. The options are the lake house, which is about 2 hours away and sleeps 12, or the downtown hotel, which is easier to get to but way more expensive.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R10"], "note": "vote sentence lost; raw has 'Okay'"}
+{"id": "s2-W5-0287", "decision": "accept", "reason": "ok", "note": "'A Ben. On time no talk' -> 'Hey Ben, long time no talk' inferable"}
+{"id": "s2-W5-0288", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' became 'It' ('It am a bit nervous')"}
+{"id": "s2-W5-0289", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0290", "decision": "fix_clean", "clean": "Okay, I am at the airport and my flight is delayed by 2 hours, so I am going to get some food and read. I will text you when we board. Do not wait up if it gets late.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Okay'"}
+{"id": "s2-W5-0291", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'her'; also 'dogs', 'a Magosi'"}
+{"id": "s2-W5-0292", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' became 'or'; 'dinner' became 'there'"}
+{"id": "s2-W5-0293", "decision": "drop", "reason": "unrecoverable_meaning", "note": "blog section clause lost"}
+{"id": "s2-W5-0294", "decision": "drop", "reason": "unrecoverable_meaning", "note": "tea ceremony/bamboo forest lost; 'Coyote'"}
+{"id": "s2-W5-0295", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'full policy is in the handbook' lost; 'Wheels'"}
+{"id": "s2-W5-0296", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sew', 'Pomenta', 'piece', 'ro round'"}
+{"id": "s2-W5-0297", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0298", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0299", "decision": "accept", "reason": "ok"}
+{"id": "s2-W5-0300", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Ask me about ... and hi. The job.'"}

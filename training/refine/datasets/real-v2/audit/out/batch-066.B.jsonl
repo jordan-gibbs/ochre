@@ -1,0 +1,50 @@
+{"id": "s2-W7-0251", "decision": "drop", "reason": "hallucination", "note": "trailing Okay not said"}
+{"id": "s2-W7-0252", "decision": "fix_clean", "clean": "This commit removes the unused feature flag and the code path behind it. Nothing should change for users.", "reason": "unrecoverable_word", "note": "raw has 'path' singular"}
+{"id": "s2-W7-0253", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled title, several places"}
+{"id": "s2-W7-0254", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0255", "decision": "fix_clean", "clean": "I spent most of yesterday on the flaky integration tests. Turns out half of them shared a database and were stepping on each other, so now each test gets its own schema. That took the suite from 12 minutes to 4.", "reason": "guide_violation", "note": "remove undictated Standup: label; leading And was artefact of 'standup'"}
+{"id": "s2-W7-0256", "decision": "fix_clean", "clean": "Hey Tomas, did you see the failing deploy? The Terraform apply is stuck on a state lock. I think the previous run crashed. Can you release it, or tell me how?", "reason": "spelling_from_raw", "note": "Tomas no accent; 'the previous' from raw"}
+{"id": "s2-W7-0257", "decision": "fix_clean", "clean": "FYI, bump the Node version in the Dockerfile to 22. If your local build breaks, rerun npm install.", "reason": "dropped_by_recognizer", "note": "raw lacks 'I bumped'"}
+{"id": "s2-W7-0258", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Thing me of pride' not recoverable"}
+{"id": "s2-W7-0259", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0260", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0261", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No' for uh; also theres lost"}
+{"id": "s2-W7-0262", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large parts lost"}
+{"id": "s2-W7-0263", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lifecycle/componentWillReceiveProps/createRoot garbled"}
+{"id": "s2-W7-0264", "decision": "fix_clean", "clean": "Bug report\n\nTitle: Checkout total is wrong when a promo code and a gift card are both applied\n\nDescription: If you apply a 10% promo code first and then a $50 gift card, the total comes out as the full price minus $50. The promo is ignored. But if you apply the gift card first and the promo second, it works. So the order matters, and it shouldn't.\n\nSteps to reproduce: Add any item over $100 to the cart, apply the promo code SAVE10, then apply a $50 gift card.\n\nExpected: The promo is applied to the subtotal and then the gift card is subtracted.\nActual: The promo is dropped.\n\nI suspect the gift card handler overwrites the discount field, but...", "reason": "trailing_off", "note": "raw ends at 'field, but'; rest lost"}
+{"id": "s2-W7-0265", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'author a right' and 'flow and in review'"}
+{"id": "s2-W7-0266", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah not said"}
+{"id": "s2-W7-0267", "decision": "drop", "reason": "hallucination", "note": "trailing 'but' not said"}
+{"id": "s2-W7-0268", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0269", "decision": "drop", "reason": "unrecoverable_meaning", "note": "next_run_at/poller query garbled"}
+{"id": "s2-W7-0270", "decision": "drop", "reason": "unrecoverable_meaning", "note": "X bar gate, healthz, plant up garbled"}
+{"id": "s2-W7-0271", "decision": "drop", "reason": "unrecoverable_meaning", "note": "default to Awesome (off) lost, plus other slips"}
+{"id": "s2-W7-0272", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several garbles"}
+{"id": "s2-W7-0273", "decision": "drop", "reason": "unrecoverable_meaning", "note": "default off / wrap / flag service garbled"}
+{"id": "s2-W7-0274", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0275", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0276", "decision": "drop", "reason": "unrecoverable_meaning", "note": "API path lost"}
+{"id": "s2-W7-0277", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0278", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0279", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0280", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0281", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0282", "decision": "fix_clean", "clean": "Use sed or whatever. I just need all the dollar signs in the config templates replaced with the environment variable syntax that Docker Compose understands. Don't change the ones inside the shell scripts.", "reason": "dropped_by_recognizer", "note": "awk lost"}
+{"id": "s2-W7-0283", "decision": "fix_clean", "clean": "The WebSocket server sends the full state on every update, which is wasteful. Switch it to send diffs. Use JSON Patch, and keep a version number so the client can detect a missed update.", "reason": "dropped_by_recognizer", "note": "trailing 'ask for a full resync' lost"}
+{"id": "s2-W7-0284", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0285", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0286", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0287", "decision": "fix_clean", "clean": "Look at this stack trace. It says NullPointerException at com.acme.billing 204. I think the customer can be null when the invoice is a draft. Can you look at that line and add a null check that makes sense?", "reason": "dropped_by_recognizer", "note": "'invoice service line' lost"}
+{"id": "s2-W7-0288", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0289", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0290", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0291", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0292", "decision": "drop", "reason": "unrecoverable_meaning", "note": "for/from, crash off, get on the scale"}
+{"id": "s2-W7-0293", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0294", "decision": "drop", "reason": "unrecoverable_meaning", "note": "build and Trivy lost"}
+{"id": "s2-W7-0295", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Lua script garbled"}
+{"id": "s2-W7-0296", "decision": "fix_clean", "clean": "Wait, I want to change the plan. Instead of adding a new table in Kestrel, just add a JSON column to the existing events table. It's simpler and we don't need to join.", "reason": "spelling_from_raw", "note": "raw says JSON not JSONB"}
+{"id": "s2-W7-0297", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0298", "decision": "fix_clean", "clean": "Can you write a GitHub Actions matrix that tests on Python 3.10, 3.11, and 3.12, and on Ubuntu and macOS? Let's keep 3.10 on Mac.", "reason": "unrecoverable_word", "note": "'skip' heard as 'Let's keep'"}
+{"id": "s2-W7-0299", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0300", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pagination lost; 'them' residue"}

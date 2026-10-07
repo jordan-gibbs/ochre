@@ -1,0 +1,50 @@
+{"id": "s4-W45-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0052", "decision": "fix_clean", "clean": "Ok, I need to print the thing first, so give me five minutes, and tell Kaza I said hi.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0053", "decision": "fix_clean", "clean": "Hey, did anybody else's badge stop working this morning because mine just beeped red at me three times and security looked at me like I was a criminal.", "reason": "guide_violation"}
+{"id": "s4-W45-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0056", "decision": "fix_clean", "clean": "Yo Blake, are you around? I need a second pair of eyes loan thing. It's not urgent urgent but the client keeps emailing.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W45-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0058", "decision": "fix_clean", "clean": "Oh, Antonio just walked into the glass door again. I swear that's the third time this month.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0059", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0060", "decision": "fix_clean", "clean": "Egg Tark, can you let me know if the mortgage packet went out? Because the couple keeps calling I don't want to say the wrong thing.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0061", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W45-0062", "decision": "fix_clean", "clean": "Now, you're basically a legend for fixing that, I owe you a beer, no whole case, okay, maybe a six-pack.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0064", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0065", "decision": "fix_clean", "clean": "My and I went to that new ramen place and the broth was kind of incredible, but the wait was an hour and ten minutes, which is a lot, you know, for soup.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0066", "decision": "fix_clean", "clean": "Oh my gosh, Layla, the urgent care waiting room has a fish tank now and there's a little fish in there named Doctor Bubbles. I'm in love. I'm gonna visit him even when I'm not sick.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0067", "decision": "fix_clean", "clean": "I was halfway to the parking garage when I realized I left my laptop on the bus, so I sprinted that, and the driver was literally holding it up in the window like a trophy. I could have cried.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W45-0068", "decision": "fix_clean", "clean": "We should totally do a team potluck. I can bring the hummus, Raphael can do something with rice, Irene's in charge of dessert because she's the only one who actually bakes, and Antarik can bring ice or plates or whatever.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0070", "decision": "fix_clean", "clean": "How did you end up finishing the quarterly numbers for the broker? Because I looked at the spreadsheet and the total tab was blank, which is either really good or really bad.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0071", "decision": "fix_clean", "clean": "Ok, it's noon and I have already eaten both of the doughnuts I was saving. I don't want to talk about it.", "reason": "guide_violation"}
+{"id": "s4-W45-0072", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0076", "decision": "fix_clean", "clean": "Ok, the weekend recap. Saturday I did absolutely nothing. I watched six hours of that baking show and ate an entire bag of pretzels. And then Sunday dragged me to a farmers market at 9 in the morning, which, who does that, but I ended up buying these amazing peaches and a jar of honey and a plant that is probably going to die by Wednesday. So overall, a solid 48 hours.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W45-0077", "decision": "fix_clean", "clean": "Alright, team update from the hardware store front. The delivery came in early, which is a first. The paint order is wrong again, we got eggshell instead of satin, so Antonio is on the phone right now. Meanwhile Blake found a stash of old lawn chairs in the back that we can use for the open house, so if you want a lawn chair, come grab one. They are free, no really, they are free, I'm not trying to trick you.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W45-0078", "decision": "fix_clean", "clean": "I need to vent for a second. I asked the front desk three times to book the conference room for tomorrow at 2 and they keep saying it's booked, and then I looked at the calendar and it's booked by somebody named Test, no last name. So I'm gonna assume that's a glitch and go ahead and sit in there anyway, and if anybody asks, I was never here. I'm kidding, please don't actually tell on me, I'm not really in the mood for another talking to.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W45-0079", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0080", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0081", "decision": "fix_clean", "clean": "Ok, I just got back from the tax preparer and it wasn't terrible. I'm getting a refund, it's $1,100-something, I can't read my own handwriting. Anyway, I'm thinking about using it for a new bike or maybe just paying down the car, which is the boring grown up thing, but the bike is so shiny, you guys, it has a basket. Anyway, tell me what to do, I'll do whatever the majority says.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0083", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0087", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0088", "decision": "fix_clean", "clean": "Aha, you're hilarious. No, but seriously, are you actually coming tonight or are you gonna ghost us again?", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0089", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0090", "decision": "fix_clean", "clean": "The deploy is at 4, so if you had anything to push, just do it before then, okay?", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0091", "decision": "fix_clean", "clean": "Raphael, are you free for coffee at 3 or is that when you have your thing with the broker?", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0092", "decision": "fix_clean", "clean": "I think the vote was two thirds in favour, so we're probably doing the potla.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0095", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W45-0096", "decision": "fix_clean", "clean": "I said it's tomorrow, not today. I checked the invite twice.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W45-0097", "decision": "fix_clean", "clean": "Okay, confession. I told the bookstore guy I'd read his self-published novel and I am only on page 12, and he keeps asking what I think of the twist, and I don't even know what the twist is. So if anyone has read it, please just text me a spoiler. I'll owe you a latte.", "reason": "spelling_from_raw"}
+{"id": "s4-W45-0098", "decision": "fix_clean", "clean": "Grow, the urgent care vending machine ate my dollar and then it gave me two baths of pretzels, so I came out ahead, but now I feel guilty. Should I tell someone? Is this stealing? I have so many questions.", "reason": "unrecoverable_word"}
+{"id": "s4-W45-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W45-0100", "decision": "accept", "reason": "ok"}

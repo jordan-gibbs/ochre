@@ -1,0 +1,50 @@
+{"id": "s4-W59-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0092", "decision": "fix_clean", "clean": "Arjun, do me a favor and don't merge anything into the release branch until I say so, and there's a weird crash on older phones.", "reason": "dropped_by_recognizer", "note": "\"I'm still testing the build\" lost; Rilly's = release (inferable)"}
+{"id": "s4-W59-0093", "decision": "fix_clean", "clean": "Yo, Gabriel, the game studio cafeteria has tacos today, and I'm not saying you should come over, but I'm also not not saying, so your call.", "reason": "dropped_by_recognizer", "note": "\"that\" lost"}
+{"id": "s4-W59-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0095", "decision": "fix_clean", "clean": "Shitti, are you still planning to quit, or did the raise change your mind? Because I heard they offered you 15%, which is honestly a lot.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s4-W59-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Rohan heard as \"grow and\""}
+{"id": "s4-W59-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of dictation lost"}
+{"id": "s4-W59-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0100", "decision": "fix_clean", "clean": "I got to the clinic and they said my appointment is actually tomorrow, so I drove 40 minutes for nothing, but at least the weather's nice, I guess.", "reason": "dropped_by_recognizer", "note": "\"Dad\" lost"}
+{"id": "s4-W60-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"I checked\" became imperative \"check\"; route->road"}
+{"id": "s4-W60-0002", "decision": "fix_clean", "clean": "Rizal, I'm gonna be 10 minutes late. The vault audit ran over and the branch manager wants me to sign off before I leave.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s4-W60-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0004", "decision": "fix_clean", "clean": "Bill, did you see the price of that this morning? It dropped 8% and I just bought more yesterday, I'm so dumb.", "reason": "unrecoverable_word", "note": "Bill; ETH heard as \"that\""}
+{"id": "s4-W60-0005", "decision": "fix_clean", "clean": "The recital costumes came in and they're way too small, the sizing runs tiny, so I'm gonna email the vendor tonight.", "reason": "unrecoverable_word", "note": "name reduced to fragment \"Br\""}
+{"id": "s4-W60-0006", "decision": "fix_clean", "clean": "Lena, can you grab milk on the way home? Also, the school said the thing about picture day, it's on the 14th, I think.", "reason": "unrecoverable_word", "note": "Lena; \"sent a\" -> \"said the\""}
+{"id": "s4-W60-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Patrick below paperwork\""}
+{"id": "s4-W60-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"back\" lost, sentence broken"}
+{"id": "s4-W60-0009", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Chloe->\"Oh\", \"blowing up\"->\"pulling up\""}
+{"id": "s4-W60-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening clause lost"}
+{"id": "s4-W60-0013", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"then the course\", Reza->\"her that\""}
+{"id": "s4-W60-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0015", "decision": "fix_clean", "clean": "Though, bro, the dip is not that bad. I've been through worse, remember when we lost half our portfolio in one week?", "reason": "unrecoverable_word", "note": "Bilal heard as \"Though\""}
+{"id": "s4-W60-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"and um tell\" -> \"until\""}
+{"id": "s4-W60-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0021", "decision": "fix_clean", "clean": "Blooy, I'm literally on fire right now. The fan in the booth died and the guitarist wants another take. Send help, or at least a cold drink.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s4-W60-0022", "decision": "fix_clean", "clean": "Camille, the permit people said we can only have 12 in the group on the Sunnet trail, so we need to cut four people but I hate that.", "reason": "unrecoverable_word", "note": "Sunnet kept; raw has \"but\""}
+{"id": "s4-W60-0023", "decision": "fix_clean", "clean": "Razah, the coffee machine in the break room is broken again. I already told facilities, but if you need caffeine there's a place across the street.", "reason": "unrecoverable_word", "note": "name from raw; \"hey\" lost"}
+{"id": "s4-W60-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0025", "decision": "fix_clean", "clean": "Bill, I'm not selling, okay? I know you think it's going to zero, but I've been holding since 2021 and I'm not folding now.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s4-W60-0026", "decision": "fix_clean", "clean": "Oh, sorry for the delay, the studio internet was down, and then my laptop decided to update. Anyway, the stems are uploaded now.", "reason": "unrecoverable_word", "note": "Yara heard as \"Oh\""}
+{"id": "s4-W60-0027", "decision": "fix_clean", "clean": "Lean, the whole parent group is mad about the new pickup line, they want it back the old way, but the principal won't budge.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s4-W60-0028", "decision": "fix_clean", "clean": "Better, I'm so tired. We closed the branch at 7, then I had to recount the drawer twice because it was off by $5.", "reason": "unrecoverable_word", "note": "Petra heard as \"Better\""}
+{"id": "s4-W60-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Abdul um the nft\" -> \"I believe an F T\""}
+{"id": "s4-W60-0030", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Holy things for\", \"but the bus stop\""}
+{"id": "s4-W60-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0032", "decision": "drop", "reason": "hallucination", "note": "trailing \"Yeah.\" never said"}
+{"id": "s4-W60-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Is this\", \"Bemma's\""}
+{"id": "s4-W60-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W60-0035", "decision": "fix_clean", "clean": "Bill, I moved the money into stablecoins like you said, but the gas fees were insane. It cost me $40 to move $200.", "reason": "unrecoverable_word", "note": "name from raw"}
+{"id": "s4-W60-0036", "decision": "fix_clean", "clean": "The kids were so good at rehearsal today, the little ones actually remembered their spots, and the teacher cried a bit, it was adorable.", "reason": "unrecoverable_word", "note": "name reduced to fragment \"Ur\""}
+{"id": "s4-W60-0037", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"lina um\" -> \"Lean out\""}
+{"id": "s4-W60-0038", "decision": "fix_clean", "clean": "Better, you know Sam from the parent group, right? He's organizing the bake sale and wants us to run the lemonade stand. I said yes without asking you, sorry.", "reason": "unrecoverable_word", "note": "Petra heard as \"Better\""}
+{"id": "s4-W60-0039", "decision": "fix_clean", "clean": "Abdul, the snare is clipping on the second tape, so can you re-record the intro, and try standing a bit further from the mic?", "reason": "unrecoverable_word", "note": "take->tape not inferable"}
+{"id": "s4-W60-0040", "decision": "accept", "reason": "ok"}

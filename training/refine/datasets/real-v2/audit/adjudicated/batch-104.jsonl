@@ -1,0 +1,7 @@
+{"id": "s4-W17-0058", "decision": "fix_clean", "clean": "The rash is kind of orange near the elbow. It doesn't itch.", "reason": "dropped_by_recognizer", "note": "A: \"and\" is absent from raw; clean follows raw"}
+{"id": "s4-W17-0065", "decision": "fix_clean", "clean": "What actually happened with the robbery in the east wing?", "reason": "unrecoverable_word", "note": "A: raw \"robbery\"; minimal edit keeps the old casing of \"east wing\""}
+{"id": "s4-W17-0066", "decision": "fix_clean", "clean": "There is no wait list for the Saturday class.", "reason": "trailing_off", "note": "A: raw ends on a complete clause (\"class,\"), so no visible trailing off; end with a period"}
+{"id": "s4-W17-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: the corrected instruction became \"Put the task and eat the oven first\""}
+{"id": "s4-W17-0081", "decision": "accept", "reason": "ok", "note": "A: \"aw\"/\"interity\" are non-word near spellings of all/intermediate and the self-correction resolves; recoverable"}
+{"id": "s4-W17-0082", "decision": "accept", "reason": "ok", "note": "A: pellets/pallets, \"I L5\"/aisle 5, flag/flagged, fire cook/fire code are near spellings inferable in the warehouse context"}
+{"id": "s4-W17-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"But you ask Maria Turi scan the return spin\" and sign-off \"Roll one\"; raw-form target is not a sensible dictation"}

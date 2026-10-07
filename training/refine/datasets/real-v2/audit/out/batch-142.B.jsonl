@@ -1,0 +1,50 @@
+{"id": "s4-W38-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0052", "decision": "fix_clean", "clean": "High on Saturday: me at the lot at 7:30, bring 2 liters of water, and wear boots.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0053", "decision": "fix_clean", "clean": "Did anyone see the email? I can't find it anywhere.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W38-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0055", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W38-0056", "decision": "fix_clean", "clean": "The policy applies to all volunteers, including temporary staff. Exceptions require written.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W38-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0063", "decision": "fix_clean", "clean": "Can you use it instead of a dash in a title?", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0066", "decision": "fix_clean", "clean": "Tomas keeps sending every message with a question mark even when he's not asking anything.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0067", "decision": "fix_clean", "clean": "Ask and ease why the question mark appears next to some entries in the log.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0068", "decision": "fix_clean", "clean": "Hyenese, the translation is attached. Let me know if anything looks off.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0073", "decision": "fix_clean", "clean": "I need you to rewrite this paragraph for a general audience. Keep the technical terms, but add a short definition the first time each one appears. Don't change the meaning. The paragraph is: the model overfits when the learning rate...", "reason": "trailing_off"}
+{"id": "s4-W38-0074", "decision": "fix_clean", "clean": "The problem with the export is that every comma in the address field breaks the CSV columns. Yasmin thinks we should wrap the field in quotes, but I think we should just replace the comma with the semi. Either way, it's a quick fix.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0075", "decision": "fix_clean", "clean": "Dear Chia: thank you for your message regarding the adoption application. We have reviewed your references, and they were excellent. The home visit is scheduled for the 9th of May at 10 a.m. Please let us know if that time does not work for you.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0076", "decision": "fix_clean", "clean": "Call volume was up 15% this month, mostly noise complaints. The new triage script is working, according to Yusef. Next review is in June.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0077", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W38-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0079", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W38-0080", "decision": "fix_clean", "clean": "Hi Nikil, I read your note about the model card. One question: why does the table list the evaluation period as 12 weeks? I thought we had agreed on 8. If there's a reason, I'd love to hear.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W38-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0083", "decision": "fix_clean", "clean": "Thanks for flagging that, test. I looked at the draft and you're right, the sentence about the exclamation point in the policy is confusing. It reads like the point is the punctuation mark, not the warning. Let's rewrite it together on Monday.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0084", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W38-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0088", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W38-0089", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W38-0090", "decision": "fix_clean", "clean": "Update: the intake form is live. Link is in the channel, please test it before noon. If you hit an error, screenshot and post it here!", "reason": "dropped_by_recognizer"}
+{"id": "s4-W38-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0092", "decision": "fix_clean", "clean": "High use of, the schedule has changed. The deposition is now on Wednesday at 9:30, not Tuesday. Please confirm that you receive this. I'll also call your office in the morning.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0093", "decision": "fix_clean", "clean": "Hi everyone, I wanted to share the notes from Tuesday's meeting. First, the budget was approved at $12,500. Second, we agreed that Nick Hill will lead the data cleaning and Yasmin will handle the evaluation scripts. Third, the next group meeting is on the 22nd, not the 15th, because of the holiday. One more thing: please update your calendars. I don't want anybody showing up on the wrong day. Thanks for your patience and have a great week!", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0094", "decision": "fix_clean", "clean": "You know how I said the comma was the problem in the CSV? Well, it turns out the real culprit was the decimal separator. The export tool writes a price like 12.50 with a period as the separator, and the import tool wants a comma instead. So the importers split every price into two columns. On a found it by accident! She was reading the file in a text editor, and she noticed the quote marks were missing around some of the fields. Anyway, we fixed the settings and ran everything again.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W38-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W38-0098", "decision": "fix_clean", "clean": "Okay, you won't believe how the exchange what last night! TR brought her grandmother, who speaks only Italian, and I was paired with her. We had 40 minutes of pointing at things and laughing. She taught me the words for spoon, and I taught her how to say spoon in English, and then she said it back perfectly and we both shared! Honestly, it was the best conversation I've had all month. Are you coming next week? You have to meet her.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0099", "decision": "fix_clean", "clean": "Style notes for the newsletter: use a comma before the final item in a list. Use a period inside quotation marks. An exclamation point is fine in headlines, but never in the body text. A question mark should only be used for real questions, not for polite requests. If a sentence needs a colon, make sure what follows is a complete thought. And ease will check every issue before it goes out.", "reason": "unrecoverable_word"}
+{"id": "s4-W38-0100", "decision": "accept", "reason": "ok"}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HUD stage</title>
+  <link rel="stylesheet" href="stage.css">
+  <script type="module" src="stage.js"></script>
+</head>
+<body>
+  <!-- Stand-in desktops: a light app (left) and a dark app (right), each with a taskbar. The HUD is the
+       real hud/index.html in an iframe, placed exactly as the shell places its window. -->
+  <div class="desk light">
+    <div class="app"><i></i><i></i><i class="short"></i><i></i><i></i><i class="short"></i><i></i><i></i><i></i><i class="short"></i><i></i></div>
+    <div class="taskbar"><span></span><span></span><span class="on"></span><span></span></div>
+    <iframe class="hud" title="HUD (light)"></iframe>
+  </div>
+  <div class="desk dark">
+    <div class="app"><i></i><i></i><i class="short"></i><i></i><i></i><i class="short"></i><i></i><i></i><i></i><i class="short"></i><i></i></div>
+    <div class="taskbar"><span></span><span></span><span class="on"></span><span></span></div>
+    <iframe class="hud" title="HUD (dark)"></iframe>
+  </div>
+</body>
+</html>

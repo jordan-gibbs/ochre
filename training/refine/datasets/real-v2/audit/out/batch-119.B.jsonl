@@ -1,0 +1,50 @@
+{"id": "s4-W26-0021", "decision": "fix_clean", "clean": "I'm preparing a quarterly business review for a customer. They've been with us for two years, they pay about $60,000 a year, and their usage dropped 30% since their ops manager left in June. I want you to help me structure the deck. The sections should start with their wins, then the usage decline, then a recovery plan with specific actions. Keep every slide to one idea. And please do not suggest a discount in the first draft, I want to try value first.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W26-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0024", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W26-0025", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W26-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0027", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0028", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W26-0029", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W26-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0031", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W26-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0033", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W26-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0035", "decision": "fix_clean", "clean": "Summarize the following for me in two sentences. It's an email from a customer who's angry about an overdraft fee and I have to answer by end of day. I'm going to paste it in a second. After the summary, draft a reply that apologizes for the frustration but doesn't promise a refund, because policy says we can only waive the first one per year, and this is his third. Keep it respectful, don't sound offensive, and sign a Jonas from the branch.", "reason": "unrecoverable_word"}
+{"id": "s4-W26-0036", "decision": "fix_clean", "clean": "I'm trying to figure out pricing for my cooking class and I keep going back and forth. The costs per session are groceries about $140, the kitchen rental is $85, and I pay my assistant $60. I want to clear at least $200 a session after costs. There are eight seats. What do I have to charge per seat if I expect to fill six of the eight on average? Show me the math step by step and then tell me what you've rounded to, and whether a tiered price for early signups makes sense.", "reason": "guide_violation"}
+{"id": "s4-W26-0037", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W26-0038", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W26-0039", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0040", "decision": "fix_clean", "clean": "What's the best way to spend four days in Porto if I hate tourist traps but love food and old neighborhoods? I'm traveling alone in late October, I walk a lot so hills don't scare me, and I'd like to stay in one place the whole time rather than moving around. I don't want an hour by hour schedule, I want a loose outline with three or four things, and a list of dishes I have to try.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W26-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W26-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0043", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W26-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0046", "decision": "fix_clean", "clean": "Make this shorter and keep the jokes. I'm pasting my class description next. It's currently about 200 words and the registration page only allows 80. Don't cut the dates, which are the 3rd and 17th of October, and don't cut the price, $120 for all three sessions. You can drop the part about my grandmother, it's sweet but it's long. Give me two versions, one at 80 words and one at 50, and tell me which jokes survive in each.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W26-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0048", "decision": "fix_clean", "clean": "Write a cold email to the director of supply chain at a regional grocery chain. We sell inventory forecasting software and our pitch is that it cuts spoilage by about 12% on average, based on our own customer data, so don't claim it's an industry benchmark. Keep it under 100 words, plain tone, no buzzwords like synergy or game changing, and end with a question that's easy to say yes to. The sender is me, Dominic, and my company is called Freshline.", "reason": "unrecoverable_word"}
+{"id": "s4-W26-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0050", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W26-0051", "decision": "fix_clean", "clean": "Can you check whether this logic holds up? My argument for keeping the branch open late on Thursdays is that Thursday evening has the second highest foot traffic after Friday afternoon, that the staffing cost is about $310 per evening, and that the evening visitors open on average 1.4 accounts per hour. What I want you to do is put holes in it, find the weakest assumption, and tell me what data I need to confirm it. Don't just agree with me, I've already got a boss who does that.", "reason": "unrecoverable_word"}
+{"id": "s4-W26-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0053", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W26-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0055", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W26-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W26-0057", "decision": "fix_clean", "clean": "Here's some context. I supervise a call center team of 14, and our average handle time went from 6 minutes 10 seconds to 7 minutes 40 over the last quarter, but customer satisfaction stayed flat. I don't know whether that's good or bad. I want you to explain what could cause that pattern, which causes are good news and which are bad news, and what metrics I should look at next. Please don't give me generic advice about coaching. And use plain language, because I'm going to read your answer out loud in a team meeting tomorrow.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W26-0058", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W26-0059", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W26-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W27-0001", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W27-0002", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W27-0003", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W27-0004", "decision": "fix_clean", "clean": "Crew rest and duty policy.\n\nThe purpose of this section is to explain how flight attendants on long-haul routes are scheduled for rest, in line with the new regulations that took effect in January.\n\nAny duty period that exceeds 12 hours must be followed by a minimum of 10 hours of rest at the hotel, and that rest period begins when the crew member checks, not when the aircraft lands. Exceptions can be approved by the base manager, which in practice means Antonio, but only in cases of weather disruption or aircraft recovery.\n\nCrew members who feel too fatigued to operate should call the duty desk immediately and they will not face any penalty for doing so.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W27-0005", "decision": "fix_clean", "clean": "Dude, you will not believe the day I just had. I'm walking out of the building and my car is just gone, towed, and I'm thinking oh my god Kite is going to kill me because it's his car. I call the lot and they say it's in the impound on Harvestry and it's gonna be 160 bucks. I had to take two buses to get there. Anyway I got it back and it's fine, there's a new scratch on the bumper but whatever. I need you to not tell him until I figure out how to say it, okay? Also I'm buying dinner tonight, I owe you for covering my rent last week.", "reason": "unrecoverable_word"}
+{"id": "s4-W27-0006", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W27-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W27-0008", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W27-0009", "decision": "fix_clean", "clean": "Roommate house meeting, Sunday.\n\nWe agreed that Mai will take over the grocery list from now on and everybody puts their requests in the shared note by Friday night. The cleaning rota is staying the same except Kai and Tarek are swapping weeks because Taric has that work trip.\n\nThe internet bill went up to $79 a month, so each of us now owes about $20. We also decided to cancel the streaming subscription nobody uses, which saves $14.\n\nStill open, whether we get a plant for the living room and what to do about the neighbor's dog barking at night. We'll revisit that at the next meeting on the 12th.", "reason": "unrecoverable_word"}
+{"id": "s4-W27-0010", "decision": "fix_clean", "clean": "Subject: Trade and appraisal for the silver Accord.\n\nHi Antonio, thanks for coming by on Saturday. I wanted to put the offer in writing so you have it. We appraised your 2019 Honda Accord at $14,500, which accounts for the mileage, about 62,000, and the small dent on the rear door. If you decide to go ahead with the new crossover we can apply that amount directly to the down payment. The offer is good through the end of the month. You mentioned you were also looking at financing, so I've asked our finance manager to put together a couple of options at different terms. I'll send those over tomorrow afternoon. Let me know if you have any questions at all.", "reason": "unrecoverable_word"}

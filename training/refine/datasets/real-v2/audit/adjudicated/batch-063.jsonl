@@ -1,0 +1,12 @@
+{"id": "s2-W7-0103", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'panic' heard as 'pick'; panic is not inferable from raw, and 'return an error or pick?' is not a sensible dictation"}
+{"id": "s2-W7-0107", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dev' lost (meaning changes: installing dependencies is the normal case) and 'runs as a' heard as 'run through'; A's text re-inserts unrecoverable words, B's is ungrammatical"}
+{"id": "s2-W7-0110", "decision": "fix_clean", "clean": "Return the user ID for the given session token, or None if the token is expired.", "reason": "unrecoverable_word", "note": "raw has imperative 'Return' (a valid docstring form); 'non' -> None is recoverable in a code comment"}
+{"id": "s2-W7-0111", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'parse' heard as 'pass' (missed by both auditors) and clean drops the spoken 'docstring'; a fix touches 2 places and leaves an odd docstring, so drop when torn"}
+{"id": "s2-W7-0114", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'No to sell', 'It's' and 'collar': 3 misrecognized places, 'caller' not inferable"}
+{"id": "s2-W7-0117", "decision": "fix_clean", "clean": "Args: user_id. Returns: a list of orders sorted by date.", "reason": "dropped_by_recognizer", "note": "'the id of the user' absent from raw; 'Augs colon' -> 'Args:' is recoverable in a docstring"}
+{"id": "s2-W7-0126", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'eggs it with an air' for 'exit with an error' is not recoverable"}
+{"id": "s2-W7-0133", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'router' heard as 'Rower'; not inferable, and keeping 'Rower' is nonsense"}
+{"id": "s2-W7-0136", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'promote to prod' heard as 'promote the broad'; not inferable"}
+{"id": "s2-W7-0137", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Heads up, the CI' heard as 'Ed's up, the side'; 2 places, 'CI' not inferable"}
+{"id": "s2-W7-0142", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'run it on prod' heard as 'run and unpro'; target reads beyond raw"}
+{"id": "s2-W7-0145", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'three' heard as 'We', so the 3rd list marker is gone and the numbering is invented; 'IDs' for 'Ideas'"}

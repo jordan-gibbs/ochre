@@ -1,0 +1,50 @@
+{"id": "s4-W22-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0053", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W22-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0056", "decision": "fix_clean", "clean": "My other reading list is basically the old one with the call numbers added.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0057", "decision": "fix_clean", "clean": "Razasso, the fire drill is Thursday at 10 and we need the doors clear.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0058", "decision": "fix_clean", "clean": "Rizati alarm went off twice, so we ran the drill early.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0060", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W22-0061", "decision": "fix_clean", "clean": "Camera, the craw and job runs every hour and writes to the audit table.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0062", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W22-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0064", "decision": "fix_clean", "clean": "We need three tenths so that everyone has room.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0065", "decision": "fix_clean", "clean": "Yari, the latest build is version 2.4.1.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0066", "decision": "fix_clean", "clean": "Ura, version 2.4.1 feels like a big jump from 2.3.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0067", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W22-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0069", "decision": "fix_clean", "clean": "The thing is the payment service is timing out whenever the queue gets over 2,000 messages, and I think we should add a limit before the weekend.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W22-0070", "decision": "fix_clean", "clean": "The payment service times out whenever the Tew gets over 2,000 messages, so I think we should add a limit before the weekend.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0071", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W22-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0073", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W22-0074", "decision": "fix_clean", "clean": "The dark mode talk one was kind of done, it works but kind of ugly on tablets.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0076", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W22-0077", "decision": "fix_clean", "clean": "The conferences are the 12th and 13th, if we need a sign-up sheet.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W22-0078", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W22-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0080", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W22-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0087", "decision": "fix_clean", "clean": "Oh, you know Dev, right? He's coming too.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0091", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W22-0092", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W22-0093", "decision": "fix_clean", "clean": "The new acron is kind of blue, I like it.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0097", "decision": "fix_clean", "clean": "For field day each grid gets 45 minutes, and there are four stations, sort of like a rotation, and the kids literally cannot skip the water station.", "reason": "unrecoverable_word"}
+{"id": "s4-W22-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W22-0099", "decision": "fix_clean", "clean": "Hi Tamar, thanks for sending the updated job description. I read it twice and it's mostly great, but the requirements section is kind of long, list 12 skills, and nobody has all 12. I'd like to cut it down to maybe six, so that we get more applicants, and then we can review the list together on Thursday. Does that work for you?", "reason": "dropped_by_recognizer"}
+{"id": "s4-W22-0100", "decision": "accept", "reason": "ok"}

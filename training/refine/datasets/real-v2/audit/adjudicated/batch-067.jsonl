@@ -1,0 +1,9 @@
+{"id": "s2-W7-0301", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Redis' heard as 'Read these'; not inferable from raw, and following raw gives a non-sensible list"}
+{"id": "s2-W7-0309", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'So' ('and So it it works'), a real word a reader would keep; plus leading 'S' blip"}
+{"id": "s2-W7-0310", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'validating'->'invalidating' and question 'Can we split it'->'And we split it'; target not inferable, raw reading changes meaning"}
+{"id": "s2-W7-0320", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Sprocket->'Splunked', 'flows are'->'flow of', 'last write'->'last rate', 'spinner'->'spin a', updated_at lost: too many places to fix"}
+{"id": "s2-W7-0326", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' became 'Now,' (and 'um' became 'Gum'); clean deletes words a reader of raw would take as content"}
+{"id": "s2-W7-0327", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh use Pydantic' became 'I use Pydantic', turning a request into a statement; also 'command line'->'the man line', 'CLI parser'->'ClyParser'"}
+{"id": "s2-W7-0329", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'follow ups' became 'Farlu Eps' (target's 'Follow-ups:' not inferable), 'um' became 'some', plus undictated paragraph break; B's fix keeps the unrecoverable label"}
+{"id": "s2-W7-0331", "decision": "drop", "reason": "unrecoverable_meaning", "note": "self->itself, 'self dot'->'self dive' twice, 'std mem take'->'SDB N take', \"I'm\"->'in': more than 2 places"}
+{"id": "s2-W7-0350", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'GitHub API'->'get of MPI' not a near form; 'webhooks'->'Webox', 'the/from'->'a/in': too many places"}

@@ -1,0 +1,50 @@
+{"id": "s2-W8-0151", "decision": "fix_clean", "clean": "The house at the end of Maple Street had been empty for as long as anyone could remember, but every evening at dusk a single light came on in the attic window. The children dared each other to go and look. Nobody ever did, until one October night a girl named Nell, who was new in town and did not know any better, walked right up to the front door and knocked. She heard footsteps, slow ones, coming down the stairs, and when the door creaked open there was nobody there, just a cold draught and the smell of old cinnamon, and a voice from somewhere above that said, \"We're late.\"", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw has 'draught' and 'we're late'"}
+{"id": "s2-W8-0152", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bribe them' -> 'Brian's and', 'Thursday' lost"}
+{"id": "s2-W8-0153", "decision": "fix_clean", "clean": "End of week thoughts for the shop. Sales were up about 10% which is great. A new display by the window is clearly working, people keep coming in to ask about the blue stars, so I should order more of those. The delivery from the supplier was late again though, I need to have a proper talk with them, maybe find a second supplier just in case. Also hire someone for Saturdays, I cannot keep doing the whole day alone, my feet are killing me. And I should really update the website, the opening hours on it are wrong.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'blue stars' and 'A new display'"}
+{"id": "s2-W8-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0155", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0157", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0158", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'toddler' -> 'ther'"}
+{"id": "s2-W8-0159", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W8-0160", "decision": "fix_clean", "clean": "Mom's birthday is on the 22nd.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'Mom's'"}
+{"id": "s2-W8-0161", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0162", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'love', 'need' -> 'Night'"}
+{"id": "s2-W8-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0164", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'Love'"}
+{"id": "s2-W8-0165", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0166", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0167", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0168", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bed' -> 'then', 'at four' -> 'for'"}
+{"id": "s2-W8-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0170", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W8-0171", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Honestly' -> 'Leslie' and extra trailing 'that'"}
+{"id": "s2-W8-0172", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0174", "decision": "drop", "reason": "unrecoverable_meaning", "note": "biology terms garbled in many places"}
+{"id": "s2-W8-0175", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'grandpa', 'report', ending 'kiss from us' lost"}
+{"id": "s2-W8-0176", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'Thumb.'"}
+{"id": "s2-W8-0177", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'his reading is improving a lot' -> 'Huh?'"}
+{"id": "s2-W8-0178", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'arrive' -> 'have rucked', 'uh' -> 'well'/'Well'"}
+{"id": "s2-W8-0179", "decision": "fix_clean", "clean": "Hello teacher, I am sorry but my son he cannot come to the class today because he is sick, he had the fever since last night. I will bring the paper from the doctor tomorrow, thank you for your understanding.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'had'"}
+{"id": "s2-W8-0180", "decision": "drop", "reason": "unrecoverable_meaning", "note": "3 places: 'neighbors', 'You will have', 'donuts' from raw"}
+{"id": "s2-W8-0181", "decision": "fix_clean", "clean": "So today in history class we talked about the Industrial Revolution and honestly I thought it would be boring, but it was factually kind of interesting. Like, before factories most people made things at home, and then suddenly there were machines that could do the work of 10 people, and the cities got huge and crowded and kind of dirty. My teacher asked us to write about whether it was good or bad, and I think it was both, because it made things cheaper but a lot of kids had to work in the factories, which is really sad. I need to write the essay by Thursday, maybe five paragraphs. I think he'll start with the factory kids.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'factually' and 'he'll'"}
+{"id": "s2-W8-0182", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'And I'm', 'uh' -> 'No' reads as a correction"}
+{"id": "s2-W8-0183", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0184", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'I birthday card for Fa'"}
+{"id": "s2-W8-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0186", "decision": "fix_clean", "clean": "That was hilarious. See you tomorrow.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R11"], "note": "'Ha' missing from raw"}
+{"id": "s2-W8-0187", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0188", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0189", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'parent' lost; 'Reminder, evening at 7:30' loses the event"}
+{"id": "s2-W8-0190", "decision": "fix_clean", "clean": "Going to the shop, you want anything?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'I'm' missing from raw"}
+{"id": "s2-W8-0191", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0192", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0193", "decision": "fix_clean", "clean": "Hi Uncle, I am coming to your house on Sunday for the lunch, my wife she will bring the sweet.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'sweet'"}
+{"id": "s2-W8-0194", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0195", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0197", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I'll' -> 'it'll', 'nae' -> 'E'"}
+{"id": "s2-W8-0198", "decision": "fix_clean", "clean": "Oh, the insurance place, they said the claim takes 10 to 14 days, we wait.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'Called' -> 'Oh', 'so' dropped"}
+{"id": "s2-W8-0199", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the card' -> 'this', 'Send get'"}
+{"id": "s2-W8-0200", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ending lost: 'Oh there.'"}

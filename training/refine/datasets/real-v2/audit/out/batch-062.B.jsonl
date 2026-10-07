@@ -1,0 +1,50 @@
+{"id": "s2-W7-0051", "decision": "drop", "reason": "unrecoverable_meaning", "note": "retry lost, 'ads are I wrap her'"}
+{"id": "s2-W7-0052", "decision": "fix_clean", "clean": "VR description: This change moves the feature flag lookup out of the request path and into a startup cache. The motivation is that we were hitting the flag service on every request, which added about 20 milliseconds of latency. The cache refreshes every 60 seconds in the background.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "PR heard as VR"}
+{"id": "s2-W7-0053", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0054", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0055", "decision": "fix_clean", "clean": "Why are we calling here? Can we borrow instead?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": ""}
+{"id": "s2-W7-0056", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0057", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0059", "decision": "fix_clean", "clean": "Nice cleanup. I like that you remove the global...", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R4"], "note": "state lost; raw ends on 'the global'"}
+{"id": "s2-W7-0060", "decision": "fix_clean", "clean": "Could we use a map here instead of a nested loop? It's unsquared right now.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": ""}
+{"id": "s2-W7-0061", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0062", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0063", "decision": "fix_clean", "clean": "git commit -m \"fix: handle empty response in the retry launcher\"", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": ""}
+{"id": "s2-W7-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "chore lost, Tokyo"}
+{"id": "s2-W7-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "-i lost, HEAD~ garbled"}
+{"id": "s2-W7-0066", "decision": "fix_clean", "clean": "git push origin features/oauth-login", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'features'"}
+{"id": "s2-W7-0067", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0068", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0069", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0070", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0071", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W7-0072", "decision": "drop", "reason": "garbage", "note": "unintelligible raw"}
+{"id": "s2-W7-0073", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0074", "decision": "drop", "reason": "unrecoverable_meaning", "note": "tail lost, seventy nine vs 7d9"}
+{"id": "s2-W7-0075", "decision": "drop", "reason": "unrecoverable_meaning", "note": "src and ls -la garbled"}
+{"id": "s2-W7-0076", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0077", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0078", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0079", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "psql, -U, postgres garbled"}
+{"id": "s2-W7-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "flutter pub get unrecognizable"}
+{"id": "s2-W7-0082", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0083", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W7-0084", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "s2-W7-0085", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "silver/Return to/That's: 3 garbled places"}
+{"id": "s2-W7-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0088", "decision": "fix_clean", "clean": "Write a Python script that walks the log directory, parses each JSON line, roots errors by the error code field, and prints the top 10 with counts. Handle malformed lines by skipping them and counting them at the end.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "log, roots from raw"}
+{"id": "s2-W7-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "check lost, null shape, controller split"}
+{"id": "s2-W7-0090", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0091", "decision": "fix_clean", "clean": "The Kubernetes deployment keeps getting OOM killed. Memory limit is 2 gig. Can you check if there's a leak in the worker or if we just need to raise the limit? Look at the heap profile if there is one.", "reason": "guide_violation", "rules": ["R10"], "note": "added 'The' before memory limit"}
+{"id": "s2-W7-0092", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0093", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0094", "decision": "fix_clean", "clean": "Create a new Rust crate in the workspace called protocol, move the message types out of the server crate into it, update the cargo tunnels, and make sure everything still compiles with cargo check.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "tomls heard as tunnels; 'files' was added"}
+{"id": "s2-W7-0095", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0096", "decision": "fix_clean", "clean": "Use the TypeScript compiler API to write a codemod that replaces all the old fetch client calls with the new HTTP client. R mode first.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "dry run lost"}
+{"id": "s2-W7-0097", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Redis, lock code, set the expiry garbled"}
+{"id": "s2-W7-0099", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0100", "decision": "drop", "reason": "hallucination", "note": "trailing 'you'; also logging/webhook/payload garbled"}

@@ -1,0 +1,5 @@
+{"id": "s2-W5-0463", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Lone, for' are real words decoded from uh / 'the the'; target would delete content-looking words (sided with A)"}
+{"id": "s2-W5-0465", "decision": "fix_clean", "clean": "Morning, anyone seeing my charger?", "reason": "unrecoverable_word", "note": "raw has 'seeing'; 'seen' not inferable from raw; minimal fix keeps author's comma (sided with A)"}
+{"id": "s2-W5-0477", "decision": "fix_clean", "clean": "Okay, give me a sec, my phone is dying.", "reason": "spelling_from_raw", "note": "raw has 'Okay'; R10 keeps the input's variant (sided with A)"}
+{"id": "s2-W5-0479", "decision": "fix_clean", "clean": "It's all right, don't worry about it.", "reason": "spelling_from_raw", "note": "raw has 'all right'; R10 keeps the input's variant (sided with A)"}
+{"id": "s2-W5-0481", "decision": "fix_clean", "clean": "Yeah, but the meeting ran long.", "reason": "unrecoverable_word", "note": "raw has plausible content word 'but' (from 'the the'); not inferable as a stutter, so keep it (sided with A)"}

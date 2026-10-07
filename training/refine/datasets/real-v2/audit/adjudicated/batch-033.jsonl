@@ -1,0 +1,4 @@
+{"id": "s2-W4-0119", "decision": "drop", "reason": "hallucination", "note": "raw contains invented phrase 'if you're going to be able to do' never spoken; B's fix silently deletes it, which would teach the model to remove real-looking words"}
+{"id": "s2-W4-0139", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um decoded as real word 'bumps' (and uh as 'Well'); omitting them from clean deletes words a reader of raw takes as content"}
+{"id": "s2-W4-0145", "decision": "drop", "reason": "unrecoverable_meaning", "note": "here->'year' and caller->'color'; target inferable from raw is not a sensible dictation, and A's fix still kept unsupported 'here'"}
+{"id": "s2-W4-0149", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for the' and 'open' lost; 'Idea keynote with the story about the...' no longer carries the meaning; torn fix vs drop -> drop"}

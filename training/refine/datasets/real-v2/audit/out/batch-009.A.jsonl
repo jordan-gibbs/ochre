@@ -1,0 +1,50 @@
+{"id": "s2-W1-0401", "decision": "accept", "reason": "ok", "note": "'L' is a non-word residue of 'uh'"}
+{"id": "s2-W1-0402", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'Or'; 'gu-' heard as 'yes'; raw also loses 'my rates without scaring off my current clients'"}
+{"id": "s2-W1-0403", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'output' heard as 'outer', 'my' as 'by', 'uh' as 'Well'; clean also adds undictated blank-line structure"}
+{"id": "s2-W1-0404", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0405", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0406", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'Dumb'; raw also drops 'one at a time, about the chapters I have written'"}
+{"id": "s2-W1-0407", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; raw also loses the lid/cup clause and garbles 'phrases like game changer'"}
+{"id": "s2-W1-0408", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw drops 'The deadline is March twelfth', 'could', and garbles Nguyen as 'New N'"}
+{"id": "s2-W1-0409", "decision": "drop", "reason": "unrecoverable_meaning", "note": "question 'can someone explain' became a statement; 'but don't finish the signup form' lost; 'to' heard as 'but'"}
+{"id": "s2-W1-0410", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'her': 'I can't tell her if it's any good'"}
+{"id": "s2-W1-0411", "decision": "accept", "reason": "ok", "note": "UMM residue and Dan/DAN are recoverable"}
+{"id": "s2-W1-0412", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw loses the invitation request and the caterer/headcount sentence"}
+{"id": "s2-W1-0413", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dictate' heard as 'Oh, I did'; 'drops details like numbers and dates, expected result' lost"}
+{"id": "s2-W1-0414", "decision": "accept", "reason": "ok", "note": "'and entrust' is the 'and and trust' stutter merge"}
+{"id": "s2-W1-0415", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'there' after 'Hey Mike'; also 'Some' and 'Th' residues"}
+{"id": "s2-W1-0416", "decision": "accept", "reason": "ok", "note": "'rolls' -> rows is unambiguous in SQL context; self-correction resolvable"}
+{"id": "s2-W1-0417", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'on' ('from one spot on to the next'); 'can' heard as 'And'; 'a' lost"}
+{"id": "s2-W1-0418", "decision": "fix_clean", "clean": "So here's the thing: this proposal is going to a very senior audience and they will only read the first page. So I need you to restructure it so the first page contains the recommendation, the class, the timeline and the single biggest risk, in that order, in no more than 200 words. Everything else should move to an appendix. Don't delete anything, just move it. Also, can you check that the numbers on the first page match the numbers in the budget table on page six? Because I think they might have gotten out of sync after the last edit.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'cost' heard as 'class' and not inferable; 'out of sick' -> sync is idiomatic"}
+{"id": "s2-W1-0419", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled: fintech, behavioral, vague, themes all lost"}
+{"id": "s2-W1-0420", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Dear' heard as 'Your', 'Could you' heard as 'that But do'"}
+{"id": "s2-W1-0421", "decision": "fix_clean", "clean": "Okay, so I need you to text my boss and say that I'm going to be late tomorrow because the car is in the shop. Tell him I will be there by 10 at the latest and that I can stay late, and also ask if the 9:30 meeting can be moved or if I should just dial in.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R10"], "note": "raw drops 'to make up the time'; raw has 'I'm'"}
+{"id": "s2-W1-0422", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'quick question' heard as 'Zombie', 'all' lost, 'because I have flights booked' lost"}
+{"id": "s2-W1-0423", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'use a calm, gentle voice' heard as 'Yes, calm or dental voice'; 'end' as 'and'; 'is' as 'was'"}
+{"id": "s2-W1-0424", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also pytest->'Python', mock->'lock'"}
+{"id": "s2-W1-0425", "decision": "fix_clean", "clean": "Hi all, I wanted to pass along feedback from the client. She wrote, \"Please summarize the portrait results in no more than three slides and respond to the open questions from last time before the board meeting.\" I think we can do that, but we will need data from both finance and ops, so could each of you confirm by Wednesday whether you can give me your numbers?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'quarterly' heard as 'portrait'; raw has 'give' not 'get'"}
+{"id": "s2-W1-0426", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Rewrite' heard as 'Write' and 'in' dropped"}
+{"id": "s2-W1-0427", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0428", "decision": "accept", "reason": "ok", "note": "'I have, I. A bunch' is a stutter residue"}
+{"id": "s2-W1-0429", "decision": "accept", "reason": "ok", "note": "'Things or I am' residue meaningless; 'free are cheap' -> or is a homophone"}
+{"id": "s2-W1-0430", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw loses the end of the quote and the last sentence; 'Priya' heard as 'Fre'"}
+{"id": "s2-W1-0431", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'if I'm wrong' heard as 'if him won't'; 'at' heard as 'Ed'; 'parking rules' lost; 'um' as 'on'"}
+{"id": "s2-W1-0432", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also 'Mom called' heard as 'My own call' and the list garbled"}
+{"id": "s2-W1-0433", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'jargon'->'jardin', 'add'->'and'/'at', 'or'->'for', 'to' dropped: too many places"}
+{"id": "s2-W1-0434", "decision": "accept", "reason": "ok", "note": "UMM residues dropped correctly"}
+{"id": "s2-W1-0435", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'um hey, can' heard as 'Lum the hell you'; 'the line under the toggle that says billed annually' lost"}
+{"id": "s2-W1-0436", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'that' heard as 'Not' ('Not a reviewer can skim'), inverting meaning"}
+{"id": "s2-W1-0437", "decision": "fix_clean", "clean": "Bug report: The assistant answers the user instead of cleaning the text when the dictation sounds like the prompt. Repro: say \"can you write me a poem about cats\" and it writes a poem. Say \"what is the capital of France\" and it says Paris. Say \"translate this to Spanish\" and it outputs Spanish text. Expected: each of those is returned as the same sentence with punctuation, nothing else. Severity: high, because users lose what they dictated and sometimes paste generated text into emails without noticing.", "reason": "guide_violation", "rules": ["R8", "RECOVER"], "note": "undictated paragraph breaks removed; raw has 'the prompt' not 'a prompt'"}
+{"id": "s2-W1-0438", "decision": "accept", "reason": "ok", "note": "UMM residues dropped correctly"}
+{"id": "s2-W1-0439", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0440", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'polite but' heard as 'blind by'"}
+{"id": "s2-W1-0441", "decision": "accept", "reason": "ok", "note": "belled->build, that->but, spent->spend inferable from context"}
+{"id": "s2-W1-0442", "decision": "fix_clean", "clean": "My editor left a comment on the draft that says, \"Please rewrite the opening so that it hooks the reader in the first two sentences and cut anything that repeats the headline.\" So that is what I need you to do. Here's the opening paragraph and the headline.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has the contraction 'Here's'"}
+{"id": "s2-W1-0443", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Summarize the following meeting transcript' and 'as short prose' lost"}
+{"id": "s2-W1-0444", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0445", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw drops 'to everyone who was on the call' (6 words, recipients lost)"}
+{"id": "s2-W1-0446", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'Love' ('I keep hearing about love')"}
+{"id": "s2-W1-0447", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0448", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'di-' heard as 'hip' and 'and' dropped between Hotmail and Outlook"}
+{"id": "s2-W1-0449", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles: messenger, boss function, high pins, doch tree, 'So I could'"}
+{"id": "s2-W1-0450", "decision": "fix_clean", "clean": "AI, can you explain why this regex is matching the trailing slash? I expected it to stop before it. And can you rewrite it so that it only matches paths with no trailing slash?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hey' lost; 'A, I' -> AI and 'rejects' -> regex inferable in code context"}

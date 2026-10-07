@@ -1,0 +1,50 @@
+{"id": "s2-W11-0001", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0002", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0003", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0004", "decision": "fix_clean", "clean": "Hey, I'm stuck at the airport because my flight to Denver was delayed until 9:45. Can you tell Mom they'll call when I land?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has they'll"}
+{"id": "s2-W11-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "slash, mock, it all lost"}
+{"id": "s2-W11-0007", "decision": "drop", "reason": "unrecoverable_meaning", "note": "leaves/at/I'll garbled; also okay so filler"}
+{"id": "s2-W11-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W11-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "callers/bug misheard"}
+{"id": "s2-W11-0011", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0012", "decision": "fix_clean", "clean": "This guide walks you through setting up the development environment. First, install Node 20 or later and clone the repository from GitHub. Next, copy the sample environment file to a new file named .env and fill in your API keys. Finally, run the start script and open the app on localhost:3000.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has sample"}
+{"id": "s2-W11-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0016", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W11-0018", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0019", "decision": "drop", "reason": "hallucination", "note": "trailing Yeah."}
+{"id": "s2-W11-0020", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0021", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0022", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0023", "decision": "fix_clean", "clean": "The search box ignores capital letters in names, so searching for Smith does not find Smith. Expected behavior is to match both.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "lowercase smith not in raw"}
+{"id": "s2-W11-0024", "decision": "fix_clean", "clean": "Hi Grant, thanks for the intro to Lina at Brightwave. We spoke for about 40 minutes yesterday and she seems very interested in a pilot. She asked for a one page overview and a rough price range. I'll send both by Friday and copy you so you stay in the loop.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name Lina from raw"}
+{"id": "s2-W11-0025", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W11-0026", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0027", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0028", "decision": "fix_clean", "clean": "Hi everyone, here are the minutes from today's board meeting. We approved the budget for next year, with a total 4.2 million. Catherine was re-elected as treasurer. The next meeting is on January 14th at 5 p.m.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "no $ spoken, 'of' dropped, Catherine from raw, double period"}
+{"id": "s2-W11-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0030", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0031", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0032", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0033", "decision": "fix_clean", "clean": "Hey Sam, I just talked to the landlord and he says the lease starts on August 1st. The deposit is $1,800 and we can pay it by check. You'll bring the paperwork to dinner on Friday so we can both sign.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw you'll"}
+{"id": "s2-W11-0034", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0035", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name lost"}
+{"id": "s2-W11-0037", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0038", "decision": "fix_clean", "clean": "A release process has three stages. First, a candidate build is created from the main branch and deployed to staging. Second, the QA team runs the regression suite and signs off. Third, the release manager promotes the build to production during the Tuesday window. Hotfixes follow the same steps.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "tail lost; raw 'A release'"}
+{"id": "s2-W11-0039", "decision": "fix_clean", "clean": "Dear Miss Aukhafer, thank you for attending our webinar on cloud security yesterday. As promised, I've attached the slides and a link to the recording. If you have any questions about Zero Trust or our SOC 2 report, just reply to this email. We would love to set up a short demo.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "name from raw; Miss as said"}
+{"id": "s2-W11-0040", "decision": "drop", "reason": "garbage", "note": ""}
+{"id": "s2-W11-0041", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0042", "decision": "fix_clean", "clean": "Hey everyone, quick heads up on the release. We are freezing the v5.3.0 branch tonight at 6 p.m. Pacific. Anything that is not merged by then goes into the next cycle. Please make sure your tests pass on CI before you ping Marcus for review.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'a' dropped"}
+{"id": "s2-W11-0043", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0045", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}
+{"id": "s2-W11-0048", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw only Tailed."}
+{"id": "s2-W11-0049", "decision": "accept", "reason": "ok"}
+{"id": "s2-W11-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": ""}

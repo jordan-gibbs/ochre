@@ -1,0 +1,50 @@
+{"id": "s2-W6-0201", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'page' became 'H'; raw 'on H two' not a sensible target"}
+{"id": "s2-W6-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0203", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0204", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0205", "decision": "fix_clean", "clean": "The cancel button on the billing page does nothing in Safari 15.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'works in chrome' missing from raw"}
+{"id": "s2-W6-0206", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0207", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0208", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0209", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Why printer paper stance' - buy/stamps lost"}
+{"id": "s2-W6-0210", "decision": "fix_clean", "clean": "Just to confirm, the shipment left Waterdown on the 6th and should arrive in Durban around the 24th.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has real place name 'Waterdown'"}
+{"id": "s2-W6-0211", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Meridian Health -> 'Mary and Hell', 'if' dropped changes meaning"}
+{"id": "s2-W6-0212", "decision": "drop", "reason": "unrecoverable_meaning", "note": "roles->walls/rules, editors->actors, viewers->users; too many errors"}
+{"id": "s2-W6-0213", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0214", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'can we discuss' became 'Anne. We discussed' (request became statement); Dev->Bev"}
+{"id": "s2-W6-0215", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um/uh heard as 'Well' twice"}
+{"id": "s2-W6-0216", "decision": "fix_clean", "clean": "My parcel tracking number is JD01465829. It was supposed to be delivered on the 1st. It shows as delivered, but I never received it. I checked with my neighbors and nobody has it. The photo you sent shows a door that is not mine. Please investigate and either find the parcel or refund the order, which was worth €240.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R10"], "note": "'Hello' became 'Oh.'; raw spells 'neighbors'"}
+{"id": "s2-W6-0217", "decision": "drop", "reason": "hallucination", "note": "raw ends with trailing 'but' never said"}
+{"id": "s2-W6-0218", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Silva/new paragraph merged, clauses lost, multiple errors"}
+{"id": "s2-W6-0219", "decision": "drop", "reason": "unrecoverable_meaning", "note": "attendee names and several words garbled"}
+{"id": "s2-W6-0220", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A38 became F38, Qureshi->Kureshi, gray variant; more than 2 fixes"}
+{"id": "s2-W6-0221", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0222", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'call the bank' lost"}
+{"id": "s2-W6-0223", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw reads 'Did you give my email question, Mark?' - command and verb not recoverable"}
+{"id": "s2-W6-0224", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Thanks' became 'And'"}
+{"id": "s2-W6-0225", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0226", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0227", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah' never said"}
+{"id": "s2-W6-0228", "decision": "fix_clean", "clean": "Dear Sir or Madam, I am writing to inquire about the availability of your conference room for the 12th of December.", "reason": "guide_violation", "rules": ["R8", "R10"], "note": "undictated paragraph break; raw has 'inquire'"}
+{"id": "s2-W6-0229", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0230", "decision": "fix_clean", "clean": "We are looking at roughly 40 to 50% growth next year.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "final clause missing from raw"}
+{"id": "s2-W6-0231", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'three days late' became 'three days in'"}
+{"id": "s2-W6-0232", "decision": "fix_clean", "clean": "Error handling for the payment form. We show a message saying the card was declined and suggest trying another card. If the network drops during payment, we show a retry button, and we do not charge the card twice. This is important. We need idempotency keys on every payment request. If the postcode does not match, we allow the payment but flag it for review.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'if the card is declined' missing from raw"}
+{"id": "s2-W6-0233", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0234", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salutation, invoice, amount, could, sent all garbled"}
+{"id": "s2-W6-0235", "decision": "drop", "reason": "unrecoverable_meaning", "note": "budget clause and retracted value lost"}
+{"id": "s2-W6-0236", "decision": "drop", "reason": "unrecoverable_meaning", "note": "signature name lost, Cano/center, undictated breaks; more than 2 fixes"}
+{"id": "s2-W6-0237", "decision": "drop", "reason": "unrecoverable_meaning", "note": "item two lost and item three garbled"}
+{"id": "s2-W6-0238", "decision": "drop", "reason": "unrecoverable_meaning", "note": "millimeter variant, Katerina spelling, undictated sign-off line break: more than 2 fixes"}
+{"id": "s2-W6-0239", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Ola->over, HR->our, Your->Our, AM lost; too many"}
+{"id": "s2-W6-0240", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pothole->autal, invoice->inways, AVID; too many"}
+{"id": "s2-W6-0241", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0242", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0243", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is only 'Machine.'"}
+{"id": "s2-W6-0244", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0245", "decision": "fix_clean", "clean": "Asha, can you share the slides before tomorrow's standup, the ones from the vendor demo?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'hey' lost; raw 'A sha'"}
+{"id": "s2-W6-0246", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0247", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0248", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0249", "decision": "fix_clean", "clean": "Email notifications are being sent twice for every comment, starting from release version 5.8.", "reason": "guide_violation", "rules": ["R10"], "note": "'version' was said and is in raw"}
+{"id": "s2-W6-0250", "decision": "drop", "reason": "unrecoverable_meaning", "note": "names, lake view, check-in clause, signature lost"}

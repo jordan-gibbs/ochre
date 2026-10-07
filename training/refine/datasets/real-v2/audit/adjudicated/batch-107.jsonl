@@ -1,0 +1,6 @@
+{"id": "s4-W19-0011", "decision": "fix_clean", "clean": "He scored 40 points last week, so I'm not propping him.", "reason": "unrecoverable_word", "note": "B: raw \"propping\" is a real word; \"dropping\" is not inferable with confidence (R13)"}
+{"id": "s4-W19-0012", "decision": "fix_clean", "clean": "I mean what I said about the trade, no take back.", "reason": "dropped_by_recognizer", "note": "B: raw has \"take back\"; plural \"s\" not traceable"}
+{"id": "s4-W19-0015", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"Any second shoes needs\" is garbled; raw-form target is not sensible"}
+{"id": "s4-W19-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"Pay Sha Mina\" for \"patient Mina\"; raw-form target is not sensible"}
+{"id": "s4-W19-0025", "decision": "fix_clean", "clean": "Dear Maeve, thanks for leaving the bridge loop on Saturday. It was the best hike of the season.", "reason": "unrecoverable_word", "note": "A: raw \"leaving\" and \"Bridge\"; minimal edit keeps the old lowercase \"loop\""}
+{"id": "s4-W19-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: \"invoice number\" became \"N Waves number\"; raw-form target is not sensible"}

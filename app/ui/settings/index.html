@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ochre</title>
+  <link rel="stylesheet" href="../theme/tokens.css">
+  <link rel="stylesheet" href="../theme/components.css">
+  <link rel="stylesheet" href="../shared/app.css">
+  <script type="module" src="settings.js"></script>
+</head>
+<body>
+  <!-- Settings markup contract: docs/design.md §8 -->
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><img src="../theme/brand/ochre-icon-small.svg" alt=""><span class="wordmark" role="img" aria-label="Ochre"></span></div>
+      <nav class="nav" aria-label="Settings"></nav>
+      <div class="sidebar-foot">
+        <div class="engine-status">
+          <span class="status" aria-hidden="true"></span>
+          <span><strong class="status-text">Starting…</strong><span class="latency"></span></span>
+        </div>
+      </div>
+    </aside>
+    <main class="main" id="main" tabindex="-1"></main>
+  </div>
+</body>
+</html>

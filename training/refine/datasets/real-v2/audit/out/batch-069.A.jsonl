@@ -1,0 +1,50 @@
+{"id": "s2-W7-0401", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0402", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost the request clause (look at folder, count tests) and \"mutate\" became \"need tape\""}
+{"id": "s2-W7-0403", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many misheard words: goat workers, Proof the gor teams, contact, for staging/that it'll"}
+{"id": "s2-W7-0404", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0405", "decision": "fix_clean", "clean": "Okay, I want to try something. I want you to write the change and then review your own work as if somebody else wrote it. Step one: implement the CSV import with validation. Step two: stop, clear your assumption, and read the diff like a stranger. List every bug, missing test, and unclear name you find. Step three: fix what you found. And give them both lists at the end, the original problems and what you fixed. I want to see how much the self-review catches. The requirements for the import are: accept a file up to 10 megabytes, require the columns email and name, skip duplicate emails with a warning, and return a summary with counts of created, skipped, and failed rows.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has \"give them\" and \"assumption\""}
+{"id": "s2-W7-0406", "decision": "fix_clean", "clean": "Quick brain dump before I forget, since I'm out tomorrow. The deploy script is in the scripts folder, and it takes the environment as the first argument. Never run it against prod without the dry-run flag first. The database backups run at 2 a.m. and are kept for 14 days. Restoring one takes about 2 minutes, and the steps are in the runbook under disaster recovery. The on-call phone is in the shared password manager. The two flaky tests are in the checkout suite and are tracked in the ticket I linked earlier. Just retry them. If the payment provider webhook stops arriving, check their status page first and then the dead letter queue. And the only thing that really needs a decision this week is whether we renew the monitoring contract. The renewal date is the 30th.", "reason": "number_value", "rules": ["RECOVER"], "note": "raw says 2 minutes"}
+{"id": "s2-W7-0407", "decision": "drop", "reason": "hallucination", "note": "raw ends with \"Oh\" never said; also \"updated on chain\""}
+{"id": "s2-W7-0408", "decision": "drop", "reason": "unrecoverable_meaning", "note": "poster driver, aerobs, State Flats; plus undictated line breaks"}
+{"id": "s2-W7-0409", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"exposes an OpenAPI spec at /openapi.json\" lost; \"hurry them\" for generate"}
+{"id": "s2-W7-0410", "decision": "fix_clean", "clean": "Subject: Proposal to adopt trunk-based development\n\nHi all,\n\nI'd like to propose that we move from long-lived feature branches to trunk-based development.\n\nThe main problem today is that branches live for a week or more, so merges are painful and reviews are huge. In trunk-based development, we merge small changes to main at least daily, hide unfinished work behind feature flags, and rely on the CI pipeline to keep main always releasable.\n\nThe prerequisites are a fast and reliable test suite, which we are close to, and a flag system, which we already have.\n\nIf you're interested, I'll set up a pilot with the platform team for one month and report back.\n\nThank you", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw sign-off is \"Thank you.\""}
+{"id": "s2-W7-0411", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Nimbus->In this, JSON->DON, can we->And we; clean also adds \"That's\""}
+{"id": "s2-W7-0412", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"I DS\" loses ask; \"make the name constant\" changes meaning"}
+{"id": "s2-W7-0413", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0414", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0415", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"I do rather a return or result\", \"handle Yeah.\" loses \"the error\""}
+{"id": "s2-W7-0416", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0417", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Aloo, wear and claws, little cut map: lookup map not inferable"}
+{"id": "s2-W7-0418", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Use the slow for UID\" - slug not inferable"}
+{"id": "s2-W7-0419", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0420", "decision": "drop", "reason": "unrecoverable_meaning", "note": "subject line lost (\"Curve.\"), Buttons for plugins, Start duck"}
+{"id": "s2-W7-0421", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"blank line\" lost and \"layers looked\" became \"lay\""}
+{"id": "s2-W7-0422", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0423", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0424", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"bulk\" became \"G\", \"fixed\" section label lost"}
+{"id": "s2-W7-0425", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0426", "decision": "drop", "reason": "unrecoverable_meaning", "note": "last sentence lost; \"Downstream\" for docstring"}
+{"id": "s2-W7-0427", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0428", "decision": "fix_clean", "clean": "This endpoint is public on purpose. It only returns data that is already visible on the Falcon marketing site. If you have anything user-specific here, it must go behind auth.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has \"have\" for \"add\""}
+{"id": "s2-W7-0429", "decision": "drop", "reason": "unrecoverable_meaning", "note": "most of the content lost"}
+{"id": "s2-W7-0430", "decision": "drop", "reason": "unrecoverable_meaning", "note": "retry->re drive, I'll->They'll"}
+{"id": "s2-W7-0431", "decision": "fix_clean", "clean": "I just merged the fix for the login redirect loop. If you were seeing it on staging, pull main, clear your cookies, and let me know if it's still happening.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped \"and\" after pull main"}
+{"id": "s2-W7-0432", "decision": "accept", "reason": "ok", "note": "labels and title were dictated; regex/immutability inferable"}
+{"id": "s2-W7-0433", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0434", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dave Library, Rave Limiter, Trits for Redis; toward vs towards"}
+{"id": "s2-W7-0435", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"A select message\" for Slack message not inferable"}
+{"id": "s2-W7-0436", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0437", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Bug\" lost, \"An ego with\", \"T's. The environment variable will attach\""}
+{"id": "s2-W7-0438", "decision": "drop", "reason": "unrecoverable_meaning", "note": "the/a bug, \"locally\" lost, \"first call\" for column: 3 places"}
+{"id": "s2-W7-0439", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled"}
+{"id": "s2-W7-0440", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"npm test\" became \"mpm\", -v became \"dash b\""}
+{"id": "s2-W7-0441", "decision": "accept", "reason": "ok"}
+{"id": "s2-W7-0442", "decision": "drop", "reason": "unrecoverable_meaning", "note": "list marker \"two\" became \"do\"; it pee, cube, And you fix whiche"}
+{"id": "s2-W7-0443", "decision": "drop", "reason": "unrecoverable_meaning", "note": "flags, stdout/stderr and update/tests sentences lost"}
+{"id": "s2-W7-0444", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"Notes\" lost, garbage clickton, in our heart, heat snatch out"}
+{"id": "s2-W7-0445", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Pfizer, Yao Do, Eat, Invert, any houses"}
+{"id": "s2-W7-0446", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Pilav, permission to night, Number, in view"}
+{"id": "s2-W7-0447", "decision": "drop", "reason": "unrecoverable_meaning", "note": "J's on air, parallel, Hiss for httptest"}
+{"id": "s2-W7-0448", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Doth raised detect your, him going, They'll"}
+{"id": "s2-W7-0449", "decision": "drop", "reason": "unrecoverable_meaning", "note": "last sentence garbled: Yeah. Thaler and the weed in our symptom"}
+{"id": "s2-W7-0450", "decision": "drop", "reason": "unrecoverable_meaning", "note": "something type, Pythonic, Invert, short document docs folder"}

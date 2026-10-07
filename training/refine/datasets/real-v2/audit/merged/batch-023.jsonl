@@ -1,0 +1,39 @@
+{"id": "s2-W3-0101", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0103", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0104", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Priya->P, like->Mike, one/two/three->When/To/for you to, typo->title", "many garbled places"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0105", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'am'", "AM lost"], "auditors": ["A", "B"], "clean": "Dentist said I need two fillings and a cleaning. The total estimate is about $650, but insurance covers 80% of the fillings. The next appointment is on Wednesday the 4th at 11:45. I should also ask whether they take my new plan."}
+{"id": "s2-W3-0106", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'a time block schedule from eight am' became 'Lord. M'", "time block schedule from eight lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0109", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0110", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0111", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["hop path -> hot path inferable"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0112", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Zam' non-word residue"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0114", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s2-W3-0115", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'nine thirty M' -> 9:30 AM"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0116", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0117", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0119", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'scammed' became 'skin'; result not sensible", "scammed heard as skin"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0120", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0121", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Packing list, passport' became 'Vacking list, best point'", "passport lost, list not dictated, Vacking"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0122", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["'Hi Wei' became 'Cly Y'; not inferable", "Hi Wei lost to Cly Y"], "auditors": ["A", "B"], "clean": "This is a note to say that Zhang called this afternoon and asked if we could move the review up by two days. I told him that I would check with you first. If it works for you, I can confirm with him tomorrow morning before 9."}
+{"id": "s2-W3-0123", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'a field called total count' became 'the field call to account'", "total count heard as call to account"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0124", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0125", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["Nu -> dictionary Nguyen; subject line dictated"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0127", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' became 'Or' before 'she wants'; also 'at the the' -> 'after the'", "er heard as Or; also at->after, aim->Ain"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0129", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I checked', 'devDependencies, not dependencies' garbled ('I chut', 'Deb dependencies not the pencies')", "many garbled places"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0131", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost 'to get a new one send a POST request to /oauth/'", "send a POST request to /oauth/token lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0133", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["Alina -> dictionary Elena"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0134", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0135", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0136", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Car' became 'Power' and 'gas around the' became 'Gasarum'", "Power trip, Gasarum, chap in"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0137", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0139", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'sslmode' became 'U CSL node'", "strings and sslmode garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0140", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'first one' for 'first run'", "run heard as one"], "auditors": ["A", "B"], "clean": "She said, and I quote, \"The second time is always faster,\" which is true here. The first one took 90 seconds and the second took 30."}
+{"id": "s2-W3-0142", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'calm' for 'come'; not inferable", "come heard as calm"], "auditors": ["A", "B"], "clean": "I am five minutes away, can you calm down?"}
+{"id": "s2-W3-0143", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0144", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'wifi' became 'Life. The'", "wifi heard as Life"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0145", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["AOS -> iOS"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0146", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["spoken and raw say 'it is'; no contraction", "it is not it's"], "auditors": ["A", "B"], "clean": "Okay, it is 61 degrees and sunny, so let's do the standup outside."}
+{"id": "s2-W3-0147", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0148", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0149", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0150", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost everything before 'than two to the power of thirty one'", "raw is only a tail fragment"], "auditors": ["A", "B"]}

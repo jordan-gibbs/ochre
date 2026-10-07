@@ -1,0 +1,50 @@
+{"id": "s2-W6-0251", "decision": "fix_clean", "clean": "Progress report for the literacy program. In the last six months we enrolled 320 children across eight schools. Attendance averaged 87%, and reading scores improved by an average of one grade level. We trained 24 volunteer tutors, of whom 21 are still active. The main challenge was transport, so we have asked for an additional $4,000 to cover those fares.", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "raw has 'Program' variant and 'those fares' (bus not inferable)"}
+{"id": "s2-W6-0252", "decision": "fix_clean", "clean": "Found something. If you change the user ID in the URL on the profile page, you can see other people's profile data. I tested it with two accounts, and it worked both ways. This looks like a missing authorization check. I have not shared this with anyone else. We should fix it before the release on Friday.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'authorization'"}
+{"id": "s2-W6-0253", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0254", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Moro/Laron/Ruta Rivoli names plus undictated letter line breaks; >2 places"}
+{"id": "s2-W6-0255", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'negotiation corps' and 'count it'; 'call' not inferable"}
+{"id": "s2-W6-0256", "decision": "fix_clean", "clean": "Following up on our call, the event is on Saturday the 14th of November at the community hall. We expect about 120 guests. A buffet is fine, but we need at least 15 vegetarian portions and 10 that are gluten-free. Can you send a quote with a price per head? Thank you.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "greeting absent from raw"}
+{"id": "s2-W6-0257", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hi Jonas/Thanks/before/Cheers Mateo all garbled"}
+{"id": "s2-W6-0258", "decision": "drop", "reason": "unrecoverable_meaning", "note": "teammate, 'severity one out of jar', 'C O', dropped 'If'"}
+{"id": "s2-W6-0259", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Karim, foreign tutor, Hassan plus undictated letter line breaks; >2 places"}
+{"id": "s2-W6-0260", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Yeah.' never spoken"}
+{"id": "s2-W6-0261", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'modal' heard as 'mole'"}
+{"id": "s2-W6-0262", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0263", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0264", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0265", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0266", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0267", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0268", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'Don't'; also Race's for Rosa's"}
+{"id": "s2-W6-0269", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0270", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0271", "decision": "fix_clean", "clean": "Just a quick update on the roof repair. The contractors started on Monday and have finished about half of the work. They found some rotten timber under the old tiles, which will add about £1,100 to the cost. I had approved that because they cannot wait. They expect to finish by next Friday, weather permitting. I will send photos tomorrow.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'had' and 'they'"}
+{"id": "s2-W6-0272", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening sentence and several clauses garbled"}
+{"id": "s2-W6-0273", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0274", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I devis' for Hi Tobias, 'me' for Mia"}
+{"id": "s2-W6-0275", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'Line.'"}
+{"id": "s2-W6-0276", "decision": "fix_clean", "clean": "Hi team, my laptop is very slow since the Windows update on Monday. It takes about 10 minutes to start up, and the fan is always on. I have tried restarting it and clearing the temporary files, but nothing helps. It is a Dell Latitude, and the asset tag on the bottom says DL-4417. Let someone take a look this week. I have a presentation on Thursday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'I had team' (IT lost) and 'Let someone'"}
+{"id": "s2-W6-0277", "decision": "fix_clean", "clean": "Call with the head of procurement at Kestrel Energy. They are unhappy with the current delivery times, which average nine days, and want it under five. They have a budget of about 200,000 for next year. The decision maker is a woman called Ingrid Solber, who joins the next call. They asked for case studies from other energy companies. I promised to send two by Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling"}
+{"id": "s2-W6-0278", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw heavily garbled"}
+{"id": "s2-W6-0279", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "hesitations heard as 'Now', 'Down', 'It', 'No'"}
+{"id": "s2-W6-0280", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'My wife's name is' lost ('Isara'), 'now' from uh"}
+{"id": "s2-W6-0281", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Could' heard as 'But'; request not recoverable"}
+{"id": "s2-W6-0282", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No.', reads as a correction cue"}
+{"id": "s2-W6-0283", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Talk soon' heard as 'Thought soon'"}
+{"id": "s2-W6-0284", "decision": "fix_clean", "clean": "Hi Chris, I checked with legal and they're fine with the wording, so we can send it out today.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has the contraction 'they're'"}
+{"id": "s2-W6-0285", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0286", "decision": "fix_clean", "clean": "Customer return fell from 5.2% to 3.8% after we introduced the loyalty program.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'return'"}
+{"id": "s2-W6-0287", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0288", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0289", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0290", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several clauses lost; Layla/license"}
+{"id": "s2-W6-0291", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first clause about admin entering email and role lost"}
+{"id": "s2-W6-0292", "decision": "fix_clean", "clean": "Well, I am writing to cancel my annual subscription, which renewed automatically on the 2nd of October. I did not intend to renew, and I have not used this service since June. The charge was $299. Could you please cancel the subscription and refund the full amount? I would really appreciate it. Thank you.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'Well' and 'this service'"}
+{"id": "s2-W6-0293", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting heard as 'Priight'"}
+{"id": "s2-W6-0294", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' heard as 'Love' three times"}
+{"id": "s2-W6-0295", "decision": "fix_clean", "clean": "Called the insurance company at 9:30, spoke to a man called Marcus. Claim number is CL42819. They said the assessor will visit on the 12th between 1 and 5 PM. I need to be home. They will pay for the repairs of $8,000, and I have to pay the first $500 myself. Follow up if I do not hear anything by the 15th.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'of' not 'up to'"}
+{"id": "s2-W6-0296", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Katia, expert feature, greeting garbled"}
+{"id": "s2-W6-0297", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hamas Mitrov', 'mean career', sign-off lost"}
+{"id": "s2-W6-0298", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw heavily garbled"}
+{"id": "s2-W6-0299", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw heavily garbled"}
+{"id": "s2-W6-0300", "decision": "drop", "reason": "unrecoverable_meaning", "note": "section labels expected benefit/costs lost"}

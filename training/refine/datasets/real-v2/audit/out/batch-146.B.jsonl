@@ -1,0 +1,50 @@
+{"id": "s4-W40-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0061", "decision": "fix_clean", "clean": "Just got off with the venue and they can't do the original dates, so we're looking at either the second or third weekend up.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0062", "decision": "fix_clean", "clean": "Give me three subject lines for flash sale email, and make them punchy, not salesy.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W40-0063", "decision": "fix_clean", "clean": "Argen, the compressor on the vocal chain is clipping. Can you look at it before the client gets here?", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0064", "decision": "fix_clean", "clean": "For the chip names, the energy names, and maybe a utility just for...", "reason": "dropped_by_recognizer"}
+{"id": "s4-W40-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0066", "decision": "fix_clean", "clean": "Dude, my team is so cooked this week, three starters out and the backup quarterback is...", "reason": "dropped_by_recognizer"}
+{"id": "s4-W40-0067", "decision": "fix_clean", "clean": "Hello Tamar. I've looked into the issue with your discount code, then it looks like it expired on the 30th.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W40-0068", "decision": "fix_clean", "clean": "If we can get the loading done by noon, then we can start the sound check around 1.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0069", "decision": "fix_clean", "clean": "Part total is wrong when a customer applies a coupon and then changes the shipping method. Steps to reproduce are...", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0070", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W40-0071", "decision": "fix_clean", "clean": "I went back and looked at the standings. If we win this week and the teen and third loses, then we clinched the bye, but if they win and we lose, then we're back in a fight for the last wildcard spot. Honestly, I don't love our odds, because our kicker is...", "reason": "dropped_by_recognizer"}
+{"id": "s4-W40-0072", "decision": "fix_clean", "clean": "Hi Diara, I've gone through the registration export from Cvent and there are about 40 duplicate entries, mostly people who signed up once with a work address and once with a personal one. I also noticed that the dietary field is blank for almost everyone, so we may need to resend that survey before Friday.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0073", "decision": "fix_clean", "clean": "The walkthrough this morning went fine except the engine bay floor drain is still backing up. The chief said the plumber was coming Tuesday, and then he said maybe Wednesday, so I plan on the bay being half closed until at least the end of the week.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W40-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0075", "decision": "fix_clean", "clean": "Felix, I listen to the rough bounce and the bass is way too hot in the second verse, and I think the snare needs to come up a little too, not a lot but just enough that it cuts through when the guitars come in.", "reason": "spelling_from_raw"}
+{"id": "s4-W40-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0077", "decision": "fix_clean", "clean": "Dear Oscar, thank you for your order. Unfortunately, the jacket you picked is backward until the end of next month, and I know that's not what you wanted to hear, so we can either refund you in full or send you the gray one, which ships tomorrow.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0080", "decision": "fix_clean", "clean": "Arjun, can you pull the numbers for the booth traffic from the last two days? I want to see if the afternoon sessions actually brought more people in...", "reason": "trailing_off"}
+{"id": "s4-W40-0081", "decision": "fix_clean", "clean": "All engine company members are expected to complete the annual hose evolution before the end of June. The schedule is posted in the break room, and if you can't make your assigned slot, please swap with someone on your shift and let the captain know, and then...", "reason": "trailing_off"}
+{"id": "s4-W40-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0084", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0085", "decision": "fix_clean", "clean": "Brazil, I think we should skip to the opening act this year. The last one ran 40 minutes over and the sponsors were not happy, and honestly the schedule is already tight enough with the three panels.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0086", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0087", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0088", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0089", "decision": "fix_clean", "clean": "I need somebody to cover the 10 to 6 on the 3rd, I know it's short notice, I'd do it myself but I'm at my sister's wedding, and everyone I had asked so far is either working or out of town or...", "reason": "guide_violation"}
+{"id": "s4-W40-0090", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0091", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0092", "decision": "fix_clean", "clean": "The fire marshal is coming at 9 tomorrow, so we need the extinguishers tagged, the exit signs checked, and the hallway clear of the boxes, and if somebody could also find the fire drill up from last quarter, that'd be great.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0093", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0094", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0095", "decision": "fix_clean", "clean": "Recap of the station meeting, the captain wants everyone to finish the medical recertification by the end of the quarter, there are 12 people who haven't started, and he's going to send a reminder on Monday. The new tank arrives in three weeks and we need volunteers for the training sessions, probably two evenings. The budget for next year is still being worked out, and the city council is meeting on the 9th, so we'll know more after that. Last thing, the holiday potluck is on the 20th and sign ups are on the fridge.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0096", "decision": "fix_clean", "clean": "Hi Oscar, I'm writing about the order that went missing. I checked with the carrier this morning and they say it was delivered on the 6th to a neighbor's address, but I know that's not right because the address on the label was correct, so I don't think they're telling the whole story. What I'd like to do is send you a replacement today at no charge, and then I'll file the claim on our end, which usually takes a week or two, and I'll keep you posted on that. I'm really sorry about the hassle, and if there's anything else going wrong with the account, I'd be happy to look at it while I have it, and also they...", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0097", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W40-0098", "decision": "fix_clean", "clean": "Frady journal for the week. Monday I opened a small position in the Energy F and then sold half of the 2% game, which was fine. Tuesday I did nothing, which was also fine. Wednesday was the mistake, I chased a breakout on the semiconductor name without waiting for the volume to confirm, and it reversed within an hour and I took a 3% loss. Thursday I was angry and I almost made it worse but I stepped away. Friday I reviewed all of it and the main lesson is that I need a rule about not entering anything in the first 30 minutes, because it's when I keep getting burned.", "reason": "unrecoverable_word"}
+{"id": "s4-W40-0099", "decision": "accept", "reason": "ok"}
+{"id": "s4-W40-0100", "decision": "fix_clean", "clean": "Hi Felix, following up on our call from yesterday. As discussed, we'll move the mixing sessions to the week of the 22nd, and I'll send over the revised schedule once the engineer confirms. A couple of other things. The invoice for the tracking days should be coming from accounting by the end of the week, and if you haven't received it by then, let me know, and I'll chase it. Also, I wanted to mention that the studio is going to be closed for maintenance on the 4T, so if you have anything you need to pick up, drags or notes or whatever, please grab it before then. Otherwise I think we're in good shape, and I'm looking forward to hearing the first mixes. Talk soon.", "reason": "unrecoverable_word"}

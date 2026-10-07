@@ -1,0 +1,50 @@
+{"id": "s4-W51-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0055", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'me mum says' lost, 'as a spare do me'"}
+{"id": "s4-W51-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'legacy and border' for legacy importer"}
+{"id": "s4-W51-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0058", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Could you' heard as 'Middle'"}
+{"id": "s4-W51-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Elif heard as 'a lift'"}
+{"id": "s4-W51-0060", "decision": "fix_clean", "clean": "Is that really what he said? Why are you winding me up?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'or' heard as 'Why'"}
+{"id": "s4-W51-0061", "decision": "fix_clean", "clean": "I think the new shelf looks great, but the color is a bit too bold for the front window and I'd rather we tried something softer before the weekend.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'color'"}
+{"id": "s4-W51-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'traffic wasn't at all', 'the satneb'"}
+{"id": "s4-W51-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Carpal meeting' and 'update the Rhoda' not sensible"}
+{"id": "s4-W51-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0072", "decision": "drop", "reason": "hallucination", "note": "raw 'That's a hard one.' never said"}
+{"id": "s4-W51-0073", "decision": "fix_clean", "clean": "We never had no trouble with that supplier before and now this.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'ain't' dropped"}
+{"id": "s4-W51-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0076", "decision": "fix_clean", "clean": "We have prioritized the refund process because customers consistently told us that waiting for decision is more upsetting than the decision itself, and we plan to publish the new timescales in the summer.", "reason": "spelling_from_raw", "rules": ["R10", "RECOVER"], "note": "raw 'prioritized'; 'a' dropped"}
+{"id": "s4-W51-0077", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the colorists That's promised the great'"}
+{"id": "s4-W51-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0082", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Months from the call', 'they may ask', 'Olift'"}
+{"id": "s4-W51-0084", "decision": "fix_clean", "clean": "Hi Jima, I hope your week is going better than mine. The printer is broken again, the landlord still hasn't answered about the heating, and I spent most of Tuesday on hold to the water company only to be told I have run the wrong number. Anyway, I wanted to check whether you're still free to look at the accounts on Friday afternoon, because if not I'll ask Luca instead and he won't mind.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Gemma->Jima; 'had rung'->'have run'"}
+{"id": "s4-W51-0085", "decision": "fix_clean", "clean": "I'm putting together a short guide and I want it to cover the booking system, the way we label the treatment rooms, and what to do if a patient arrives early or late. So could you suggest a sensible order for those sections and tell me whether I should add a part about the insurance forms?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'for new starters at the physiotherapy practice' dropped"}
+{"id": "s4-W51-0086", "decision": "fix_clean", "clean": "Listen, I know you said you didn't want to fuss, but Mom's already booked the table and she's told everyone, and Aunt Valentina is coming all the way from Turin, so you can't really say no now, can you? And besides, it's only dinner and there's gonna be cake and I promise nobody will sing.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw 'want to fuss', 'Mom's'"}
+{"id": "s4-W51-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'The carpal steam operates' not sensible"}
+{"id": "s4-W51-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening garbled, 'paid' for panicked, 'Craigant'"}
+{"id": "s4-W51-0089", "decision": "fix_clean", "clean": "Ideas for the open house: we could put out proper coffee instead of the instant stuff, we should print the floor plans in color, not black and white, and maybe ask Hassan to walk people through the garden because he knows all the plants and nobody else does.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has 'color'"}
+{"id": "s4-W51-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'spread. cheats', 'made it some mug'"}
+{"id": "s4-W51-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0093", "decision": "fix_clean", "clean": "Give me three ideas for a name for a small coffee shop that sells good pastries and has a lot of plants and maybe a cat, and please keep the name short and a bit funny.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'name' not 'names'"}
+{"id": "s4-W51-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0096", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0098", "decision": "accept", "reason": "ok"}
+{"id": "s4-W51-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'then load and decide our color flashes'"}
+{"id": "s4-W51-0100", "decision": "accept", "reason": "ok"}

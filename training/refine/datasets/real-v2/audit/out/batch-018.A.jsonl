@@ -1,0 +1,50 @@
+{"id": "s2-W2-0351", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'her' for er, plus 'I'm on', 'Phot', 'news leave'"}
+{"id": "s2-W2-0352", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0353", "decision": "drop", "reason": "unrecoverable_meaning", "note": "recognizer lost a whole passage (narrowed list, first demo)"}
+{"id": "s2-W2-0354", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Lloyd' for uh; 'in the payments service' lost; 'Vic's'"}
+{"id": "s2-W2-0355", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Yeah', 'Or' for er; 'and not', 'If you move this thing'"}
+{"id": "s2-W2-0356", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'offers', 'postscrews', 'sense', 'Chip' unrecoverable"}
+{"id": "s2-W2-0357", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'High Khan', 'I ray', 'Krause', 'Oh because though'"}
+{"id": "s2-W2-0358", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'three seconds' and several clauses lost"}
+{"id": "s2-W2-0359", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Thumb', 'some' for um; 'rather than chronology' lost"}
+{"id": "s2-W2-0360", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Bukov', 'survey of U', 'read by count', inserted 'the first time'"}
+{"id": "s2-W2-0361", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Right', 'Hi' for uh; 'NPM Psi', 'log file'"}
+{"id": "s2-W2-0362", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No.' for uh; 'and it is' and 'bot to nudge' lost"}
+{"id": "s2-W2-0363", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'on'/'Or' for um/uh; 'theme ideas' lost; 'Key out'"}
+{"id": "s2-W2-0364", "decision": "fix_clean", "clean": "Good afternoon, I am writing to follow up on the maintenance request I submitted for apartment 12B. The kitchen faucet has been leaking for about two weeks, and the water is starting to damage the cabinet underneath. I first reported it on the 3rd, and again on the 10th, but I have not heard back from anyone. I am available most weekdays after 5, and I can also leave a key with the front desk. Please send someone on Wednesday, because I am working from home that day. I understand that the maintenance team is busy, but this is getting worse every day. I appreciate your help with...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends 'with. L': 'this' lost"}
+{"id": "s2-W2-0365", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to feel supported can you help me prepare a short script' lost; trailing 'Yeah.'"}
+{"id": "s2-W2-0366", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Put that as update', 'A bit different'"}
+{"id": "s2-W2-0367", "decision": "fix_clean", "clean": "Hi Jenna, it's me. I wanted to thank you for the sweater, it fits perfectly. I wore it today and got so many compliments. We are planning to visit in November, once the kids are out of school for the break. I will let you know the exact dates as soon as we book the tickets. Mom says hi, and she is sending a package with some cookies. Talk soon, love you.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'aunt' heard as 'Namp'"}
+{"id": "s2-W2-0368", "decision": "drop", "reason": "unrecoverable_meaning", "note": "terminal command badly garbled ('Daker Bild Dash Te G my Abcolin'); target also changes build tag to 1.3"}
+{"id": "s2-W2-0369", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Wanna', 'word clause', 'is' lost, 'our region'"}
+{"id": "s2-W2-0370", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'UML' for um"}
+{"id": "s2-W2-0371", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Up to or', 'old fashion', 'repair. Place on the whole session'"}
+{"id": "s2-W2-0372", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'it right than do it fast no offense to anyone who disagrees' lost"}
+{"id": "s2-W2-0373", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0374", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No' for uh three times, reads as a correction cue"}
+{"id": "s2-W2-0375", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the new list', 'it changed it', 'immediately data structures'"}
+{"id": "s2-W2-0376", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'us' lost, 'Here' for near, 'plan' for planned"}
+{"id": "s2-W2-0377", "decision": "fix_clean", "clean": "The notification service sends messages through three channels, email, SMS and push. Each user can choose which channels to enable in their preferences. When an event occurs, the service looks up the user's preferences and sends a message through each enabled channel. Messages are queued, so a temporary outage on one channel does not block the others. Failed messages are retried up to six times, with an increasing delay between attempts. After the final attempt, the message is moved to a dead letter queue for manual review. You can monitor queue depth from the admin dashboard.", "reason": "guide_violation", "rules": ["R6"], "note": "SMS casing"}
+{"id": "s2-W2-0378", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'law' for long, 'might rate' for migrate, 'if' lost"}
+{"id": "s2-W2-0379", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Well, How Thou', 'with means', 'it' lost"}
+{"id": "s2-W2-0380", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'steps our life', 'helmet you', 'talk' lost"}
+{"id": "s2-W2-0381", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sonily', 'so no alert was triggered' lost, 'for customer'"}
+{"id": "s2-W2-0382", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W2-0383", "decision": "fix_clean", "clean": "Dear residents, this is a notice that the water will be shut off in building C on Tuesday. The work is expected to take about seven hours, from 9:00 AM until 4:00 PM. Please store enough water for drinking and cooking before then. If you have any medical needs that require running water, contact the front office as soon as possible.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R6"], "note": "last sentence lost by recognizer; building C casing"}
+{"id": "s2-W2-0384", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and you act', 'Quis', 'yesterite away, said'"}
+{"id": "s2-W2-0385", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Hi Hi it's' for hid- hides er, 'You do it.' for er"}
+{"id": "s2-W2-0386", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'No.' for uh many times, 'Love,'"}
+{"id": "s2-W2-0387", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Yeah', 'No', 'It', 'I', 'Iran' for hesitations; 'car team'"}
+{"id": "s2-W2-0388", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; also 'pick up the dry cleaning, and renew' lost"}
+{"id": "s2-W2-0389", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'React Navy', 'down', 'streets', 'data muddle'"}
+{"id": "s2-W2-0390", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'is in the shop until' lost: 'my car. It is Thursday'"}
+{"id": "s2-W2-0391", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'card' for cart, 'unpoint CTs', 'we'll', 'the code'"}
+{"id": "s2-W2-0392", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Now', 'Oh my', 'No.', 'And I' for hesitations"}
+{"id": "s2-W2-0393", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sort use is', 'Udels', 'fix the eye. Or and', 'Sword'"}
+{"id": "s2-W2-0394", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'U and M', 'you and' for um; 'link' lost; 'M S and Wynn'"}
+{"id": "s2-W2-0395", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'wondering issue', 'sounds pre', 'Don't wait', 'the shifts'"}
+{"id": "s2-W2-0396", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'You test it', 'revisit them' for um; 'hairs', 'fines'"}
+{"id": "s2-W2-0397", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw ends at 'Scratch the rotation.'; rest lost; 'sir' for er"}
+{"id": "s2-W2-0398", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large parts lost ('submit written feedback', 'make an offer')"}
+{"id": "s2-W2-0399", "decision": "drop", "reason": "unrecoverable_meaning", "note": "email address and several clauses garbled"}
+{"id": "s2-W2-0400", "decision": "accept", "reason": "ok"}

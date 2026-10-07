@@ -1,0 +1,50 @@
+{"id": "s2-W4-0101", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W4-0102", "decision": "fix_clean", "clean": "No, I think we should wait.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'No' not 'Nah'"}
+{"id": "s2-W4-0103", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0104", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0105", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0106", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0107", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0108", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'happening on' lost; raw 'It is. Every request.' not a sensible target"}
+{"id": "s2-W4-0109", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0110", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0111", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0112", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0113", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0114", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0115", "decision": "fix_clean", "clean": "The thing is, the vendor is like...", "reason": "unrecoverable_word", "rules": ["RECOVER", "R4"], "note": "'late' heard as 'like'; raw ends mid-thought"}
+{"id": "s2-W4-0116", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0117", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0118", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0119", "decision": "drop", "reason": "hallucination", "note": "raw has invented 'if you're going to be able to do'; also 'to come up' dropped"}
+{"id": "s2-W4-0120", "decision": "drop", "reason": "unrecoverable_meaning", "note": "nah->now, launch yep->launching up, honestly lol->honest at all, fixing typos->fix some titans"}
+{"id": "s2-W4-0121", "decision": "fix_clean", "clean": "Write me a story about a dragon who is afraid of it.", "reason": "trailing_off", "rules": ["RECOVER", "R4"], "note": "raw ends with complete 'afraid of it.'"}
+{"id": "s2-W4-0122", "decision": "fix_clean", "clean": "Need to remember to call the plumber and also they...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'they'"}
+{"id": "s2-W4-0123", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0124", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0125", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0126", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0127", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0128", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0129", "decision": "fix_clean", "clean": "Maybe the answer is something like that.", "reason": "trailing_off", "rules": ["RECOVER", "R4"], "note": "raw ends complete 'like that.'"}
+{"id": "s2-W4-0130", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0131", "decision": "drop", "reason": "hallucination", "note": "raw appends 'I'm not sure.' never said"}
+{"id": "s2-W4-0132", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0133", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0134", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0135", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0136", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W4-0137", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0138", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0139", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um->'bumps', uh->'Well' as real words"}
+{"id": "s2-W4-0140", "decision": "fix_clean", "clean": "Dear Dr. Akifer, thank you for meeting with me last week. I have been thinking about our conversation regarding the research proposal, and I believe the strongest direction would be to focus on the longitudinal data, although I am still uncertain about whether the funding would cover the extra year of...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw spelling Akifer"}
+{"id": "s2-W4-0141", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Yeah, it's fun of', 'They will wait. Oh the setup be', 'The prod up': too many places"}
+{"id": "s2-W4-0142", "decision": "drop", "reason": "hallucination", "note": "raw appends 'you're going to be able to do it'"}
+{"id": "s2-W4-0143", "decision": "fix_clean", "clean": "Unfortunately, we will not be able to do it.", "reason": "trailing_off", "rules": ["RECOVER", "R4"], "note": "raw ends complete 'do it.'"}
+{"id": "s2-W4-0144", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0145", "decision": "fix_clean", "clean": "We skip validation here because the color already...", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'caller' heard as 'color'"}
+{"id": "s2-W4-0146", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0147", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0148", "decision": "accept", "reason": "ok"}
+{"id": "s2-W4-0149", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for the' and 'open' dropped; raw not a sensible dictation"}
+{"id": "s2-W4-0150", "decision": "drop", "reason": "garbage", "note": "raw empty"}

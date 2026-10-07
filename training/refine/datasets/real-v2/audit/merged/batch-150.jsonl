@@ -1,0 +1,45 @@
+{"id": "s4-W42-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0052", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'SQL' heard as 'Ispool'; not inferable"], "auditors": ["A", "B"], "clean": "I think my Ispool query is slow. How do I figure out why?"}
+{"id": "s4-W42-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0054", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'for a startup backend' -> 'versus start up a Kendra'"], "auditors": ["A", "B"]}
+{"id": "s4-W42-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0056", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0057", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'List' -> 'With', 'AWS' -> 'Oz'"], "auditors": ["A", "B"]}
+{"id": "s4-W42-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0062", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0063", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw is unrelated garble"], "auditors": ["A", "B"]}
+{"id": "s4-W42-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0071", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'a main' dropped by recognizer"], "auditors": ["A", "B"], "clean": "I'm planning dinner for eight people on Saturday, and one of them is vegan and another can't eat gluten. Can you suggest a menu with a starter and a dessert that works for everyone, and keep the whole thing under $100?"}
+{"id": "s4-W42-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0073", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0074", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0078", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0081", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0082", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'wanted to' for 'want it to'"], "auditors": ["A", "B"], "clean": "I need a prompt that will make the model answer in JSON only and never add any extra commentary, and I wanted to include a short example."}
+{"id": "s4-W42-0083", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0084", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0086", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0088", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0089", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0091", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'so Ahmed' heard as 'Someone'"], "auditors": ["A", "B"], "clean": "Someone asked me to ask you how to set up two-factor authentication on our company Google account. Can you walk through the steps?"}
+{"id": "s4-W42-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W42-0093", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; also 'backoff'/'dead letter' lost"], "auditors": ["A", "B"]}
+{"id": "s4-W42-0094", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'better','phone','to track','when' all garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W42-0096", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'April ninth' heard as 'April May'; date value lost"], "auditors": ["A", "B"]}
+{"id": "s4-W42-0097", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'this city' and 'how I compare'"], "auditors": ["A", "B"], "clean": "My partner and I are trying to figure out whether to rent or buy. We have about $60,000 saved, we make a combined $110,000 a year, rates are around 6.5% right now, and we'd probably stay in this city for at least seven years. Can you lay out how I compare the total cost of each option over that time, and what assumptions I should be careful about?"}
+{"id": "s4-W42-0098", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'to' not 'through'"], "auditors": ["A", "B"], "clean": "I'm a librarian and we're redoing our summer reading program. Can you brainstorm 10 theme ideas for kids from kindergarten to fifth grade, make them different from the usual space and ocean stuff, then pick your top three and for each one suggest a craft, a read aloud book, and a small prize, and format it as a table?"}
+{"id": "s4-W42-0099", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'from me'"], "auditors": ["A", "B"], "clean": "Review this pull request description from me. It says we're migrating the billing service from REST to gRPC, adding a feature flag called new billing path, and rolling it out to 5% of traffic first. I want you to look for anything that's unclear or risky, like missing rollback steps, and tell me what questions the reviewers are likely to ask."}
+{"id": "s4-W42-0100", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'QA' heard as 'car'"], "auditors": ["A", "B"], "clean": "My team is shipping an iOS and Android app next month and I need a testing plan. We have two engineers and one designer, no dedicated car. What should we test manually and what should we automate, and how many devices is enough? And also I want a checklist for the week before release, covering crash reporting, App Store screenshots, and the privacy policy link."}

@@ -1,0 +1,11 @@
+{"id": "s4-W30-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Reversal, bill, lost 'but': 3 places in 20 words"}
+{"id": "s4-W30-0059", "decision": "fix_clean", "clean": "Hi Horhe, the pen test report flagged an outdated OpenSSL version on the VPN appliance.", "reason": "unrecoverable_word", "note": "A: 'I' is greeting 'Hi'; name not in dictionary, raw spelling Horhe"}
+{"id": "s4-W30-0073", "decision": "fix_clean", "clean": "Incident review for Tuesday. The phishing email came through Proofpoint because sender domain passed SPF and DKIM. Then the user clicked, and the EDR agent caught the payload within 90 seconds. Action items are tighten the DMARC policy and add the domain to the block list.", "reason": "dropped_by_recognizer", "note": "neither: SPF/DKIM recoverable from splits, but 'the' before sender is absent from raw"}
+{"id": "s4-W30-0075", "decision": "drop", "reason": "hallucination", "note": "A: 'to the first time' appended, never said"}
+{"id": "s4-W30-0083", "decision": "accept", "reason": "ok", "note": "A: 'and said' is a near-homophone of 'instead'; judgment call, accept per rule 6"}
+{"id": "s4-W30-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'on.form' and sign-off 'Gazaka' unrecoverable"}
+{"id": "s4-W30-0091", "decision": "fix_clean", "clean": "Hi Jamal, I review the Figma mockups for the new listing page. Two things, the price filter needs a slider, and the map should use Mapbox instead of Google Maps, since we're already paying for the Mapbox license.", "reason": "dropped_by_recognizer", "note": "B: 'and they look great' lost and raw has 'review'"}
+{"id": "s4-W30-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'she uses an old version have reignated' and Cestavo: not sensible"}
+{"id": "s4-W30-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'Poor Hay' and 'OF lobby' make the target non-sensical"}
+{"id": "s4-W30-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: sign-off name heard as 'Or hate'"}
+{"id": "s4-W30-0097", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'of the I', 'I cached', 'the service', 'I am': too many places"}

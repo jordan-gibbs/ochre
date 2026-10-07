@@ -1,0 +1,41 @@
+{"id": "s4-W54-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0003", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'dinghy' heard as 'Tingy'; not inferable"], "auditors": ["A", "B"], "clean": "The Tingy is on the trailer."}
+{"id": "s4-W54-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0009", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw 'Well. Shop.'"], "auditors": ["A", "B"]}
+{"id": "s4-W54-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0011", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["invented 'we're going to be able to do it Time'"], "auditors": ["A", "B"]}
+{"id": "s4-W54-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0016", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["gnocchi heard as Nakai"], "auditors": ["A", "B"], "clean": "Pick up Nakai on the way home."}
+{"id": "s4-W54-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0025", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'shuttle business. The flat fair'"], "auditors": ["A", "B"]}
+{"id": "s4-W54-0026", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["empty raw"], "auditors": ["A", "B"]}
+{"id": "s4-W54-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0028", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw 'cave'"], "auditors": ["A", "B"], "clean": "Hi Annika, thanks for sending the itinerary. I'd like to swap the dinghy sailing session for the afternoon trip to the cave if there's room."}
+{"id": "s4-W54-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0030", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Me it said' - Mia lost"], "auditors": ["A", "B"]}
+{"id": "s4-W54-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0033", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["empty raw"], "auditors": ["A", "B"]}
+{"id": "s4-W54-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0035", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["bisque heard as beast"], "auditors": ["A", "B"], "clean": "I left the beast in the freezer. It's the one with the blue lid, not the green one."}
+{"id": "s4-W54-0036", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw 'harbor'"], "auditors": ["A", "B"], "clean": "Fiona recommended the bakery near the harbor in Galway. Get the soda bread early because it sells out by 10:30."}
+{"id": "s4-W54-0037", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Bouchot ... petadop should shelter'"], "auditors": ["A", "B"]}
+{"id": "s4-W54-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0044", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw 'inquiry'"], "auditors": ["A", "B"], "clean": "Dear Ms. Alvarez, thank you for your inquiry about the guided tour of the Cinque Terre. We do have space on the 14th."}
+{"id": "s4-W54-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0046", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'three ADs' and 'the elf to'"], "auditors": ["A", "B"]}
+{"id": "s4-W54-0047", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W54-0049", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'the prime'"], "auditors": ["A", "B"], "clean": "The new lens arrived. It's the prime, and it's sharper than the old one."}
+{"id": "s4-W54-0050", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

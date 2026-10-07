@@ -1,0 +1,50 @@
+{"id": "s2-W6-0151", "decision": "fix_clean", "clean": "Hi Anders, I am following up on my interview last Thursday for the operations manager role. I just wanted to say thank you again for your time and to reiterate how excited I am about the position. If you need any references or other documents, I can send them straight away. I am happy to answer any further questions.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'and' before 'I am happy'"}
+{"id": "s2-W6-0152", "decision": "fix_clean", "clean": "Feedback for Quame. Strengths. He is calm under pressure and everyone trusts him in an incident. He wrote the runbook that cut our average recovery time from 40 minutes to 25. Areas to grow. He can be quiet in cross-team meetings, and he sometimes keeps problems to himself for too long. I would encourage him to ask for help earlier.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; raw has Quame"}
+{"id": "s2-W6-0153", "decision": "fix_clean", "clean": "Tax meeting with the accountant on Tuesday. Things to bring: last year's return, the receipts for the van, the invoice from the roofing job, which was $14,000, and the bank statements for June through August. Also ask whether we should register for JSD.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw 'J S D'; GST not inferable"}
+{"id": "s2-W6-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0155", "decision": "drop", "reason": "unrecoverable_meaning", "note": "total $1,800 lost: 'So the total dollars.'"}
+{"id": "s2-W6-0156", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0157", "decision": "drop", "reason": "unrecoverable_meaning", "note": "asthma lost ('has been'), Via->by, mold variant, undictated line breaks"}
+{"id": "s2-W6-0158", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0159", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'/v2/invoices' -> 'the two Timbus's', 'API key' -> 'FIP'"}
+{"id": "s2-W6-0160", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Brightwick, 'software and junior', Go lost, 'Anal Weber', undictated structure"}
+{"id": "s2-W6-0161", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Long' where um was said"}
+{"id": "s2-W6-0162", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0164", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name Brixay, sign-off 'best regards, Paolo' lost"}
+{"id": "s2-W6-0165", "decision": "fix_clean", "clean": "I have reviewed the draft and I think section 3 needs a clear summary of the risks.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'clear'"}
+{"id": "s2-W6-0166", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0167", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0168", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0170", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0171", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sign-off name Zainab heard as 'Same'"}
+{"id": "s2-W6-0172", "decision": "fix_clean", "clean": "The agreement runs for 24 months starting on the 1st of January. Either party can terminate with 90 days' written notice. Fees are payable monthly in advance, and there's an annual increase kept at 4%. The supplier is liable for damages up to a maximum of €200,000, and intellectual property created during the project belongs to the client.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw 'kept' and \"there's\""}
+{"id": "s2-W6-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0174", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a confirmation email' and 'missing' lost, Dear->Your, undictated structure"}
+{"id": "s2-W6-0175", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Safety Me', 'you're miss', 'four markings': three garbled places"}
+{"id": "s2-W6-0176", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Nguyen->Newman, last phone digits lost"}
+{"id": "s2-W6-0177", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'as' and 'Some' where um was said"}
+{"id": "s2-W6-0178", "decision": "drop", "reason": "unrecoverable_meaning", "note": "undictated letter structure, apologize variant, Lil/Lille; too many fixes"}
+{"id": "s2-W6-0179", "decision": "fix_clean", "clean": "Risk register update for the data center move. Overall rating is amber, and I will review again at the next steering meeting. There are three open risks:\n1. The new power supply has not been tested. Owner is Chen, due the 8th of December\n2. We do not have confirmation from the telecom provider about the circuit install date. Owner is Batama\n3. Two of the older servers may not survive the move, and we might need replacements, which would cost around £12,000", "reason": "unrecoverable_word", "rules": ["RECOVER", "R10"], "note": "raw 'center' variant and name 'Batama'"}
+{"id": "s2-W6-0180", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Powalski, 'every I have learned', undictated letter structure; too many fixes"}
+{"id": "s2-W6-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0182", "decision": "fix_clean", "clean": "Owner is Nadia.", "reason": "dropped_by_recognizer", "rules": ["RECOVER", "R11"], "note": "'due next Friday' lost"}
+{"id": "s2-W6-0183", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W6-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0185", "decision": "fix_clean", "clean": "We received your application on the 12th and we'll be in touch within two weeks.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has \"we'll\""}
+{"id": "s2-W6-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0187", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0188", "decision": "drop", "reason": "hallucination", "note": "Whisper trailing 'you'; email garbled"}
+{"id": "s2-W6-0189", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0190", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"don't\" where uh was said"}
+{"id": "s2-W6-0191", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0192", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'On.' where um was said; also works/we've/Thomas"}
+{"id": "s2-W6-0193", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salutation, 8%, Nguyen family lost"}
+{"id": "s2-W6-0194", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0195", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Well,' where uh was said"}
+{"id": "s2-W6-0196", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hello->El, Could->If, Mendes->Menz"}
+{"id": "s2-W6-0197", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'make' lost, 'Try it' -> 'Tried'"}
+{"id": "s2-W6-0198", "decision": "fix_clean", "clean": "Hi Fatima,\n\nI wanted to let you know that I am expecting a baby. The due date is the 3rd of March, and I would like to talk about my maternity leave. I plan to start leave on the 24th of February, so about a week before, and I am hoping to take six months in total.\n\nCould you send me the leave policy and the forms I need to fill in? I would also like to understand how my pay and benefits work while I am away.\n\nI have not told the wider team yet, so please keep this between us for now.\n\nThank you, Grace.", "reason": "guide_violation", "rules": ["R8", "R10"], "note": "sign-off line break not dictated"}
+{"id": "s2-W6-0199", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'fair' lost ('The Autumn raised') breaks meaning; favor variant"}
+{"id": "s2-W6-0200", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Yeah.' for 'and uh'; undictated letter structure"}

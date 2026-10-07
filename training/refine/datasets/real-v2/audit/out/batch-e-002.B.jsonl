@@ -1,0 +1,50 @@
+{"id": "e4-E1-0051", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0052", "decision": "drop", "reason": "hallucination", "note": "raw 'long. Yeah.' for 'lol'; trailing Yeah not said"}
+{"id": "e4-E1-0053", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0054", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0055", "decision": "fix_clean", "clean": "You will not believe what happened at rehearsal tonight. We're doing the big ballroom scene and Rin's dress gets caught under the staircase railing and the whole skirt rips off, the entire thing, and she just keeps singing. She didn't even miss a note, and the director is crying laughing in the front row. Anyway, I'm gonna need you to come opening night because I cannot promise it won't happen again.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Rin's, under"}
+{"id": "e4-E1-0056", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0057", "decision": "fix_clean", "clean": "Oh, Kofi, that's so sweet. Tell your mom thank you.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw Oh, not Aww"}
+{"id": "e4-E1-0058", "decision": "drop", "reason": "unrecoverable_meaning", "note": "grain/white pavement"}
+{"id": "e4-E1-0059", "decision": "accept", "reason": "ok"}
+{"id": "e4-E1-0060", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0001", "decision": "fix_clean", "clean": "Call Thandiwe about the Rutina molds.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "retainer lost"}
+{"id": "e4-E2-0002", "decision": "drop", "reason": "garbage", "note": "empty raw"}
+{"id": "e4-E2-0003", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um is -> There's"}
+{"id": "e4-E2-0004", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0005", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0006", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0007", "decision": "fix_clean", "clean": "User to send revised setback measurements by Friday.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E2-0008", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0009", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0010", "decision": "fix_clean", "clean": "I've attached the tasting notes for the 2022 reserve.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "greeting lost"}
+{"id": "e4-E2-0011", "decision": "fix_clean", "clean": "Mateo said the bracket order ships Monday.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E2-0012", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0013", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0015", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E2-0016", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0017", "decision": "fix_clean", "clean": "Running about 50 minutes behind. Start without me.", "reason": "number_value", "rules": ["RECOVER"]}
+{"id": "e4-E2-0018", "decision": "fix_clean", "clean": "Thanks so much for covering the Saturday Powell.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E2-0019", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0020", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0021", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0022", "decision": "fix_clean", "clean": "Action items from the board meeting: Leopold is handling the dock permit, Myrel is updating the waiver forms, and I'm ordering six new paddles.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E2-0023", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0024", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0025", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0026", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0027", "decision": "fix_clean", "clean": "The zoning board isn't going to approve a four-story building on that lot. It's two blocks from the historic district.", "reason": "guide_violation", "rules": ["R10"], "note": "gonna vs raw going to"}
+{"id": "e4-E2-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name lost"}
+{"id": "e4-E2-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "flooding/You, sir"}
+{"id": "e4-E2-0030", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0031", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0032", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0033", "decision": "fix_clean", "clean": "For next week, order more alginate, call the lab about the twisted wire retainers, and remind Matteo about his C credits.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "CE -> C"}
+{"id": "e4-E2-0034", "decision": "fix_clean", "clean": "Honestly, the new punk mill is a game changer. We recycled 40 pounds of scrap yesterday.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E2-0035", "decision": "fix_clean", "clean": "Hi Myrel, O'd you send me the minutes from the September zoning meeting? I can't find them on the portal.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E2-0036", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0037", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0038", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0039", "decision": "accept", "reason": "ok"}
+{"id": "e4-E2-0040", "decision": "fix_clean", "clean": "Every swatch from the new sell it in came out cloudy. We need to talk to the supplier.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}

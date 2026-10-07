@@ -1,0 +1,50 @@
+{"id": "s4-W64-0041", "decision": "fix_clean", "clean": "Quick heads up, the supporters coach to the derby is full, but there's a waiting list, and if you cancel, please tell Anders by Wednesday so...", "reason": "trailing_off"}
+{"id": "s4-W64-0042", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W64-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0044", "decision": "fix_clean", "clean": "Inventory count results. Fiction is off by seven titles. Children's is correct. The used section is short 12 books, which may be the box that went to the charity sale, and we shouldn't reorder anything until Bodhigh confirms.", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0045", "decision": "fix_clean", "clean": "The flight got canceled, which means the whole crew is stuck at Gate 12 until at least 9 tonight, and the airline will only cover hotels if the delay goes past midnight.", "reason": "spelling_from_raw"}
+{"id": "s4-W64-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0048", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0049", "decision": "fix_clean", "clean": "Hi Quinn, regarding the grievance filed on September 2nd, the investigation will take no more than 20 business days, both parties may bring a representative, and nothing discussed can be shared with the team, including chats.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W64-0050", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0052", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0053", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0054", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0055", "decision": "fix_clean", "clean": "Dear Captain Linquist, as discussed, the Skybridge training module is mandatory for all first officers hired after January 1st. It takes approximately six hours, and it must be completed before the first line check, which is scheduled for the second week of May. Employees who completed the old module are exempt, provided their certificate has not expired. Kind regards", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0056", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0057", "decision": "fix_clean", "clean": "Remote work guidelines. Employees may work from home up to three days a week with manager approval. Core hours are 10 to 3 in the local time zone, and the equipment statements about the $400 are available once every two years, but receipts must be submitted within 30 days or the claim lapses.", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0058", "decision": "fix_clean", "clean": "Hi Quinns, here's the plan for the book launch. Doors at 6, the author reads at 6:30 for about 20 minutes, then questions, then signing until 8. We've ordered 120 copies, and if we sell fewer than 80, the publisher wants the rest back. I'll bring the banner, Mina brings the wine, and nobody touches the display table before 4.", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0059", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0060", "decision": "fix_clean", "clean": "Steps to reproduce: open the shop menu, buy any item costing more than 1,000 coins, both the menu with the back button, and the balance shows negative. Expected the purchase to fail if the balance is insufficient. Happens on Android only, version 2.1, not on iOS.", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0062", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W64-0063", "decision": "fix_clean", "clean": "Hi Nina, the artist's contract says the final concept art is due on the 20th, but she's asking for an extra week because of the revisions the director wanted. I'm fine with that as long as the payment schedule doesn't change, so 50% on delivery, not on approval, and the rights stay with us.", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0064", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0065", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0066", "decision": "fix_clean", "clean": "The playtest is booked for Saturday at 10. We need eight people, none of whom worked on the level, and everyone has to sign the NDA before they come in, so Par, please send the forms up tomorrow.", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0070", "decision": "fix_clean", "clean": "Dear Bonnet, per our conversation on Tuesday, their probation period is extended by 30 days, ending on April 9th. During this time you will meet weekly with your manager, and failure to meet the agreed targets may result in the termination of your contract. Please sign and return the attached letter by Friday.", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0074", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W64-0075", "decision": "fix_clean", "clean": "Good news and bad news. The crates arrived early, Thursday instead of Monday, but one of them is soaked, so don't unpack it until the insurance guy has photographed it.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W64-0076", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0077", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0078", "decision": "fix_clean", "clean": "Tess, I literally can't make the Thursday meeting because of the odd, but I'm free Friday morning before 11, so move it there if the others can do it.", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0080", "decision": "fix_clean", "clean": "Dear Ms. Ostrander, thank you for your inquiry. The position is full time, 38 hours per week, with a salary range of $40,000 to $48,000 depending on experience, and the application closes on the 2nd of June at 5. Unfortunately, we cannot sponsor visas at this time.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W64-0081", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0082", "decision": "fix_clean", "clean": "Hi Mmo, we're ordering the next round of paperbacks. I need 50 copies of the mystery, 30 of the biography, but only if the discount is at least 35%, otherwise 10 each. Can you check with the rat and let me know by Tuesday?", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0085", "decision": "fix_clean", "clean": "Hi Hassan, I've attached the exit interview summary. Three people mentioned the commute, and one said the manager was fine but the schedule wasn't. None of them are eligible for rehire except the one who left in June. Please keep this confidential and don't forward it to the regional office.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W64-0086", "decision": "fix_clean", "clean": "Ideas for the discussion. Does the narrator like? Why does the second half switch to letters? Is the ending hopeful or just ambiguous? Bring page numbers, and nobody spoil the last chapter for Bodhai because she's reading slowly.", "reason": "unrecoverable_word"}
+{"id": "s4-W64-0087", "decision": "fix_clean", "clean": "Hi Quinn, to confirm the standby arrangement. You're on call from 6 p.m. Friday until 6 Monday, you must be able to reach the airport within 45 minutes, and no alcohol while on standby. You'll be paid a flat $250 plus the usual flight pay if called.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W64-0088", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W64-0089", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W64-0090", "decision": "fix_clean", "clean": "The HR portal is down for maintenance until tomorrow at 6, so don't submit anything tonight, and if you already did, it'll be lost, so resubmit it after.", "reason": "dropped_by_recognizer"}

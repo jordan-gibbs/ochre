@@ -1,0 +1,35 @@
+{"id": "s4-W58-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W58-0062", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W58-0064", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I will know', 'Ani, and pepflowers', 'cash box' lost, 'viewer', trailing 'Yeah.'", "many garbled words, trailing Yeah"], "auditors": ["A", "B"]}
+{"id": "s4-W58-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W58-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W58-0069", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'only the sheet itself' missing from raw", "only the sheet itself lost"], "auditors": ["A", "B"], "clean": "Please wait for me to finish before you start. I'm going to describe the problem in a few parts. Our nonprofit's volunteer sign-up sheet keeps getting duplicate entries. The sheet is shared with about 40 people, and the entries come from a web form. I think the duplicates happen when people click submit twice, or maybe three times. I'm not sure, so what are the most likely causes and what's the simplest fix? Assume I can't change the form software."}
+{"id": "s4-W58-0070", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I clone', 'K Rank order', 'using home', 'get it to prove'", "name and several words garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W59-0001", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'vault ought'; ending 'don't start dinner without me' became 'and start to'", "last clause lost/garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W59-0002", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s4-W59-0003", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0004", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary"], "auditors": ["A", "B"], "clean": "Hey Argen, the build is sort of green again. iOS passes but Android is still flaky, so we can't ship until it's fixed."}
+{"id": "s4-W59-0005", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Chitty, I'm at the legal aid clinic till 7. Can you grab the kids? And please don't let them have soda, they get wild."}
+{"id": "s4-W59-0006", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'lol alessia' -> 'Ballisha' and final 'a funeral' lost: 3 places in 22 words", "name garbled, lol and ending lost"], "auditors": ["A", "B"]}
+{"id": "s4-W59-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0010", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'Lucia hey' heard as 'Lu Shahe'"], "auditors": ["A", "B"], "clean": "Lu Shahe, it's me. My phone's about to die, so if I don't answer it's not because I'm ignoring you. I'll charge it at the bookstore."}
+{"id": "s4-W59-0011", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "The deploy failed because somebody pushed a config change without telling anyone, and now Rose's team is rolling it back. I'll keep you posted."}
+{"id": "s4-W59-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0013", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Lucha, I just realized the on-call handoff doc still lists the old pager number. Sorry, I should've updated it. I'll do it after lunch."}
+{"id": "s4-W59-0015", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'dad the' heard as 'DAPA'"], "auditors": ["A", "B"], "clean": "DAPA legal aid clinic is doing a free workshop on tenant rights next Thursday, and I thought of you since you've been fighting with your landlord, so maybe come."}
+{"id": "s4-W59-0016", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["heavily garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W59-0018", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'eggs' lost, 'books for coffee', name lost", "name, eggs and place garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W59-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0021", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": [], "auditors": ["A", "B"], "clean": "Hi Gabriel, it's Anne Carol. Your phone keeps going to voicemail and I'm worried. Call me when you can, it's probably nothing."}
+{"id": "s4-W59-0022", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["'rohan' heard as 'Bro, man'"], "auditors": ["A", "B"], "clean": "Bro, man, I think we should skip the retro. Nobody has anything to say and the sprint was boring, but if you disagree I'm open."}
+{"id": "s4-W59-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0030", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0034", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said", "trailing Yeah."], "auditors": ["A", "B"]}
+{"id": "s4-W59-0035", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Unless you', 'And we', 'cookie show'", "several garbled words"], "auditors": ["A", "B"]}
+{"id": "s4-W59-0036", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'elias the legal' cut from start of raw"], "auditors": ["A", "B"], "clean": "Aid clinic wants to move their intake form to a new system, and honestly I think that's a great idea, but we need to check with the lawyers about privacy first."}
+{"id": "s4-W59-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W59-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

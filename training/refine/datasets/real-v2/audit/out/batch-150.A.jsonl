@@ -1,0 +1,50 @@
+{"id": "s4-W42-0051", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0052", "decision": "fix_clean", "clean": "I think my Ispool query is slow. How do I figure out why?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'SQL' heard as 'Ispool'; not inferable"}
+{"id": "s4-W42-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'for a startup backend' -> 'versus start up a Kendra'"}
+{"id": "s4-W42-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'List' -> 'With', 'AWS' -> 'Oz'"}
+{"id": "s4-W42-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0063", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is unrelated garble"}
+{"id": "s4-W42-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0065", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0071", "decision": "fix_clean", "clean": "I'm planning dinner for eight people on Saturday, and one of them is vegan and another can't eat gluten. Can you suggest a menu with a starter and a dessert that works for everyone, and keep the whole thing under $100?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'a main' dropped by recognizer"}
+{"id": "s4-W42-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0077", "decision": "fix_clean", "clean": "What are the symptoms of dehydration, and how much water should an adult actually drink in a day? Because I keep seeing eight glasses, but I don't know if that's real.", "reason": "guide_violation", "rules": ["R10"], "note": "clean dropped the spoken 'because'"}
+{"id": "s4-W42-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0080", "decision": "fix_clean", "clean": "My React Native app crashes on Android when I open the camera, but only on the Pixel and not on the Samsung. I am using Expo and the latest version of the camera library. Any idea what might be happening?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'I am'"}
+{"id": "s4-W42-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0082", "decision": "fix_clean", "clean": "I need a prompt that will make the model answer in JSON only and never add any extra commentary, and I wanted to include a short example.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'wanted to' for 'want it to'"}
+{"id": "s4-W42-0083", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'slices' and 'legos' lost, 'fractions'->'fraction'; 3 places in ~30 words"}
+{"id": "s4-W42-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0090", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0091", "decision": "fix_clean", "clean": "Someone asked me to ask you how to set up two-factor authentication on our company Google account. Can you walk through the steps?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'so Ahmed' heard as 'Someone'"}
+{"id": "s4-W42-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W42-0093", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; also 'backoff'/'dead letter' lost"}
+{"id": "s4-W42-0094", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'better','phone','to track','when' all garbled"}
+{"id": "s4-W42-0095", "decision": "fix_clean", "clean": "We're going to a campsite for a weekend with my sister's family. There will be six adults and four kids, and I need you to build a meal plan for Friday dinner to Sunday breakfast, because we leave early. Everything has to be cookable over a fire or a camp stove, nothing that needs a fridge after Saturday, and give me a shopping list grouped by store section at the end.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'to' not 'through'"}
+{"id": "s4-W42-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'April ninth' heard as 'April May'; date value lost"}
+{"id": "s4-W42-0097", "decision": "fix_clean", "clean": "My partner and I are trying to figure out whether to rent or buy. We have about $60,000 saved, we make a combined $110,000 a year, rates are around 6.5% right now, and we'd probably stay in this city for at least seven years. Can you lay out how I compare the total cost of each option over that time, and what assumptions I should be careful about?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'this city' and 'how I compare'"}
+{"id": "s4-W42-0098", "decision": "fix_clean", "clean": "I'm a librarian and we're redoing our summer reading program. Can you brainstorm 10 theme ideas for kids from kindergarten to fifth grade, make them different from the usual space and ocean stuff, then pick your top three and for each one suggest a craft, a read aloud book, and a small prize, and format it as a table?", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'to' not 'through'"}
+{"id": "s4-W42-0099", "decision": "fix_clean", "clean": "Review this pull request description from me. It says we're migrating the billing service from REST to gRPC, adding a feature flag called new billing path, and rolling it out to 5% of traffic first. I want you to look for anything that's unclear or risky, like missing rollback steps, and tell me what questions the reviewers are likely to ask.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "raw has 'from me'"}
+{"id": "s4-W42-0100", "decision": "fix_clean", "clean": "My team is shipping an iOS and Android app next month and I need a testing plan. We have two engineers and one designer, no dedicated car. What should we test manually and what should we automate, and how many devices is enough? And also I want a checklist for the week before release, covering crash reporting, App Store screenshots, and the privacy policy link.", "reason": "unrecoverable_word", "rules": ["R13", "RECOVER"], "note": "'QA' heard as 'car'"}

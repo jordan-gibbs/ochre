@@ -1,0 +1,50 @@
+{"id": "s2-W1-0001", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0002", "decision": "drop", "reason": "hallucination", "note": "Whisper appended 'Thank you.'"}
+{"id": "s2-W1-0003", "decision": "drop", "reason": "hallucination", "note": "trailing 'you' and 'Dirt' for er"}
+{"id": "s2-W1-0004", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'youth and' for 'you uh'"}
+{"id": "s2-W1-0005", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0006", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0007", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0008", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0009", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0010", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'I'll' for 'uh' turns request into statement"}
+{"id": "s2-W1-0011", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'had translated the dock' for 'said translate the doc'"}
+{"id": "s2-W1-0012", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' and garbled 'Emmid'"}
+{"id": "s2-W1-0013", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0014", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0015", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0016", "decision": "fix_clean", "clean": "How many ounces are in a cot?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "cup misheard as cot"}
+{"id": "s2-W1-0017", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0018", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name Jen lost, raw starts 'And said'"}
+{"id": "s2-W1-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'And you shortened' for 'Can you shorten'"}
+{"id": "s2-W1-0020", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'The arm did' for 'um'"}
+{"id": "s2-W1-0021", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Poor Muttis has' for 'Format this as'"}
+{"id": "s2-W1-0022", "decision": "fix_clean", "clean": "The reviewer said rename this function to something less vague.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "keep 'The' from raw; 'due' is artefact of 'to to'"}
+{"id": "s2-W1-0023", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0024", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0025", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W1-0026", "decision": "fix_clean", "clean": "Okay, so please translate the attached contract into Portuguese then send it back to me by Monday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'then' where 'and uh' was said"}
+{"id": "s2-W1-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'After the' for 'Act as a' plus 'features spec'"}
+{"id": "s2-W1-0028", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0029", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0030", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0031", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0032", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0033", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0034", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Wanna' for 'Who won the'"}
+{"id": "s2-W1-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'But but you' for 'uh could you'; could lost"}
+{"id": "s2-W1-0036", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0037", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0038", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0039", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0040", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0041", "decision": "fix_clean", "clean": "To memorize this email in two lines.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "summarize misheard as 'To memorize'"}
+{"id": "s2-W1-0042", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0043", "decision": "fix_clean", "clean": "Please write a thank-you note to my team for shipping the release. Make it warm but not cheesy, about three sentences, and sign it for me.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'from me' heard as 'for me'"}
+{"id": "s2-W1-0044", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0045", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0046", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Paper/flow/Keep up/data basic: more than 2 places"}
+{"id": "s2-W1-0048", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "spread cheat, had dropped, 'The only use of'"}
+{"id": "s2-W1-0050", "decision": "accept", "reason": "ok"}

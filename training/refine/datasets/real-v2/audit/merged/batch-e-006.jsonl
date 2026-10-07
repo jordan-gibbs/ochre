@@ -1,0 +1,46 @@
+{"id": "e4-E4-0072", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'But check' for 'recheck'"], "auditors": ["A", "B"], "clean": "Exam notes: golden retriever, 9 years old, presented with a limp on the left front leg. No swelling, mild pain on flexing the elbow. Owner says it started after a hike last weekend. Plan is rest for two weeks and an anti-inflammatory, but check if it isn't better."}
+{"id": "e4-E4-0073", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["question word lost ('With'), 'Anine and Reaver', correction garbled"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0074", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Bill' for yo, 'because' for cause, 'lol' truncated to 'l': 3 places"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E4-0078", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'come to my ship side of it' for 'cover my shift saturday'"], "auditors": ["A", "B"]}
+{"id": "e4-E4-0079", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Tall' for PTA"], "auditors": ["A", "B"], "clean": "Tall meeting minutes: attendance was 23 parents. The treasurer reported a balance of $4,600. Motion to fund the new playground mulch passed. Next meeting is November 4th."}
+{"id": "e4-E5-0001", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["key wall, Queen R sets the holes, going to: too many places"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0003", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'foods'"], "auditors": ["A", "B"], "clean": "The tabby in the back kennel is really dehydrated. Can someone grab a bag of foods?"}
+{"id": "e4-E5-0004", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'saw' for sock"], "auditors": ["A", "B"], "clean": "X-ray makes it look like the terrier swallowed a saw. Owner says he got into the laundry on Sunday."}
+{"id": "e4-E5-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0006", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0007", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'the grindy'"], "auditors": ["A", "B"], "clean": "The generator is making the grindy noise again."}
+{"id": "e4-E5-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0012", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Wogot, wide, left hand cover, trailing 'But'"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0015", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I am Rose', 'ledger', 'to call' for 'this fall'"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0016", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said; also 'now'/'state' misheard"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0017", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0018", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0020", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'ran off to tears' for 'ran out of tortillas'"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0022", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0023", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0025", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["heavily garbled (Carol, time. She questions, set up atina)"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0026", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Ottoline not in dictionary; raw 'Otterine'"], "auditors": ["A", "B"], "clean": "Hi Bettina, Otterine is taking over payroll next month, and honestly, she's really organized, so I don't expect any problems with the handover. But I'd still love for the two of you to sit down for an hour before you leave for London and walk through the closing checklist together."}
+{"id": "e4-E5-0027", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Adder he died' for 'battery died'"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0028", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0029", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0030", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Mochi -> 'much. I', call -> follow, or -> For"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0033", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'both decide', 'bordering mat': post/sign/near lost"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0034", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'chop bags'"], "auditors": ["A", "B"], "clean": "The thing is, people keep leaving their chop bags on the mats, and someone's gonna roll an ankle."}
+{"id": "e4-E5-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0036", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0037", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Thaddeus -> 'That is', took lost, lol -> law"], "auditors": ["A", "B"]}
+{"id": "e4-E5-0038", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'for' not 'before'"], "auditors": ["A", "B"], "clean": "The copier is jammed again, and I have 40 pages to print for the meeting."}
+{"id": "e4-E5-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "e4-E5-0040", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'for Naglas's' for 'from that last'"], "auditors": ["A", "B"], "clean": "The transcripts for Naglas's service were full of mistakes, so we're switching."}

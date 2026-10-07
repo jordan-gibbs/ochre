@@ -1,0 +1,50 @@
+{"id": "s4-W59-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0042", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Alesha, the bank branch manager wants every teller to finish the compliance training by Friday, and not the whole thing, just the first three modules, so don't panic.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0043", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Dad, it's raining so hard, but I'm just gonna stay at the studio tonight, there's a couch, and tell Mom I'm eating real food, not just crackers.", "rules": ["RECOVER"], "note": "raw has 'But' where 'that' was said"}
+{"id": "s4-W59-0044", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'arjun remember' -> 'Arch and remembered'"}
+{"id": "s4-W59-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Why us', 'to hang', 'had arrived', 'nearly free'"}
+{"id": "s4-W59-0047", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Lu Shimama says dinner's at 6, not 7, and she's making the lamb, so please don't be late this time, I mean it.", "rules": ["RECOVER", "R13"], "note": "'lucia mama' merged into 'Lu Shimama'"}
+{"id": "s4-W59-0048", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Bro, and did you see the mobile app team's tweet? It's honestly hilarious, they apologized for the outage with a picture of a dog in a hard hat.", "rules": ["RECOVER", "R13"], "note": "'rohan' heard as 'Bro. And'"}
+{"id": "s4-W59-0049", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hey, I'm at the stall. Do we need more paper towels or are we good? And also, the cereal you like is on sale, the one with the marshmallows.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0050", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0051", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Alisha, I'm gonna need you to be honest, does this haircut look weird? He goes, I can't tell, and the stylist kept saying it's very bold.", "rules": ["RECOVER", "R13"], "note": "name from raw; 'because' heard as 'He goes'"}
+{"id": "s4-W59-0052", "decision": "drop", "reason": "hallucination", "note": "trailing 'Mm-hmm.' never said"}
+{"id": "s4-W59-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Mom than fine', 'his soft and a bender'"}
+{"id": "s4-W59-0055", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'big news, the' -> 'bitten is. A'"}
+{"id": "s4-W59-0056", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Lucia, I'm gonna be offline from 5 to 7 for my kid's recital, so if the pager goes off, hand it to Chitty, and yes, I already asked him.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the paw said the Benny', 'education requests'"}
+{"id": "s4-W59-0058", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Robin, you left your jacket at my place, the grey one. Do you want it back or can I keep it? I kind of like it.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Yusuf' heard as 'You said', changes the sentence"}
+{"id": "s4-W59-0060", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Elessia and I finally talked, and it went okay, I guess. We're not best friends or anything, but at least she's not mad anymore.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0061", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "I've been meaning to tell you, the game studio's new office has a free arcade, and you'd love it. You should come by sometime.", "rules": ["RECOVER"], "note": "'elias hey' missing from raw"}
+{"id": "s4-W59-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0063", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Yo, Chi, you coming tonight or what? Because I got you a ticket, and if you flake again I'm gonna be so mad, no joke.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Our J in the', 'here to meet me', 'so' for 'sorry'"}
+{"id": "s4-W59-0066", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'not your book', 'until Fighting'"}
+{"id": "s4-W59-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the pad thai' -> 'but The bad die'"}
+{"id": "s4-W59-0068", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hey, it's Yusov, I'm texting from my work phone because mine died, so save this number, and tell the kids I'll be home for bedtime.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0069", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Jitty, I'm pretty sure the flaky test is the one that depends on the clock, the timezone one, so maybe mock it, but I could be wrong.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0070", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Lal, Rohan, my little sister just asked if the internet is a real place, and honestly I didn't know how to answer, it kind of is.", "rules": ["RECOVER", "R13"], "note": "'lol' heard as 'Lal'"}
+{"id": "s4-W59-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0072", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Alessha, heads up, I'm swapping my on-call week with Rosa, we cleared it with the manager, so the new schedule's in the channel, check it.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0074", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Lus, are you free to talk later? Nothing bad, I just wanna run something by you, it's about the job offer, and I don't wanna decide alone.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0076", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Chidi' -> 'Shitty' and 'at two am' lost"}
+{"id": "s4-W59-0077", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Gabrielle, the bookstore has a signed copy of the book you wanted, but it's $60, and honestly I think it's worth it, so should I grab it?", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Busha hates me again', 'an old check'"}
+{"id": "s4-W59-0080", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Yusuf' -> 'You sof'"}
+{"id": "s4-W59-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'dog about the uncle hand off', 'I can find it' flips meaning"}
+{"id": "s4-W59-0083", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Bond, guess who I ran into at the grocery store, my old teacher from high school, and she remembered my name, which is kind of amazing, because I was a terrible student.", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W59-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first 6 words lost from a 30-word raw"}
+{"id": "s4-W59-0085", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "My brother just texted me a picture of his dinner, it's burnt toast with ketchup, and he's calling it gourmet meal, I can't even.", "rules": ["RECOVER"], "note": "'ha' and 'a' missing from raw"}
+{"id": "s4-W59-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W59-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Gap no se', 'bowl', 'money' for 'lunch'"}
+{"id": "s4-W59-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first 10 words (name, gift, birthday) lost"}
+{"id": "s4-W59-0090", "decision": "drop", "reason": "hallucination", "note": "trailing 'Oh' never said"}

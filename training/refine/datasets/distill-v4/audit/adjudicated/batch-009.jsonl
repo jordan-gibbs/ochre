@@ -1,0 +1,3 @@
+{"id": "sim4-d4-C052-0159-0", "decision": "accept", "note": "A: 'that stock' after 'the first stack' is confidently 'stack'; target fine"}
+{"id": "sim4-d4-C001-0035-1", "decision": "fix_clean", "clean": "The gym will reopen tomorrow.\n\nPlease bring your membership card.\n\nThanks\nDeepa", "note": "A: sign-off 'thank' before name is clearly 'Thanks'"}
+{"id": "sim4-d4-C054-0219-0", "decision": "fix_clean", "clean": "The spreadsheet needs a separate column for fees before I compare the result.", "note": "A: raw 'result' is grammatical; plural not inferable"}

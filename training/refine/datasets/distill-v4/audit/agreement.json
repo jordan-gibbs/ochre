@@ -1,0 +1,141 @@
+{
+ "all": {
+  "n": 6026,
+  "agree_exact_words": 0.783,
+  "mean_wer": 0.0332,
+  "share_wer_gt_0.2": 0.042
+ },
+ "by_writer": {
+  "claude/sonnet": {
+   "n": 1859,
+   "agree_exact_words": 0.792,
+   "mean_wer": 0.0307,
+   "share_wer_gt_0.2": 0.037
+  },
+  "codex/gpt-6-astra": {
+   "n": 4167,
+   "agree_exact_words": 0.778,
+   "mean_wer": 0.0343,
+   "share_wer_gt_0.2": 0.045
+  }
+ },
+ "by_cat": {
+  "ai_prompt": {
+   "n": 588,
+   "agree_exact_words": 0.847,
+   "mean_wer": 0.0126,
+   "share_wer_gt_0.2": 0.007
+  },
+  "casual": {
+   "n": 463,
+   "agree_exact_words": 0.808,
+   "mean_wer": 0.0168,
+   "share_wer_gt_0.2": 0.013
+  },
+  "casual_multiclause": {
+   "n": 39,
+   "agree_exact_words": 0.718,
+   "mean_wer": 0.0168,
+   "share_wer_gt_0.2": 0.0
+  },
+  "filler_contrast": {
+   "n": 886,
+   "agree_exact_words": 0.712,
+   "mean_wer": 0.0404,
+   "share_wer_gt_0.2": 0.05
+  },
+  "long_dictation": {
+   "n": 364,
+   "agree_exact_words": 0.648,
+   "mean_wer": 0.0073,
+   "share_wer_gt_0.2": 0.0
+  },
+  "minimal_edit": {
+   "n": 371,
+   "agree_exact_words": 0.871,
+   "mean_wer": 0.0138,
+   "share_wer_gt_0.2": 0.013
+  },
+  "misrecognition": {
+   "n": 96,
+   "agree_exact_words": 0.833,
+   "mean_wer": 0.0153,
+   "share_wer_gt_0.2": 0.01
+  },
+  "misrecognition_context": {
+   "n": 74,
+   "agree_exact_words": 0.838,
+   "mean_wer": 0.0107,
+   "share_wer_gt_0.2": 0.0
+  },
+  "numbers": {
+   "n": 664,
+   "agree_exact_words": 0.773,
+   "mean_wer": 0.0324,
+   "share_wer_gt_0.2": 0.042
+  },
+  "self_correction": {
+   "n": 1034,
+   "agree_exact_words": 0.799,
+   "mean_wer": 0.0548,
+   "share_wer_gt_0.2": 0.072
+  },
+  "technical_terminal": {
+   "n": 363,
+   "agree_exact_words": 0.813,
+   "mean_wer": 0.0283,
+   "share_wer_gt_0.2": 0.036
+  },
+  "trailing_off": {
+   "n": 518,
+   "agree_exact_words": 0.736,
+   "mean_wer": 0.0732,
+   "share_wer_gt_0.2": 0.12
+  },
+  "voice_command": {
+   "n": 401,
+   "agree_exact_words": 0.868,
+   "mean_wer": 0.023,
+   "share_wer_gt_0.2": 0.037
+  },
+  "work_mixed": {
+   "n": 58,
+   "agree_exact_words": 0.845,
+   "mean_wer": 0.0088,
+   "share_wer_gt_0.2": 0.0
+  }
+ },
+ "audited": {
+  "accept": {
+   "n": 2265,
+   "agree_exact_words": 0.82,
+   "mean_wer": 0.0289,
+   "share_wer_gt_0.2": 0.038
+  },
+  "defect": {
+   "n": 161,
+   "agree_exact_words": 0.261,
+   "mean_wer": 0.1064,
+   "share_wer_gt_0.2": 0.13
+  }
+ },
+ "defect_rate_by_disagreement": {
+  "0.0": {
+   "rows": 527,
+   "defect_share": 0.226
+  },
+  "0.1": {
+   "rows": 226,
+   "defect_share": 0.243
+  },
+  "0.2": {
+   "rows": 108,
+   "defect_share": 0.194
+  },
+  "0.3": {
+   "rows": 65,
+   "defect_share": 0.215
+  }
+ },
+ "defect_share_overall": 0.066
+}

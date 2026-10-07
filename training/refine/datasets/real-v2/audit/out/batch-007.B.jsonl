@@ -1,0 +1,50 @@
+{"id": "s2-W1-0301", "decision": "drop", "reason": "unrecoverable_meaning", "note": "async/await lost; garbled"}
+{"id": "s2-W1-0302", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0303", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0304", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting dropped, clever->Clipper, loops->looped: 3 places"}
+{"id": "s2-W1-0305", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Love/Thumb/No replace um/er; No reads as a correction"}
+{"id": "s2-W1-0306", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0307", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ChatGPT->Chet, rewrite/handout garbled"}
+{"id": "s2-W1-0308", "decision": "drop", "reason": "unrecoverable_meaning", "note": "for a general lost, breaks meaning"}
+{"id": "s2-W1-0309", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0310", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0311", "decision": "drop", "reason": "unrecoverable_meaning", "note": "greeting and name lost, garbled opening"}
+{"id": "s2-W1-0312", "decision": "drop", "reason": "unrecoverable_meaning", "note": "bio, meetups, boring misheard"}
+{"id": "s2-W1-0313", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0314", "decision": "fix_clean", "clean": "So heads up, the VP wrote in the exact channel that we should respond to the press inquiry by saying no comment and that nobody should post about it. So please don't share anything externally until legal clears it.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "exec not inferable from exact"}
+{"id": "s2-W1-0315", "decision": "fix_clean", "clean": "Can you write a limerick about Monday mornings, and make it clean because it's for my kids' class?", "reason": "guide_violation", "rules": ["R6", "R10"], "note": "raw/spoken kids' not kid's"}
+{"id": "s2-W1-0316", "decision": "drop", "reason": "unrecoverable_meaning", "note": "second half lost, to our->The park"}
+{"id": "s2-W1-0317", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Billy replaces uh"}
+{"id": "s2-W1-0318", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0319", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0320", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Community replaces um the"}
+{"id": "s2-W1-0321", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled"}
+{"id": "s2-W1-0322", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0323", "decision": "drop", "reason": "unrecoverable_meaning", "note": "avoid saying lost, several garbles"}
+{"id": "s2-W1-0324", "decision": "fix_clean", "clean": "I am going to give you a transcript of a customer interview. I want you to extract the main pain points, group similar ones together, quote the most vivid sentence for each group, and rank the groups by how many times they came up. Do not summarise the whole interview and do not add your own opinions.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has summarise"}
+{"id": "s2-W1-0325", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several clauses lost"}
+{"id": "s2-W1-0326", "decision": "drop", "reason": "unrecoverable_meaning", "note": "one-line fix garbled, nor/ignore"}
+{"id": "s2-W1-0327", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbles: redirect, why, but I get lost"}
+{"id": "s2-W1-0328", "decision": "drop", "reason": "unrecoverable_meaning", "note": "stronger first line, weekend, I think lost"}
+{"id": "s2-W1-0329", "decision": "drop", "reason": "unrecoverable_meaning", "note": "SVG, today, agency lost"}
+{"id": "s2-W1-0330", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0331", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0332", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0333", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0334", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0335", "decision": "drop", "reason": "garbage"}
+{"id": "s2-W1-0336", "decision": "fix_clean", "clean": "grep -r todo src", "reason": "guide_violation", "rules": ["R12"], "note": "casing as spoken"}
+{"id": "s2-W1-0337", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s2-W1-0338", "decision": "drop", "reason": "unrecoverable_meaning", "note": "pip lost, -r heard as dash bar"}
+{"id": "s2-W1-0339", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0340", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0341", "decision": "fix_clean", "clean": "Could you ask the team to rewrite this comment? It makes no sense.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "todo heard as Could you; not inferable"}
+{"id": "s2-W1-0342", "decision": "fix_clean", "clean": "Note: please translate the error strings into Spanish.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "before the release lost"}
+{"id": "s2-W1-0343", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0344", "decision": "fix_clean", "clean": "Summarise the root cause in one sentence and link the postmortem.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has Summarise"}
+{"id": "s2-W1-0345", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Our replaces er"}
+{"id": "s2-W1-0346", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0347", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0348", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0349", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0350", "decision": "accept", "reason": "ok"}

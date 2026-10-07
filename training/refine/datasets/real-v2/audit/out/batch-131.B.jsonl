@@ -1,0 +1,50 @@
+{"id": "s4-W33-0001", "decision": "fix_clean", "clean": "Standa is at 9:15.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0002", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0004", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0005", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0008", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0010", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0011", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W33-0012", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0014", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0015", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0016", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0017", "decision": "fix_clean", "clean": "We land at 6:45 now.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0018", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0020", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0024", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0027", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W33-0028", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0030", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0031", "decision": "fix_clean", "clean": "Onboarding is in room 312 at 10, I'm sure.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0033", "decision": "fix_clean", "clean": "I have a couple of things to flag for the meeting tomorrow.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0034", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0035", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0036", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0037", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0038", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0039", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W33-0040", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W33-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0042", "decision": "fix_clean", "clean": "I'm 100% sure the load balancer is what dropped the calls.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W33-0043", "decision": "fix_clean", "clean": "Report generation takes between 10 and 15 minutes on the night we run since the 12th.", "reason": "unrecoverable_word"}
+{"id": "s4-W33-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0046", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W33-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W33-0050", "decision": "accept", "reason": "ok"}

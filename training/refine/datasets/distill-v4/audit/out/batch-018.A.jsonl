@@ -1,0 +1,100 @@
+{"id": "sim4-d4-C001-0043-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C025-0058-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D001-0216-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C021-0245-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C013-0170-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C004-0203-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C029-0016-2", "decision": "fix_clean", "clean": "My watch list has become a list of things I once read about rather than things I am still following. I want to move the stale entries into a separate tab and keep the reason I added each one. If I cannot remember the reason, I should write that instead of inventing a convincing story after the price has moved. The daily notes also need a place for doing nothing because leaving an order alone is still a decision. I am not trying to turn every interesting headline into a trade before launch.", "reason": "unrecoverable_word", "note": "raw says 'launch'; 'lunch' not inferable, keep raw word"}
+{"id": "sim4-d4-D009-0107-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C025-0224-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D003-0130-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D001-0105-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C004-0174-0", "decision": "fix_clean", "clean": "Wei posted 36 pictures in the family chat, and the download is 8 megabytes.", "reason": "unrecoverable_number", "note": "raw says eight, not eighty"}
+{"id": "sim4-d4-C050-0094-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D011-0069-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C027-0296-1", "decision": "fix_clean", "clean": "The mosque welcome session is open to neighbors who would like to learn about the building and meet the volunteers. Visitors do not need to register in advance. The main entrance will remain open throughout the afternoon, and somebody will be available there to explain where the discussion is taking place.", "reason": "spelling_variant", "note": "raw has 'neighbors'; keep raw spelling"}
+{"id": "sim4-d4-C055-0160-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C036-0038-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C019-0042-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C040-0226-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C022-0041-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C029-0099-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W27-0049-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C017-0235-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C019-0221-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W28-0036-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C020-0070-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W35-0061-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C050-0196-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C030-0220-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C009-0268-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C007-0247-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D014-0005-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C007-0030-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C019-0193-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D003-0228-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C038-0177-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W62-0072-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C027-0293-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C034-0259-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C005-0242-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W22-0066-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C042-0017-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C051-0150-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C006-0064-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W13-0084-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D011-0067-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C062-0200-0", "decision": "fix_clean", "clean": "When the baby wakes, leave the clean clothes on the chair, and I will put them away later.", "reason": "not_inferable_trailoff", "note": "raw reads as a coherent conditional; dropping clause not inferable"}
+{"id": "sim4-d4-C048-0233-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W46-0073-0", "decision": "fix_clean", "clean": "Hi Rania, thanks for sending the quote on Thursday. I went through it with cloning, and the numbers look fine, but we need the delivery window to be before the 5th of December because the class series starts that week. Could you confirm whether that's possible? Thanks, Ada.", "reason": "unrecoverable_word", "note": "keep raw 'cloning' lowercase, not a guessed name"}
+{"id": "sim4-s4-W19-0009-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C022-0203-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C058-0054-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C002-0273-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C017-0149-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C063-0280-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C063-0183-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C047-0140-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W36-0062-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W22-0007-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C039-0011-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C038-0203-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C046-0069-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D004-0149-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W42-0044-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W46-0025-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C021-0065-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C007-0290-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C031-0091-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C044-0234-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C030-0112-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C030-0070-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C031-0006-0", "decision": "fix_clean", "clean": "Make this band biography short.", "reason": "unrecoverable_word", "note": "raw says 'short'"}
+{"id": "sim4-d4-C026-0007-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C008-0259-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C043-0208-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W63-0058-0", "decision": "fix_clean", "clean": "It looks like the line is down again, but the tone is fine.", "reason": "unrecoverable_word", "note": "raw 'tone' plausible; 'tower' not inferable"}
+{"id": "sim4-d4-C062-0259-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C055-0256-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D005-0231-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C011-0050-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C002-0227-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C044-0122-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C025-0071-2", "decision": "drop", "reason": "garbled", "note": "'the rose arrive' - number/tense not recoverable"}
+{"id": "sim4-d4-D001-0018-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C031-0145-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W60-0022-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C042-0199-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C031-0202-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C007-0157-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W42-0006-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C044-0093-0", "decision": "fix_clean", "clean": "We need 20 plates. The neighbors said they can come after all.", "reason": "spelling_variant", "note": "raw has 'neighbors'"}
+{"id": "sim4-d4-D011-0115-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C035-0136-0", "decision": "fix_clean", "clean": "The larger tutoring room was booked, so we moved the shared lessons to the smaller room upstairs.", "reason": "unrecoverable_word", "note": "raw says 'lessons'"}
+{"id": "sim4-d4-C057-0127-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C046-0195-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C040-0218-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C044-0133-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W21-0046-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C034-0140-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C054-0009-0", "decision": "drop", "reason": "unrecoverable_number", "note": "'we point two' - 3 lost"}

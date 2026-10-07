@@ -1,0 +1,50 @@
+{"id": "s2-W2-0451", "decision": "fix_clean", "clean": "I am going to book the table for 7 at that tide place you liked.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'tide' (Thai not inferable) and 'liked'"}
+{"id": "s2-W2-0452", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0453", "decision": "fix_clean", "clean": "We use the read write lock here because reads vastly outnumber writes.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the read write lock'"}
+{"id": "s2-W2-0454", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0455", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0456", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0457", "decision": "fix_clean", "clean": "Ideas for the weekend. Saturday morning, farmers market, and then the long walk by the river. In the afternoon I want to finally clean out the garage. Sunday, brunch with the neighbors, and then a quiet evening with a movie. Pick something funny for the movie, I do not want anything heavy. Buy flowers for the table, and do not forget to call Grand.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw ends 'call Grand'; grandma not inferable"}
+{"id": "s2-W2-0458", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0459", "decision": "fix_clean", "clean": "Hey I just wanted to say I feel really bad about how I acted at dinner. You did not deserve that, and I was just stressed about work. Can I make it up to you this weekend? I will cook, and you can pick the movie.", "reason": "guide_violation", "rules": ["R6"], "note": "sentence break in the middle of a clause after 'say'"}
+{"id": "s2-W2-0460", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'exits early', 'debug', 'add some temporary logging' lost"}
+{"id": "s2-W2-0461", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um -> 'John', hmm -> 'Adam', plus garbled 'Two. Don't the venue'"}
+{"id": "s2-W2-0462", "decision": "fix_clean", "clean": "Dear Ms. Salvarez, thank you for your recent order. We are sorry to inform you that one of the items is out of stock. We expect the item to be available again in about two weeks. You can either wait for it or choose to receive a full refund for that item right away. The rest of your order will ship tomorrow as planned. Please let us know your preference by replying this email. We apologize for the inconvenience.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name per raw 'Salvarez'; 'to' dropped by recognizer"}
+{"id": "s2-W2-0463", "decision": "fix_clean", "clean": "To add a new endpoint, start by defining the route in the routes file. Each route points to a handler function that receives the request and returns a response. Keep the handler thin, and move business logic into the service layer. Validation is done with schemas that are defined next to the handler. If the schema rejects the request, the framework returns an error automatically. Finally, add a test that calls the endpoint with valid and invalid input.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'keep the handler thin'"}
+{"id": "s2-W2-0464", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the chicken' -> 'Let's check in'; bread/invites/Monday lost"}
+{"id": "s2-W2-0465", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'do it? Well you want', 'the motel', 'pick snacks', 'two hours and', Okay variant: too many fixes"}
+{"id": "s2-W2-0466", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'at why the nightly job is' -> 'I want a night beach'"}
+{"id": "s2-W2-0467", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'page' -> 'B H', 'the address on It's not the air since' garbled"}
+{"id": "s2-W2-0468", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0469", "decision": "drop", "reason": "unrecoverable_meaning", "note": "backend -> 'became', 'cute. End' -> 'too thin', mentor -> 'meant for'"}
+{"id": "s2-W2-0470", "decision": "fix_clean", "clean": "Call with the school about next year. They said registration opens in the second week of March. We need the immunization records and proof of address. The orientation is for new students and parents, on a Saturday morning in August. Asked about the bus route and the after school program. Decide by the end of the month whether to apply for the lottery.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'asked'"}
+{"id": "s2-W2-0471", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0472", "decision": "fix_clean", "clean": "Not the staging environment, the production environment is what needs the patch.", "reason": "guide_violation", "rules": ["R10"], "note": "'not the staging environment' is contrast, not a correction"}
+{"id": "s2-W2-0473", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "um is -> 'on it's'; also clean dropped 'not on Friday' content"}
+{"id": "s2-W2-0474", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0475", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0477", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw 'Wait, the list' reads as interjection plus added 'the'; waitlist not recoverable"}
+{"id": "s2-W2-0478", "decision": "fix_clean", "clean": "Make that call synchronous.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'synchronous'"}
+{"id": "s2-W2-0479", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0480", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s2-W2-0481", "decision": "fix_clean", "clean": "The \"actually\" field is empty when the user skips a step.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'a step'"}
+{"id": "s2-W2-0482", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0483", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0484", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0485", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0486", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'you should try it' lost, raw has 'No.'"}
+{"id": "s2-W2-0487", "decision": "fix_clean", "clean": "Or rather than hiring someone new, we could reassign days.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Dave -> 'days' not inferable"}
+{"id": "s2-W2-0488", "decision": "fix_clean", "clean": "Wake function blocks until the promise resolves, so do not call it on the main thread.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'The' dropped, 'wait' -> 'Wake'"}
+{"id": "s2-W2-0489", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "uh -> 'Lone.'"}
+{"id": "s2-W2-0490", "decision": "fix_clean", "clean": "Sorry for the inconvenience, and please accept this coupon.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'as an apology for the delay' lost"}
+{"id": "s2-W2-0491", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0492", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0493", "decision": "drop", "reason": "unrecoverable_meaning", "note": "legal -> 'Little', 'posting it' -> 'post. Yeah.'"}
+{"id": "s2-W2-0494", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'use' lost (um use -> 'D'); 'tryLock and return early' no longer reads as intended"}
+{"id": "s2-W2-0495", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0496", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0497", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0498", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0499", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0500", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening sentence lost and 'but it hurt' -> 'They'd hurt'"}

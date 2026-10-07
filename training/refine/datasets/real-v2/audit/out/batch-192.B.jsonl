@@ -1,0 +1,50 @@
+{"id": "s4-W62-0041", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0042", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0044", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W62-0045", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0046", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0048", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0049", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0050", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0051", "decision": "fix_clean", "clean": "My flight's at 6 a.m., so I'm up at 3:30.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W62-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0056", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0057", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0060", "decision": "fix_clean", "clean": "And you do Thursday the 4th and stay? I've got a thing on the 3rd.", "reason": "unrecoverable_word"}
+{"id": "s4-W62-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0064", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0065", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W62-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0067", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W62-0068", "decision": "fix_clean", "clean": "We'll need around 8 to 10 servers, maybe 12 if the low test shows badly.", "reason": "unrecoverable_word"}
+{"id": "s4-W62-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0070", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0072", "decision": "fix_clean", "clean": "Hi Domenic, thanks for the invite. We're flying in on Thursday the 14th, landing around 2:40, and the hotel block is under the Garcia wedding at $199 a night until September 1st. After that it jumped to $249. Should I book now or wait for the shuttle details?", "reason": "unrecoverable_word"}
+{"id": "s4-W62-0073", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0074", "decision": "fix_clean", "clean": "We're targeting version 3.1 for the release, which needs Android A or higher and iOS 15 or higher, and the minimum free storage is 120 megabytes, but honestly, I'd bump the Android minimum to 9.", "reason": "number_value"}
+{"id": "s4-W62-0075", "decision": "fix_clean", "clean": "The playtest results are in, we had 40 testers, Twine finished the tutorial, which is 68%, and the average session was 14 minutes, so we're under the target of 20.", "reason": "unrecoverable_word"}
+{"id": "s4-W62-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0077", "decision": "fix_clean", "clean": "The button is reproducible on build 129 with a screen size under 360 pixels, otherwise it works fine on anything wider.", "reason": "unrecoverable_word"}
+{"id": "s4-W62-0078", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0079", "decision": "fix_clean", "clean": "The bride's family is 200 people and ours is maybe 30. They put us at table 11, which is right by the speaker's law.", "reason": "unrecoverable_word"}
+{"id": "s4-W62-0080", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0081", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0082", "decision": "fix_clean", "clean": "Release notes say version 2.0.3 fixes the keyboard, but I'm seeing it still on the Pixel 8 with Android 15, about one in every ten launches.", "reason": "dropped_by_recognizer"}
+{"id": "s4-W62-0083", "decision": "fix_clean", "clean": "The milestone payment of $85,000 is due on the 30th, but if the build is late by more than seven days, we did dot to 2% per day.", "reason": "unrecoverable_word"}
+{"id": "s4-W62-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0087", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W62-0088", "decision": "fix_clean", "clean": "I shall, attached is the revised schedule. Alpha is now March 4th instead of February 20th, beta stays at June 18th, and the launch window is the first two weeks of September. But me know if that works.", "reason": "unrecoverable_word"}
+{"id": "s4-W62-0089", "decision": "accept", "reason": "ok"}
+{"id": "s4-W62-0090", "decision": "accept", "reason": "ok"}

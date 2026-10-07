@@ -1,0 +1,8 @@
+{"id": "s2-W3-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Sided with A: 'Dalker', 'engines' for nginx and the lost port colon together need more than an obvious recognition-slip fix; torn, so drop"}
+{"id": "s2-W3-0013", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Sided with A: 'uh' became the real word 'Hi' before 'what do you think?'"}
+{"id": "s2-W3-0025", "decision": "fix_clean", "clean": "How many ounces in 2.5 cups?", "reason": "guide_violation", "note": "Sided with B: question missing '?' and sentence casing (R6); raw already had both"}
+{"id": "s2-W3-0026", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Own call: 'build' heard as 'bill' can't be inferred, and 'The bill takes 14 minutes' barely makes sense; torn between fix and drop, so drop"}
+{"id": "s2-W3-0028", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Sided with A: 'uh' became 'the'; the bulleted list with a 'Shopping list:' heading was also never dictated as a list"}
+{"id": "s2-W3-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Sided with A: 'lock'->'block' and 'Can someone'->'And someone' make the request unrecoverable"}
+{"id": "s2-W3-0040", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Sided with A: 'um' became the real word 'And', and the target drops it"}
+{"id": "s2-W3-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Own call: Kyoto heard as 'Coyote' can't be inferred, and an itinerary 'for Coyote' isn't a sensible dictation; torn between fix and drop, so drop"}

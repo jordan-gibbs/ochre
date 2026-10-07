@@ -1,0 +1,4 @@
+{"id": "s4-W14-0004", "decision": "fix_clean", "clean": "I am at the back door.", "reason": "spelling_from_raw", "note": "A: raw has uncontracted 'I am'"}
+{"id": "s4-W14-0038", "decision": "fix_clean", "clean": "Oh no, the flight's canceled.", "reason": "spelling_from_raw", "note": "A: raw has US 'canceled' and contraction 'flight's'"}
+{"id": "s4-W14-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'substation on Elm' -> 'substantial on Alm'; result not sensible"}
+{"id": "s4-W14-0050", "decision": "fix_clean", "clean": "The budget is 35,000 for the year.", "reason": "guide_violation", "note": "A: currency never spoken; '$' adds a fact (R10)"}

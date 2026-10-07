@@ -1,0 +1,7 @@
+{"id": "s4-W37-0011", "decision": "fix_clean", "clean": "Second thoughts about the new PIC schedule.", "reason": "unrecoverable_word", "note": "sided with A: raw PIC; \"pick\" not inferable"}
+{"id": "s4-W37-0012", "decision": "fix_clean", "clean": "1. Reheat the oven\n2. Oil the tray", "reason": "unrecoverable_word", "note": "sided with A: raw \"reheat\" is a real word; keep it"}
+{"id": "s4-W37-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"was already done\" lost; meaning broken"}
+{"id": "s4-W37-0019", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: ship/chart/tag: 3 places in 40 words"}
+{"id": "s4-W37-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"Hi Mean it\" not a sensible salutation"}
+{"id": "s4-W37-0035", "decision": "fix_clean", "clean": "Lal Deep, you owe me three things:\n- A coffee\n- The charger you borrowed\n- An apology for the karaoke thing", "reason": "unrecoverable_word", "note": "sided with A: \"Lal Deep\" could be a name; keep raw"}
+{"id": "s4-W37-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "sided with A: \"we are our price\" not sensible"}

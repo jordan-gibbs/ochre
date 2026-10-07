@@ -1,0 +1,50 @@
+{"id": "s4-W53-0051", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'chen's kid' heard as 'Tinskin'"}
+{"id": "s4-W53-0052", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0053", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0054", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0055", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0056", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W53-0057", "decision": "fix_clean", "clean": "Asked the tailor to hem the navy trousers and take in the waist an inch.", "reason": "unrecoverable_word", "note": "raw 'asked' is a real word, not inferable as 'ask'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0058", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0059", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0060", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0061", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0062", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0063", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Malic Oped... There's two hundred words over'; 3 places"}
+{"id": "s4-W53-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Layla / castle / load"}
+{"id": "s4-W53-0066", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0068", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Spilling the dish'"}
+{"id": "s4-W53-0069", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'He and Hagring' for peony and hydrangea"}
+{"id": "s4-W53-0070", "decision": "fix_clean", "clean": "Pauline spilled the miso soup all over the rug, and Mom is not happy.", "reason": "unrecoverable_word", "note": "raw 'Pauline' for Colin; raw adds 'and'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0071", "decision": "drop", "reason": "hallucination", "note": "raw ends with a trailing 'and' never said; also 'Raineus'"}
+{"id": "s4-W53-0072", "decision": "fix_clean", "clean": "For dinner we're doing mussels and white wine with shallots and parsley, crusty bread on the side, and a green salad with lemon vinaigrette. And don't forget to scrub the mussels and throw out any that stay open.", "reason": "unrecoverable_word", "note": "raw 'mussels and white wine'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'tell amir' heard as 'the line here'"}
+{"id": "s4-W53-0074", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0075", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0076", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raised beds / drip line / budget all garbled"}
+{"id": "s4-W53-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'tell the late O Basque' for layout desk"}
+{"id": "s4-W53-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0080", "decision": "fix_clean", "clean": "Layla, the studio floor needs to be mopped before the evening classes, and someone has to refill the rosin box. Oh, and the sound system is cutting out, so don't use the blue speaker.", "reason": "unrecoverable_word", "note": "raw 'Layla' for Leila", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0081", "decision": "fix_clean", "clean": "The rotation is weekly, handoff is Monday at 10, the outgoing engineer posts a summary in the on-call channel, and any open incidents must be acknowledged by the incoming engineer within 50 minutes.", "reason": "number_value", "note": "raw 'fifty' for fifteen", "rules": ["RECOVER"]}
+{"id": "s4-W53-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Here mister Chen, and close is'"}
+{"id": "s4-W53-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and making', 'don't had', 'eightquin'"}
+{"id": "s4-W53-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0085", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0086", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0087", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0088", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0089", "decision": "fix_clean", "clean": "Can somebody with prime access check the cache hit ratio? It dropped from 95 to 60% right after the deploy, and I want to know if the TTL got changed.", "reason": "unrecoverable_word", "note": "raw 'prime' for prod", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0090", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'The rant, but' for 'tell grandpa'"}
+{"id": "s4-W53-0091", "decision": "fix_clean", "clean": "Good morning Chen, the sort arrives at 7 tomorrow, so please keep the driveway clear. We'll start edging the bed as soon as the crew gets here. Rain is expected in the afternoon, so we'll cover the topsoil with tarps.", "reason": "unrecoverable_word", "note": "raw 'sort' for sod; raw 'bed'", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W53-0092", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0093", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'if closing slips past. But we need' breaks the conditional; plus Tyrell/lad"}
+{"id": "s4-W53-0094", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0095", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many garbled names/words"}
+{"id": "s4-W53-0097", "decision": "accept", "reason": "ok"}
+{"id": "s4-W53-0098", "decision": "drop", "reason": "unrecoverable_meaning", "note": "tutor / Friday New / paste de Dieu / paste de toi"}
+{"id": "s4-W53-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "family, dropped 'if'/'a'/'and', Layla, Rainia: too many places"}
+{"id": "s4-W53-0100", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' never said"}

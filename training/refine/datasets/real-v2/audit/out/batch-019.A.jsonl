@@ -1,0 +1,50 @@
+{"id": "s2-W2-0401", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'is handled' and 'that mistake in the first version' lost; target also mis-resolves the March/November correction"}
+{"id": "s2-W2-0402", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled in many places (use it based, three new, built, mirrored, read write)"}
+{"id": "s2-W2-0403", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a discount' -> 'this gap', 'finance weigh in' -> 'find and sway him'"}
+{"id": "s2-W2-0404", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'not'; also 'to review the questions' lost"}
+{"id": "s2-W2-0405", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'Thumb' twice"}
+{"id": "s2-W2-0406", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'Well', 'er the ui' -> 'too. Do I'; several garbled spots"}
+{"id": "s2-W2-0407", "decision": "fix_clean", "clean": "I noticed that the staging environment has been down since this morning. I tried restarting the service, but it fails on the database connection. The error says too many connections, which makes me think a job is leaking them. I checked the connection pool settings, and the maximum is set to 100, which should be plenty. So something is opening connections and never closing them. My guess is the new report generator, because it was deployed yesterday. I am going to disable it and restart the database to see if that clears things up.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'Hey' lost (raw 'A')"}
+{"id": "s2-W2-0408", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'roth ira' -> 'rough era', 'Hack Ern', 'Hard from', 'Hus', 'But the start'"}
+{"id": "s2-W2-0409", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'if uh you' -> 'Well, you still have it' changes meaning"}
+{"id": "s2-W2-0410", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'not queued' -> 'Up cued', 'because' -> 'It has'"}
+{"id": "s2-W2-0411", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in lot b' -> 'And lock be', 'i mean' -> 'Amen'"}
+{"id": "s2-W2-0412", "decision": "fix_clean", "clean": "I have been thinking about our sprint planning, and I want to float an idea. Right now we estimate in story points, and then we argue about what a point means. I would rather we just break work into tasks small enough to finish in a day or two. Then we count tasks, not points. It is simpler, is harder to game. I know some people like points, and I am not trying to force anything. I mean, if the team wants to keep them, that is fine too. Let us talk about it at the next planning meeting and decide as a group.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'and it' lost before 'is harder'"}
+{"id": "s2-W2-0413", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'Thumb' twice, 'uh' -> 'the'"}
+{"id": "s2-W2-0414", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'year, month, day' -> 'you'; 'add comments' -> 'machine.com as'"}
+{"id": "s2-W2-0415", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0416", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a logo on all printed materials' lost behind 'Yeah.'"}
+{"id": "s2-W2-0417", "decision": "drop", "reason": "hallucination", "note": "trailing 'Okay.' never said; 'uh' -> 'Last'"}
+{"id": "s2-W2-0418", "decision": "drop", "reason": "unrecoverable_meaning", "note": "correction 'the data team' lost; raw ends 'Correction.'"}
+{"id": "s2-W2-0419", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled (weeding, hung screen, unmade camp, HapLunch)"}
+{"id": "s2-W2-0420", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'wait' lost, 'there is' -> 'It's', 'too' -> 'to there'"}
+{"id": "s2-W2-0421", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'it', 'to normal', 'To prevent this' lost; >2 places"}
+{"id": "s2-W2-0422", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the changes affect reporting lines, not headcount' -> 'to change effect for 40 months. Not head camps.'"}
+{"id": "s2-W2-0423", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'task' -> 'Ask', dropped articles, raw 'behavioural'; >2 places"}
+{"id": "s2-W2-0424", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a file' lost so 'one handy' loses its antecedent; target also invents 'I think'"}
+{"id": "s2-W2-0425", "decision": "drop", "reason": "unrecoverable_meaning", "note": "misspelling 'recieve' lost: raw says 'receive instead of receive'"}
+{"id": "s2-W2-0426", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'is bigger than' lost; 'goals' -> 'schools', 'tech lay'"}
+{"id": "s2-W2-0427", "decision": "fix_clean", "clean": "I have a big presentation coming up and I would love your help structuring it. The audience is a group of executives, and I have 15 minutes. The topic is our plan to move from a single data center to a multi region setup. They care about cost, risk and timeline, and they do not care about technicals. So I want to open with the business problem, then the proposal, then the numbers, then the risks, then the ask. The ask is a budget of $25,000 over six months. For each section, suggest one slide with a clear headline, and tell me what to say in 30 seconds or less. At the end, give me three questions the executives are likely to ask and a short answer for each. Keep the language simple and avoid acronyms unless you define them.", "reason": "number_value", "rules": ["RECOVER", "R7"], "note": "raw correction value is $25,000; 'technical details' -> 'technicals'"}
+{"id": "s2-W2-0428", "decision": "fix_clean", "clean": "Sorry I went quiet, it has been a rough week. Work has been crazy, and my sister has been staying with us, is lovely but also exhausting. I really want to see you, though. Are you free this weekend? I was thinking Saturday night, we could get dinner at that Italian place, or we could just cook at my place. Honestly, I am fine with whatever. If Saturday does not work, Sunday brunch is open. I have a thing in the evening. Also my sister is flying out Monday, so I will be a little emotional. Let me know what you think.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "'which' lost"}
+{"id": "s2-W2-0429", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening 'This function looks simple' and 'and then we added support for several others' lost"}
+{"id": "s2-W2-0430", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'No.' / 'Aye'; 'can check the status of' lost"}
+{"id": "s2-W2-0431", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'Some' / 'done' repeatedly"}
+{"id": "s2-W2-0432", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh/er' -> 'Well' and 'Love' ('time, love and consideration')"}
+{"id": "s2-W2-0433", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'planning' -> 'plotting', 'themes' -> 'things', 'in' -> 'and'"}
+{"id": "s2-W2-0434", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hey dad' -> 'A dead', 'five thirty' -> 'five three'"}
+{"id": "s2-W2-0435", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled (cougar, Hotlet's dial, potato salad states, Yeah.)"}
+{"id": "s2-W2-0436", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'sound sarcastic' -> 'some sarcastic', 'ten thirty' -> 'than thirty', 'add' -> 'that'"}
+{"id": "s2-W2-0437", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'it arrived' -> 'to write', Alex -> Alice, harbor -> Harvard; >2 places"}
+{"id": "s2-W2-0438", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' -> 'up' ('moved up to'); 'not behind' -> 'not the eye'; question lost"}
+{"id": "s2-W2-0439", "decision": "drop", "reason": "unrecoverable_meaning", "note": "heavily garbled (H D T a, Bit of colour, illiberate)"}
+{"id": "s2-W2-0440", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0441", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'the customer's name as null when the customer has not filled in' -> 'Building.'"}
+{"id": "s2-W2-0442", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'um' -> 'Dumb'"}
+{"id": "s2-W2-0443", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I would like to move to' and correction value 'three weeks' lost"}
+{"id": "s2-W2-0444", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0445", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0446", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0447", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0448", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0449", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0450", "decision": "accept", "reason": "ok"}

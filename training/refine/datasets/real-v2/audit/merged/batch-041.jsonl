@@ -1,0 +1,43 @@
+{"id": "s2-W5-0001", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Yeah' for 'yep'"], "auditors": ["A", "B"], "clean": "Yeah, on it."}
+{"id": "s2-W5-0002", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0008", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'who has the login' garbled to 'Has to the modern'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0009", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'leaving now' heard as 'We didn't know'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0010", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'they' for 'that'"], "auditors": ["A", "B"], "clean": "Thanks, Priya, they fixed it."}
+{"id": "s2-W5-0011", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0012", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0013", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0014", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0015", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0016", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spells 'Thomas'"], "auditors": ["A", "B"], "clean": "Hey Thomas, do you have a sec?"}
+{"id": "s2-W5-0018", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'deploy' and 'ago' garbled ('The boy', 'a bill')"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0019", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["Whisper appended 'Thank you.'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0022", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'um' heard as 'Some'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0024", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'They'll' for 'I'll'"], "auditors": ["A", "B"], "clean": "They'll be there in 5, just grabbing coffee."}
+{"id": "s2-W5-0025", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'and uh eggs' heard as 'can Thanks'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0026", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0027", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0028", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw is 'But it's'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0029", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Yes' for 'yeah'"], "auditors": ["A", "B"], "clean": "Yes so my sister is coming over on Saturday, so we can do Sunday instead."}
+{"id": "s2-W5-0030", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'call' heard as 'pole', 'I'll' as 'null', 'I'm' as 'You're'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0035", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0036", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spells 'Sophia'"], "auditors": ["A", "B"], "clean": "Oh nice, congrats, Sophia."}
+{"id": "s2-W5-0037", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Even' for 'I'm'"], "auditors": ["A", "B"], "clean": "Even at the gate, it's so crowded."}
+{"id": "s2-W5-0038", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'heads up the wifi' garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0041", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'hahaha' heard as 'High'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0042", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0043", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0044", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0045", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Okay' for 'k'"], "auditors": ["A", "B"], "clean": "Okay."}
+{"id": "s2-W5-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0047", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'Wanna'; keep register"], "auditors": ["A", "B"], "clean": "Wanna grab tacos after the gym?"}
+{"id": "s2-W5-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0049", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'will text when uh' garbled to 'with Textwell. No,'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0050", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'hey Mei um' heard as 'In May'; 'that' heard as 'but'"], "auditors": ["A", "B"]}

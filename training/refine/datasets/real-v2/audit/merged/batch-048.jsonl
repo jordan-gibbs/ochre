@@ -1,0 +1,48 @@
+{"id": "s2-W5-0351", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0352", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw dropped 'left'; 'Whoever the fish in there' breaks the sentence", "'left' lost; sentence broken"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0353", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0354", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'In fact'; 'Thanks for' garbled to 'Than'", "'In fact' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0355", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0356", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' and 'oh' became 'No'", "'No' for oh/uh"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0357", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0358", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'poll'->'call', 'for'->'to', 'a' dropped: too many places", "poll->call, for->to, a dropped"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0359", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0360", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0361", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["raw lost 'ugh'", "'Ugh' not in raw"], "auditors": ["A", "B"], "clean": "The elevator is broken again, so if you are on the fifth floor, good luck, take the stairs."}
+{"id": "s2-W5-0362", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0363", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0364", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'Well' (reads as We'll)", "'Well' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0365", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0366", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0367", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'realise'"], "auditors": ["A", "B"], "clean": "Yep, that was me, sorry, I did not realise the file was locked."}
+{"id": "s2-W5-0368", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0369", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0370", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'labour'"], "auditors": ["A", "B"], "clean": "Babe, the plumber says it is going to be $300 for the part and another $150 for labour."}
+{"id": "s2-W5-0371", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I'm at the trailhead' -> 'in the portray', 'gonna' garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0372", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0373", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'er' became 'But'", "'But' for er"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0374", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["raw appends 'Yeah.' never said", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0375", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["'haha' heard as 'Uh-huh'; cannot recover Haha", "haha lost; Uh-huh dropped"], "auditors": ["A", "B"], "clean": "I told him it was a joke and he took it so seriously, I feel awful."}
+{"id": "s2-W5-0377", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'what is up' -> 'Wack this out'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0378", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0379", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'hey im' -> 'Hell M', 'thoughts' -> 'thought'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0380", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'for letting' lost, 'UMM' in raw"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0381", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'And now'", "'And now' for uh"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0383", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["most of the message lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0384", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'like uh a surprise brunch or' -> 'Surprise brands her'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0385", "decision": "drop", "reasons": ["unrecoverable_meaning", "hallucination"], "notes": ["'Tell'->'Bell' and stray trailing 'said'", "trailing 'said'"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0386", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0387", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["rent/first/venmo all garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0388", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Okay' for 'hey'", "raw has Okay not Hey"], "auditors": ["A", "B"], "clean": "Okay, so I just got off the phone with the supplier and they said the parts will be here on the 12th, which is 2 days later than we planned. So we are gonna have to move the install to the 15th. I will update the schedule and let the crew know."}
+{"id": "s2-W5-0389", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0390", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0391", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'and uh try' became 'And don't try', reversing meaning", "'don't' for uh flips meaning"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0392", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0393", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0394", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'Okay' and 'So we could' (lost 'if', 'can')", "raw: Okay; 'So we could' not 'If so'"], "auditors": ["A", "B"], "clean": "Okay so tomorrow I have the dentist at 9, then lunch with my sister at noon, and then I need to go to the bank before it closes at 4, so I probably cannot meet before 5. Is that too late for you? So we could do Thursday instead."}
+{"id": "s2-W5-0395", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'were' for 'are'", "raw has 'were'"], "auditors": ["A", "B"], "clean": "Hey, just a reminder that if you were going to be out next week, please add it to the team calendar. I have had a couple of cases where nobody knew someone was away until the day of, and it makes it really hard to plan the sprint."}
+{"id": "s2-W5-0396", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw lost the kitchen sentence and the laundry ending", "kitchen clause and ending lost"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0397", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' became 'No'", "'No' for uh; restructure needed"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0398", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0399", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw has 'Sophia'", "name from raw"], "auditors": ["A", "B"], "clean": "Hi Sophia, thanks for sending over the quote. It looks good overall. I just had one question about the shipping cost. It seems higher than what you quoted last time. Is there a reason for that? If it is because of the rush delivery, we can do standard instead. We are not in a hurry."}
+{"id": "s2-W5-0400", "decision": "drop", "reasons": ["unrecoverable_meaning", "hesitation_misheard_as_word"], "notes": ["'can we' -> 'And we' loses the question; 'uh' -> 'Well'", "'Well' for uh; 'And we talk'"], "auditors": ["A", "B"]}

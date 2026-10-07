@@ -1,0 +1,7 @@
+{"id": "s4-W36-0006", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'a rough question, Mark' not sensible"}
+{"id": "s4-W36-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'the comma and cell before' garbled; fix not a sensible dictation"}
+{"id": "s4-W36-0015", "decision": "fix_clean", "clean": "Hello everyone.", "reason": "dropped_by_recognizer", "note": "A: spoken colon lost; raw 'Hello everyone.' is clean"}
+{"id": "s4-W36-0024", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'up in' dropped changes meaning"}
+{"id": "s4-W36-0031", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: roof/date/Daily: 3 places in ~40 words, signature nonsense"}
+{"id": "s4-W36-0032", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: purpose 'so' dropped; 'class period' ambiguous; meaning changes"}
+{"id": "s4-W36-0049", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'lol' heard as 'All'; not sensible"}

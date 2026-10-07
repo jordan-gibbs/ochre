@@ -1,0 +1,2 @@
+{"id": "s4-W46-0017", "decision": "accept", "reason": "ok", "note": "A: 'but for Friday' is a split mishearing of 'before'; raw literal reading is nonsense"}
+{"id": "s4-W46-0049", "decision": "fix_clean", "clean": "Ada, could you send me the slide about church in the one with the blue chart, not the one from last quarter?", "reason": "unrecoverable_word", "note": "B: 'church in' for 'churn' not confidently inferable; keep raw words"}

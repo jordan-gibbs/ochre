@@ -1,0 +1,50 @@
+{"id": "s2-W8-0401", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0402", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0403", "decision": "fix_clean", "clean": "I'm gonna be real with you, I had no idea how to cook that. Can you send me the recipe again?", "reason": "unrecoverable_word", "note": "raw has 'had'"}
+{"id": "s2-W8-0404", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0405", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0406", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0407", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0408", "decision": "drop", "reason": "unrecoverable_meaning", "note": "rehearsal clause lost, stray 'The morning.'"}
+{"id": "s2-W8-0409", "decision": "drop", "reason": "unrecoverable_meaning", "note": "order/for/warm misheard"}
+{"id": "s2-W8-0410", "decision": "drop", "reason": "unrecoverable_meaning", "note": "oil change lost, load racks garbled"}
+{"id": "s2-W8-0411", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0412", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salon, lost, a/the, many errors"}
+{"id": "s2-W8-0413", "decision": "fix_clean", "clean": "Visited Dad at the hospital today, he is doing better. The doctors said he can probably go home on Friday if his numbers stay good. He was sitting up in bed doing the crossword and complaining about the food, which is a good sign. He asked me to bring his reading glasses and the good pillow from home, and he said to tell Mom to stop worrying, which of course she will not. The nurses are lovely, one of them named Grace even brought him an extra pudding. I stayed for three hours and we mostly talked about foot. I drove home feeling lighter than I have in a week. Tomorrow I will bring the glasses and the pillow, and maybe a better crossword book, the one he has is too easy for him.", "reason": "unrecoverable_word", "note": "football truncated to foot"}
+{"id": "s2-W8-0414", "decision": "drop", "reason": "unrecoverable_meaning", "note": "big sale, the raffle, final sentence lost"}
+{"id": "s2-W8-0415", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many hesitations heard as words, tail lost"}
+{"id": "s2-W8-0416", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Breps unrecoverable"}
+{"id": "s2-W8-0417", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0418", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0419", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0420", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0421", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0422", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0423", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0424", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0425", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0426", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0427", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0428", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0429", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0430", "decision": "drop", "reason": "unrecoverable_meaning", "note": "baby clause garbled"}
+{"id": "s2-W8-0431", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0432", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s2-W8-0433", "decision": "fix_clean", "clean": "Just got your message, sorry. My phone was on silent all day, and I call you in an hour.", "reason": "unrecoverable_word", "note": "'can' heard as 'And'"}
+{"id": "s2-W8-0434", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0435", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0436", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0437", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0438", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'call me' lost"}
+{"id": "s2-W8-0439", "decision": "drop", "reason": "unrecoverable_meaning", "note": "garbled tail"}
+{"id": "s2-W8-0440", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0441", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0442", "decision": "fix_clean", "clean": "Good evening everyone, for those who do not know me, I am Danny, and I have known the groom since we were seven years old, when he stole my sandwich on the first day of school and then felt so guilty he gave me his apple. That is basically his whole personality. Kind of guy who will take your last fry and then drive you to the airport at 4 in the morning. When he met Sarah I knew something was different, because for the first time he stopped talking about himself, and started talking about her, all the time. Honestly it got annoying, but I have never seen him happier. Sarah, you are getting a good man, a slightly messy man, but a good one. So please raise your glasses to the bride and groom.", "reason": "dropped_by_recognizer", "note": "'He is the' lost"}
+{"id": "s2-W8-0443", "decision": "fix_clean", "clean": "So I was at the feed store this morning and I ran into old Mr. Dawson, you know the one with the red truck, and he told me that the creek behind his place flooded again last week, third time this year, and the county still hasn't done anything about the culvert. He is fit to be tied. I told him I would bring it up at the next town meeting, which is on the 11th, Thursday, and he said he would come along. We should probably make a few phone calls beforehand and see who else is having trouble, the Johnsons, maybe the church folks too, because if enough of us show up they have to listen. I will make a list tonight and call around tomorrow.", "reason": "dropped_by_recognizer", "note": "Pattersons garbled"}
+{"id": "s2-W8-0444", "decision": "fix_clean", "clean": "Good morning Matt, I am the owner of a small grocery shop near the bus stand. I am writing because the last two deliveries from your company are coming late and also some items are damaged, like the eggs and the bread, so my customers are not happy. Last week only I lost around 3,000 rupees because of this. I request you kindly to look into the matter and send the driver at the proper time. I am your customer for the last eight years and never had any problem before, please reply as early as possible so that we can solve this.", "reason": "unrecoverable_word", "note": "madam heard as Matt; a small"}
+{"id": "s2-W8-0445", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0446", "decision": "fix_clean", "clean": "Bum says dinner is ready.", "reason": "unrecoverable_word"}
+{"id": "s2-W8-0447", "decision": "fix_clean", "clean": "Batteries for the smoke alarm.", "reason": "dropped_by_recognizer"}
+{"id": "s2-W8-0448", "decision": "accept", "reason": "ok"}
+{"id": "s2-W8-0449", "decision": "fix_clean", "clean": "Ask Nan Na for her lasagna recipe.", "reason": "unrecoverable_word"}
+{"id": "s2-W8-0450", "decision": "accept", "reason": "ok"}

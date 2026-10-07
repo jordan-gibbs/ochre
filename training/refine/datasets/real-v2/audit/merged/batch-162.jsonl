@@ -1,0 +1,40 @@
+{"id": "s4-W48-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0053", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Flask/get/pace/JSON heard as 'floss cap', 'kit', 'paste', 'J song'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0054", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'So I just deleted.' for 'so i'd just delete it'"], "auditors": ["A", "B"], "clean": "I don't think we need this lock, the queue is already single consumer, so I just deleted."}
+{"id": "s4-W48-0055", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0059", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0060", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0061", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'I mean it' -> 'and Minette', 'rollback' -> 'roll the X'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0062", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0063", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0064", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0065", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Rapdown, our dash and to do so, see components.'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0067", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'CI runs in UTC' -> 'side because Sy runs and you teach e'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0070", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0071", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'docker run --rm' -> 'DACARAN-RM'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0072", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has 'a user ID', not 'the'"], "auditors": ["A", "B"], "clean": "The cache key includes a user ID and the locale, but not the currency, which is probably why finance is seeing dollar amounts on the euro page."}
+{"id": "s4-W48-0073", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["CSV -> 'the C', CORS -> 'course'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0074", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Gustavo lost; 'wrote against delta time' -> 'row if again stelted time'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0077", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0079", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw 'Harmon'"], "auditors": ["A", "B"], "clean": "Harmon, I looked at the crash dump and it's an access violation in the audio mixer, specifically when two sound effects finish on the same frame, so I think we're freeing the buffer twice."}
+{"id": "s4-W48-0081", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0082", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'pace' -> 'base' twice, 'runner's' -> 'one as'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0083", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw 'Chitty'"], "auditors": ["A", "B"], "clean": "Chitty, did you see the alert at 3:15 this morning? The primary database ran out of connections. I bumped the pool from 20 to 50 but we should figure out who is leaking them."}
+{"id": "s4-W48-0084", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the visited set' -> 'That is it, it said', 'so reset' -> 'source at'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0088", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'smart clock... failing to unlock it', 'bick and fake file', 'lol' -> 'while'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0089", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'unclicked', 'funly block', 'hidden potential keys'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0090", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0093", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw has plural 'pull requests'"], "auditors": ["A", "B"], "clean": "Okay, I need you to act as a code reviewer for the following pull requests, focus on error handling and naming, not formatting, we use Prettier for that. Give me a numbered list of the three most important issues, and for each one say which file and which line it's in, and don't suggest any new libraries because the credit union security team has to approve every dependency."}
+{"id": "s4-W48-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0096", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W48-0097", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Bug' -> 'A', 'chore list' -> 'shore, lest', 'safe', 'emerge', 'never tab'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0099", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'bill', 'papes', 'every out like', 'type chap', Amir -> 'And Mary'"], "auditors": ["A", "B"]}
+{"id": "s4-W48-0100", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'C E', 'ships', '.csv' lost, 'eggs it', 'Maxo', 'canoe only'"], "auditors": ["A", "B"]}

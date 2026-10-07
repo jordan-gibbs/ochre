@@ -1,0 +1,7 @@
+{"id": "s4-W17-0001", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Enzo heard as \"and Zo\"; \"Hey and Zo\" is not a sensible greeting"}
+{"id": "s4-W17-0006", "decision": "drop", "reason": "hallucination", "note": "A: trailing \"Yeah.\" was never spoken"}
+{"id": "s4-W17-0029", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: \"Ella move the coal packs\" reads as an imperative; name, tense and \"coal\" exceed the short-row fix limit and change the meaning"}
+{"id": "s4-W17-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: romaine heard as \"raw\"; \"cases of raw\" is not sensible"}
+{"id": "s4-W17-0034", "decision": "fix_clean", "clean": "Hi Sean, can you confirm the room for the tutoring session on the night?", "reason": "unrecoverable_word", "note": "A: \"I Sean\" is an inferable \"Hi\" slip in an email greeting; \"ninth\" heard as \"night\" is kept from raw"}
+{"id": "s4-W17-0036", "decision": "accept", "reason": "ok", "note": "A: \"sloop\" is a merged \"this loop\" and \"Bakov\" a near spelling of the standard term \"backoff\" in a retry code comment"}
+{"id": "s4-W17-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "B: \"Z loud\" and \"walkie\" for \"is loud\"/\"walk-in\" are not inferable with confidence; raw-form target is not sensible"}

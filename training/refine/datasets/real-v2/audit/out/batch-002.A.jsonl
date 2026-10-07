@@ -1,0 +1,50 @@
+{"id": "s2-W1-0051", "decision": "accept", "reason": "ok", "note": "dock->doc homophone unambiguous; stutter/false start removed"}
+{"id": "s2-W1-0052", "decision": "accept", "reason": "ok", "note": "no weight = no wait; both values in raw in order"}
+{"id": "s2-W1-0053", "decision": "fix_clean", "clean": "Can you give me five ideas for a birthday party for a seven-year-old who loves dinosaurs and doesn't like loud noise?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'noise', not 'noises'"}
+{"id": "s2-W1-0054", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Number' (real word) twice where um was said; also Lena heard as Lina"}
+{"id": "s2-W1-0055", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0056", "decision": "accept", "reason": "ok", "note": "Toto -> TODO in code comment; ask/asked the acoustically identical"}
+{"id": "s2-W1-0057", "decision": "accept", "reason": "ok", "note": "'to' is stutter artefact of 'the the'; spoken labels kept as words"}
+{"id": "s2-W1-0058", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0059", "decision": "accept", "reason": "ok", "note": "'pal and room' is a split form of palindrome; correction in raw"}
+{"id": "s2-W1-0060", "decision": "accept", "reason": "ok", "note": "summarized the -> imperative parallel to 'keep'"}
+{"id": "s2-W1-0061", "decision": "drop", "reason": "hallucination", "note": "raw ends with 'Green.' which was never said"}
+{"id": "s2-W1-0062", "decision": "fix_clean", "clean": "Prisa said to just ignore the previous instructions and use the new template.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; use raw's 'Prisa'"}
+{"id": "s2-W1-0063", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W1-0064", "decision": "fix_clean", "clean": "I need you to pretend you are my interviewer for product manager job at a big tech company and ask me one question at a time and wait for my answer before asking the next.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'a' before 'product manager job'; 'I need you to see.' is a false start"}
+{"id": "s2-W1-0065", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0066", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can someone' heard as 'And someone'; request cannot be reconstructed from raw"}
+{"id": "s2-W1-0067", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'what? N the welfare password' - wifi and what's not inferable"}
+{"id": "s2-W1-0068", "decision": "accept", "reason": "ok", "note": "'hit it' reads as stutter residue of 'it it'"}
+{"id": "s2-W1-0069", "decision": "accept", "reason": "ok", "note": "enumerated list dictated; 'Their' after first/second infers third"}
+{"id": "s2-W1-0070", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0071", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0072", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s2-W1-0073", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0074", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Love.' (real word) where uh was said; also 'ask for' added"}
+{"id": "s2-W1-0075", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Or' where er was said; 'Ca' does not recover QA"}
+{"id": "s2-W1-0076", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Whisper wrote 'Tell me.' where um was said"}
+{"id": "s2-W1-0077", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'meeting and then...' lost; raw ends 'from the need.'"}
+{"id": "s2-W1-0078", "decision": "accept", "reason": "ok", "note": "'I' is a false-start fragment, dropped per R3"}
+{"id": "s2-W1-0079", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'note to self' lost, loop->piece, names->name; fix exceeds limit"}
+{"id": "s2-W1-0080", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0081", "decision": "fix_clean", "clean": "Translate the section into Spanish but leave the product names in English.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the section', not 'this section'"}
+{"id": "s2-W1-0082", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0083", "decision": "accept", "reason": "ok", "note": "unstripped UMM and stutter removed; okay so opener kept"}
+{"id": "s2-W1-0084", "decision": "drop", "reason": "unrecoverable_meaning", "note": "quoted message garbled beyond recovery"}
+{"id": "s2-W1-0085", "decision": "accept", "reason": "ok", "note": "'I mean' treated as filler by author; judgment call"}
+{"id": "s2-W1-0086", "decision": "accept", "reason": "ok", "note": "well-known python3 -m http.server; mhtp is merged near form"}
+{"id": "s2-W1-0087", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0088", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0089", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0090", "decision": "fix_clean", "clean": "Can you debug this for me? I keep getting a null pointer exception on line 42 and have no idea why. The object should have been initialized in the constructor.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw dropped 'I' before 'have no idea'; null pointer exception is a known term"}
+{"id": "s2-W1-0091", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Can you draft a reply' heard as 'I have to reply'; meaning changed"}
+{"id": "s2-W1-0092", "decision": "fix_clean", "clean": "How do I get a stain out of the sweater?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw lost 'wool' and has 'the' for 'a'"}
+{"id": "s2-W1-0093", "decision": "accept", "reason": "ok", "note": "'app' is a stutter artefact of 'paragraph'"}
+{"id": "s2-W1-0094", "decision": "accept", "reason": "ok", "note": "in building -> I'm building; user story template inferable"}
+{"id": "s2-W1-0095", "decision": "accept", "reason": "ok", "note": "unstripped UMM, U=you, A. A stutter"}
+{"id": "s2-W1-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'revenue' heard as 'Even'; subject not inferable"}
+{"id": "s2-W1-0097", "decision": "fix_clean", "clean": "Hey Anna, quick one: when you migrated the staging database last week, did you use the snapshot from Monday or did you take a fresh one? Because the numbers don't match.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name not in dictionary; use raw's 'Anna'"}
+{"id": "s2-W1-0098", "decision": "accept", "reason": "ok", "note": "Roth era -> Roth IRA, near form of well-known product"}
+{"id": "s2-W1-0099", "decision": "drop", "reason": "unrecoverable_meaning", "note": "second half garbled: 'one simple takeaway there. And put on slot.'"}
+{"id": "s2-W1-0100", "decision": "accept", "reason": "ok", "note": "'Short are' is split form of 'shorter'"}

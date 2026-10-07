@@ -1,0 +1,44 @@
+{"id": "s2-W3-0151", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'i will venmo you' became 'Oh then you'", "'I will Venmo you' garbled to 'Oh then you'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0152", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'uncalled', 'inside' (in CI), 'KinMeri' (canary): 3+ unrecoverable places", "canary->KinMeri, CI->inside, on-call->uncalled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0153", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'the other thing is' lost (raw has only stray 'is')", "'the other thing' lost"], "auditors": ["A", "B"], "clean": "Weekly review. This week I finished the draft of the report, which came to about 12 pages. I went to the gym three times, which is one less than I planned. I finally called the bank about the mortgage rate. They said it is currently 6.25% for a 30-year fixed. I should compare that with at least two other lenders before next Friday. I need to book flights for the wedding, which is on the 7th of December."}
+{"id": "s2-W3-0154", "decision": "drop", "reasons": ["hallucination", "unrecoverable_meaning"], "notes": ["trailing 'Yeah.'; also correction to 98k lost and 'Dear Ms. Patel' missing", "corrected salary value lost; garbled benefits sentence"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0155", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Hey team' -> 'eighteen', 'customer account', 'Or so', 'double'", "'eighteen.' for 'hey team', 'Or so' for 'er so', several garbles"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0156", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'resigned' -> redesigned inferable from UX case-study context"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0157", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Back up in Messore', 'three M', command and 'post REST' garbled", "heading, time, filename/date garbled in many places"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0158", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'Lam' treated as non-word residue of um"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0159", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0160", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["most of the middle lost", "most of the middle lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0161", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0162", "decision": "fix_clean", "reasons": ["number_value", "number_value"], "notes": ["raw has 'eight people' not eighty", "raw says eight people"], "auditors": ["A", "B"], "clean": "Just a quick brain dump on the offsite. The venue holds up to 8 people and costs about $4,000 for the day. Catering is another $50 a head, so if we invite 60 people, that's around $7,000 total. We could also do it on the 15th or the 22nd, and I think the 22nd works better."}
+{"id": "s2-W3-0163", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0164", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'riding' -> writing homophone"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0165", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0168", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["URL garbled: 'internet dot acmeed.com sheets'", "URL garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0169", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.'; 'at noon' lost", "trailing 'Yeah.' and 'at noon' lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0170", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0171", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["raw kept only one clause", "most of the sentence lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0172", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'HTTP Top Server' is canonical python -m http.server"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0173", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0175", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0176", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0177", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'the thing' (Figma), 'NP state', 'has', 'and we' (can we): too many places", "Figma mockups, empty state, can we garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0178", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Callsby', 'invite he was speak', closing sentence lost", "name, 'you to', closing sentence lost"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0179", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0181", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["'resolution' missing from raw", "'resolution' lost"], "auditors": ["A", "B"], "clean": "Steps to reproduce: open the app on a tablet in landscape mode, tap the menu icon in the top left, and observe that the menu overlaps the status bar. The expected behavior is that the menu starts below the status bar. This happens on Android 12 and 13 but not on 14. The screen is 2560 by 1600."}
+{"id": "s2-W3-0182", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0183", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Gash strategy', 'Right to validate' not recoverable", "Gash strategy, Right to validate garbled"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0184", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["'Hey' heard as 'A'; not recoverable", "'hey' lost"], "auditors": ["A", "B"], "clean": "There is a problem with the reservation. They said they're only open at 9 instead of 7, so I figure we eat before and then just go for drinks. It's about a 20-minute drive, so we should leave by 6:45."}
+{"id": "s2-W3-0185", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'use the v2 endpoint instead' lost; 'which supports' dangles", "'Use the v2 endpoint instead' lost; sentence breaks"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0186", "decision": "accept", "reasons": ["ok", "ok"], "notes": ["'helped steady' -> held steady unambiguous"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0188", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "hesitation_misheard_as_word"], "notes": ["'uh' -> 'but'; also 'a maze' for arrays", "'but' for uh; 'a maze' for arrays"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0189", "decision": "drop", "reasons": ["hesitation_misheard_as_word", "unrecoverable_meaning"], "notes": ["'um' -> 'Some'; ticket number repetition loop", "ticket number garbled; 'Some' for um"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0190", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0191", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0192", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0193", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0194", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0196", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0197", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0198", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.'", "trailing 'Yeah.'"], "auditors": ["A", "B"]}
+{"id": "s2-W3-0199", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W3-0200", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

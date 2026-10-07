@@ -1,0 +1,9 @@
+{"id": "s4-W30-0011", "decision": "accept", "reason": "ok", "note": "A: 'R these Pub Sub' is a split near form of Redis pub/sub"}
+{"id": "s4-W30-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: Chidi heard as 'Shitty'; keeping raw word is not a sensible dictation"}
+{"id": "s4-W30-0018", "decision": "accept", "reason": "ok", "note": "A: 'exponential book off' makes backoff and Retry inferable"}
+{"id": "s4-W30-0022", "decision": "accept", "reason": "ok", "note": "A: terminal context; Quebect/dash and staging is a recognizable kubectl -n command"}
+{"id": "s4-W30-0023", "decision": "accept", "reason": "ok", "note": "A: 'ducker file for a flask after' inferable as Dockerfile for a Flask app"}
+{"id": "s4-W30-0026", "decision": "accept", "reason": "ok", "note": "A: Airtable in dictionary; Webbo->webhook judgment call, accept per rule 6"}
+{"id": "s4-W30-0031", "decision": "accept", "reason": "ok", "note": "A: \"Zapier's app\" is the same sound as 'Zapier zap'"}
+{"id": "s4-W30-0045", "decision": "fix_clean", "clean": "Dear Gustavo, thank you for the quote on the CRM migration, we're leaning towards Salesforce.", "reason": "spelling_from_raw", "note": "A: raw has 'towards'; keep the input's variant"}
+{"id": "s4-W30-0050", "decision": "fix_clean", "clean": "The RSVP list lies in Notion, and the donation tracker is a Google Sheet that Carmen syncs with QuickBooks.", "reason": "unrecoverable_word", "note": "A: 'lies' kept from raw; 'in Ocean' is a split of Notion among tool names"}

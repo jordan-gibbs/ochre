@@ -1,0 +1,50 @@
+{"id": "s4-W29-0001", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s4-W29-0002", "decision": "fix_clean", "clean": "Meet me at Trattoria D and Zoe at 7.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "'da Enzo' heard as 'D and Zoe'; not inferable"}
+{"id": "s4-W29-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0004", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Or the Patagonia Please put the code up'"}
+{"id": "s4-W29-0005", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'For call to rob train time'"}
+{"id": "s4-W29-0006", "decision": "fix_clean", "clean": "What does the name Oksaka mean?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Oaxaca not inferable from 'Oksaka'"}
+{"id": "s4-W29-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0008", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'uh got us a' became 'Pass the'; Nobu heard as Nabo"}
+{"id": "s4-W29-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0010", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'told you Bliana'"}
+{"id": "s4-W29-0011", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0012", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'store opens' and Champs-Elysees garbled"}
+{"id": "s4-W29-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0014", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'We're a thief. I think Government Bergwall.'"}
+{"id": "s4-W29-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0016", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said"}
+{"id": "s4-W29-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0018", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said; greeting/quote also garbled"}
+{"id": "s4-W29-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0020", "decision": "fix_clean", "clean": "Dinner at Fullback on Fifth.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Pho Bac heard as Fullback"}
+{"id": "s4-W29-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0023", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Buk Burayok and Coyote', 'A Nikoski dinner'"}
+{"id": "s4-W29-0024", "decision": "drop", "reason": "garbage", "note": "raw is empty"}
+{"id": "s4-W29-0025", "decision": "fix_clean", "clean": "Buy merino wool from the Falkland Islands supplier and ask them about the lead time on the Shevin tweed.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Shetland heard as Shevin"}
+{"id": "s4-W29-0026", "decision": "fix_clean", "clean": "The farm Go Up is trading with a cooperative in Oksaka, and they want the invoice in pesos.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "co-op heard as 'Go Up', Oaxaca as 'Oksaka'"}
+{"id": "s4-W29-0027", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi Dario' became 'I Dar you'; Banco Santander garbled"}
+{"id": "s4-W29-0028", "decision": "fix_clean", "clean": "Lunch options near City Hall are Sushi Zen, the falafel place called Mause and a Korean spot named Bibigo.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Maoz heard as Mause"}
+{"id": "s4-W29-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0030", "decision": "fix_clean", "clean": "I think the landscaping crew is heading to the Jared Madorel in Murray next spring.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Jardin Majorelle and Marrakech not inferable"}
+{"id": "s4-W29-0031", "decision": "fix_clean", "clean": "Yo Ba Tide, are we still doing dinner at the Thai place on Sakampith Road? I can't remember the name.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Bodhi and Sukhumvit not inferable"}
+{"id": "s4-W29-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0034", "decision": "fix_clean", "clean": "Dear Councillor Awkward, please find attached the proposal for the redevelopment of the Via della Conciliazione corridor.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Okafor heard as Awkward"}
+{"id": "s4-W29-0035", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command garbled: 'Get check out Dad B feature American Daf Prizing'"}
+{"id": "s4-W29-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Cafe d'A Certe Sunro'"}
+{"id": "s4-W29-0037", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Now I sent me', 'They current', 'Chuya new the cross in'"}
+{"id": "s4-W29-0038", "decision": "fix_clean", "clean": "The new iPhone 16 Pro shipped to our cooperative in Toronto yesterday.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Tirana heard as Toronto"}
+{"id": "s4-W29-0039", "decision": "fix_clean", "clean": "Thanks for meeting with us, Lorenzo. We'll follow up about the Wagatubu branch once the board approves the budget.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Ouagadougou heard as Wagatubu"}
+{"id": "s4-W29-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Fatima lost; 'via DHL' merged into 'Cuscoville'"}
+{"id": "s4-W29-0042", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Alleon Friedrich Stress', 'old Libraris Edition'"}
+{"id": "s4-W29-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0045", "decision": "fix_clean", "clean": "Hi Sarner, the pallets leave the Port of Rotterdam on the 14th and should reach the depot in Duisburg by the 18th.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Sana heard as Sarner"}
+{"id": "s4-W29-0046", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Lion Park? De Turin'; 'to' lost and Part-Dieu garbled"}
+{"id": "s4-W29-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0048", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'bridge connecting Rua' garbled to 'bridcon,'"}
+{"id": "s4-W29-0049", "decision": "fix_clean", "clean": "The landscaping business imports Japanese maples from a nursery in Niagara.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "Niigata heard as Niagara"}
+{"id": "s4-W29-0050", "decision": "accept", "reason": "ok"}

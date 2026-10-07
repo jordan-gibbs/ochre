@@ -1,0 +1,50 @@
+{"id": "s2-W2-0201", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0202", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0203", "decision": "drop", "reason": "unrecoverable_meaning", "note": "cutover/time lost; correction value gone"}
+{"id": "s2-W2-0204", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hi Bria, thanks for sending over the draft agreement. I read it last night and overall it looks good. Well, I have a couple of questions about the payment term. Specifically, the net 45 clause seems different from what we discussed on the call. Could we hop on a quick call tomorrow to sort it out?", "rules": ["RECOVER"], "note": "name Bria, Well, term from raw"}
+{"id": "s2-W2-0205", "decision": "drop", "reason": "unrecoverable_meaning", "note": "king/sink/price/annexed garbled in many places"}
+{"id": "s2-W2-0206", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw too garbled"}
+{"id": "s2-W2-0207", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected time nine lost ('now')"}
+{"id": "s2-W2-0208", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0209", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0210", "decision": "drop", "reason": "unrecoverable_meaning", "note": "dead letter queue and last sentence lost"}
+{"id": "s2-W2-0211", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'buttons' for 'uh a'"}
+{"id": "s2-W2-0212", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "Okay so I looked at the logs. The error started at 9:50, I misread the timestamp. Which lines up with the deploy that went out right before. I think we should roll back and investigate that more. Thoughts?", "rules": ["RECOVER"], "note": "'in the morning' lost; 'Warning' is artifact of mor- morning"}
+{"id": "s2-W2-0213", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0214", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0215", "decision": "drop", "reason": "unrecoverable_meaning", "note": "story about first customer lost"}
+{"id": "s2-W2-0216", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0217", "decision": "fix_clean", "reason": "guide_violation", "clean": "I wanted to say thanks for covering my shift yesterday. I mean it, you really saved me. I actually would have missed my daughter's recital otherwise. Let me know when I can return the favor.", "rules": ["R6"], "note": "missing apostrophe"}
+{"id": "s2-W2-0218", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "Sorry for the delay in getting back to you. I was out of the office all week. I actually read your proposal on the plane and I think it is a strong start. Can we talk on Monday about next steps?", "rules": ["RECOVER"], "note": "Hi Lena lost in raw"}
+{"id": "s2-W2-0219", "decision": "drop", "reason": "script_defect", "note": "clean rewrites into command not dictated (cd project &&)"}
+{"id": "s2-W2-0220", "decision": "drop", "reason": "unrecoverable_meaning", "note": "accented/accent garbled as 'acts of the'/'X of'"}
+{"id": "s2-W2-0221", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "Planning for October. Flights are booked for the 4th of October. Hotel is confirmed for five nights near the old town. Still need to book the train to Florence and buy museum tickets in advance. Budget...", "rules": ["RECOVER", "R4"], "note": "Trip and budget amount lost; Wow is artifact"}
+{"id": "s2-W2-0222", "decision": "drop", "reason": "unrecoverable_meaning", "note": "talked/client/scope garbled"}
+{"id": "s2-W2-0223", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0224", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Mom, I am at the store. Do we need eggs and milk, or just milk? Also, what kind of cereal does Dad want, the one with owns? Text me back when you can.", "rules": ["RECOVER"], "note": "almonds heard as owns"}
+{"id": "s2-W2-0225", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0226", "decision": "drop", "reason": "unrecoverable_meaning", "note": "render/log garbled in long span"}
+{"id": "s2-W2-0227", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Summarize/round/add a garbled in several places"}
+{"id": "s2-W2-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0229", "decision": "fix_clean", "reason": "trailing_off", "clean": "Dear Dr. Patel, thank you for taking the time to meet with me last week. As discussed, I have attached my updated resume and a list of references. Please let me know if you need anything else. I look...", "rules": ["R4", "RECOVER"], "note": "raw ends at 'I look'"}
+{"id": "s2-W2-0230", "decision": "fix_clean", "reason": "spelling_from_raw", "clean": "Feature request, add a dark mode toggle to the settings page. Many users have asked for it in the feedback form. The toggle should remember the choice across sessions and respect the system setting by default. I think this is a medium effort ticket, maybe five points.", "rules": ["RECOVER"], "note": "raw has 'form' not 'forum'"}
+{"id": "s2-W2-0231", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0232", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0233", "decision": "fix_clean", "reason": "guide_violation", "clean": "Hi all, attached is the agenda for next week's workshop. The first session starts at 9 AM and the last one wraps up around 4 PM. Please come prepared with questions for the panel. If you cannot attend, please let Sarah know by Friday.", "rules": ["R6", "R7"], "note": "apostrophe, AM/PM casing, time digits"}
+{"id": "s2-W2-0234", "decision": "fix_clean", "reason": "guide_violation", "clean": "Step one, open the terminal. Step two, navigate to the project directory. Step three, run the install command with the --force flag to overwrite old files.", "rules": ["R2", "R3"], "note": "step three restated after correction; drop duplicate"}
+{"id": "s2-W2-0235", "decision": "fix_clean", "reason": "guide_violation", "clean": "Reminders for tomorrow. Drop the car at the shop by eight. Pick up the prescription before the pharmacy closes at six. Call Grandma around lunch time. And finish the draft for the budget deck.", "rules": ["R6"], "note": "Grandma capitalized"}
+{"id": "s2-W2-0236", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0237", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected time eleven lost ('No way')"}
+{"id": "s2-W2-0238", "decision": "fix_clean", "reason": "guide_violation", "clean": "We are seeing intermittent 500 errors from the order service. It looks correlated with the nightly batch job that starts at 1:00 AM. I suspect the job is holding a long running transaction. We should move the batch to 3:00 AM and see if the errors move with it.", "rules": ["R6", "R7"], "note": "AM casing consistent; order service per raw"}
+{"id": "s2-W2-0239", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0240", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Average cost of a kitchen remodel in the Midwest for a full kitchen under 200 square feet", "rules": ["RECOVER"], "note": "raw says full not small"}
+{"id": "s2-W2-0241", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0242", "decision": "fix_clean", "reason": "dropped_by_recognizer", "clean": "I would like to return the blender I bought last month. It stopped working after just two uses. I have the receipt and the original box. Please tell me how to start the return or the exchange, whichever is faster.", "rules": ["RECOVER", "R10"], "note": "Hello lost in raw"}
+{"id": "s2-W2-0243", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0244", "decision": "fix_clean", "reason": "guide_violation", "clean": "Hi team, I wanted to follow up on yesterday's discussion. I am proposing that we hold the review on the 6th to give everyone more time to prep. Please reply by end of day if that does not work. Thanks.", "rules": ["R6"], "note": "missing apostrophe"}
+{"id": "s2-W2-0245", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0246", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw nearly unintelligible"}
+{"id": "s2-W2-0247", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Dimplant and 'On and' garble"}
+{"id": "s2-W2-0248", "decision": "accept", "reason": "ok"}
+{"id": "s2-W2-0249", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected time six lost"}
+{"id": "s2-W2-0250", "decision": "accept", "reason": "ok"}

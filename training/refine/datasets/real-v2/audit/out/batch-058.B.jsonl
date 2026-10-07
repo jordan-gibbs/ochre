@@ -1,0 +1,50 @@
+{"id": "s2-W6-0351", "decision": "fix_clean", "clean": "Hi Katie, thanks for the great call this morning. To recap, you will send the revised specs by Wednesday, I will get you a quote by Friday, and we will aim to start the work on the 2nd of December. If I have missed anything, let me know. Otherwise I think we are good to go.", "reason": "dropped_by_recognizer", "note": "raw ends 'Speed.'; 'Speak soon' not inferable", "rules": ["RECOVER"]}
+{"id": "s2-W6-0352", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'are required' and the whole meals clause"}
+{"id": "s2-W6-0353", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost street name and traffic clause"}
+{"id": "s2-W6-0354", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0355", "decision": "fix_clean", "clean": "Dear parents,\n\nA reminder that school photos will be taken on Wednesday the 11th of November. Please make sure your child wears the full uniform. Order forms went home last week and need to be returned with payment. The cost is $12 for the basic package. If you have any questions, please contact the school office.\n\nKind regards,\nMr. O'Doya", "reason": "dropped_by_recognizer", "note": "'the sixth' lost; name per raw", "rules": ["RECOVER"]}
+{"id": "s2-W6-0356", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0357", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost 'Overall the place is clean'; leaves fragment"}
+{"id": "s2-W6-0358", "decision": "fix_clean", "clean": "Hi there,\n\nWe have some exciting news to share this month. Our new reporting feature is now available to all customers on the Pro and Business plans. It lets you build custom reports in minutes and schedule them to be emailed every week. We have also made the app about 40% faster, based on your feedback, and we are opening a new support center in Dublin, which means longer support hours, from 8 AM to 8 PM Irish time.\n\nWe are also running a webinar on the 19th of November at 3 PM GMT to walk through the new features. You can sign up on our website.\n\nThank you for being a customer.\n\nThe team at Paperlane", "reason": "spelling_from_raw", "note": "raw has 'center'", "rules": ["R10"]}
+{"id": "s2-W6-0359", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw lost whole opening phrase and other words"}
+{"id": "s2-W6-0360", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0361", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0362", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0363", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0364", "decision": "fix_clean", "clean": "Hi Polo, thanks for the quick fix. The report looks great now.", "reason": "unrecoverable_word", "note": "name not in dictionary", "rules": ["RECOVER"]}
+{"id": "s2-W6-0365", "decision": "fix_clean", "clean": "The main reason for the delay is that the supplier has not yet confirmed the...", "reason": "trailing_off", "note": "raw ends at 'the'", "rules": ["R4"]}
+{"id": "s2-W6-0366", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0367", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0368", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0369", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Amstful tax' garbled, council lost"}
+{"id": "s2-W6-0370", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0371", "decision": "fix_clean", "clean": "Hi Ravi,\n\nI have a quick question about the training budget. We have spent about 60% of it already. Do you know if the unused amount carries over to next year?\n\nThanks,\nPrianka", "reason": "unrecoverable_word", "note": "name per raw", "rules": ["RECOVER"]}
+{"id": "s2-W6-0372", "decision": "fix_clean", "clean": "This year Chan has taken real ownership of the vendor relationships. He renegotiated three contracts and saved the company about $60,000. His documentation is thorough, and his colleagues rely on him. One area for development is delegation. He tends to do things himself instead of asking his team. I would like him to work on that in the next six months. Overall, I rate his performance as exceeds expectations.", "reason": "unrecoverable_word", "note": "name per raw", "rules": ["RECOVER"]}
+{"id": "s2-W6-0373", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0374", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' not spoken"}
+{"id": "s2-W6-0375", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0376", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0377", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0378", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled in many places"}
+{"id": "s2-W6-0379", "decision": "fix_clean", "clean": "Last year I made the worst hiring decision of my career. I hired someone with a perfect CV who interviewed brilliantly, and within three months it was clear that he did not fit with the team. It cost us roughly $40,000 in salary and lost time, and her morale. What I learned is that we had skipped the step where candidates meet the people they will actually work with. Now every finalist spends an afternoon with the team, and honestly it has made our hires better and faster. Since we introduced that, our 12-month retention has gone from 70% to 92%. If you hire people, I would encourage you to try it.", "reason": "unrecoverable_word", "note": "raw 'And her morale'", "rules": ["RECOVER"]}
+{"id": "s2-W6-0380", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salutation name, signature and words lost"}
+{"id": "s2-W6-0381", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0382", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw too short"}
+{"id": "s2-W6-0383", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0384", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0385", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0386", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0387", "decision": "fix_clean", "clean": "Dr. Ray said no food after midnight and bring the insurance card on the morning of the procedure.", "reason": "unrecoverable_word", "note": "name per raw", "rules": ["RECOVER"]}
+{"id": "s2-W6-0388", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Fuck' for uh; 'combat and site' garbled"}
+{"id": "s2-W6-0389", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0390", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0391", "decision": "fix_clean", "clean": "Dear Sir or Madam,\n\nI am writing to make a claim for a stolen laptop. The laptop was taken from my car on the evening of the 29th of September while it was parked outside my home in Leicester. I reported the theft to the police the next morning, and my crime reference number is LE55219. The laptop was a MacBook Pro bought in March for £1,850. I have the receipt. Please send me the claim form.\n\nYours faithfully,\nHasman Yelmaz", "reason": "unrecoverable_word", "note": "name per raw", "rules": ["RECOVER"]}
+{"id": "s2-W6-0392", "decision": "fix_clean", "clean": "Workshop. Client wants the launch event to be in Cape Town in March. Expected attendance is around 250. They have a budget of 150,000 rand and want a keynote speaker from the industry. We promised to send three venue options and a draft schedule by the 20th, and the client will confirm the guest list.", "reason": "dropped_by_recognizer", "note": "'notes' and 'by the end of the month' lost", "rules": ["RECOVER"]}
+{"id": "s2-W6-0393", "decision": "drop", "reason": "unrecoverable_meaning", "note": "names garbled, signature lost"}
+{"id": "s2-W6-0394", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0395", "decision": "accept", "reason": "ok"}
+{"id": "s2-W6-0396", "decision": "fix_clean", "clean": "I had the pleasure of working with Hannah for three years at Brightstone Capital. She is one of the sharpest analysts I have met. She built our risk model from scratch, which now covers more than $2 billion in assets, and she mentors junior colleagues with patience and generosity. Any team would be lucky to have her.", "reason": "unrecoverable_word", "note": "name per raw", "rules": ["RECOVER"]}
+{"id": "s2-W6-0397", "decision": "drop", "reason": "unrecoverable_meaning", "note": "name, sign-off and several words garbled"}
+{"id": "s2-W6-0398", "decision": "fix_clean", "clean": "Statement of need. In the Lower River District, only 34% of girls complete secondary school, compared with the national average of 61%. The main barriers are distance to school, the cost of uniforms and fees, and a lack of separate toilets, which affects girls especially. Our program will provide bicycles to 500 girls, cover school fees for 300 more, and build toilet blocks at eight schools. We have run a smaller pilot in two villages over the past year, and school attendance among participating girls rose from 52% to 84%. We are now asking for funding to scale the program across the whole district over three years.", "reason": "spelling_from_raw", "note": "raw has 'program'", "rules": ["R10"]}
+{"id": "s2-W6-0399", "decision": "drop", "reason": "unrecoverable_meaning", "note": "flight code, name, spelling variant: too many places"}
+{"id": "s2-W6-0400", "decision": "drop", "reason": "unrecoverable_meaning", "note": "keen/vague/kickoff lost"}

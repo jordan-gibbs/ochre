@@ -1,0 +1,50 @@
+{"id": "s4-W28-0001", "decision": "fix_clean", "clean": "Is Eva coming to standup, or is she still on the train from Galway?", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "raw has 'eva'; Aoife not in dictionary"}
+{"id": "s4-W28-0002", "decision": "fix_clean", "clean": "Tell Niam I said thanks for covering my shift on Saturday and that I owe her a coffee.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s4-W28-0003", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W28-0004", "decision": "fix_clean", "clean": "Call with Mr. Okonkword 10.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name from raw; 'at' merged into the name and not re-inserted"}
+{"id": "s4-W28-0005", "decision": "fix_clean", "clean": "Dear Ms. Papadopulos, thank you for getting back to us so quickly about the membership application.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "surname spelling from raw"}
+{"id": "s4-W28-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W28-0007", "decision": "accept", "reason": "ok", "note": "Siobhan in dictionary; Chivon is its phonetic form"}
+{"id": "s4-W28-0008", "decision": "fix_clean", "clean": "Tymansky family tree Poland records before 1900 and where to find parish archives online", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0009", "decision": "fix_clean", "clean": "Thanks, Tadus, that fixed it, and I can finally log into the member portal again.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0010", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.' never said (also Vin/hold misheard)"}
+{"id": "s4-W28-0011", "decision": "fix_clean", "clean": "Assign this to Ziamara and set the priority to high, because the checkout page is throwing errors again.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0012", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W28-0013", "decision": "accept", "reason": "ok", "note": "dictionary name, split near form 'Chuck, Umecker'"}
+{"id": "s4-W28-0014", "decision": "fix_clean", "clean": "Mom says hi to Casuo and wants to know when you two are coming to visit again.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0015", "decision": "fix_clean", "clean": "Best regards, Fairrock", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0016", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Morag->'More ideas', Monday->'one day', Wei->'Y'"}
+{"id": "s4-W28-0017", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I must want me lap hours' garbled"}
+{"id": "s4-W28-0018", "decision": "fix_clean", "clean": "Did Gun Hill approve it, or are we still waiting on her sign-off before we push to production?", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0019", "decision": "fix_clean", "clean": "Sophia lands at 6, so someone needs to grab the car from the garage before then.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0020", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'reef on Cube', 'Sheridan box' for refund queue / shared inbox"}
+{"id": "s4-W28-0021", "decision": "fix_clean", "clean": "How do you pronounce Kiva?", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0022", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled, self-correction lost"}
+{"id": "s4-W28-0023", "decision": "accept", "reason": "ok"}
+{"id": "s4-W28-0024", "decision": "fix_clean", "clean": "Caloni joined the channel and asked where the shared spreadsheet lives, so can someone send the link?", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0025", "decision": "accept", "reason": "ok"}
+{"id": "s4-W28-0026", "decision": "fix_clean", "clean": "Solina said Haruka is moving in on the 15th, and we still need to clear out the second bedroom.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'hey so lina' heard as 'A Solina'; Hey and Lina not inferable"}
+{"id": "s4-W28-0027", "decision": "fix_clean", "clean": "Grandma wants to know if Wad Seitch and his wife are coming to the baptism on Saturday.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0028", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'wrap ... to Mrs. 8' for route / Achebe"}
+{"id": "s4-W28-0029", "decision": "fix_clean", "clean": "Sven is rewriting the pathfinding for the boss fight, and Yuki is on the shader buttons.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"]}
+{"id": "s4-W28-0030", "decision": "fix_clean", "clean": "A patron named Mr. Nidou called twice about the Saturday matinee tickets.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R13"], "note": "name from raw; 'manay' read as matinee in box-office context"}
+{"id": "s4-W28-0031", "decision": "accept", "reason": "ok"}
+{"id": "s4-W28-0032", "decision": "fix_clean", "clean": "Lena is handling the cashier drawer reconciliation today.", "reason": "unrecoverable_word", "rules": ["RECOVER", "R2"]}
+{"id": "s4-W28-0033", "decision": "fix_clean", "clean": "Member is Mr. Haji True, account ending in 419.", "reason": "number_value", "rules": ["RECOVER", "R7"], "note": "raw has 'four one nine' and 'Haji True'"}
+{"id": "s4-W28-0034", "decision": "fix_clean", "clean": "Thank you for your patience, Ms. Shaimansky. We have escalated the dispute and expect an answer within five business days.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0035", "decision": "fix_clean", "clean": "Can someone tell Thomas that the Perforce stream is locked until the Unreal build finishes?", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0036", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'And Taiwee', 'Ma Chai', 'Law' for Aunt Ayumi / mochi / lol"}
+{"id": "s4-W28-0037", "decision": "fix_clean", "clean": "Gwendolyn ran half in 1:52, which is a new personal best.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s4-W28-0038", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Thuy heard as 'five'"}
+{"id": "s4-W28-0039", "decision": "fix_clean", "clean": "Write a short toast for my friend Chivon's 30th birthday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "no dictionary in this row"}
+{"id": "s4-W28-0040", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cut saucer names', 'Ben Caturan Sub Romanian'"}
+{"id": "s4-W28-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Wei heard as 'Why'"}
+{"id": "s4-W28-0042", "decision": "fix_clean", "clean": "I ran into Ada's cousin Lastlow at the pharmacy, and he says hi.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0043", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Hi->I, Benedict, for->from, Oil Aaron: too many places"}
+{"id": "s4-W28-0044", "decision": "accept", "reason": "ok"}
+{"id": "s4-W28-0045", "decision": "fix_clean", "clean": "The board chair, Dagmar Linkfist, presented the annual report, and the treasurer, Murali Aya, answered questions about the fee schedule and the proposed changes to overdraft limits, which led to a long discussion with the members who attended in person.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "s4-W28-0046", "decision": "accept", "reason": "ok", "note": "Soojin in dictionary"}
+{"id": "s4-W28-0047", "decision": "accept", "reason": "ok", "note": "'move' -> 'moved' treated as inferable slip"}
+{"id": "s4-W28-0048", "decision": "drop", "reason": "garbage", "note": "raw empty"}
+{"id": "s4-W28-0049", "decision": "accept", "reason": "ok", "note": "Ravenmoor in dictionary"}
+{"id": "s4-W28-0050", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'reef and from mister Calkes have gone'"}

@@ -1,0 +1,4 @@
+{"id": "s4-W51-0014", "decision": "accept", "reason": "ok", "note": "A: affect/effect homophone unambiguous in a difference question"}
+{"id": "s4-W51-0033", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: 'will' dropped plus two spelling changes in 18 words; result reads oddly"}
+{"id": "s4-W51-0036", "decision": "fix_clean", "clean": "It's gone dead quiet in here as everyone left.", "reason": "unrecoverable_word", "note": "A: 'has'->'as' gives a sensible statement; question not inferable"}
+{"id": "s4-W51-0041", "decision": "drop", "reason": "unrecoverable_meaning", "note": "A: whole first clause lost; meaning changes"}

@@ -1,0 +1,43 @@
+{"id": "s4-W36-0051", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0052", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0054", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0055", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["for the update dropped"], "auditors": ["A", "B"], "clean": "Thanks, Dalia. I will review it tomorrow."}
+{"id": "s4-W36-0056", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0057", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0058", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0060", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["locked heard as not"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0061", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0062", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0063", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["bake sale heard as big sale"], "auditors": ["A", "B"], "clean": "Ideas for the fundraiser:\n\nSilent auction\n\nBig sale\n\nRaffle"}
+{"id": "s4-W36-0064", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["at eight heard as and a"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0065", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0066", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["potluck on Sunday / hall opens at noon garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0067", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0068", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0069", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0070", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["Call->Paul, Luis->Lewis"], "auditors": ["A", "B"], "clean": "Paul Grace at 3, then Lewis at 4."}
+{"id": "s4-W36-0071", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0072", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0074", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0075", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0076", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0077", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["called Flow at -> although A"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0079", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0081", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["opening clause lost"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0082", "decision": "drop", "reasons": ["unrecoverable_meaning", "garbage"], "notes": ["raw is only Due period."], "auditors": ["A", "B"]}
+{"id": "s4-W36-0083", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["corrected value tenth lost"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0085", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0086", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0087", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0088", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw Summarise; a dropped before shift"], "auditors": ["A", "B"], "clean": "Summarise the following email in two sentences:\n\nHi team, the warehouse inventory count is moving to next weekend. Please sign up for shift by Thursday."}
+{"id": "s4-W36-0089", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0090", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0091", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0092", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0093", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["it dropped"], "auditors": ["A", "B"], "clean": "I told her the new paragraph should start after the quote, but she says should be a new line instead."}
+{"id": "s4-W36-0094", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W36-0095", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing Yeah. never said"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0097", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["if you could not make it dropped, plus sheet/reply/sincerely"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0098", "decision": "fix_clean", "reasons": ["dropped_by_recognizer", "dropped_by_recognizer"], "notes": ["Luis dropped from attendees; raw Lewis at end"], "auditors": ["A", "B"], "clean": "Meeting recap:\n\nAttendees were Grace and Femi.\n\nDecisions:\n- We are moving the warehouse audit to June\n- The new scanner order is approved, 20 units at $300 each\n- Overtime is capped at 10 hours per week\n\nAction items:\n- Femi sends the vendor list by Friday\n- Lewis updates the schedule"}
+{"id": "s4-W36-0099", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["dude/wrong day/Thai/weekend garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W36-0100", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Dalia/have/great/if/Luis misheard"], "auditors": ["A", "B"]}

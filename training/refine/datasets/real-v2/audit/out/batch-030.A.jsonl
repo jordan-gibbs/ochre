@@ -1,0 +1,50 @@
+{"id": "s2-W3-0451", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0452", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0453", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0454", "decision": "fix_clean", "clean": "I inherited a Terraform codebase with about 200 resources in a single state file, and it takes almost 8 minutes to run a plan. I want to split it into smaller states by environment and by service. Can you suggest a migration strategy that does not require destroying anything, and explain how to use state move command safely? Also, how should I organize the folders?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has singular 'command'"}
+{"id": "s2-W3-0455", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0456", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0457", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'multipart POST request to /v1/files' lost; 'resumable of the MPI' garbled"}
+{"id": "s2-W3-0458", "decision": "drop", "reason": "unrecoverable_meaning", "note": "valve->bell, soon->to, cost->costs: 3 places"}
+{"id": "s2-W3-0459", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'Or' starting a sentence"}
+{"id": "s2-W3-0460", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'a heads up' became 'the heads of the client', a different reading"}
+{"id": "s2-W3-0461", "decision": "fix_clean", "clean": "The quarterly report is attached. Highlights include revenue of $3.4 million, which is up 12% year over year, and net income of $950,000. We ended the quarter with 118 employees, up from 104, and we signed 14 new enterprise customers.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "operating expenses clause missing from raw"}
+{"id": "s2-W3-0462", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0463", "decision": "drop", "reason": "unrecoverable_meaning", "note": "layoffs->leaves, 'I might hear'->'I'm Mike here', plus more"}
+{"id": "s2-W3-0464", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'Or', reads as an alternative"}
+{"id": "s2-W3-0465", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0466", "decision": "drop", "reason": "unrecoverable_meaning", "note": "phone digit zero lost; 'call anytime' garbled"}
+{"id": "s2-W3-0467", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0468", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0469", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0470", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0471", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0472", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0473", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No,' (reads as correction cue); 'night' also dropped"}
+{"id": "s2-W3-0474", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0475", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0476", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0477", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw heavily garbled"}
+{"id": "s2-W3-0478", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'Or keep'"}
+{"id": "s2-W3-0479", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0480", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0481", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0482", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0483", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0484", "decision": "fix_clean", "clean": "Dear parents, the school will hold its annual science fair on Thursday the 20th of November from 5 to 7 PM in the gymnasium. Students in grades 4 through 8 are invited to present projects. Registration closes on the 10th. There is no fee. The projects must be approved by the teacher by the 31st of October. Judges will award prizes for the top three projects in each grade.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'but' became 'The' in raw"}
+{"id": "s2-W3-0485", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0486", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'uh' heard as 'No.'"}
+{"id": "s2-W3-0487", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0488", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'but close to the train' garbled/lost"}
+{"id": "s2-W3-0489", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0490", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'and locked'->'unlocked' meaning flip, plus 'For run', 'Lox holder'"}
+{"id": "s2-W3-0491", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ISO, invalid input, renumber all garbled"}
+{"id": "s2-W3-0492", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0493", "decision": "fix_clean", "clean": "Okay, we landed. The car rental place says there's a 40-minute wait, so I am going to grab coffee. The hotel is about 25 minutes from here. I will text you when we get there.", "reason": "spelling_from_raw", "rules": ["R10"], "note": "raw has contraction 'there's'"}
+{"id": "s2-W3-0494", "decision": "fix_clean", "clean": "I would like to bring to your attention that the invoice dated the 1st of September remains unpaid. The amount outstanding is $4,300, and under our agreement the late fee of 1.5% per month applies after 30 days. Please arrange payment by the end of this week to avoid further charges.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'the late fee', not 'a'"}
+{"id": "s2-W3-0495", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'er' heard as 'For'; 'a' also dropped"}
+{"id": "s2-W3-0496", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Verify a health Then White returns to Hunter' garbled"}
+{"id": "s2-W3-0497", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'cert expired' -> 'sort of fired' not inferable"}
+{"id": "s2-W3-0498", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0499", "decision": "accept", "reason": "ok"}
+{"id": "s2-W3-0500", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Hi both' -> 'Eye Bow' plus several other garbles"}

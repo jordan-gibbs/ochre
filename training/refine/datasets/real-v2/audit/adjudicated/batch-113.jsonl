@@ -1,0 +1,5 @@
+{"id": "s4-W22-0025", "decision": "fix_clean", "clean": "That's fine, it works, nobody's complaining.", "reason": "unrecoverable_word", "note": "Sided with A: raw has 'That's', not 'It's'; keep raw's word"}
+{"id": "s4-W22-0038", "decision": "fix_clean", "clean": "Yara, I wanted to follow up on the grant application, basically ready and I just need your signature.", "reason": "dropped_by_recognizer", "note": "Sided with B: 'IRA' maps to dictionary 'Yara', but 'Hi' is not traceable; 'it's' dropped by recognizer"}
+{"id": "s4-W22-0039", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Sided with A: 'Uma' heard as 'Boom up'; not a near form, raw-faithful target not sensible"}
+{"id": "s4-W22-0045", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Sided with A: 'for turning it' lost; 'Thanks around so fast' breaks meaning"}
+{"id": "s4-W22-0047", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Sided with A: 'Arjun' heard as 'R then'; raw-faithful target not sensible"}

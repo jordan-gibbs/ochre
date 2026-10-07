@@ -1,0 +1,50 @@
+{"id": "s4-W64-0041", "decision": "fix_clean", "clean": "Quick heads up, the supporters coach to the derby is full, but there's a waiting list, and if you cancel, please tell Anders by Wednesday so...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw ends on 'so'"}
+{"id": "s4-W64-0042", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; also 1.5 -> 'one twenty five'"}
+{"id": "s4-W64-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0044", "decision": "fix_clean", "clean": "Inventory count results. Fiction is off by seven titles. Children's is correct. The used section is short 12 books, which may be the box that went to the charity sale, and we shouldn't reorder anything until Bodhigh confirms.", "reason": "unrecoverable_word", "rules": ["R13"], "note": "name not in dictionary; raw spelling"}
+{"id": "s4-W64-0045", "decision": "fix_clean", "clean": "The flight got canceled, which means the whole crew is stuck at Gate 12 until at least 9 tonight, and the airline will only cover hotels if the delay goes past midnight.", "reason": "spelling_from_raw", "rules": ["R10"]}
+{"id": "s4-W64-0046", "decision": "fix_clean", "clean": "Dear Anders, on behalf of Halden Books I am writing to confirm your event on the 12th of April from 2 to 4 p.m. We will provide a microphone and 30 chairs, but we cannot provide carrying, and the venue must be cleared by 5.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0048", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'updates' -> 'a date', 'data loss' -> 'day to off'"}
+{"id": "s4-W64-0049", "decision": "fix_clean", "clean": "Hi Quinn, regarding the grievance filed on September 2nd, the investigation will take no more than 20 business days, both parties may bring a representative, and nothing discussed can be shared with the team, including chats.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s4-W64-0050", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0051", "decision": "fix_clean", "clean": "Hi Tess, I wanted to follow up on the holiday row. The bookstore will be open on Christmas Eve until 3, closed on Christmas Day and Boxing Day, and then back to normal hours from the 27th, except that the cafe corner stays shut until January 2nd because the machine is being serviced. Could you make sure the temp staff know that, and also that they can't swap shifts without asking me first? Thanks, Nora", "reason": "unrecoverable_word", "rules": ["R13"], "note": "'rota' heard as 'row that'"}
+{"id": "s4-W64-0052", "decision": "drop", "reason": "unrecoverable_meaning", "note": "animator->enemy, 'overhaul slipped'->'overhauls it', 'it' lost"}
+{"id": "s4-W64-0053", "decision": "drop", "reason": "unrecoverable_meaning", "note": "corrected value 'tenth' heard as 'the T'"}
+{"id": "s4-W64-0054", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'in' dropped, 'at gate C' -> 'A C'"}
+{"id": "s4-W64-0055", "decision": "drop", "reason": "unrecoverable_meaning", "note": "May -> 'many', 'Kind regards, Emil' -> 'time regards', name"}
+{"id": "s4-W64-0056", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Bodhi->'but I', wrong->Rome, 'at six'->'That's it'"}
+{"id": "s4-W64-0057", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'stipends of up to' -> 'statements about the'"}
+{"id": "s4-W64-0058", "decision": "fix_clean", "clean": "Hi Quinns, here's the plan for the book launch. Doors at 6, the author reads at 6:30 for about 20 minutes, then questions, then signing until 8. We've ordered 120 copies, and if we sell fewer than 80, the publisher wants the rest back. I'll bring the banner, Mina brings the wine, and nobody touches the display table before 4.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0059", "decision": "drop", "reason": "unrecoverable_meaning", "note": "roster/back/Vera all misheard"}
+{"id": "s4-W64-0060", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'close the menu' -> 'Both the menu'"}
+{"id": "s4-W64-0061", "decision": "fix_clean", "clean": "Hi Nora, thanks for the reminder about the termination checklist. I have collected the badge and the laptop, but the corporate card hasn't been returned, and she says it's in her other bag at home. Please don't close her accounts until it's back, and make sure Peyrol knows the last day is the 28th, not the 31st, because she used up her leave.", "reason": "unrecoverable_word", "rules": ["R13"], "note": "'Peyrol' reads as a name; not confidently payroll"}
+{"id": "s4-W64-0062", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s4-W64-0063", "decision": "fix_clean", "clean": "Hi Nina, the artist's contract says the final concept art is due on the 20th, but she's asking for an extra week because of the revisions the director wanted. I'm fine with that as long as the payment schedule doesn't change, so 50% on delivery, not on approval, and the rights stay with us.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0064", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'Emil' -> 'And more ... remember it'"}
+{"id": "s4-W64-0065", "decision": "drop", "reason": "unrecoverable_meaning", "note": "salutation and sign-off dropped by recognizer (>5 words)"}
+{"id": "s4-W64-0066", "decision": "fix_clean", "clean": "The playtest is booked for Saturday at 10. We need eight people, none of whom worked on the level, and everyone has to sign the NDA before they come in, so Par, please send the forms up tomorrow.", "reason": "unrecoverable_word", "rules": ["R13"]}
+{"id": "s4-W64-0067", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0068", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0069", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0070", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Bodhi->Bonnet, per->for, your->Their"}
+{"id": "s4-W64-0071", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0072", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0073", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'restart it' -> 'We're started'"}
+{"id": "s4-W64-0074", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'; many other garbles"}
+{"id": "s4-W64-0075", "decision": "fix_clean", "clean": "Good news and bad news. The crates arrived early, Thursday instead of Monday, but one of them is soaked, so don't unpack it until the insurance guy has photographed it.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s4-W64-0076", "decision": "drop", "reason": "unrecoverable_meaning", "note": "walk-ins -> 'Wah. Kens', author -> offer"}
+{"id": "s4-W64-0077", "decision": "drop", "reason": "garbage", "note": "raw mostly unintelligible"}
+{"id": "s4-W64-0078", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'audit' -> 'the odd'"}
+{"id": "s4-W64-0079", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0080", "decision": "fix_clean", "clean": "Dear Ms. Ostrander, thank you for your inquiry. The position is full time, 38 hours per week, with a salary range of 40,000 to 48,000 depending on experience, and the application closes on the 2nd of June at 5. Unfortunately, we cannot sponsor visas at this time.", "reason": "guide_violation", "rules": ["R10", "RECOVER"], "note": "dollars never said; 'pm' lost in raw"}
+{"id": "s4-W64-0081", "decision": "drop", "reason": "unrecoverable_meaning", "note": "7 pm -> 'set in BM', US -> 'S one', 'stays up' lost"}
+{"id": "s4-W64-0082", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Emil->Mmo, rep->rat"}
+{"id": "s4-W64-0083", "decision": "drop", "reason": "unrecoverable_meaning", "note": "skips->steps, testers->hester"}
+{"id": "s4-W64-0084", "decision": "accept", "reason": "ok"}
+{"id": "s4-W64-0085", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'two mentioned the pay' dropped, 'Hi Hassan' -> 'I hasn't.'"}
+{"id": "s4-W64-0086", "decision": "drop", "reason": "unrecoverable_meaning", "note": "lie->like, spoil->spoiled, Bodhai"}
+{"id": "s4-W64-0087", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'to confirm the standby' -> 'Pick confirm the stand. By', several more"}
+{"id": "s4-W64-0088", "decision": "drop", "reason": "hallucination", "note": "trailing 'Yeah.'"}
+{"id": "s4-W64-0089", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'I've been thinking about the studio' dropped"}
+{"id": "s4-W64-0090", "decision": "accept", "reason": "ok"}

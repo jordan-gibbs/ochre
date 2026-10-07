@@ -1,0 +1,50 @@
+{"id": "s2-W1-0151", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0152", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0153", "decision": "fix_clean", "clean": "My director said to ask you to reply all and confirm that she reviewed the budget, so please reply to all and say reviewed and approved.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "raw has 'she'"}
+{"id": "s2-W1-0154", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0155", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0156", "decision": "drop", "reason": "unrecoverable_meaning", "note": "valid JSON lost: 'return value. Saw only'"}
+{"id": "s2-W1-0157", "decision": "fix_clean", "clean": "Can you help me prepare for salary negotiation? I got an offer for 95,000 and I think the market rate is closer to 110. I want to practice what to say.", "reason": "guide_violation", "rules": ["R10", "RECOVER"], "note": "no dollars/thousand said; 'a' dropped by recognizer"}
+{"id": "s2-W1-0158", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw is unrelated"}
+{"id": "s2-W1-0159", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0160", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'stiff' heard as 'to Steph', 'it' lost"}
+{"id": "s2-W1-0161", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0162", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Nina' in place of uh"}
+{"id": "s2-W1-0163", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0164", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening 'Can you roleplay as' lost"}
+{"id": "s2-W1-0165", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'him' for um"}
+{"id": "s2-W1-0166", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0167", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0168", "decision": "drop", "reason": "unrecoverable_meaning", "note": "many phrases garbled/lost"}
+{"id": "s2-W1-0169", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0170", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0171", "decision": "fix_clean", "clean": "Hey folks, quick question for whoever owns the notifications of this: if a user turns off email notifications in settings, do we still send the security alerts, like password change? Because I think legal said we have to.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "'service' and 'changed' not in raw"}
+{"id": "s2-W1-0172", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0173", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0174", "decision": "drop", "reason": "unrecoverable_meaning", "note": "ribeye steak lost"}
+{"id": "s2-W1-0175", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Okay, done.' and 'fact' for FAQ"}
+{"id": "s2-W1-0176", "decision": "drop", "reason": "unrecoverable_meaning", "note": "'my mistakes after each message' lost"}
+{"id": "s2-W1-0177", "decision": "fix_clean", "clean": "Subject line: quick favor. Body: Hi Umar, could you respond to the vendor and tell them we are going with option B?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s2-W1-0178", "decision": "fix_clean", "clean": "Can you make this text sound less desperate? Hey, I know you are busy, but I was just wondering if maybe you wanted to hang out sometime.", "reason": "guide_violation", "rules": ["R6", "R1"], "note": "the quoted text is not a question"}
+{"id": "s2-W1-0179", "decision": "drop", "reason": "unrecoverable_meaning", "note": "command mostly lost"}
+{"id": "s2-W1-0180", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0181", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0182", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0183", "decision": "fix_clean", "clean": "Help me write a toast for my best friend's wedding. His name is Carlos and hers is May. They met in a pottery class, and Carlos is terrible at pottery. I want it to be funny at the start and then get sincere. About two minutes when read out loud. I also don't want any jokes about the ex.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "Mei not recoverable; raw says May"}
+{"id": "s2-W1-0184", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0185", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0186", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0187", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'no' in place of uh"}
+{"id": "s2-W1-0188", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0189", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'Yes.' replaced 'um it'; 'Is it' lost"}
+{"id": "s2-W1-0190", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0191", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "'on' in place of um"}
+{"id": "s2-W1-0192", "decision": "drop", "reason": "unrecoverable_meaning", "note": "first half of sentence lost"}
+{"id": "s2-W1-0193", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0194", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0195", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0196", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0197", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0198", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0199", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0200", "decision": "accept", "reason": "ok"}

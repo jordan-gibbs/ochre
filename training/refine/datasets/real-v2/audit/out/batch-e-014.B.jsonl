@@ -1,0 +1,50 @@
+{"id": "e4-E11-0031", "decision": "fix_clean", "clean": "Augustine, the moving quote calculator rounds 49.5 miles down to 49 instead of up.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E11-0032", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0033", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E11-0034", "decision": "fix_clean", "clean": "The sensor dashboard pulls the MQTT broker every 30 seconds. If you need faster updates, switch to the WebSocket and point it to the live.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E11-0035", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0036", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0037", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E11-0038", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E11-0039", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E11-0040", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E11-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E11-0042", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E11-0043", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0044", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E11-0045", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0046", "decision": "fix_clean", "clean": "As --dry-run to preview without writing anything.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E11-0047", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0048", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E11-0049", "decision": "accept", "reason": "ok"}
+{"id": "e4-E11-0050", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0001", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0002", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E12-0003", "decision": "fix_clean", "clean": "Dear Ambrose, thank you for organizing the crew at such short notice. The move went smoothly and nothing was damaged. We are very grateful.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E12-0004", "decision": "fix_clean", "clean": "Basil trays and rack 4 need fresh nutrient solution on Tuesday.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E12-0005", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E12-0006", "decision": "fix_clean", "clean": "The parish register lists Henreich as born in 1862, which contradicts the census by about four years.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E12-0007", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0008", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0009", "decision": "fix_clean", "clean": "The race committee has moved the start to 11:15 because the wind is expected to build after lunch. All boats and the Thingy fleet should check in at the committee boat by 10:45. Marisol will be running the safety launch and UN has the spare radios if anyone needs one.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E12-0010", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0011", "decision": "fix_clean", "clean": "High pre income, the color test on the forearm piece healed beautifully and I think we should go a shade darker around the petals. Let me know if Thursday still suits you.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E12-0012", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0013", "decision": "fix_clean", "clean": "The registration form for the Orum season rejects any birth date before 2015, even though our oldest players were born in 2013.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E12-0014", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0015", "decision": "fix_clean", "clean": "We was gonna leave early but the trailer started flat.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E12-0016", "decision": "fix_clean", "clean": "Theodor, are you able to cover the walk-in clients on Saturday, or should I close the books for the day?", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E12-0017", "decision": "fix_clean", "clean": "Good afternoon, we have scheduled your move for Friday the 12th of September. Our crew of three will arrive between 8 and 9 in the morning and we expect the job to take most of the day. Please make sure the lift has been reserved with your building manager and that any fragile items are clearly labeled.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E12-0018", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E12-0019", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0020", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0021", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0022", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0023", "decision": "fix_clean", "clean": "Hello Henreich, thank you for sending the scans of the baptism records. I've matched three of the names to my family tree, and the fourth looks like a cousin I hadn't traced before. I'll send you my notes once I've organized them.", "reason": "unrecoverable_word", "rules": ["RECOVER"]}
+{"id": "e4-E12-0024", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0025", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0026", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0027", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0028", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "e4-E12-0029", "decision": "accept", "reason": "ok"}
+{"id": "e4-E12-0030", "decision": "accept", "reason": "ok"}

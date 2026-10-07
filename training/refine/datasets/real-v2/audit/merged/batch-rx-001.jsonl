@@ -1,0 +1,44 @@
+{"id": "s2-W1-0083", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0095", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0142", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0143", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0183", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0207", "decision": "drop", "reasons": ["hallucination", "non_english"], "notes": ["Whisper appended Japanese subtitle credit", "Japanese hallucination appended"], "auditors": ["A", "B"]}
+{"id": "s2-W1-0411", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0434", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0438", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0466", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W1-0500", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0110", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W2-0112", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0071", "decision": "fix_clean", "reasons": ["trailing_off", "trailing_off"], "notes": ["raw ends 'I would like'; 'it fixed this week' lost", "raw ends at 'I would like'"], "auditors": ["A", "B"], "clean": "Write an email to my landlord, and here are the points to include:\n1. The heater is broken\n2. It has been broken for nine days\n3. I would like..."}
+{"id": "s2-W4-0289", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Priya' became 'for you' in the sign-off and 'shift' became 'ship'", "sign-off name Priya lost ('New line for you'), 'shift' heard as 'ship'"], "auditors": ["A", "B"]}
+{"id": "s2-W4-0301", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0345", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0394", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0396", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W4-0407", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0053", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0252", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0254", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0282", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0318", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W5-0380", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'for letting' dropped by recognizer: 'Thanks me crash'", "'for letting' lost; 'Thanks me crash' not sensible"], "auditors": ["A", "B"]}
+{"id": "s2-W5-0392", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0018", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["line break before the name was not dictated", "sign-off line break not dictated"], "auditors": ["A", "B"], "clean": "Dear Hiring Manager,\n\nI am writing to apply for the senior accountant position advertised on your website. I have eight years of experience in financial reporting, most recently at Harlow and Finch, where I led the month-end close for a team of five.\n\nIn that role, I reduced the close time from 14 days to 12 days, and I introduced a review process that cut reporting errors by about 30%. I am also a certified chartered accountant and comfortable with both SAP and Oracle.\n\nI would welcome the chance to discuss how my experience could support your team. I am available for an interview any weekday after 2 PM.\n\nYours faithfully, Michael O'Brien"}
+{"id": "s2-W6-0058", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["line break before the name was not dictated", "sign-off line break not dictated"], "auditors": ["A", "B"], "clean": "Hi Carlos,\n\nThanks for the quote. I went through it with our finance director yesterday and we have a few points. The first thing is the unit price of €42, which is higher than the €38 we paid last year. Can you explain the difference? The second is the delivery fee. You have it at €350 per shipment, but our agreement says free delivery above €5,000, and our orders are always above that. The third is that we would need payment terms of 60 days instead of 30. If you can move on those three points, I am confident we can sign by the end of the month.\n\nI am in the office until 6 PM today if you would like to talk it through.\n\nRegards, Ingrid"}
+{"id": "s2-W6-0066", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0104", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["no new paragraph/new line dictated; prose kept", "no new paragraph/new line dictated"], "auditors": ["A", "B"], "clean": "Dear Mr. Nakamura, thank you for your swift reply and for sending the revised drawings. Best, Elise"}
+{"id": "s2-W6-0149", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0152", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["name not in dictionary; raw spelling 'Quame'", "name spelling from raw"], "auditors": ["A", "B"], "clean": "Feedback for Quame. Strengths. He is calm under pressure and everyone trusts him in an incident. He wrote the runbook that cut our average recovery time from 40 minutes to 25. Areas to grow. He can be quiet in cross-team meetings, and he sometimes keeps problems to himself for too long. I would encourage him to ask for help earlier."}
+{"id": "s2-W6-0157", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'asthma' became 'been', 'in' dropped, 'via' became 'by', mould/mold variant", "asthma lost, 'in' lost, 'Via' heard as 'by', mold spelling"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0198", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["line break before the name was not dictated", "sign-off line break not dictated"], "auditors": ["A", "B"], "clean": "Hi Fatima,\n\nI wanted to let you know that I am expecting a baby. The due date is the 3rd of March, and I would like to talk about my maternity leave. I plan to start leave on the 24th of February, so about a week before, and I am hoping to take six months in total.\n\nCould you send me the leave policy and the forms I need to fill in? I would also like to understand how my pay and benefits work while I am away.\n\nI have not told the wider team yet, so please keep this between us for now.\n\nThank you, Grace"}
+{"id": "s2-W6-0206", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0254", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["names Moro/Laron/Ruta Rivoli plus undictated line breaks: fix exceeds 2 places", "Moreau, Rue de Rivoli, Laurent all garbled (3 places)"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0266", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0267", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0273", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s2-W6-0295", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'up to' became 'of...'; cap meaning lost", "'up to' lost; raw 'repairs of... $8,000' changes meaning"], "auditors": ["A", "B"]}
+{"id": "s2-W6-0310", "decision": "fix_clean", "reasons": ["guide_violation", "guide_violation"], "notes": ["'dollars' never said; $ added", "$ never said"], "auditors": ["A", "B"], "clean": "I meant to say the budget is 20,000, not 12,000. Sorry for the typo."}
+{"id": "s2-W6-0319", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}

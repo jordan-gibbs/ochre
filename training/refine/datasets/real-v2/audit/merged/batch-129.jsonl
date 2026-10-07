@@ -1,0 +1,45 @@
+{"id": "s4-W32-0001", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0002", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Haram' for Karim, not in dictionary"], "auditors": ["A", "B"], "clean": "Haram got diagnosed with vertigo."}
+{"id": "s4-W32-0003", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'amortisation'"], "auditors": ["A", "B"], "clean": "The amortisation schedule is attached."}
+{"id": "s4-W32-0004", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0005", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0006", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Petro' for Petra; echocardiopram is a near spelling"], "auditors": ["A", "B"], "clean": "Petro needs an echocardiogram."}
+{"id": "s4-W32-0007", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0008", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0009", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0010", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0011", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Hana lost, amoxicillin garbled to 'amic is silent'"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0013", "decision": "fix_clean", "reasons": ["unrecoverable_word", "dropped_by_recognizer"], "notes": ["raw has 'the motion'"], "auditors": ["A", "B"], "clean": "The plaintiff filed the motion in limine."}
+{"id": "s4-W32-0014", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Maybe it is out with Brentis'"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0015", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Side be profits safe with acetamine of it'"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0016", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Flashlight appreciation error'"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0017", "decision": "drop", "reasons": ["garbage", "garbage"], "notes": ["raw empty"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0018", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Timon Tider came back well' - name and value lost"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0019", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0020", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0021", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0022", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'So the thought report is that'"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0023", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Haring's' for Karim's"], "auditors": ["A", "B"], "clean": "Haring's cortisone shot hurt like crazy."}
+{"id": "s4-W32-0024", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0025", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["accrual heard as 'cool'"], "auditors": ["A", "B"], "clean": "I need the quarterly cool numbers."}
+{"id": "s4-W32-0026", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'Petra from Peril said to Fika, withholding this off' - too many places"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0029", "decision": "fix_clean", "reasons": ["spelling_from_raw", "spelling_from_raw"], "notes": ["raw has 'counsellors'"], "auditors": ["A", "B"], "clean": "Can you check whether the per diem for the camp counsellors is taxable or if it counts as a nontaxable reimbursement?"}
+{"id": "s4-W32-0031", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0032", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0033", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0034", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0035", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Hana/said/epinephrine/pens all garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0036", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Carin' for Karim; 'find and close' = enclosed"], "auditors": ["A", "B"], "clean": "Dear Mr. Carin, please find enclosed the affidavit and the notarized power of attorney."}
+{"id": "s4-W32-0037", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0038", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0039", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0040", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0041", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0042", "decision": "fix_clean", "reasons": ["unrecoverable_word", "unrecoverable_word"], "notes": ["raw 'Alasha'; 'the tort' heard as 'it to our'"], "auditors": ["A", "B"], "clean": "Alasha, I've attached it to our claim form, and the statute of limitations is two years from the date of injury."}
+{"id": "s4-W32-0043", "decision": "drop", "reasons": ["hallucination", "hallucination"], "notes": ["trailing 'Yeah.' never said"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0044", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["Theo/take/metformin lost, garbled"], "auditors": ["A", "B"]}
+{"id": "s4-W32-0045", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0046", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0048", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0049", "decision": "accept", "reasons": ["ok", "ok"], "notes": [], "auditors": ["A", "B"]}
+{"id": "s4-W32-0050", "decision": "drop", "reasons": ["unrecoverable_meaning", "unrecoverable_meaning"], "notes": ["'T of V cruise ... claim that denied'"], "auditors": ["A", "B"]}

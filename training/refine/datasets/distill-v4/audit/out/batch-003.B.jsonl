@@ -1,0 +1,100 @@
+{"id": "sim4-d4-C028-0251-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C017-0017-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D016-0081-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W14-0060-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C051-0099-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W32-0003-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C031-0174-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C005-0134-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C006-0229-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D012-0119-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C002-0061-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C017-0300-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W49-0062-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C007-0181-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C025-0273-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D016-0248-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C018-0101-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C053-0200-1", "decision": "fix_clean", "clean": "Thanks for arranging the visiting.\n\nThe owner answered our questions about the garden and we would like to see the spare room again in daylight.\n\nPlease let us know which afternoon appointments are available next week.\n\nBest\nRenata", "reason": "rec_word", "note": "raw visiting not certainly viewing"}
+{"id": "sim4-d4-C047-0280-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D001-0194-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C026-0015-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C055-0070-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C035-0129-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W51-0092-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C021-0152-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W60-0094-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C041-0079-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C053-0222-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C006-0145-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C042-0127-0", "decision": "fix_clean", "clean": "The lesson lasts 40 minutes.", "reason": "rec_lost", "note": "raw says forty"}
+{"id": "sim4-d4-C062-0115-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D007-0194-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C061-0259-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C054-0296-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C040-0053-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C033-0030-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D010-0010-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C028-0095-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C013-0013-0", "decision": "drop", "reason": "unnatural", "note": "no cue; tense/meaning ambiguous"}
+{"id": "sim4-s4-W53-0048-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D002-0171-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C057-0215-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C041-0066-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C008-0041-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C046-0287-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D002-0034-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C015-0021-0", "decision": "drop", "reason": "ambiguous", "note": "uncued odd correction"}
+{"id": "sim4-d4-C056-0028-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C020-0261-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C025-0006-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C038-0210-3", "decision": "fix_clean", "clean": "The association agreed to ask for another quote before deciding how to repair the noticeboard. The current cover still closes, but rain gets in along the upper edge. A neighbor offered to put up a temporary sheet and said it should last until we can arrange for...", "reason": "spelling", "note": "raw neighbor, not neighbour"}
+{"id": "sim4-d4-C011-0130-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C051-0069-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W21-0008-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C043-0200-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D013-0036-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C008-0089-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C018-0154-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C034-0117-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C033-0220-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C042-0222-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C024-0163-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W38-0007-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C050-0251-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C054-0077-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C061-0031-3", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C009-0119-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D004-0029-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C055-0246-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C055-0165-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C003-0008-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C012-0168-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C044-0263-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C017-0075-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C024-0161-0", "decision": "fix_clean", "clean": "My employee number is 472, and the missing entry is for September 12th.", "reason": "rec_lost", "note": "zeros lost in raw"}
+{"id": "sim4-d4-C055-0285-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C054-0275-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C047-0294-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C013-0011-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D007-0192-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C002-0165-1", "decision": "fix_clean", "clean": "The opening is 2.4 meters high and 1.8 metres wide according to the drawing. Please compare those figures with the measurements taken this morning before ordering the frame. The reference on the supplier quote is 073 and should stay that way.", "reason": "rec_lost", "note": "raw has one zero; keep raw spellings"}
+{"id": "sim4-s4-W43-0045-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C057-0273-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D005-0021-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W62-0059-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C034-0203-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C056-0167-2", "decision": "fix_clean", "clean": "The data science review raised a concern about the labels in the recent batch. Several records have a blank field where the earlier batches used an explicit unknown value. We should not assume those mean the same thing until the collection team confirms it. For now the notebook reports them separately, and the summary includes both counts. The overall score has not been recalculated yet because that decision would affect the denominator. Please leave the published number alone until we agree which records belong in the comparison and document the reason.", "reason": "rec_word", "note": "Severity/responds half-guess"}
+{"id": "sim4-d4-C033-0205-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C045-0054-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W50-0082-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-D014-0184-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C045-0080-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C027-0254-0", "decision": "fix_clean", "clean": "Emara, I finally got through to the desk, and they found my reference straight away. Thank goodness.", "reason": "rec_name", "note": "Amara not inferable from Emara"}
+{"id": "sim4-d4-C028-0156-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-s4-W29-0009-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C034-0188-0", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C026-0159-2", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C035-0131-0", "decision": "fix_clean", "clean": "The council clerk has attached the correct agenda, and the transport report is included this time.", "reason": "rec_word", "note": "corrected not in raw"}
+{"id": "sim4-d4-C055-0072-1", "decision": "accept", "reason": "ok", "note": ""}
+{"id": "sim4-d4-C040-0233-0", "decision": "accept", "reason": "ok", "note": ""}

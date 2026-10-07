@@ -1,0 +1,7 @@
+{"id": "s4-W54-0057", "decision": "accept", "reason": "ok", "note": "\"said packed\" is ungrammatical; pack inferable; A accept"}
+{"id": "s4-W54-0063", "decision": "fix_clean", "clean": "The allotment committee meets on the second Tuesday. Bring seed catalogs in any spare compost bins.", "reason": "spelling_from_raw", "note": "raw \"catalogs in any\" is plausible; keep \"in\"; B fix"}
+{"id": "s4-W54-0070", "decision": "fix_clean", "clean": "The photography business inbox is full of newborn session inquiries, so can we hire a part-time editor?", "reason": "spelling_from_raw", "note": "raw variant inquiry; plural inferable from \"full of\"; A fix"}
+{"id": "s4-W54-0072", "decision": "drop", "reason": "unrecoverable_meaning", "note": "Slut's / copper tea / water, but; A drop"}
+{"id": "s4-W54-0085", "decision": "fix_clean", "clean": "Ignore the typos and summarize the following review in one sentence. The trail was steep but the views were unreal, we saw two marmots and a rainbow, and the hut at the top serves a break soup.", "reason": "unrecoverable_word", "note": "single unrecoverable word \"break\"; B fix"}
+{"id": "s4-W54-0088", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"adoption there\" leaves no sensible target; A drop"}
+{"id": "s4-W54-0096", "decision": "drop", "reason": "unrecoverable_meaning", "note": "opening sentence lost plus \"science\" nonsense; A drop"}

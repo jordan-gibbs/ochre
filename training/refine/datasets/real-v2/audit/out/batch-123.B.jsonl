@@ -1,0 +1,50 @@
+{"id": "s4-W29-0001", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W29-0002", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Meet me at Tratoria D and Zoe at 7."}
+{"id": "s4-W29-0003", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0004", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0005", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0006", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0007", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0008", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Pass the table at Nabo for Saturday, the one in Malibu, not the one downtown."}
+{"id": "s4-W29-0009", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0010", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0011", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Call the bodega on Cal Upcho and ask if they still carry the Goya Sazón, the one with the saffron."}
+{"id": "s4-W29-0012", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0013", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0014", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0015", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0016", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W29-0017", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0018", "decision": "drop", "reason": "hallucination"}
+{"id": "s4-W29-0019", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0020", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Dinner at Fullback on Fifth."}
+{"id": "s4-W29-0021", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0022", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0023", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0024", "decision": "drop", "reason": "garbage"}
+{"id": "s4-W29-0025", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0026", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0027", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0028", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0029", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0030", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "I think the landscaping crew is heading to the Jared Madorel in Murray next spring."}
+{"id": "s4-W29-0031", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Yo Ba Tide, are we still doing dinner at the Thai place on Sakampith Road? I can't remember the name."}
+{"id": "s4-W29-0032", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0033", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0034", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Dear Councillor Awkward, please find attached the proposal for the redevelopment of the Via della Conciliazione corridor."}
+{"id": "s4-W29-0035", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0036", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0037", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0038", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "The new iPhone 16 Pro shipped to our cooperative in Toronto yesterday."}
+{"id": "s4-W29-0039", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Thanks for meeting with us, Lorenzo. We'll follow up about the Wagatubu branch once the board approves the budget."}
+{"id": "s4-W29-0040", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0041", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0042", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0043", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0044", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "We ended up at this tiny place called Sukumen in Nekano and it was incredible."}
+{"id": "s4-W29-0045", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "Hi Sarner, the pallets leave the Port of Rotterdam on the 14th and should reach the depot in Duisburg by the 18th."}
+{"id": "s4-W29-0046", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0047", "decision": "accept", "reason": "ok"}
+{"id": "s4-W29-0048", "decision": "drop", "reason": "unrecoverable_meaning"}
+{"id": "s4-W29-0049", "decision": "fix_clean", "reason": "unrecoverable_word", "clean": "The landscaping business imports Japanese maples from a nursery in Niagara."}
+{"id": "s4-W29-0050", "decision": "accept", "reason": "ok"}

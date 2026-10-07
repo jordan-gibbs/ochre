@@ -1,0 +1,50 @@
+{"id": "s2-W1-0201", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled"}
+{"id": "s2-W1-0202", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"history of how we got here\" lost"}
+{"id": "s2-W1-0203", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0204", "decision": "drop", "reason": "unrecoverable_meaning", "note": "merger heard as murderer, Hi team lost"}
+{"id": "s2-W1-0205", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"as Armada\" for um; trailing Mm-hmm"}
+{"id": "s2-W1-0206", "decision": "fix_clean", "clean": "Bug: when the user dictates \"summarize this thread in two sentences\", the app returns an actual summary of the thread instead of the sentence they dictated. This only happens in the AI chat context and only with the small model. The large model returns the right text. I think the system prompt is not...", "reason": "trailing_off", "rules": ["R4", "RECOVER"], "note": "raw loses \"strong enough\""}
+{"id": "s2-W1-0207", "decision": "drop", "reason": "hallucination", "note": "Japanese sign-off appended"}
+{"id": "s2-W1-0208", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0209", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0210", "decision": "fix_clean", "clean": "Please go through the whole proposal and change every instance of the client to Acme Corp, and then read the executive summary and tell me if it still makes sense after that change.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "raw has \"read\" not \"reread\""}
+{"id": "s2-W1-0211", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0212", "decision": "fix_clean", "clean": "Dear Mr. Okerfor, thank you for your quick response. I have drafted a short summary of our discussion below. Could you please review it, correct anything I got wrong, and let me know if you would like me to add the timeline we talked about? I can have that ready by Wednesday.", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "name spelling from raw"}
+{"id": "s2-W1-0213", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0214", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0215", "decision": "drop", "reason": "unrecoverable_meaning", "note": "raw garbled and truncated"}
+{"id": "s2-W1-0216", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0217", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0218", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "\"on\" for um; hospital lost; trailing Yeah"}
+{"id": "s2-W1-0219", "decision": "drop", "reason": "unrecoverable_meaning", "note": "middle of dictation lost"}
+{"id": "s2-W1-0220", "decision": "drop", "reason": "unrecoverable_meaning", "note": "-m, origin, main garbled"}
+{"id": "s2-W1-0221", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0222", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0223", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0224", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0225", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0226", "decision": "drop", "reason": "unrecoverable_meaning", "note": "\"I'm\" for um and match/finance lost"}
+{"id": "s2-W1-0227", "decision": "fix_clean", "clean": "Questions for the pediatrician: is it normal for a toddler to still wake up twice a night? Should we be worried about the cost that lingers? When do we start solid food portion?", "reason": "unrecoverable_word", "rules": ["RECOVER"], "note": "cough heard as cost; portion singular"}
+{"id": "s2-W1-0228", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0229", "decision": "drop", "reason": "unrecoverable_meaning", "note": "also can you make / morning lost, No residue"}
+{"id": "s2-W1-0230", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large chunks lost"}
+{"id": "s2-W1-0231", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large chunks lost"}
+{"id": "s2-W1-0232", "decision": "drop", "reason": "hesitation_misheard_as_word", "note": "Good / No residues read as content"}
+{"id": "s2-W1-0233", "decision": "drop", "reason": "unrecoverable_meaning", "note": "plan heard as What?, own resume"}
+{"id": "s2-W1-0234", "decision": "drop", "reason": "unrecoverable_meaning", "note": "large chunks lost"}
+{"id": "s2-W1-0235", "decision": "drop", "reason": "unrecoverable_meaning", "note": "several words garbled"}
+{"id": "s2-W1-0236", "decision": "drop", "reason": "unrecoverable_meaning", "note": "read heard as grade, Could/If lost"}
+{"id": "s2-W1-0237", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0238", "decision": "drop", "reason": "non_english", "note": "Si at start; force for four"}
+{"id": "s2-W1-0239", "decision": "drop", "reason": "unrecoverable_meaning", "note": "multiple places lost"}
+{"id": "s2-W1-0240", "decision": "drop", "reason": "unrecoverable_meaning", "note": "letter/position garbled"}
+{"id": "s2-W1-0241", "decision": "fix_clean", "clean": "Are you at the store right now?", "reason": "dropped_by_recognizer", "rules": ["RECOVER"], "note": "Yo not in raw"}
+{"id": "s2-W1-0242", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0243", "decision": "fix_clean", "clean": "Please summarise this.", "reason": "spelling_from_raw", "rules": ["R10"]}
+{"id": "s2-W1-0244", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0245", "decision": "fix_clean", "clean": "Make shorter, please.", "reason": "dropped_by_recognizer", "rules": ["RECOVER"]}
+{"id": "s2-W1-0246", "decision": "fix_clean", "clean": "How far is the moon from Earth?", "reason": "guide_violation", "rules": ["R11"]}
+{"id": "s2-W1-0247", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0248", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0249", "decision": "accept", "reason": "ok"}
+{"id": "s2-W1-0250", "decision": "accept", "reason": "ok"}
