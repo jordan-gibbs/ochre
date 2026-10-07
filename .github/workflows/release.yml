@@ -32,7 +32,7 @@ jobs:
             bundles: nsis
           - os: macos-latest
             bundles: app,dmg
-          - os: ubuntu-22.04 # oldest glibc we build against, so the AppImage runs widely
+          - os: ubuntu-24.04 # ONNX Runtime's prebuilt library needs glibc 2.38+
             bundles: deb,appimage,rpm
     runs-on: ${{ matrix.os }}
     timeout-minutes: 90
