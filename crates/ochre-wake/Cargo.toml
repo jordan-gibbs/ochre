@@ -24,4 +24,4 @@ winreg = "0.56"
 libc = "0.2"
 
 [dev-dependencies]
-cpal = "0.16"
+cpal = "0.18"
