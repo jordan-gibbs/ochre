@@ -10,6 +10,7 @@ path = "src/main.rs"
 
 [dependencies]
 crossbeam-channel = "0.5.17"
+hound = "3.5"
 ochre-audio = { version = "0.1.0", path = "../ochre-audio" }
 ochre-cloud = { version = "0.1.0", path = "../ochre-cloud" }
 ochre-core = { version = "0.1.0", path = "../ochre-core" }

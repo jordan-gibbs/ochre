@@ -9,6 +9,7 @@ pub mod app;
 pub mod connectors;
 pub mod handsfree;
 pub mod live;
+pub mod provider_checks;
 pub mod seams;
 pub mod stream;
 pub mod text;

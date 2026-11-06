@@ -114,7 +114,7 @@ pub fn stt_available(id: &str) -> bool {
 /// Route a speech engine id to its factory. A local engine that is not compiled into this build
 /// (Whisper without the `whisper` feature) gets a clear error; it is never handed to the cloud
 /// factory, which would report it as an unknown cloud provider.
-fn create_stt(cfg: &Config) -> Result<Box<dyn SttEngine>> {
+pub(crate) fn create_stt(cfg: &Config) -> Result<Box<dyn SttEngine>> {
     let id = cfg.stt.engine.as_str();
     if is_local(id) {
         return ochre_stt::create(id, &cfg.stt.model, &cfg.stt.device);
