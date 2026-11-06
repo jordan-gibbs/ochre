@@ -520,7 +520,14 @@ impl Core for OchreCore {
     fn command(&self, cmd: Command) {
         match cmd {
             Command::TestProvider { stage, provider } => {
-                self.bus.emit(Event::TestResult { stage, provider, ok: false, message: "Not wired yet.".into(), ms: 0 })
+                let cfg = self.app.config();
+                let bus = self.bus.clone();
+                std::thread::spawn(move || {
+                    let progress = |p: ochre_core::stt::Progress| bus.emit(Event::Download {
+                        item: p.item, done: p.done, total: p.total,
+                    });
+                    bus.emit(ochre::provider_checks::test_provider(&cfg, stage, provider, &progress));
+                });
             }
             Command::DownloadModel { .. } => {
                 let cfg = self.app.config();

@@ -3256,6 +3256,7 @@ name = "ochre"
 version = "0.1.0"
 dependencies = [
  "crossbeam-channel",
+ "hound",
  "ochre-audio",
  "ochre-cloud",
  "ochre-core",
